@@ -3100,6 +3100,270 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Bringin cannot recover it, as we do not store your keys.'**
   String get manage_wallet_secure_now_note;
+
+  /// No description provided for @action_retry.
+  ///
+  /// In en, this message translates to:
+  /// **'Retry'**
+  String get action_retry;
+
+  /// No description provided for @error_unknown.
+  ///
+  /// In en, this message translates to:
+  /// **'An unknown error occurred'**
+  String get error_unknown;
+
+  /// No description provided for @receive_amount_sats.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 sat} other{{count} sats}}'**
+  String receive_amount_sats(int count);
+
+  /// No description provided for @receive_payment_received.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment received: {amount}'**
+  String receive_payment_received(String amount);
+
+  /// No description provided for @add_money_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Add money'**
+  String get add_money_title;
+
+  /// No description provided for @add_money_scan_qr.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan QR to add money.'**
+  String get add_money_scan_qr;
+
+  /// No description provided for @add_money_scan_qr_with_fee.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan QR to add money. A flat fee of {fee} sats applicable.'**
+  String add_money_scan_qr_with_fee(String fee);
+
+  /// No description provided for @add_money_scan_qr_with_estimated_fee.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan QR to add money. A flat fee of ~{fee} sats applicable.'**
+  String add_money_scan_qr_with_estimated_fee(String fee);
+
+  /// No description provided for @add_money_scan_qr_fixed_invoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan QR to add money. Add amount for fixed invoice.'**
+  String get add_money_scan_qr_fixed_invoice;
+
+  /// No description provided for @add_money_transaction_in_progress.
+  ///
+  /// In en, this message translates to:
+  /// **'One transaction in progress'**
+  String get add_money_transaction_in_progress;
+
+  /// No description provided for @add_money_use_bitcoin_wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Use your Bitcoin wallet'**
+  String get add_money_use_bitcoin_wallet;
+
+  /// No description provided for @add_money_use_lightning_wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Use your Lightning wallet'**
+  String get add_money_use_lightning_wallet;
+
+  /// No description provided for @add_money_label_onchain_address.
+  ///
+  /// In en, this message translates to:
+  /// **'On-chain address'**
+  String get add_money_label_onchain_address;
+
+  /// No description provided for @add_money_label_invoice_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoice amount'**
+  String get add_money_label_invoice_amount;
+
+  /// No description provided for @add_money_label_invoice_code.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoice code'**
+  String get add_money_label_invoice_code;
+
+  /// No description provided for @add_money_ln_address_unavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning address not available'**
+  String get add_money_ln_address_unavailable;
+
+  /// No description provided for @receive_label_transaction_link.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction link'**
+  String get receive_label_transaction_link;
+
+  /// No description provided for @receive_label_transaction_fees.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction fees'**
+  String get receive_label_transaction_fees;
+
+  /// No description provided for @receive_label_exchange_rate.
+  ///
+  /// In en, this message translates to:
+  /// **'Exchange rate'**
+  String get receive_label_exchange_rate;
+
+  /// No description provided for @eur_amount_field_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount in EUR'**
+  String get eur_amount_field_label;
+
+  /// No description provided for @eur_amount_error_invalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid amount'**
+  String get eur_amount_error_invalid;
+
+  /// No description provided for @eur_amount_rate.
+  ///
+  /// In en, this message translates to:
+  /// **'1 BTC = {rate} EUR'**
+  String eur_amount_rate(String rate);
+
+  /// No description provided for @fees_type_payment_request.
+  ///
+  /// In en, this message translates to:
+  /// **'payment request'**
+  String get fees_type_payment_request;
+
+  /// No description provided for @fees_message.
+  ///
+  /// In en, this message translates to:
+  /// **'A fee of {fee} sats is applied to this {type}.{warning}'**
+  String fees_message(String fee, String type, String warning);
+
+  /// No description provided for @create_invoice_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin Invoice'**
+  String get create_invoice_title;
+
+  /// No description provided for @create_invoice_error_parse.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to parse invoice'**
+  String get create_invoice_error_parse;
+
+  /// No description provided for @create_invoice_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the amount and description for the invoice'**
+  String get create_invoice_prompt;
+
+  /// No description provided for @create_invoice_amount_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount in sats'**
+  String get create_invoice_amount_label;
+
+  /// No description provided for @create_invoice_minimum_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Minimum amount: {min} sats'**
+  String create_invoice_minimum_hint(String min);
+
+  /// No description provided for @create_invoice_error_description_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Description is required'**
+  String get create_invoice_error_description_required;
+
+  /// No description provided for @create_invoice_error_description_too_long.
+  ///
+  /// In en, this message translates to:
+  /// **'Description must be 280 characters or less'**
+  String get create_invoice_error_description_too_long;
+
+  /// No description provided for @create_invoice_action_creating.
+  ///
+  /// In en, this message translates to:
+  /// **'Creating...'**
+  String get create_invoice_action_creating;
+
+  /// No description provided for @receive_address_generating.
+  ///
+  /// In en, this message translates to:
+  /// **'Generating Bitcoin address...'**
+  String get receive_address_generating;
+
+  /// No description provided for @receive_address_error_generate.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to generate address'**
+  String get receive_address_error_generate;
+
+  /// No description provided for @receive_address_qr_instruction.
+  ///
+  /// In en, this message translates to:
+  /// **'Please scan the QR code from any Bitcoin wallet to complete the payment.'**
+  String get receive_address_qr_instruction;
+
+  /// No description provided for @receive_address_estimated_fee.
+  ///
+  /// In en, this message translates to:
+  /// **'Estimated claim fee: {fee} sats'**
+  String receive_address_estimated_fee(String fee);
+
+  /// No description provided for @receive_address_estimated_fee_variable.
+  ///
+  /// In en, this message translates to:
+  /// **'Estimated claim fee: ~{fee} sats (may vary with network conditions)'**
+  String receive_address_estimated_fee_variable(String fee);
+
+  /// No description provided for @receive_address_fee_note.
+  ///
+  /// In en, this message translates to:
+  /// **'A small fee will be deducted upon deposit.'**
+  String get receive_address_fee_note;
+
+  /// No description provided for @receive_address_confirm_note.
+  ///
+  /// In en, this message translates to:
+  /// **'Most payments confirm within an hour, but sometimes it can take longer.'**
+  String get receive_address_confirm_note;
+
+  /// No description provided for @receive_deposit_waiting.
+  ///
+  /// In en, this message translates to:
+  /// **'Waiting for payment...'**
+  String get receive_deposit_waiting;
+
+  /// No description provided for @receive_deposit_on_the_way.
+  ///
+  /// In en, this message translates to:
+  /// **'+ {sats} sats on the way'**
+  String receive_deposit_on_the_way(String sats);
+
+  /// No description provided for @receive_deposit_on_the_way_conf.
+  ///
+  /// In en, this message translates to:
+  /// **'+ {sats} sats on the way ({confirmations}/3 conf)'**
+  String receive_deposit_on_the_way_conf(String sats, int confirmations);
+
+  /// No description provided for @receive_deposit_claiming.
+  ///
+  /// In en, this message translates to:
+  /// **'Claiming {sats} sats...'**
+  String receive_deposit_claiming(String sats);
+
+  /// No description provided for @receive_deposit_claimed.
+  ///
+  /// In en, this message translates to:
+  /// **'Deposit claimed!'**
+  String get receive_deposit_claimed;
 }
 
 class _BringinTranslationsDelegate

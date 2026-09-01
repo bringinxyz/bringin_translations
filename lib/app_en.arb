@@ -830,5 +830,155 @@
   "manage_wallet_action_disconnect_anyway": "I understand, disconnect anyway",
   "manage_wallet_secure_now_title": "Secure your Bitcoin now",
   "manage_wallet_secure_now_message": "Your wallet isn’t backed up. If you lose access, your Bitcoin will be permanently lost.",
-  "manage_wallet_secure_now_note": "Bringin cannot recover it, as we do not store your keys."
+  "manage_wallet_secure_now_note": "Bringin cannot recover it, as we do not store your keys.",
+  "action_retry": "Retry",
+  "error_unknown": "An unknown error occurred",
+  "receive_amount_sats": "{count, plural, =1{1 sat} other{{count} sats}}",
+  "@receive_amount_sats": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "receive_payment_received": "Payment received: {amount}",
+  "@receive_payment_received": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "12 500 sats"
+      }
+    }
+  },
+  "add_money_title": "Add money",
+  "add_money_scan_qr": "Scan QR to add money.",
+  "add_money_scan_qr_with_fee": "Scan QR to add money. A flat fee of {fee} sats applicable.",
+  "@add_money_scan_qr_with_fee": {
+    "placeholders": {
+      "fee": {
+        "type": "String",
+        "example": "500"
+      }
+    }
+  },
+  "add_money_scan_qr_with_estimated_fee": "Scan QR to add money. A flat fee of ~{fee} sats applicable.",
+  "@add_money_scan_qr_with_estimated_fee": {
+    "placeholders": {
+      "fee": {
+        "type": "String",
+        "example": "500"
+      }
+    }
+  },
+  "add_money_scan_qr_fixed_invoice": "Scan QR to add money. Add amount for fixed invoice.",
+  "add_money_transaction_in_progress": "One transaction in progress",
+  "add_money_use_bitcoin_wallet": "Use your Bitcoin wallet",
+  "add_money_use_lightning_wallet": "Use your Lightning wallet",
+  "add_money_label_onchain_address": "On-chain address",
+  "add_money_label_invoice_amount": "Invoice amount",
+  "add_money_label_invoice_code": "Invoice code",
+  "add_money_ln_address_unavailable": "Lightning address not available",
+  "receive_label_transaction_link": "Transaction link",
+  "receive_label_transaction_fees": "Transaction fees",
+  "receive_label_exchange_rate": "Exchange rate",
+  "eur_amount_field_label": "Amount in EUR",
+  "eur_amount_error_invalid": "Please enter a valid amount",
+  "eur_amount_rate": "1 BTC = {rate} EUR",
+  "@eur_amount_rate": {
+    "placeholders": {
+      "rate": {
+        "type": "String",
+        "example": "95 000,00"
+      }
+    }
+  },
+  "fees_type_payment_request": "payment request",
+  "fees_message": "A fee of {fee} sats is applied to this {type}.{warning}",
+  "@fees_message": {
+    "placeholders": {
+      "fee": {
+        "type": "String",
+        "example": "500"
+      },
+      "type": {
+        "type": "String",
+        "example": "payment request"
+      },
+      "warning": {
+        "type": "String",
+        "example": " Keep the app open until the payment settles."
+      }
+    }
+  },
+  "create_invoice_title": "Bringin Invoice",
+  "create_invoice_error_parse": "Failed to parse invoice",
+  "create_invoice_prompt": "Enter the amount and description for the invoice",
+  "create_invoice_amount_label": "Amount in sats",
+  "create_invoice_minimum_hint": "Minimum amount: {min} sats",
+  "@create_invoice_minimum_hint": {
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "1 000"
+      }
+    }
+  },
+  "create_invoice_error_description_required": "Description is required",
+  "create_invoice_error_description_too_long": "Description must be 280 characters or less",
+  "create_invoice_action_creating": "Creating...",
+  "receive_address_generating": "Generating Bitcoin address...",
+  "receive_address_error_generate": "Failed to generate address",
+  "receive_address_qr_instruction": "Please scan the QR code from any Bitcoin wallet to complete the payment.",
+  "receive_address_estimated_fee": "Estimated claim fee: {fee} sats",
+  "@receive_address_estimated_fee": {
+    "placeholders": {
+      "fee": {
+        "type": "String",
+        "example": "500"
+      }
+    }
+  },
+  "receive_address_estimated_fee_variable": "Estimated claim fee: ~{fee} sats (may vary with network conditions)",
+  "@receive_address_estimated_fee_variable": {
+    "placeholders": {
+      "fee": {
+        "type": "String",
+        "example": "500"
+      }
+    }
+  },
+  "receive_address_fee_note": "A small fee will be deducted upon deposit.",
+  "receive_address_confirm_note": "Most payments confirm within an hour, but sometimes it can take longer.",
+  "receive_deposit_waiting": "Waiting for payment...",
+  "receive_deposit_on_the_way": "+ {sats} sats on the way",
+  "@receive_deposit_on_the_way": {
+    "placeholders": {
+      "sats": {
+        "type": "String",
+        "example": "12 500"
+      }
+    }
+  },
+  "receive_deposit_on_the_way_conf": "+ {sats} sats on the way ({confirmations}/3 conf)",
+  "@receive_deposit_on_the_way_conf": {
+    "placeholders": {
+      "sats": {
+        "type": "String",
+        "example": "12 500"
+      },
+      "confirmations": {
+        "type": "int"
+      }
+    }
+  },
+  "receive_deposit_claiming": "Claiming {sats} sats...",
+  "@receive_deposit_claiming": {
+    "placeholders": {
+      "sats": {
+        "type": "String",
+        "example": "12 500"
+      }
+    }
+  },
+  "receive_deposit_claimed": "Deposit claimed!"
 }

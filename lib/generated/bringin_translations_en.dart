@@ -1739,4 +1739,174 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get manage_wallet_secure_now_note =>
       'Bringin cannot recover it, as we do not store your keys.';
+
+  @override
+  String get action_retry => 'Retry';
+
+  @override
+  String get error_unknown => 'An unknown error occurred';
+
+  @override
+  String receive_amount_sats(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count sats',
+      one: '1 sat',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String receive_payment_received(String amount) {
+    return 'Payment received: $amount';
+  }
+
+  @override
+  String get add_money_title => 'Add money';
+
+  @override
+  String get add_money_scan_qr => 'Scan QR to add money.';
+
+  @override
+  String add_money_scan_qr_with_fee(String fee) {
+    return 'Scan QR to add money. A flat fee of $fee sats applicable.';
+  }
+
+  @override
+  String add_money_scan_qr_with_estimated_fee(String fee) {
+    return 'Scan QR to add money. A flat fee of ~$fee sats applicable.';
+  }
+
+  @override
+  String get add_money_scan_qr_fixed_invoice =>
+      'Scan QR to add money. Add amount for fixed invoice.';
+
+  @override
+  String get add_money_transaction_in_progress => 'One transaction in progress';
+
+  @override
+  String get add_money_use_bitcoin_wallet => 'Use your Bitcoin wallet';
+
+  @override
+  String get add_money_use_lightning_wallet => 'Use your Lightning wallet';
+
+  @override
+  String get add_money_label_onchain_address => 'On-chain address';
+
+  @override
+  String get add_money_label_invoice_amount => 'Invoice amount';
+
+  @override
+  String get add_money_label_invoice_code => 'Invoice code';
+
+  @override
+  String get add_money_ln_address_unavailable =>
+      'Lightning address not available';
+
+  @override
+  String get receive_label_transaction_link => 'Transaction link';
+
+  @override
+  String get receive_label_transaction_fees => 'Transaction fees';
+
+  @override
+  String get receive_label_exchange_rate => 'Exchange rate';
+
+  @override
+  String get eur_amount_field_label => 'Amount in EUR';
+
+  @override
+  String get eur_amount_error_invalid => 'Please enter a valid amount';
+
+  @override
+  String eur_amount_rate(String rate) {
+    return '1 BTC = $rate EUR';
+  }
+
+  @override
+  String get fees_type_payment_request => 'payment request';
+
+  @override
+  String fees_message(String fee, String type, String warning) {
+    return 'A fee of $fee sats is applied to this $type.$warning';
+  }
+
+  @override
+  String get create_invoice_title => 'Bringin Invoice';
+
+  @override
+  String get create_invoice_error_parse => 'Failed to parse invoice';
+
+  @override
+  String get create_invoice_prompt =>
+      'Enter the amount and description for the invoice';
+
+  @override
+  String get create_invoice_amount_label => 'Amount in sats';
+
+  @override
+  String create_invoice_minimum_hint(String min) {
+    return 'Minimum amount: $min sats';
+  }
+
+  @override
+  String get create_invoice_error_description_required =>
+      'Description is required';
+
+  @override
+  String get create_invoice_error_description_too_long =>
+      'Description must be 280 characters or less';
+
+  @override
+  String get create_invoice_action_creating => 'Creating...';
+
+  @override
+  String get receive_address_generating => 'Generating Bitcoin address...';
+
+  @override
+  String get receive_address_error_generate => 'Failed to generate address';
+
+  @override
+  String get receive_address_qr_instruction =>
+      'Please scan the QR code from any Bitcoin wallet to complete the payment.';
+
+  @override
+  String receive_address_estimated_fee(String fee) {
+    return 'Estimated claim fee: $fee sats';
+  }
+
+  @override
+  String receive_address_estimated_fee_variable(String fee) {
+    return 'Estimated claim fee: ~$fee sats (may vary with network conditions)';
+  }
+
+  @override
+  String get receive_address_fee_note =>
+      'A small fee will be deducted upon deposit.';
+
+  @override
+  String get receive_address_confirm_note =>
+      'Most payments confirm within an hour, but sometimes it can take longer.';
+
+  @override
+  String get receive_deposit_waiting => 'Waiting for payment...';
+
+  @override
+  String receive_deposit_on_the_way(String sats) {
+    return '+ $sats sats on the way';
+  }
+
+  @override
+  String receive_deposit_on_the_way_conf(String sats, int confirmations) {
+    return '+ $sats sats on the way ($confirmations/3 conf)';
+  }
+
+  @override
+  String receive_deposit_claiming(String sats) {
+    return 'Claiming $sats sats...';
+  }
+
+  @override
+  String get receive_deposit_claimed => 'Deposit claimed!';
 }
