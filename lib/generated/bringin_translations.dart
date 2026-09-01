@@ -3982,6 +3982,330 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'{count, plural, =1{1 transaction} other{{count} transactions}}'**
   String connect_transaction_count(int count);
+
+  /// No description provided for @connect_error_verify_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to verify connection. Please try again.'**
+  String get connect_error_verify_failed;
+
+  /// No description provided for @connect_error_setup_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Connection setup failed. Please try again.'**
+  String get connect_error_setup_failed;
+
+  /// No description provided for @connect_error_resume_verification.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to resume verification. Please try again.'**
+  String get connect_error_resume_verification;
+
+  /// No description provided for @connect_error_timeout.
+  ///
+  /// In en, this message translates to:
+  /// **'Taking longer than expected. Check your connection and try again.'**
+  String get connect_error_timeout;
+
+  /// No description provided for @connect_error_network.
+  ///
+  /// In en, this message translates to:
+  /// **'Network unavailable. Please check your connection and try again.'**
+  String get connect_error_network;
+
+  /// No description provided for @connect_label_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Label is required'**
+  String get connect_label_required;
+
+  /// No description provided for @connect_label_too_short.
+  ///
+  /// In en, this message translates to:
+  /// **'Label must be at least {min} characters'**
+  String connect_label_too_short(int min);
+
+  /// No description provided for @connect_label_length_range.
+  ///
+  /// In en, this message translates to:
+  /// **'Label must be between 2 and 30 characters'**
+  String get connect_label_length_range;
+
+  /// No description provided for @connect_label_duplicate.
+  ///
+  /// In en, this message translates to:
+  /// **'This name is already used'**
+  String get connect_label_duplicate;
+
+  /// No description provided for @connect_buy_form_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Set up your Buy Connection'**
+  String get connect_buy_form_title;
+
+  /// No description provided for @connect_buy_form_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Where should we send your Bitcoin?'**
+  String get connect_buy_form_prompt;
+
+  /// No description provided for @connect_buy_form_label_destination_name.
+  ///
+  /// In en, this message translates to:
+  /// **'Destination Name'**
+  String get connect_buy_form_label_destination_name;
+
+  /// No description provided for @connect_buy_form_hint_destination_name.
+  ///
+  /// In en, this message translates to:
+  /// **'e.g. Blue Wallet'**
+  String get connect_buy_form_hint_destination_name;
+
+  /// No description provided for @connect_buy_form_label_destination_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Destination Address'**
+  String get connect_buy_form_label_destination_address;
+
+  /// No description provided for @connect_buy_form_hint_destination_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your Bitcoin wallet address'**
+  String get connect_buy_form_hint_destination_address;
+
+  /// No description provided for @connect_buy_error_address_length.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin address must be between 26 and 90 characters'**
+  String get connect_buy_error_address_length;
+
+  /// No description provided for @connect_buy_setup_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Setup a buy connection'**
+  String get connect_buy_setup_title;
+
+  /// No description provided for @connect_buy_setup_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Link your Bitcoin wallet to get a dedicated vIBAN. Send euros from any bank—funds arrive instantly as BTC in your wallet.'**
+  String get connect_buy_setup_description;
+
+  /// No description provided for @connect_buy_field_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Label'**
+  String get connect_buy_field_label;
+
+  /// No description provided for @connect_buy_field_label_hint_suffix.
+  ///
+  /// In en, this message translates to:
+  /// **'(Destination name)'**
+  String get connect_buy_field_label_hint_suffix;
+
+  /// No description provided for @connect_buy_field_label_placeholder.
+  ///
+  /// In en, this message translates to:
+  /// **'Blue wallet'**
+  String get connect_buy_field_label_placeholder;
+
+  /// No description provided for @connect_buy_select_wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Select/ add your wallet'**
+  String get connect_buy_select_wallet;
+
+  /// No description provided for @connect_buy_label_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Address'**
+  String get connect_buy_label_address;
+
+  /// No description provided for @connect_buy_error_load_addresses.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to load addresses'**
+  String get connect_buy_error_load_addresses;
+
+  /// No description provided for @connect_buy_no_wallets.
+  ///
+  /// In en, this message translates to:
+  /// **'No onchain wallets found. Tap + to add one.'**
+  String get connect_buy_no_wallets;
+
+  /// No description provided for @connect_buy_all_wallets_connected.
+  ///
+  /// In en, this message translates to:
+  /// **'All your onchain wallets already have a buy connection. Tap + to add a new wallet.'**
+  String get connect_buy_all_wallets_connected;
+
+  /// No description provided for @add_wallet_page_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a new wallet'**
+  String get add_wallet_page_title;
+
+  /// No description provided for @add_wallet_hint_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Paste an address'**
+  String get add_wallet_hint_address;
+
+  /// No description provided for @add_wallet_label_field.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet label'**
+  String get add_wallet_label_field;
+
+  /// No description provided for @add_wallet_hint_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a label for this wallet'**
+  String get add_wallet_hint_label;
+
+  /// No description provided for @add_wallet_action_add.
+  ///
+  /// In en, this message translates to:
+  /// **'Add wallet'**
+  String get add_wallet_action_add;
+
+  /// No description provided for @add_wallet_error_onchain_only.
+  ///
+  /// In en, this message translates to:
+  /// **'Only Bitcoin on-chain addresses are supported'**
+  String get add_wallet_error_onchain_only;
+
+  /// No description provided for @add_wallet_error_invalid_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid Bitcoin address'**
+  String get add_wallet_error_invalid_address;
+
+  /// No description provided for @add_wallet_error_activation_failed_retry.
+  ///
+  /// In en, this message translates to:
+  /// **'Address could not be activated. Try again.'**
+  String get add_wallet_error_activation_failed_retry;
+
+  /// No description provided for @add_wallet_error_not_found.
+  ///
+  /// In en, this message translates to:
+  /// **'Address not found. Try again.'**
+  String get add_wallet_error_not_found;
+
+  /// No description provided for @add_wallet_error_activation_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Address activation failed.'**
+  String get add_wallet_error_activation_failed;
+
+  /// No description provided for @add_wallet_error_verify_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to verify address. Try again.'**
+  String get add_wallet_error_verify_failed;
+
+  /// No description provided for @connect_verify_buy_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify buy connection'**
+  String get connect_verify_buy_title;
+
+  /// No description provided for @connect_verify_passkey_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Authenticate with your passkey.'**
+  String get connect_verify_passkey_prompt;
+
+  /// No description provided for @connect_verify_totp_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the code from your authenticator app.'**
+  String get connect_verify_totp_prompt;
+
+  /// No description provided for @connect_verify_sms_prompt_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'Add the verification code sent to your '**
+  String get connect_verify_sms_prompt_prefix;
+
+  /// No description provided for @connect_verify_sms_prompt_target.
+  ///
+  /// In en, this message translates to:
+  /// **'mobile number '**
+  String get connect_verify_sms_prompt_target;
+
+  /// No description provided for @connect_verify_action_submit.
+  ///
+  /// In en, this message translates to:
+  /// **'Submit'**
+  String get connect_verify_action_submit;
+
+  /// No description provided for @connect_verify_action_passkey.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify with passkey'**
+  String get connect_verify_action_passkey;
+
+  /// No description provided for @connect_verify_action_passkey_retry.
+  ///
+  /// In en, this message translates to:
+  /// **'Try passkey again'**
+  String get connect_verify_action_passkey_retry;
+
+  /// No description provided for @connect_verify_action_use_sms.
+  ///
+  /// In en, this message translates to:
+  /// **'Use SMS instead'**
+  String get connect_verify_action_use_sms;
+
+  /// No description provided for @connect_verify_field_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter code'**
+  String get connect_verify_field_label;
+
+  /// No description provided for @connect_verify_error_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Something went wrong. Try again.'**
+  String get connect_verify_error_generic;
+
+  /// No description provided for @connect_verify_error_resend.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to resend code. Try again.'**
+  String get connect_verify_error_resend;
+
+  /// No description provided for @connect_verify_error_sms_switch.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t switch to SMS. Try again.'**
+  String get connect_verify_error_sms_switch;
+
+  /// No description provided for @connect_verify_error_cancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to cancel. Please try again.'**
+  String get connect_verify_error_cancel;
+
+  /// No description provided for @connect_verify_cancel_dialog_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel connection setup?'**
+  String get connect_verify_cancel_dialog_title;
+
+  /// No description provided for @connect_verify_cancel_dialog_message.
+  ///
+  /// In en, this message translates to:
+  /// **'If you go back now, the connection setup will be cancelled. You can start again anytime.'**
+  String get connect_verify_cancel_dialog_message;
+
+  /// No description provided for @connect_verify_cancel_dialog_confirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel setup'**
+  String get connect_verify_cancel_dialog_confirm;
 }
 
 class _BringinTranslationsDelegate

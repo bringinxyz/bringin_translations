@@ -2274,4 +2274,188 @@ class BringinTranslationsEn extends BringinTranslations {
     );
     return '$_temp0';
   }
+
+  @override
+  String get connect_error_verify_failed =>
+      'Unable to verify connection. Please try again.';
+
+  @override
+  String get connect_error_setup_failed =>
+      'Connection setup failed. Please try again.';
+
+  @override
+  String get connect_error_resume_verification =>
+      'Unable to resume verification. Please try again.';
+
+  @override
+  String get connect_error_timeout =>
+      'Taking longer than expected. Check your connection and try again.';
+
+  @override
+  String get connect_error_network =>
+      'Network unavailable. Please check your connection and try again.';
+
+  @override
+  String get connect_label_required => 'Label is required';
+
+  @override
+  String connect_label_too_short(int min) {
+    return 'Label must be at least $min characters';
+  }
+
+  @override
+  String get connect_label_length_range =>
+      'Label must be between 2 and 30 characters';
+
+  @override
+  String get connect_label_duplicate => 'This name is already used';
+
+  @override
+  String get connect_buy_form_title => 'Set up your Buy Connection';
+
+  @override
+  String get connect_buy_form_prompt => 'Where should we send your Bitcoin?';
+
+  @override
+  String get connect_buy_form_label_destination_name => 'Destination Name';
+
+  @override
+  String get connect_buy_form_hint_destination_name => 'e.g. Blue Wallet';
+
+  @override
+  String get connect_buy_form_label_destination_address =>
+      'Destination Address';
+
+  @override
+  String get connect_buy_form_hint_destination_address =>
+      'Enter your Bitcoin wallet address';
+
+  @override
+  String get connect_buy_error_address_length =>
+      'Bitcoin address must be between 26 and 90 characters';
+
+  @override
+  String get connect_buy_setup_title => 'Setup a buy connection';
+
+  @override
+  String get connect_buy_setup_description =>
+      'Link your Bitcoin wallet to get a dedicated vIBAN. Send euros from any bank—funds arrive instantly as BTC in your wallet.';
+
+  @override
+  String get connect_buy_field_label => 'Label';
+
+  @override
+  String get connect_buy_field_label_hint_suffix => '(Destination name)';
+
+  @override
+  String get connect_buy_field_label_placeholder => 'Blue wallet';
+
+  @override
+  String get connect_buy_select_wallet => 'Select/ add your wallet';
+
+  @override
+  String get connect_buy_label_address => 'Address';
+
+  @override
+  String get connect_buy_error_load_addresses => 'Failed to load addresses';
+
+  @override
+  String get connect_buy_no_wallets =>
+      'No onchain wallets found. Tap + to add one.';
+
+  @override
+  String get connect_buy_all_wallets_connected =>
+      'All your onchain wallets already have a buy connection. Tap + to add a new wallet.';
+
+  @override
+  String get add_wallet_page_title => 'Add a new wallet';
+
+  @override
+  String get add_wallet_hint_address => 'Paste an address';
+
+  @override
+  String get add_wallet_label_field => 'Wallet label';
+
+  @override
+  String get add_wallet_hint_label => 'Add a label for this wallet';
+
+  @override
+  String get add_wallet_action_add => 'Add wallet';
+
+  @override
+  String get add_wallet_error_onchain_only =>
+      'Only Bitcoin on-chain addresses are supported';
+
+  @override
+  String get add_wallet_error_invalid_address => 'Invalid Bitcoin address';
+
+  @override
+  String get add_wallet_error_activation_failed_retry =>
+      'Address could not be activated. Try again.';
+
+  @override
+  String get add_wallet_error_not_found => 'Address not found. Try again.';
+
+  @override
+  String get add_wallet_error_activation_failed => 'Address activation failed.';
+
+  @override
+  String get add_wallet_error_verify_failed =>
+      'Failed to verify address. Try again.';
+
+  @override
+  String get connect_verify_buy_title => 'Verify buy connection';
+
+  @override
+  String get connect_verify_passkey_prompt => 'Authenticate with your passkey.';
+
+  @override
+  String get connect_verify_totp_prompt =>
+      'Enter the code from your authenticator app.';
+
+  @override
+  String get connect_verify_sms_prompt_prefix =>
+      'Add the verification code sent to your ';
+
+  @override
+  String get connect_verify_sms_prompt_target => 'mobile number ';
+
+  @override
+  String get connect_verify_action_submit => 'Submit';
+
+  @override
+  String get connect_verify_action_passkey => 'Verify with passkey';
+
+  @override
+  String get connect_verify_action_passkey_retry => 'Try passkey again';
+
+  @override
+  String get connect_verify_action_use_sms => 'Use SMS instead';
+
+  @override
+  String get connect_verify_field_label => 'Enter code';
+
+  @override
+  String get connect_verify_error_generic => 'Something went wrong. Try again.';
+
+  @override
+  String get connect_verify_error_resend => 'Failed to resend code. Try again.';
+
+  @override
+  String get connect_verify_error_sms_switch =>
+      'Couldn\'t switch to SMS. Try again.';
+
+  @override
+  String get connect_verify_error_cancel =>
+      'Failed to cancel. Please try again.';
+
+  @override
+  String get connect_verify_cancel_dialog_title => 'Cancel connection setup?';
+
+  @override
+  String get connect_verify_cancel_dialog_message =>
+      'If you go back now, the connection setup will be cancelled. You can start again anytime.';
+
+  @override
+  String get connect_verify_cancel_dialog_confirm => 'Cancel setup';
 }
