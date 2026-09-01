@@ -3526,6 +3526,456 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Incorrect password. Please try again.'**
   String get restore_password_error_incorrect;
+
+  /// No description provided for @action_delete.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete'**
+  String get action_delete;
+
+  /// No description provided for @connect_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin connect'**
+  String get connect_title;
+
+  /// No description provided for @connect_intro_heading.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome to Bringin Connect'**
+  String get connect_intro_heading;
+
+  /// No description provided for @connect_intro_tagline.
+  ///
+  /// In en, this message translates to:
+  /// **'Your bank and your wallet, finally in sync.'**
+  String get connect_intro_tagline;
+
+  /// No description provided for @connect_intro_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Create permanent connections between your bank accounts and Bitcoin wallets. Once linked, buying or selling Bitcoin is as simple as making a bank transfer — no extra steps, no friction.'**
+  String get connect_intro_body;
+
+  /// No description provided for @connect_list_title.
+  ///
+  /// In en, this message translates to:
+  /// **'My Connections'**
+  String get connect_list_title;
+
+  /// No description provided for @connect_list_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your active connections'**
+  String get connect_list_subtitle;
+
+  /// No description provided for @connect_action_new.
+  ///
+  /// In en, this message translates to:
+  /// **'New Connection'**
+  String get connect_action_new;
+
+  /// No description provided for @connect_list_empty_title.
+  ///
+  /// In en, this message translates to:
+  /// **'No connections yet'**
+  String get connect_list_empty_title;
+
+  /// No description provided for @connect_list_empty_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Create a connection to send EUR from your bank and receive Bitcoin, or to receive Bitcoin and get EUR in your bank.'**
+  String get connect_list_empty_body;
+
+  /// No description provided for @connect_status_expired.
+  ///
+  /// In en, this message translates to:
+  /// **'Expired'**
+  String get connect_status_expired;
+
+  /// No description provided for @connect_expires_in.
+  ///
+  /// In en, this message translates to:
+  /// **'Expires in {remaining}'**
+  String connect_expires_in(String remaining);
+
+  /// No description provided for @connect_type_buy.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy Connection'**
+  String get connect_type_buy;
+
+  /// No description provided for @connect_type_sell.
+  ///
+  /// In en, this message translates to:
+  /// **'Sell Connection'**
+  String get connect_type_sell;
+
+  /// No description provided for @connect_label_lightning.
+  ///
+  /// In en, this message translates to:
+  /// **'LIGHTNING:'**
+  String get connect_label_lightning;
+
+  /// No description provided for @connect_label_onchain.
+  ///
+  /// In en, this message translates to:
+  /// **'ONCHAIN:'**
+  String get connect_label_onchain;
+
+  /// No description provided for @connect_label_viban.
+  ///
+  /// In en, this message translates to:
+  /// **'VIBAN:'**
+  String get connect_label_viban;
+
+  /// No description provided for @connect_copied_lightning_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning address copied to clipboard'**
+  String get connect_copied_lightning_address;
+
+  /// No description provided for @connect_copied_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Address copied to clipboard'**
+  String get connect_copied_address;
+
+  /// No description provided for @connect_copied_iban.
+  ///
+  /// In en, this message translates to:
+  /// **'IBAN copied to clipboard'**
+  String get connect_copied_iban;
+
+  /// No description provided for @connect_min_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Min Amount: 30 EUR'**
+  String get connect_min_amount;
+
+  /// No description provided for @connect_max_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Max Amount: {max} EUR'**
+  String connect_max_amount(String max);
+
+  /// No description provided for @connect_transactions_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'No transactions'**
+  String get connect_transactions_empty;
+
+  /// No description provided for @connect_action_resume.
+  ///
+  /// In en, this message translates to:
+  /// **'Resume'**
+  String get connect_action_resume;
+
+  /// No description provided for @connect_delete_dialog_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete Connection'**
+  String get connect_delete_dialog_title;
+
+  /// No description provided for @connect_delete_dialog_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete this connection? This action cannot be undone.'**
+  String get connect_delete_dialog_message;
+
+  /// No description provided for @connect_delete_confirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Yes, Delete'**
+  String get connect_delete_confirm;
+
+  /// No description provided for @connect_deleted_success.
+  ///
+  /// In en, this message translates to:
+  /// **'Connection deleted successfully'**
+  String get connect_deleted_success;
+
+  /// No description provided for @connect_error_resume_missing_challenge.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to resume: missing challenge ID.'**
+  String get connect_error_resume_missing_challenge;
+
+  /// No description provided for @connect_error_delete_missing_order.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to delete: missing standing order ID.'**
+  String get connect_error_delete_missing_order;
+
+  /// No description provided for @connect_error_unexpected_response.
+  ///
+  /// In en, this message translates to:
+  /// **'Unexpected response from server.'**
+  String get connect_error_unexpected_response;
+
+  /// No description provided for @connect_setup_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Set up your connection'**
+  String get connect_setup_title;
+
+  /// No description provided for @connect_buy_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Link a Bitcoin wallet and get a dedicated vIBAN. Send euros to it from any bank — they\'ll arrive as BTC in your wallet, instantly.'**
+  String get connect_buy_description;
+
+  /// No description provided for @connect_action_setup_buy.
+  ///
+  /// In en, this message translates to:
+  /// **'Setup Buy Connection'**
+  String get connect_action_setup_buy;
+
+  /// No description provided for @connect_sell_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Link a bank account and get a dedicated Bitcoin address. Send BTC to it from any wallet — it\'ll arrive as euros in your bank, instantly.'**
+  String get connect_sell_description;
+
+  /// No description provided for @connect_action_setup_sell.
+  ///
+  /// In en, this message translates to:
+  /// **'Setup Sell Connection'**
+  String get connect_action_setup_sell;
+
+  /// No description provided for @connect_destination_bank.
+  ///
+  /// In en, this message translates to:
+  /// **'your bank'**
+  String get connect_destination_bank;
+
+  /// No description provided for @connect_destination_wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'your wallet'**
+  String get connect_destination_wallet;
+
+  /// No description provided for @connect_success_title.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'re all set!'**
+  String get connect_success_title;
+
+  /// No description provided for @connect_success_message.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve created a permanent connection.'**
+  String get connect_success_message;
+
+  /// No description provided for @connect_success_instruction_lightning.
+  ///
+  /// In en, this message translates to:
+  /// **'Send BTC via Lightning to this address — it\'ll arrive as euros in your bank, instantly.'**
+  String get connect_success_instruction_lightning;
+
+  /// No description provided for @connect_success_label_lightning_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Lightning address:'**
+  String get connect_success_label_lightning_address;
+
+  /// No description provided for @connect_success_instruction_onchain.
+  ///
+  /// In en, this message translates to:
+  /// **'Send BTC to this address from any wallet — it\'ll arrive as euros in your bank, instantly.'**
+  String get connect_success_instruction_onchain;
+
+  /// No description provided for @connect_success_label_btc_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Your dedicated Bitcoin deposit address:'**
+  String get connect_success_label_btc_address;
+
+  /// No description provided for @connect_success_instruction_viban.
+  ///
+  /// In en, this message translates to:
+  /// **'Send euros to this vIBAN from any bank — they\'ll arrive as Bitcoin in {destination}, instantly.'**
+  String connect_success_instruction_viban(String destination);
+
+  /// No description provided for @connect_success_label_viban.
+  ///
+  /// In en, this message translates to:
+  /// **'Your dedicated vIBAN:'**
+  String get connect_success_label_viban;
+
+  /// No description provided for @connect_limits_heading.
+  ///
+  /// In en, this message translates to:
+  /// **'Allowed limits per transaction:'**
+  String get connect_limits_heading;
+
+  /// No description provided for @connect_limit_min.
+  ///
+  /// In en, this message translates to:
+  /// **'Min: 30 €'**
+  String get connect_limit_min;
+
+  /// No description provided for @connect_limit_max.
+  ///
+  /// In en, this message translates to:
+  /// **'Max: {max} €'**
+  String connect_limit_max(String max);
+
+  /// No description provided for @connect_manage_note.
+  ///
+  /// In en, this message translates to:
+  /// **'You may manage your connection anytime from Bringin Connect.'**
+  String get connect_manage_note;
+
+  /// No description provided for @connect_action_go_to_connect.
+  ///
+  /// In en, this message translates to:
+  /// **'Go to Bringin Connect'**
+  String get connect_action_go_to_connect;
+
+  /// No description provided for @connect_sell_success_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Your sell connection is ready!'**
+  String get connect_sell_success_title;
+
+  /// No description provided for @connect_sell_label_lightning_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Your lightning address'**
+  String get connect_sell_label_lightning_address;
+
+  /// No description provided for @connect_sell_label_btc_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Bitcoin address'**
+  String get connect_sell_label_btc_address;
+
+  /// No description provided for @connect_sell_instruction_lightning.
+  ///
+  /// In en, this message translates to:
+  /// **'Send Bitcoin from any wallet to this lightning address— funds arrive instantly as euros in your account.'**
+  String get connect_sell_instruction_lightning;
+
+  /// No description provided for @connect_sell_instruction_onchain.
+  ///
+  /// In en, this message translates to:
+  /// **'Send Bitcoin from any wallet to this Bitcoin address— funds arrive instantly as euros in your account.'**
+  String get connect_sell_instruction_onchain;
+
+  /// No description provided for @connect_buy_success_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Your buy connection is ready!'**
+  String get connect_buy_success_title;
+
+  /// No description provided for @connect_buy_label_viban.
+  ///
+  /// In en, this message translates to:
+  /// **'Your dedicated vIBAN'**
+  String get connect_buy_label_viban;
+
+  /// No description provided for @connect_buy_instruction_viban.
+  ///
+  /// In en, this message translates to:
+  /// **'Send Bitcoin from any bank to this vIBAN— funds arrive instantly as Bitcoin in your wallet.'**
+  String get connect_buy_instruction_viban;
+
+  /// No description provided for @connect_loader_rotating_1.
+  ///
+  /// In en, this message translates to:
+  /// **'The hamsters powering our servers are running extra fast.'**
+  String get connect_loader_rotating_1;
+
+  /// No description provided for @connect_loader_rotating_2.
+  ///
+  /// In en, this message translates to:
+  /// **'Brewing your connection with extra care...'**
+  String get connect_loader_rotating_2;
+
+  /// No description provided for @connect_loader_rotating_3.
+  ///
+  /// In en, this message translates to:
+  /// **'Hang tight — this is the boring part so you don\'t have to deal with it.'**
+  String get connect_loader_rotating_3;
+
+  /// No description provided for @connect_loader_rotating_4.
+  ///
+  /// In en, this message translates to:
+  /// **'Still here? Great. So are we. Working on it.'**
+  String get connect_loader_rotating_4;
+
+  /// No description provided for @connect_loader_deleting_1.
+  ///
+  /// In en, this message translates to:
+  /// **'Cleaning things up for you...'**
+  String get connect_loader_deleting_1;
+
+  /// No description provided for @connect_loader_deleting_2.
+  ///
+  /// In en, this message translates to:
+  /// **'Removing the connection safely...'**
+  String get connect_loader_deleting_2;
+
+  /// No description provided for @connect_loader_deleting_3.
+  ///
+  /// In en, this message translates to:
+  /// **'Hang tight — almost done.'**
+  String get connect_loader_deleting_3;
+
+  /// No description provided for @connect_loader_deleting_4.
+  ///
+  /// In en, this message translates to:
+  /// **'Still here? Great. Wrapping up.'**
+  String get connect_loader_deleting_4;
+
+  /// No description provided for @connect_loader_finalising_deletion.
+  ///
+  /// In en, this message translates to:
+  /// **'Finalising the deletion...'**
+  String get connect_loader_finalising_deletion;
+
+  /// No description provided for @connect_loader_final_touches.
+  ///
+  /// In en, this message translates to:
+  /// **'Putting the final touches on your connection...'**
+  String get connect_loader_final_touches;
+
+  /// No description provided for @connect_loader_almost_done.
+  ///
+  /// In en, this message translates to:
+  /// **'Almost done! Just a few more seconds.'**
+  String get connect_loader_almost_done;
+
+  /// No description provided for @connect_loader_may_take_minutes.
+  ///
+  /// In en, this message translates to:
+  /// **'It may take a couple of minutes.'**
+  String get connect_loader_may_take_minutes;
+
+  /// No description provided for @connect_buy_loader_1.
+  ///
+  /// In en, this message translates to:
+  /// **'Getting things ready...'**
+  String get connect_buy_loader_1;
+
+  /// No description provided for @connect_buy_loader_2.
+  ///
+  /// In en, this message translates to:
+  /// **'Almost there...'**
+  String get connect_buy_loader_2;
+
+  /// No description provided for @connect_buy_loader_3.
+  ///
+  /// In en, this message translates to:
+  /// **'Setting things up...'**
+  String get connect_buy_loader_3;
+
+  /// No description provided for @connect_buy_loader_4.
+  ///
+  /// In en, this message translates to:
+  /// **'Finishing up...'**
+  String get connect_buy_loader_4;
 }
 
 class _BringinTranslationsDelegate

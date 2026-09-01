@@ -1038,5 +1038,112 @@
   "restore_password_title": "Your cloud password",
   "restore_password_message": "Access your back up with the password you used for your cloud backup.",
   "restore_password_action_unlock": "Access backup",
-  "restore_password_error_incorrect": "Incorrect password. Please try again."
+  "restore_password_error_incorrect": "Incorrect password. Please try again.",
+  "action_delete": "Delete",
+  "connect_title": "Bringin connect",
+  "connect_intro_heading": "Welcome to Bringin Connect",
+  "connect_intro_tagline": "Your bank and your wallet, finally in sync.",
+  "connect_intro_body": "Create permanent connections between your bank accounts and Bitcoin wallets. Once linked, buying or selling Bitcoin is as simple as making a bank transfer — no extra steps, no friction.",
+  "connect_list_title": "My Connections",
+  "connect_list_subtitle": "Your active connections",
+  "connect_action_new": "New Connection",
+  "connect_list_empty_title": "No connections yet",
+  "connect_list_empty_body": "Create a connection to send EUR from your bank and receive Bitcoin, or to receive Bitcoin and get EUR in your bank.",
+  "connect_status_expired": "Expired",
+  "connect_expires_in": "Expires in {remaining}",
+  "@connect_expires_in": {
+    "placeholders": {
+      "remaining": {
+        "type": "String",
+        "example": "2h 15m"
+      }
+    }
+  },
+  "connect_type_buy": "Buy Connection",
+  "connect_type_sell": "Sell Connection",
+  "connect_label_lightning": "LIGHTNING:",
+  "connect_label_onchain": "ONCHAIN:",
+  "connect_label_viban": "VIBAN:",
+  "connect_copied_lightning_address": "Lightning address copied to clipboard",
+  "connect_copied_address": "Address copied to clipboard",
+  "connect_copied_iban": "IBAN copied to clipboard",
+  "connect_min_amount": "Min Amount: 30 EUR",
+  "connect_max_amount": "Max Amount: {max} EUR",
+  "@connect_max_amount": {
+    "placeholders": {
+      "max": {
+        "type": "String",
+        "example": "5 000"
+      }
+    }
+  },
+  "connect_transactions_empty": "No transactions",
+  "connect_action_resume": "Resume",
+  "connect_delete_dialog_title": "Delete Connection",
+  "connect_delete_dialog_message": "Are you sure you want to delete this connection? This action cannot be undone.",
+  "connect_delete_confirm": "Yes, Delete",
+  "connect_deleted_success": "Connection deleted successfully",
+  "connect_error_resume_missing_challenge": "Unable to resume: missing challenge ID.",
+  "connect_error_delete_missing_order": "Unable to delete: missing standing order ID.",
+  "connect_error_unexpected_response": "Unexpected response from server.",
+  "connect_setup_title": "Set up your connection",
+  "connect_buy_description": "Link a Bitcoin wallet and get a dedicated vIBAN. Send euros to it from any bank — they'll arrive as BTC in your wallet, instantly.",
+  "connect_action_setup_buy": "Setup Buy Connection",
+  "connect_sell_description": "Link a bank account and get a dedicated Bitcoin address. Send BTC to it from any wallet — it'll arrive as euros in your bank, instantly.",
+  "connect_action_setup_sell": "Setup Sell Connection",
+  "connect_destination_bank": "your bank",
+  "connect_destination_wallet": "your wallet",
+  "connect_success_title": "You're all set!",
+  "connect_success_message": "You've created a permanent connection.",
+  "connect_success_instruction_lightning": "Send BTC via Lightning to this address — it'll arrive as euros in your bank, instantly.",
+  "connect_success_label_lightning_address": "Your Lightning address:",
+  "connect_success_instruction_onchain": "Send BTC to this address from any wallet — it'll arrive as euros in your bank, instantly.",
+  "connect_success_label_btc_address": "Your dedicated Bitcoin deposit address:",
+  "connect_success_instruction_viban": "Send euros to this vIBAN from any bank — they'll arrive as Bitcoin in {destination}, instantly.",
+  "@connect_success_instruction_viban": {
+    "placeholders": {
+      "destination": {
+        "type": "String",
+        "example": "your wallet"
+      }
+    }
+  },
+  "connect_success_label_viban": "Your dedicated vIBAN:",
+  "connect_limits_heading": "Allowed limits per transaction:",
+  "connect_limit_min": "Min: 30 €",
+  "connect_limit_max": "Max: {max} €",
+  "@connect_limit_max": {
+    "placeholders": {
+      "max": {
+        "type": "String",
+        "example": "5 000"
+      }
+    }
+  },
+  "connect_manage_note": "You may manage your connection anytime from Bringin Connect.",
+  "connect_action_go_to_connect": "Go to Bringin Connect",
+  "connect_sell_success_title": "Your sell connection is ready!",
+  "connect_sell_label_lightning_address": "Your lightning address",
+  "connect_sell_label_btc_address": "Your Bitcoin address",
+  "connect_sell_instruction_lightning": "Send Bitcoin from any wallet to this lightning address— funds arrive instantly as euros in your account.",
+  "connect_sell_instruction_onchain": "Send Bitcoin from any wallet to this Bitcoin address— funds arrive instantly as euros in your account.",
+  "connect_buy_success_title": "Your buy connection is ready!",
+  "connect_buy_label_viban": "Your dedicated vIBAN",
+  "connect_buy_instruction_viban": "Send Bitcoin from any bank to this vIBAN— funds arrive instantly as Bitcoin in your wallet.",
+  "connect_loader_rotating_1": "The hamsters powering our servers are running extra fast.",
+  "connect_loader_rotating_2": "Brewing your connection with extra care...",
+  "connect_loader_rotating_3": "Hang tight — this is the boring part so you don't have to deal with it.",
+  "connect_loader_rotating_4": "Still here? Great. So are we. Working on it.",
+  "connect_loader_deleting_1": "Cleaning things up for you...",
+  "connect_loader_deleting_2": "Removing the connection safely...",
+  "connect_loader_deleting_3": "Hang tight — almost done.",
+  "connect_loader_deleting_4": "Still here? Great. Wrapping up.",
+  "connect_loader_finalising_deletion": "Finalising the deletion...",
+  "connect_loader_final_touches": "Putting the final touches on your connection...",
+  "connect_loader_almost_done": "Almost done! Just a few more seconds.",
+  "connect_loader_may_take_minutes": "It may take a couple of minutes.",
+  "connect_buy_loader_1": "Getting things ready...",
+  "connect_buy_loader_2": "Almost there...",
+  "connect_buy_loader_3": "Setting things up...",
+  "connect_buy_loader_4": "Finishing up..."
 }
