@@ -1021,5 +1021,22 @@
   "buy_confirm_status_finishing": "Looking good! Finishing up.",
   "buy_confirm_status_on_the_way": "Your Bitcoin is on its way. Hang tight!",
   "buy_invoice_loader_generating": "Generating your invoice.",
-  "buy_invoice_default_description": "Top Up - Buy Bitcoin to Breez"
+  "buy_invoice_default_description": "Top Up - Buy Bitcoin to Breez",
+  "restore_phrase_title": "Use recovery phrase",
+  "restore_phrase_instruction": "Type in your complete 12-word recovery phrase.",
+  "restore_phrase_word_hint": "Add word {index}",
+  "@restore_phrase_word_hint": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "restore_phrase_action_submit": "Recover wallet",
+  "restore_phrase_error_required": "Required",
+  "restore_phrase_error_invalid_word": "Invalid word",
+  "restore_password_title": "Your cloud password",
+  "restore_password_message": "Access your back up with the password you used for your cloud backup.",
+  "restore_password_action_unlock": "Access backup",
+  "restore_password_error_incorrect": "Incorrect password. Please try again."
 }

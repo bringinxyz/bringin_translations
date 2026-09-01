@@ -3466,6 +3466,66 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Top Up - Buy Bitcoin to Breez'**
   String get buy_invoice_default_description;
+
+  /// No description provided for @restore_phrase_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Use recovery phrase'**
+  String get restore_phrase_title;
+
+  /// No description provided for @restore_phrase_instruction.
+  ///
+  /// In en, this message translates to:
+  /// **'Type in your complete 12-word recovery phrase.'**
+  String get restore_phrase_instruction;
+
+  /// No description provided for @restore_phrase_word_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Add word {index}'**
+  String restore_phrase_word_hint(int index);
+
+  /// No description provided for @restore_phrase_action_submit.
+  ///
+  /// In en, this message translates to:
+  /// **'Recover wallet'**
+  String get restore_phrase_action_submit;
+
+  /// No description provided for @restore_phrase_error_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Required'**
+  String get restore_phrase_error_required;
+
+  /// No description provided for @restore_phrase_error_invalid_word.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid word'**
+  String get restore_phrase_error_invalid_word;
+
+  /// No description provided for @restore_password_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Your cloud password'**
+  String get restore_password_title;
+
+  /// No description provided for @restore_password_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Access your back up with the password you used for your cloud backup.'**
+  String get restore_password_message;
+
+  /// No description provided for @restore_password_action_unlock.
+  ///
+  /// In en, this message translates to:
+  /// **'Access backup'**
+  String get restore_password_action_unlock;
+
+  /// No description provided for @restore_password_error_incorrect.
+  ///
+  /// In en, this message translates to:
+  /// **'Incorrect password. Please try again.'**
+  String get restore_password_error_incorrect;
 }
 
 class _BringinTranslationsDelegate

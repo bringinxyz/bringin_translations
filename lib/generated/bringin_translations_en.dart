@@ -1969,4 +1969,39 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get buy_invoice_default_description => 'Top Up - Buy Bitcoin to Breez';
+
+  @override
+  String get restore_phrase_title => 'Use recovery phrase';
+
+  @override
+  String get restore_phrase_instruction =>
+      'Type in your complete 12-word recovery phrase.';
+
+  @override
+  String restore_phrase_word_hint(int index) {
+    return 'Add word $index';
+  }
+
+  @override
+  String get restore_phrase_action_submit => 'Recover wallet';
+
+  @override
+  String get restore_phrase_error_required => 'Required';
+
+  @override
+  String get restore_phrase_error_invalid_word => 'Invalid word';
+
+  @override
+  String get restore_password_title => 'Your cloud password';
+
+  @override
+  String get restore_password_message =>
+      'Access your back up with the password you used for your cloud backup.';
+
+  @override
+  String get restore_password_action_unlock => 'Access backup';
+
+  @override
+  String get restore_password_error_incorrect =>
+      'Incorrect password. Please try again.';
 }
