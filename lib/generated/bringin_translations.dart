@@ -730,6 +730,426 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Bringin'**
   String get app_name;
+
+  /// No description provided for @home_sca_error_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Session verification unavailable'**
+  String get home_sca_error_title;
+
+  /// No description provided for @home_sca_error_message.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t reach our security service. Please check your connection and try again.'**
+  String get home_sca_error_message;
+
+  /// No description provided for @home_sca_error_action_logout.
+  ///
+  /// In en, this message translates to:
+  /// **'Log out'**
+  String get home_sca_error_action_logout;
+
+  /// No description provided for @home_sca_error_action_retry.
+  ///
+  /// In en, this message translates to:
+  /// **'Retry'**
+  String get home_sca_error_action_retry;
+
+  /// No description provided for @home_showcase_nav_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Navigate the app'**
+  String get home_showcase_nav_title;
+
+  /// No description provided for @home_showcase_nav_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Switch between Home, Connect, Cards, and Profile to reach every part of the app.'**
+  String get home_showcase_nav_description;
+
+  /// No description provided for @home_showcase_balance_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Your total balance'**
+  String get home_showcase_balance_title;
+
+  /// No description provided for @home_showcase_balance_description.
+  ///
+  /// In en, this message translates to:
+  /// **'All your Bitcoin, Euro, and card balances in one place. Tap the eye to hide.'**
+  String get home_showcase_balance_description;
+
+  /// No description provided for @home_showcase_actions_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Move money fast'**
+  String get home_showcase_actions_title;
+
+  /// No description provided for @home_showcase_actions_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Add funds or send Bitcoin / Euro in a couple of taps.'**
+  String get home_showcase_actions_description;
+
+  /// No description provided for @home_showcase_swaps_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin ↔ Euro swaps'**
+  String get home_showcase_swaps_title;
+
+  /// No description provided for @home_showcase_swaps_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy Bitcoin into your wallet, or sell directly back to your bank.'**
+  String get home_showcase_swaps_description;
+
+  /// No description provided for @home_nav_label_home.
+  ///
+  /// In en, this message translates to:
+  /// **'Home'**
+  String get home_nav_label_home;
+
+  /// No description provided for @home_nav_label_connect.
+  ///
+  /// In en, this message translates to:
+  /// **'Connect'**
+  String get home_nav_label_connect;
+
+  /// No description provided for @home_nav_label_cards.
+  ///
+  /// In en, this message translates to:
+  /// **'Cards'**
+  String get home_nav_label_cards;
+
+  /// No description provided for @home_nav_label_profile.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get home_nav_label_profile;
+
+  /// No description provided for @home_balance_label_total.
+  ///
+  /// In en, this message translates to:
+  /// **'Total balance'**
+  String get home_balance_label_total;
+
+  /// No description provided for @home_accounts_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet & accounts'**
+  String get home_accounts_title;
+
+  /// No description provided for @home_accounts_bitcoin_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin'**
+  String get home_accounts_bitcoin_label;
+
+  /// No description provided for @home_accounts_bitcoin_activate.
+  ///
+  /// In en, this message translates to:
+  /// **'Activate wallet'**
+  String get home_accounts_bitcoin_activate;
+
+  /// No description provided for @home_accounts_euro_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Euro'**
+  String get home_accounts_euro_label;
+
+  /// No description provided for @home_accounts_card_balance_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Card balance'**
+  String get home_accounts_card_balance_label;
+
+  /// No description provided for @home_accounts_transactions_in_progress.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 transaction in progress} other{{count} transactions in progress}}'**
+  String home_accounts_transactions_in_progress(int count);
+
+  /// No description provided for @home_action_add.
+  ///
+  /// In en, this message translates to:
+  /// **'Add'**
+  String get home_action_add;
+
+  /// No description provided for @home_action_send.
+  ///
+  /// In en, this message translates to:
+  /// **'Send'**
+  String get home_action_send;
+
+  /// No description provided for @home_action_scan.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan'**
+  String get home_action_scan;
+
+  /// No description provided for @home_swaps_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin swaps'**
+  String get home_swaps_title;
+
+  /// No description provided for @home_swaps_buy_to_wallets.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy to wallets'**
+  String get home_swaps_buy_to_wallets;
+
+  /// No description provided for @home_swaps_sell_to_banks.
+  ///
+  /// In en, this message translates to:
+  /// **'Sell to banks'**
+  String get home_swaps_sell_to_banks;
+
+  /// No description provided for @home_transactions_title.
+  ///
+  /// In en, this message translates to:
+  /// **'All transactions'**
+  String get home_transactions_title;
+
+  /// No description provided for @home_action_needed_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Action needed'**
+  String get home_action_needed_title;
+
+  /// No description provided for @home_action_needed_description.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 item needs your review.} other{{count} items need your review.}}'**
+  String home_action_needed_description(int count);
+
+  /// No description provided for @home_tx_filter_all.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get home_tx_filter_all;
+
+  /// No description provided for @home_tx_filter_bitcoin.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin'**
+  String get home_tx_filter_bitcoin;
+
+  /// No description provided for @home_tx_filter_euro_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Euro account'**
+  String get home_tx_filter_euro_account;
+
+  /// No description provided for @home_tx_filter_cards.
+  ///
+  /// In en, this message translates to:
+  /// **'Cards'**
+  String get home_tx_filter_cards;
+
+  /// No description provided for @home_tx_filter_swaps.
+  ///
+  /// In en, this message translates to:
+  /// **'Swaps'**
+  String get home_tx_filter_swaps;
+
+  /// No description provided for @home_transactions_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'No transactions yet'**
+  String get home_transactions_empty;
+
+  /// No description provided for @home_transactions_empty_filtered.
+  ///
+  /// In en, this message translates to:
+  /// **'Nothing here in your recent transactions.'**
+  String get home_transactions_empty_filtered;
+
+  /// No description provided for @home_resume_loader_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Picking up where you left off.'**
+  String get home_resume_loader_message;
+
+  /// No description provided for @home_error_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Something went wrong.'**
+  String get home_error_generic;
+
+  /// No description provided for @home_purchase_processing_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Getting your purchase ready'**
+  String get home_purchase_processing_title;
+
+  /// No description provided for @home_purchase_processing_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'This won\'t take long.'**
+  String get home_purchase_processing_subtitle;
+
+  /// No description provided for @home_update_banner_required.
+  ///
+  /// In en, this message translates to:
+  /// **'A new required version of Bringin is available. Update now to keep using the app.'**
+  String get home_update_banner_required;
+
+  /// No description provided for @home_update_banner_optional.
+  ///
+  /// In en, this message translates to:
+  /// **'A new version of Bringin is available.'**
+  String get home_update_banner_optional;
+
+  /// No description provided for @home_update_banner_action.
+  ///
+  /// In en, this message translates to:
+  /// **'Update now'**
+  String get home_update_banner_action;
+
+  /// No description provided for @tx_label_card_payment.
+  ///
+  /// In en, this message translates to:
+  /// **'Card payment'**
+  String get tx_label_card_payment;
+
+  /// No description provided for @tx_label_bitcoin.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin'**
+  String get tx_label_bitcoin;
+
+  /// No description provided for @tx_label_top_up.
+  ///
+  /// In en, this message translates to:
+  /// **'Top up'**
+  String get tx_label_top_up;
+
+  /// No description provided for @tx_label_sell_btc.
+  ///
+  /// In en, this message translates to:
+  /// **'Sell BTC'**
+  String get tx_label_sell_btc;
+
+  /// No description provided for @tx_label_wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet'**
+  String get tx_label_wallet;
+
+  /// No description provided for @tx_label_to_euro_account.
+  ///
+  /// In en, this message translates to:
+  /// **'To Euro account'**
+  String get tx_label_to_euro_account;
+
+  /// No description provided for @tx_label_to_bank.
+  ///
+  /// In en, this message translates to:
+  /// **'To Bank'**
+  String get tx_label_to_bank;
+
+  /// No description provided for @tx_label_atm_withdrawal.
+  ///
+  /// In en, this message translates to:
+  /// **'ATM Withdrawal'**
+  String get tx_label_atm_withdrawal;
+
+  /// No description provided for @tx_label_to_ln_address.
+  ///
+  /// In en, this message translates to:
+  /// **'To LN address'**
+  String get tx_label_to_ln_address;
+
+  /// No description provided for @tx_label_to_bitcoin_wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'To Bitcoin wallet'**
+  String get tx_label_to_bitcoin_wallet;
+
+  /// No description provided for @tx_label_to_destination.
+  ///
+  /// In en, this message translates to:
+  /// **'To {destination}'**
+  String tx_label_to_destination(String destination);
+
+  /// No description provided for @tx_subtype_received.
+  ///
+  /// In en, this message translates to:
+  /// **'Received'**
+  String get tx_subtype_received;
+
+  /// No description provided for @tx_subtype_sent.
+  ///
+  /// In en, this message translates to:
+  /// **'Sent'**
+  String get tx_subtype_sent;
+
+  /// No description provided for @tx_subtype_pro.
+  ///
+  /// In en, this message translates to:
+  /// **'Pro'**
+  String get tx_subtype_pro;
+
+  /// No description provided for @tx_subtype_buy.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy'**
+  String get tx_subtype_buy;
+
+  /// No description provided for @tx_subtype_sell.
+  ///
+  /// In en, this message translates to:
+  /// **'Sell'**
+  String get tx_subtype_sell;
+
+  /// No description provided for @tx_subtype_send.
+  ///
+  /// In en, this message translates to:
+  /// **'Send'**
+  String get tx_subtype_send;
+
+  /// No description provided for @tx_subtype_add.
+  ///
+  /// In en, this message translates to:
+  /// **'Add'**
+  String get tx_subtype_add;
+
+  /// No description provided for @tx_subtype_card_fee.
+  ///
+  /// In en, this message translates to:
+  /// **'Card fee'**
+  String get tx_subtype_card_fee;
+
+  /// No description provided for @tx_subtype_refund.
+  ///
+  /// In en, this message translates to:
+  /// **'Refund'**
+  String get tx_subtype_refund;
+
+  /// No description provided for @tx_subtype_cashback.
+  ///
+  /// In en, this message translates to:
+  /// **'Cashback'**
+  String get tx_subtype_cashback;
+
+  /// No description provided for @tx_subtype_rewards.
+  ///
+  /// In en, this message translates to:
+  /// **'Rewards'**
+  String get tx_subtype_rewards;
+
+  /// No description provided for @tx_subtype_deposit.
+  ///
+  /// In en, this message translates to:
+  /// **'Deposit'**
+  String get tx_subtype_deposit;
+
+  /// No description provided for @tx_subtype_swap.
+  ///
+  /// In en, this message translates to:
+  /// **'Swap'**
+  String get tx_subtype_swap;
 }
 
 class _BringinTranslationsDelegate

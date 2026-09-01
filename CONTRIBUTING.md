@@ -69,6 +69,26 @@ common way a translation PR fails CI.
 
 Word order may change freely; placeholders can move anywhere in the sentence.
 
+### Plurals
+
+Some strings pick wording based on a number:
+
+```json
+"home_action_needed_description": "{count, plural, =1{1 item needs your review.} other{{count} items need your review.}}"
+```
+
+English needs two forms. **Your language may need more** — Czech and Polish need
+three or four, Arabic six. Use whichever categories your language actually
+requires:
+
+```json
+"{count, plural, =1{...} few{...} many{...} other{...}}"
+```
+
+Valid categories: `=0` `=1` `=2` `zero` `one` `two` `few` `many` `other`.
+`other` is required. Keep `{count}` spelled exactly that way inside each branch.
+If your language needs only one form, put it all in `other`.
+
 ### Do not translate these
 
 Bitcoin and banking terms that are used untranslated across the industry:
@@ -116,6 +136,11 @@ Flat `snake_case`, no nesting:
 
 `<feature>` mirrors the directory name under the app's `lib/routes/`, so every
 string on a screen greps together.
+
+Vocabulary shared across several screens gets a domain prefix instead of a
+feature one, so it isn't duplicated per screen — e.g. `tx_label_*` /
+`tx_subtype_*` for transaction-row wording that the home feed, the wallet page
+and the card page all render.
 
 Roles: `_title` · `_subtitle` · `_message` · `_label` · `_hint` · `_empty` ·
 `_action_<verb>` · `_error_<kind>`

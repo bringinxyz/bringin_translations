@@ -380,4 +380,240 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get app_name => 'Bringin';
+
+  @override
+  String get home_sca_error_title => 'Session verification unavailable';
+
+  @override
+  String get home_sca_error_message =>
+      'We couldn\'t reach our security service. Please check your connection and try again.';
+
+  @override
+  String get home_sca_error_action_logout => 'Log out';
+
+  @override
+  String get home_sca_error_action_retry => 'Retry';
+
+  @override
+  String get home_showcase_nav_title => 'Navigate the app';
+
+  @override
+  String get home_showcase_nav_description =>
+      'Switch between Home, Connect, Cards, and Profile to reach every part of the app.';
+
+  @override
+  String get home_showcase_balance_title => 'Your total balance';
+
+  @override
+  String get home_showcase_balance_description =>
+      'All your Bitcoin, Euro, and card balances in one place. Tap the eye to hide.';
+
+  @override
+  String get home_showcase_actions_title => 'Move money fast';
+
+  @override
+  String get home_showcase_actions_description =>
+      'Add funds or send Bitcoin / Euro in a couple of taps.';
+
+  @override
+  String get home_showcase_swaps_title => 'Bitcoin ↔ Euro swaps';
+
+  @override
+  String get home_showcase_swaps_description =>
+      'Buy Bitcoin into your wallet, or sell directly back to your bank.';
+
+  @override
+  String get home_nav_label_home => 'Home';
+
+  @override
+  String get home_nav_label_connect => 'Connect';
+
+  @override
+  String get home_nav_label_cards => 'Cards';
+
+  @override
+  String get home_nav_label_profile => 'Profile';
+
+  @override
+  String get home_balance_label_total => 'Total balance';
+
+  @override
+  String get home_accounts_title => 'Wallet & accounts';
+
+  @override
+  String get home_accounts_bitcoin_label => 'Bitcoin';
+
+  @override
+  String get home_accounts_bitcoin_activate => 'Activate wallet';
+
+  @override
+  String get home_accounts_euro_label => 'Euro';
+
+  @override
+  String get home_accounts_card_balance_label => 'Card balance';
+
+  @override
+  String home_accounts_transactions_in_progress(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count transactions in progress',
+      one: '1 transaction in progress',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get home_action_add => 'Add';
+
+  @override
+  String get home_action_send => 'Send';
+
+  @override
+  String get home_action_scan => 'Scan';
+
+  @override
+  String get home_swaps_title => 'Bitcoin swaps';
+
+  @override
+  String get home_swaps_buy_to_wallets => 'Buy to wallets';
+
+  @override
+  String get home_swaps_sell_to_banks => 'Sell to banks';
+
+  @override
+  String get home_transactions_title => 'All transactions';
+
+  @override
+  String get home_action_needed_title => 'Action needed';
+
+  @override
+  String home_action_needed_description(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count items need your review.',
+      one: '1 item needs your review.',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get home_tx_filter_all => 'All';
+
+  @override
+  String get home_tx_filter_bitcoin => 'Bitcoin';
+
+  @override
+  String get home_tx_filter_euro_account => 'Euro account';
+
+  @override
+  String get home_tx_filter_cards => 'Cards';
+
+  @override
+  String get home_tx_filter_swaps => 'Swaps';
+
+  @override
+  String get home_transactions_empty => 'No transactions yet';
+
+  @override
+  String get home_transactions_empty_filtered =>
+      'Nothing here in your recent transactions.';
+
+  @override
+  String get home_resume_loader_message => 'Picking up where you left off.';
+
+  @override
+  String get home_error_generic => 'Something went wrong.';
+
+  @override
+  String get home_purchase_processing_title => 'Getting your purchase ready';
+
+  @override
+  String get home_purchase_processing_subtitle => 'This won\'t take long.';
+
+  @override
+  String get home_update_banner_required =>
+      'A new required version of Bringin is available. Update now to keep using the app.';
+
+  @override
+  String get home_update_banner_optional =>
+      'A new version of Bringin is available.';
+
+  @override
+  String get home_update_banner_action => 'Update now';
+
+  @override
+  String get tx_label_card_payment => 'Card payment';
+
+  @override
+  String get tx_label_bitcoin => 'Bitcoin';
+
+  @override
+  String get tx_label_top_up => 'Top up';
+
+  @override
+  String get tx_label_sell_btc => 'Sell BTC';
+
+  @override
+  String get tx_label_wallet => 'Wallet';
+
+  @override
+  String get tx_label_to_euro_account => 'To Euro account';
+
+  @override
+  String get tx_label_to_bank => 'To Bank';
+
+  @override
+  String get tx_label_atm_withdrawal => 'ATM Withdrawal';
+
+  @override
+  String get tx_label_to_ln_address => 'To LN address';
+
+  @override
+  String get tx_label_to_bitcoin_wallet => 'To Bitcoin wallet';
+
+  @override
+  String tx_label_to_destination(String destination) {
+    return 'To $destination';
+  }
+
+  @override
+  String get tx_subtype_received => 'Received';
+
+  @override
+  String get tx_subtype_sent => 'Sent';
+
+  @override
+  String get tx_subtype_pro => 'Pro';
+
+  @override
+  String get tx_subtype_buy => 'Buy';
+
+  @override
+  String get tx_subtype_sell => 'Sell';
+
+  @override
+  String get tx_subtype_send => 'Send';
+
+  @override
+  String get tx_subtype_add => 'Add';
+
+  @override
+  String get tx_subtype_card_fee => 'Card fee';
+
+  @override
+  String get tx_subtype_refund => 'Refund';
+
+  @override
+  String get tx_subtype_cashback => 'Cashback';
+
+  @override
+  String get tx_subtype_rewards => 'Rewards';
+
+  @override
+  String get tx_subtype_deposit => 'Deposit';
+
+  @override
+  String get tx_subtype_swap => 'Swap';
 }

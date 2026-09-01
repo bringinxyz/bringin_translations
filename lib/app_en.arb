@@ -249,5 +249,97 @@
   "withdraw_funds_error_invalid_address": "Please enter a valid BTC Address",
   "withdraw_funds_action_next": "NEXT",
   "locale": "en",
-  "app_name": "Bringin"
+  "app_name": "Bringin",
+  "home_sca_error_title": "Session verification unavailable",
+  "home_sca_error_message": "We couldn't reach our security service. Please check your connection and try again.",
+  "home_sca_error_action_logout": "Log out",
+  "home_sca_error_action_retry": "Retry",
+  "home_showcase_nav_title": "Navigate the app",
+  "home_showcase_nav_description": "Switch between Home, Connect, Cards, and Profile to reach every part of the app.",
+  "home_showcase_balance_title": "Your total balance",
+  "home_showcase_balance_description": "All your Bitcoin, Euro, and card balances in one place. Tap the eye to hide.",
+  "home_showcase_actions_title": "Move money fast",
+  "home_showcase_actions_description": "Add funds or send Bitcoin / Euro in a couple of taps.",
+  "home_showcase_swaps_title": "Bitcoin ↔ Euro swaps",
+  "home_showcase_swaps_description": "Buy Bitcoin into your wallet, or sell directly back to your bank.",
+  "home_nav_label_home": "Home",
+  "home_nav_label_connect": "Connect",
+  "home_nav_label_cards": "Cards",
+  "home_nav_label_profile": "Profile",
+  "home_balance_label_total": "Total balance",
+  "home_accounts_title": "Wallet & accounts",
+  "home_accounts_bitcoin_label": "Bitcoin",
+  "home_accounts_bitcoin_activate": "Activate wallet",
+  "home_accounts_euro_label": "Euro",
+  "home_accounts_card_balance_label": "Card balance",
+  "home_accounts_transactions_in_progress": "{count, plural, =1{1 transaction in progress} other{{count} transactions in progress}}",
+  "@home_accounts_transactions_in_progress": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "home_action_add": "Add",
+  "home_action_send": "Send",
+  "home_action_scan": "Scan",
+  "home_swaps_title": "Bitcoin swaps",
+  "home_swaps_buy_to_wallets": "Buy to wallets",
+  "home_swaps_sell_to_banks": "Sell to banks",
+  "home_transactions_title": "All transactions",
+  "home_action_needed_title": "Action needed",
+  "home_action_needed_description": "{count, plural, =1{1 item needs your review.} other{{count} items need your review.}}",
+  "@home_action_needed_description": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "home_tx_filter_all": "All",
+  "home_tx_filter_bitcoin": "Bitcoin",
+  "home_tx_filter_euro_account": "Euro account",
+  "home_tx_filter_cards": "Cards",
+  "home_tx_filter_swaps": "Swaps",
+  "home_transactions_empty": "No transactions yet",
+  "home_transactions_empty_filtered": "Nothing here in your recent transactions.",
+  "home_resume_loader_message": "Picking up where you left off.",
+  "home_error_generic": "Something went wrong.",
+  "home_purchase_processing_title": "Getting your purchase ready",
+  "home_purchase_processing_subtitle": "This won't take long.",
+  "home_update_banner_required": "A new required version of Bringin is available. Update now to keep using the app.",
+  "home_update_banner_optional": "A new version of Bringin is available.",
+  "home_update_banner_action": "Update now",
+  "tx_label_card_payment": "Card payment",
+  "tx_label_bitcoin": "Bitcoin",
+  "tx_label_top_up": "Top up",
+  "tx_label_sell_btc": "Sell BTC",
+  "tx_label_wallet": "Wallet",
+  "tx_label_to_euro_account": "To Euro account",
+  "tx_label_to_bank": "To Bank",
+  "tx_label_atm_withdrawal": "ATM Withdrawal",
+  "tx_label_to_ln_address": "To LN address",
+  "tx_label_to_bitcoin_wallet": "To Bitcoin wallet",
+  "tx_label_to_destination": "To {destination}",
+  "@tx_label_to_destination": {
+    "placeholders": {
+      "destination": {
+        "type": "String",
+        "example": "bc1q..."
+      }
+    }
+  },
+  "tx_subtype_received": "Received",
+  "tx_subtype_sent": "Sent",
+  "tx_subtype_pro": "Pro",
+  "tx_subtype_buy": "Buy",
+  "tx_subtype_sell": "Sell",
+  "tx_subtype_send": "Send",
+  "tx_subtype_add": "Add",
+  "tx_subtype_card_fee": "Card fee",
+  "tx_subtype_refund": "Refund",
+  "tx_subtype_cashback": "Cashback",
+  "tx_subtype_rewards": "Rewards",
+  "tx_subtype_deposit": "Deposit",
+  "tx_subtype_swap": "Swap"
 }
