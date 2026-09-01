@@ -204,34 +204,6 @@
       }
     }
   },
-  "wallet_dashboard_payment_item_balance_positive": "+ {value}",
-  "@wallet_dashboard_payment_item_balance_positive": {
-    "placeholders": {
-      "value": {
-        "type": "String",
-        "example": "123"
-      }
-    }
-  },
-  "wallet_dashboard_payment_item_balance_negative": "- {value}",
-  "@wallet_dashboard_payment_item_balance_negative": {
-    "placeholders": {
-      "value": {
-        "type": "String",
-        "example": "123"
-      }
-    }
-  },
-  "wallet_dashboard_payment_item_balance_fee": "Fee {feeFormatted}",
-  "@wallet_dashboard_payment_item_balance_fee": {
-    "placeholders": {
-      "feeFormatted": {
-        "type": "String",
-        "example": "1"
-      }
-    }
-  },
-  "wallet_dashboard_payment_item_balance_pending_suffix": " (Pending)",
   "wallet_dashboard_payment_item_no_title": "Unknown",
   "withdraw_funds_use_all_funds": "Use all Funds",
   "withdraw_funds_btc_address": "BTC Address",
@@ -808,5 +780,55 @@
         "example": "connection closed"
       }
     }
-  }
+  },
+  "action_cancel": "Cancel",
+  "mnemonics_phrase_label": "12-word phrase",
+  "mnemonics_caution_title": "Caution!",
+  "mnemonics_caution_message": "This phrase gives access to your Bitcoin. If you lose it, your wallet cannot be recovered—even by Bringin.",
+  "mnemonics_word_index": "Word {index}",
+  "@mnemonics_word_index": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "send_sheet_field_label": "On-chain/ lightning address or invoice",
+  "send_sheet_error_invalid_input": "Invalid address or invoice",
+  "send_sheet_error_parse_failed": "Could not parse input",
+  "send_sheet_detected_ln_invoice": "Lightning invoice detected",
+  "send_sheet_detected_ln_address": "Lightning address detected",
+  "send_sheet_detected_btc_address": "Bitcoin address detected",
+  "payment_details_title": "Transaction details",
+  "payment_details_label_payment_type": "Payment type",
+  "payment_details_label_fee": "Fee",
+  "payment_details_label_status": "Transaction status",
+  "payment_details_label_date": "Date",
+  "payment_details_label_comment": "Comment",
+  "payment_details_label_lnurl_domain": "LNURL pay domain",
+  "payment_details_label_message": "Message",
+  "payment_details_label_invoice": "Invoice",
+  "payment_details_label_preimage": "Payment preimage",
+  "payment_details_label_onchain_tx": "On-chain transaction",
+  "payment_details_action_view_explorer": "View on explorer",
+  "payment_details_copied": "Copied to clipboard",
+  "payment_status_pending": "Pending",
+  "payment_status_completed": "Completed",
+  "payment_status_failed": "Failed",
+  "manage_wallet_title": "Manage Bitcoin wallet",
+  "manage_wallet_non_custodial_title": "Non custodial wallet",
+  "manage_wallet_section_details": "Wallet details",
+  "manage_wallet_section_transactions": "Transactions",
+  "manage_wallet_row_backup": "Wallet backup",
+  "manage_wallet_row_disconnect": "Disconnect wallet",
+  "manage_wallet_no_recovery_phrase": "No recovery phrase available.",
+  "manage_wallet_not_backed_up_banner": "Wallet not backed up. Backup your wallet",
+  "manage_wallet_disconnect_confirm_title": "Disconnect wallet?",
+  "manage_wallet_disconnect_confirm_message": "Your Bitcoin wallet will be removed from this device. You’ll stay signed in to Bringin. If you have your recovery phrase, you can restore this wallet later.",
+  "manage_wallet_disconnect_payment_in_progress": "You have a payment in progress. Disconnecting now may interrupt it.",
+  "manage_wallet_action_disconnect": "Disconnect",
+  "manage_wallet_action_disconnect_anyway": "I understand, disconnect anyway",
+  "manage_wallet_secure_now_title": "Secure your Bitcoin now",
+  "manage_wallet_secure_now_message": "Your wallet isn’t backed up. If you lose access, your Bitcoin will be permanently lost.",
+  "manage_wallet_secure_now_note": "Bringin cannot recover it, as we do not store your keys."
 }

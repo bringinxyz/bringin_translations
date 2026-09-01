@@ -647,30 +647,6 @@ abstract class BringinTranslations {
   /// **'Payment exceeds the limit {amount}.'**
   String valid_payment_error_exceeds_the_limit(String amount);
 
-  /// No description provided for @wallet_dashboard_payment_item_balance_positive.
-  ///
-  /// In en, this message translates to:
-  /// **'+ {value}'**
-  String wallet_dashboard_payment_item_balance_positive(String value);
-
-  /// No description provided for @wallet_dashboard_payment_item_balance_negative.
-  ///
-  /// In en, this message translates to:
-  /// **'- {value}'**
-  String wallet_dashboard_payment_item_balance_negative(String value);
-
-  /// No description provided for @wallet_dashboard_payment_item_balance_fee.
-  ///
-  /// In en, this message translates to:
-  /// **'Fee {feeFormatted}'**
-  String wallet_dashboard_payment_item_balance_fee(String feeFormatted);
-
-  /// No description provided for @wallet_dashboard_payment_item_balance_pending_suffix.
-  ///
-  /// In en, this message translates to:
-  /// **' (Pending)'**
-  String get wallet_dashboard_payment_item_balance_pending_suffix;
-
   /// No description provided for @wallet_dashboard_payment_item_no_title.
   ///
   /// In en, this message translates to:
@@ -2866,6 +2842,264 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Error: {message}'**
   String send_error_generic_detail(String message);
+
+  /// No description provided for @action_cancel.
+  ///
+  /// In en, this message translates to:
+  /// **'Cancel'**
+  String get action_cancel;
+
+  /// No description provided for @mnemonics_phrase_label.
+  ///
+  /// In en, this message translates to:
+  /// **'12-word phrase'**
+  String get mnemonics_phrase_label;
+
+  /// No description provided for @mnemonics_caution_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Caution!'**
+  String get mnemonics_caution_title;
+
+  /// No description provided for @mnemonics_caution_message.
+  ///
+  /// In en, this message translates to:
+  /// **'This phrase gives access to your Bitcoin. If you lose it, your wallet cannot be recovered—even by Bringin.'**
+  String get mnemonics_caution_message;
+
+  /// No description provided for @mnemonics_word_index.
+  ///
+  /// In en, this message translates to:
+  /// **'Word {index}'**
+  String mnemonics_word_index(int index);
+
+  /// No description provided for @send_sheet_field_label.
+  ///
+  /// In en, this message translates to:
+  /// **'On-chain/ lightning address or invoice'**
+  String get send_sheet_field_label;
+
+  /// No description provided for @send_sheet_error_invalid_input.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid address or invoice'**
+  String get send_sheet_error_invalid_input;
+
+  /// No description provided for @send_sheet_error_parse_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not parse input'**
+  String get send_sheet_error_parse_failed;
+
+  /// No description provided for @send_sheet_detected_ln_invoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning invoice detected'**
+  String get send_sheet_detected_ln_invoice;
+
+  /// No description provided for @send_sheet_detected_ln_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning address detected'**
+  String get send_sheet_detected_ln_address;
+
+  /// No description provided for @send_sheet_detected_btc_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin address detected'**
+  String get send_sheet_detected_btc_address;
+
+  /// No description provided for @payment_details_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction details'**
+  String get payment_details_title;
+
+  /// No description provided for @payment_details_label_payment_type.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment type'**
+  String get payment_details_label_payment_type;
+
+  /// No description provided for @payment_details_label_fee.
+  ///
+  /// In en, this message translates to:
+  /// **'Fee'**
+  String get payment_details_label_fee;
+
+  /// No description provided for @payment_details_label_status.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction status'**
+  String get payment_details_label_status;
+
+  /// No description provided for @payment_details_label_date.
+  ///
+  /// In en, this message translates to:
+  /// **'Date'**
+  String get payment_details_label_date;
+
+  /// No description provided for @payment_details_label_comment.
+  ///
+  /// In en, this message translates to:
+  /// **'Comment'**
+  String get payment_details_label_comment;
+
+  /// No description provided for @payment_details_label_lnurl_domain.
+  ///
+  /// In en, this message translates to:
+  /// **'LNURL pay domain'**
+  String get payment_details_label_lnurl_domain;
+
+  /// No description provided for @payment_details_label_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Message'**
+  String get payment_details_label_message;
+
+  /// No description provided for @payment_details_label_invoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoice'**
+  String get payment_details_label_invoice;
+
+  /// No description provided for @payment_details_label_preimage.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment preimage'**
+  String get payment_details_label_preimage;
+
+  /// No description provided for @payment_details_label_onchain_tx.
+  ///
+  /// In en, this message translates to:
+  /// **'On-chain transaction'**
+  String get payment_details_label_onchain_tx;
+
+  /// No description provided for @payment_details_action_view_explorer.
+  ///
+  /// In en, this message translates to:
+  /// **'View on explorer'**
+  String get payment_details_action_view_explorer;
+
+  /// No description provided for @payment_details_copied.
+  ///
+  /// In en, this message translates to:
+  /// **'Copied to clipboard'**
+  String get payment_details_copied;
+
+  /// No description provided for @payment_status_pending.
+  ///
+  /// In en, this message translates to:
+  /// **'Pending'**
+  String get payment_status_pending;
+
+  /// No description provided for @payment_status_completed.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed'**
+  String get payment_status_completed;
+
+  /// No description provided for @payment_status_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed'**
+  String get payment_status_failed;
+
+  /// No description provided for @manage_wallet_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage Bitcoin wallet'**
+  String get manage_wallet_title;
+
+  /// No description provided for @manage_wallet_non_custodial_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Non custodial wallet'**
+  String get manage_wallet_non_custodial_title;
+
+  /// No description provided for @manage_wallet_section_details.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet details'**
+  String get manage_wallet_section_details;
+
+  /// No description provided for @manage_wallet_section_transactions.
+  ///
+  /// In en, this message translates to:
+  /// **'Transactions'**
+  String get manage_wallet_section_transactions;
+
+  /// No description provided for @manage_wallet_row_backup.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet backup'**
+  String get manage_wallet_row_backup;
+
+  /// No description provided for @manage_wallet_row_disconnect.
+  ///
+  /// In en, this message translates to:
+  /// **'Disconnect wallet'**
+  String get manage_wallet_row_disconnect;
+
+  /// No description provided for @manage_wallet_no_recovery_phrase.
+  ///
+  /// In en, this message translates to:
+  /// **'No recovery phrase available.'**
+  String get manage_wallet_no_recovery_phrase;
+
+  /// No description provided for @manage_wallet_not_backed_up_banner.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet not backed up. Backup your wallet'**
+  String get manage_wallet_not_backed_up_banner;
+
+  /// No description provided for @manage_wallet_disconnect_confirm_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Disconnect wallet?'**
+  String get manage_wallet_disconnect_confirm_title;
+
+  /// No description provided for @manage_wallet_disconnect_confirm_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Bitcoin wallet will be removed from this device. You’ll stay signed in to Bringin. If you have your recovery phrase, you can restore this wallet later.'**
+  String get manage_wallet_disconnect_confirm_message;
+
+  /// No description provided for @manage_wallet_disconnect_payment_in_progress.
+  ///
+  /// In en, this message translates to:
+  /// **'You have a payment in progress. Disconnecting now may interrupt it.'**
+  String get manage_wallet_disconnect_payment_in_progress;
+
+  /// No description provided for @manage_wallet_action_disconnect.
+  ///
+  /// In en, this message translates to:
+  /// **'Disconnect'**
+  String get manage_wallet_action_disconnect;
+
+  /// No description provided for @manage_wallet_action_disconnect_anyway.
+  ///
+  /// In en, this message translates to:
+  /// **'I understand, disconnect anyway'**
+  String get manage_wallet_action_disconnect_anyway;
+
+  /// No description provided for @manage_wallet_secure_now_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Secure your Bitcoin now'**
+  String get manage_wallet_secure_now_title;
+
+  /// No description provided for @manage_wallet_secure_now_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Your wallet isn’t backed up. If you lose access, your Bitcoin will be permanently lost.'**
+  String get manage_wallet_secure_now_message;
+
+  /// No description provided for @manage_wallet_secure_now_note.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin cannot recover it, as we do not store your keys.'**
+  String get manage_wallet_secure_now_note;
 }
 
 class _BringinTranslationsDelegate

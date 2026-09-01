@@ -330,25 +330,6 @@ class BringinTranslationsEn extends BringinTranslations {
   }
 
   @override
-  String wallet_dashboard_payment_item_balance_positive(String value) {
-    return '+ $value';
-  }
-
-  @override
-  String wallet_dashboard_payment_item_balance_negative(String value) {
-    return '- $value';
-  }
-
-  @override
-  String wallet_dashboard_payment_item_balance_fee(String feeFormatted) {
-    return 'Fee $feeFormatted';
-  }
-
-  @override
-  String get wallet_dashboard_payment_item_balance_pending_suffix =>
-      ' (Pending)';
-
-  @override
   String get wallet_dashboard_payment_item_no_title => 'Unknown';
 
   @override
@@ -1619,4 +1600,143 @@ class BringinTranslationsEn extends BringinTranslations {
   String send_error_generic_detail(String message) {
     return 'Error: $message';
   }
+
+  @override
+  String get action_cancel => 'Cancel';
+
+  @override
+  String get mnemonics_phrase_label => '12-word phrase';
+
+  @override
+  String get mnemonics_caution_title => 'Caution!';
+
+  @override
+  String get mnemonics_caution_message =>
+      'This phrase gives access to your Bitcoin. If you lose it, your wallet cannot be recovered—even by Bringin.';
+
+  @override
+  String mnemonics_word_index(int index) {
+    return 'Word $index';
+  }
+
+  @override
+  String get send_sheet_field_label => 'On-chain/ lightning address or invoice';
+
+  @override
+  String get send_sheet_error_invalid_input => 'Invalid address or invoice';
+
+  @override
+  String get send_sheet_error_parse_failed => 'Could not parse input';
+
+  @override
+  String get send_sheet_detected_ln_invoice => 'Lightning invoice detected';
+
+  @override
+  String get send_sheet_detected_ln_address => 'Lightning address detected';
+
+  @override
+  String get send_sheet_detected_btc_address => 'Bitcoin address detected';
+
+  @override
+  String get payment_details_title => 'Transaction details';
+
+  @override
+  String get payment_details_label_payment_type => 'Payment type';
+
+  @override
+  String get payment_details_label_fee => 'Fee';
+
+  @override
+  String get payment_details_label_status => 'Transaction status';
+
+  @override
+  String get payment_details_label_date => 'Date';
+
+  @override
+  String get payment_details_label_comment => 'Comment';
+
+  @override
+  String get payment_details_label_lnurl_domain => 'LNURL pay domain';
+
+  @override
+  String get payment_details_label_message => 'Message';
+
+  @override
+  String get payment_details_label_invoice => 'Invoice';
+
+  @override
+  String get payment_details_label_preimage => 'Payment preimage';
+
+  @override
+  String get payment_details_label_onchain_tx => 'On-chain transaction';
+
+  @override
+  String get payment_details_action_view_explorer => 'View on explorer';
+
+  @override
+  String get payment_details_copied => 'Copied to clipboard';
+
+  @override
+  String get payment_status_pending => 'Pending';
+
+  @override
+  String get payment_status_completed => 'Completed';
+
+  @override
+  String get payment_status_failed => 'Failed';
+
+  @override
+  String get manage_wallet_title => 'Manage Bitcoin wallet';
+
+  @override
+  String get manage_wallet_non_custodial_title => 'Non custodial wallet';
+
+  @override
+  String get manage_wallet_section_details => 'Wallet details';
+
+  @override
+  String get manage_wallet_section_transactions => 'Transactions';
+
+  @override
+  String get manage_wallet_row_backup => 'Wallet backup';
+
+  @override
+  String get manage_wallet_row_disconnect => 'Disconnect wallet';
+
+  @override
+  String get manage_wallet_no_recovery_phrase =>
+      'No recovery phrase available.';
+
+  @override
+  String get manage_wallet_not_backed_up_banner =>
+      'Wallet not backed up. Backup your wallet';
+
+  @override
+  String get manage_wallet_disconnect_confirm_title => 'Disconnect wallet?';
+
+  @override
+  String get manage_wallet_disconnect_confirm_message =>
+      'Your Bitcoin wallet will be removed from this device. You’ll stay signed in to Bringin. If you have your recovery phrase, you can restore this wallet later.';
+
+  @override
+  String get manage_wallet_disconnect_payment_in_progress =>
+      'You have a payment in progress. Disconnecting now may interrupt it.';
+
+  @override
+  String get manage_wallet_action_disconnect => 'Disconnect';
+
+  @override
+  String get manage_wallet_action_disconnect_anyway =>
+      'I understand, disconnect anyway';
+
+  @override
+  String get manage_wallet_secure_now_title => 'Secure your Bitcoin now';
+
+  @override
+  String get manage_wallet_secure_now_message =>
+      'Your wallet isn’t backed up. If you lose access, your Bitcoin will be permanently lost.';
+
+  @override
+  String get manage_wallet_secure_now_note =>
+      'Bringin cannot recover it, as we do not store your keys.';
 }
