@@ -1037,4 +1037,393 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get create_invoice_field_label_description => 'Description';
+
+  @override
+  String get action_skip => 'Skip';
+
+  @override
+  String get action_continue => 'Continue';
+
+  @override
+  String get action_go_back => 'Go back';
+
+  @override
+  String get action_home => 'Home';
+
+  @override
+  String get badge_advanced => 'Advanced';
+
+  @override
+  String get add_wallet_title => 'Set up a Bitcoin wallet';
+
+  @override
+  String get add_wallet_intro =>
+      'Bringin lets you use a self-custody wallet. Create a new wallet with us or connect an existing hardware or software wallet.';
+
+  @override
+  String get add_wallet_option_create_title => 'Create a new wallet';
+
+  @override
+  String get add_wallet_option_create_subtitle =>
+      'Set up a new self-custody wallet.';
+
+  @override
+  String get add_wallet_option_restore_title => 'Restore a wallet';
+
+  @override
+  String get add_wallet_option_restore_subtitle =>
+      'Recover from your backup or 12-word recovery phrase.';
+
+  @override
+  String get add_wallet_option_external_title => 'Link an external wallet';
+
+  @override
+  String get add_wallet_option_external_subtitle =>
+      'Link an external NWC wallet. (Coming soon)';
+
+  @override
+  String get add_wallet_external_coming_soon =>
+      'Linking an external wallet is coming soon';
+
+  @override
+  String get add_wallet_action_verify => 'Verify';
+
+  @override
+  String get add_wallet_loader_restoring =>
+      'Restoring your wallet. This won\'t take long.';
+
+  @override
+  String get add_wallet_loader_creating =>
+      'Creating your new wallet. Almost there!';
+
+  @override
+  String get add_wallet_loader_checking => 'Checking your wallet.';
+
+  @override
+  String get add_wallet_loader_spark_setup => 'Setting up Spark wallet...';
+
+  @override
+  String get backup_prompt_title_create => 'Create a new wallet';
+
+  @override
+  String get backup_prompt_intro =>
+      'You’re using a non-custodial wallet—only you have access to your funds. We don’t hold your keys or control your Bitcoin.';
+
+  @override
+  String get backup_prompt_heading => 'Back up your wallet';
+
+  @override
+  String get backup_prompt_why_title => 'Why back up?';
+
+  @override
+  String get backup_prompt_why_description =>
+      'Backing up your wallet ensures you can recover your Bitcoin if you lose access to your device or app. Without a backup, your funds cannot be recovered.';
+
+  @override
+  String get backup_option_cloud_title => 'Back up to Google Drive / iCloud';
+
+  @override
+  String get backup_option_cloud_subtitle =>
+      'Automatic backup. If you lose your device, you can recover your wallet easily.';
+
+  @override
+  String get backup_option_write_down_title => 'Write down recovery phrase';
+
+  @override
+  String get backup_option_write_down_subtitle =>
+      'Save your 12-word phrase securely. It’s the only way to recover your wallet.';
+
+  @override
+  String get backup_prompt_action_skip => 'Skip backup and create wallet';
+
+  @override
+  String get backup_action_submit => 'Back up wallet';
+
+  @override
+  String get backup_cloud_title => 'Back up to cloud';
+
+  @override
+  String get backup_cloud_option_plain_title =>
+      'Back up without additional password';
+
+  @override
+  String get backup_cloud_option_plain_subtitle =>
+      'Automatic backup. Recover your wallet easily if you lose access to your device.';
+
+  @override
+  String get backup_cloud_option_password_title =>
+      'Back up with additional password';
+
+  @override
+  String get backup_cloud_option_password_subtitle =>
+      'Encrypt your backup with a password. Only use this if you can store it safely—losing it means you will not be able to restore your wallet.';
+
+  @override
+  String get backup_cloud_option_1 => 'OPTION 1';
+
+  @override
+  String get backup_cloud_option_2 => 'OPTION 2';
+
+  @override
+  String get backup_cloud_icloud_coming_soon => 'iCloud backup coming soon';
+
+  @override
+  String get cloud_picker_title => 'Sign in to your cloud storage';
+
+  @override
+  String get cloud_picker_google_drive => 'Sign in to Google Drive';
+
+  @override
+  String get cloud_picker_icloud => 'Sign in to iCloud';
+
+  @override
+  String get cloud_picker_coming_soon => '(Coming soon)';
+
+  @override
+  String get restore_wallet_title => 'Restore a wallet';
+
+  @override
+  String get restore_wallet_heading => 'Restore';
+
+  @override
+  String get restore_option_cloud_title => 'From Google Drive / iCloud';
+
+  @override
+  String get restore_option_cloud_subtitle =>
+      'Sign in to your cloud storage to restore your wallet if you’ve created a backup.';
+
+  @override
+  String get restore_option_phrase_title => 'From your recovery phrase';
+
+  @override
+  String get restore_option_phrase_subtitle =>
+      'Restore your wallet using your securely stored 12-word recovery phrase.';
+
+  @override
+  String get restore_wallet_action_submit => 'Restore wallet';
+
+  @override
+  String get restore_wallet_icloud_coming_soon => 'iCloud restore coming soon';
+
+  @override
+  String get restore_wallet_loader_checking => 'Checking your backup.';
+
+  @override
+  String get restore_wallet_error_no_backup =>
+      'No backup found on this Google account. Try a different account, or restore using your recovery phrase.';
+
+  @override
+  String get restore_wallet_error_corrupted =>
+      'This backup looks corrupted (expected a 12-word phrase). Try another account or restore using your recovery phrase.';
+
+  @override
+  String get migration_title => 'Wallet migration';
+
+  @override
+  String get migration_heading => 'Migrate your wallet to continue';
+
+  @override
+  String get migration_found_wallet_prefix =>
+      'We found an existing wallet with ';
+
+  @override
+  String migration_found_wallet_amount(String sats) {
+    return '$sats sats';
+  }
+
+  @override
+  String get migration_upgrade_title => 'We’ve upgraded our network.';
+
+  @override
+  String get migration_upgrade_description =>
+      'We’ve upgraded to a new blockchain (Spark) for improved features and reliability. To continue using your wallet, it needs to be migrated.\n\nYour funds will be transferred securely, and you can continue using your wallet as usual.';
+
+  @override
+  String get migration_no_migrate_note =>
+      'If you choose not to migrate, you can create a new wallet, but your existing funds will not be carried over.';
+
+  @override
+  String get migration_existing_wallet_label => 'Existing wallet';
+
+  @override
+  String get migration_fees_label => 'Network fees';
+
+  @override
+  String get migration_balance_after_label => 'Balance after migration';
+
+  @override
+  String get migration_action_create_new => 'Create new wallet instead';
+
+  @override
+  String get migration_action_migrate => 'Migrate wallet';
+
+  @override
+  String get migration_confirm_title => 'Create a new wallet?';
+
+  @override
+  String migration_confirm_bullet_holds(String sats) {
+    return 'Your existing wallet holds $sats sats on Liquid Blockchain.';
+  }
+
+  @override
+  String get migration_confirm_bullet_inaccessible =>
+      'If you continue, these funds will not be accessible in the new wallet.';
+
+  @override
+  String get migration_confirm_acknowledge =>
+      'I understand my existing funds will not be carried over.';
+
+  @override
+  String get migration_confirm_action_create => 'Create wallet';
+
+  @override
+  String get migration_progress_label => 'Migrating';
+
+  @override
+  String get migration_progress_from_to => 'from Liquid to Spark';
+
+  @override
+  String get migration_step_connecting => 'Connecting to Liquid wallet...';
+
+  @override
+  String get migration_step_complete => 'Migration completed successfully!';
+
+  @override
+  String get migration_step_failed => 'Migration failed';
+
+  @override
+  String migration_error_with_detail(String details) {
+    return 'Migration failed: $details';
+  }
+
+  @override
+  String get migration_dust_title => 'Balance too small to migrate';
+
+  @override
+  String migration_dust_message(String minSats) {
+    return 'Migration isn’t possible for balances under $minSats sats due to network fees. We’ll create a fresh wallet instead.';
+  }
+
+  @override
+  String get migration_success_title_migrated =>
+      'Wallet migrated successfully!';
+
+  @override
+  String get migration_success_subtitle_migrated =>
+      'Your funds have been transferred to the new network. You can continue using your wallet as usual.';
+
+  @override
+  String get migration_success_title_created => 'New wallet created!';
+
+  @override
+  String get migration_success_subtitle_created =>
+      'Your new wallet is ready to use. Your existing funds stay on the old network.';
+
+  @override
+  String get migration_success_history_title => 'Transaction history';
+
+  @override
+  String migration_success_history_description(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other:
+          'We found $count transactions on your old wallet. Since you’re moving to a new network, this history won’t be available in the app. Do you want to save a copy?',
+      one:
+          'We found 1 transaction on your old wallet. Since you’re moving to a new network, this history won’t be available in the app. Do you want to save a copy?',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get liquid_export_title => 'Save Transaction History';
+
+  @override
+  String liquid_export_message(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other:
+          'Your Liquid wallet had $count transactions. Since you’re moving to Spark, you won’t be able to view these in the app. Would you like to save a copy?',
+      one:
+          'Your Liquid wallet had 1 transaction. Since you’re moving to Spark, you won’t be able to view these in the app. Would you like to save a copy?',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get liquid_export_action_download => 'Download CSV';
+
+  @override
+  String get liquid_export_action_download_again => 'Download Again';
+
+  @override
+  String get liquid_export_share_title => 'Liquid Transaction History';
+
+  @override
+  String get liquid_export_error => 'Failed to export transactions';
+
+  @override
+  String get wallet_success_title_active => 'Back up secure & wallet active!';
+
+  @override
+  String get wallet_success_title_logged_out => 'Back up secure & logged out!';
+
+  @override
+  String get wallet_success_title_disconnected =>
+      'Back up secure & wallet disconnected!';
+
+  @override
+  String get wallet_success_bullet_only_backup =>
+      'Your recovery phrase is your only backup.';
+
+  @override
+  String get wallet_success_bullet_keep_private =>
+      'Keep it private and stored offline.';
+
+  @override
+  String get wallet_success_bullet_now_active => 'Your wallet is now active.';
+
+  @override
+  String get wallet_success_cloud_prefix =>
+      'You have cloud backup on your Google drive as ';
+
+  @override
+  String get wallet_success_cloud_suffix => '. Your wallet is now active.';
+
+  @override
+  String get wallet_success_cloud_no_email =>
+      'You have cloud backup on your Google drive. Your wallet is now active.';
+
+  @override
+  String get wallet_success_backed_up_prefix =>
+      'Your wallet is backed up to your Google drive as ';
+
+  @override
+  String get wallet_success_logout_suffix =>
+      '. Sign back in anytime to restore it.';
+
+  @override
+  String get wallet_success_logout_no_email =>
+      'Your wallet is backed up to your Google drive. Sign back in anytime to restore it.';
+
+  @override
+  String get wallet_success_disconnect_suffix =>
+      '. Sign in and restore your wallet anytime.';
+
+  @override
+  String get wallet_success_disconnect_no_email =>
+      'Your wallet is backed up to your Google drive. Sign in and restore your wallet anytime.';
+
+  @override
+  String get wallet_success_write_down_logout =>
+      'Keep your 12-word recovery phrase safe. Sign back in anytime to restore your wallet.';
+
+  @override
+  String get wallet_success_write_down_disconnect =>
+      'Keep your 12-word recovery phrase safe. You can restore your wallet anytime from the Bringin app.';
+
+  @override
+  String get wallet_backup_failure_message =>
+      'We couldn’t set up your backup. Please try again.';
 }

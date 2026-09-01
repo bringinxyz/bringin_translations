@@ -1876,6 +1876,648 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Description'**
   String get create_invoice_field_label_description;
+
+  /// No description provided for @action_skip.
+  ///
+  /// In en, this message translates to:
+  /// **'Skip'**
+  String get action_skip;
+
+  /// No description provided for @action_continue.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue'**
+  String get action_continue;
+
+  /// No description provided for @action_go_back.
+  ///
+  /// In en, this message translates to:
+  /// **'Go back'**
+  String get action_go_back;
+
+  /// No description provided for @action_home.
+  ///
+  /// In en, this message translates to:
+  /// **'Home'**
+  String get action_home;
+
+  /// No description provided for @badge_advanced.
+  ///
+  /// In en, this message translates to:
+  /// **'Advanced'**
+  String get badge_advanced;
+
+  /// No description provided for @add_wallet_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Set up a Bitcoin wallet'**
+  String get add_wallet_title;
+
+  /// No description provided for @add_wallet_intro.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin lets you use a self-custody wallet. Create a new wallet with us or connect an existing hardware or software wallet.'**
+  String get add_wallet_intro;
+
+  /// No description provided for @add_wallet_option_create_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Create a new wallet'**
+  String get add_wallet_option_create_title;
+
+  /// No description provided for @add_wallet_option_create_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Set up a new self-custody wallet.'**
+  String get add_wallet_option_create_subtitle;
+
+  /// No description provided for @add_wallet_option_restore_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore a wallet'**
+  String get add_wallet_option_restore_title;
+
+  /// No description provided for @add_wallet_option_restore_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Recover from your backup or 12-word recovery phrase.'**
+  String get add_wallet_option_restore_subtitle;
+
+  /// No description provided for @add_wallet_option_external_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Link an external wallet'**
+  String get add_wallet_option_external_title;
+
+  /// No description provided for @add_wallet_option_external_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Link an external NWC wallet. (Coming soon)'**
+  String get add_wallet_option_external_subtitle;
+
+  /// No description provided for @add_wallet_external_coming_soon.
+  ///
+  /// In en, this message translates to:
+  /// **'Linking an external wallet is coming soon'**
+  String get add_wallet_external_coming_soon;
+
+  /// No description provided for @add_wallet_action_verify.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify'**
+  String get add_wallet_action_verify;
+
+  /// No description provided for @add_wallet_loader_restoring.
+  ///
+  /// In en, this message translates to:
+  /// **'Restoring your wallet. This won\'t take long.'**
+  String get add_wallet_loader_restoring;
+
+  /// No description provided for @add_wallet_loader_creating.
+  ///
+  /// In en, this message translates to:
+  /// **'Creating your new wallet. Almost there!'**
+  String get add_wallet_loader_creating;
+
+  /// No description provided for @add_wallet_loader_checking.
+  ///
+  /// In en, this message translates to:
+  /// **'Checking your wallet.'**
+  String get add_wallet_loader_checking;
+
+  /// No description provided for @add_wallet_loader_spark_setup.
+  ///
+  /// In en, this message translates to:
+  /// **'Setting up Spark wallet...'**
+  String get add_wallet_loader_spark_setup;
+
+  /// No description provided for @backup_prompt_title_create.
+  ///
+  /// In en, this message translates to:
+  /// **'Create a new wallet'**
+  String get backup_prompt_title_create;
+
+  /// No description provided for @backup_prompt_intro.
+  ///
+  /// In en, this message translates to:
+  /// **'You’re using a non-custodial wallet—only you have access to your funds. We don’t hold your keys or control your Bitcoin.'**
+  String get backup_prompt_intro;
+
+  /// No description provided for @backup_prompt_heading.
+  ///
+  /// In en, this message translates to:
+  /// **'Back up your wallet'**
+  String get backup_prompt_heading;
+
+  /// No description provided for @backup_prompt_why_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Why back up?'**
+  String get backup_prompt_why_title;
+
+  /// No description provided for @backup_prompt_why_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Backing up your wallet ensures you can recover your Bitcoin if you lose access to your device or app. Without a backup, your funds cannot be recovered.'**
+  String get backup_prompt_why_description;
+
+  /// No description provided for @backup_option_cloud_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Back up to Google Drive / iCloud'**
+  String get backup_option_cloud_title;
+
+  /// No description provided for @backup_option_cloud_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Automatic backup. If you lose your device, you can recover your wallet easily.'**
+  String get backup_option_cloud_subtitle;
+
+  /// No description provided for @backup_option_write_down_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Write down recovery phrase'**
+  String get backup_option_write_down_title;
+
+  /// No description provided for @backup_option_write_down_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Save your 12-word phrase securely. It’s the only way to recover your wallet.'**
+  String get backup_option_write_down_subtitle;
+
+  /// No description provided for @backup_prompt_action_skip.
+  ///
+  /// In en, this message translates to:
+  /// **'Skip backup and create wallet'**
+  String get backup_prompt_action_skip;
+
+  /// No description provided for @backup_action_submit.
+  ///
+  /// In en, this message translates to:
+  /// **'Back up wallet'**
+  String get backup_action_submit;
+
+  /// No description provided for @backup_cloud_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Back up to cloud'**
+  String get backup_cloud_title;
+
+  /// No description provided for @backup_cloud_option_plain_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Back up without additional password'**
+  String get backup_cloud_option_plain_title;
+
+  /// No description provided for @backup_cloud_option_plain_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Automatic backup. Recover your wallet easily if you lose access to your device.'**
+  String get backup_cloud_option_plain_subtitle;
+
+  /// No description provided for @backup_cloud_option_password_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Back up with additional password'**
+  String get backup_cloud_option_password_title;
+
+  /// No description provided for @backup_cloud_option_password_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Encrypt your backup with a password. Only use this if you can store it safely—losing it means you will not be able to restore your wallet.'**
+  String get backup_cloud_option_password_subtitle;
+
+  /// No description provided for @backup_cloud_option_1.
+  ///
+  /// In en, this message translates to:
+  /// **'OPTION 1'**
+  String get backup_cloud_option_1;
+
+  /// No description provided for @backup_cloud_option_2.
+  ///
+  /// In en, this message translates to:
+  /// **'OPTION 2'**
+  String get backup_cloud_option_2;
+
+  /// No description provided for @backup_cloud_icloud_coming_soon.
+  ///
+  /// In en, this message translates to:
+  /// **'iCloud backup coming soon'**
+  String get backup_cloud_icloud_coming_soon;
+
+  /// No description provided for @cloud_picker_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in to your cloud storage'**
+  String get cloud_picker_title;
+
+  /// No description provided for @cloud_picker_google_drive.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in to Google Drive'**
+  String get cloud_picker_google_drive;
+
+  /// No description provided for @cloud_picker_icloud.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in to iCloud'**
+  String get cloud_picker_icloud;
+
+  /// No description provided for @cloud_picker_coming_soon.
+  ///
+  /// In en, this message translates to:
+  /// **'(Coming soon)'**
+  String get cloud_picker_coming_soon;
+
+  /// No description provided for @restore_wallet_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore a wallet'**
+  String get restore_wallet_title;
+
+  /// No description provided for @restore_wallet_heading.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore'**
+  String get restore_wallet_heading;
+
+  /// No description provided for @restore_option_cloud_title.
+  ///
+  /// In en, this message translates to:
+  /// **'From Google Drive / iCloud'**
+  String get restore_option_cloud_title;
+
+  /// No description provided for @restore_option_cloud_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in to your cloud storage to restore your wallet if you’ve created a backup.'**
+  String get restore_option_cloud_subtitle;
+
+  /// No description provided for @restore_option_phrase_title.
+  ///
+  /// In en, this message translates to:
+  /// **'From your recovery phrase'**
+  String get restore_option_phrase_title;
+
+  /// No description provided for @restore_option_phrase_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore your wallet using your securely stored 12-word recovery phrase.'**
+  String get restore_option_phrase_subtitle;
+
+  /// No description provided for @restore_wallet_action_submit.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore wallet'**
+  String get restore_wallet_action_submit;
+
+  /// No description provided for @restore_wallet_icloud_coming_soon.
+  ///
+  /// In en, this message translates to:
+  /// **'iCloud restore coming soon'**
+  String get restore_wallet_icloud_coming_soon;
+
+  /// No description provided for @restore_wallet_loader_checking.
+  ///
+  /// In en, this message translates to:
+  /// **'Checking your backup.'**
+  String get restore_wallet_loader_checking;
+
+  /// No description provided for @restore_wallet_error_no_backup.
+  ///
+  /// In en, this message translates to:
+  /// **'No backup found on this Google account. Try a different account, or restore using your recovery phrase.'**
+  String get restore_wallet_error_no_backup;
+
+  /// No description provided for @restore_wallet_error_corrupted.
+  ///
+  /// In en, this message translates to:
+  /// **'This backup looks corrupted (expected a 12-word phrase). Try another account or restore using your recovery phrase.'**
+  String get restore_wallet_error_corrupted;
+
+  /// No description provided for @migration_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet migration'**
+  String get migration_title;
+
+  /// No description provided for @migration_heading.
+  ///
+  /// In en, this message translates to:
+  /// **'Migrate your wallet to continue'**
+  String get migration_heading;
+
+  /// No description provided for @migration_found_wallet_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'We found an existing wallet with '**
+  String get migration_found_wallet_prefix;
+
+  /// No description provided for @migration_found_wallet_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'{sats} sats'**
+  String migration_found_wallet_amount(String sats);
+
+  /// No description provided for @migration_upgrade_title.
+  ///
+  /// In en, this message translates to:
+  /// **'We’ve upgraded our network.'**
+  String get migration_upgrade_title;
+
+  /// No description provided for @migration_upgrade_description.
+  ///
+  /// In en, this message translates to:
+  /// **'We’ve upgraded to a new blockchain (Spark) for improved features and reliability. To continue using your wallet, it needs to be migrated.\n\nYour funds will be transferred securely, and you can continue using your wallet as usual.'**
+  String get migration_upgrade_description;
+
+  /// No description provided for @migration_no_migrate_note.
+  ///
+  /// In en, this message translates to:
+  /// **'If you choose not to migrate, you can create a new wallet, but your existing funds will not be carried over.'**
+  String get migration_no_migrate_note;
+
+  /// No description provided for @migration_existing_wallet_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Existing wallet'**
+  String get migration_existing_wallet_label;
+
+  /// No description provided for @migration_fees_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Network fees'**
+  String get migration_fees_label;
+
+  /// No description provided for @migration_balance_after_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Balance after migration'**
+  String get migration_balance_after_label;
+
+  /// No description provided for @migration_action_create_new.
+  ///
+  /// In en, this message translates to:
+  /// **'Create new wallet instead'**
+  String get migration_action_create_new;
+
+  /// No description provided for @migration_action_migrate.
+  ///
+  /// In en, this message translates to:
+  /// **'Migrate wallet'**
+  String get migration_action_migrate;
+
+  /// No description provided for @migration_confirm_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Create a new wallet?'**
+  String get migration_confirm_title;
+
+  /// No description provided for @migration_confirm_bullet_holds.
+  ///
+  /// In en, this message translates to:
+  /// **'Your existing wallet holds {sats} sats on Liquid Blockchain.'**
+  String migration_confirm_bullet_holds(String sats);
+
+  /// No description provided for @migration_confirm_bullet_inaccessible.
+  ///
+  /// In en, this message translates to:
+  /// **'If you continue, these funds will not be accessible in the new wallet.'**
+  String get migration_confirm_bullet_inaccessible;
+
+  /// No description provided for @migration_confirm_acknowledge.
+  ///
+  /// In en, this message translates to:
+  /// **'I understand my existing funds will not be carried over.'**
+  String get migration_confirm_acknowledge;
+
+  /// No description provided for @migration_confirm_action_create.
+  ///
+  /// In en, this message translates to:
+  /// **'Create wallet'**
+  String get migration_confirm_action_create;
+
+  /// No description provided for @migration_progress_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Migrating'**
+  String get migration_progress_label;
+
+  /// No description provided for @migration_progress_from_to.
+  ///
+  /// In en, this message translates to:
+  /// **'from Liquid to Spark'**
+  String get migration_progress_from_to;
+
+  /// No description provided for @migration_step_connecting.
+  ///
+  /// In en, this message translates to:
+  /// **'Connecting to Liquid wallet...'**
+  String get migration_step_connecting;
+
+  /// No description provided for @migration_step_complete.
+  ///
+  /// In en, this message translates to:
+  /// **'Migration completed successfully!'**
+  String get migration_step_complete;
+
+  /// No description provided for @migration_step_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Migration failed'**
+  String get migration_step_failed;
+
+  /// No description provided for @migration_error_with_detail.
+  ///
+  /// In en, this message translates to:
+  /// **'Migration failed: {details}'**
+  String migration_error_with_detail(String details);
+
+  /// No description provided for @migration_dust_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Balance too small to migrate'**
+  String get migration_dust_title;
+
+  /// No description provided for @migration_dust_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Migration isn’t possible for balances under {minSats} sats due to network fees. We’ll create a fresh wallet instead.'**
+  String migration_dust_message(String minSats);
+
+  /// No description provided for @migration_success_title_migrated.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet migrated successfully!'**
+  String get migration_success_title_migrated;
+
+  /// No description provided for @migration_success_subtitle_migrated.
+  ///
+  /// In en, this message translates to:
+  /// **'Your funds have been transferred to the new network. You can continue using your wallet as usual.'**
+  String get migration_success_subtitle_migrated;
+
+  /// No description provided for @migration_success_title_created.
+  ///
+  /// In en, this message translates to:
+  /// **'New wallet created!'**
+  String get migration_success_title_created;
+
+  /// No description provided for @migration_success_subtitle_created.
+  ///
+  /// In en, this message translates to:
+  /// **'Your new wallet is ready to use. Your existing funds stay on the old network.'**
+  String get migration_success_subtitle_created;
+
+  /// No description provided for @migration_success_history_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction history'**
+  String get migration_success_history_title;
+
+  /// No description provided for @migration_success_history_description.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{We found 1 transaction on your old wallet. Since you’re moving to a new network, this history won’t be available in the app. Do you want to save a copy?} other{We found {count} transactions on your old wallet. Since you’re moving to a new network, this history won’t be available in the app. Do you want to save a copy?}}'**
+  String migration_success_history_description(int count);
+
+  /// No description provided for @liquid_export_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Save Transaction History'**
+  String get liquid_export_title;
+
+  /// No description provided for @liquid_export_message.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{Your Liquid wallet had 1 transaction. Since you’re moving to Spark, you won’t be able to view these in the app. Would you like to save a copy?} other{Your Liquid wallet had {count} transactions. Since you’re moving to Spark, you won’t be able to view these in the app. Would you like to save a copy?}}'**
+  String liquid_export_message(int count);
+
+  /// No description provided for @liquid_export_action_download.
+  ///
+  /// In en, this message translates to:
+  /// **'Download CSV'**
+  String get liquid_export_action_download;
+
+  /// No description provided for @liquid_export_action_download_again.
+  ///
+  /// In en, this message translates to:
+  /// **'Download Again'**
+  String get liquid_export_action_download_again;
+
+  /// No description provided for @liquid_export_share_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Liquid Transaction History'**
+  String get liquid_export_share_title;
+
+  /// No description provided for @liquid_export_error.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to export transactions'**
+  String get liquid_export_error;
+
+  /// No description provided for @wallet_success_title_active.
+  ///
+  /// In en, this message translates to:
+  /// **'Back up secure & wallet active!'**
+  String get wallet_success_title_active;
+
+  /// No description provided for @wallet_success_title_logged_out.
+  ///
+  /// In en, this message translates to:
+  /// **'Back up secure & logged out!'**
+  String get wallet_success_title_logged_out;
+
+  /// No description provided for @wallet_success_title_disconnected.
+  ///
+  /// In en, this message translates to:
+  /// **'Back up secure & wallet disconnected!'**
+  String get wallet_success_title_disconnected;
+
+  /// No description provided for @wallet_success_bullet_only_backup.
+  ///
+  /// In en, this message translates to:
+  /// **'Your recovery phrase is your only backup.'**
+  String get wallet_success_bullet_only_backup;
+
+  /// No description provided for @wallet_success_bullet_keep_private.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep it private and stored offline.'**
+  String get wallet_success_bullet_keep_private;
+
+  /// No description provided for @wallet_success_bullet_now_active.
+  ///
+  /// In en, this message translates to:
+  /// **'Your wallet is now active.'**
+  String get wallet_success_bullet_now_active;
+
+  /// No description provided for @wallet_success_cloud_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'You have cloud backup on your Google drive as '**
+  String get wallet_success_cloud_prefix;
+
+  /// No description provided for @wallet_success_cloud_suffix.
+  ///
+  /// In en, this message translates to:
+  /// **'. Your wallet is now active.'**
+  String get wallet_success_cloud_suffix;
+
+  /// No description provided for @wallet_success_cloud_no_email.
+  ///
+  /// In en, this message translates to:
+  /// **'You have cloud backup on your Google drive. Your wallet is now active.'**
+  String get wallet_success_cloud_no_email;
+
+  /// No description provided for @wallet_success_backed_up_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'Your wallet is backed up to your Google drive as '**
+  String get wallet_success_backed_up_prefix;
+
+  /// No description provided for @wallet_success_logout_suffix.
+  ///
+  /// In en, this message translates to:
+  /// **'. Sign back in anytime to restore it.'**
+  String get wallet_success_logout_suffix;
+
+  /// No description provided for @wallet_success_logout_no_email.
+  ///
+  /// In en, this message translates to:
+  /// **'Your wallet is backed up to your Google drive. Sign back in anytime to restore it.'**
+  String get wallet_success_logout_no_email;
+
+  /// No description provided for @wallet_success_disconnect_suffix.
+  ///
+  /// In en, this message translates to:
+  /// **'. Sign in and restore your wallet anytime.'**
+  String get wallet_success_disconnect_suffix;
+
+  /// No description provided for @wallet_success_disconnect_no_email.
+  ///
+  /// In en, this message translates to:
+  /// **'Your wallet is backed up to your Google drive. Sign in and restore your wallet anytime.'**
+  String get wallet_success_disconnect_no_email;
+
+  /// No description provided for @wallet_success_write_down_logout.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep your 12-word recovery phrase safe. Sign back in anytime to restore your wallet.'**
+  String get wallet_success_write_down_logout;
+
+  /// No description provided for @wallet_success_write_down_disconnect.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep your 12-word recovery phrase safe. You can restore your wallet anytime from the Bringin app.'**
+  String get wallet_success_write_down_disconnect;
+
+  /// No description provided for @wallet_backup_failure_message.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn’t set up your backup. Please try again.'**
+  String get wallet_backup_failure_message;
 }
 
 class _BringinTranslationsDelegate
