@@ -871,7 +871,6 @@
     }
   },
   "add_money_scan_qr_fixed_invoice": "Scan QR to add money. Add amount for fixed invoice.",
-  "add_money_transaction_in_progress": "One transaction in progress",
   "add_money_use_bitcoin_wallet": "Use your Bitcoin wallet",
   "add_money_use_lightning_wallet": "Use your Lightning wallet",
   "add_money_label_onchain_address": "On-chain address",

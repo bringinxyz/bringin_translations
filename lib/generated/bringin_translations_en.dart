@@ -1783,9 +1783,6 @@ class BringinTranslationsEn extends BringinTranslations {
       'Scan QR to add money. Add amount for fixed invoice.';
 
   @override
-  String get add_money_transaction_in_progress => 'One transaction in progress';
-
-  @override
   String get add_money_use_bitcoin_wallet => 'Use your Bitcoin wallet';
 
   @override

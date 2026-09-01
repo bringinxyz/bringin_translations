@@ -3155,12 +3155,6 @@ abstract class BringinTranslations {
   /// **'Scan QR to add money. Add amount for fixed invoice.'**
   String get add_money_scan_qr_fixed_invoice;
 
-  /// No description provided for @add_money_transaction_in_progress.
-  ///
-  /// In en, this message translates to:
-  /// **'One transaction in progress'**
-  String get add_money_transaction_in_progress;
-
   /// No description provided for @add_money_use_bitcoin_wallet.
   ///
   /// In en, this message translates to:
