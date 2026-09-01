@@ -3976,6 +3976,12 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Finishing up...'**
   String get connect_buy_loader_4;
+
+  /// No description provided for @connect_transaction_count.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 transaction} other{{count} transactions}}'**
+  String connect_transaction_count(int count);
 }
 
 class _BringinTranslationsDelegate

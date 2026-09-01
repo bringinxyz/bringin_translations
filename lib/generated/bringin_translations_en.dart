@@ -2263,4 +2263,15 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get connect_buy_loader_4 => 'Finishing up...';
+
+  @override
+  String connect_transaction_count(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count transactions',
+      one: '1 transaction',
+    );
+    return '$_temp0';
+  }
 }
