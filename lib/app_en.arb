@@ -19,15 +19,6 @@
     }
   },
   "amount_form_error_invalid_amount": "Invalid amount",
-  "backup_phrase_generation_index": "{index}.",
-  "@backup_phrase_generation_index": {
-    "placeholders": {
-      "index": {
-        "type": "int",
-        "example": "1"
-      }
-    }
-  },
   "bringin_type_fiat_withdrawal": "Euro Withdrawal",
   "bringin_type_offramp": "Sold Bitcoin",
   "bringin_type_onramp_partial_fiat_deposit": "Bought Bitcoin",
@@ -53,7 +44,6 @@
   "bringin_card_type_physical": "Physical",
   "bringin_card_type_virtual": "Virtual",
   "bringin_card_type_label": "Card Type",
-  "bitcoin_address_scan_tooltip": "Scan BTC Address",
   "currency_converter_dialog_error_exchange_rate": "Failed to retrieve BTC exchange rate.",
   "fee_chooser_option_economy": "Economy",
   "fee_chooser_option_regular": "Regular",
@@ -203,7 +193,6 @@
   "generic_network_error": "Failed to connect to Bringin. Please check your internet connection and try again.",
   "qr_code_dialog_warning_message": "Keep Bringin open until the payment is completed.",
   "qr_action_button_error_code_not_detected": "QR code wasn't detected.",
-  "qr_code_not_detected_error": "QR code wasn't detected.",
   "successful_payment_received": "Payment received!",
   "successful_payment_sent_title": "Payment was\nsuccessfully sent!",
   "valid_payment_error_exceeds_the_limit": "Payment exceeds the limit {amount}.",
@@ -246,7 +235,6 @@
   "wallet_dashboard_payment_item_no_title": "Unknown",
   "withdraw_funds_use_all_funds": "Use all Funds",
   "withdraw_funds_btc_address": "BTC Address",
-  "withdraw_funds_error_invalid_address": "Please enter a valid BTC Address",
   "withdraw_funds_action_next": "NEXT",
   "locale": "en",
   "app_name": "Bringin",
@@ -708,5 +696,117 @@
   "login_required_action_login_title": "Login to Bringin",
   "login_required_action_login_subtitle": "Access full features including Euro account and swap functionality",
   "login_required_action_bitcoin_only_title": "Continue with Bitcoin only",
-  "login_required_action_bitcoin_only_subtitle": "Keep using your Bitcoin wallet without Euro features"
+  "login_required_action_bitcoin_only_subtitle": "Keep using your Bitcoin wallet without Euro features",
+  "wallet_bitcoin_label": "Bitcoin wallet",
+  "send_title": "Send money",
+  "send_action_swipe": "Swipe to send",
+  "send_use_full_balance": "Use the full wallet balance",
+  "send_label_recipient_receives": "Recipient receives",
+  "send_label_reference": "Reference",
+  "send_label_transaction_id": "Transaction ID",
+  "send_label_network_fee": "Network fee",
+  "send_label_total_payable": "Total payable",
+  "send_success_title": "Sent successfully!",
+  "send_pay_to_bringin_address": "Pay to my Bringin address",
+  "send_sent_to_bringin": "Sent to Bringin",
+  "send_to_bringin": "To Bringin",
+  "send_lightning_payment_label": "Lightning payment",
+  "send_lightning_address_label": "Lightning Address",
+  "send_entry_title": "Send",
+  "send_entry_hint": "Paste your LN Invoice or LN address or BTC address below",
+  "send_confirm_prompt": "Do you want to confirm the following details?",
+  "send_confirm_label_amount": "Amount",
+  "send_confirm_label_invoice_amount": "Invoice Amount",
+  "send_confirm_label_total_amount": "Total Amount",
+  "send_confirm_label_description": "Description",
+  "send_confirm_label_destination": "Destination",
+  "send_confirm_label_recipient_address": "Recipient Address",
+  "send_fee_calculating": "Calculating...",
+  "send_fee_unknown": "Unknown",
+  "send_confirm_you_will_pay": "You will pay",
+  "send_confirm_you_pay": "You pay ",
+  "send_confirm_incl_fees": " (incl. fees)",
+  "send_confirm_total_suffix": " total.",
+  "send_confirm_amount_sats": " {sats} sats",
+  "@send_confirm_amount_sats": {
+    "placeholders": {
+      "sats": {
+        "type": "String",
+        "example": "12 500"
+      }
+    }
+  },
+  "send_action_confirm_payment": "CONFIRM PAYMENT",
+  "send_action_confirm_send": "CONFIRM SEND",
+  "send_amount_field_label": "Amount (sats)",
+  "send_amount_error_required": "Amount is required",
+  "send_amount_error_invalid": "Enter a valid sats amount",
+  "send_amount_error_below_minimum": "Minimum amount is {min} sats",
+  "@send_amount_error_below_minimum": {
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "1 000"
+      }
+    }
+  },
+  "send_amount_error_exceeds_balance": "Amount exceeds your balance of {balance} sats",
+  "@send_amount_error_exceeds_balance": {
+    "placeholders": {
+      "balance": {
+        "type": "String",
+        "example": "50 000"
+      }
+    }
+  },
+  "send_amount_convert_from_eur": "Convert from EUR",
+  "send_amount_prompt_for_destination": "Enter the amount to send to {destination}",
+  "@send_amount_prompt_for_destination": {
+    "placeholders": {
+      "destination": {
+        "type": "String",
+        "example": "satoshi@bringin.xyz"
+      }
+    }
+  },
+  "send_amount_processing": "Processing...",
+  "send_amount_balance": "Balance: {balance}",
+  "@send_amount_balance": {
+    "placeholders": {
+      "balance": {
+        "type": "String",
+        "example": "฿0,0177"
+      }
+    }
+  },
+  "send_amount_hint_min_prefix": "Min: ",
+  "send_amount_hint_max_prefix": "  ·  Max: ",
+  "send_amount_hint_sats_suffix": " sats.",
+  "send_onchain_amount_prompt": "How much do you want to send?",
+  "send_onchain_loader_checking": "Checking your payment details.",
+  "send_onchain_success_title": "Payment Sent!",
+  "send_onchain_success_message": "Onchain payment sent successfully!",
+  "send_onchain_loader_sending": "Sending your payment. This won't take long.",
+  "send_error_title": "Error",
+  "send_error_payment_title": "Payment Error",
+  "send_error_payment_failed_title": "Payment Failed",
+  "send_error_unknown_reason": "Payment failed for unknown reason",
+  "send_error_payment_detail": "Payment error: {message}",
+  "@send_error_payment_detail": {
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "insufficient funds"
+      }
+    }
+  },
+  "send_error_generic_detail": "Error: {message}",
+  "@send_error_generic_detail": {
+    "placeholders": {
+      "message": {
+        "type": "String",
+        "example": "connection closed"
+      }
+    }
+  }
 }

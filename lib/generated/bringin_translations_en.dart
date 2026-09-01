@@ -22,11 +22,6 @@ class BringinTranslationsEn extends BringinTranslations {
   String get amount_form_error_invalid_amount => 'Invalid amount';
 
   @override
-  String backup_phrase_generation_index(int index) {
-    return '$index.';
-  }
-
-  @override
   String get bringin_type_fiat_withdrawal => 'Euro Withdrawal';
 
   @override
@@ -100,9 +95,6 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get bringin_card_type_label => 'Card Type';
-
-  @override
-  String get bitcoin_address_scan_tooltip => 'Scan BTC Address';
 
   @override
   String get currency_converter_dialog_error_exchange_rate =>
@@ -327,9 +319,6 @@ class BringinTranslationsEn extends BringinTranslations {
       'QR code wasn\'t detected.';
 
   @override
-  String get qr_code_not_detected_error => 'QR code wasn\'t detected.';
-
-  @override
   String get successful_payment_received => 'Payment received!';
 
   @override
@@ -367,10 +356,6 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get withdraw_funds_btc_address => 'BTC Address';
-
-  @override
-  String get withdraw_funds_error_invalid_address =>
-      'Please enter a valid BTC Address';
 
   @override
   String get withdraw_funds_action_next => 'NEXT';
@@ -1448,4 +1433,190 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get login_required_action_bitcoin_only_subtitle =>
       'Keep using your Bitcoin wallet without Euro features';
+
+  @override
+  String get wallet_bitcoin_label => 'Bitcoin wallet';
+
+  @override
+  String get send_title => 'Send money';
+
+  @override
+  String get send_action_swipe => 'Swipe to send';
+
+  @override
+  String get send_use_full_balance => 'Use the full wallet balance';
+
+  @override
+  String get send_label_recipient_receives => 'Recipient receives';
+
+  @override
+  String get send_label_reference => 'Reference';
+
+  @override
+  String get send_label_transaction_id => 'Transaction ID';
+
+  @override
+  String get send_label_network_fee => 'Network fee';
+
+  @override
+  String get send_label_total_payable => 'Total payable';
+
+  @override
+  String get send_success_title => 'Sent successfully!';
+
+  @override
+  String get send_pay_to_bringin_address => 'Pay to my Bringin address';
+
+  @override
+  String get send_sent_to_bringin => 'Sent to Bringin';
+
+  @override
+  String get send_to_bringin => 'To Bringin';
+
+  @override
+  String get send_lightning_payment_label => 'Lightning payment';
+
+  @override
+  String get send_lightning_address_label => 'Lightning Address';
+
+  @override
+  String get send_entry_title => 'Send';
+
+  @override
+  String get send_entry_hint =>
+      'Paste your LN Invoice or LN address or BTC address below';
+
+  @override
+  String get send_confirm_prompt =>
+      'Do you want to confirm the following details?';
+
+  @override
+  String get send_confirm_label_amount => 'Amount';
+
+  @override
+  String get send_confirm_label_invoice_amount => 'Invoice Amount';
+
+  @override
+  String get send_confirm_label_total_amount => 'Total Amount';
+
+  @override
+  String get send_confirm_label_description => 'Description';
+
+  @override
+  String get send_confirm_label_destination => 'Destination';
+
+  @override
+  String get send_confirm_label_recipient_address => 'Recipient Address';
+
+  @override
+  String get send_fee_calculating => 'Calculating...';
+
+  @override
+  String get send_fee_unknown => 'Unknown';
+
+  @override
+  String get send_confirm_you_will_pay => 'You will pay';
+
+  @override
+  String get send_confirm_you_pay => 'You pay ';
+
+  @override
+  String get send_confirm_incl_fees => ' (incl. fees)';
+
+  @override
+  String get send_confirm_total_suffix => ' total.';
+
+  @override
+  String send_confirm_amount_sats(String sats) {
+    return ' $sats sats';
+  }
+
+  @override
+  String get send_action_confirm_payment => 'CONFIRM PAYMENT';
+
+  @override
+  String get send_action_confirm_send => 'CONFIRM SEND';
+
+  @override
+  String get send_amount_field_label => 'Amount (sats)';
+
+  @override
+  String get send_amount_error_required => 'Amount is required';
+
+  @override
+  String get send_amount_error_invalid => 'Enter a valid sats amount';
+
+  @override
+  String send_amount_error_below_minimum(String min) {
+    return 'Minimum amount is $min sats';
+  }
+
+  @override
+  String send_amount_error_exceeds_balance(String balance) {
+    return 'Amount exceeds your balance of $balance sats';
+  }
+
+  @override
+  String get send_amount_convert_from_eur => 'Convert from EUR';
+
+  @override
+  String send_amount_prompt_for_destination(String destination) {
+    return 'Enter the amount to send to $destination';
+  }
+
+  @override
+  String get send_amount_processing => 'Processing...';
+
+  @override
+  String send_amount_balance(String balance) {
+    return 'Balance: $balance';
+  }
+
+  @override
+  String get send_amount_hint_min_prefix => 'Min: ';
+
+  @override
+  String get send_amount_hint_max_prefix => '  ·  Max: ';
+
+  @override
+  String get send_amount_hint_sats_suffix => ' sats.';
+
+  @override
+  String get send_onchain_amount_prompt => 'How much do you want to send?';
+
+  @override
+  String get send_onchain_loader_checking => 'Checking your payment details.';
+
+  @override
+  String get send_onchain_success_title => 'Payment Sent!';
+
+  @override
+  String get send_onchain_success_message =>
+      'Onchain payment sent successfully!';
+
+  @override
+  String get send_onchain_loader_sending =>
+      'Sending your payment. This won\'t take long.';
+
+  @override
+  String get send_error_title => 'Error';
+
+  @override
+  String get send_error_payment_title => 'Payment Error';
+
+  @override
+  String get send_error_payment_failed_title => 'Payment Failed';
+
+  @override
+  String get send_error_unknown_reason => 'Payment failed for unknown reason';
+
+  @override
+  String send_error_payment_detail(String message) {
+    return 'Payment error: $message';
+  }
+
+  @override
+  String send_error_generic_detail(String message) {
+    return 'Error: $message';
+  }
 }

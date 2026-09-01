@@ -112,12 +112,6 @@ abstract class BringinTranslations {
   /// **'Invalid amount'**
   String get amount_form_error_invalid_amount;
 
-  /// No description provided for @backup_phrase_generation_index.
-  ///
-  /// In en, this message translates to:
-  /// **'{index}.'**
-  String backup_phrase_generation_index(int index);
-
   /// No description provided for @bringin_type_fiat_withdrawal.
   ///
   /// In en, this message translates to:
@@ -267,12 +261,6 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Card Type'**
   String get bringin_card_type_label;
-
-  /// No description provided for @bitcoin_address_scan_tooltip.
-  ///
-  /// In en, this message translates to:
-  /// **'Scan BTC Address'**
-  String get bitcoin_address_scan_tooltip;
 
   /// No description provided for @currency_converter_dialog_error_exchange_rate.
   ///
@@ -641,12 +629,6 @@ abstract class BringinTranslations {
   /// **'QR code wasn\'t detected.'**
   String get qr_action_button_error_code_not_detected;
 
-  /// No description provided for @qr_code_not_detected_error.
-  ///
-  /// In en, this message translates to:
-  /// **'QR code wasn\'t detected.'**
-  String get qr_code_not_detected_error;
-
   /// No description provided for @successful_payment_received.
   ///
   /// In en, this message translates to:
@@ -706,12 +688,6 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'BTC Address'**
   String get withdraw_funds_btc_address;
-
-  /// No description provided for @withdraw_funds_error_invalid_address.
-  ///
-  /// In en, this message translates to:
-  /// **'Please enter a valid BTC Address'**
-  String get withdraw_funds_error_invalid_address;
 
   /// No description provided for @withdraw_funds_action_next.
   ///
@@ -2554,6 +2530,342 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Keep using your Bitcoin wallet without Euro features'**
   String get login_required_action_bitcoin_only_subtitle;
+
+  /// No description provided for @wallet_bitcoin_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin wallet'**
+  String get wallet_bitcoin_label;
+
+  /// No description provided for @send_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Send money'**
+  String get send_title;
+
+  /// No description provided for @send_action_swipe.
+  ///
+  /// In en, this message translates to:
+  /// **'Swipe to send'**
+  String get send_action_swipe;
+
+  /// No description provided for @send_use_full_balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Use the full wallet balance'**
+  String get send_use_full_balance;
+
+  /// No description provided for @send_label_recipient_receives.
+  ///
+  /// In en, this message translates to:
+  /// **'Recipient receives'**
+  String get send_label_recipient_receives;
+
+  /// No description provided for @send_label_reference.
+  ///
+  /// In en, this message translates to:
+  /// **'Reference'**
+  String get send_label_reference;
+
+  /// No description provided for @send_label_transaction_id.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction ID'**
+  String get send_label_transaction_id;
+
+  /// No description provided for @send_label_network_fee.
+  ///
+  /// In en, this message translates to:
+  /// **'Network fee'**
+  String get send_label_network_fee;
+
+  /// No description provided for @send_label_total_payable.
+  ///
+  /// In en, this message translates to:
+  /// **'Total payable'**
+  String get send_label_total_payable;
+
+  /// No description provided for @send_success_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sent successfully!'**
+  String get send_success_title;
+
+  /// No description provided for @send_pay_to_bringin_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay to my Bringin address'**
+  String get send_pay_to_bringin_address;
+
+  /// No description provided for @send_sent_to_bringin.
+  ///
+  /// In en, this message translates to:
+  /// **'Sent to Bringin'**
+  String get send_sent_to_bringin;
+
+  /// No description provided for @send_to_bringin.
+  ///
+  /// In en, this message translates to:
+  /// **'To Bringin'**
+  String get send_to_bringin;
+
+  /// No description provided for @send_lightning_payment_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning payment'**
+  String get send_lightning_payment_label;
+
+  /// No description provided for @send_lightning_address_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning Address'**
+  String get send_lightning_address_label;
+
+  /// No description provided for @send_entry_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Send'**
+  String get send_entry_title;
+
+  /// No description provided for @send_entry_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Paste your LN Invoice or LN address or BTC address below'**
+  String get send_entry_hint;
+
+  /// No description provided for @send_confirm_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Do you want to confirm the following details?'**
+  String get send_confirm_prompt;
+
+  /// No description provided for @send_confirm_label_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount'**
+  String get send_confirm_label_amount;
+
+  /// No description provided for @send_confirm_label_invoice_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Invoice Amount'**
+  String get send_confirm_label_invoice_amount;
+
+  /// No description provided for @send_confirm_label_total_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Amount'**
+  String get send_confirm_label_total_amount;
+
+  /// No description provided for @send_confirm_label_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Description'**
+  String get send_confirm_label_description;
+
+  /// No description provided for @send_confirm_label_destination.
+  ///
+  /// In en, this message translates to:
+  /// **'Destination'**
+  String get send_confirm_label_destination;
+
+  /// No description provided for @send_confirm_label_recipient_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Recipient Address'**
+  String get send_confirm_label_recipient_address;
+
+  /// No description provided for @send_fee_calculating.
+  ///
+  /// In en, this message translates to:
+  /// **'Calculating...'**
+  String get send_fee_calculating;
+
+  /// No description provided for @send_fee_unknown.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown'**
+  String get send_fee_unknown;
+
+  /// No description provided for @send_confirm_you_will_pay.
+  ///
+  /// In en, this message translates to:
+  /// **'You will pay'**
+  String get send_confirm_you_will_pay;
+
+  /// No description provided for @send_confirm_you_pay.
+  ///
+  /// In en, this message translates to:
+  /// **'You pay '**
+  String get send_confirm_you_pay;
+
+  /// No description provided for @send_confirm_incl_fees.
+  ///
+  /// In en, this message translates to:
+  /// **' (incl. fees)'**
+  String get send_confirm_incl_fees;
+
+  /// No description provided for @send_confirm_total_suffix.
+  ///
+  /// In en, this message translates to:
+  /// **' total.'**
+  String get send_confirm_total_suffix;
+
+  /// No description provided for @send_confirm_amount_sats.
+  ///
+  /// In en, this message translates to:
+  /// **' {sats} sats'**
+  String send_confirm_amount_sats(String sats);
+
+  /// No description provided for @send_action_confirm_payment.
+  ///
+  /// In en, this message translates to:
+  /// **'CONFIRM PAYMENT'**
+  String get send_action_confirm_payment;
+
+  /// No description provided for @send_action_confirm_send.
+  ///
+  /// In en, this message translates to:
+  /// **'CONFIRM SEND'**
+  String get send_action_confirm_send;
+
+  /// No description provided for @send_amount_field_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount (sats)'**
+  String get send_amount_field_label;
+
+  /// No description provided for @send_amount_error_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount is required'**
+  String get send_amount_error_required;
+
+  /// No description provided for @send_amount_error_invalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a valid sats amount'**
+  String get send_amount_error_invalid;
+
+  /// No description provided for @send_amount_error_below_minimum.
+  ///
+  /// In en, this message translates to:
+  /// **'Minimum amount is {min} sats'**
+  String send_amount_error_below_minimum(String min);
+
+  /// No description provided for @send_amount_error_exceeds_balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount exceeds your balance of {balance} sats'**
+  String send_amount_error_exceeds_balance(String balance);
+
+  /// No description provided for @send_amount_convert_from_eur.
+  ///
+  /// In en, this message translates to:
+  /// **'Convert from EUR'**
+  String get send_amount_convert_from_eur;
+
+  /// No description provided for @send_amount_prompt_for_destination.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the amount to send to {destination}'**
+  String send_amount_prompt_for_destination(String destination);
+
+  /// No description provided for @send_amount_processing.
+  ///
+  /// In en, this message translates to:
+  /// **'Processing...'**
+  String get send_amount_processing;
+
+  /// No description provided for @send_amount_balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Balance: {balance}'**
+  String send_amount_balance(String balance);
+
+  /// No description provided for @send_amount_hint_min_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'Min: '**
+  String get send_amount_hint_min_prefix;
+
+  /// No description provided for @send_amount_hint_max_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'  ·  Max: '**
+  String get send_amount_hint_max_prefix;
+
+  /// No description provided for @send_amount_hint_sats_suffix.
+  ///
+  /// In en, this message translates to:
+  /// **' sats.'**
+  String get send_amount_hint_sats_suffix;
+
+  /// No description provided for @send_onchain_amount_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'How much do you want to send?'**
+  String get send_onchain_amount_prompt;
+
+  /// No description provided for @send_onchain_loader_checking.
+  ///
+  /// In en, this message translates to:
+  /// **'Checking your payment details.'**
+  String get send_onchain_loader_checking;
+
+  /// No description provided for @send_onchain_success_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Sent!'**
+  String get send_onchain_success_title;
+
+  /// No description provided for @send_onchain_success_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Onchain payment sent successfully!'**
+  String get send_onchain_success_message;
+
+  /// No description provided for @send_onchain_loader_sending.
+  ///
+  /// In en, this message translates to:
+  /// **'Sending your payment. This won\'t take long.'**
+  String get send_onchain_loader_sending;
+
+  /// No description provided for @send_error_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Error'**
+  String get send_error_title;
+
+  /// No description provided for @send_error_payment_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Error'**
+  String get send_error_payment_title;
+
+  /// No description provided for @send_error_payment_failed_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Failed'**
+  String get send_error_payment_failed_title;
+
+  /// No description provided for @send_error_unknown_reason.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment failed for unknown reason'**
+  String get send_error_unknown_reason;
+
+  /// No description provided for @send_error_payment_detail.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment error: {message}'**
+  String send_error_payment_detail(String message);
+
+  /// No description provided for @send_error_generic_detail.
+  ///
+  /// In en, this message translates to:
+  /// **'Error: {message}'**
+  String send_error_generic_detail(String message);
 }
 
 class _BringinTranslationsDelegate
