@@ -1726,6 +1726,156 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Back to sign in'**
   String get forgot_password_success_action_back;
+
+  /// No description provided for @invoice_error_amount_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount cannot be empty'**
+  String get invoice_error_amount_empty;
+
+  /// No description provided for @invoice_fetching_rate.
+  ///
+  /// In en, this message translates to:
+  /// **'Fetching rate...'**
+  String get invoice_fetching_rate;
+
+  /// No description provided for @paste_invoice_field_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning Invoice or Address'**
+  String get paste_invoice_field_label;
+
+  /// No description provided for @paste_invoice_field_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Paste invoice or address'**
+  String get paste_invoice_field_hint;
+
+  /// No description provided for @paste_invoice_validating_helper.
+  ///
+  /// In en, this message translates to:
+  /// **'Validating address...'**
+  String get paste_invoice_validating_helper;
+
+  /// No description provided for @paste_invoice_action_validating.
+  ///
+  /// In en, this message translates to:
+  /// **'Validating...'**
+  String get paste_invoice_action_validating;
+
+  /// No description provided for @paste_invoice_amount_sats.
+  ///
+  /// In en, this message translates to:
+  /// **'{sats} sats'**
+  String paste_invoice_amount_sats(String sats);
+
+  /// No description provided for @paste_invoice_error_too_long.
+  ///
+  /// In en, this message translates to:
+  /// **'Input is too long to be a valid invoice or address'**
+  String get paste_invoice_error_too_long;
+
+  /// No description provided for @paste_invoice_error_invalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid lightning invoice or address'**
+  String get paste_invoice_error_invalid;
+
+  /// No description provided for @paste_invoice_error_zero_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'We don\'t support zero-sat invoices'**
+  String get paste_invoice_error_zero_amount;
+
+  /// No description provided for @invoice_qr_instruction.
+  ///
+  /// In en, this message translates to:
+  /// **'Please scan the QR code from any Bitcoin Lightning wallet to complete the payment.'**
+  String get invoice_qr_instruction;
+
+  /// No description provided for @invoice_qr_expires_in.
+  ///
+  /// In en, this message translates to:
+  /// **'Expires in '**
+  String get invoice_qr_expires_in;
+
+  /// No description provided for @invoice_qr_amount_sats.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount: {amount} SATS'**
+  String invoice_qr_amount_sats(String amount);
+
+  /// No description provided for @invoice_qr_copied.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning invoice was copied to your clipboard'**
+  String get invoice_qr_copied;
+
+  /// No description provided for @buy_invoice_headline.
+  ///
+  /// In en, this message translates to:
+  /// **'How much Bitcoin do you want to buy?'**
+  String get buy_invoice_headline;
+
+  /// No description provided for @buy_invoice_field_label_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount'**
+  String get buy_invoice_field_label_amount;
+
+  /// No description provided for @buy_invoice_error_below_minimum.
+  ///
+  /// In en, this message translates to:
+  /// **'Try a higher amount than €{minimum}'**
+  String buy_invoice_error_below_minimum(String minimum);
+
+  /// No description provided for @buy_invoice_receive_upto.
+  ///
+  /// In en, this message translates to:
+  /// **'Receive upto: {sats} Sats'**
+  String buy_invoice_receive_upto(String sats);
+
+  /// No description provided for @buy_invoice_error_insufficient_balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Insufficient balance'**
+  String get buy_invoice_error_insufficient_balance;
+
+  /// No description provided for @buy_invoice_error_minimum_transaction.
+  ///
+  /// In en, this message translates to:
+  /// **'The minimum amount for this transaction is €{minimum}'**
+  String buy_invoice_error_minimum_transaction(String minimum);
+
+  /// No description provided for @buy_invoice_error_convert_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to convert amount: {error}'**
+  String buy_invoice_error_convert_failed(String error);
+
+  /// No description provided for @buy_invoice_balance_btc.
+  ///
+  /// In en, this message translates to:
+  /// **'Balance: {btc} BTC'**
+  String buy_invoice_balance_btc(String btc);
+
+  /// No description provided for @create_invoice_field_label_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount (in {unit})'**
+  String create_invoice_field_label_amount(String unit);
+
+  /// No description provided for @create_invoice_error_amount_too_low.
+  ///
+  /// In en, this message translates to:
+  /// **'Try a higher amount'**
+  String get create_invoice_error_amount_too_low;
+
+  /// No description provided for @create_invoice_field_label_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Description'**
+  String get create_invoice_field_label_description;
 }
 
 class _BringinTranslationsDelegate

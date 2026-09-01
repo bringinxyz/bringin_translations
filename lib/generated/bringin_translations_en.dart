@@ -941,4 +941,100 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get forgot_password_success_action_back => 'Back to sign in';
+
+  @override
+  String get invoice_error_amount_empty => 'Amount cannot be empty';
+
+  @override
+  String get invoice_fetching_rate => 'Fetching rate...';
+
+  @override
+  String get paste_invoice_field_label => 'Lightning Invoice or Address';
+
+  @override
+  String get paste_invoice_field_hint => 'Paste invoice or address';
+
+  @override
+  String get paste_invoice_validating_helper => 'Validating address...';
+
+  @override
+  String get paste_invoice_action_validating => 'Validating...';
+
+  @override
+  String paste_invoice_amount_sats(String sats) {
+    return '$sats sats';
+  }
+
+  @override
+  String get paste_invoice_error_too_long =>
+      'Input is too long to be a valid invoice or address';
+
+  @override
+  String get paste_invoice_error_invalid =>
+      'Invalid lightning invoice or address';
+
+  @override
+  String get paste_invoice_error_zero_amount =>
+      'We don\'t support zero-sat invoices';
+
+  @override
+  String get invoice_qr_instruction =>
+      'Please scan the QR code from any Bitcoin Lightning wallet to complete the payment.';
+
+  @override
+  String get invoice_qr_expires_in => 'Expires in ';
+
+  @override
+  String invoice_qr_amount_sats(String amount) {
+    return 'Amount: $amount SATS';
+  }
+
+  @override
+  String get invoice_qr_copied =>
+      'Lightning invoice was copied to your clipboard';
+
+  @override
+  String get buy_invoice_headline => 'How much Bitcoin do you want to buy?';
+
+  @override
+  String get buy_invoice_field_label_amount => 'Amount';
+
+  @override
+  String buy_invoice_error_below_minimum(String minimum) {
+    return 'Try a higher amount than €$minimum';
+  }
+
+  @override
+  String buy_invoice_receive_upto(String sats) {
+    return 'Receive upto: $sats Sats';
+  }
+
+  @override
+  String get buy_invoice_error_insufficient_balance => 'Insufficient balance';
+
+  @override
+  String buy_invoice_error_minimum_transaction(String minimum) {
+    return 'The minimum amount for this transaction is €$minimum';
+  }
+
+  @override
+  String buy_invoice_error_convert_failed(String error) {
+    return 'Failed to convert amount: $error';
+  }
+
+  @override
+  String buy_invoice_balance_btc(String btc) {
+    return 'Balance: $btc BTC';
+  }
+
+  @override
+  String create_invoice_field_label_amount(String unit) {
+    return 'Amount (in $unit)';
+  }
+
+  @override
+  String get create_invoice_error_amount_too_low => 'Try a higher amount';
+
+  @override
+  String get create_invoice_field_label_description => 'Description';
 }

@@ -460,5 +460,94 @@
       }
     }
   },
-  "forgot_password_success_action_back": "Back to sign in"
+  "forgot_password_success_action_back": "Back to sign in",
+  "invoice_error_amount_empty": "Amount cannot be empty",
+  "invoice_fetching_rate": "Fetching rate...",
+  "paste_invoice_field_label": "Lightning Invoice or Address",
+  "paste_invoice_field_hint": "Paste invoice or address",
+  "paste_invoice_validating_helper": "Validating address...",
+  "paste_invoice_action_validating": "Validating...",
+  "paste_invoice_amount_sats": "{sats} sats",
+  "@paste_invoice_amount_sats": {
+    "placeholders": {
+      "sats": {
+        "type": "String",
+        "example": "1000"
+      }
+    }
+  },
+  "paste_invoice_error_too_long": "Input is too long to be a valid invoice or address",
+  "paste_invoice_error_invalid": "Invalid lightning invoice or address",
+  "paste_invoice_error_zero_amount": "We don't support zero-sat invoices",
+  "invoice_qr_instruction": "Please scan the QR code from any Bitcoin Lightning wallet to complete the payment.",
+  "invoice_qr_expires_in": "Expires in ",
+  "invoice_qr_amount_sats": "Amount: {amount} SATS",
+  "@invoice_qr_amount_sats": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "1 000"
+      }
+    }
+  },
+  "invoice_qr_copied": "Lightning invoice was copied to your clipboard",
+  "buy_invoice_headline": "How much Bitcoin do you want to buy?",
+  "buy_invoice_field_label_amount": "Amount",
+  "buy_invoice_error_below_minimum": "Try a higher amount than €{minimum}",
+  "@buy_invoice_error_below_minimum": {
+    "placeholders": {
+      "minimum": {
+        "type": "String",
+        "example": "10.00"
+      }
+    }
+  },
+  "buy_invoice_receive_upto": "Receive upto: {sats} Sats",
+  "@buy_invoice_receive_upto": {
+    "placeholders": {
+      "sats": {
+        "type": "String",
+        "example": "9 500"
+      }
+    }
+  },
+  "buy_invoice_error_insufficient_balance": "Insufficient balance",
+  "buy_invoice_error_minimum_transaction": "The minimum amount for this transaction is €{minimum}",
+  "@buy_invoice_error_minimum_transaction": {
+    "placeholders": {
+      "minimum": {
+        "type": "String",
+        "example": "10.00"
+      }
+    }
+  },
+  "buy_invoice_error_convert_failed": "Failed to convert amount: {error}",
+  "@buy_invoice_error_convert_failed": {
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "connection closed"
+      }
+    }
+  },
+  "buy_invoice_balance_btc": "Balance: {btc} BTC",
+  "@buy_invoice_balance_btc": {
+    "placeholders": {
+      "btc": {
+        "type": "String",
+        "example": "0,0177"
+      }
+    }
+  },
+  "create_invoice_field_label_amount": "Amount (in {unit})",
+  "@create_invoice_field_label_amount": {
+    "placeholders": {
+      "unit": {
+        "type": "String",
+        "example": "BTC"
+      }
+    }
+  },
+  "create_invoice_error_amount_too_low": "Try a higher amount",
+  "create_invoice_field_label_description": "Description"
 }
