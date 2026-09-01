@@ -2518,6 +2518,42 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'We couldn’t set up your backup. Please try again.'**
   String get wallet_backup_failure_message;
+
+  /// No description provided for @login_required_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Login Required'**
+  String get login_required_title;
+
+  /// No description provided for @login_required_message.
+  ///
+  /// In en, this message translates to:
+  /// **'To use the swap feature, you need to log in to your Bringin account. This allows you to exchange between Bitcoin and Euros.'**
+  String get login_required_message;
+
+  /// No description provided for @login_required_action_login_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Login to Bringin'**
+  String get login_required_action_login_title;
+
+  /// No description provided for @login_required_action_login_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Access full features including Euro account and swap functionality'**
+  String get login_required_action_login_subtitle;
+
+  /// No description provided for @login_required_action_bitcoin_only_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue with Bitcoin only'**
+  String get login_required_action_bitcoin_only_title;
+
+  /// No description provided for @login_required_action_bitcoin_only_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep using your Bitcoin wallet without Euro features'**
+  String get login_required_action_bitcoin_only_subtitle;
 }
 
 class _BringinTranslationsDelegate

@@ -1426,4 +1426,26 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get wallet_backup_failure_message =>
       'We couldn’t set up your backup. Please try again.';
+
+  @override
+  String get login_required_title => 'Login Required';
+
+  @override
+  String get login_required_message =>
+      'To use the swap feature, you need to log in to your Bringin account. This allows you to exchange between Bitcoin and Euros.';
+
+  @override
+  String get login_required_action_login_title => 'Login to Bringin';
+
+  @override
+  String get login_required_action_login_subtitle =>
+      'Access full features including Euro account and swap functionality';
+
+  @override
+  String get login_required_action_bitcoin_only_title =>
+      'Continue with Bitcoin only';
+
+  @override
+  String get login_required_action_bitcoin_only_subtitle =>
+      'Keep using your Bitcoin wallet without Euro features';
 }

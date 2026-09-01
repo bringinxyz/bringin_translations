@@ -702,5 +702,11 @@
   "wallet_success_disconnect_no_email": "Your wallet is backed up to your Google drive. Sign in and restore your wallet anytime.",
   "wallet_success_write_down_logout": "Keep your 12-word recovery phrase safe. Sign back in anytime to restore your wallet.",
   "wallet_success_write_down_disconnect": "Keep your 12-word recovery phrase safe. You can restore your wallet anytime from the Bringin app.",
-  "wallet_backup_failure_message": "We couldn’t set up your backup. Please try again."
+  "wallet_backup_failure_message": "We couldn’t set up your backup. Please try again.",
+  "login_required_title": "Login Required",
+  "login_required_message": "To use the swap feature, you need to log in to your Bringin account. This allows you to exchange between Bitcoin and Euros.",
+  "login_required_action_login_title": "Login to Bringin",
+  "login_required_action_login_subtitle": "Access full features including Euro account and swap functionality",
+  "login_required_action_bitcoin_only_title": "Continue with Bitcoin only",
+  "login_required_action_bitcoin_only_subtitle": "Keep using your Bitcoin wallet without Euro features"
 }
