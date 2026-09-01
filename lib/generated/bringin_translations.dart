@@ -3364,6 +3364,12 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Deposit claimed!'**
   String get receive_deposit_claimed;
+
+  /// No description provided for @receive_deposit_confirmed.
+  ///
+  /// In en, this message translates to:
+  /// **'{sats} sats confirmed — claiming soon...'**
+  String receive_deposit_confirmed(String sats);
 }
 
 class _BringinTranslationsDelegate

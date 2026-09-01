@@ -1909,4 +1909,9 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get receive_deposit_claimed => 'Deposit claimed!';
+
+  @override
+  String receive_deposit_confirmed(String sats) {
+    return '$sats sats confirmed — claiming soon...';
+  }
 }

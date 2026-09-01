@@ -980,5 +980,14 @@
       }
     }
   },
-  "receive_deposit_claimed": "Deposit claimed!"
+  "receive_deposit_claimed": "Deposit claimed!",
+  "receive_deposit_confirmed": "{sats} sats confirmed — claiming soon...",
+  "@receive_deposit_confirmed": {
+    "placeholders": {
+      "sats": {
+        "type": "String",
+        "example": "12 500"
+      }
+    }
+  }
 }
