@@ -3364,6 +3364,108 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'{sats} sats confirmed — claiming soon...'**
   String receive_deposit_confirmed(String sats);
+
+  /// No description provided for @buy_confirm_label_transaction_fee.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction Fee'**
+  String get buy_confirm_label_transaction_fee;
+
+  /// No description provided for @buy_confirm_label_processing_fee.
+  ///
+  /// In en, this message translates to:
+  /// **'Processing Fee'**
+  String get buy_confirm_label_processing_fee;
+
+  /// No description provided for @buy_confirm_label_liquid_network_fee.
+  ///
+  /// In en, this message translates to:
+  /// **'Liquid Network Fee'**
+  String get buy_confirm_label_liquid_network_fee;
+
+  /// No description provided for @buy_confirm_label_discount.
+  ///
+  /// In en, this message translates to:
+  /// **'Discount - Transaction Fee ({percentage}%)'**
+  String buy_confirm_label_discount(String percentage);
+
+  /// No description provided for @buy_confirm_you_pay_approx.
+  ///
+  /// In en, this message translates to:
+  /// **'You pay ~'**
+  String get buy_confirm_you_pay_approx;
+
+  /// No description provided for @buy_confirm_network_fee_suffix.
+  ///
+  /// In en, this message translates to:
+  /// **' + {sats} sats network fee'**
+  String buy_confirm_network_fee_suffix(String sats);
+
+  /// No description provided for @buy_confirm_error_insufficient_funds.
+  ///
+  /// In en, this message translates to:
+  /// **'Insufficient funds to pay'**
+  String get buy_confirm_error_insufficient_funds;
+
+  /// No description provided for @buy_confirm_error_status_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction status failed!'**
+  String get buy_confirm_error_status_failed;
+
+  /// No description provided for @buy_confirm_error_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Something went wrong. Please try again later.'**
+  String get buy_confirm_error_generic;
+
+  /// No description provided for @buy_confirm_loader_preparing.
+  ///
+  /// In en, this message translates to:
+  /// **'Getting things ready for you.'**
+  String get buy_confirm_loader_preparing;
+
+  /// No description provided for @buy_confirm_loader_confirming.
+  ///
+  /// In en, this message translates to:
+  /// **'Getting everything ready.'**
+  String get buy_confirm_loader_confirming;
+
+  /// No description provided for @buy_confirm_status_verifying.
+  ///
+  /// In en, this message translates to:
+  /// **'Verifying, one moment.'**
+  String get buy_confirm_status_verifying;
+
+  /// No description provided for @buy_confirm_status_almost_there.
+  ///
+  /// In en, this message translates to:
+  /// **'Almost there, just a moment.'**
+  String get buy_confirm_status_almost_there;
+
+  /// No description provided for @buy_confirm_status_finishing.
+  ///
+  /// In en, this message translates to:
+  /// **'Looking good! Finishing up.'**
+  String get buy_confirm_status_finishing;
+
+  /// No description provided for @buy_confirm_status_on_the_way.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Bitcoin is on its way. Hang tight!'**
+  String get buy_confirm_status_on_the_way;
+
+  /// No description provided for @buy_invoice_loader_generating.
+  ///
+  /// In en, this message translates to:
+  /// **'Generating your invoice.'**
+  String get buy_invoice_loader_generating;
+
+  /// No description provided for @buy_invoice_default_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Top Up - Buy Bitcoin to Breez'**
+  String get buy_invoice_default_description;
 }
 
 class _BringinTranslationsDelegate

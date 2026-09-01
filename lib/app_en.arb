@@ -988,5 +988,38 @@
         "example": "12 500"
       }
     }
-  }
+  },
+  "buy_confirm_label_transaction_fee": "Transaction Fee",
+  "buy_confirm_label_processing_fee": "Processing Fee",
+  "buy_confirm_label_liquid_network_fee": "Liquid Network Fee",
+  "buy_confirm_label_discount": "Discount - Transaction Fee ({percentage}%)",
+  "@buy_confirm_label_discount": {
+    "placeholders": {
+      "percentage": {
+        "type": "String",
+        "example": "1,5"
+      }
+    }
+  },
+  "buy_confirm_you_pay_approx": "You pay ~",
+  "buy_confirm_network_fee_suffix": " + {sats} sats network fee",
+  "@buy_confirm_network_fee_suffix": {
+    "placeholders": {
+      "sats": {
+        "type": "String",
+        "example": "120"
+      }
+    }
+  },
+  "buy_confirm_error_insufficient_funds": "Insufficient funds to pay",
+  "buy_confirm_error_status_failed": "Transaction status failed!",
+  "buy_confirm_error_generic": "Something went wrong. Please try again later.",
+  "buy_confirm_loader_preparing": "Getting things ready for you.",
+  "buy_confirm_loader_confirming": "Getting everything ready.",
+  "buy_confirm_status_verifying": "Verifying, one moment.",
+  "buy_confirm_status_almost_there": "Almost there, just a moment.",
+  "buy_confirm_status_finishing": "Looking good! Finishing up.",
+  "buy_confirm_status_on_the_way": "Your Bitcoin is on its way. Hang tight!",
+  "buy_invoice_loader_generating": "Generating your invoice.",
+  "buy_invoice_default_description": "Top Up - Buy Bitcoin to Breez"
 }

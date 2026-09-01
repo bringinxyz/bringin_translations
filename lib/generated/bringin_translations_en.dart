@@ -1911,4 +1911,62 @@ class BringinTranslationsEn extends BringinTranslations {
   String receive_deposit_confirmed(String sats) {
     return '$sats sats confirmed — claiming soon...';
   }
+
+  @override
+  String get buy_confirm_label_transaction_fee => 'Transaction Fee';
+
+  @override
+  String get buy_confirm_label_processing_fee => 'Processing Fee';
+
+  @override
+  String get buy_confirm_label_liquid_network_fee => 'Liquid Network Fee';
+
+  @override
+  String buy_confirm_label_discount(String percentage) {
+    return 'Discount - Transaction Fee ($percentage%)';
+  }
+
+  @override
+  String get buy_confirm_you_pay_approx => 'You pay ~';
+
+  @override
+  String buy_confirm_network_fee_suffix(String sats) {
+    return ' + $sats sats network fee';
+  }
+
+  @override
+  String get buy_confirm_error_insufficient_funds =>
+      'Insufficient funds to pay';
+
+  @override
+  String get buy_confirm_error_status_failed => 'Transaction status failed!';
+
+  @override
+  String get buy_confirm_error_generic =>
+      'Something went wrong. Please try again later.';
+
+  @override
+  String get buy_confirm_loader_preparing => 'Getting things ready for you.';
+
+  @override
+  String get buy_confirm_loader_confirming => 'Getting everything ready.';
+
+  @override
+  String get buy_confirm_status_verifying => 'Verifying, one moment.';
+
+  @override
+  String get buy_confirm_status_almost_there => 'Almost there, just a moment.';
+
+  @override
+  String get buy_confirm_status_finishing => 'Looking good! Finishing up.';
+
+  @override
+  String get buy_confirm_status_on_the_way =>
+      'Your Bitcoin is on its way. Hang tight!';
+
+  @override
+  String get buy_invoice_loader_generating => 'Generating your invoice.';
+
+  @override
+  String get buy_invoice_default_description => 'Top Up - Buy Bitcoin to Breez';
 }
