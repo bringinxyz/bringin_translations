@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - run: flutter pub get
+
+      - name: Check .arb files are valid JSON
+        run: |
+          for f in lib/app_*.arb; do
+            python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$f" \
+              || { echo "::error file=$f::invalid JSON"; exit 1; }
+          done
+
+      - name: Verify lib/generated/ is in sync with the .arb files
+        # The committed generated code IS the shipped artifact — consumers pull
+        # this package by git ref, so `flutter gen-l10n` never runs on their
+        # side. If this drifts, apps get stale strings with no error anywhere.
+        run: |
+          flutter gen-l10n
+          git diff --exit-code lib/generated/ \
+            || { echo "::error::lib/generated/ is stale. Run 'flutter gen-l10n' and commit the result."; exit 1; }
+
+      - run: dart format --set-exit-if-changed lib/bringin_translations.dart lib/bringin_translations_locales.dart test/
+
+      - run: flutter analyze
+
+      - run: flutter test

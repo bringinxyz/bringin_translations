@@ -1,0 +1,20 @@
+# Note: lib/generated/ is intentionally NOT ignored. It is the shipped
+# artifact — consumers pull this package by git ref and never run gen-l10n.
+
+.DS_Store
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+/build/
+pubspec.lock
+
+# Rewritten by every `flutter gen-l10n` run — pure diff noise.
+untranslated_messages.txt
+
+# IDE
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/

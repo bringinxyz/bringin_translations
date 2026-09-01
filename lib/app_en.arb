@@ -1,0 +1,253 @@
+{
+  "@@locale": "en",
+  "amount_form_denomination": "Amount in {denomination}",
+  "@amount_form_denomination": {
+    "placeholders": {
+      "denomination": {
+        "type": "String",
+        "example": "sats"
+      }
+    }
+  },
+  "amount_form_insert_hint": "Please enter the amount in {denomination}",
+  "@amount_form_insert_hint": {
+    "placeholders": {
+      "denomination": {
+        "type": "String",
+        "example": "sats"
+      }
+    }
+  },
+  "amount_form_error_invalid_amount": "Invalid amount",
+  "backup_phrase_generation_index": "{index}.",
+  "@backup_phrase_generation_index": {
+    "placeholders": {
+      "index": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "bringin_type_fiat_withdrawal": "Euro Withdrawal",
+  "bringin_type_offramp": "Sold Bitcoin",
+  "bringin_type_onramp_partial_fiat_deposit": "Bought Bitcoin",
+  "bringin_type_offramp_without_fiat_withdrawl": "Sold Bitcoin",
+  "bringin_type_fiat_deposit": "Euro Deposit",
+  "bringin_type_fiat_pending": "Pending",
+  "bringin_type_bitcoin_withdrawal": "Bitcoin Withdrawal",
+  "bringin_type_card_authorization": "Card Payment",
+  "bringin_type_card_authorization_reversal": "Card Reversal",
+  "bringin_type_card_tx_refund": "Card Refund",
+  "bringin_type_card_tx_release": "Card Release",
+  "bringin_type_card_tx_atm": "ATM Withdrawal",
+  "bringin_type_card_tx_declined": "Card Declined",
+  "bringin_type_card_tx_settlement_confirmed": "Card Payment",
+  "bringin_type_push_funds": "Refund",
+  "bringin_type_rewards": "Rewards",
+  "bringin_type_cashback": "Cashback",
+  "bringin_type_exchange_rate_change": "Exchange rate change",
+  "bringin_type_deposit": "Deposit",
+  "bringin_type_ln_address_deposit": "Lightning Deposit",
+  "bringin_type_swap_currency": "Bitcoin To Euro Swap",
+  "bringin_type_card_creation_fee": "Card Creation Fee",
+  "bringin_card_type_physical": "Physical",
+  "bringin_card_type_virtual": "Virtual",
+  "bringin_card_type_label": "Card Type",
+  "bitcoin_address_scan_tooltip": "Scan BTC Address",
+  "currency_converter_dialog_error_exchange_rate": "Failed to retrieve BTC exchange rate.",
+  "fee_chooser_option_economy": "Economy",
+  "fee_chooser_option_regular": "Regular",
+  "fee_chooser_option_priority": "Priority",
+  "invoice_btc_address_deposit_address": "Deposit Address",
+  "invoice_payment_validator_error_payment_exceeded_limit": "Payment exceeds the limit ({maxSats})",
+  "@invoice_payment_validator_error_payment_exceeded_limit": {
+    "placeholders": {
+      "maxSats": {
+        "type": "String",
+        "example": "2 000 sats"
+      }
+    }
+  },
+  "invoice_payment_validator_error_payment_below_invoice_limit": "Payment is below the limit ({minSats})",
+  "@invoice_payment_validator_error_payment_below_invoice_limit": {
+    "placeholders": {
+      "minSats": {
+        "type": "String",
+        "example": "2 000 sats"
+      }
+    }
+  },
+  "invoice_payment_validator_error_insufficient_local_balance": "Insufficient local balance",
+  "invoice_payment_validator_error_unknown": "Validation error {error}",
+  "@invoice_payment_validator_error_unknown": {
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "An error message"
+      }
+    }
+  },
+  "enter_backup_phrase_error": "Failed to restore from backup. Please make sure backup phrase was correctly entered and try again.",
+  "keyboard_done_action": "Done",
+  "lsp_error_cannot_open_channel": "Bringin cannot open new channels at the moment. Please try again later.",
+  "lnurl_fetch_invoice_min": "Enter an amount between {min}",
+  "@lnurl_fetch_invoice_min": {
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
+  "lnurl_fetch_invoice_and": " and {max}",
+  "@lnurl_fetch_invoice_and": {
+    "placeholders": {
+      "max": {
+        "type": "String",
+        "example": "$ 1.23"
+      }
+    }
+  },
+  "lnurl_payment_page_error_exceeds_limit": "Exceeds maximum sendable amount: {amount}",
+  "@lnurl_payment_page_error_exceeds_limit": {
+    "placeholders": {
+      "amount": {
+        "type": "int",
+        "example": "123"
+      }
+    }
+  },
+  "lnurl_payment_page_error_below_limit": "Below minimum accepted amount: {amount}",
+  "@lnurl_payment_page_error_below_limit": {
+    "placeholders": {
+      "amount": {
+        "type": "int",
+        "example": "123"
+      }
+    }
+  },
+  "link_launcher_failed_to_launch": "Could not launch {url}",
+  "@link_launcher_failed_to_launch": {
+    "placeholders": {
+      "url": {
+        "type": "String",
+        "example": "https://abc.def.ghi"
+      }
+    }
+  },
+  "ln_payment_action_retry": "RETRY",
+  "no_connection_flushbar_title": "No internet connection",
+  "no_connection_flushbar_action_retry": "Retry",
+  "payment_error_insufficient_balance": "Insufficient balance",
+  "payment_error_incorrect_payment_details": "Incorrect payment details",
+  "payment_error_unexpected_error": "Unexpected error",
+  "payment_error_no_route": "No route",
+  "payment_error_payment_timeout_exceeded": "Payment timeout exceeded",
+  "payment_error_none": "",
+  "payment_info_title_bitcoin_transfer": "Bitcoin Transfer",
+  "payment_info_title_closed_channel": "Closed Channel",
+  "payment_info_title_unknown": "Unknown",
+  "payment_info_title_bitcoin_deposit": "Bitcoin Deposit",
+  "payment_info_title_bitcoin_withdrawal": "Bitcoin Withdrawal",
+  "payment_info_title_token_transfer": "Token Transfer",
+  "payment_info_title_lightning_payment": "Lightning Payment",
+  "payment_info_title_spark_transfer": "Spark Transfer",
+  "payment_info_type_lightning": "Lightning",
+  "payment_info_type_onchain": "On-chain",
+  "payment_info_type_spark": "Spark",
+  "payment_info_type_token": "Token",
+  "payment_info_title_pending_closed_channel": "Pending Closed Channel",
+  "payment_error_to_send_unknown_reason": "Failed to send payment",
+  "payment_error_to_send": "Failed to send payment: {error}",
+  "@payment_error_to_send": {
+    "placeholders": {
+      "error": {
+        "type": "String",
+        "example": "An error"
+      }
+    }
+  },
+  "payment_info_title_opened_channel": "Opened Channel",
+  "payment_info_title_pending_opened_channel": "Pending Opened Channel",
+  "payment_info_dialog_error_unsupported_input": "Unsupported input",
+  "payment_info_dialog_error_qrcode": "QR code wasn't detected.",
+  "payment_request_dialog_requested": "You are requested to pay:",
+  "payment_request_dialog_action_cancel": "Cancel",
+  "payment_request_dialog_action_approve": "Approve",
+  "processing_payment_dialog_wait": "Please wait while your payment is being processed",
+  "payment_confirmation_dialog_title": "Payment Confirmation",
+  "payment_confirmation_dialog_confirmation": "Are you sure you want to pay",
+  "payment_confirmation_dialog_confirmation_end": " ?",
+  "payment_confirmation_dialog_action_no": "NO",
+  "payment_confirmation_dialog_action_yes": "YES",
+  "payment_details_dialog_share_transaction": "Share Transaction Hash",
+  "payment_details_dialog_copy_action": "Copy {title}",
+  "@payment_details_dialog_copy_action": {
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Payment Preimage"
+      }
+    }
+  },
+  "payment_details_dialog_copied": "{title} was copied to your clipboard.",
+  "@payment_details_dialog_copied": {
+    "placeholders": {
+      "title": {
+        "type": "String",
+        "example": "Payment Preimage"
+      }
+    }
+  },
+  "payment_request_zero_amount_not_supported": "Zero-amount lightning payments are not supported.",
+  "generic_network_error": "Failed to connect to Bringin. Please check your internet connection and try again.",
+  "qr_code_dialog_warning_message": "Keep Bringin open until the payment is completed.",
+  "qr_action_button_error_code_not_detected": "QR code wasn't detected.",
+  "qr_code_not_detected_error": "QR code wasn't detected.",
+  "successful_payment_received": "Payment received!",
+  "successful_payment_sent_title": "Payment was\nsuccessfully sent!",
+  "valid_payment_error_exceeds_the_limit": "Payment exceeds the limit {amount}.",
+  "@valid_payment_error_exceeds_the_limit": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "$ 123"
+      }
+    }
+  },
+  "wallet_dashboard_payment_item_balance_positive": "+ {value}",
+  "@wallet_dashboard_payment_item_balance_positive": {
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "123"
+      }
+    }
+  },
+  "wallet_dashboard_payment_item_balance_negative": "- {value}",
+  "@wallet_dashboard_payment_item_balance_negative": {
+    "placeholders": {
+      "value": {
+        "type": "String",
+        "example": "123"
+      }
+    }
+  },
+  "wallet_dashboard_payment_item_balance_fee": "Fee {feeFormatted}",
+  "@wallet_dashboard_payment_item_balance_fee": {
+    "placeholders": {
+      "feeFormatted": {
+        "type": "String",
+        "example": "1"
+      }
+    }
+  },
+  "wallet_dashboard_payment_item_balance_pending_suffix": " (Pending)",
+  "wallet_dashboard_payment_item_no_title": "Unknown",
+  "withdraw_funds_use_all_funds": "Use all Funds",
+  "withdraw_funds_btc_address": "BTC Address",
+  "withdraw_funds_error_invalid_address": "Please enter a valid BTC Address",
+  "withdraw_funds_action_next": "NEXT",
+  "locale": "en",
+  "app_name": "Bringin"
+}
