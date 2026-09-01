@@ -498,7 +498,7 @@
     "placeholders": {
       "minimum": {
         "type": "String",
-        "example": "10.00"
+        "example": "10,00"
       }
     }
   },
@@ -507,7 +507,7 @@
     "placeholders": {
       "sats": {
         "type": "String",
-        "example": "9 500"
+        "example": "9 500"
       }
     }
   },
@@ -517,7 +517,7 @@
     "placeholders": {
       "minimum": {
         "type": "String",
-        "example": "10.00"
+        "example": "10,00"
       }
     }
   },
