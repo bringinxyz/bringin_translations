@@ -1150,6 +1150,582 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Swap'**
   String get tx_subtype_swap;
+
+  /// No description provided for @field_label_email.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get field_label_email;
+
+  /// No description provided for @field_hint_email.
+  ///
+  /// In en, this message translates to:
+  /// **'Add your email'**
+  String get field_hint_email;
+
+  /// No description provided for @field_error_email_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Your email can\'t be empty.'**
+  String get field_error_email_empty;
+
+  /// No description provided for @field_error_email_invalid.
+  ///
+  /// In en, this message translates to:
+  /// **'This email is not valid.'**
+  String get field_error_email_invalid;
+
+  /// No description provided for @field_label_password.
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get field_label_password;
+
+  /// No description provided for @action_next.
+  ///
+  /// In en, this message translates to:
+  /// **'Next'**
+  String get action_next;
+
+  /// No description provided for @action_back.
+  ///
+  /// In en, this message translates to:
+  /// **'Back'**
+  String get action_back;
+
+  /// No description provided for @action_close.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get action_close;
+
+  /// No description provided for @action_try_again.
+  ///
+  /// In en, this message translates to:
+  /// **'Try again'**
+  String get action_try_again;
+
+  /// No description provided for @error_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Something went wrong!'**
+  String get error_generic;
+
+  /// No description provided for @error_generic_retry.
+  ///
+  /// In en, this message translates to:
+  /// **'Something went wrong. Please try again.'**
+  String get error_generic_retry;
+
+  /// No description provided for @password_error_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Password is required'**
+  String get password_error_empty;
+
+  /// No description provided for @password_error_too_short.
+  ///
+  /// In en, this message translates to:
+  /// **'Password must be at least 8 characters'**
+  String get password_error_too_short;
+
+  /// No description provided for @password_error_too_long.
+  ///
+  /// In en, this message translates to:
+  /// **'Password is too long'**
+  String get password_error_too_long;
+
+  /// No description provided for @password_error_no_uppercase.
+  ///
+  /// In en, this message translates to:
+  /// **'Add at least one uppercase letter'**
+  String get password_error_no_uppercase;
+
+  /// No description provided for @password_error_no_lowercase.
+  ///
+  /// In en, this message translates to:
+  /// **'Add at least one lowercase letter'**
+  String get password_error_no_lowercase;
+
+  /// No description provided for @password_error_no_special.
+  ///
+  /// In en, this message translates to:
+  /// **'Add at least one special character'**
+  String get password_error_no_special;
+
+  /// No description provided for @password_error_no_digit.
+  ///
+  /// In en, this message translates to:
+  /// **'Add at least one number'**
+  String get password_error_no_digit;
+
+  /// No description provided for @password_confirm_error_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Please confirm your password'**
+  String get password_confirm_error_empty;
+
+  /// No description provided for @password_confirm_error_mismatch.
+  ///
+  /// In en, this message translates to:
+  /// **'Passwords don\'t match'**
+  String get password_confirm_error_mismatch;
+
+  /// No description provided for @password_rule_min_length.
+  ///
+  /// In en, this message translates to:
+  /// **'At least 8 characters'**
+  String get password_rule_min_length;
+
+  /// No description provided for @password_rule_uppercase.
+  ///
+  /// In en, this message translates to:
+  /// **'An uppercase letter (A–Z)'**
+  String get password_rule_uppercase;
+
+  /// No description provided for @password_rule_lowercase.
+  ///
+  /// In en, this message translates to:
+  /// **'A lowercase letter (a–z)'**
+  String get password_rule_lowercase;
+
+  /// No description provided for @password_rule_digit.
+  ///
+  /// In en, this message translates to:
+  /// **'A number (0–9)'**
+  String get password_rule_digit;
+
+  /// No description provided for @password_rule_special.
+  ///
+  /// In en, this message translates to:
+  /// **'A special character (!@#\$…)'**
+  String get password_rule_special;
+
+  /// No description provided for @password_pwned_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose a different password'**
+  String get password_pwned_title;
+
+  /// No description provided for @password_pwned_message.
+  ///
+  /// In en, this message translates to:
+  /// **'This password has appeared in a public data breach and isn\'t safe to use. Please pick a new one you haven\'t used on other sites.'**
+  String get password_pwned_message;
+
+  /// No description provided for @password_pwned_action_confirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Got it'**
+  String get password_pwned_action_confirm;
+
+  /// No description provided for @login_action_get_started.
+  ///
+  /// In en, this message translates to:
+  /// **'Get Started'**
+  String get login_action_get_started;
+
+  /// No description provided for @login_divider_or.
+  ///
+  /// In en, this message translates to:
+  /// **'OR'**
+  String get login_divider_or;
+
+  /// No description provided for @login_action_continue_google.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue with Google'**
+  String get login_action_continue_google;
+
+  /// No description provided for @login_action_continue_apple.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue with Apple'**
+  String get login_action_continue_apple;
+
+  /// No description provided for @login_error_google_token.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to get authentication token from Google.'**
+  String get login_error_google_token;
+
+  /// No description provided for @login_error_google_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to sign in with Google. Please try again.'**
+  String get login_error_google_generic;
+
+  /// No description provided for @login_error_apple_token.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to get authentication token from Apple.'**
+  String get login_error_apple_token;
+
+  /// No description provided for @login_error_apple_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to sign in with Apple. Please try again.'**
+  String get login_error_apple_generic;
+
+  /// No description provided for @login_password_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your password'**
+  String get login_password_hint;
+
+  /// No description provided for @login_action_forgot_password.
+  ///
+  /// In en, this message translates to:
+  /// **'Forgot password?'**
+  String get login_action_forgot_password;
+
+  /// No description provided for @login_action_log_in.
+  ///
+  /// In en, this message translates to:
+  /// **'Log in'**
+  String get login_action_log_in;
+
+  /// No description provided for @login_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Log in'**
+  String get login_title;
+
+  /// No description provided for @account_locked_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Account locked'**
+  String get account_locked_title;
+
+  /// No description provided for @account_suspended_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Account suspended'**
+  String get account_suspended_title;
+
+  /// No description provided for @account_locked_try_again_in.
+  ///
+  /// In en, this message translates to:
+  /// **'Try again in {duration}'**
+  String account_locked_try_again_in(String duration);
+
+  /// No description provided for @account_locked_failed_attempts.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 failed attempt.} other{{count} failed attempts.}}'**
+  String account_locked_failed_attempts(int count);
+
+  /// No description provided for @account_locked_action_support.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact support'**
+  String get account_locked_action_support;
+
+  /// No description provided for @create_account_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign up with email'**
+  String get create_account_title;
+
+  /// No description provided for @create_account_field_label_first_name.
+  ///
+  /// In en, this message translates to:
+  /// **'First name'**
+  String get create_account_field_label_first_name;
+
+  /// No description provided for @create_account_field_hint_first_name.
+  ///
+  /// In en, this message translates to:
+  /// **'Add your first name'**
+  String get create_account_field_hint_first_name;
+
+  /// No description provided for @create_account_error_first_name_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Your firstname can\'t be empty'**
+  String get create_account_error_first_name_empty;
+
+  /// No description provided for @create_account_error_first_name_invalid.
+  ///
+  /// In en, this message translates to:
+  /// **'This firstname is not valid'**
+  String get create_account_error_first_name_invalid;
+
+  /// No description provided for @create_account_field_label_last_name.
+  ///
+  /// In en, this message translates to:
+  /// **'Last name'**
+  String get create_account_field_label_last_name;
+
+  /// No description provided for @create_account_field_hint_last_name.
+  ///
+  /// In en, this message translates to:
+  /// **'Add your last name'**
+  String get create_account_field_hint_last_name;
+
+  /// No description provided for @create_account_error_last_name_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Your lastname can\'t be empty'**
+  String get create_account_error_last_name_empty;
+
+  /// No description provided for @create_account_error_last_name_invalid.
+  ///
+  /// In en, this message translates to:
+  /// **'This lastname is not valid'**
+  String get create_account_error_last_name_invalid;
+
+  /// No description provided for @create_account_field_label_referral.
+  ///
+  /// In en, this message translates to:
+  /// **'Referral Code'**
+  String get create_account_field_label_referral;
+
+  /// No description provided for @create_account_field_hint_referral.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter referral code'**
+  String get create_account_field_hint_referral;
+
+  /// No description provided for @create_account_referral_prefilled.
+  ///
+  /// In en, this message translates to:
+  /// **'Referral code pre-filled from your invitation link'**
+  String get create_account_referral_prefilled;
+
+  /// No description provided for @create_account_terms_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Accept terms and condition'**
+  String get create_account_terms_label;
+
+  /// No description provided for @create_account_terms_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'You agree to our '**
+  String get create_account_terms_prefix;
+
+  /// No description provided for @create_account_terms_link.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms & conditions'**
+  String get create_account_terms_link;
+
+  /// No description provided for @create_account_terms_separator.
+  ///
+  /// In en, this message translates to:
+  /// **' and '**
+  String get create_account_terms_separator;
+
+  /// No description provided for @create_account_privacy_link.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy policy'**
+  String get create_account_privacy_link;
+
+  /// No description provided for @create_account_terms_suffix.
+  ///
+  /// In en, this message translates to:
+  /// **' (As applicable on our website and from our third party service providers).'**
+  String get create_account_terms_suffix;
+
+  /// No description provided for @create_account_error_terms_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Please accept our Terms & Conditions'**
+  String get create_account_error_terms_required;
+
+  /// No description provided for @create_account_error_already_registered.
+  ///
+  /// In en, this message translates to:
+  /// **'User is already registered!'**
+  String get create_account_error_already_registered;
+
+  /// No description provided for @create_account_error_page_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Oops!'**
+  String get create_account_error_page_title;
+
+  /// No description provided for @verify_email_signup_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign up'**
+  String get verify_email_signup_title;
+
+  /// No description provided for @verify_email_heading.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify your email'**
+  String get verify_email_heading;
+
+  /// No description provided for @verify_email_subtitle_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'Add the verification code send to your email address '**
+  String get verify_email_subtitle_prefix;
+
+  /// No description provided for @verify_otp_subtitle_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the verification code sent to '**
+  String get verify_otp_subtitle_prefix;
+
+  /// No description provided for @verify_email_error_invalid_code.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid verification code. Please try again.'**
+  String get verify_email_error_invalid_code;
+
+  /// No description provided for @verify_email_error_code_expired.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification code expired. Tap resend.'**
+  String get verify_email_error_code_expired;
+
+  /// No description provided for @verify_email_error_invalid_code_retry.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid verification code. Retry'**
+  String get verify_email_error_invalid_code_retry;
+
+  /// No description provided for @create_password_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Set your password'**
+  String get create_password_title;
+
+  /// No description provided for @create_password_message.
+  ///
+  /// In en, this message translates to:
+  /// **'For your security, please set a password. You\'ll use it to sign in from now on.'**
+  String get create_password_message;
+
+  /// No description provided for @create_password_field_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Create a password'**
+  String get create_password_field_hint;
+
+  /// No description provided for @create_password_field_label_confirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm password'**
+  String get create_password_field_label_confirm;
+
+  /// No description provided for @create_password_field_hint_confirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Re-enter your password'**
+  String get create_password_field_hint_confirm;
+
+  /// No description provided for @create_password_action_submit.
+  ///
+  /// In en, this message translates to:
+  /// **'Create Password'**
+  String get create_password_action_submit;
+
+  /// No description provided for @create_password_error_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to create your password. Please try again.'**
+  String get create_password_error_generic;
+
+  /// No description provided for @reset_password_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Set a new password'**
+  String get reset_password_title;
+
+  /// No description provided for @reset_password_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Your existing password has expired. Please set a new one to continue.'**
+  String get reset_password_message;
+
+  /// No description provided for @reset_password_field_label_new.
+  ///
+  /// In en, this message translates to:
+  /// **'New password'**
+  String get reset_password_field_label_new;
+
+  /// No description provided for @reset_password_field_hint_new.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a new password'**
+  String get reset_password_field_hint_new;
+
+  /// No description provided for @reset_password_field_label_confirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm new password'**
+  String get reset_password_field_label_confirm;
+
+  /// No description provided for @reset_password_field_hint_confirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Re-enter your new password'**
+  String get reset_password_field_hint_confirm;
+
+  /// No description provided for @reset_password_action_submit.
+  ///
+  /// In en, this message translates to:
+  /// **'Set new password'**
+  String get reset_password_action_submit;
+
+  /// No description provided for @reset_password_error_session_expired.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset session expired. Please sign in again.'**
+  String get reset_password_error_session_expired;
+
+  /// No description provided for @reset_password_error_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to reset your password. Please try again.'**
+  String get reset_password_error_generic;
+
+  /// No description provided for @forgot_password_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset your password'**
+  String get forgot_password_title;
+
+  /// No description provided for @forgot_password_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the email address you used to sign in. We\'ll send you a link to reset your password.'**
+  String get forgot_password_message;
+
+  /// No description provided for @forgot_password_action_submit.
+  ///
+  /// In en, this message translates to:
+  /// **'Send reset link'**
+  String get forgot_password_action_submit;
+
+  /// No description provided for @forgot_password_success_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Check your inbox'**
+  String get forgot_password_success_title;
+
+  /// No description provided for @forgot_password_success_heading.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'ve sent a reset link'**
+  String get forgot_password_success_heading;
+
+  /// No description provided for @forgot_password_success_message.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'ve emailed a password-reset link to {email}. Tap the link in your inbox to set a new password. It expires in an hour.'**
+  String forgot_password_success_message(String email);
+
+  /// No description provided for @forgot_password_success_action_back.
+  ///
+  /// In en, this message translates to:
+  /// **'Back to sign in'**
+  String get forgot_password_success_action_back;
 }
 
 class _BringinTranslationsDelegate

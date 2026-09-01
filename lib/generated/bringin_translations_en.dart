@@ -616,4 +616,329 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get tx_subtype_swap => 'Swap';
+
+  @override
+  String get field_label_email => 'Email';
+
+  @override
+  String get field_hint_email => 'Add your email';
+
+  @override
+  String get field_error_email_empty => 'Your email can\'t be empty.';
+
+  @override
+  String get field_error_email_invalid => 'This email is not valid.';
+
+  @override
+  String get field_label_password => 'Password';
+
+  @override
+  String get action_next => 'Next';
+
+  @override
+  String get action_back => 'Back';
+
+  @override
+  String get action_close => 'Close';
+
+  @override
+  String get action_try_again => 'Try again';
+
+  @override
+  String get error_generic => 'Something went wrong!';
+
+  @override
+  String get error_generic_retry => 'Something went wrong. Please try again.';
+
+  @override
+  String get password_error_empty => 'Password is required';
+
+  @override
+  String get password_error_too_short =>
+      'Password must be at least 8 characters';
+
+  @override
+  String get password_error_too_long => 'Password is too long';
+
+  @override
+  String get password_error_no_uppercase => 'Add at least one uppercase letter';
+
+  @override
+  String get password_error_no_lowercase => 'Add at least one lowercase letter';
+
+  @override
+  String get password_error_no_special => 'Add at least one special character';
+
+  @override
+  String get password_error_no_digit => 'Add at least one number';
+
+  @override
+  String get password_confirm_error_empty => 'Please confirm your password';
+
+  @override
+  String get password_confirm_error_mismatch => 'Passwords don\'t match';
+
+  @override
+  String get password_rule_min_length => 'At least 8 characters';
+
+  @override
+  String get password_rule_uppercase => 'An uppercase letter (A–Z)';
+
+  @override
+  String get password_rule_lowercase => 'A lowercase letter (a–z)';
+
+  @override
+  String get password_rule_digit => 'A number (0–9)';
+
+  @override
+  String get password_rule_special => 'A special character (!@#\$…)';
+
+  @override
+  String get password_pwned_title => 'Choose a different password';
+
+  @override
+  String get password_pwned_message =>
+      'This password has appeared in a public data breach and isn\'t safe to use. Please pick a new one you haven\'t used on other sites.';
+
+  @override
+  String get password_pwned_action_confirm => 'Got it';
+
+  @override
+  String get login_action_get_started => 'Get Started';
+
+  @override
+  String get login_divider_or => 'OR';
+
+  @override
+  String get login_action_continue_google => 'Continue with Google';
+
+  @override
+  String get login_action_continue_apple => 'Continue with Apple';
+
+  @override
+  String get login_error_google_token =>
+      'Unable to get authentication token from Google.';
+
+  @override
+  String get login_error_google_generic =>
+      'Unable to sign in with Google. Please try again.';
+
+  @override
+  String get login_error_apple_token =>
+      'Unable to get authentication token from Apple.';
+
+  @override
+  String get login_error_apple_generic =>
+      'Unable to sign in with Apple. Please try again.';
+
+  @override
+  String get login_password_hint => 'Enter your password';
+
+  @override
+  String get login_action_forgot_password => 'Forgot password?';
+
+  @override
+  String get login_action_log_in => 'Log in';
+
+  @override
+  String get login_title => 'Log in';
+
+  @override
+  String get account_locked_title => 'Account locked';
+
+  @override
+  String get account_suspended_title => 'Account suspended';
+
+  @override
+  String account_locked_try_again_in(String duration) {
+    return 'Try again in $duration';
+  }
+
+  @override
+  String account_locked_failed_attempts(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count failed attempts.',
+      one: '1 failed attempt.',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get account_locked_action_support => 'Contact support';
+
+  @override
+  String get create_account_title => 'Sign up with email';
+
+  @override
+  String get create_account_field_label_first_name => 'First name';
+
+  @override
+  String get create_account_field_hint_first_name => 'Add your first name';
+
+  @override
+  String get create_account_error_first_name_empty =>
+      'Your firstname can\'t be empty';
+
+  @override
+  String get create_account_error_first_name_invalid =>
+      'This firstname is not valid';
+
+  @override
+  String get create_account_field_label_last_name => 'Last name';
+
+  @override
+  String get create_account_field_hint_last_name => 'Add your last name';
+
+  @override
+  String get create_account_error_last_name_empty =>
+      'Your lastname can\'t be empty';
+
+  @override
+  String get create_account_error_last_name_invalid =>
+      'This lastname is not valid';
+
+  @override
+  String get create_account_field_label_referral => 'Referral Code';
+
+  @override
+  String get create_account_field_hint_referral => 'Enter referral code';
+
+  @override
+  String get create_account_referral_prefilled =>
+      'Referral code pre-filled from your invitation link';
+
+  @override
+  String get create_account_terms_label => 'Accept terms and condition';
+
+  @override
+  String get create_account_terms_prefix => 'You agree to our ';
+
+  @override
+  String get create_account_terms_link => 'Terms & conditions';
+
+  @override
+  String get create_account_terms_separator => ' and ';
+
+  @override
+  String get create_account_privacy_link => 'Privacy policy';
+
+  @override
+  String get create_account_terms_suffix =>
+      ' (As applicable on our website and from our third party service providers).';
+
+  @override
+  String get create_account_error_terms_required =>
+      'Please accept our Terms & Conditions';
+
+  @override
+  String get create_account_error_already_registered =>
+      'User is already registered!';
+
+  @override
+  String get create_account_error_page_title => 'Oops!';
+
+  @override
+  String get verify_email_signup_title => 'Sign up';
+
+  @override
+  String get verify_email_heading => 'Verify your email';
+
+  @override
+  String get verify_email_subtitle_prefix =>
+      'Add the verification code send to your email address ';
+
+  @override
+  String get verify_otp_subtitle_prefix =>
+      'Enter the verification code sent to ';
+
+  @override
+  String get verify_email_error_invalid_code =>
+      'Invalid verification code. Please try again.';
+
+  @override
+  String get verify_email_error_code_expired =>
+      'Verification code expired. Tap resend.';
+
+  @override
+  String get verify_email_error_invalid_code_retry =>
+      'Invalid verification code. Retry';
+
+  @override
+  String get create_password_title => 'Set your password';
+
+  @override
+  String get create_password_message =>
+      'For your security, please set a password. You\'ll use it to sign in from now on.';
+
+  @override
+  String get create_password_field_hint => 'Create a password';
+
+  @override
+  String get create_password_field_label_confirm => 'Confirm password';
+
+  @override
+  String get create_password_field_hint_confirm => 'Re-enter your password';
+
+  @override
+  String get create_password_action_submit => 'Create Password';
+
+  @override
+  String get create_password_error_generic =>
+      'Unable to create your password. Please try again.';
+
+  @override
+  String get reset_password_title => 'Set a new password';
+
+  @override
+  String get reset_password_message =>
+      'Your existing password has expired. Please set a new one to continue.';
+
+  @override
+  String get reset_password_field_label_new => 'New password';
+
+  @override
+  String get reset_password_field_hint_new => 'Enter a new password';
+
+  @override
+  String get reset_password_field_label_confirm => 'Confirm new password';
+
+  @override
+  String get reset_password_field_hint_confirm => 'Re-enter your new password';
+
+  @override
+  String get reset_password_action_submit => 'Set new password';
+
+  @override
+  String get reset_password_error_session_expired =>
+      'Reset session expired. Please sign in again.';
+
+  @override
+  String get reset_password_error_generic =>
+      'Unable to reset your password. Please try again.';
+
+  @override
+  String get forgot_password_title => 'Reset your password';
+
+  @override
+  String get forgot_password_message =>
+      'Enter the email address you used to sign in. We\'ll send you a link to reset your password.';
+
+  @override
+  String get forgot_password_action_submit => 'Send reset link';
+
+  @override
+  String get forgot_password_success_title => 'Check your inbox';
+
+  @override
+  String get forgot_password_success_heading => 'We\'ve sent a reset link';
+
+  @override
+  String forgot_password_success_message(String email) {
+    return 'We\'ve emailed a password-reset link to $email. Tap the link in your inbox to set a new password. It expires in an hour.';
+  }
+
+  @override
+  String get forgot_password_success_action_back => 'Back to sign in';
 }
