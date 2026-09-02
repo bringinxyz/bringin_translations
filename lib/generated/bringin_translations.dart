@@ -6478,6 +6478,18 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Only allowed characters'**
   String get card_password_rule_allowed;
+
+  /// No description provided for @card_create_action_create.
+  ///
+  /// In en, this message translates to:
+  /// **'Create card'**
+  String get card_create_action_create;
+
+  /// No description provided for @card_create_virtual_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Create a virtual card'**
+  String get card_create_virtual_title;
 }
 
 class _BringinTranslationsDelegate

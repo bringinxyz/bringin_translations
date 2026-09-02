@@ -3741,4 +3741,10 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get card_password_rule_allowed => 'Only allowed characters';
+
+  @override
+  String get card_create_action_create => 'Create card';
+
+  @override
+  String get card_create_virtual_title => 'Create a virtual card';
 }
