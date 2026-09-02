@@ -5734,4 +5734,122 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get home_flow_error_generic_title => 'Something went wrong';
+
+  @override
+  String get home_setup_still_title => 'Still setting things up';
+
+  @override
+  String get home_setup_title => 'Setting up your account';
+
+  @override
+  String get home_setup_taking_longer =>
+      'This is taking longer than usual. Tap retry to check again, or come back in a moment.';
+
+  @override
+  String get home_setup_body =>
+      'We\'re finishing setup behind the scenes. This usually takes just a few seconds.';
+
+  @override
+  String get home_autodecl_title => 'Using your own Bitcoin wallet?';
+
+  @override
+  String get home_autodecl_body =>
+      'By continuing, you confirm that Bitcoin you buy will normally be sent to wallets you own, and Bitcoin you sell will normally come from wallets you own. We\'ll remember this so you don\'t have to confirm it every time.\\n\\nYou can change this anytime in Settings.';
+
+  @override
+  String get home_action_not_now => 'Not now';
+
+  @override
+  String get home_autodecl_confirm => 'Confirm and remember';
+
+  @override
+  String get home_needed_passkey_title => 'Protect your account';
+
+  @override
+  String get home_needed_passkey_body =>
+      'Add a passkey — faster and safer than SMS.';
+
+  @override
+  String get home_action_do_it_now => 'Do it now';
+
+  @override
+  String get home_needed_tr_title => 'Pre-declare travel rule';
+
+  @override
+  String get home_needed_tr_body =>
+      'Turn on auto declaration for the wallets you own.';
+
+  @override
+  String get home_kyc_checking => 'Checking your verification status.';
+
+  @override
+  String get home_kyc_under_review_title => 'Verification under review';
+
+  @override
+  String get home_kyc_under_review_body =>
+      'Your provided details are currently under review, you will receive an email from us regarding the verification.';
+
+  @override
+  String get home_nearby_title => 'Nearby payments';
+
+  @override
+  String get home_nearby_body =>
+      'Discover nearby Bringin users over Bluetooth and send or receive Lightning payments.';
+
+  @override
+  String get home_nearby_bt_permission_title => 'Bluetooth permission required';
+
+  @override
+  String get home_nearby_bt_permission_body =>
+      'Go to Settings → Bringin → Bluetooth to enable it.';
+
+  @override
+  String get home_nearby_action_open_settings => 'Open Settings';
+
+  @override
+  String get home_nearby_bt_off_title => 'Bluetooth is off';
+
+  @override
+  String get home_nearby_bt_off_body =>
+      'Turn on Bluetooth to discover nearby users.';
+
+  @override
+  String get home_nearby_pay => 'Pay';
+
+  @override
+  String get home_nearby_pay_hint => 'Find nearby users and pay them';
+
+  @override
+  String get home_nearby_activate_first => 'Activate your Bitcoin wallet first';
+
+  @override
+  String get home_nearby_get_paid => 'Get paid';
+
+  @override
+  String get home_nearby_get_paid_hint => 'Make yourself discoverable nearby';
+
+  @override
+  String get home_passkey_do_it_later => 'Do it later - use SMS for now';
+
+  @override
+  String get home_passkey_method_note =>
+      'You\'ll use this method when signing in or approving sensitive actions.';
+
+  @override
+  String get home_passkey_option_passkey => 'Passkey';
+
+  @override
+  String get home_passkey_option_passkey_hint =>
+      'Device Biometrics. Faster and phishing-resistant';
+
+  @override
+  String get home_passkey_option_totp => 'Authenticator app';
+
+  @override
+  String get home_passkey_option_totp_hint =>
+      'Google Authenticator, Microsoft Authenticator etc.';
+
+  @override
+  String get home_send_error_zero_amount =>
+      'Zero amount invoices are not supported';
 }

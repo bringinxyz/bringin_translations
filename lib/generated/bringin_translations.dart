@@ -9971,6 +9971,216 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Something went wrong'**
   String get home_flow_error_generic_title;
+
+  /// No description provided for @home_setup_still_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Still setting things up'**
+  String get home_setup_still_title;
+
+  /// No description provided for @home_setup_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Setting up your account'**
+  String get home_setup_title;
+
+  /// No description provided for @home_setup_taking_longer.
+  ///
+  /// In en, this message translates to:
+  /// **'This is taking longer than usual. Tap retry to check again, or come back in a moment.'**
+  String get home_setup_taking_longer;
+
+  /// No description provided for @home_setup_body.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'re finishing setup behind the scenes. This usually takes just a few seconds.'**
+  String get home_setup_body;
+
+  /// No description provided for @home_autodecl_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Using your own Bitcoin wallet?'**
+  String get home_autodecl_title;
+
+  /// No description provided for @home_autodecl_body.
+  ///
+  /// In en, this message translates to:
+  /// **'By continuing, you confirm that Bitcoin you buy will normally be sent to wallets you own, and Bitcoin you sell will normally come from wallets you own. We\'ll remember this so you don\'t have to confirm it every time.\\n\\nYou can change this anytime in Settings.'**
+  String get home_autodecl_body;
+
+  /// No description provided for @home_action_not_now.
+  ///
+  /// In en, this message translates to:
+  /// **'Not now'**
+  String get home_action_not_now;
+
+  /// No description provided for @home_autodecl_confirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm and remember'**
+  String get home_autodecl_confirm;
+
+  /// No description provided for @home_needed_passkey_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Protect your account'**
+  String get home_needed_passkey_title;
+
+  /// No description provided for @home_needed_passkey_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a passkey — faster and safer than SMS.'**
+  String get home_needed_passkey_body;
+
+  /// No description provided for @home_action_do_it_now.
+  ///
+  /// In en, this message translates to:
+  /// **'Do it now'**
+  String get home_action_do_it_now;
+
+  /// No description provided for @home_needed_tr_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Pre-declare travel rule'**
+  String get home_needed_tr_title;
+
+  /// No description provided for @home_needed_tr_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Turn on auto declaration for the wallets you own.'**
+  String get home_needed_tr_body;
+
+  /// No description provided for @home_kyc_checking.
+  ///
+  /// In en, this message translates to:
+  /// **'Checking your verification status.'**
+  String get home_kyc_checking;
+
+  /// No description provided for @home_kyc_under_review_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification under review'**
+  String get home_kyc_under_review_title;
+
+  /// No description provided for @home_kyc_under_review_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Your provided details are currently under review, you will receive an email from us regarding the verification.'**
+  String get home_kyc_under_review_body;
+
+  /// No description provided for @home_nearby_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Nearby payments'**
+  String get home_nearby_title;
+
+  /// No description provided for @home_nearby_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Discover nearby Bringin users over Bluetooth and send or receive Lightning payments.'**
+  String get home_nearby_body;
+
+  /// No description provided for @home_nearby_bt_permission_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Bluetooth permission required'**
+  String get home_nearby_bt_permission_title;
+
+  /// No description provided for @home_nearby_bt_permission_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Go to Settings → Bringin → Bluetooth to enable it.'**
+  String get home_nearby_bt_permission_body;
+
+  /// No description provided for @home_nearby_action_open_settings.
+  ///
+  /// In en, this message translates to:
+  /// **'Open Settings'**
+  String get home_nearby_action_open_settings;
+
+  /// No description provided for @home_nearby_bt_off_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Bluetooth is off'**
+  String get home_nearby_bt_off_title;
+
+  /// No description provided for @home_nearby_bt_off_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Turn on Bluetooth to discover nearby users.'**
+  String get home_nearby_bt_off_body;
+
+  /// No description provided for @home_nearby_pay.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay'**
+  String get home_nearby_pay;
+
+  /// No description provided for @home_nearby_pay_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Find nearby users and pay them'**
+  String get home_nearby_pay_hint;
+
+  /// No description provided for @home_nearby_activate_first.
+  ///
+  /// In en, this message translates to:
+  /// **'Activate your Bitcoin wallet first'**
+  String get home_nearby_activate_first;
+
+  /// No description provided for @home_nearby_get_paid.
+  ///
+  /// In en, this message translates to:
+  /// **'Get paid'**
+  String get home_nearby_get_paid;
+
+  /// No description provided for @home_nearby_get_paid_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Make yourself discoverable nearby'**
+  String get home_nearby_get_paid_hint;
+
+  /// No description provided for @home_passkey_do_it_later.
+  ///
+  /// In en, this message translates to:
+  /// **'Do it later - use SMS for now'**
+  String get home_passkey_do_it_later;
+
+  /// No description provided for @home_passkey_method_note.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ll use this method when signing in or approving sensitive actions.'**
+  String get home_passkey_method_note;
+
+  /// No description provided for @home_passkey_option_passkey.
+  ///
+  /// In en, this message translates to:
+  /// **'Passkey'**
+  String get home_passkey_option_passkey;
+
+  /// No description provided for @home_passkey_option_passkey_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Device Biometrics. Faster and phishing-resistant'**
+  String get home_passkey_option_passkey_hint;
+
+  /// No description provided for @home_passkey_option_totp.
+  ///
+  /// In en, this message translates to:
+  /// **'Authenticator app'**
+  String get home_passkey_option_totp;
+
+  /// No description provided for @home_passkey_option_totp_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Google Authenticator, Microsoft Authenticator etc.'**
+  String get home_passkey_option_totp_hint;
+
+  /// No description provided for @home_send_error_zero_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Zero amount invoices are not supported'**
+  String get home_send_error_zero_amount;
 }
 
 class _BringinTranslationsDelegate
