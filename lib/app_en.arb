@@ -1878,6 +1878,20 @@
   "profile_ln_destinations_all": "wallet, account and card balance",
   "profile_ln_destinations_wallet_account": "wallet and account",
   "profile_ln_destinations_account_card": "account and card balance",
+  "profile_ln_destinations_account": "account",
+  "profile_ln_description": "{count, plural, =1{Lightning address to receive payments to your {destinations}.} other{Lightning addresses to receive payments to your {destinations}.}}",
+  "@profile_ln_description": {
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      },
+      "destinations": {
+        "type": "String",
+        "example": "wallet and account"
+      }
+    }
+  },
   "profile_ln_action_claim_address": "Claim address",
   "profile_ln_action_claim_username": "Claim username",
   "profile_ln_toast_copied": "Address copied",

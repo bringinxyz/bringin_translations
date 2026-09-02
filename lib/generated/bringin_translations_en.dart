@@ -4050,6 +4050,20 @@ class BringinTranslationsEn extends BringinTranslations {
   String get profile_ln_destinations_account_card => 'account and card balance';
 
   @override
+  String get profile_ln_destinations_account => 'account';
+
+  @override
+  String profile_ln_description(int count, String destinations) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Lightning addresses to receive payments to your $destinations.',
+      one: 'Lightning address to receive payments to your $destinations.',
+    );
+    return '$_temp0';
+  }
+
+  @override
   String get profile_ln_action_claim_address => 'Claim address';
 
   @override

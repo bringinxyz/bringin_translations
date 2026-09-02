@@ -7013,6 +7013,18 @@ abstract class BringinTranslations {
   /// **'account and card balance'**
   String get profile_ln_destinations_account_card;
 
+  /// No description provided for @profile_ln_destinations_account.
+  ///
+  /// In en, this message translates to:
+  /// **'account'**
+  String get profile_ln_destinations_account;
+
+  /// No description provided for @profile_ln_description.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{Lightning address to receive payments to your {destinations}.} other{Lightning addresses to receive payments to your {destinations}.}}'**
+  String profile_ln_description(int count, String destinations);
+
   /// No description provided for @profile_ln_action_claim_address.
   ///
   /// In en, this message translates to:
