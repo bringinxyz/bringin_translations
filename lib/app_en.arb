@@ -196,6 +196,7 @@
   "successful_payment_received": "Payment received!",
   "success_title_payment_received": "Payment received",
   "success_title_purchase_complete": "Purchase Complete!",
+  "success_title_payment_completed": "Payment completed successfully! 🎉",
   "successful_payment_sent_title": "Payment was\nsuccessfully sent!",
   "valid_payment_error_exceeds_the_limit": "Payment exceeds the limit {amount}.",
   "@valid_payment_error_exceeds_the_limit": {

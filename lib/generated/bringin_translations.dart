@@ -647,6 +647,12 @@ abstract class BringinTranslations {
   /// **'Purchase Complete!'**
   String get success_title_purchase_complete;
 
+  /// No description provided for @success_title_payment_completed.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment completed successfully! 🎉'**
+  String get success_title_payment_completed;
+
   /// No description provided for @successful_payment_sent_title.
   ///
   /// In en, this message translates to:

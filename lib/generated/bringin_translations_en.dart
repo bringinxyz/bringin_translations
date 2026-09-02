@@ -328,6 +328,10 @@ class BringinTranslationsEn extends BringinTranslations {
   String get success_title_purchase_complete => 'Purchase Complete!';
 
   @override
+  String get success_title_payment_completed =>
+      'Payment completed successfully! 🎉';
+
+  @override
   String get successful_payment_sent_title => 'Payment was\nsuccessfully sent!';
 
   @override
