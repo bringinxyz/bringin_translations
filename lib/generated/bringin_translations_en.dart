@@ -3921,7 +3921,7 @@ class BringinTranslationsEn extends BringinTranslations {
       'You are on tier 1 for your Euro account and Card balance account.';
 
   @override
-  String profile_kyc_tier_label(String tier) {
+  String profile_kyc_tier_label(int tier) {
     return 'You are on Tier $tier';
   }
 
@@ -4173,4 +4173,10 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get profile_logout_confirm_backed_up =>
       'Your wallet is backed up to Google Drive. Sign back in anytime to restore it.';
+
+  @override
+  String get profile_kyc_limit_label_withdrawal => 'withdrawal';
+
+  @override
+  String get profile_kyc_limit_label_deposits => 'deposits';
 }

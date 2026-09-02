@@ -6795,7 +6795,7 @@ abstract class BringinTranslations {
   ///
   /// In en, this message translates to:
   /// **'You are on Tier {tier}'**
-  String profile_kyc_tier_label(String tier);
+  String profile_kyc_tier_label(int tier);
 
   /// No description provided for @profile_kyc_limit_row.
   ///
@@ -7228,6 +7228,18 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Your wallet is backed up to Google Drive. Sign back in anytime to restore it.'**
   String get profile_logout_confirm_backed_up;
+
+  /// No description provided for @profile_kyc_limit_label_withdrawal.
+  ///
+  /// In en, this message translates to:
+  /// **'withdrawal'**
+  String get profile_kyc_limit_label_withdrawal;
+
+  /// No description provided for @profile_kyc_limit_label_deposits.
+  ///
+  /// In en, this message translates to:
+  /// **'deposits'**
+  String get profile_kyc_limit_label_deposits;
 }
 
 class _BringinTranslationsDelegate

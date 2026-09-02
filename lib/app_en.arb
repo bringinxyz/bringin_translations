@@ -1825,7 +1825,7 @@
   "@profile_kyc_tier_label": {
     "placeholders": {
       "tier": {
-        "type": "String",
+        "type": "int",
         "example": "2"
       }
     }
@@ -1925,5 +1925,7 @@
   "profile_logout_confirm_title": "Log out of Bringin?",
   "profile_logout_confirm_signin_again": "You'll need to sign in again to access your account.",
   "profile_logout_confirm_wallet_removed": "Your Bitcoin wallet will be removed from this device. You can restore it later if you have a recovery phrase.",
-  "profile_logout_confirm_backed_up": "Your wallet is backed up to Google Drive. Sign back in anytime to restore it."
+  "profile_logout_confirm_backed_up": "Your wallet is backed up to Google Drive. Sign back in anytime to restore it.",
+  "profile_kyc_limit_label_withdrawal": "withdrawal",
+  "profile_kyc_limit_label_deposits": "deposits"
 }
