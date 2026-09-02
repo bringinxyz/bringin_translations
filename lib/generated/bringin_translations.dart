@@ -1913,12 +1913,6 @@ abstract class BringinTranslations {
   /// **'Linking an external wallet is coming soon'**
   String get add_wallet_external_coming_soon;
 
-  /// No description provided for @add_wallet_action_verify.
-  ///
-  /// In en, this message translates to:
-  /// **'Verify'**
-  String get add_wallet_action_verify;
-
   /// No description provided for @add_wallet_loader_restoring.
   ///
   /// In en, this message translates to:
@@ -3106,6 +3100,12 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Retry'**
   String get action_retry;
+
+  /// Shared button label: verify.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify'**
+  String get action_verify;
 
   /// No description provided for @error_unknown.
   ///

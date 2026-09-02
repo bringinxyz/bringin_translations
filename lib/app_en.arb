@@ -524,7 +524,6 @@
   "add_wallet_option_external_title": "Link an external wallet",
   "add_wallet_option_external_subtitle": "Link an external NWC wallet. (Coming soon)",
   "add_wallet_external_coming_soon": "Linking an external wallet is coming soon",
-  "add_wallet_action_verify": "Verify",
   "add_wallet_loader_restoring": "Restoring your wallet. This won't take long.",
   "add_wallet_loader_creating": "Creating your new wallet. Almost there!",
   "add_wallet_loader_checking": "Checking your wallet.",
@@ -832,6 +831,10 @@
   "manage_wallet_secure_now_message": "Your wallet isn’t backed up. If you lose access, your Bitcoin will be permanently lost.",
   "manage_wallet_secure_now_note": "Bringin cannot recover it, as we do not store your keys.",
   "action_retry": "Retry",
+  "action_verify": "Verify",
+  "@action_verify": {
+    "description": "Shared button label: verify."
+  },
   "error_unknown": "An unknown error occurred",
   "receive_amount_sats": "{count, plural, =1{1 sat} other{{count} sats}}",
   "@receive_amount_sats": {

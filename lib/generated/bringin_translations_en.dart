@@ -1052,9 +1052,6 @@ class BringinTranslationsEn extends BringinTranslations {
       'Linking an external wallet is coming soon';
 
   @override
-  String get add_wallet_action_verify => 'Verify';
-
-  @override
   String get add_wallet_loader_restoring =>
       'Restoring your wallet. This won\'t take long.';
 
@@ -1742,6 +1739,9 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get action_retry => 'Retry';
+
+  @override
+  String get action_verify => 'Verify';
 
   @override
   String get error_unknown => 'An unknown error occurred';
