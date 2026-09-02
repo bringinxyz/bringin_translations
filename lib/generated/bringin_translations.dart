@@ -8956,6 +8956,144 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Please complete your KYC'**
   String get cash_connect_kyc_prompt;
+
+  /// No description provided for @cash_manage_euro_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage Euro account'**
+  String get cash_manage_euro_title;
+
+  /// No description provided for @tx_label_buy_btc.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy BTC'**
+  String get tx_label_buy_btc;
+
+  /// No description provided for @tx_label_deposit_btc.
+  ///
+  /// In en, this message translates to:
+  /// **'Deposit BTC'**
+  String get tx_label_deposit_btc;
+
+  /// No description provided for @tx_label_bank.
+  ///
+  /// In en, this message translates to:
+  /// **'Bank'**
+  String get tx_label_bank;
+
+  /// No description provided for @tx_subtype_withdraw.
+  ///
+  /// In en, this message translates to:
+  /// **'Withdraw'**
+  String get tx_subtype_withdraw;
+
+  /// No description provided for @payment_details_label_method.
+  ///
+  /// In en, this message translates to:
+  /// **'Method'**
+  String get payment_details_label_method;
+
+  /// No description provided for @payment_details_label_sender_iban.
+  ///
+  /// In en, this message translates to:
+  /// **'Sender beneficiary IBAN'**
+  String get payment_details_label_sender_iban;
+
+  /// No description provided for @payment_details_label_sender_name.
+  ///
+  /// In en, this message translates to:
+  /// **'Sender beneficiary name'**
+  String get payment_details_label_sender_name;
+
+  /// No description provided for @payment_details_label_bank_reference.
+  ///
+  /// In en, this message translates to:
+  /// **'Bank reference'**
+  String get payment_details_label_bank_reference;
+
+  /// No description provided for @payment_details_label_card.
+  ///
+  /// In en, this message translates to:
+  /// **'Card'**
+  String get payment_details_label_card;
+
+  /// No description provided for @payment_details_declined.
+  ///
+  /// In en, this message translates to:
+  /// **'This payment was declined'**
+  String get payment_details_declined;
+
+  /// No description provided for @payment_details_why_received.
+  ///
+  /// In en, this message translates to:
+  /// **'Why you received this'**
+  String get payment_details_why_received;
+
+  /// No description provided for @payment_details_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'This transaction didn\'t go through'**
+  String get payment_details_failed;
+
+  /// No description provided for @payment_details_whats_happening.
+  ///
+  /// In en, this message translates to:
+  /// **'What\'s happening'**
+  String get payment_details_whats_happening;
+
+  /// No description provided for @payment_details_label_bitcoin_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin address'**
+  String get payment_details_label_bitcoin_address;
+
+  /// No description provided for @payment_details_label_sent_to.
+  ///
+  /// In en, this message translates to:
+  /// **'Sent to'**
+  String get payment_details_label_sent_to;
+
+  /// No description provided for @payment_details_fetching.
+  ///
+  /// In en, this message translates to:
+  /// **'Fetching…'**
+  String get payment_details_fetching;
+
+  /// No description provided for @payment_details_label_account_holder.
+  ///
+  /// In en, this message translates to:
+  /// **'Account holder'**
+  String get payment_details_label_account_holder;
+
+  /// No description provided for @payment_details_label_saved_as.
+  ///
+  /// In en, this message translates to:
+  /// **'Saved as'**
+  String get payment_details_label_saved_as;
+
+  /// No description provided for @payment_details_label_transaction.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction'**
+  String get payment_details_label_transaction;
+
+  /// No description provided for @payment_details_label_received_from.
+  ///
+  /// In en, this message translates to:
+  /// **'Received from'**
+  String get payment_details_label_received_from;
+
+  /// No description provided for @payment_details_click_to_explore.
+  ///
+  /// In en, this message translates to:
+  /// **'Click to explore'**
+  String get payment_details_click_to_explore;
+
+  /// No description provided for @payment_details_label_category.
+  ///
+  /// In en, this message translates to:
+  /// **'Category'**
+  String get payment_details_label_category;
 }
 
 class _BringinTranslationsDelegate

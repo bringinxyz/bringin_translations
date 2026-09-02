@@ -5165,4 +5165,73 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get cash_connect_kyc_prompt => 'Please complete your KYC';
+
+  @override
+  String get cash_manage_euro_title => 'Manage Euro account';
+
+  @override
+  String get tx_label_buy_btc => 'Buy BTC';
+
+  @override
+  String get tx_label_deposit_btc => 'Deposit BTC';
+
+  @override
+  String get tx_label_bank => 'Bank';
+
+  @override
+  String get tx_subtype_withdraw => 'Withdraw';
+
+  @override
+  String get payment_details_label_method => 'Method';
+
+  @override
+  String get payment_details_label_sender_iban => 'Sender beneficiary IBAN';
+
+  @override
+  String get payment_details_label_sender_name => 'Sender beneficiary name';
+
+  @override
+  String get payment_details_label_bank_reference => 'Bank reference';
+
+  @override
+  String get payment_details_label_card => 'Card';
+
+  @override
+  String get payment_details_declined => 'This payment was declined';
+
+  @override
+  String get payment_details_why_received => 'Why you received this';
+
+  @override
+  String get payment_details_failed => 'This transaction didn\'t go through';
+
+  @override
+  String get payment_details_whats_happening => 'What\'s happening';
+
+  @override
+  String get payment_details_label_bitcoin_address => 'Bitcoin address';
+
+  @override
+  String get payment_details_label_sent_to => 'Sent to';
+
+  @override
+  String get payment_details_fetching => 'Fetching…';
+
+  @override
+  String get payment_details_label_account_holder => 'Account holder';
+
+  @override
+  String get payment_details_label_saved_as => 'Saved as';
+
+  @override
+  String get payment_details_label_transaction => 'Transaction';
+
+  @override
+  String get payment_details_label_received_from => 'Received from';
+
+  @override
+  String get payment_details_click_to_explore => 'Click to explore';
+
+  @override
+  String get payment_details_label_category => 'Category';
 }
