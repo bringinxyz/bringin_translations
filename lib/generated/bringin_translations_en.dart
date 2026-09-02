@@ -4179,4 +4179,113 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get profile_kyc_limit_label_deposits => 'deposits';
+
+  @override
+  String get sell_autoswap_title => 'Auto-swap isn\'t enabled';
+
+  @override
+  String get sell_autoswap_description =>
+      'Auto-swap converts your Bitcoin to Euros. You\'ll need it before you can sell to your bank.';
+
+  @override
+  String get sell_autoswap_action => 'Enable auto-swap';
+
+  @override
+  String get sell_title => 'Sell to bank';
+
+  @override
+  String get sell_source_blink => 'Blink wallet';
+
+  @override
+  String get sell_source_nwc => 'NWC wallet';
+
+  @override
+  String get sell_source_external => 'External wallet';
+
+  @override
+  String get sell_select_source => 'Select source';
+
+  @override
+  String get sell_select_recipient => 'Select or add a recipient';
+
+  @override
+  String get sell_error_account_not_ready =>
+      'Account not ready. Please try again.';
+
+  @override
+  String get sell_error_load_recipients => 'Failed to load recipients';
+
+  @override
+  String get sell_no_recipients => 'No recipients added yet.';
+
+  @override
+  String get sell_reference_default => 'From Bringin';
+
+  @override
+  String get sell_error_load_details => 'We couldn\'t load some details.';
+
+  @override
+  String get sell_label_reference_source => 'From Bringin wallet';
+
+  @override
+  String get sell_field_you_receive => 'You receive';
+
+  @override
+  String get sell_field_you_sell => 'You sell';
+
+  @override
+  String get sell_hint_loading_rate => 'Loading rate...';
+
+  @override
+  String get sell_action_swipe => 'Swipe to sell Bitcoin';
+
+  @override
+  String get sell_connect_beneficiary_fallback => 'Beneficiary';
+
+  @override
+  String get sell_connect_toast_setting_up =>
+      'Setting things up — please wait.';
+
+  @override
+  String get sell_connect_toast_still_waiting =>
+      'Still waiting for the code. Tap again in a moment, or tap \"Didn\'t receive a code?\" to contact support.';
+
+  @override
+  String sell_connect_toast_resend_server(String message) {
+    return '$message Tap \"Contact support\" if this keeps happening.';
+  }
+
+  @override
+  String get sell_connect_toast_resend_failed =>
+      'Couldn\'t resend the code. Tap \"Contact support\" below to get help.';
+
+  @override
+  String get sell_connect_error_open_support =>
+      'Couldn\'t open support. Please try again.';
+
+  @override
+  String get sell_connect_onetime_notice =>
+      'One-time setup — we won\'t ask for a code on future transfers to this recipient.';
+
+  @override
+  String get sell_connect_passkey_prompt =>
+      'Verify it\'s you with your face or fingerprint to authorise this connection.';
+
+  @override
+  String get sell_connect_first_time_prefix => 'First time sending to ';
+
+  @override
+  String get sell_connect_code_sent_mobile =>
+      'Add the code sent to your mobile ';
+
+  @override
+  String get sell_connect_code_sent_email => ' or email ';
+
+  @override
+  String get sell_connect_support_checking =>
+      'Checking… still no code? Contact support';
+
+  @override
+  String get sell_connect_support_prompt =>
+      'Didn\'t receive a code? Contact support';
 }

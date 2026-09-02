@@ -7240,6 +7240,198 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'deposits'**
   String get profile_kyc_limit_label_deposits;
+
+  /// No description provided for @sell_autoswap_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Auto-swap isn\'t enabled'**
+  String get sell_autoswap_title;
+
+  /// No description provided for @sell_autoswap_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Auto-swap converts your Bitcoin to Euros. You\'ll need it before you can sell to your bank.'**
+  String get sell_autoswap_description;
+
+  /// No description provided for @sell_autoswap_action.
+  ///
+  /// In en, this message translates to:
+  /// **'Enable auto-swap'**
+  String get sell_autoswap_action;
+
+  /// No description provided for @sell_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sell to bank'**
+  String get sell_title;
+
+  /// No description provided for @sell_source_blink.
+  ///
+  /// In en, this message translates to:
+  /// **'Blink wallet'**
+  String get sell_source_blink;
+
+  /// No description provided for @sell_source_nwc.
+  ///
+  /// In en, this message translates to:
+  /// **'NWC wallet'**
+  String get sell_source_nwc;
+
+  /// No description provided for @sell_source_external.
+  ///
+  /// In en, this message translates to:
+  /// **'External wallet'**
+  String get sell_source_external;
+
+  /// No description provided for @sell_select_source.
+  ///
+  /// In en, this message translates to:
+  /// **'Select source'**
+  String get sell_select_source;
+
+  /// No description provided for @sell_select_recipient.
+  ///
+  /// In en, this message translates to:
+  /// **'Select or add a recipient'**
+  String get sell_select_recipient;
+
+  /// No description provided for @sell_error_account_not_ready.
+  ///
+  /// In en, this message translates to:
+  /// **'Account not ready. Please try again.'**
+  String get sell_error_account_not_ready;
+
+  /// No description provided for @sell_error_load_recipients.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to load recipients'**
+  String get sell_error_load_recipients;
+
+  /// No description provided for @sell_no_recipients.
+  ///
+  /// In en, this message translates to:
+  /// **'No recipients added yet.'**
+  String get sell_no_recipients;
+
+  /// No description provided for @sell_reference_default.
+  ///
+  /// In en, this message translates to:
+  /// **'From Bringin'**
+  String get sell_reference_default;
+
+  /// No description provided for @sell_error_load_details.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t load some details.'**
+  String get sell_error_load_details;
+
+  /// No description provided for @sell_label_reference_source.
+  ///
+  /// In en, this message translates to:
+  /// **'From Bringin wallet'**
+  String get sell_label_reference_source;
+
+  /// No description provided for @sell_field_you_receive.
+  ///
+  /// In en, this message translates to:
+  /// **'You receive'**
+  String get sell_field_you_receive;
+
+  /// No description provided for @sell_field_you_sell.
+  ///
+  /// In en, this message translates to:
+  /// **'You sell'**
+  String get sell_field_you_sell;
+
+  /// No description provided for @sell_hint_loading_rate.
+  ///
+  /// In en, this message translates to:
+  /// **'Loading rate...'**
+  String get sell_hint_loading_rate;
+
+  /// No description provided for @sell_action_swipe.
+  ///
+  /// In en, this message translates to:
+  /// **'Swipe to sell Bitcoin'**
+  String get sell_action_swipe;
+
+  /// No description provided for @sell_connect_beneficiary_fallback.
+  ///
+  /// In en, this message translates to:
+  /// **'Beneficiary'**
+  String get sell_connect_beneficiary_fallback;
+
+  /// No description provided for @sell_connect_toast_setting_up.
+  ///
+  /// In en, this message translates to:
+  /// **'Setting things up — please wait.'**
+  String get sell_connect_toast_setting_up;
+
+  /// No description provided for @sell_connect_toast_still_waiting.
+  ///
+  /// In en, this message translates to:
+  /// **'Still waiting for the code. Tap again in a moment, or tap \"Didn\'t receive a code?\" to contact support.'**
+  String get sell_connect_toast_still_waiting;
+
+  /// No description provided for @sell_connect_toast_resend_server.
+  ///
+  /// In en, this message translates to:
+  /// **'{message} Tap \"Contact support\" if this keeps happening.'**
+  String sell_connect_toast_resend_server(String message);
+
+  /// No description provided for @sell_connect_toast_resend_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t resend the code. Tap \"Contact support\" below to get help.'**
+  String get sell_connect_toast_resend_failed;
+
+  /// No description provided for @sell_connect_error_open_support.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t open support. Please try again.'**
+  String get sell_connect_error_open_support;
+
+  /// No description provided for @sell_connect_onetime_notice.
+  ///
+  /// In en, this message translates to:
+  /// **'One-time setup — we won\'t ask for a code on future transfers to this recipient.'**
+  String get sell_connect_onetime_notice;
+
+  /// No description provided for @sell_connect_passkey_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify it\'s you with your face or fingerprint to authorise this connection.'**
+  String get sell_connect_passkey_prompt;
+
+  /// No description provided for @sell_connect_first_time_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'First time sending to '**
+  String get sell_connect_first_time_prefix;
+
+  /// No description provided for @sell_connect_code_sent_mobile.
+  ///
+  /// In en, this message translates to:
+  /// **'Add the code sent to your mobile '**
+  String get sell_connect_code_sent_mobile;
+
+  /// No description provided for @sell_connect_code_sent_email.
+  ///
+  /// In en, this message translates to:
+  /// **' or email '**
+  String get sell_connect_code_sent_email;
+
+  /// No description provided for @sell_connect_support_checking.
+  ///
+  /// In en, this message translates to:
+  /// **'Checking… still no code? Contact support'**
+  String get sell_connect_support_checking;
+
+  /// No description provided for @sell_connect_support_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Didn\'t receive a code? Contact support'**
+  String get sell_connect_support_prompt;
 }
 
 class _BringinTranslationsDelegate
