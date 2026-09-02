@@ -4288,4 +4288,90 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get sell_connect_support_prompt =>
       'Didn\'t receive a code? Contact support';
+
+  @override
+  String get sell_label_from => 'From';
+
+  @override
+  String get sell_label_to => 'To';
+
+  @override
+  String get sell_label_bank_account => 'Bank account';
+
+  @override
+  String get sell_status_selling => 'Selling Bitcoin...';
+
+  @override
+  String get sell_status_euros_on_way => 'Your Euros are on their way...';
+
+  @override
+  String get sell_status_euros_sent => 'Euros sent successfully!';
+
+  @override
+  String get sell_status_added => 'Added successfully!';
+
+  @override
+  String get sell_notify_40min =>
+      'Takes up to 40 minutes. We\'ll notify when done.';
+
+  @override
+  String get sell_notify_1_2min =>
+      'Takes up to 1-2 minutes. We\'ll notify when done.';
+
+  @override
+  String get sell_euro_title => 'Sell to Euro account';
+
+  @override
+  String get sell_error_unknown => 'Unknown error';
+
+  @override
+  String get sell_error_restricted_jurisdiction => 'Restricted jurisdiction';
+
+  @override
+  String get sell_error_beneficiary_address =>
+      'We couldn\'t reach this beneficiary\'s payment address. Please try again.';
+
+  @override
+  String get sell_error_fee_changed =>
+      'The Lightning network fee changed while preparing this payment. Try again.';
+
+  @override
+  String get sell_error_lightning_only =>
+      'This sell can only be sent over Lightning. Go back and enter the amount again.';
+
+  @override
+  String get sell_error_load_deposit_address =>
+      'We couldn\'t load your deposit address. Tap to retry.';
+
+  @override
+  String get sell_qr_scan_prompt => 'Scan with your Bitcoin wallet';
+
+  @override
+  String get sell_qr_footer =>
+      'Scan QR or copy address to your source wallet to complete the transaction.';
+
+  @override
+  String get sell_qr_scan_add_euros => 'Scan the QR or copy code to add Euros.';
+
+  @override
+  String get sell_qr_scan_add_money => 'Scan QR or copy code to add money.';
+
+  @override
+  String get sell_qr_limits_link => 'Limits & rates';
+
+  @override
+  String get sell_qr_one_in_progress => 'One transaction in progress';
+
+  @override
+  String get sell_qr_ln_not_ready =>
+      'Lightning isn\'t ready for this connection yet. Use the on-chain address, or tap to retry.';
+
+  @override
+  String get sell_qr_onchain_limits =>
+      'Minimum €10. Maximum €10 000 per transaction. Manage limits in your profile. We charge 1% fee on the transaction.';
+
+  @override
+  String sell_qr_ln_limits(String min, String max) {
+    return 'Minimum €$min. Maximum €$max per transaction — a fixed EU Travel Rule cap that can\'t be increased. We charge 1% fee on the transaction.';
+  }
 }

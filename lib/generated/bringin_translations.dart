@@ -7432,6 +7432,156 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Didn\'t receive a code? Contact support'**
   String get sell_connect_support_prompt;
+
+  /// No description provided for @sell_label_from.
+  ///
+  /// In en, this message translates to:
+  /// **'From'**
+  String get sell_label_from;
+
+  /// No description provided for @sell_label_to.
+  ///
+  /// In en, this message translates to:
+  /// **'To'**
+  String get sell_label_to;
+
+  /// No description provided for @sell_label_bank_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Bank account'**
+  String get sell_label_bank_account;
+
+  /// No description provided for @sell_status_selling.
+  ///
+  /// In en, this message translates to:
+  /// **'Selling Bitcoin...'**
+  String get sell_status_selling;
+
+  /// No description provided for @sell_status_euros_on_way.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Euros are on their way...'**
+  String get sell_status_euros_on_way;
+
+  /// No description provided for @sell_status_euros_sent.
+  ///
+  /// In en, this message translates to:
+  /// **'Euros sent successfully!'**
+  String get sell_status_euros_sent;
+
+  /// No description provided for @sell_status_added.
+  ///
+  /// In en, this message translates to:
+  /// **'Added successfully!'**
+  String get sell_status_added;
+
+  /// No description provided for @sell_notify_40min.
+  ///
+  /// In en, this message translates to:
+  /// **'Takes up to 40 minutes. We\'ll notify when done.'**
+  String get sell_notify_40min;
+
+  /// No description provided for @sell_notify_1_2min.
+  ///
+  /// In en, this message translates to:
+  /// **'Takes up to 1-2 minutes. We\'ll notify when done.'**
+  String get sell_notify_1_2min;
+
+  /// No description provided for @sell_euro_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sell to Euro account'**
+  String get sell_euro_title;
+
+  /// No description provided for @sell_error_unknown.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown error'**
+  String get sell_error_unknown;
+
+  /// No description provided for @sell_error_restricted_jurisdiction.
+  ///
+  /// In en, this message translates to:
+  /// **'Restricted jurisdiction'**
+  String get sell_error_restricted_jurisdiction;
+
+  /// No description provided for @sell_error_beneficiary_address.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t reach this beneficiary\'s payment address. Please try again.'**
+  String get sell_error_beneficiary_address;
+
+  /// No description provided for @sell_error_fee_changed.
+  ///
+  /// In en, this message translates to:
+  /// **'The Lightning network fee changed while preparing this payment. Try again.'**
+  String get sell_error_fee_changed;
+
+  /// No description provided for @sell_error_lightning_only.
+  ///
+  /// In en, this message translates to:
+  /// **'This sell can only be sent over Lightning. Go back and enter the amount again.'**
+  String get sell_error_lightning_only;
+
+  /// No description provided for @sell_error_load_deposit_address.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t load your deposit address. Tap to retry.'**
+  String get sell_error_load_deposit_address;
+
+  /// No description provided for @sell_qr_scan_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan with your Bitcoin wallet'**
+  String get sell_qr_scan_prompt;
+
+  /// No description provided for @sell_qr_footer.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan QR or copy address to your source wallet to complete the transaction.'**
+  String get sell_qr_footer;
+
+  /// No description provided for @sell_qr_scan_add_euros.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan the QR or copy code to add Euros.'**
+  String get sell_qr_scan_add_euros;
+
+  /// No description provided for @sell_qr_scan_add_money.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan QR or copy code to add money.'**
+  String get sell_qr_scan_add_money;
+
+  /// No description provided for @sell_qr_limits_link.
+  ///
+  /// In en, this message translates to:
+  /// **'Limits & rates'**
+  String get sell_qr_limits_link;
+
+  /// No description provided for @sell_qr_one_in_progress.
+  ///
+  /// In en, this message translates to:
+  /// **'One transaction in progress'**
+  String get sell_qr_one_in_progress;
+
+  /// No description provided for @sell_qr_ln_not_ready.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning isn\'t ready for this connection yet. Use the on-chain address, or tap to retry.'**
+  String get sell_qr_ln_not_ready;
+
+  /// No description provided for @sell_qr_onchain_limits.
+  ///
+  /// In en, this message translates to:
+  /// **'Minimum €10. Maximum €10 000 per transaction. Manage limits in your profile. We charge 1% fee on the transaction.'**
+  String get sell_qr_onchain_limits;
+
+  /// No description provided for @sell_qr_ln_limits.
+  ///
+  /// In en, this message translates to:
+  /// **'Minimum €{min}. Maximum €{max} per transaction — a fixed EU Travel Rule cap that can\'t be increased. We charge 1% fee on the transaction.'**
+  String sell_qr_ln_limits(String min, String max);
 }
 
 class _BringinTranslationsDelegate
