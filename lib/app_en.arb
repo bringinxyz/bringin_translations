@@ -915,6 +915,8 @@
   "manage_wallet_secure_now_note": "Bringin cannot recover it, as we do not store your keys.",
   "action_retry": "Retry",
   "action_verify": "Verify",
+  "label_from": "From",
+  "label_to": "To",
   "@action_verify": {
     "description": "Shared button label: verify."
   },
@@ -1809,7 +1811,6 @@
   "profile_delete_error_password_invalid": "Invalid password",
   "profile_export_title": "Transaction statement",
   "profile_export_intro": "Select the period and format for your transaction statement. We'll email the export to your registered address ",
-  "profile_export_label_from": "From",
   "profile_export_label_format": "Download format",
   "profile_export_action_select_date": "Select date",
   "profile_export_action": "Export",
@@ -1968,8 +1969,6 @@
   "sell_connect_code_sent_email": " or email ",
   "sell_connect_support_checking": "Checking… still no code? Contact support",
   "sell_connect_support_prompt": "Didn't receive a code? Contact support",
-  "sell_label_from": "From",
-  "sell_label_to": "To",
   "sell_label_bank_account": "Bank account",
   "sell_status_selling": "Selling Bitcoin...",
   "sell_status_euros_on_way": "Your Euros are on their way...",

@@ -3317,6 +3317,18 @@ abstract class BringinTranslations {
   /// **'Verify'**
   String get action_verify;
 
+  /// No description provided for @label_from.
+  ///
+  /// In en, this message translates to:
+  /// **'From'**
+  String get label_from;
+
+  /// No description provided for @label_to.
+  ///
+  /// In en, this message translates to:
+  /// **'To'**
+  String get label_to;
+
   /// No description provided for @error_unknown.
   ///
   /// In en, this message translates to:
@@ -6719,12 +6731,6 @@ abstract class BringinTranslations {
   /// **'Select the period and format for your transaction statement. We\'ll email the export to your registered address '**
   String get profile_export_intro;
 
-  /// No description provided for @profile_export_label_from.
-  ///
-  /// In en, this message translates to:
-  /// **'From'**
-  String get profile_export_label_from;
-
   /// No description provided for @profile_export_label_format.
   ///
   /// In en, this message translates to:
@@ -7432,18 +7438,6 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Didn\'t receive a code? Contact support'**
   String get sell_connect_support_prompt;
-
-  /// No description provided for @sell_label_from.
-  ///
-  /// In en, this message translates to:
-  /// **'From'**
-  String get sell_label_from;
-
-  /// No description provided for @sell_label_to.
-  ///
-  /// In en, this message translates to:
-  /// **'To'**
-  String get sell_label_to;
 
   /// No description provided for @sell_label_bank_account.
   ///

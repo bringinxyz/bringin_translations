@@ -1865,6 +1865,12 @@ class BringinTranslationsEn extends BringinTranslations {
   String get action_verify => 'Verify';
 
   @override
+  String get label_from => 'From';
+
+  @override
+  String get label_to => 'To';
+
+  @override
   String get error_unknown => 'An unknown error occurred';
 
   @override
@@ -3881,9 +3887,6 @@ class BringinTranslationsEn extends BringinTranslations {
       'Select the period and format for your transaction statement. We\'ll email the export to your registered address ';
 
   @override
-  String get profile_export_label_from => 'From';
-
-  @override
   String get profile_export_label_format => 'Download format';
 
   @override
@@ -4288,12 +4291,6 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get sell_connect_support_prompt =>
       'Didn\'t receive a code? Contact support';
-
-  @override
-  String get sell_label_from => 'From';
-
-  @override
-  String get sell_label_to => 'To';
 
   @override
   String get sell_label_bank_account => 'Bank account';
