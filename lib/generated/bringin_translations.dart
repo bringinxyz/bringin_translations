@@ -2879,6 +2879,42 @@ abstract class BringinTranslations {
   /// **'Word {index}'**
   String mnemonics_word_index(int index);
 
+  /// No description provided for @verify_backup_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify back up'**
+  String get verify_backup_title;
+
+  /// No description provided for @verify_backup_heading.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm your recovery phrase.'**
+  String get verify_backup_heading;
+
+  /// No description provided for @verify_backup_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the requested words from your 12-word phrase to verify you’ve saved it correctly.'**
+  String get verify_backup_description;
+
+  /// No description provided for @verify_backup_hint_word.
+  ///
+  /// In en, this message translates to:
+  /// **'Add word {index}'**
+  String verify_backup_hint_word(int index);
+
+  /// No description provided for @verify_backup_error_required.
+  ///
+  /// In en, this message translates to:
+  /// **'This field is required'**
+  String get verify_backup_error_required;
+
+  /// No description provided for @verify_backup_error_incorrect.
+  ///
+  /// In en, this message translates to:
+  /// **'Incorrect word'**
+  String get verify_backup_error_incorrect;
+
   /// No description provided for @send_sheet_field_label.
   ///
   /// In en, this message translates to:

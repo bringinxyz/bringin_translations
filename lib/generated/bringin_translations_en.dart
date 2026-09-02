@@ -1623,6 +1623,27 @@ class BringinTranslationsEn extends BringinTranslations {
   }
 
   @override
+  String get verify_backup_title => 'Verify back up';
+
+  @override
+  String get verify_backup_heading => 'Confirm your recovery phrase.';
+
+  @override
+  String get verify_backup_description =>
+      'Enter the requested words from your 12-word phrase to verify you’ve saved it correctly.';
+
+  @override
+  String verify_backup_hint_word(int index) {
+    return 'Add word $index';
+  }
+
+  @override
+  String get verify_backup_error_required => 'This field is required';
+
+  @override
+  String get verify_backup_error_incorrect => 'Incorrect word';
+
+  @override
   String get send_sheet_field_label => 'On-chain/ lightning address or invoice';
 
   @override

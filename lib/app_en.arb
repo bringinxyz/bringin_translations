@@ -787,6 +787,20 @@
   "mnemonics_caution_title": "Caution!",
   "mnemonics_caution_message": "This phrase gives access to your Bitcoin. If you lose it, your wallet cannot be recovered—even by Bringin.",
   "mnemonics_word_index": "Word {index}",
+  "verify_backup_title": "Verify back up",
+  "verify_backup_heading": "Confirm your recovery phrase.",
+  "verify_backup_description": "Enter the requested words from your 12-word phrase to verify you’ve saved it correctly.",
+  "verify_backup_hint_word": "Add word {index}",
+  "@verify_backup_hint_word": {
+    "placeholders": {
+      "index": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "verify_backup_error_required": "This field is required",
+  "verify_backup_error_incorrect": "Incorrect word",
   "@mnemonics_word_index": {
     "placeholders": {
       "index": {
