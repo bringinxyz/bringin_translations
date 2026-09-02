@@ -4618,6 +4618,576 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Confirm delete'**
   String get connect_detail_delete_dialog_confirm;
+
+  /// No description provided for @exception_account_setup_in_progress.
+  ///
+  /// In en, this message translates to:
+  /// **'Your account is being set up. Please wait a moment.'**
+  String get exception_account_setup_in_progress;
+
+  /// No description provided for @exception_auto_swap_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Set up auto-swap to sell Bitcoin to your bank account.'**
+  String get exception_auto_swap_required;
+
+  /// No description provided for @exception_beneficiary_not_trusted.
+  ///
+  /// In en, this message translates to:
+  /// **'This account needs to be verified before you can sell to it.'**
+  String get exception_beneficiary_not_trusted;
+
+  /// No description provided for @exception_blink_oauth_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to complete the Blink OAuth process at this time. Please try again later.'**
+  String get exception_blink_oauth_generic;
+
+  /// No description provided for @exception_breez_relay_rate_limited.
+  ///
+  /// In en, this message translates to:
+  /// **'Too many Breez link changes. Please wait a while and try again.'**
+  String get exception_breez_relay_rate_limited;
+
+  /// No description provided for @exception_card_link_account_already_linked.
+  ///
+  /// In en, this message translates to:
+  /// **'This card is already linked to that account.'**
+  String get exception_card_link_account_already_linked;
+
+  /// No description provided for @exception_card_link_account_card_closed.
+  ///
+  /// In en, this message translates to:
+  /// **'This card is closed and can\'t be updated.'**
+  String get exception_card_link_account_card_closed;
+
+  /// No description provided for @exception_card_link_account_provisioning.
+  ///
+  /// In en, this message translates to:
+  /// **'Setting up your card balance — please try again in a moment.'**
+  String get exception_card_link_account_provisioning;
+
+  /// No description provided for @exception_card_wallet_send_onchain_insufficient_balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Insufficient card balance to complete this withdrawal.'**
+  String get exception_card_wallet_send_onchain_insufficient_balance;
+
+  /// No description provided for @exception_card_wallet_topup_insufficient_balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Insufficient EUR balance to top up your Bitcoin card.'**
+  String get exception_card_wallet_topup_insufficient_balance;
+
+  /// No description provided for @exception_cashback_withdraw_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to withdraw cashback at this time. Please try again later.'**
+  String get exception_cashback_withdraw_generic;
+
+  /// No description provided for @exception_check_blink_ln_invoice_status_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to check the status of the Blink LN invoice at this time. Please try again later.'**
+  String get exception_check_blink_ln_invoice_status_generic;
+
+  /// No description provided for @exception_concurrent_request.
+  ///
+  /// In en, this message translates to:
+  /// **'Another request is already in progress. Please wait.'**
+  String get exception_concurrent_request;
+
+  /// No description provided for @exception_confirm_striga_consent_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to confirm Striga consent at this time. Please try again later.'**
+  String get exception_confirm_striga_consent_generic;
+
+  /// No description provided for @exception_create_blink_ln_invoice_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to create a Blink LN invoice at this time. Please try again later.'**
+  String get exception_create_blink_ln_invoice_generic;
+
+  /// No description provided for @exception_create_blink_onchain_address_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to create a Blink on-chain address at this time. Please try again later.'**
+  String get exception_create_blink_onchain_address_generic;
+
+  /// No description provided for @exception_create_card_prepayment_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to create the card prepayment at this time. Please try again later.'**
+  String get exception_create_card_prepayment_generic;
+
+  /// No description provided for @exception_delete_beneficiary_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to delete beneficiary. Please try again later.'**
+  String get exception_delete_beneficiary_generic;
+
+  /// No description provided for @exception_delete_card_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to delete the card at this time. Please try again later.'**
+  String get exception_delete_card_generic;
+
+  /// No description provided for @exception_discount_price_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve the discount price at this time. Please try again later.'**
+  String get exception_discount_price_generic;
+
+  /// No description provided for @exception_duplicate_bringin_link.
+  ///
+  /// In en, this message translates to:
+  /// **'A connection already exists for this recipient.'**
+  String get exception_duplicate_bringin_link;
+
+  /// No description provided for @exception_duplicate_destination_address.
+  ///
+  /// In en, this message translates to:
+  /// **'A connection already exists for this Bitcoin address.'**
+  String get exception_duplicate_destination_address;
+
+  /// No description provided for @exception_duplicate_iban.
+  ///
+  /// In en, this message translates to:
+  /// **'A connection already exists for this bank account.'**
+  String get exception_duplicate_iban;
+
+  /// No description provided for @exception_edit_beneficiary_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to edit beneficiary. Please try again later.'**
+  String get exception_edit_beneficiary_generic;
+
+  /// No description provided for @exception_email_not_verified_for_ln_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify your email before reserving a Lightning address.'**
+  String get exception_email_not_verified_for_ln_address;
+
+  /// No description provided for @exception_export_transaction_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to export transactions. Please try again later.'**
+  String get exception_export_transaction_generic;
+
+  /// No description provided for @exception_fiat_setup_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t finish setting up your Euro account. Try again later.'**
+  String get exception_fiat_setup_generic;
+
+  /// No description provided for @exception_fiat_setup_in_progress.
+  ///
+  /// In en, this message translates to:
+  /// **'Setup is already in progress.'**
+  String get exception_fiat_setup_in_progress;
+
+  /// No description provided for @exception_fiat_setup_requires_session.
+  ///
+  /// In en, this message translates to:
+  /// **'Please complete verification and try again.'**
+  String get exception_fiat_setup_requires_session;
+
+  /// No description provided for @exception_forgot_password_session_expired.
+  ///
+  /// In en, this message translates to:
+  /// **'Password reset session expired. Please start the flow again.'**
+  String get exception_forgot_password_session_expired;
+
+  /// No description provided for @exception_freeze_card_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to freeze the card at this time. Please try again later.'**
+  String get exception_freeze_card_generic;
+
+  /// No description provided for @exception_get_affiliate_participation_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve the affiliate participation at this time. Please try again later.'**
+  String get exception_get_affiliate_participation_generic;
+
+  /// No description provided for @exception_get_affiliate_program_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve the affiliate program at this time. Please try again later.'**
+  String get exception_get_affiliate_program_generic;
+
+  /// No description provided for @exception_get_all_cards_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve all cards at this time. Please try again later.'**
+  String get exception_get_all_cards_generic;
+
+  /// No description provided for @exception_get_balance_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve balance. Please try again later.'**
+  String get exception_get_balance_generic;
+
+  /// No description provided for @exception_get_bank_details_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve bank details at this time. Please try again later.'**
+  String get exception_get_bank_details_generic;
+
+  /// No description provided for @exception_get_blink_account_details_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve Blink account details at this time. Please try again later.'**
+  String get exception_get_blink_account_details_generic;
+
+  /// No description provided for @exception_get_card_details_by_card_id_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve the card details at this time. Please try again later.'**
+  String get exception_get_card_details_by_card_id_generic;
+
+  /// No description provided for @exception_get_card_prepayment_info_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve the card prepayment information at this time. Please try again later.'**
+  String get exception_get_card_prepayment_info_generic;
+
+  /// No description provided for @exception_get_card_pricing_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve the card pricing at this time. Please try again later.'**
+  String get exception_get_card_pricing_generic;
+
+  /// No description provided for @exception_get_card_statements_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve the card statements at this time. Please try again later.'**
+  String get exception_get_card_statements_generic;
+
+  /// No description provided for @exception_get_card_wallet_balance_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve card wallet balance. Please try again later.'**
+  String get exception_get_card_wallet_balance_generic;
+
+  /// No description provided for @exception_get_details_by_email_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve details for the provided email. Please try again later.'**
+  String get exception_get_details_by_email_generic;
+
+  /// No description provided for @exception_get_offramp_order_status_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve off-ramp order status at this time. Please try again later.'**
+  String get exception_get_offramp_order_status_generic;
+
+  /// No description provided for @exception_get_onboarding_info_params_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to get onboarding info params at this time. Please try again later.'**
+  String get exception_get_onboarding_info_params_generic;
+
+  /// No description provided for @exception_get_onramp_order_status_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve on-ramp order status at this time. Please try again later.'**
+  String get exception_get_onramp_order_status_generic;
+
+  /// No description provided for @exception_get_transaction_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve transaction details. Please try again later.'**
+  String get exception_get_transaction_generic;
+
+  /// No description provided for @exception_host_lookup.
+  ///
+  /// In en, this message translates to:
+  /// **'Please check your internet connection or try again later.'**
+  String get exception_host_lookup;
+
+  /// No description provided for @exception_invalid_btc_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid Bitcoin address. Please check and try again.'**
+  String get exception_invalid_btc_address;
+
+  /// No description provided for @exception_invalid_sca_login_code.
+  ///
+  /// In en, this message translates to:
+  /// **'That code isn\'t right. Try again.'**
+  String get exception_invalid_sca_login_code;
+
+  /// No description provided for @exception_invalid_totp_code.
+  ///
+  /// In en, this message translates to:
+  /// **'That code isn\'t right. Try the newest one shown in your app.'**
+  String get exception_invalid_totp_code;
+
+  /// No description provided for @exception_lightning_address_amount_out_of_range.
+  ///
+  /// In en, this message translates to:
+  /// **'The amount is outside the limits set by the recipient\'s wallet. Adjust the amount and try again.'**
+  String get exception_lightning_address_amount_out_of_range;
+
+  /// No description provided for @exception_lightning_address_invalid.
+  ///
+  /// In en, this message translates to:
+  /// **'This isn\'t a valid Lightning address. Check it and try again.'**
+  String get exception_lightning_address_invalid;
+
+  /// No description provided for @exception_lightning_address_invoice_mismatch.
+  ///
+  /// In en, this message translates to:
+  /// **'The recipient\'s wallet returned an invoice with the wrong amount. Please try again.'**
+  String get exception_lightning_address_invoice_mismatch;
+
+  /// No description provided for @exception_lightning_address_is_bringin.
+  ///
+  /// In en, this message translates to:
+  /// **'You can\'t send to a Bringin Lightning address. Use an external wallet address.'**
+  String get exception_lightning_address_is_bringin;
+
+  /// No description provided for @exception_lightning_address_not_declared.
+  ///
+  /// In en, this message translates to:
+  /// **'This Lightning address hasn\'t been declared yet. Re-save it from the add-wallet screen and try again.'**
+  String get exception_lightning_address_not_declared;
+
+  /// No description provided for @exception_lightning_address_provider_unreachable.
+  ///
+  /// In en, this message translates to:
+  /// **'The recipient\'s wallet provider didn\'t respond. Try again, or ask the recipient to share an invoice instead.'**
+  String get exception_lightning_address_provider_unreachable;
+
+  /// No description provided for @exception_lightning_travel_rule_cap.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning transfers are capped at €990. Lower the amount or choose an on-chain wallet.'**
+  String get exception_lightning_travel_rule_cap;
+
+  /// No description provided for @exception_limit_increase_not_tier2.
+  ///
+  /// In en, this message translates to:
+  /// **'Limit increases are available for tier 2 users only.'**
+  String get exception_limit_increase_not_tier2;
+
+  /// No description provided for @exception_list_bringin_links_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to fetch connections. Please try again.'**
+  String get exception_list_bringin_links_generic;
+
+  /// No description provided for @exception_ln_address_already_claimed.
+  ///
+  /// In en, this message translates to:
+  /// **'You already have a Lightning address.'**
+  String get exception_ln_address_already_claimed;
+
+  /// No description provided for @exception_ln_address_exists.
+  ///
+  /// In en, this message translates to:
+  /// **'This Lightning address is already taken.'**
+  String get exception_ln_address_exists;
+
+  /// No description provided for @exception_ln_invoice_already_in_use.
+  ///
+  /// In en, this message translates to:
+  /// **'That invoice is already tied to another order. Go back and start the buy again.'**
+  String get exception_ln_invoice_already_in_use;
+
+  /// No description provided for @exception_lnurl_amount_above_maximum.
+  ///
+  /// In en, this message translates to:
+  /// **'This amount is above the maximum this destination accepts. Lower the amount.'**
+  String get exception_lnurl_amount_above_maximum;
+
+  /// No description provided for @exception_lnurl_amount_below_minimum.
+  ///
+  /// In en, this message translates to:
+  /// **'This amount is below the minimum this destination accepts. Increase the amount.'**
+  String get exception_lnurl_amount_below_minimum;
+
+  /// No description provided for @exception_mobile_number_in_use.
+  ///
+  /// In en, this message translates to:
+  /// **'Mobile number already in use. Please use a different phone number to continue.'**
+  String get exception_mobile_number_in_use;
+
+  /// No description provided for @exception_non_sms_challenge.
+  ///
+  /// In en, this message translates to:
+  /// **'This code can\'t be re-sent. Use your authenticator or passkey instead.'**
+  String get exception_non_sms_challenge;
+
+  /// No description provided for @exception_offramp_rate_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to retrieve off-ramp rate. Please try again later.'**
+  String get exception_offramp_rate_generic;
+
+  /// No description provided for @exception_participate_in_affiliate_program_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to participate in the affiliate program at this time. Please try again later.'**
+  String get exception_participate_in_affiliate_program_generic;
+
+  /// No description provided for @exception_password_expired.
+  ///
+  /// In en, this message translates to:
+  /// **'Your password has expired. Please set a new one to continue.'**
+  String get exception_password_expired;
+
+  /// No description provided for @exception_previously_used_password.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve used this password before. Please choose a new one.'**
+  String get exception_previously_used_password;
+
+  /// No description provided for @exception_probe_blink_ln_fee_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to probe the Blink LN fee at this time. Please try again later.'**
+  String get exception_probe_blink_ln_fee_generic;
+
+  /// No description provided for @exception_recaptcha_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to complete verification.'**
+  String get exception_recaptcha_generic;
+
+  /// No description provided for @exception_register_push_token_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to register push token. Please try again later.'**
+  String get exception_register_push_token_generic;
+
+  /// No description provided for @exception_request_wallet_access_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to request wallet access at this time. Please try again later.'**
+  String get exception_request_wallet_access_generic;
+
+  /// No description provided for @exception_restricted_jurisdiction.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction cannot be done from your current location.'**
+  String get exception_restricted_jurisdiction;
+
+  /// No description provided for @exception_resume_offramp_swap_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to resume offramp swap at this time. Please try again later.'**
+  String get exception_resume_offramp_swap_generic;
+
+  /// No description provided for @exception_sca_read_window_expired.
+  ///
+  /// In en, this message translates to:
+  /// **'Please verify to export transactions older than 90 days.'**
+  String get exception_sca_read_window_expired;
+
+  /// No description provided for @exception_sca_resend_challenge_not_found.
+  ///
+  /// In en, this message translates to:
+  /// **'That verification session has expired. Start again.'**
+  String get exception_sca_resend_challenge_not_found;
+
+  /// No description provided for @exception_sca_volume_limit.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve reached your account\'s transaction limit. Your funds are safe — contact support to review and increase your limit.'**
+  String get exception_sca_volume_limit;
+
+  /// No description provided for @exception_send_blink_ln_payment_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to send this LN payment at this time. Please try again later.'**
+  String get exception_send_blink_ln_payment_generic;
+
+  /// No description provided for @exception_swap_current_amount_in_offramp_order_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to swap the current amount in offramp order at this time. Please try again later.'**
+  String get exception_swap_current_amount_in_offramp_order_generic;
+
+  /// No description provided for @exception_too_many_pending_bringin_links.
+  ///
+  /// In en, this message translates to:
+  /// **'Too many pending connections. Please confirm or wait for existing ones to expire.'**
+  String get exception_too_many_pending_bringin_links;
+
+  /// No description provided for @exception_totp_adopt_already_enrolled.
+  ///
+  /// In en, this message translates to:
+  /// **'Authenticator sign-in is already switched on for this account.'**
+  String get exception_totp_adopt_already_enrolled;
+
+  /// No description provided for @exception_totp_adopt_no_credential.
+  ///
+  /// In en, this message translates to:
+  /// **'No existing authenticator found for this account. Set one up instead.'**
+  String get exception_totp_adopt_no_credential;
+
+  /// No description provided for @exception_totp_not_allowed.
+  ///
+  /// In en, this message translates to:
+  /// **'Authenticator-app two-factor isn\'t available on this account yet.'**
+  String get exception_totp_not_allowed;
+
+  /// No description provided for @exception_unfreeze_card_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to unfreeze the card at this time. Please try again later.'**
+  String get exception_unfreeze_card_generic;
+
+  /// No description provided for @exception_unregister_push_token_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to unregister push token. Please try again later.'**
+  String get exception_unregister_push_token_generic;
+
+  /// No description provided for @exception_update_card_limits_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to update the card limits at this time. Please try again later.'**
+  String get exception_update_card_limits_generic;
+
+  /// No description provided for @exception_update_card_method_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to update the card method at this time. Please try again later.'**
+  String get exception_update_card_method_generic;
+
+  /// No description provided for @exception_update_travel_rule_options_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t save your Auto declaration setting. Try again in a moment.'**
+  String get exception_update_travel_rule_options_generic;
+
+  /// No description provided for @exception_update_user_details_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to update user details at this time. Please try again later.'**
+  String get exception_update_user_details_generic;
+
+  /// No description provided for @exception_validate_ip_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to validate the IP address at this time. Please try again later.'**
+  String get exception_validate_ip_generic;
+
+  /// No description provided for @exception_verify_mobile_otp_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to verify the mobile OTP at this time. Please try again later.'**
+  String get exception_verify_mobile_otp_generic;
+
+  /// No description provided for @exception_wallet_verification_required.
+  ///
+  /// In en, this message translates to:
+  /// **'This wallet needs a one-time ownership check for transfers of €1,000 or more. Verify to continue.'**
+  String get exception_wallet_verification_required;
 }
 
 class _BringinTranslationsDelegate

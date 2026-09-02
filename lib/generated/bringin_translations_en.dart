@@ -2634,4 +2634,383 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get connect_detail_delete_dialog_confirm => 'Confirm delete';
+
+  @override
+  String get exception_account_setup_in_progress =>
+      'Your account is being set up. Please wait a moment.';
+
+  @override
+  String get exception_auto_swap_required =>
+      'Set up auto-swap to sell Bitcoin to your bank account.';
+
+  @override
+  String get exception_beneficiary_not_trusted =>
+      'This account needs to be verified before you can sell to it.';
+
+  @override
+  String get exception_blink_oauth_generic =>
+      'Unable to complete the Blink OAuth process at this time. Please try again later.';
+
+  @override
+  String get exception_breez_relay_rate_limited =>
+      'Too many Breez link changes. Please wait a while and try again.';
+
+  @override
+  String get exception_card_link_account_already_linked =>
+      'This card is already linked to that account.';
+
+  @override
+  String get exception_card_link_account_card_closed =>
+      'This card is closed and can\'t be updated.';
+
+  @override
+  String get exception_card_link_account_provisioning =>
+      'Setting up your card balance — please try again in a moment.';
+
+  @override
+  String get exception_card_wallet_send_onchain_insufficient_balance =>
+      'Insufficient card balance to complete this withdrawal.';
+
+  @override
+  String get exception_card_wallet_topup_insufficient_balance =>
+      'Insufficient EUR balance to top up your Bitcoin card.';
+
+  @override
+  String get exception_cashback_withdraw_generic =>
+      'Unable to withdraw cashback at this time. Please try again later.';
+
+  @override
+  String get exception_check_blink_ln_invoice_status_generic =>
+      'Unable to check the status of the Blink LN invoice at this time. Please try again later.';
+
+  @override
+  String get exception_concurrent_request =>
+      'Another request is already in progress. Please wait.';
+
+  @override
+  String get exception_confirm_striga_consent_generic =>
+      'Unable to confirm Striga consent at this time. Please try again later.';
+
+  @override
+  String get exception_create_blink_ln_invoice_generic =>
+      'Unable to create a Blink LN invoice at this time. Please try again later.';
+
+  @override
+  String get exception_create_blink_onchain_address_generic =>
+      'Unable to create a Blink on-chain address at this time. Please try again later.';
+
+  @override
+  String get exception_create_card_prepayment_generic =>
+      'Unable to create the card prepayment at this time. Please try again later.';
+
+  @override
+  String get exception_delete_beneficiary_generic =>
+      'Failed to delete beneficiary. Please try again later.';
+
+  @override
+  String get exception_delete_card_generic =>
+      'Unable to delete the card at this time. Please try again later.';
+
+  @override
+  String get exception_discount_price_generic =>
+      'Unable to retrieve the discount price at this time. Please try again later.';
+
+  @override
+  String get exception_duplicate_bringin_link =>
+      'A connection already exists for this recipient.';
+
+  @override
+  String get exception_duplicate_destination_address =>
+      'A connection already exists for this Bitcoin address.';
+
+  @override
+  String get exception_duplicate_iban =>
+      'A connection already exists for this bank account.';
+
+  @override
+  String get exception_edit_beneficiary_generic =>
+      'Failed to edit beneficiary. Please try again later.';
+
+  @override
+  String get exception_email_not_verified_for_ln_address =>
+      'Verify your email before reserving a Lightning address.';
+
+  @override
+  String get exception_export_transaction_generic =>
+      'Unable to export transactions. Please try again later.';
+
+  @override
+  String get exception_fiat_setup_generic =>
+      'Couldn\'t finish setting up your Euro account. Try again later.';
+
+  @override
+  String get exception_fiat_setup_in_progress =>
+      'Setup is already in progress.';
+
+  @override
+  String get exception_fiat_setup_requires_session =>
+      'Please complete verification and try again.';
+
+  @override
+  String get exception_forgot_password_session_expired =>
+      'Password reset session expired. Please start the flow again.';
+
+  @override
+  String get exception_freeze_card_generic =>
+      'Unable to freeze the card at this time. Please try again later.';
+
+  @override
+  String get exception_get_affiliate_participation_generic =>
+      'Unable to retrieve the affiliate participation at this time. Please try again later.';
+
+  @override
+  String get exception_get_affiliate_program_generic =>
+      'Unable to retrieve the affiliate program at this time. Please try again later.';
+
+  @override
+  String get exception_get_all_cards_generic =>
+      'Unable to retrieve all cards at this time. Please try again later.';
+
+  @override
+  String get exception_get_balance_generic =>
+      'Unable to retrieve balance. Please try again later.';
+
+  @override
+  String get exception_get_bank_details_generic =>
+      'Unable to retrieve bank details at this time. Please try again later.';
+
+  @override
+  String get exception_get_blink_account_details_generic =>
+      'Unable to retrieve Blink account details at this time. Please try again later.';
+
+  @override
+  String get exception_get_card_details_by_card_id_generic =>
+      'Unable to retrieve the card details at this time. Please try again later.';
+
+  @override
+  String get exception_get_card_prepayment_info_generic =>
+      'Unable to retrieve the card prepayment information at this time. Please try again later.';
+
+  @override
+  String get exception_get_card_pricing_generic =>
+      'Unable to retrieve the card pricing at this time. Please try again later.';
+
+  @override
+  String get exception_get_card_statements_generic =>
+      'Unable to retrieve the card statements at this time. Please try again later.';
+
+  @override
+  String get exception_get_card_wallet_balance_generic =>
+      'Unable to retrieve card wallet balance. Please try again later.';
+
+  @override
+  String get exception_get_details_by_email_generic =>
+      'Unable to retrieve details for the provided email. Please try again later.';
+
+  @override
+  String get exception_get_offramp_order_status_generic =>
+      'Unable to retrieve off-ramp order status at this time. Please try again later.';
+
+  @override
+  String get exception_get_onboarding_info_params_generic =>
+      'Unable to get onboarding info params at this time. Please try again later.';
+
+  @override
+  String get exception_get_onramp_order_status_generic =>
+      'Unable to retrieve on-ramp order status at this time. Please try again later.';
+
+  @override
+  String get exception_get_transaction_generic =>
+      'Unable to retrieve transaction details. Please try again later.';
+
+  @override
+  String get exception_host_lookup =>
+      'Please check your internet connection or try again later.';
+
+  @override
+  String get exception_invalid_btc_address =>
+      'Invalid Bitcoin address. Please check and try again.';
+
+  @override
+  String get exception_invalid_sca_login_code =>
+      'That code isn\'t right. Try again.';
+
+  @override
+  String get exception_invalid_totp_code =>
+      'That code isn\'t right. Try the newest one shown in your app.';
+
+  @override
+  String get exception_lightning_address_amount_out_of_range =>
+      'The amount is outside the limits set by the recipient\'s wallet. Adjust the amount and try again.';
+
+  @override
+  String get exception_lightning_address_invalid =>
+      'This isn\'t a valid Lightning address. Check it and try again.';
+
+  @override
+  String get exception_lightning_address_invoice_mismatch =>
+      'The recipient\'s wallet returned an invoice with the wrong amount. Please try again.';
+
+  @override
+  String get exception_lightning_address_is_bringin =>
+      'You can\'t send to a Bringin Lightning address. Use an external wallet address.';
+
+  @override
+  String get exception_lightning_address_not_declared =>
+      'This Lightning address hasn\'t been declared yet. Re-save it from the add-wallet screen and try again.';
+
+  @override
+  String get exception_lightning_address_provider_unreachable =>
+      'The recipient\'s wallet provider didn\'t respond. Try again, or ask the recipient to share an invoice instead.';
+
+  @override
+  String get exception_lightning_travel_rule_cap =>
+      'Lightning transfers are capped at €990. Lower the amount or choose an on-chain wallet.';
+
+  @override
+  String get exception_limit_increase_not_tier2 =>
+      'Limit increases are available for tier 2 users only.';
+
+  @override
+  String get exception_list_bringin_links_generic =>
+      'Unable to fetch connections. Please try again.';
+
+  @override
+  String get exception_ln_address_already_claimed =>
+      'You already have a Lightning address.';
+
+  @override
+  String get exception_ln_address_exists =>
+      'This Lightning address is already taken.';
+
+  @override
+  String get exception_ln_invoice_already_in_use =>
+      'That invoice is already tied to another order. Go back and start the buy again.';
+
+  @override
+  String get exception_lnurl_amount_above_maximum =>
+      'This amount is above the maximum this destination accepts. Lower the amount.';
+
+  @override
+  String get exception_lnurl_amount_below_minimum =>
+      'This amount is below the minimum this destination accepts. Increase the amount.';
+
+  @override
+  String get exception_mobile_number_in_use =>
+      'Mobile number already in use. Please use a different phone number to continue.';
+
+  @override
+  String get exception_non_sms_challenge =>
+      'This code can\'t be re-sent. Use your authenticator or passkey instead.';
+
+  @override
+  String get exception_offramp_rate_generic =>
+      'Unable to retrieve off-ramp rate. Please try again later.';
+
+  @override
+  String get exception_participate_in_affiliate_program_generic =>
+      'Unable to participate in the affiliate program at this time. Please try again later.';
+
+  @override
+  String get exception_password_expired =>
+      'Your password has expired. Please set a new one to continue.';
+
+  @override
+  String get exception_previously_used_password =>
+      'You\'ve used this password before. Please choose a new one.';
+
+  @override
+  String get exception_probe_blink_ln_fee_generic =>
+      'Unable to probe the Blink LN fee at this time. Please try again later.';
+
+  @override
+  String get exception_recaptcha_generic => 'Unable to complete verification.';
+
+  @override
+  String get exception_register_push_token_generic =>
+      'Unable to register push token. Please try again later.';
+
+  @override
+  String get exception_request_wallet_access_generic =>
+      'Unable to request wallet access at this time. Please try again later.';
+
+  @override
+  String get exception_restricted_jurisdiction =>
+      'Transaction cannot be done from your current location.';
+
+  @override
+  String get exception_resume_offramp_swap_generic =>
+      'Unable to resume offramp swap at this time. Please try again later.';
+
+  @override
+  String get exception_sca_read_window_expired =>
+      'Please verify to export transactions older than 90 days.';
+
+  @override
+  String get exception_sca_resend_challenge_not_found =>
+      'That verification session has expired. Start again.';
+
+  @override
+  String get exception_sca_volume_limit =>
+      'You\'ve reached your account\'s transaction limit. Your funds are safe — contact support to review and increase your limit.';
+
+  @override
+  String get exception_send_blink_ln_payment_generic =>
+      'Unable to send this LN payment at this time. Please try again later.';
+
+  @override
+  String get exception_swap_current_amount_in_offramp_order_generic =>
+      'Unable to swap the current amount in offramp order at this time. Please try again later.';
+
+  @override
+  String get exception_too_many_pending_bringin_links =>
+      'Too many pending connections. Please confirm or wait for existing ones to expire.';
+
+  @override
+  String get exception_totp_adopt_already_enrolled =>
+      'Authenticator sign-in is already switched on for this account.';
+
+  @override
+  String get exception_totp_adopt_no_credential =>
+      'No existing authenticator found for this account. Set one up instead.';
+
+  @override
+  String get exception_totp_not_allowed =>
+      'Authenticator-app two-factor isn\'t available on this account yet.';
+
+  @override
+  String get exception_unfreeze_card_generic =>
+      'Unable to unfreeze the card at this time. Please try again later.';
+
+  @override
+  String get exception_unregister_push_token_generic =>
+      'Unable to unregister push token. Please try again later.';
+
+  @override
+  String get exception_update_card_limits_generic =>
+      'Unable to update the card limits at this time. Please try again later.';
+
+  @override
+  String get exception_update_card_method_generic =>
+      'Unable to update the card method at this time. Please try again later.';
+
+  @override
+  String get exception_update_travel_rule_options_generic =>
+      'Couldn\'t save your Auto declaration setting. Try again in a moment.';
+
+  @override
+  String get exception_update_user_details_generic =>
+      'Unable to update user details at this time. Please try again later.';
+
+  @override
+  String get exception_validate_ip_generic =>
+      'Unable to validate the IP address at this time. Please try again later.';
+
+  @override
+  String get exception_verify_mobile_otp_generic =>
+      'Unable to verify the mobile OTP at this time. Please try again later.';
+
+  @override
+  String get exception_wallet_verification_required =>
+      'This wallet needs a one-time ownership check for transfers of €1,000 or more. Verify to continue.';
 }
