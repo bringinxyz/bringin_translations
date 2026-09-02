@@ -333,7 +333,6 @@
   "password_rule_special": "A special character (!@#$…)",
   "password_pwned_title": "Choose a different password",
   "password_pwned_message": "This password has appeared in a public data breach and isn't safe to use. Please pick a new one you haven't used on other sites.",
-  "password_pwned_action_confirm": "Got it",
   "login_action_get_started": "Get Started",
   "login_divider_or": "OR",
   "login_action_continue_google": "Continue with Google",
@@ -1401,5 +1400,184 @@
   "exception_update_user_details_generic": "Unable to update user details at this time. Please try again later.",
   "exception_validate_ip_generic": "Unable to validate the IP address at this time. Please try again later.",
   "exception_verify_mobile_otp_generic": "Unable to verify the mobile OTP at this time. Please try again later.",
-  "exception_wallet_verification_required": "This wallet needs a one-time ownership check for transfers of €1,000 or more. Verify to continue."
+  "exception_wallet_verification_required": "This wallet needs a one-time ownership check for transfers of €1,000 or more. Verify to continue.",
+  "action_save": "Save",
+  "action_update": "Update",
+  "action_report": "Report",
+  "action_got_it": "Got it",
+  "card_activate_title": "Activate card",
+  "card_activate_description": "Activate your Physical card once you receive it.",
+  "card_activate_description_masked": "Activate your Physical card •••••{last4} once you receive it.",
+  "@card_activate_description_masked": {
+    "placeholders": {
+      "last4": {
+        "type": "String",
+        "example": "4321"
+      }
+    }
+  },
+  "card_activate_field_last4": "Add the last 4 digits of your card",
+  "card_activate_field_pin": "Set PIN",
+  "card_activate_field_pin_confirm": "Confirm PIN",
+  "card_activate_toast_success": "Card activated.",
+  "card_activate_error_pin_weak": "Avoid repeating or sequential digits.",
+  "card_activate_error_pin_mismatch": "PINs do not match.",
+  "card_activate_error_failed": "We couldn't activate your card. Please try again.",
+  "card_activate_error_pin_not_set": "Card activated, but we couldn't set your PIN. Please try again from the card screen.",
+  "card_detail_title_physical": "Physical card ....{last4}",
+  "@card_detail_title_physical": {
+    "placeholders": {
+      "last4": {
+        "type": "String",
+        "example": "4321"
+      }
+    }
+  },
+  "card_detail_title_virtual": "Virtual card ....{last4}",
+  "@card_detail_title_virtual": {
+    "placeholders": {
+      "last4": {
+        "type": "String",
+        "example": "4321"
+      }
+    }
+  },
+  "card_label_linked_account": "Linked account",
+  "card_linked_euro": "Linked: Euro account",
+  "card_linked_bitcoin": "Linked: Bitcoin account",
+  "card_toast_reported_missing": "Card reported as missing",
+  "card_toast_removed": "Card removed",
+  "card_toast_closed": "Card closed successfully",
+  "card_error_toggle_online": "Couldn't update online payments.",
+  "card_error_toggle_contactless": "Couldn't update contactless payments.",
+  "card_error_toggle_atm": "Couldn't update ATM withdrawals.",
+  "card_error_freeze": "Couldn't freeze the card.",
+  "card_error_unfreeze": "Couldn't unfreeze the card.",
+  "card_action_manage": "Manage card",
+  "card_action_remove": "Remove card",
+  "card_action_close": "Close card",
+  "card_action_replace": "Replace card",
+  "card_action_replace_physical": "Replace physical card",
+  "card_action_view_3ds": "View 3DS password",
+  "card_action_reset_3ds": "Reset 3DS password",
+  "card_action_reset_atm_pin": "Reset ATM PIN",
+  "card_action_report_missing": "Card missing?",
+  "card_toggle_online": "Online payments",
+  "card_toggle_atm": "ATM withdrawals",
+  "card_toggle_contactless": "Contactless payments",
+  "card_tx_error_load": "Couldn't load transactions",
+  "card_tx_error_load_more": "Couldn't load more",
+  "payment_details_label_merchant_name": "Merchant name",
+  "payment_details_label_merchant_location": "Merchant location",
+  "payment_details_label_merchant_category": "Merchant category code",
+  "payment_details_label_original_amount": "Original amount",
+  "payment_details_label_linked_account_id": "Linked account ID",
+  "payment_details_merchant_unknown": "unknown merchant",
+  "card_tx_type_creation_fee": "Card creation fee",
+  "card_tx_type_atm_withdrawal": "ATM withdrawal",
+  "card_tx_type_refund": "Card refund",
+  "card_tx_type_payment_declined": "Card payment declined",
+  "card_linked_update_title": "Update linked account",
+  "card_linked_option_bitcoin": "Bitcoin account",
+  "card_linked_limit_title": "Card limit reached",
+  "card_linked_limit_message": "You already have {max} cards linked to your {destination}. Close one before linking another card here.",
+  "@card_linked_limit_message": {
+    "placeholders": {
+      "max": {
+        "type": "int",
+        "example": "3"
+      },
+      "destination": {
+        "type": "String",
+        "example": "Euro account"
+      }
+    }
+  },
+  "card_limits_title": "Card limits",
+  "card_limits_toast_updated": "Card limits updated.",
+  "card_limits_error_update": "Couldn't update card limits.",
+  "card_limits_error_txn_over_daily": "Transaction limit cannot exceed daily limit.",
+  "card_limits_error_daily_over_monthly": "Daily limit cannot exceed monthly limit.",
+  "card_limits_error_txn_over_monthly": "Transaction limit cannot exceed monthly limit.",
+  "card_limits_section_pos_description": "Limit for physical stores.",
+  "card_limits_section_online": "Online",
+  "card_limits_section_online_description": "On e-commerce and digital platforms.",
+  "card_limits_section_contactless": "Contactless",
+  "card_limits_section_contactless_description": "Cap for tap-and-go purchases.",
+  "card_limits_section_atm": "ATM Withdrawals",
+  "card_limits_section_atm_description": "Maximum cash you can withdraw.",
+  "card_limits_section_overall": "Overall",
+  "card_limits_section_overall_description": "Combined spending cap across all categories.",
+  "card_limits_period_daily": "Daily",
+  "card_limits_period_monthly": "Monthly",
+  "card_limits_period_transaction": "Per transaction",
+  "card_limits_slider_max": "Max {amount}",
+  "@card_limits_slider_max": {
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "€ 10 000"
+      }
+    }
+  },
+  "card_coming_soon": "Coming soon",
+  "card_replace_title": "Proceed with card replacement?",
+  "card_replace_message": "Your current card deactivates instantly, and a new card ships to your address.\n\nIt will be delivered to the same address using the same delivery method.",
+  "card_reveal_target_details": "Card details",
+  "card_reveal_target_pin": "Card PIN",
+  "card_reveal_target_3ds": "Card 3DS password",
+  "card_reveal_verify_title": "Verify it's you",
+  "card_reveal_verify_prompt_prefix": "Add the verification code sent to your mobile number ",
+  "card_reveal_verify_prompt_suffix": ". This is a security measure to keep your account safe.",
+  "card_reveal_toast_code_resent": "Code sent again.",
+  "card_reveal_error_resend": "Couldn't resend code. Try again.",
+  "card_reveal_error_send_code": "Couldn't send verification code",
+  "card_reveal_error_session_expired": "Session expired. Please verify again.",
+  "card_reveal_error_load_details": "Couldn't load card details. Try again.",
+  "card_reveal_error_invalid_code": "That code didn't work. Please try again.",
+  "card_reveal_label_number": "Card number",
+  "card_reveal_label_expiry": "Expiry date",
+  "card_reveal_label_name": "Name on the card",
+  "card_reveal_toast_number_copied": "Card number copied",
+  "card_reveal_toast_pin_copied": "PIN copied",
+  "card_reveal_toast_3ds_copied": "3DS password copied",
+  "card_field_error_load": "Could not load card field.",
+  "card_field_error_load_named": "Couldn't load {field}.",
+  "@card_field_error_load_named": {
+    "placeholders": {
+      "field": {
+        "type": "String",
+        "example": "card number"
+      }
+    }
+  },
+  "card_consent_error_unknown": "An unknown error occurred.",
+  "card_consent_error_malformed": "Malformed consent response from Striga.",
+  "card_consent_error_unknown_code": "Unknown consent error.",
+  "card_consent_error_unreachable": "Couldn't reach the verification service.",
+  "card_close_title_remove": "Remove this card?",
+  "card_close_title_close": "Close your card?",
+  "card_close_message_expired": "This card has already expired, so there is nothing left to close. Removing it just takes it off your list — you'll still be able to view past transactions.",
+  "card_close_message": "Closing your card is permanent. You'll still be able to view past transactions.",
+  "card_close_error_remove": "Couldn't remove the card.",
+  "card_close_error_close": "Couldn't close the card.",
+  "card_missing_title": "Report card missing?",
+  "card_missing_message": "Your card will be blocked for future use. You can still access your card transactions.",
+  "card_missing_error": "Couldn't report the card as missing.",
+  "card_label_3ds_password": "3DS password",
+  "card_3ds_field_hint": "Add 3DS password",
+  "card_3ds_field_confirm_label": "Confirm 3DS password",
+  "card_3ds_field_confirm_hint": "Re-enter 3DS password",
+  "card_3ds_error_mismatch": "Passwords don't match.",
+  "card_3ds_special_chars": "Supported special characters are:\n{chars}",
+  "@card_3ds_special_chars": {
+    "placeholders": {
+      "chars": {
+        "type": "String",
+        "example": "!@#$%"
+      }
+    }
+  },
+  "card_atm_pin_title": "Reset your card PIN at an ATM",
+  "card_atm_pin_message": "Changing your card PIN isn't available in the app yet. For now, you can reset it at any ATM that supports PIN changes.\n\nWe're working on adding in-app PIN changes in an upcoming release."
 }

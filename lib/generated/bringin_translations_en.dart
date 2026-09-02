@@ -679,9 +679,6 @@ class BringinTranslationsEn extends BringinTranslations {
       'This password has appeared in a public data breach and isn\'t safe to use. Please pick a new one you haven\'t used on other sites.';
 
   @override
-  String get password_pwned_action_confirm => 'Got it';
-
-  @override
   String get login_action_get_started => 'Get Started';
 
   @override
@@ -3013,4 +3010,401 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get exception_wallet_verification_required =>
       'This wallet needs a one-time ownership check for transfers of €1,000 or more. Verify to continue.';
+
+  @override
+  String get action_save => 'Save';
+
+  @override
+  String get action_update => 'Update';
+
+  @override
+  String get action_report => 'Report';
+
+  @override
+  String get action_got_it => 'Got it';
+
+  @override
+  String get card_activate_title => 'Activate card';
+
+  @override
+  String get card_activate_description =>
+      'Activate your Physical card once you receive it.';
+
+  @override
+  String card_activate_description_masked(String last4) {
+    return 'Activate your Physical card •••••$last4 once you receive it.';
+  }
+
+  @override
+  String get card_activate_field_last4 => 'Add the last 4 digits of your card';
+
+  @override
+  String get card_activate_field_pin => 'Set PIN';
+
+  @override
+  String get card_activate_field_pin_confirm => 'Confirm PIN';
+
+  @override
+  String get card_activate_toast_success => 'Card activated.';
+
+  @override
+  String get card_activate_error_pin_weak =>
+      'Avoid repeating or sequential digits.';
+
+  @override
+  String get card_activate_error_pin_mismatch => 'PINs do not match.';
+
+  @override
+  String get card_activate_error_failed =>
+      'We couldn\'t activate your card. Please try again.';
+
+  @override
+  String get card_activate_error_pin_not_set =>
+      'Card activated, but we couldn\'t set your PIN. Please try again from the card screen.';
+
+  @override
+  String card_detail_title_physical(String last4) {
+    return 'Physical card ....$last4';
+  }
+
+  @override
+  String card_detail_title_virtual(String last4) {
+    return 'Virtual card ....$last4';
+  }
+
+  @override
+  String get card_label_linked_account => 'Linked account';
+
+  @override
+  String get card_linked_euro => 'Linked: Euro account';
+
+  @override
+  String get card_linked_bitcoin => 'Linked: Bitcoin account';
+
+  @override
+  String get card_toast_reported_missing => 'Card reported as missing';
+
+  @override
+  String get card_toast_removed => 'Card removed';
+
+  @override
+  String get card_toast_closed => 'Card closed successfully';
+
+  @override
+  String get card_error_toggle_online => 'Couldn\'t update online payments.';
+
+  @override
+  String get card_error_toggle_contactless =>
+      'Couldn\'t update contactless payments.';
+
+  @override
+  String get card_error_toggle_atm => 'Couldn\'t update ATM withdrawals.';
+
+  @override
+  String get card_error_freeze => 'Couldn\'t freeze the card.';
+
+  @override
+  String get card_error_unfreeze => 'Couldn\'t unfreeze the card.';
+
+  @override
+  String get card_action_manage => 'Manage card';
+
+  @override
+  String get card_action_remove => 'Remove card';
+
+  @override
+  String get card_action_close => 'Close card';
+
+  @override
+  String get card_action_replace => 'Replace card';
+
+  @override
+  String get card_action_replace_physical => 'Replace physical card';
+
+  @override
+  String get card_action_view_3ds => 'View 3DS password';
+
+  @override
+  String get card_action_reset_3ds => 'Reset 3DS password';
+
+  @override
+  String get card_action_reset_atm_pin => 'Reset ATM PIN';
+
+  @override
+  String get card_action_report_missing => 'Card missing?';
+
+  @override
+  String get card_toggle_online => 'Online payments';
+
+  @override
+  String get card_toggle_atm => 'ATM withdrawals';
+
+  @override
+  String get card_toggle_contactless => 'Contactless payments';
+
+  @override
+  String get card_tx_error_load => 'Couldn\'t load transactions';
+
+  @override
+  String get card_tx_error_load_more => 'Couldn\'t load more';
+
+  @override
+  String get payment_details_label_merchant_name => 'Merchant name';
+
+  @override
+  String get payment_details_label_merchant_location => 'Merchant location';
+
+  @override
+  String get payment_details_label_merchant_category =>
+      'Merchant category code';
+
+  @override
+  String get payment_details_label_original_amount => 'Original amount';
+
+  @override
+  String get payment_details_label_linked_account_id => 'Linked account ID';
+
+  @override
+  String get payment_details_merchant_unknown => 'unknown merchant';
+
+  @override
+  String get card_tx_type_creation_fee => 'Card creation fee';
+
+  @override
+  String get card_tx_type_atm_withdrawal => 'ATM withdrawal';
+
+  @override
+  String get card_tx_type_refund => 'Card refund';
+
+  @override
+  String get card_tx_type_payment_declined => 'Card payment declined';
+
+  @override
+  String get card_linked_update_title => 'Update linked account';
+
+  @override
+  String get card_linked_option_bitcoin => 'Bitcoin account';
+
+  @override
+  String get card_linked_limit_title => 'Card limit reached';
+
+  @override
+  String card_linked_limit_message(int max, String destination) {
+    return 'You already have $max cards linked to your $destination. Close one before linking another card here.';
+  }
+
+  @override
+  String get card_limits_title => 'Card limits';
+
+  @override
+  String get card_limits_toast_updated => 'Card limits updated.';
+
+  @override
+  String get card_limits_error_update => 'Couldn\'t update card limits.';
+
+  @override
+  String get card_limits_error_txn_over_daily =>
+      'Transaction limit cannot exceed daily limit.';
+
+  @override
+  String get card_limits_error_daily_over_monthly =>
+      'Daily limit cannot exceed monthly limit.';
+
+  @override
+  String get card_limits_error_txn_over_monthly =>
+      'Transaction limit cannot exceed monthly limit.';
+
+  @override
+  String get card_limits_section_pos_description =>
+      'Limit for physical stores.';
+
+  @override
+  String get card_limits_section_online => 'Online';
+
+  @override
+  String get card_limits_section_online_description =>
+      'On e-commerce and digital platforms.';
+
+  @override
+  String get card_limits_section_contactless => 'Contactless';
+
+  @override
+  String get card_limits_section_contactless_description =>
+      'Cap for tap-and-go purchases.';
+
+  @override
+  String get card_limits_section_atm => 'ATM Withdrawals';
+
+  @override
+  String get card_limits_section_atm_description =>
+      'Maximum cash you can withdraw.';
+
+  @override
+  String get card_limits_section_overall => 'Overall';
+
+  @override
+  String get card_limits_section_overall_description =>
+      'Combined spending cap across all categories.';
+
+  @override
+  String get card_limits_period_daily => 'Daily';
+
+  @override
+  String get card_limits_period_monthly => 'Monthly';
+
+  @override
+  String get card_limits_period_transaction => 'Per transaction';
+
+  @override
+  String card_limits_slider_max(String amount) {
+    return 'Max $amount';
+  }
+
+  @override
+  String get card_coming_soon => 'Coming soon';
+
+  @override
+  String get card_replace_title => 'Proceed with card replacement?';
+
+  @override
+  String get card_replace_message =>
+      'Your current card deactivates instantly, and a new card ships to your address.\n\nIt will be delivered to the same address using the same delivery method.';
+
+  @override
+  String get card_reveal_target_details => 'Card details';
+
+  @override
+  String get card_reveal_target_pin => 'Card PIN';
+
+  @override
+  String get card_reveal_target_3ds => 'Card 3DS password';
+
+  @override
+  String get card_reveal_verify_title => 'Verify it\'s you';
+
+  @override
+  String get card_reveal_verify_prompt_prefix =>
+      'Add the verification code sent to your mobile number ';
+
+  @override
+  String get card_reveal_verify_prompt_suffix =>
+      '. This is a security measure to keep your account safe.';
+
+  @override
+  String get card_reveal_toast_code_resent => 'Code sent again.';
+
+  @override
+  String get card_reveal_error_resend => 'Couldn\'t resend code. Try again.';
+
+  @override
+  String get card_reveal_error_send_code => 'Couldn\'t send verification code';
+
+  @override
+  String get card_reveal_error_session_expired =>
+      'Session expired. Please verify again.';
+
+  @override
+  String get card_reveal_error_load_details =>
+      'Couldn\'t load card details. Try again.';
+
+  @override
+  String get card_reveal_error_invalid_code =>
+      'That code didn\'t work. Please try again.';
+
+  @override
+  String get card_reveal_label_number => 'Card number';
+
+  @override
+  String get card_reveal_label_expiry => 'Expiry date';
+
+  @override
+  String get card_reveal_label_name => 'Name on the card';
+
+  @override
+  String get card_reveal_toast_number_copied => 'Card number copied';
+
+  @override
+  String get card_reveal_toast_pin_copied => 'PIN copied';
+
+  @override
+  String get card_reveal_toast_3ds_copied => '3DS password copied';
+
+  @override
+  String get card_field_error_load => 'Could not load card field.';
+
+  @override
+  String card_field_error_load_named(String field) {
+    return 'Couldn\'t load $field.';
+  }
+
+  @override
+  String get card_consent_error_unknown => 'An unknown error occurred.';
+
+  @override
+  String get card_consent_error_malformed =>
+      'Malformed consent response from Striga.';
+
+  @override
+  String get card_consent_error_unknown_code => 'Unknown consent error.';
+
+  @override
+  String get card_consent_error_unreachable =>
+      'Couldn\'t reach the verification service.';
+
+  @override
+  String get card_close_title_remove => 'Remove this card?';
+
+  @override
+  String get card_close_title_close => 'Close your card?';
+
+  @override
+  String get card_close_message_expired =>
+      'This card has already expired, so there is nothing left to close. Removing it just takes it off your list — you\'ll still be able to view past transactions.';
+
+  @override
+  String get card_close_message =>
+      'Closing your card is permanent. You\'ll still be able to view past transactions.';
+
+  @override
+  String get card_close_error_remove => 'Couldn\'t remove the card.';
+
+  @override
+  String get card_close_error_close => 'Couldn\'t close the card.';
+
+  @override
+  String get card_missing_title => 'Report card missing?';
+
+  @override
+  String get card_missing_message =>
+      'Your card will be blocked for future use. You can still access your card transactions.';
+
+  @override
+  String get card_missing_error => 'Couldn\'t report the card as missing.';
+
+  @override
+  String get card_label_3ds_password => '3DS password';
+
+  @override
+  String get card_3ds_field_hint => 'Add 3DS password';
+
+  @override
+  String get card_3ds_field_confirm_label => 'Confirm 3DS password';
+
+  @override
+  String get card_3ds_field_confirm_hint => 'Re-enter 3DS password';
+
+  @override
+  String get card_3ds_error_mismatch => 'Passwords don\'t match.';
+
+  @override
+  String card_3ds_special_chars(String chars) {
+    return 'Supported special characters are:\n$chars';
+  }
+
+  @override
+  String get card_atm_pin_title => 'Reset your card PIN at an ATM';
+
+  @override
+  String get card_atm_pin_message =>
+      'Changing your card PIN isn\'t available in the app yet. For now, you can reset it at any ATM that supports PIN changes.\n\nWe\'re working on adding in-app PIN changes in an upcoming release.';
 }

@@ -1289,12 +1289,6 @@ abstract class BringinTranslations {
   /// **'This password has appeared in a public data breach and isn\'t safe to use. Please pick a new one you haven\'t used on other sites.'**
   String get password_pwned_message;
 
-  /// No description provided for @password_pwned_action_confirm.
-  ///
-  /// In en, this message translates to:
-  /// **'Got it'**
-  String get password_pwned_action_confirm;
-
   /// No description provided for @login_action_get_started.
   ///
   /// In en, this message translates to:
@@ -5188,6 +5182,720 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'This wallet needs a one-time ownership check for transfers of €1,000 or more. Verify to continue.'**
   String get exception_wallet_verification_required;
+
+  /// No description provided for @action_save.
+  ///
+  /// In en, this message translates to:
+  /// **'Save'**
+  String get action_save;
+
+  /// No description provided for @action_update.
+  ///
+  /// In en, this message translates to:
+  /// **'Update'**
+  String get action_update;
+
+  /// No description provided for @action_report.
+  ///
+  /// In en, this message translates to:
+  /// **'Report'**
+  String get action_report;
+
+  /// No description provided for @action_got_it.
+  ///
+  /// In en, this message translates to:
+  /// **'Got it'**
+  String get action_got_it;
+
+  /// No description provided for @card_activate_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Activate card'**
+  String get card_activate_title;
+
+  /// No description provided for @card_activate_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Activate your Physical card once you receive it.'**
+  String get card_activate_description;
+
+  /// No description provided for @card_activate_description_masked.
+  ///
+  /// In en, this message translates to:
+  /// **'Activate your Physical card •••••{last4} once you receive it.'**
+  String card_activate_description_masked(String last4);
+
+  /// No description provided for @card_activate_field_last4.
+  ///
+  /// In en, this message translates to:
+  /// **'Add the last 4 digits of your card'**
+  String get card_activate_field_last4;
+
+  /// No description provided for @card_activate_field_pin.
+  ///
+  /// In en, this message translates to:
+  /// **'Set PIN'**
+  String get card_activate_field_pin;
+
+  /// No description provided for @card_activate_field_pin_confirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm PIN'**
+  String get card_activate_field_pin_confirm;
+
+  /// No description provided for @card_activate_toast_success.
+  ///
+  /// In en, this message translates to:
+  /// **'Card activated.'**
+  String get card_activate_toast_success;
+
+  /// No description provided for @card_activate_error_pin_weak.
+  ///
+  /// In en, this message translates to:
+  /// **'Avoid repeating or sequential digits.'**
+  String get card_activate_error_pin_weak;
+
+  /// No description provided for @card_activate_error_pin_mismatch.
+  ///
+  /// In en, this message translates to:
+  /// **'PINs do not match.'**
+  String get card_activate_error_pin_mismatch;
+
+  /// No description provided for @card_activate_error_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t activate your card. Please try again.'**
+  String get card_activate_error_failed;
+
+  /// No description provided for @card_activate_error_pin_not_set.
+  ///
+  /// In en, this message translates to:
+  /// **'Card activated, but we couldn\'t set your PIN. Please try again from the card screen.'**
+  String get card_activate_error_pin_not_set;
+
+  /// No description provided for @card_detail_title_physical.
+  ///
+  /// In en, this message translates to:
+  /// **'Physical card ....{last4}'**
+  String card_detail_title_physical(String last4);
+
+  /// No description provided for @card_detail_title_virtual.
+  ///
+  /// In en, this message translates to:
+  /// **'Virtual card ....{last4}'**
+  String card_detail_title_virtual(String last4);
+
+  /// No description provided for @card_label_linked_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Linked account'**
+  String get card_label_linked_account;
+
+  /// No description provided for @card_linked_euro.
+  ///
+  /// In en, this message translates to:
+  /// **'Linked: Euro account'**
+  String get card_linked_euro;
+
+  /// No description provided for @card_linked_bitcoin.
+  ///
+  /// In en, this message translates to:
+  /// **'Linked: Bitcoin account'**
+  String get card_linked_bitcoin;
+
+  /// No description provided for @card_toast_reported_missing.
+  ///
+  /// In en, this message translates to:
+  /// **'Card reported as missing'**
+  String get card_toast_reported_missing;
+
+  /// No description provided for @card_toast_removed.
+  ///
+  /// In en, this message translates to:
+  /// **'Card removed'**
+  String get card_toast_removed;
+
+  /// No description provided for @card_toast_closed.
+  ///
+  /// In en, this message translates to:
+  /// **'Card closed successfully'**
+  String get card_toast_closed;
+
+  /// No description provided for @card_error_toggle_online.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t update online payments.'**
+  String get card_error_toggle_online;
+
+  /// No description provided for @card_error_toggle_contactless.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t update contactless payments.'**
+  String get card_error_toggle_contactless;
+
+  /// No description provided for @card_error_toggle_atm.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t update ATM withdrawals.'**
+  String get card_error_toggle_atm;
+
+  /// No description provided for @card_error_freeze.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t freeze the card.'**
+  String get card_error_freeze;
+
+  /// No description provided for @card_error_unfreeze.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t unfreeze the card.'**
+  String get card_error_unfreeze;
+
+  /// No description provided for @card_action_manage.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage card'**
+  String get card_action_manage;
+
+  /// No description provided for @card_action_remove.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove card'**
+  String get card_action_remove;
+
+  /// No description provided for @card_action_close.
+  ///
+  /// In en, this message translates to:
+  /// **'Close card'**
+  String get card_action_close;
+
+  /// No description provided for @card_action_replace.
+  ///
+  /// In en, this message translates to:
+  /// **'Replace card'**
+  String get card_action_replace;
+
+  /// No description provided for @card_action_replace_physical.
+  ///
+  /// In en, this message translates to:
+  /// **'Replace physical card'**
+  String get card_action_replace_physical;
+
+  /// No description provided for @card_action_view_3ds.
+  ///
+  /// In en, this message translates to:
+  /// **'View 3DS password'**
+  String get card_action_view_3ds;
+
+  /// No description provided for @card_action_reset_3ds.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset 3DS password'**
+  String get card_action_reset_3ds;
+
+  /// No description provided for @card_action_reset_atm_pin.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset ATM PIN'**
+  String get card_action_reset_atm_pin;
+
+  /// No description provided for @card_action_report_missing.
+  ///
+  /// In en, this message translates to:
+  /// **'Card missing?'**
+  String get card_action_report_missing;
+
+  /// No description provided for @card_toggle_online.
+  ///
+  /// In en, this message translates to:
+  /// **'Online payments'**
+  String get card_toggle_online;
+
+  /// No description provided for @card_toggle_atm.
+  ///
+  /// In en, this message translates to:
+  /// **'ATM withdrawals'**
+  String get card_toggle_atm;
+
+  /// No description provided for @card_toggle_contactless.
+  ///
+  /// In en, this message translates to:
+  /// **'Contactless payments'**
+  String get card_toggle_contactless;
+
+  /// No description provided for @card_tx_error_load.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t load transactions'**
+  String get card_tx_error_load;
+
+  /// No description provided for @card_tx_error_load_more.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t load more'**
+  String get card_tx_error_load_more;
+
+  /// No description provided for @payment_details_label_merchant_name.
+  ///
+  /// In en, this message translates to:
+  /// **'Merchant name'**
+  String get payment_details_label_merchant_name;
+
+  /// No description provided for @payment_details_label_merchant_location.
+  ///
+  /// In en, this message translates to:
+  /// **'Merchant location'**
+  String get payment_details_label_merchant_location;
+
+  /// No description provided for @payment_details_label_merchant_category.
+  ///
+  /// In en, this message translates to:
+  /// **'Merchant category code'**
+  String get payment_details_label_merchant_category;
+
+  /// No description provided for @payment_details_label_original_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Original amount'**
+  String get payment_details_label_original_amount;
+
+  /// No description provided for @payment_details_label_linked_account_id.
+  ///
+  /// In en, this message translates to:
+  /// **'Linked account ID'**
+  String get payment_details_label_linked_account_id;
+
+  /// No description provided for @payment_details_merchant_unknown.
+  ///
+  /// In en, this message translates to:
+  /// **'unknown merchant'**
+  String get payment_details_merchant_unknown;
+
+  /// No description provided for @card_tx_type_creation_fee.
+  ///
+  /// In en, this message translates to:
+  /// **'Card creation fee'**
+  String get card_tx_type_creation_fee;
+
+  /// No description provided for @card_tx_type_atm_withdrawal.
+  ///
+  /// In en, this message translates to:
+  /// **'ATM withdrawal'**
+  String get card_tx_type_atm_withdrawal;
+
+  /// No description provided for @card_tx_type_refund.
+  ///
+  /// In en, this message translates to:
+  /// **'Card refund'**
+  String get card_tx_type_refund;
+
+  /// No description provided for @card_tx_type_payment_declined.
+  ///
+  /// In en, this message translates to:
+  /// **'Card payment declined'**
+  String get card_tx_type_payment_declined;
+
+  /// No description provided for @card_linked_update_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Update linked account'**
+  String get card_linked_update_title;
+
+  /// No description provided for @card_linked_option_bitcoin.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin account'**
+  String get card_linked_option_bitcoin;
+
+  /// No description provided for @card_linked_limit_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Card limit reached'**
+  String get card_linked_limit_title;
+
+  /// No description provided for @card_linked_limit_message.
+  ///
+  /// In en, this message translates to:
+  /// **'You already have {max} cards linked to your {destination}. Close one before linking another card here.'**
+  String card_linked_limit_message(int max, String destination);
+
+  /// No description provided for @card_limits_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Card limits'**
+  String get card_limits_title;
+
+  /// No description provided for @card_limits_toast_updated.
+  ///
+  /// In en, this message translates to:
+  /// **'Card limits updated.'**
+  String get card_limits_toast_updated;
+
+  /// No description provided for @card_limits_error_update.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t update card limits.'**
+  String get card_limits_error_update;
+
+  /// No description provided for @card_limits_error_txn_over_daily.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction limit cannot exceed daily limit.'**
+  String get card_limits_error_txn_over_daily;
+
+  /// No description provided for @card_limits_error_daily_over_monthly.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily limit cannot exceed monthly limit.'**
+  String get card_limits_error_daily_over_monthly;
+
+  /// No description provided for @card_limits_error_txn_over_monthly.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction limit cannot exceed monthly limit.'**
+  String get card_limits_error_txn_over_monthly;
+
+  /// No description provided for @card_limits_section_pos_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Limit for physical stores.'**
+  String get card_limits_section_pos_description;
+
+  /// No description provided for @card_limits_section_online.
+  ///
+  /// In en, this message translates to:
+  /// **'Online'**
+  String get card_limits_section_online;
+
+  /// No description provided for @card_limits_section_online_description.
+  ///
+  /// In en, this message translates to:
+  /// **'On e-commerce and digital platforms.'**
+  String get card_limits_section_online_description;
+
+  /// No description provided for @card_limits_section_contactless.
+  ///
+  /// In en, this message translates to:
+  /// **'Contactless'**
+  String get card_limits_section_contactless;
+
+  /// No description provided for @card_limits_section_contactless_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Cap for tap-and-go purchases.'**
+  String get card_limits_section_contactless_description;
+
+  /// No description provided for @card_limits_section_atm.
+  ///
+  /// In en, this message translates to:
+  /// **'ATM Withdrawals'**
+  String get card_limits_section_atm;
+
+  /// No description provided for @card_limits_section_atm_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Maximum cash you can withdraw.'**
+  String get card_limits_section_atm_description;
+
+  /// No description provided for @card_limits_section_overall.
+  ///
+  /// In en, this message translates to:
+  /// **'Overall'**
+  String get card_limits_section_overall;
+
+  /// No description provided for @card_limits_section_overall_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Combined spending cap across all categories.'**
+  String get card_limits_section_overall_description;
+
+  /// No description provided for @card_limits_period_daily.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily'**
+  String get card_limits_period_daily;
+
+  /// No description provided for @card_limits_period_monthly.
+  ///
+  /// In en, this message translates to:
+  /// **'Monthly'**
+  String get card_limits_period_monthly;
+
+  /// No description provided for @card_limits_period_transaction.
+  ///
+  /// In en, this message translates to:
+  /// **'Per transaction'**
+  String get card_limits_period_transaction;
+
+  /// No description provided for @card_limits_slider_max.
+  ///
+  /// In en, this message translates to:
+  /// **'Max {amount}'**
+  String card_limits_slider_max(String amount);
+
+  /// No description provided for @card_coming_soon.
+  ///
+  /// In en, this message translates to:
+  /// **'Coming soon'**
+  String get card_coming_soon;
+
+  /// No description provided for @card_replace_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Proceed with card replacement?'**
+  String get card_replace_title;
+
+  /// No description provided for @card_replace_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Your current card deactivates instantly, and a new card ships to your address.\n\nIt will be delivered to the same address using the same delivery method.'**
+  String get card_replace_message;
+
+  /// No description provided for @card_reveal_target_details.
+  ///
+  /// In en, this message translates to:
+  /// **'Card details'**
+  String get card_reveal_target_details;
+
+  /// No description provided for @card_reveal_target_pin.
+  ///
+  /// In en, this message translates to:
+  /// **'Card PIN'**
+  String get card_reveal_target_pin;
+
+  /// No description provided for @card_reveal_target_3ds.
+  ///
+  /// In en, this message translates to:
+  /// **'Card 3DS password'**
+  String get card_reveal_target_3ds;
+
+  /// No description provided for @card_reveal_verify_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify it\'s you'**
+  String get card_reveal_verify_title;
+
+  /// No description provided for @card_reveal_verify_prompt_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'Add the verification code sent to your mobile number '**
+  String get card_reveal_verify_prompt_prefix;
+
+  /// No description provided for @card_reveal_verify_prompt_suffix.
+  ///
+  /// In en, this message translates to:
+  /// **'. This is a security measure to keep your account safe.'**
+  String get card_reveal_verify_prompt_suffix;
+
+  /// No description provided for @card_reveal_toast_code_resent.
+  ///
+  /// In en, this message translates to:
+  /// **'Code sent again.'**
+  String get card_reveal_toast_code_resent;
+
+  /// No description provided for @card_reveal_error_resend.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t resend code. Try again.'**
+  String get card_reveal_error_resend;
+
+  /// No description provided for @card_reveal_error_send_code.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t send verification code'**
+  String get card_reveal_error_send_code;
+
+  /// No description provided for @card_reveal_error_session_expired.
+  ///
+  /// In en, this message translates to:
+  /// **'Session expired. Please verify again.'**
+  String get card_reveal_error_session_expired;
+
+  /// No description provided for @card_reveal_error_load_details.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t load card details. Try again.'**
+  String get card_reveal_error_load_details;
+
+  /// No description provided for @card_reveal_error_invalid_code.
+  ///
+  /// In en, this message translates to:
+  /// **'That code didn\'t work. Please try again.'**
+  String get card_reveal_error_invalid_code;
+
+  /// No description provided for @card_reveal_label_number.
+  ///
+  /// In en, this message translates to:
+  /// **'Card number'**
+  String get card_reveal_label_number;
+
+  /// No description provided for @card_reveal_label_expiry.
+  ///
+  /// In en, this message translates to:
+  /// **'Expiry date'**
+  String get card_reveal_label_expiry;
+
+  /// No description provided for @card_reveal_label_name.
+  ///
+  /// In en, this message translates to:
+  /// **'Name on the card'**
+  String get card_reveal_label_name;
+
+  /// No description provided for @card_reveal_toast_number_copied.
+  ///
+  /// In en, this message translates to:
+  /// **'Card number copied'**
+  String get card_reveal_toast_number_copied;
+
+  /// No description provided for @card_reveal_toast_pin_copied.
+  ///
+  /// In en, this message translates to:
+  /// **'PIN copied'**
+  String get card_reveal_toast_pin_copied;
+
+  /// No description provided for @card_reveal_toast_3ds_copied.
+  ///
+  /// In en, this message translates to:
+  /// **'3DS password copied'**
+  String get card_reveal_toast_3ds_copied;
+
+  /// No description provided for @card_field_error_load.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not load card field.'**
+  String get card_field_error_load;
+
+  /// No description provided for @card_field_error_load_named.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t load {field}.'**
+  String card_field_error_load_named(String field);
+
+  /// No description provided for @card_consent_error_unknown.
+  ///
+  /// In en, this message translates to:
+  /// **'An unknown error occurred.'**
+  String get card_consent_error_unknown;
+
+  /// No description provided for @card_consent_error_malformed.
+  ///
+  /// In en, this message translates to:
+  /// **'Malformed consent response from Striga.'**
+  String get card_consent_error_malformed;
+
+  /// No description provided for @card_consent_error_unknown_code.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown consent error.'**
+  String get card_consent_error_unknown_code;
+
+  /// No description provided for @card_consent_error_unreachable.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t reach the verification service.'**
+  String get card_consent_error_unreachable;
+
+  /// No description provided for @card_close_title_remove.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove this card?'**
+  String get card_close_title_remove;
+
+  /// No description provided for @card_close_title_close.
+  ///
+  /// In en, this message translates to:
+  /// **'Close your card?'**
+  String get card_close_title_close;
+
+  /// No description provided for @card_close_message_expired.
+  ///
+  /// In en, this message translates to:
+  /// **'This card has already expired, so there is nothing left to close. Removing it just takes it off your list — you\'ll still be able to view past transactions.'**
+  String get card_close_message_expired;
+
+  /// No description provided for @card_close_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Closing your card is permanent. You\'ll still be able to view past transactions.'**
+  String get card_close_message;
+
+  /// No description provided for @card_close_error_remove.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t remove the card.'**
+  String get card_close_error_remove;
+
+  /// No description provided for @card_close_error_close.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t close the card.'**
+  String get card_close_error_close;
+
+  /// No description provided for @card_missing_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Report card missing?'**
+  String get card_missing_title;
+
+  /// No description provided for @card_missing_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Your card will be blocked for future use. You can still access your card transactions.'**
+  String get card_missing_message;
+
+  /// No description provided for @card_missing_error.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t report the card as missing.'**
+  String get card_missing_error;
+
+  /// No description provided for @card_label_3ds_password.
+  ///
+  /// In en, this message translates to:
+  /// **'3DS password'**
+  String get card_label_3ds_password;
+
+  /// No description provided for @card_3ds_field_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Add 3DS password'**
+  String get card_3ds_field_hint;
+
+  /// No description provided for @card_3ds_field_confirm_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm 3DS password'**
+  String get card_3ds_field_confirm_label;
+
+  /// No description provided for @card_3ds_field_confirm_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Re-enter 3DS password'**
+  String get card_3ds_field_confirm_hint;
+
+  /// No description provided for @card_3ds_error_mismatch.
+  ///
+  /// In en, this message translates to:
+  /// **'Passwords don\'t match.'**
+  String get card_3ds_error_mismatch;
+
+  /// No description provided for @card_3ds_special_chars.
+  ///
+  /// In en, this message translates to:
+  /// **'Supported special characters are:\n{chars}'**
+  String card_3ds_special_chars(String chars);
+
+  /// No description provided for @card_atm_pin_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset your card PIN at an ATM'**
+  String get card_atm_pin_title;
+
+  /// No description provided for @card_atm_pin_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Changing your card PIN isn\'t available in the app yet. For now, you can reset it at any ATM that supports PIN changes.\n\nWe\'re working on adding in-app PIN changes in an upcoming release.'**
+  String get card_atm_pin_message;
 }
 
 class _BringinTranslationsDelegate
