@@ -1770,5 +1770,11 @@
   "card_password_rule_special": "A special character",
   "card_password_rule_allowed": "Only allowed characters",
   "card_create_action_create": "Create card",
-  "card_create_virtual_title": "Create a virtual card"
+  "card_create_virtual_title": "Create a virtual card",
+  "card_balance_manage_title": "Manage Card balance",
+  "card_balance_custodial_title": "Custodial wallet",
+  "card_balance_custodial_description": "Your card balance is a custodial Bitcoin wallet, designed for seamless card transactions.",
+  "card_balance_error_load_transactions": "Couldn't load your transactions.",
+  "card_prepayment_success_title": "Thank you for your card prepayment! 🎉",
+  "card_prepayment_error_bank_app": "Couldn't open your bank's app. Try approving in the browser instead."
 }

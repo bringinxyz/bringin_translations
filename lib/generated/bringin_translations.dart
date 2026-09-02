@@ -6490,6 +6490,42 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Create a virtual card'**
   String get card_create_virtual_title;
+
+  /// No description provided for @card_balance_manage_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage Card balance'**
+  String get card_balance_manage_title;
+
+  /// No description provided for @card_balance_custodial_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Custodial wallet'**
+  String get card_balance_custodial_title;
+
+  /// No description provided for @card_balance_custodial_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Your card balance is a custodial Bitcoin wallet, designed for seamless card transactions.'**
+  String get card_balance_custodial_description;
+
+  /// No description provided for @card_balance_error_load_transactions.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t load your transactions.'**
+  String get card_balance_error_load_transactions;
+
+  /// No description provided for @card_prepayment_success_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Thank you for your card prepayment! 🎉'**
+  String get card_prepayment_success_title;
+
+  /// No description provided for @card_prepayment_error_bank_app.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t open your bank\'s app. Try approving in the browser instead.'**
+  String get card_prepayment_error_bank_app;
 }
 
 class _BringinTranslationsDelegate

@@ -3747,4 +3747,26 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get card_create_virtual_title => 'Create a virtual card';
+
+  @override
+  String get card_balance_manage_title => 'Manage Card balance';
+
+  @override
+  String get card_balance_custodial_title => 'Custodial wallet';
+
+  @override
+  String get card_balance_custodial_description =>
+      'Your card balance is a custodial Bitcoin wallet, designed for seamless card transactions.';
+
+  @override
+  String get card_balance_error_load_transactions =>
+      'Couldn\'t load your transactions.';
+
+  @override
+  String get card_prepayment_success_title =>
+      'Thank you for your card prepayment! 🎉';
+
+  @override
+  String get card_prepayment_error_bank_app =>
+      'Couldn\'t open your bank\'s app. Try approving in the browser instead.';
 }
