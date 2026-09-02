@@ -2009,59 +2009,6 @@ class BringinTranslationsEn extends BringinTranslations {
   String get action_delete => 'Delete';
 
   @override
-  String get connect_title => 'Bringin connect';
-
-  @override
-  String get connect_intro_heading => 'Welcome to Bringin Connect';
-
-  @override
-  String get connect_intro_tagline =>
-      'Your bank and your wallet, finally in sync.';
-
-  @override
-  String get connect_intro_body =>
-      'Create permanent connections between your bank accounts and Bitcoin wallets. Once linked, buying or selling Bitcoin is as simple as making a bank transfer — no extra steps, no friction.';
-
-  @override
-  String get connect_list_title => 'My Connections';
-
-  @override
-  String get connect_list_subtitle => 'Your active connections';
-
-  @override
-  String get connect_action_new => 'New Connection';
-
-  @override
-  String get connect_list_empty_title => 'No connections yet';
-
-  @override
-  String get connect_list_empty_body =>
-      'Create a connection to send EUR from your bank and receive Bitcoin, or to receive Bitcoin and get EUR in your bank.';
-
-  @override
-  String get connect_status_expired => 'Expired';
-
-  @override
-  String connect_expires_in(String remaining) {
-    return 'Expires in $remaining';
-  }
-
-  @override
-  String get connect_type_buy => 'Buy Connection';
-
-  @override
-  String get connect_type_sell => 'Sell Connection';
-
-  @override
-  String get connect_label_lightning => 'LIGHTNING:';
-
-  @override
-  String get connect_label_onchain => 'ONCHAIN:';
-
-  @override
-  String get connect_label_viban => 'VIBAN:';
-
-  @override
   String get connect_copied_lightning_address =>
       'Lightning address copied to clipboard';
 
@@ -2070,62 +2017,6 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get connect_copied_iban => 'IBAN copied to clipboard';
-
-  @override
-  String get connect_min_amount => 'Min Amount: 30 EUR';
-
-  @override
-  String connect_max_amount(String max) {
-    return 'Max Amount: $max EUR';
-  }
-
-  @override
-  String get connect_transactions_empty => 'No transactions';
-
-  @override
-  String get connect_action_resume => 'Resume';
-
-  @override
-  String get connect_delete_dialog_title => 'Delete Connection';
-
-  @override
-  String get connect_delete_dialog_message =>
-      'Are you sure you want to delete this connection? This action cannot be undone.';
-
-  @override
-  String get connect_delete_confirm => 'Yes, Delete';
-
-  @override
-  String get connect_deleted_success => 'Connection deleted successfully';
-
-  @override
-  String get connect_error_resume_missing_challenge =>
-      'Unable to resume: missing challenge ID.';
-
-  @override
-  String get connect_error_delete_missing_order =>
-      'Unable to delete: missing standing order ID.';
-
-  @override
-  String get connect_error_unexpected_response =>
-      'Unexpected response from server.';
-
-  @override
-  String get connect_setup_title => 'Set up your connection';
-
-  @override
-  String get connect_buy_description =>
-      'Link a Bitcoin wallet and get a dedicated vIBAN. Send euros to it from any bank — they\'ll arrive as BTC in your wallet, instantly.';
-
-  @override
-  String get connect_action_setup_buy => 'Setup Buy Connection';
-
-  @override
-  String get connect_sell_description =>
-      'Link a bank account and get a dedicated Bitcoin address. Send BTC to it from any wallet — it\'ll arrive as euros in your bank, instantly.';
-
-  @override
-  String get connect_action_setup_sell => 'Setup Sell Connection';
 
   @override
   String get connect_destination_bank => 'your bank';
@@ -2265,17 +2156,6 @@ class BringinTranslationsEn extends BringinTranslations {
   String get connect_buy_loader_4 => 'Finishing up...';
 
   @override
-  String connect_transaction_count(int count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: '$count transactions',
-      one: '1 transaction',
-    );
-    return '$_temp0';
-  }
-
-  @override
   String get connect_error_verify_failed =>
       'Unable to verify connection. Please try again.';
 
@@ -2304,39 +2184,7 @@ class BringinTranslationsEn extends BringinTranslations {
   }
 
   @override
-  String get connect_label_length_range =>
-      'Label must be between 2 and 30 characters';
-
-  @override
   String get connect_label_duplicate => 'This name is already used';
-
-  @override
-  String get connect_buy_form_title => 'Set up your Buy Connection';
-
-  @override
-  String get connect_buy_form_prompt => 'Where should we send your Bitcoin?';
-
-  @override
-  String get connect_buy_form_label_destination_name => 'Destination Name';
-
-  @override
-  String get connect_buy_form_hint_destination_name => 'e.g. Blue Wallet';
-
-  @override
-  String get connect_buy_form_label_destination_address =>
-      'Destination Address';
-
-  @override
-  String get connect_buy_form_hint_destination_address =>
-      'Enter your Bitcoin wallet address';
-
-  @override
-  String get connect_buy_error_address_length =>
-      'Bitcoin address must be between 26 and 90 characters';
-
-  @override
-  String get connect_buy_error_address_required =>
-      'Please enter a Bitcoin address';
 
   @override
   String get connect_buy_setup_title => 'Setup a buy connection';
@@ -2346,10 +2194,10 @@ class BringinTranslationsEn extends BringinTranslations {
       'Link your Bitcoin wallet to get a dedicated vIBAN. Send euros from any bank—funds arrive instantly as BTC in your wallet.';
 
   @override
-  String get connect_buy_field_label => 'Label';
+  String get connect_field_label => 'Label';
 
   @override
-  String get connect_buy_field_label_hint_suffix => '(Destination name)';
+  String get connect_field_label_hint_suffix => '(Destination name)';
 
   @override
   String get connect_buy_field_label_placeholder => 'Blue wallet';
@@ -2462,4 +2310,81 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get connect_verify_cancel_dialog_confirm => 'Cancel setup';
+
+  @override
+  String get connect_sell_setup_title => 'Setup a sell connection';
+
+  @override
+  String get connect_sell_setup_description =>
+      'Link your bank account to get a dedicated Bitcoin address. Send Bitcoin from any wallet—funds arrive instantly as euros in your account.';
+
+  @override
+  String get connect_sell_field_label_placeholder => 'Wise';
+
+  @override
+  String get connect_sell_toast_beneficiary_added => 'Beneficiary added';
+
+  @override
+  String get connect_sell_error_ln_address_required =>
+      'Lightning address is required';
+
+  @override
+  String connect_sell_error_ln_address_length(int min, int max) {
+    return 'Must be $min-$max characters';
+  }
+
+  @override
+  String get connect_sell_error_ln_address_charset =>
+      'Only lowercase letters, numbers, hyphens and underscores allowed';
+
+  @override
+  String get connect_sell_ln_address_heading => 'Create your Lightning address';
+
+  @override
+  String get connect_sell_ln_address_description =>
+      'Claim a unique Lightning address for your bank. We recommend including your bank name for clarity (e.g. yourname_bankname).';
+
+  @override
+  String get connect_sell_ln_address_hint => 'Add username/ handle';
+
+  @override
+  String get connect_sell_network_type => 'Network type';
+
+  @override
+  String get connect_sell_network_onchain_title => 'On-chain';
+
+  @override
+  String get connect_sell_network_onchain_description =>
+      'We will generate the address for you.';
+
+  @override
+  String get connect_sell_network_lightning_title => 'Lightning';
+
+  @override
+  String get connect_sell_network_lightning_description =>
+      'You can create your own username/ handle.';
+
+  @override
+  String get connect_sell_select_bank => 'Select/ add your bank';
+
+  @override
+  String get connect_sell_error_load_banks => 'Failed to load bank accounts';
+
+  @override
+  String get connect_sell_no_banks => 'No bank accounts yet. Tap + to add one.';
+
+  @override
+  String get connect_sell_bank_has_connections =>
+      'There are existing connections with this bank.';
+
+  @override
+  String get connect_sell_bank_has_onchain =>
+      'There is an on-chain connection with this bank.';
+
+  @override
+  String get connect_sell_bank_has_lightning =>
+      'There is a lightning connection with this bank.';
+
+  @override
+  String get connect_verify_sell_title => 'Verify sell connection';
 }
