@@ -1180,6 +1180,7 @@
   "connect_buy_form_label_destination_address": "Destination Address",
   "connect_buy_form_hint_destination_address": "Enter your Bitcoin wallet address",
   "connect_buy_error_address_length": "Bitcoin address must be between 26 and 90 characters",
+  "connect_buy_error_address_required": "Please enter a Bitcoin address",
   "connect_buy_setup_title": "Setup a buy connection",
   "connect_buy_setup_description": "Link your Bitcoin wallet to get a dedicated vIBAN. Send euros from any bank—funds arrive instantly as BTC in your wallet.",
   "connect_buy_field_label": "Label",

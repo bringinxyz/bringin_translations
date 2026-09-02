@@ -4079,6 +4079,12 @@ abstract class BringinTranslations {
   /// **'Bitcoin address must be between 26 and 90 characters'**
   String get connect_buy_error_address_length;
 
+  /// No description provided for @connect_buy_error_address_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a Bitcoin address'**
+  String get connect_buy_error_address_required;
+
   /// No description provided for @connect_buy_setup_title.
   ///
   /// In en, this message translates to:

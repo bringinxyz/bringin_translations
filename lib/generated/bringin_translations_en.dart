@@ -2335,6 +2335,10 @@ class BringinTranslationsEn extends BringinTranslations {
       'Bitcoin address must be between 26 and 90 characters';
 
   @override
+  String get connect_buy_error_address_required =>
+      'Please enter a Bitcoin address';
+
+  @override
   String get connect_buy_setup_title => 'Setup a buy connection';
 
   @override
