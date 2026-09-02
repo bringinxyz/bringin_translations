@@ -1103,6 +1103,18 @@ abstract class BringinTranslations {
   /// **'Swap'**
   String get tx_subtype_swap;
 
+  /// No description provided for @tx_label_bringin_inc.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin INC'**
+  String get tx_label_bringin_inc;
+
+  /// No description provided for @tx_label_bringin.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin'**
+  String get tx_label_bringin;
+
   /// No description provided for @field_label_email.
   ///
   /// In en, this message translates to:
@@ -2975,6 +2987,120 @@ abstract class BringinTranslations {
   /// **'View on explorer'**
   String get payment_details_action_view_explorer;
 
+  /// No description provided for @payment_details_label_order_id.
+  ///
+  /// In en, this message translates to:
+  /// **'Order ID'**
+  String get payment_details_label_order_id;
+
+  /// No description provided for @payment_details_label_transaction_type.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction type'**
+  String get payment_details_label_transaction_type;
+
+  /// No description provided for @payment_details_label_amount_btc.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount in Bitcoin'**
+  String get payment_details_label_amount_btc;
+
+  /// No description provided for @payment_details_label_amount_eur.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount in Euro'**
+  String get payment_details_label_amount_eur;
+
+  /// No description provided for @payment_details_label_deposit_transaction.
+  ///
+  /// In en, this message translates to:
+  /// **'Deposit transaction'**
+  String get payment_details_label_deposit_transaction;
+
+  /// No description provided for @payment_details_label_deposit_iban.
+  ///
+  /// In en, this message translates to:
+  /// **'Deposit IBAN'**
+  String get payment_details_label_deposit_iban;
+
+  /// No description provided for @payment_details_label_deposit_name.
+  ///
+  /// In en, this message translates to:
+  /// **'Deposit name'**
+  String get payment_details_label_deposit_name;
+
+  /// No description provided for @payment_details_label_destination_iban.
+  ///
+  /// In en, this message translates to:
+  /// **'Destination IBAN'**
+  String get payment_details_label_destination_iban;
+
+  /// No description provided for @payment_details_label_blockchain_hash.
+  ///
+  /// In en, this message translates to:
+  /// **'Blockchain hash'**
+  String get payment_details_label_blockchain_hash;
+
+  /// No description provided for @payment_details_label_rate.
+  ///
+  /// In en, this message translates to:
+  /// **'Rate'**
+  String get payment_details_label_rate;
+
+  /// No description provided for @payment_details_label_fees.
+  ///
+  /// In en, this message translates to:
+  /// **'Fees'**
+  String get payment_details_label_fees;
+
+  /// No description provided for @payment_details_fee_line_exchange.
+  ///
+  /// In en, this message translates to:
+  /// **'Exchange: {amount}'**
+  String payment_details_fee_line_exchange(String amount);
+
+  /// No description provided for @payment_details_fee_line_withdrawal.
+  ///
+  /// In en, this message translates to:
+  /// **'Withdrawal: {amount}'**
+  String payment_details_fee_line_withdrawal(String amount);
+
+  /// No description provided for @payment_details_compliance_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Under compliance review'**
+  String get payment_details_compliance_title;
+
+  /// No description provided for @payment_details_compliance_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Your transaction is under a routine compliance review by our payment partner. Your funds are safe and we\'ll notify you as soon as the review clears.\n\nThere\'s nothing you need to do. The compliance team will reach out directly if any information is needed from you.\n\nIf the transaction is still pending two days from now, please contact us at support@bringin.xyz.'**
+  String get payment_details_compliance_description;
+
+  /// No description provided for @payment_details_action_retry_transaction.
+  ///
+  /// In en, this message translates to:
+  /// **'Retry Transaction'**
+  String get payment_details_action_retry_transaction;
+
+  /// No description provided for @payment_details_toast_resumed.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction resumed successfully'**
+  String get payment_details_toast_resumed;
+
+  /// No description provided for @payment_details_error_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Something went wrong!'**
+  String get payment_details_error_generic;
+
+  /// No description provided for @payment_details_error_open_link.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to open link.'**
+  String get payment_details_error_open_link;
+
   /// No description provided for @payment_details_copied.
   ///
   /// In en, this message translates to:
@@ -3532,6 +3658,12 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Delete'**
   String get action_delete;
+
+  /// No description provided for @action_confirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm'**
+  String get action_confirm;
 
   /// No description provided for @connect_copied_lightning_address.
   ///
@@ -4192,6 +4324,210 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Verify sell connection'**
   String get connect_verify_sell_title;
+
+  /// No description provided for @connect_detail_fallback_name_buy.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy Connection'**
+  String get connect_detail_fallback_name_buy;
+
+  /// No description provided for @connect_detail_fallback_name_sell.
+  ///
+  /// In en, this message translates to:
+  /// **'Sell Connection'**
+  String get connect_detail_fallback_name_sell;
+
+  /// No description provided for @connect_detail_type_buy.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy connection'**
+  String get connect_detail_type_buy;
+
+  /// No description provided for @connect_detail_type_sell.
+  ///
+  /// In en, this message translates to:
+  /// **'Sell connection'**
+  String get connect_detail_type_sell;
+
+  /// No description provided for @connect_detail_deposit_label_viban.
+  ///
+  /// In en, this message translates to:
+  /// **'Your dedicated vIBAN'**
+  String get connect_detail_deposit_label_viban;
+
+  /// No description provided for @connect_detail_deposit_label_ln.
+  ///
+  /// In en, this message translates to:
+  /// **'Your dedicated Lightning address'**
+  String get connect_detail_deposit_label_ln;
+
+  /// No description provided for @connect_detail_deposit_label_onchain.
+  ///
+  /// In en, this message translates to:
+  /// **'Your dedicated Bitcoin address'**
+  String get connect_detail_deposit_label_onchain;
+
+  /// No description provided for @connect_detail_destination_label_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Destination address'**
+  String get connect_detail_destination_label_address;
+
+  /// No description provided for @connect_detail_banner_reenable_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Review and re-enable connection'**
+  String get connect_detail_banner_reenable_title;
+
+  /// No description provided for @connect_detail_banner_reenable_buy.
+  ///
+  /// In en, this message translates to:
+  /// **'Please review your connection details and continue to re-enable it. As part of the Travel Rule requirement, you\'ll need to declare the nature of your destination address in the next steps. A fresh vIBAN will be issued for this Buy connection. Your linked destination wallet stays the same.'**
+  String get connect_detail_banner_reenable_buy;
+
+  /// No description provided for @connect_detail_banner_reenable_ln_sell.
+  ///
+  /// In en, this message translates to:
+  /// **'Please review your connection details and continue to re-enable it. Your Lightning deposit address and linked bank account both stay the same — re-enabling reactivates the automatic conversion of incoming Lightning to euros.'**
+  String get connect_detail_banner_reenable_ln_sell;
+
+  /// No description provided for @connect_detail_banner_reenable_onchain_sell.
+  ///
+  /// In en, this message translates to:
+  /// **'Please review your connection details and continue to re-enable it. A fresh Bitcoin deposit address will be issued for this Sell connection. Your linked bank account stays the same.'**
+  String get connect_detail_banner_reenable_onchain_sell;
+
+  /// No description provided for @connect_detail_banner_pending_passkey.
+  ///
+  /// In en, this message translates to:
+  /// **'This connection needs to be verified. Tap Activate to approve it with your passkey.'**
+  String get connect_detail_banner_pending_passkey;
+
+  /// No description provided for @connect_detail_banner_pending_totp.
+  ///
+  /// In en, this message translates to:
+  /// **'This connection needs to be verified. Tap Activate to enter the code from your authenticator app.'**
+  String get connect_detail_banner_pending_totp;
+
+  /// No description provided for @connect_detail_banner_pending_sms.
+  ///
+  /// In en, this message translates to:
+  /// **'This connection needs to be verified. Tap Activate to enter the 6-digit code sent to your phone or email.'**
+  String get connect_detail_banner_pending_sms;
+
+  /// No description provided for @connect_detail_action_reenable.
+  ///
+  /// In en, this message translates to:
+  /// **'Re-enable'**
+  String get connect_detail_action_reenable;
+
+  /// No description provided for @connect_detail_action_activate.
+  ///
+  /// In en, this message translates to:
+  /// **'Activate'**
+  String get connect_detail_action_activate;
+
+  /// No description provided for @connect_detail_error_activation_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Activation failed'**
+  String get connect_detail_error_activation_title;
+
+  /// No description provided for @connect_detail_error_reenable_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Re-enable failed'**
+  String get connect_detail_error_reenable_title;
+
+  /// No description provided for @connect_detail_error_delete_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete failed'**
+  String get connect_detail_error_delete_title;
+
+  /// No description provided for @connect_detail_error_missing_destination_address.
+  ///
+  /// In en, this message translates to:
+  /// **'This connection is missing its destination address. Contact support to recover it.'**
+  String get connect_detail_error_missing_destination_address;
+
+  /// No description provided for @connect_detail_error_missing_destination_iban.
+  ///
+  /// In en, this message translates to:
+  /// **'This connection is missing its destination IBAN. Contact support to recover it.'**
+  String get connect_detail_error_missing_destination_iban;
+
+  /// No description provided for @connect_detail_error_beneficiary_not_found.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t find the bank account this connection was linked to. Try creating a new sell connection from the Connect tab.'**
+  String get connect_detail_error_beneficiary_not_found;
+
+  /// No description provided for @connect_detail_error_missing_standing_order.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to delete: missing standing order ID.'**
+  String get connect_detail_error_missing_standing_order;
+
+  /// No description provided for @connect_detail_error_unexpected_response.
+  ///
+  /// In en, this message translates to:
+  /// **'Unexpected response from server.'**
+  String get connect_detail_error_unexpected_response;
+
+  /// No description provided for @connect_detail_toast_deleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Connection deleted'**
+  String get connect_detail_toast_deleted;
+
+  /// No description provided for @connect_detail_sca_delete_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify to delete this connection'**
+  String get connect_detail_sca_delete_title;
+
+  /// No description provided for @connect_detail_sca_delete_subtitle_passkey.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify it\'s you with your face or fingerprint.'**
+  String get connect_detail_sca_delete_subtitle_passkey;
+
+  /// No description provided for @connect_detail_sca_delete_action.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete connection'**
+  String get connect_detail_sca_delete_action;
+
+  /// No description provided for @connect_detail_error_load_transactions.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to load transactions.'**
+  String get connect_detail_error_load_transactions;
+
+  /// No description provided for @connect_detail_action_load_more.
+  ///
+  /// In en, this message translates to:
+  /// **'Load more'**
+  String get connect_detail_action_load_more;
+
+  /// No description provided for @connect_detail_delete_dialog_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete connection?'**
+  String get connect_detail_delete_dialog_title;
+
+  /// No description provided for @connect_detail_delete_dialog_message.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete this Connection for your Wallet? You can add them again later.'**
+  String get connect_detail_delete_dialog_message;
+
+  /// No description provided for @connect_detail_delete_dialog_confirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm delete'**
+  String get connect_detail_delete_dialog_confirm;
 }
 
 class _BringinTranslationsDelegate

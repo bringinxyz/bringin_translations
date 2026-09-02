@@ -584,6 +584,12 @@ class BringinTranslationsEn extends BringinTranslations {
   String get tx_subtype_swap => 'Swap';
 
   @override
+  String get tx_label_bringin_inc => 'Bringin INC';
+
+  @override
+  String get tx_label_bringin => 'Bringin';
+
+  @override
   String get field_label_email => 'Email';
 
   @override
@@ -1671,6 +1677,69 @@ class BringinTranslationsEn extends BringinTranslations {
   String get payment_details_action_view_explorer => 'View on explorer';
 
   @override
+  String get payment_details_label_order_id => 'Order ID';
+
+  @override
+  String get payment_details_label_transaction_type => 'Transaction type';
+
+  @override
+  String get payment_details_label_amount_btc => 'Amount in Bitcoin';
+
+  @override
+  String get payment_details_label_amount_eur => 'Amount in Euro';
+
+  @override
+  String get payment_details_label_deposit_transaction => 'Deposit transaction';
+
+  @override
+  String get payment_details_label_deposit_iban => 'Deposit IBAN';
+
+  @override
+  String get payment_details_label_deposit_name => 'Deposit name';
+
+  @override
+  String get payment_details_label_destination_iban => 'Destination IBAN';
+
+  @override
+  String get payment_details_label_blockchain_hash => 'Blockchain hash';
+
+  @override
+  String get payment_details_label_rate => 'Rate';
+
+  @override
+  String get payment_details_label_fees => 'Fees';
+
+  @override
+  String payment_details_fee_line_exchange(String amount) {
+    return 'Exchange: $amount';
+  }
+
+  @override
+  String payment_details_fee_line_withdrawal(String amount) {
+    return 'Withdrawal: $amount';
+  }
+
+  @override
+  String get payment_details_compliance_title => 'Under compliance review';
+
+  @override
+  String get payment_details_compliance_description =>
+      'Your transaction is under a routine compliance review by our payment partner. Your funds are safe and we\'ll notify you as soon as the review clears.\n\nThere\'s nothing you need to do. The compliance team will reach out directly if any information is needed from you.\n\nIf the transaction is still pending two days from now, please contact us at support@bringin.xyz.';
+
+  @override
+  String get payment_details_action_retry_transaction => 'Retry Transaction';
+
+  @override
+  String get payment_details_toast_resumed =>
+      'Transaction resumed successfully';
+
+  @override
+  String get payment_details_error_generic => 'Something went wrong!';
+
+  @override
+  String get payment_details_error_open_link => 'Failed to open link.';
+
+  @override
   String get payment_details_copied => 'Copied to clipboard';
 
   @override
@@ -2007,6 +2076,9 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get action_delete => 'Delete';
+
+  @override
+  String get action_confirm => 'Confirm';
 
   @override
   String get connect_copied_lightning_address =>
@@ -2387,4 +2459,124 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get connect_verify_sell_title => 'Verify sell connection';
+
+  @override
+  String get connect_detail_fallback_name_buy => 'Buy Connection';
+
+  @override
+  String get connect_detail_fallback_name_sell => 'Sell Connection';
+
+  @override
+  String get connect_detail_type_buy => 'Buy connection';
+
+  @override
+  String get connect_detail_type_sell => 'Sell connection';
+
+  @override
+  String get connect_detail_deposit_label_viban => 'Your dedicated vIBAN';
+
+  @override
+  String get connect_detail_deposit_label_ln =>
+      'Your dedicated Lightning address';
+
+  @override
+  String get connect_detail_deposit_label_onchain =>
+      'Your dedicated Bitcoin address';
+
+  @override
+  String get connect_detail_destination_label_address => 'Destination address';
+
+  @override
+  String get connect_detail_banner_reenable_title =>
+      'Review and re-enable connection';
+
+  @override
+  String get connect_detail_banner_reenable_buy =>
+      'Please review your connection details and continue to re-enable it. As part of the Travel Rule requirement, you\'ll need to declare the nature of your destination address in the next steps. A fresh vIBAN will be issued for this Buy connection. Your linked destination wallet stays the same.';
+
+  @override
+  String get connect_detail_banner_reenable_ln_sell =>
+      'Please review your connection details and continue to re-enable it. Your Lightning deposit address and linked bank account both stay the same — re-enabling reactivates the automatic conversion of incoming Lightning to euros.';
+
+  @override
+  String get connect_detail_banner_reenable_onchain_sell =>
+      'Please review your connection details and continue to re-enable it. A fresh Bitcoin deposit address will be issued for this Sell connection. Your linked bank account stays the same.';
+
+  @override
+  String get connect_detail_banner_pending_passkey =>
+      'This connection needs to be verified. Tap Activate to approve it with your passkey.';
+
+  @override
+  String get connect_detail_banner_pending_totp =>
+      'This connection needs to be verified. Tap Activate to enter the code from your authenticator app.';
+
+  @override
+  String get connect_detail_banner_pending_sms =>
+      'This connection needs to be verified. Tap Activate to enter the 6-digit code sent to your phone or email.';
+
+  @override
+  String get connect_detail_action_reenable => 'Re-enable';
+
+  @override
+  String get connect_detail_action_activate => 'Activate';
+
+  @override
+  String get connect_detail_error_activation_title => 'Activation failed';
+
+  @override
+  String get connect_detail_error_reenable_title => 'Re-enable failed';
+
+  @override
+  String get connect_detail_error_delete_title => 'Delete failed';
+
+  @override
+  String get connect_detail_error_missing_destination_address =>
+      'This connection is missing its destination address. Contact support to recover it.';
+
+  @override
+  String get connect_detail_error_missing_destination_iban =>
+      'This connection is missing its destination IBAN. Contact support to recover it.';
+
+  @override
+  String get connect_detail_error_beneficiary_not_found =>
+      'Couldn\'t find the bank account this connection was linked to. Try creating a new sell connection from the Connect tab.';
+
+  @override
+  String get connect_detail_error_missing_standing_order =>
+      'Unable to delete: missing standing order ID.';
+
+  @override
+  String get connect_detail_error_unexpected_response =>
+      'Unexpected response from server.';
+
+  @override
+  String get connect_detail_toast_deleted => 'Connection deleted';
+
+  @override
+  String get connect_detail_sca_delete_title =>
+      'Verify to delete this connection';
+
+  @override
+  String get connect_detail_sca_delete_subtitle_passkey =>
+      'Verify it\'s you with your face or fingerprint.';
+
+  @override
+  String get connect_detail_sca_delete_action => 'Delete connection';
+
+  @override
+  String get connect_detail_error_load_transactions =>
+      'Failed to load transactions.';
+
+  @override
+  String get connect_detail_action_load_more => 'Load more';
+
+  @override
+  String get connect_detail_delete_dialog_title => 'Delete connection?';
+
+  @override
+  String get connect_detail_delete_dialog_message =>
+      'Delete this Connection for your Wallet? You can add them again later.';
+
+  @override
+  String get connect_detail_delete_dialog_confirm => 'Confirm delete';
 }
