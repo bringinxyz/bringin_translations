@@ -5234,4 +5234,142 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get payment_details_label_category => 'Category';
+
+  @override
+  String get kyc_post_setup_badge => 'Account verified';
+
+  @override
+  String get kyc_post_setup_title => 'Almost there';
+
+  @override
+  String get kyc_post_setup_body =>
+      'As a final step, activate your virtual Euro IBAN in your own name. This allows you to deposit and withdraw euros between your bank account and the Bringin platform via bank transfer.';
+
+  @override
+  String get kyc_post_setup_error => 'Please try again.';
+
+  @override
+  String get kyc_denied_title => 'Verification failed';
+
+  @override
+  String get kyc_denied_heading => 'Verification not approved';
+
+  @override
+  String get kyc_denied_body_prefix =>
+      'Your KYC verification could not be approved. At this time, access to the application is restricted. Contact ';
+
+  @override
+  String get kyc_denied_body_suffix => ' for more information';
+
+  @override
+  String get kyc_denied_reason_label => 'Reason for rejection';
+
+  @override
+  String get kyc_result_title => 'Verification result';
+
+  @override
+  String get kyc_result_heading => 'Document verification failed';
+
+  @override
+  String get kyc_result_reason_label => 'Reason for verification failure';
+
+  @override
+  String get kyc_error_update_details =>
+      'Failed to update your details. Please try again.';
+
+  @override
+  String get kyc_error_wrong_code =>
+      'The code you entered is incorrect. Please try again.';
+
+  @override
+  String get kyc_error_mobile_registered =>
+      'This mobile number is already registered. Please use a different number.';
+
+  @override
+  String get kyc_error_phone_required => 'Please enter your phone number';
+
+  @override
+  String get kyc_error_phone_invalid => 'Invalid phone number';
+
+  @override
+  String get kyc_error_address_min => 'Address must be at least 3 characters';
+
+  @override
+  String get kyc_error_city_min => 'City must be at least 3 characters';
+
+  @override
+  String get kyc_error_postal_invalid => 'Please enter a valid postal code';
+
+  @override
+  String get kyc_error_region_min =>
+      'Region/State must be at least 3 characters';
+
+  @override
+  String get kyc_error_country_required => 'Please select a country';
+
+  @override
+  String get kyc_error_dob_required => 'Please select your date of birth';
+
+  @override
+  String get kyc_error_age_min => 'You must be at least 15 years old';
+
+  @override
+  String get kyc_step_personal_details => 'Add personal details';
+
+  @override
+  String get kyc_flow_title => 'Account verification';
+
+  @override
+  String get kyc_step_1 => 'Step 1';
+
+  @override
+  String get kyc_step_2 => 'Step 2';
+
+  @override
+  String get kyc_step_3 => 'Step 3';
+
+  @override
+  String get kyc_field_phone => 'Phone number';
+
+  @override
+  String get kyc_field_phone_hint => 'Enter phone number';
+
+  @override
+  String get kyc_phone_edit_note =>
+      'Editing your phone will send a new code to the new number.';
+
+  @override
+  String get kyc_step_documents => 'Documents verification';
+
+  @override
+  String get kyc_documents_body =>
+      'You are almost there, next you have to upload the relevant documents for verification.\\nContinue to finish the identification process (usually takes less than 5 minutes) to start using Bringin.';
+
+  @override
+  String get kyc_action_verify_documents => 'Verify documents';
+
+  @override
+  String get kyc_step_verify_phone => 'Verify your phone number';
+
+  @override
+  String get kyc_error_under_review =>
+      'Your verification is currently under review. We\'ll notify you once it\'s complete.';
+
+  @override
+  String get kyc_error_email_required =>
+      'Email is required for KYC verification';
+
+  @override
+  String get kyc_error_phone_required_verification =>
+      'Phone number is required for KYC verification. Please complete mobile verification first.';
+
+  @override
+  String get kyc_error_mobile_not_verified =>
+      'Mobile verification is required before starting KYC. Please verify your mobile number first.';
+
+  @override
+  String get kyc_error_token_refresh => 'Failed to refresh KYC token';
+
+  @override
+  String get kyc_error_failed => 'KYC verification failed. Please try again.';
 }

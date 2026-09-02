@@ -9094,6 +9094,258 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Category'**
   String get payment_details_label_category;
+
+  /// No description provided for @kyc_post_setup_badge.
+  ///
+  /// In en, this message translates to:
+  /// **'Account verified'**
+  String get kyc_post_setup_badge;
+
+  /// No description provided for @kyc_post_setup_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Almost there'**
+  String get kyc_post_setup_title;
+
+  /// No description provided for @kyc_post_setup_body.
+  ///
+  /// In en, this message translates to:
+  /// **'As a final step, activate your virtual Euro IBAN in your own name. This allows you to deposit and withdraw euros between your bank account and the Bringin platform via bank transfer.'**
+  String get kyc_post_setup_body;
+
+  /// No description provided for @kyc_post_setup_error.
+  ///
+  /// In en, this message translates to:
+  /// **'Please try again.'**
+  String get kyc_post_setup_error;
+
+  /// No description provided for @kyc_denied_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification failed'**
+  String get kyc_denied_title;
+
+  /// No description provided for @kyc_denied_heading.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification not approved'**
+  String get kyc_denied_heading;
+
+  /// No description provided for @kyc_denied_body_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'Your KYC verification could not be approved. At this time, access to the application is restricted. Contact '**
+  String get kyc_denied_body_prefix;
+
+  /// No description provided for @kyc_denied_body_suffix.
+  ///
+  /// In en, this message translates to:
+  /// **' for more information'**
+  String get kyc_denied_body_suffix;
+
+  /// No description provided for @kyc_denied_reason_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Reason for rejection'**
+  String get kyc_denied_reason_label;
+
+  /// No description provided for @kyc_result_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification result'**
+  String get kyc_result_title;
+
+  /// No description provided for @kyc_result_heading.
+  ///
+  /// In en, this message translates to:
+  /// **'Document verification failed'**
+  String get kyc_result_heading;
+
+  /// No description provided for @kyc_result_reason_label.
+  ///
+  /// In en, this message translates to:
+  /// **'Reason for verification failure'**
+  String get kyc_result_reason_label;
+
+  /// No description provided for @kyc_error_update_details.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to update your details. Please try again.'**
+  String get kyc_error_update_details;
+
+  /// No description provided for @kyc_error_wrong_code.
+  ///
+  /// In en, this message translates to:
+  /// **'The code you entered is incorrect. Please try again.'**
+  String get kyc_error_wrong_code;
+
+  /// No description provided for @kyc_error_mobile_registered.
+  ///
+  /// In en, this message translates to:
+  /// **'This mobile number is already registered. Please use a different number.'**
+  String get kyc_error_mobile_registered;
+
+  /// No description provided for @kyc_error_phone_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter your phone number'**
+  String get kyc_error_phone_required;
+
+  /// No description provided for @kyc_error_phone_invalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid phone number'**
+  String get kyc_error_phone_invalid;
+
+  /// No description provided for @kyc_error_address_min.
+  ///
+  /// In en, this message translates to:
+  /// **'Address must be at least 3 characters'**
+  String get kyc_error_address_min;
+
+  /// No description provided for @kyc_error_city_min.
+  ///
+  /// In en, this message translates to:
+  /// **'City must be at least 3 characters'**
+  String get kyc_error_city_min;
+
+  /// No description provided for @kyc_error_postal_invalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid postal code'**
+  String get kyc_error_postal_invalid;
+
+  /// No description provided for @kyc_error_region_min.
+  ///
+  /// In en, this message translates to:
+  /// **'Region/State must be at least 3 characters'**
+  String get kyc_error_region_min;
+
+  /// No description provided for @kyc_error_country_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Please select a country'**
+  String get kyc_error_country_required;
+
+  /// No description provided for @kyc_error_dob_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Please select your date of birth'**
+  String get kyc_error_dob_required;
+
+  /// No description provided for @kyc_error_age_min.
+  ///
+  /// In en, this message translates to:
+  /// **'You must be at least 15 years old'**
+  String get kyc_error_age_min;
+
+  /// No description provided for @kyc_step_personal_details.
+  ///
+  /// In en, this message translates to:
+  /// **'Add personal details'**
+  String get kyc_step_personal_details;
+
+  /// No description provided for @kyc_flow_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Account verification'**
+  String get kyc_flow_title;
+
+  /// No description provided for @kyc_step_1.
+  ///
+  /// In en, this message translates to:
+  /// **'Step 1'**
+  String get kyc_step_1;
+
+  /// No description provided for @kyc_step_2.
+  ///
+  /// In en, this message translates to:
+  /// **'Step 2'**
+  String get kyc_step_2;
+
+  /// No description provided for @kyc_step_3.
+  ///
+  /// In en, this message translates to:
+  /// **'Step 3'**
+  String get kyc_step_3;
+
+  /// No description provided for @kyc_field_phone.
+  ///
+  /// In en, this message translates to:
+  /// **'Phone number'**
+  String get kyc_field_phone;
+
+  /// No description provided for @kyc_field_phone_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter phone number'**
+  String get kyc_field_phone_hint;
+
+  /// No description provided for @kyc_phone_edit_note.
+  ///
+  /// In en, this message translates to:
+  /// **'Editing your phone will send a new code to the new number.'**
+  String get kyc_phone_edit_note;
+
+  /// No description provided for @kyc_step_documents.
+  ///
+  /// In en, this message translates to:
+  /// **'Documents verification'**
+  String get kyc_step_documents;
+
+  /// No description provided for @kyc_documents_body.
+  ///
+  /// In en, this message translates to:
+  /// **'You are almost there, next you have to upload the relevant documents for verification.\\nContinue to finish the identification process (usually takes less than 5 minutes) to start using Bringin.'**
+  String get kyc_documents_body;
+
+  /// No description provided for @kyc_action_verify_documents.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify documents'**
+  String get kyc_action_verify_documents;
+
+  /// No description provided for @kyc_step_verify_phone.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify your phone number'**
+  String get kyc_step_verify_phone;
+
+  /// No description provided for @kyc_error_under_review.
+  ///
+  /// In en, this message translates to:
+  /// **'Your verification is currently under review. We\'ll notify you once it\'s complete.'**
+  String get kyc_error_under_review;
+
+  /// No description provided for @kyc_error_email_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Email is required for KYC verification'**
+  String get kyc_error_email_required;
+
+  /// No description provided for @kyc_error_phone_required_verification.
+  ///
+  /// In en, this message translates to:
+  /// **'Phone number is required for KYC verification. Please complete mobile verification first.'**
+  String get kyc_error_phone_required_verification;
+
+  /// No description provided for @kyc_error_mobile_not_verified.
+  ///
+  /// In en, this message translates to:
+  /// **'Mobile verification is required before starting KYC. Please verify your mobile number first.'**
+  String get kyc_error_mobile_not_verified;
+
+  /// No description provided for @kyc_error_token_refresh.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to refresh KYC token'**
+  String get kyc_error_token_refresh;
+
+  /// No description provided for @kyc_error_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'KYC verification failed. Please try again.'**
+  String get kyc_error_failed;
 }
 
 class _BringinTranslationsDelegate
