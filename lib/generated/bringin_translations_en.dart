@@ -5041,4 +5041,128 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get buy_action_resave_retry => 'Re-save and retry';
+
+  @override
+  String get cash_add_option_bitcoin => 'Fund with Bitcoin';
+
+  @override
+  String get cash_add_option_bitcoin_hint => 'Onchain or Lightning';
+
+  @override
+  String get cash_add_option_bank => 'Fund from your bank';
+
+  @override
+  String get cash_add_option_bank_hint => 'Via SEPA';
+
+  @override
+  String get cash_setup_title => 'Account is being set up';
+
+  @override
+  String get cash_setup_body =>
+      'We\'re finishing setup behind the scenes. This usually takes just a few seconds — please try again in a moment.';
+
+  @override
+  String get cash_action_pending_title => 'Action pending';
+
+  @override
+  String get cash_action_pending_body =>
+      'Complete verification to access your euro account and full Bringin features.';
+
+  @override
+  String get cash_action_failed_body =>
+      'Your document verification failed. Please try again to access your euro account and full Bringin features.';
+
+  @override
+  String get cash_verification_progress_title => 'Verification in progress';
+
+  @override
+  String get cash_verification_progress_body =>
+      'Your documents are being reviewed. We\'ll notify you once verification is complete.';
+
+  @override
+  String get cash_account_restricted_title => 'Account restricted';
+
+  @override
+  String get cash_account_restricted_body =>
+      'Your account access has been restricted.';
+
+  @override
+  String get cash_suffix_activate_wallet =>
+      'Or activate your Bitcoin wallet to get started with Bitcoin.';
+
+  @override
+  String get cash_suffix_meantime_wallet =>
+      'In the meantime, you can activate your Bitcoin wallet to get started.';
+
+  @override
+  String get cash_suffix_still_activate_wallet =>
+      'You can still activate your Bitcoin wallet to get started with Bitcoin.';
+
+  @override
+  String get cash_action_activate_wallet => 'Activate your Bitcoin wallet';
+
+  @override
+  String get cash_action_complete_verification => 'Complete verification';
+
+  @override
+  String get cash_tour_balance_body =>
+      'All your Bitcoin and Euro balances in one place. Tap the eye to hide.';
+
+  @override
+  String get cash_section_wallet_account => 'Wallet & account';
+
+  @override
+  String get cash_action_redo_verification => 'Redo verification';
+
+  @override
+  String get cash_status_verification_denied => 'Verification denied';
+
+  @override
+  String get cash_backup_needed_title => 'You need to backup';
+
+  @override
+  String get cash_kyc_test_account =>
+      'This is your test account. To start using Bringin, complete your document verification.';
+
+  @override
+  String get cash_kyc_action_complete => 'Complete document verification';
+
+  @override
+  String get cash_kyc_in_progress =>
+      'Document verification is in progress. You will receive a notification once it is complete. Thank you.';
+
+  @override
+  String get cash_kyc_failed =>
+      'Your document verification didn’t go through. Don’t worry, you can redo the verification now.';
+
+  @override
+  String get cash_kyc_restricted =>
+      'Your KYC verification could not be approved. At this time, access to the application is restricted.';
+
+  @override
+  String get cash_action_know_more => 'Know more';
+
+  @override
+  String get cash_transactions_empty_title => 'No transactions yet!';
+
+  @override
+  String get cash_transactions_empty_body =>
+      'All your transactions will show up here.';
+
+  @override
+  String get cash_kyc_complete_title => 'Complete your verification';
+
+  @override
+  String get cash_connect_title => 'Bringin Connect';
+
+  @override
+  String get cash_connect_buy_body =>
+      'Link any of your Bitcoin wallet to get a dedicated vIBAN. Send euros from any bank—funds arrive instantly as BTC in your wallet.';
+
+  @override
+  String get cash_connect_sell_body =>
+      'Link any of your bank account to get a dedicated Bitcoin address. Send BTC from any wallet—funds arrive instantly as euros in your account.';
+
+  @override
+  String get cash_connect_kyc_prompt => 'Please complete your KYC';
 }

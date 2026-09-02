@@ -8740,6 +8740,222 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Re-save and retry'**
   String get buy_action_resave_retry;
+
+  /// No description provided for @cash_add_option_bitcoin.
+  ///
+  /// In en, this message translates to:
+  /// **'Fund with Bitcoin'**
+  String get cash_add_option_bitcoin;
+
+  /// No description provided for @cash_add_option_bitcoin_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Onchain or Lightning'**
+  String get cash_add_option_bitcoin_hint;
+
+  /// No description provided for @cash_add_option_bank.
+  ///
+  /// In en, this message translates to:
+  /// **'Fund from your bank'**
+  String get cash_add_option_bank;
+
+  /// No description provided for @cash_add_option_bank_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Via SEPA'**
+  String get cash_add_option_bank_hint;
+
+  /// No description provided for @cash_setup_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Account is being set up'**
+  String get cash_setup_title;
+
+  /// No description provided for @cash_setup_body.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'re finishing setup behind the scenes. This usually takes just a few seconds — please try again in a moment.'**
+  String get cash_setup_body;
+
+  /// No description provided for @cash_action_pending_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Action pending'**
+  String get cash_action_pending_title;
+
+  /// No description provided for @cash_action_pending_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete verification to access your euro account and full Bringin features.'**
+  String get cash_action_pending_body;
+
+  /// No description provided for @cash_action_failed_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Your document verification failed. Please try again to access your euro account and full Bringin features.'**
+  String get cash_action_failed_body;
+
+  /// No description provided for @cash_verification_progress_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification in progress'**
+  String get cash_verification_progress_title;
+
+  /// No description provided for @cash_verification_progress_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Your documents are being reviewed. We\'ll notify you once verification is complete.'**
+  String get cash_verification_progress_body;
+
+  /// No description provided for @cash_account_restricted_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Account restricted'**
+  String get cash_account_restricted_title;
+
+  /// No description provided for @cash_account_restricted_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Your account access has been restricted.'**
+  String get cash_account_restricted_body;
+
+  /// No description provided for @cash_suffix_activate_wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Or activate your Bitcoin wallet to get started with Bitcoin.'**
+  String get cash_suffix_activate_wallet;
+
+  /// No description provided for @cash_suffix_meantime_wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'In the meantime, you can activate your Bitcoin wallet to get started.'**
+  String get cash_suffix_meantime_wallet;
+
+  /// No description provided for @cash_suffix_still_activate_wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'You can still activate your Bitcoin wallet to get started with Bitcoin.'**
+  String get cash_suffix_still_activate_wallet;
+
+  /// No description provided for @cash_action_activate_wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Activate your Bitcoin wallet'**
+  String get cash_action_activate_wallet;
+
+  /// No description provided for @cash_action_complete_verification.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete verification'**
+  String get cash_action_complete_verification;
+
+  /// No description provided for @cash_tour_balance_body.
+  ///
+  /// In en, this message translates to:
+  /// **'All your Bitcoin and Euro balances in one place. Tap the eye to hide.'**
+  String get cash_tour_balance_body;
+
+  /// No description provided for @cash_section_wallet_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet & account'**
+  String get cash_section_wallet_account;
+
+  /// No description provided for @cash_action_redo_verification.
+  ///
+  /// In en, this message translates to:
+  /// **'Redo verification'**
+  String get cash_action_redo_verification;
+
+  /// No description provided for @cash_status_verification_denied.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification denied'**
+  String get cash_status_verification_denied;
+
+  /// No description provided for @cash_backup_needed_title.
+  ///
+  /// In en, this message translates to:
+  /// **'You need to backup'**
+  String get cash_backup_needed_title;
+
+  /// No description provided for @cash_kyc_test_account.
+  ///
+  /// In en, this message translates to:
+  /// **'This is your test account. To start using Bringin, complete your document verification.'**
+  String get cash_kyc_test_account;
+
+  /// No description provided for @cash_kyc_action_complete.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete document verification'**
+  String get cash_kyc_action_complete;
+
+  /// No description provided for @cash_kyc_in_progress.
+  ///
+  /// In en, this message translates to:
+  /// **'Document verification is in progress. You will receive a notification once it is complete. Thank you.'**
+  String get cash_kyc_in_progress;
+
+  /// No description provided for @cash_kyc_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Your document verification didn’t go through. Don’t worry, you can redo the verification now.'**
+  String get cash_kyc_failed;
+
+  /// No description provided for @cash_kyc_restricted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your KYC verification could not be approved. At this time, access to the application is restricted.'**
+  String get cash_kyc_restricted;
+
+  /// No description provided for @cash_action_know_more.
+  ///
+  /// In en, this message translates to:
+  /// **'Know more'**
+  String get cash_action_know_more;
+
+  /// No description provided for @cash_transactions_empty_title.
+  ///
+  /// In en, this message translates to:
+  /// **'No transactions yet!'**
+  String get cash_transactions_empty_title;
+
+  /// No description provided for @cash_transactions_empty_body.
+  ///
+  /// In en, this message translates to:
+  /// **'All your transactions will show up here.'**
+  String get cash_transactions_empty_body;
+
+  /// No description provided for @cash_kyc_complete_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete your verification'**
+  String get cash_kyc_complete_title;
+
+  /// No description provided for @cash_connect_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin Connect'**
+  String get cash_connect_title;
+
+  /// No description provided for @cash_connect_buy_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Link any of your Bitcoin wallet to get a dedicated vIBAN. Send euros from any bank—funds arrive instantly as BTC in your wallet.'**
+  String get cash_connect_buy_body;
+
+  /// No description provided for @cash_connect_sell_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Link any of your bank account to get a dedicated Bitcoin address. Send BTC from any wallet—funds arrive instantly as euros in your account.'**
+  String get cash_connect_sell_body;
+
+  /// No description provided for @cash_connect_kyc_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Please complete your KYC'**
+  String get cash_connect_kyc_prompt;
 }
 
 class _BringinTranslationsDelegate
