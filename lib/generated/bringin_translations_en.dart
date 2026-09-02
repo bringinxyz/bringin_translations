@@ -3519,4 +3519,226 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get card_send_action_resave => 'Re-save';
+
+  @override
+  String get card_add_sheet_prompt => 'How to fund?';
+
+  @override
+  String get card_add_option_bitcoin => 'Fund with Bitcoin wallet';
+
+  @override
+  String get card_add_option_euro => 'Fund with Euro account';
+
+  @override
+  String get card_add_option_external => 'Fund with external wallets';
+
+  @override
+  String get card_add_subtitle_bitcoin => 'Bitcoin wallet to Card balance';
+
+  @override
+  String get card_add_subtitle_euro => 'Euro account to Card balance';
+
+  @override
+  String get card_add_subtitle_external => 'External wallet to Card balance';
+
+  @override
+  String get card_add_use_full_btc_balance =>
+      'Use the full Bitcoin wallet balance';
+
+  @override
+  String get card_add_use_full_eur_balance =>
+      'Use the full Euro account balance';
+
+  @override
+  String get card_add_field_amount => 'Add to Card balance';
+
+  @override
+  String get card_add_field_send_from_euro => 'Send from Euro account';
+
+  @override
+  String get card_add_field_btc_receives => 'Card balance gets';
+
+  @override
+  String get card_add_action_swipe => 'Swipe to add';
+
+  @override
+  String get card_add_error_address_unavailable =>
+      'Card balance address is not available. Please try again.';
+
+  @override
+  String get card_add_sca_title_topup => 'Verify Card balance topup';
+
+  @override
+  String card_add_deposit_status(String status) {
+    return 'Deposit $status';
+  }
+
+  @override
+  String get card_add_tab_onchain => 'Onchain';
+
+  @override
+  String get card_add_onchain_heading => 'Use an external wallet';
+
+  @override
+  String get card_add_onchain_description =>
+      'Scan QR to add money. A flat fee of 50 sats applicable.';
+
+  @override
+  String get card_add_onchain_notice =>
+      'You\'ll be required to declare the source of funds once the deposit is received. Deposits above €1,000 are not permitted from wallets owned by another individual or company.';
+
+  @override
+  String get card_add_ln_heading => 'Use a Lightning wallet';
+
+  @override
+  String get card_add_ln_description =>
+      'Scan QR or copy the address to receive money instantly.';
+
+  @override
+  String card_add_ln_notice(String cap) {
+    return 'You\'ll be required to declare the source of funds once the deposit is received. Lightning deposits are capped at €$cap per transaction under EU Travel Rule.';
+  }
+
+  @override
+  String get card_add_label_ln_address => 'Lightning address';
+
+  @override
+  String send_amount_error_minimum_eur(String min) {
+    return 'Minimum is €$min';
+  }
+
+  @override
+  String get card_create_error_name_empty => 'Name on card can\'t be empty.';
+
+  @override
+  String get card_create_error_name_too_short =>
+      'Name must be at least 4 characters.';
+
+  @override
+  String get card_create_error_name_too_long =>
+      'Name must be 40 characters or less.';
+
+  @override
+  String get card_create_error_name_charset =>
+      'Name can only contain Latin letters (A-Z, a-z).';
+
+  @override
+  String get card_create_error_address_empty => 'Address can\'t be empty.';
+
+  @override
+  String get card_create_error_city_empty => 'City can\'t be empty.';
+
+  @override
+  String get card_create_error_postal_empty => 'Postal code can\'t be empty.';
+
+  @override
+  String get card_create_toast_ordered_pending_relink =>
+      'Card ordered. Switching to your Card balance is pending — try again from card details if it doesn\'t update shortly.';
+
+  @override
+  String get card_create_toast_created_pending_relink =>
+      'Card created. Switching to your Card balance is pending — try again from card details if it doesn\'t update shortly.';
+
+  @override
+  String get card_create_toast_physical_success =>
+      'Physical card ordered successfully!';
+
+  @override
+  String get card_create_error_invalid_3ds =>
+      'We couldn\'t create the card. Please check that your 3DS password only contains allowed characters and try again.';
+
+  @override
+  String get card_create_physical_title => 'Create a physical card';
+
+  @override
+  String card_create_limit_message(int max, String destination) {
+    return 'You already have $max cards linked to your $destination. Close one to create a new card.';
+  }
+
+  @override
+  String card_create_fee_notice(String fee) {
+    return 'Your linked account pays €$fee as a card creation fee once the card is created.';
+  }
+
+  @override
+  String get card_create_fee_loading => 'Loading card creation fee...';
+
+  @override
+  String get card_create_field_name_hint => 'Add a name';
+
+  @override
+  String get card_create_field_3ds_label => 'New 3DS password';
+
+  @override
+  String get card_create_delivery_title => 'Card delivery';
+
+  @override
+  String get card_create_field_address1 => 'Address (line 1)';
+
+  @override
+  String get card_create_field_address1_hint => 'Add your address';
+
+  @override
+  String get card_create_field_address2 => 'Address (line 2)';
+
+  @override
+  String get card_create_field_address2_hint => 'Use if your address is longer';
+
+  @override
+  String get card_create_field_city => 'City';
+
+  @override
+  String get card_create_field_city_hint => 'Your city';
+
+  @override
+  String get card_create_field_postal => 'Postal code';
+
+  @override
+  String get card_create_field_postal_hint => 'Add code';
+
+  @override
+  String get card_create_field_region => 'Region/State';
+
+  @override
+  String get card_create_field_country => 'Country';
+
+  @override
+  String get card_create_delivery_tracked => 'Tracked post';
+
+  @override
+  String card_create_delivery_tracked_detail(String price) {
+    return 'Arrives within 10 days | €$price';
+  }
+
+  @override
+  String get card_create_delivery_express => 'Express delivery';
+
+  @override
+  String card_create_delivery_express_detail(String price) {
+    return 'Arrives within 3 days | €$price';
+  }
+
+  @override
+  String get card_create_delivery_express_prefix => 'Arrives within 3 days | ';
+
+  @override
+  String get card_create_delivery_free => 'Free';
+
+  @override
+  String get card_password_rule_length => '8 to 36 characters';
+
+  @override
+  String get card_password_rule_capital => 'A capital letter';
+
+  @override
+  String get card_password_rule_digit => 'A digit';
+
+  @override
+  String get card_password_rule_lowercase => 'A lowercase letter';
+
+  @override
+  String get card_password_rule_special => 'A special character';
+
+  @override
+  String get card_password_rule_allowed => 'Only allowed characters';
 }

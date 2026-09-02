@@ -1643,5 +1643,130 @@
   "card_send_error_resave": "Could not re-save the wallet. Try again.",
   "card_send_resave_title": "Re-save this wallet",
   "card_send_resave_message": "This Lightning address was saved before EU Travel Rule. Re-save it to enable payments.",
-  "card_send_action_resave": "Re-save"
+  "card_send_action_resave": "Re-save",
+  "card_add_sheet_prompt": "How to fund?",
+  "card_add_option_bitcoin": "Fund with Bitcoin wallet",
+  "card_add_option_euro": "Fund with Euro account",
+  "card_add_option_external": "Fund with external wallets",
+  "card_add_subtitle_bitcoin": "Bitcoin wallet to Card balance",
+  "card_add_subtitle_euro": "Euro account to Card balance",
+  "card_add_subtitle_external": "External wallet to Card balance",
+  "card_add_use_full_btc_balance": "Use the full Bitcoin wallet balance",
+  "card_add_use_full_eur_balance": "Use the full Euro account balance",
+  "card_add_field_amount": "Add to Card balance",
+  "card_add_field_send_from_euro": "Send from Euro account",
+  "card_add_field_btc_receives": "Card balance gets",
+  "card_add_action_swipe": "Swipe to add",
+  "card_add_error_address_unavailable": "Card balance address is not available. Please try again.",
+  "card_add_sca_title_topup": "Verify Card balance topup",
+  "card_add_deposit_status": "Deposit {status}",
+  "@card_add_deposit_status": {
+    "placeholders": {
+      "status": {
+        "type": "String",
+        "example": "completed"
+      }
+    }
+  },
+  "card_add_tab_onchain": "Onchain",
+  "card_add_onchain_heading": "Use an external wallet",
+  "card_add_onchain_description": "Scan QR to add money. A flat fee of 50 sats applicable.",
+  "card_add_onchain_notice": "You'll be required to declare the source of funds once the deposit is received. Deposits above €1,000 are not permitted from wallets owned by another individual or company.",
+  "card_add_ln_heading": "Use a Lightning wallet",
+  "card_add_ln_description": "Scan QR or copy the address to receive money instantly.",
+  "card_add_ln_notice": "You'll be required to declare the source of funds once the deposit is received. Lightning deposits are capped at €{cap} per transaction under EU Travel Rule.",
+  "@card_add_ln_notice": {
+    "placeholders": {
+      "cap": {
+        "type": "String",
+        "example": "1000"
+      }
+    }
+  },
+  "card_add_label_ln_address": "Lightning address",
+  "send_amount_error_minimum_eur": "Minimum is €{min}",
+  "@send_amount_error_minimum_eur": {
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "10,00"
+      }
+    }
+  },
+  "card_create_error_name_empty": "Name on card can't be empty.",
+  "card_create_error_name_too_short": "Name must be at least 4 characters.",
+  "card_create_error_name_too_long": "Name must be 40 characters or less.",
+  "card_create_error_name_charset": "Name can only contain Latin letters (A-Z, a-z).",
+  "card_create_error_address_empty": "Address can't be empty.",
+  "card_create_error_city_empty": "City can't be empty.",
+  "card_create_error_postal_empty": "Postal code can't be empty.",
+  "card_create_toast_ordered_pending_relink": "Card ordered. Switching to your Card balance is pending — try again from card details if it doesn't update shortly.",
+  "card_create_toast_created_pending_relink": "Card created. Switching to your Card balance is pending — try again from card details if it doesn't update shortly.",
+  "card_create_toast_physical_success": "Physical card ordered successfully!",
+  "card_create_error_invalid_3ds": "We couldn't create the card. Please check that your 3DS password only contains allowed characters and try again.",
+  "card_create_physical_title": "Create a physical card",
+  "card_create_limit_message": "You already have {max} cards linked to your {destination}. Close one to create a new card.",
+  "@card_create_limit_message": {
+    "placeholders": {
+      "max": {
+        "type": "int",
+        "example": "3"
+      },
+      "destination": {
+        "type": "String",
+        "example": "Euro account"
+      }
+    }
+  },
+  "card_create_fee_notice": "Your linked account pays €{fee} as a card creation fee once the card is created.",
+  "@card_create_fee_notice": {
+    "placeholders": {
+      "fee": {
+        "type": "String",
+        "example": "9,99"
+      }
+    }
+  },
+  "card_create_fee_loading": "Loading card creation fee...",
+  "card_create_field_name_hint": "Add a name",
+  "card_create_field_3ds_label": "New 3DS password",
+  "card_create_delivery_title": "Card delivery",
+  "card_create_field_address1": "Address (line 1)",
+  "card_create_field_address1_hint": "Add your address",
+  "card_create_field_address2": "Address (line 2)",
+  "card_create_field_address2_hint": "Use if your address is longer",
+  "card_create_field_city": "City",
+  "card_create_field_city_hint": "Your city",
+  "card_create_field_postal": "Postal code",
+  "card_create_field_postal_hint": "Add code",
+  "card_create_field_region": "Region/State",
+  "card_create_field_country": "Country",
+  "card_create_delivery_tracked": "Tracked post",
+  "card_create_delivery_tracked_detail": "Arrives within 10 days | €{price}",
+  "@card_create_delivery_tracked_detail": {
+    "placeholders": {
+      "price": {
+        "type": "String",
+        "example": "4,99"
+      }
+    }
+  },
+  "card_create_delivery_express": "Express delivery",
+  "card_create_delivery_express_detail": "Arrives within 3 days | €{price}",
+  "@card_create_delivery_express_detail": {
+    "placeholders": {
+      "price": {
+        "type": "String",
+        "example": "9,99"
+      }
+    }
+  },
+  "card_create_delivery_express_prefix": "Arrives within 3 days | ",
+  "card_create_delivery_free": "Free",
+  "card_password_rule_length": "8 to 36 characters",
+  "card_password_rule_capital": "A capital letter",
+  "card_password_rule_digit": "A digit",
+  "card_password_rule_lowercase": "A lowercase letter",
+  "card_password_rule_special": "A special character",
+  "card_password_rule_allowed": "Only allowed characters"
 }

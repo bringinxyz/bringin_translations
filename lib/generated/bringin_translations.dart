@@ -6088,6 +6088,396 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Re-save'**
   String get card_send_action_resave;
+
+  /// No description provided for @card_add_sheet_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'How to fund?'**
+  String get card_add_sheet_prompt;
+
+  /// No description provided for @card_add_option_bitcoin.
+  ///
+  /// In en, this message translates to:
+  /// **'Fund with Bitcoin wallet'**
+  String get card_add_option_bitcoin;
+
+  /// No description provided for @card_add_option_euro.
+  ///
+  /// In en, this message translates to:
+  /// **'Fund with Euro account'**
+  String get card_add_option_euro;
+
+  /// No description provided for @card_add_option_external.
+  ///
+  /// In en, this message translates to:
+  /// **'Fund with external wallets'**
+  String get card_add_option_external;
+
+  /// No description provided for @card_add_subtitle_bitcoin.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin wallet to Card balance'**
+  String get card_add_subtitle_bitcoin;
+
+  /// No description provided for @card_add_subtitle_euro.
+  ///
+  /// In en, this message translates to:
+  /// **'Euro account to Card balance'**
+  String get card_add_subtitle_euro;
+
+  /// No description provided for @card_add_subtitle_external.
+  ///
+  /// In en, this message translates to:
+  /// **'External wallet to Card balance'**
+  String get card_add_subtitle_external;
+
+  /// No description provided for @card_add_use_full_btc_balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Use the full Bitcoin wallet balance'**
+  String get card_add_use_full_btc_balance;
+
+  /// No description provided for @card_add_use_full_eur_balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Use the full Euro account balance'**
+  String get card_add_use_full_eur_balance;
+
+  /// No description provided for @card_add_field_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Add to Card balance'**
+  String get card_add_field_amount;
+
+  /// No description provided for @card_add_field_send_from_euro.
+  ///
+  /// In en, this message translates to:
+  /// **'Send from Euro account'**
+  String get card_add_field_send_from_euro;
+
+  /// No description provided for @card_add_field_btc_receives.
+  ///
+  /// In en, this message translates to:
+  /// **'Card balance gets'**
+  String get card_add_field_btc_receives;
+
+  /// No description provided for @card_add_action_swipe.
+  ///
+  /// In en, this message translates to:
+  /// **'Swipe to add'**
+  String get card_add_action_swipe;
+
+  /// No description provided for @card_add_error_address_unavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Card balance address is not available. Please try again.'**
+  String get card_add_error_address_unavailable;
+
+  /// No description provided for @card_add_sca_title_topup.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify Card balance topup'**
+  String get card_add_sca_title_topup;
+
+  /// No description provided for @card_add_deposit_status.
+  ///
+  /// In en, this message translates to:
+  /// **'Deposit {status}'**
+  String card_add_deposit_status(String status);
+
+  /// No description provided for @card_add_tab_onchain.
+  ///
+  /// In en, this message translates to:
+  /// **'Onchain'**
+  String get card_add_tab_onchain;
+
+  /// No description provided for @card_add_onchain_heading.
+  ///
+  /// In en, this message translates to:
+  /// **'Use an external wallet'**
+  String get card_add_onchain_heading;
+
+  /// No description provided for @card_add_onchain_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan QR to add money. A flat fee of 50 sats applicable.'**
+  String get card_add_onchain_description;
+
+  /// No description provided for @card_add_onchain_notice.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ll be required to declare the source of funds once the deposit is received. Deposits above €1,000 are not permitted from wallets owned by another individual or company.'**
+  String get card_add_onchain_notice;
+
+  /// No description provided for @card_add_ln_heading.
+  ///
+  /// In en, this message translates to:
+  /// **'Use a Lightning wallet'**
+  String get card_add_ln_heading;
+
+  /// No description provided for @card_add_ln_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan QR or copy the address to receive money instantly.'**
+  String get card_add_ln_description;
+
+  /// No description provided for @card_add_ln_notice.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ll be required to declare the source of funds once the deposit is received. Lightning deposits are capped at €{cap} per transaction under EU Travel Rule.'**
+  String card_add_ln_notice(String cap);
+
+  /// No description provided for @card_add_label_ln_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning address'**
+  String get card_add_label_ln_address;
+
+  /// No description provided for @send_amount_error_minimum_eur.
+  ///
+  /// In en, this message translates to:
+  /// **'Minimum is €{min}'**
+  String send_amount_error_minimum_eur(String min);
+
+  /// No description provided for @card_create_error_name_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Name on card can\'t be empty.'**
+  String get card_create_error_name_empty;
+
+  /// No description provided for @card_create_error_name_too_short.
+  ///
+  /// In en, this message translates to:
+  /// **'Name must be at least 4 characters.'**
+  String get card_create_error_name_too_short;
+
+  /// No description provided for @card_create_error_name_too_long.
+  ///
+  /// In en, this message translates to:
+  /// **'Name must be 40 characters or less.'**
+  String get card_create_error_name_too_long;
+
+  /// No description provided for @card_create_error_name_charset.
+  ///
+  /// In en, this message translates to:
+  /// **'Name can only contain Latin letters (A-Z, a-z).'**
+  String get card_create_error_name_charset;
+
+  /// No description provided for @card_create_error_address_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Address can\'t be empty.'**
+  String get card_create_error_address_empty;
+
+  /// No description provided for @card_create_error_city_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'City can\'t be empty.'**
+  String get card_create_error_city_empty;
+
+  /// No description provided for @card_create_error_postal_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Postal code can\'t be empty.'**
+  String get card_create_error_postal_empty;
+
+  /// No description provided for @card_create_toast_ordered_pending_relink.
+  ///
+  /// In en, this message translates to:
+  /// **'Card ordered. Switching to your Card balance is pending — try again from card details if it doesn\'t update shortly.'**
+  String get card_create_toast_ordered_pending_relink;
+
+  /// No description provided for @card_create_toast_created_pending_relink.
+  ///
+  /// In en, this message translates to:
+  /// **'Card created. Switching to your Card balance is pending — try again from card details if it doesn\'t update shortly.'**
+  String get card_create_toast_created_pending_relink;
+
+  /// No description provided for @card_create_toast_physical_success.
+  ///
+  /// In en, this message translates to:
+  /// **'Physical card ordered successfully!'**
+  String get card_create_toast_physical_success;
+
+  /// No description provided for @card_create_error_invalid_3ds.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t create the card. Please check that your 3DS password only contains allowed characters and try again.'**
+  String get card_create_error_invalid_3ds;
+
+  /// No description provided for @card_create_physical_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Create a physical card'**
+  String get card_create_physical_title;
+
+  /// No description provided for @card_create_limit_message.
+  ///
+  /// In en, this message translates to:
+  /// **'You already have {max} cards linked to your {destination}. Close one to create a new card.'**
+  String card_create_limit_message(int max, String destination);
+
+  /// No description provided for @card_create_fee_notice.
+  ///
+  /// In en, this message translates to:
+  /// **'Your linked account pays €{fee} as a card creation fee once the card is created.'**
+  String card_create_fee_notice(String fee);
+
+  /// No description provided for @card_create_fee_loading.
+  ///
+  /// In en, this message translates to:
+  /// **'Loading card creation fee...'**
+  String get card_create_fee_loading;
+
+  /// No description provided for @card_create_field_name_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a name'**
+  String get card_create_field_name_hint;
+
+  /// No description provided for @card_create_field_3ds_label.
+  ///
+  /// In en, this message translates to:
+  /// **'New 3DS password'**
+  String get card_create_field_3ds_label;
+
+  /// No description provided for @card_create_delivery_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Card delivery'**
+  String get card_create_delivery_title;
+
+  /// No description provided for @card_create_field_address1.
+  ///
+  /// In en, this message translates to:
+  /// **'Address (line 1)'**
+  String get card_create_field_address1;
+
+  /// No description provided for @card_create_field_address1_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Add your address'**
+  String get card_create_field_address1_hint;
+
+  /// No description provided for @card_create_field_address2.
+  ///
+  /// In en, this message translates to:
+  /// **'Address (line 2)'**
+  String get card_create_field_address2;
+
+  /// No description provided for @card_create_field_address2_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Use if your address is longer'**
+  String get card_create_field_address2_hint;
+
+  /// No description provided for @card_create_field_city.
+  ///
+  /// In en, this message translates to:
+  /// **'City'**
+  String get card_create_field_city;
+
+  /// No description provided for @card_create_field_city_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Your city'**
+  String get card_create_field_city_hint;
+
+  /// No description provided for @card_create_field_postal.
+  ///
+  /// In en, this message translates to:
+  /// **'Postal code'**
+  String get card_create_field_postal;
+
+  /// No description provided for @card_create_field_postal_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Add code'**
+  String get card_create_field_postal_hint;
+
+  /// No description provided for @card_create_field_region.
+  ///
+  /// In en, this message translates to:
+  /// **'Region/State'**
+  String get card_create_field_region;
+
+  /// No description provided for @card_create_field_country.
+  ///
+  /// In en, this message translates to:
+  /// **'Country'**
+  String get card_create_field_country;
+
+  /// No description provided for @card_create_delivery_tracked.
+  ///
+  /// In en, this message translates to:
+  /// **'Tracked post'**
+  String get card_create_delivery_tracked;
+
+  /// No description provided for @card_create_delivery_tracked_detail.
+  ///
+  /// In en, this message translates to:
+  /// **'Arrives within 10 days | €{price}'**
+  String card_create_delivery_tracked_detail(String price);
+
+  /// No description provided for @card_create_delivery_express.
+  ///
+  /// In en, this message translates to:
+  /// **'Express delivery'**
+  String get card_create_delivery_express;
+
+  /// No description provided for @card_create_delivery_express_detail.
+  ///
+  /// In en, this message translates to:
+  /// **'Arrives within 3 days | €{price}'**
+  String card_create_delivery_express_detail(String price);
+
+  /// No description provided for @card_create_delivery_express_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'Arrives within 3 days | '**
+  String get card_create_delivery_express_prefix;
+
+  /// No description provided for @card_create_delivery_free.
+  ///
+  /// In en, this message translates to:
+  /// **'Free'**
+  String get card_create_delivery_free;
+
+  /// No description provided for @card_password_rule_length.
+  ///
+  /// In en, this message translates to:
+  /// **'8 to 36 characters'**
+  String get card_password_rule_length;
+
+  /// No description provided for @card_password_rule_capital.
+  ///
+  /// In en, this message translates to:
+  /// **'A capital letter'**
+  String get card_password_rule_capital;
+
+  /// No description provided for @card_password_rule_digit.
+  ///
+  /// In en, this message translates to:
+  /// **'A digit'**
+  String get card_password_rule_digit;
+
+  /// No description provided for @card_password_rule_lowercase.
+  ///
+  /// In en, this message translates to:
+  /// **'A lowercase letter'**
+  String get card_password_rule_lowercase;
+
+  /// No description provided for @card_password_rule_special.
+  ///
+  /// In en, this message translates to:
+  /// **'A special character'**
+  String get card_password_rule_special;
+
+  /// No description provided for @card_password_rule_allowed.
+  ///
+  /// In en, this message translates to:
+  /// **'Only allowed characters'**
+  String get card_password_rule_allowed;
 }
 
 class _BringinTranslationsDelegate
