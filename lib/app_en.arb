@@ -194,6 +194,8 @@
   "qr_code_dialog_warning_message": "Keep Bringin open until the payment is completed.",
   "qr_action_button_error_code_not_detected": "QR code wasn't detected.",
   "successful_payment_received": "Payment received!",
+  "success_title_payment_received": "Payment received",
+  "success_title_purchase_complete": "Purchase Complete!",
   "successful_payment_sent_title": "Payment was\nsuccessfully sent!",
   "valid_payment_error_exceeds_the_limit": "Payment exceeds the limit {amount}.",
   "@valid_payment_error_exceeds_the_limit": {
@@ -724,6 +726,37 @@
     }
   },
   "send_amount_error_exceeds_balance": "Amount exceeds your balance of {balance} sats",
+  "send_amount_error_rate_unavailable": "Conversion rate unavailable",
+  "send_amount_error_invalid_value": "Enter a valid amount",
+  "send_amount_error_above_zero": "Amount must be greater than zero",
+  "send_amount_error_insufficient_funds": "Insufficient funds",
+  "send_amount_error_minimum_sats": "Minimum is {min} sats",
+  "@send_amount_error_minimum_sats": {
+    "placeholders": {
+      "min": {
+        "type": "int",
+        "example": "1000"
+      }
+    }
+  },
+  "send_amount_error_minimum_btc": "Minimum is {min} BTC",
+  "@send_amount_error_minimum_btc": {
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "0,00001000"
+      }
+    }
+  },
+  "send_amount_error_maximum_sats": "Maximum is {max} sats",
+  "@send_amount_error_maximum_sats": {
+    "placeholders": {
+      "max": {
+        "type": "int",
+        "example": "500000"
+      }
+    }
+  },
   "@send_amount_error_exceeds_balance": {
     "placeholders": {
       "balance": {

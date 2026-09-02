@@ -322,6 +322,12 @@ class BringinTranslationsEn extends BringinTranslations {
   String get successful_payment_received => 'Payment received!';
 
   @override
+  String get success_title_payment_received => 'Payment received';
+
+  @override
+  String get success_title_purchase_complete => 'Purchase Complete!';
+
+  @override
   String get successful_payment_sent_title => 'Payment was\nsuccessfully sent!';
 
   @override
@@ -1538,6 +1544,34 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String send_amount_error_exceeds_balance(String balance) {
     return 'Amount exceeds your balance of $balance sats';
+  }
+
+  @override
+  String get send_amount_error_rate_unavailable =>
+      'Conversion rate unavailable';
+
+  @override
+  String get send_amount_error_invalid_value => 'Enter a valid amount';
+
+  @override
+  String get send_amount_error_above_zero => 'Amount must be greater than zero';
+
+  @override
+  String get send_amount_error_insufficient_funds => 'Insufficient funds';
+
+  @override
+  String send_amount_error_minimum_sats(int min) {
+    return 'Minimum is $min sats';
+  }
+
+  @override
+  String send_amount_error_minimum_btc(String min) {
+    return 'Minimum is $min BTC';
+  }
+
+  @override
+  String send_amount_error_maximum_sats(int max) {
+    return 'Maximum is $max sats';
   }
 
   @override

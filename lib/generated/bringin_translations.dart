@@ -635,6 +635,18 @@ abstract class BringinTranslations {
   /// **'Payment received!'**
   String get successful_payment_received;
 
+  /// No description provided for @success_title_payment_received.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment received'**
+  String get success_title_payment_received;
+
+  /// No description provided for @success_title_purchase_complete.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase Complete!'**
+  String get success_title_purchase_complete;
+
   /// No description provided for @successful_payment_sent_title.
   ///
   /// In en, this message translates to:
@@ -2740,6 +2752,48 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Amount exceeds your balance of {balance} sats'**
   String send_amount_error_exceeds_balance(String balance);
+
+  /// No description provided for @send_amount_error_rate_unavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Conversion rate unavailable'**
+  String get send_amount_error_rate_unavailable;
+
+  /// No description provided for @send_amount_error_invalid_value.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a valid amount'**
+  String get send_amount_error_invalid_value;
+
+  /// No description provided for @send_amount_error_above_zero.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount must be greater than zero'**
+  String get send_amount_error_above_zero;
+
+  /// No description provided for @send_amount_error_insufficient_funds.
+  ///
+  /// In en, this message translates to:
+  /// **'Insufficient funds'**
+  String get send_amount_error_insufficient_funds;
+
+  /// No description provided for @send_amount_error_minimum_sats.
+  ///
+  /// In en, this message translates to:
+  /// **'Minimum is {min} sats'**
+  String send_amount_error_minimum_sats(int min);
+
+  /// No description provided for @send_amount_error_minimum_btc.
+  ///
+  /// In en, this message translates to:
+  /// **'Minimum is {min} BTC'**
+  String send_amount_error_minimum_btc(String min);
+
+  /// No description provided for @send_amount_error_maximum_sats.
+  ///
+  /// In en, this message translates to:
+  /// **'Maximum is {max} sats'**
+  String send_amount_error_maximum_sats(int max);
 
   /// No description provided for @send_amount_convert_from_eur.
   ///
