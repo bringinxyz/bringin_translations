@@ -1793,6 +1793,7 @@
   "profile_auto_decl_sell_subtitle": "Automatically treat new Bitcoin sells as coming from a wallet I own.",
   "profile_auto_decl_footnote": "These preferences apply only to new wallet addresses you add. Your existing wallet declarations won't change.",
   "profile_backup_required_title": "Backup required",
+  "profile_backup_required_heading": "Backup your wallet",
   "profile_backup_required_action": "I understand, logout",
   "profile_backup_required_ack": "I understand that without a backup, my Bitcoin will be permanently lost and cannot be recovered.",
   "profile_backup_required_warning": "No backup = permanent loss. We don’t hold your keys or control your Bitcoin.",

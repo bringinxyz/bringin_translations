@@ -6623,6 +6623,12 @@ abstract class BringinTranslations {
   /// **'Backup required'**
   String get profile_backup_required_title;
 
+  /// No description provided for @profile_backup_required_heading.
+  ///
+  /// In en, this message translates to:
+  /// **'Backup your wallet'**
+  String get profile_backup_required_heading;
+
   /// No description provided for @profile_backup_required_action.
   ///
   /// In en, this message translates to:

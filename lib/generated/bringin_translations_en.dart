@@ -3826,6 +3826,9 @@ class BringinTranslationsEn extends BringinTranslations {
   String get profile_backup_required_title => 'Backup required';
 
   @override
+  String get profile_backup_required_heading => 'Backup your wallet';
+
+  @override
   String get profile_backup_required_action => 'I understand, logout';
 
   @override
