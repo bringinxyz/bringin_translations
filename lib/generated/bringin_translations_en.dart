@@ -3165,9 +3165,6 @@ class BringinTranslationsEn extends BringinTranslations {
   String get payment_details_label_linked_account_id => 'Linked account ID';
 
   @override
-  String get payment_details_merchant_unknown => 'unknown merchant';
-
-  @override
   String get card_tx_type_creation_fee => 'Card creation fee';
 
   @override

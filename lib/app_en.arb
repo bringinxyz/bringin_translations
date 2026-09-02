@@ -1472,7 +1472,6 @@
   "payment_details_label_merchant_category": "Merchant category code",
   "payment_details_label_original_amount": "Original amount",
   "payment_details_label_linked_account_id": "Linked account ID",
-  "payment_details_merchant_unknown": "unknown merchant",
   "card_tx_type_creation_fee": "Card creation fee",
   "card_tx_type_atm_withdrawal": "ATM withdrawal",
   "card_tx_type_refund": "Card refund",

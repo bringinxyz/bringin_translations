@@ -5465,12 +5465,6 @@ abstract class BringinTranslations {
   /// **'Linked account ID'**
   String get payment_details_label_linked_account_id;
 
-  /// No description provided for @payment_details_merchant_unknown.
-  ///
-  /// In en, this message translates to:
-  /// **'unknown merchant'**
-  String get payment_details_merchant_unknown;
-
   /// No description provided for @card_tx_type_creation_fee.
   ///
   /// In en, this message translates to:
