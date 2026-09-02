@@ -4375,4 +4375,335 @@ class BringinTranslationsEn extends BringinTranslations {
   String sell_qr_ln_limits(String min, String max) {
     return 'Minimum €$min. Maximum €$max per transaction — a fixed EU Travel Rule cap that can\'t be increased. We charge 1% fee on the transaction.';
   }
+
+  @override
+  String get tr_error_declaration_timeout =>
+      'Declaration timed out — please try again.';
+
+  @override
+  String get tr_error_request_timeout => 'Request timed out — try again.';
+
+  @override
+  String get tr_error_request_timeout_polite =>
+      'Request timed out — please try again.';
+
+  @override
+  String get tr_error_submission_timeout =>
+      'Submission timed out — please try again.';
+
+  @override
+  String get tr_error_verification_timeout =>
+      'Verification timed out — please try again.';
+
+  @override
+  String get tr_option_exchange => 'An exchange or custodian';
+
+  @override
+  String get tr_option_exchange_hint =>
+      'Regulated platform like Coinbase, Kraken etc.';
+
+  @override
+  String get tr_option_own_wallet => 'Your own wallet';
+
+  @override
+  String get tr_option_own_wallet_hint =>
+      'You control the private keys personally.';
+
+  @override
+  String get tr_option_own_wallet_below =>
+      'Your own wallet for transactions below €1,000';
+
+  @override
+  String get tr_option_own_wallet_above =>
+      'Your own wallet for transactions above €1,000';
+
+  @override
+  String get tr_option_someone_else_wallet => 'Someone else’s wallet';
+
+  @override
+  String get tr_option_someone_else => 'Someone else’s';
+
+  @override
+  String get tr_option_own_account => 'It’s my own account';
+
+  @override
+  String get tr_option_someone_else_account => 'Someone else’s account';
+
+  @override
+  String get tr_address_title => 'Address declaration';
+
+  @override
+  String get tr_address_intro =>
+      'We require this declaration to comply with the EU Transfer of Funds Regulation for on-chain transfers.';
+
+  @override
+  String get tr_address_select_prompt =>
+      'Select the option that best describes this Bitcoin address.';
+
+  @override
+  String get tr_address_someone_else_hint =>
+      'Cannot send more than €1,000 to a wallet owned by another individual or company.';
+
+  @override
+  String get tr_address_submitted =>
+      'We’ve received your declaration that you own this wallet. Additional information may be required for transfers above €1,000.';
+
+  @override
+  String get tr_label_wallet_type => 'Wallet type';
+
+  @override
+  String get tr_deposit_label_payment_hash => 'Payment hash';
+
+  @override
+  String get tr_deposit_label_source_address => 'Source address';
+
+  @override
+  String get tr_deposit_error_no_source =>
+      'This deposit doesn’t have a source identifier — please contact support.';
+
+  @override
+  String get tr_deposit_error_no_counterparty =>
+      'Missing counterparty id on this action — please contact support.';
+
+  @override
+  String get tr_deposit_submitted =>
+      'We’ve received your declaration. We’ll release the deposit once our checks complete — this can take a few minutes.';
+
+  @override
+  String get tr_deposit_title => 'Transaction needs action';
+
+  @override
+  String get tr_deposit_originator_details => 'Originator details';
+
+  @override
+  String get tr_deposit_funds_declaration => 'Funds declaration';
+
+  @override
+  String get tr_deposit_who_sent =>
+      'We need to know who at the exchange sent these funds so EU Travel Rule can clear the deposit.';
+
+  @override
+  String tr_deposit_regulation_notice(String rail) {
+    return 'We require this declaration to comply with the EU Transfer of Funds Regulation for $rail transfers.';
+  }
+
+  @override
+  String get tr_rail_onchain => 'on-chain';
+
+  @override
+  String get tr_deposit_own_account_hint =>
+      'You sent these funds from your account at the exchange.';
+
+  @override
+  String get tr_deposit_someone_else_account_hint =>
+      'Someone else sent these funds from their exchange account.';
+
+  @override
+  String get tr_deposit_someone_else_wallet_hint =>
+      'Wallet belongs to another individual or company.';
+
+  @override
+  String get tr_deposit_label_transaction_date => 'Transaction date';
+
+  @override
+  String get tr_deposit_label_source_type => 'Source type';
+
+  @override
+  String get tr_deposit_label_originator => 'Originator';
+
+  @override
+  String get tr_exchange_submitted =>
+      'We’ve received your declaration. We’ll review it and let you know if anything else is needed.';
+
+  @override
+  String get tr_exchange_hold_notice =>
+      'We need this so the deposit hold imposed by EU Travel Rule can clear.';
+
+  @override
+  String get tr_exchange_verify_notice =>
+      'We need these details to verify your account with your exchange.';
+
+  @override
+  String get tr_exchange_search_hint => 'Eg. Coinbase, Kraken, Binance, etc';
+
+  @override
+  String get tr_exchange_none_available => 'No exchanges available right now.';
+
+  @override
+  String get tr_exchange_no_match => 'No exchanges match that search.';
+
+  @override
+  String get tr_exchange_label_name => 'Exchange name';
+
+  @override
+  String get tr_third_party_submitted =>
+      'We’ve received the originator details. We’ll review them and let you know once the deposit clears.';
+
+  @override
+  String get tr_third_party_notice =>
+      'We need these details about the person or company who actually sent the funds.';
+
+  @override
+  String get tr_label_counterparty_type => 'Counterparty type';
+
+  @override
+  String get tr_option_individual => 'Individual';
+
+  @override
+  String get tr_option_company => 'Company';
+
+  @override
+  String get tr_field_first_name_hint => 'Add the first name';
+
+  @override
+  String get tr_field_last_name_hint => 'Add the last name';
+
+  @override
+  String get tr_field_account_number => 'Account number at the exchange';
+
+  @override
+  String get tr_field_account_number_hint =>
+      'Their account / customer ID at the VASP';
+
+  @override
+  String get tr_error_account_number_required => 'Account number is required';
+
+  @override
+  String get tr_field_place_of_birth => 'Place of birth';
+
+  @override
+  String get tr_field_country_hint => 'Add country';
+
+  @override
+  String get tr_field_date_of_birth => 'Date of birth';
+
+  @override
+  String get tr_field_country_residence => 'Country of residence';
+
+  @override
+  String get tr_field_legal_name => 'Legal name';
+
+  @override
+  String get tr_field_legal_name_hint => 'Registered company name';
+
+  @override
+  String get tr_field_lei => '20-character Legal Entity Identifier';
+
+  @override
+  String get tr_field_lei_hint => 'Issued by GLEIF — letters and numbers only';
+
+  @override
+  String get tr_field_country_registration => 'Country of registration';
+
+  @override
+  String get tr_field_registered_address => 'Registered address';
+
+  @override
+  String get tr_field_registered_address_hint =>
+      'Street, city, postal code, country';
+
+  @override
+  String get tr_funds_submitted =>
+      'We’ve received your declaration about this counterparty. You can proceed with the purchase once the verification is complete.';
+
+  @override
+  String get tr_funds_verify_notice =>
+      'We need these details to verify the account.';
+
+  @override
+  String get tr_manual_error_no_account =>
+      'Couldn’t determine your account id — please sign in again.';
+
+  @override
+  String get tr_manual_toast_message_copied => 'Message copied';
+
+  @override
+  String get tr_manual_clipboard_empty => 'Clipboard is empty';
+
+  @override
+  String get tr_manual_submitted =>
+      'We’ve received your declaration. We’ll review it and let you know if anything else is needed. Your deposit should be processed within the next few minutes.';
+
+  @override
+  String get tr_prove_ownership => 'Prove your ownership';
+
+  @override
+  String get tr_manual_title => 'Manual signature';
+
+  @override
+  String get tr_manual_steps_intro =>
+      'Follow the steps below to complete manual signature.';
+
+  @override
+  String get tr_manual_step_copy => 'Copy the message';
+
+  @override
+  String get tr_manual_step_sign => 'Sign from your wallet';
+
+  @override
+  String get tr_manual_step_sign_hint =>
+      'Sign the copied message with your wallet.';
+
+  @override
+  String get tr_manual_step_paste => 'Paste the signature';
+
+  @override
+  String get tr_manual_paste_hint => 'Paste the signature from the wallet';
+
+  @override
+  String get tr_poo_error_liveness_start =>
+      'Couldn’t start liveness check — please try again.';
+
+  @override
+  String get tr_poo_error_liveness_start_retry =>
+      'Couldn’t start liveness check — try again.';
+
+  @override
+  String get tr_poo_error_liveness_open =>
+      'Liveness check failed to open — try again.';
+
+  @override
+  String get tr_poo_submitted_title => 'Verification submitted';
+
+  @override
+  String get tr_poo_submitted =>
+      'We’ve received your liveness verification. We’ll review it and let you know once it’s complete — this can take a few minutes.';
+
+  @override
+  String get tr_poo_title => 'Proof of ownership';
+
+  @override
+  String get tr_poo_subtitle =>
+      'Your own wallet for transactions above €1,000.';
+
+  @override
+  String get tr_poo_option_trezor => 'Sign with Trezor';
+
+  @override
+  String get tr_poo_option_trezor_hint =>
+      'Approve on your Trezor device — no copying or pasting.';
+
+  @override
+  String get tr_poo_option_liveness => 'Liveness check';
+
+  @override
+  String get tr_poo_option_liveness_hint =>
+      'Take a quick selfie to verify your identity. Works for any wallet.';
+
+  @override
+  String get tr_poo_option_manual_hint =>
+      'Copy a message, sign it in your wallet, and paste the signature back. Works for any wallet.';
+
+  @override
+  String get tr_needed_title => 'Declaration needed';
+
+  @override
+  String get tr_needed_body =>
+      'On-chain Bitcoin transfers require a quick one-time declaration about this wallet — it’s an EU regulation that applies to any amount.';
+
+  @override
+  String get tr_needed_action => 'Proceed';
+
+  @override
+  String get tr_submitted_title => 'Declaration submitted';
 }

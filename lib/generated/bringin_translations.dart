@@ -7582,6 +7582,582 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Minimum €{min}. Maximum €{max} per transaction — a fixed EU Travel Rule cap that can\'t be increased. We charge 1% fee on the transaction.'**
   String sell_qr_ln_limits(String min, String max);
+
+  /// No description provided for @tr_error_declaration_timeout.
+  ///
+  /// In en, this message translates to:
+  /// **'Declaration timed out — please try again.'**
+  String get tr_error_declaration_timeout;
+
+  /// No description provided for @tr_error_request_timeout.
+  ///
+  /// In en, this message translates to:
+  /// **'Request timed out — try again.'**
+  String get tr_error_request_timeout;
+
+  /// No description provided for @tr_error_request_timeout_polite.
+  ///
+  /// In en, this message translates to:
+  /// **'Request timed out — please try again.'**
+  String get tr_error_request_timeout_polite;
+
+  /// No description provided for @tr_error_submission_timeout.
+  ///
+  /// In en, this message translates to:
+  /// **'Submission timed out — please try again.'**
+  String get tr_error_submission_timeout;
+
+  /// No description provided for @tr_error_verification_timeout.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification timed out — please try again.'**
+  String get tr_error_verification_timeout;
+
+  /// No description provided for @tr_option_exchange.
+  ///
+  /// In en, this message translates to:
+  /// **'An exchange or custodian'**
+  String get tr_option_exchange;
+
+  /// No description provided for @tr_option_exchange_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Regulated platform like Coinbase, Kraken etc.'**
+  String get tr_option_exchange_hint;
+
+  /// No description provided for @tr_option_own_wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Your own wallet'**
+  String get tr_option_own_wallet;
+
+  /// No description provided for @tr_option_own_wallet_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'You control the private keys personally.'**
+  String get tr_option_own_wallet_hint;
+
+  /// No description provided for @tr_option_own_wallet_below.
+  ///
+  /// In en, this message translates to:
+  /// **'Your own wallet for transactions below €1,000'**
+  String get tr_option_own_wallet_below;
+
+  /// No description provided for @tr_option_own_wallet_above.
+  ///
+  /// In en, this message translates to:
+  /// **'Your own wallet for transactions above €1,000'**
+  String get tr_option_own_wallet_above;
+
+  /// No description provided for @tr_option_someone_else_wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Someone else’s wallet'**
+  String get tr_option_someone_else_wallet;
+
+  /// No description provided for @tr_option_someone_else.
+  ///
+  /// In en, this message translates to:
+  /// **'Someone else’s'**
+  String get tr_option_someone_else;
+
+  /// No description provided for @tr_option_own_account.
+  ///
+  /// In en, this message translates to:
+  /// **'It’s my own account'**
+  String get tr_option_own_account;
+
+  /// No description provided for @tr_option_someone_else_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Someone else’s account'**
+  String get tr_option_someone_else_account;
+
+  /// No description provided for @tr_address_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Address declaration'**
+  String get tr_address_title;
+
+  /// No description provided for @tr_address_intro.
+  ///
+  /// In en, this message translates to:
+  /// **'We require this declaration to comply with the EU Transfer of Funds Regulation for on-chain transfers.'**
+  String get tr_address_intro;
+
+  /// No description provided for @tr_address_select_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Select the option that best describes this Bitcoin address.'**
+  String get tr_address_select_prompt;
+
+  /// No description provided for @tr_address_someone_else_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Cannot send more than €1,000 to a wallet owned by another individual or company.'**
+  String get tr_address_someone_else_hint;
+
+  /// No description provided for @tr_address_submitted.
+  ///
+  /// In en, this message translates to:
+  /// **'We’ve received your declaration that you own this wallet. Additional information may be required for transfers above €1,000.'**
+  String get tr_address_submitted;
+
+  /// No description provided for @tr_label_wallet_type.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet type'**
+  String get tr_label_wallet_type;
+
+  /// No description provided for @tr_deposit_label_payment_hash.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment hash'**
+  String get tr_deposit_label_payment_hash;
+
+  /// No description provided for @tr_deposit_label_source_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Source address'**
+  String get tr_deposit_label_source_address;
+
+  /// No description provided for @tr_deposit_error_no_source.
+  ///
+  /// In en, this message translates to:
+  /// **'This deposit doesn’t have a source identifier — please contact support.'**
+  String get tr_deposit_error_no_source;
+
+  /// No description provided for @tr_deposit_error_no_counterparty.
+  ///
+  /// In en, this message translates to:
+  /// **'Missing counterparty id on this action — please contact support.'**
+  String get tr_deposit_error_no_counterparty;
+
+  /// No description provided for @tr_deposit_submitted.
+  ///
+  /// In en, this message translates to:
+  /// **'We’ve received your declaration. We’ll release the deposit once our checks complete — this can take a few minutes.'**
+  String get tr_deposit_submitted;
+
+  /// No description provided for @tr_deposit_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction needs action'**
+  String get tr_deposit_title;
+
+  /// No description provided for @tr_deposit_originator_details.
+  ///
+  /// In en, this message translates to:
+  /// **'Originator details'**
+  String get tr_deposit_originator_details;
+
+  /// No description provided for @tr_deposit_funds_declaration.
+  ///
+  /// In en, this message translates to:
+  /// **'Funds declaration'**
+  String get tr_deposit_funds_declaration;
+
+  /// No description provided for @tr_deposit_who_sent.
+  ///
+  /// In en, this message translates to:
+  /// **'We need to know who at the exchange sent these funds so EU Travel Rule can clear the deposit.'**
+  String get tr_deposit_who_sent;
+
+  /// No description provided for @tr_deposit_regulation_notice.
+  ///
+  /// In en, this message translates to:
+  /// **'We require this declaration to comply with the EU Transfer of Funds Regulation for {rail} transfers.'**
+  String tr_deposit_regulation_notice(String rail);
+
+  /// No description provided for @tr_rail_onchain.
+  ///
+  /// In en, this message translates to:
+  /// **'on-chain'**
+  String get tr_rail_onchain;
+
+  /// No description provided for @tr_deposit_own_account_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'You sent these funds from your account at the exchange.'**
+  String get tr_deposit_own_account_hint;
+
+  /// No description provided for @tr_deposit_someone_else_account_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Someone else sent these funds from their exchange account.'**
+  String get tr_deposit_someone_else_account_hint;
+
+  /// No description provided for @tr_deposit_someone_else_wallet_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet belongs to another individual or company.'**
+  String get tr_deposit_someone_else_wallet_hint;
+
+  /// No description provided for @tr_deposit_label_transaction_date.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction date'**
+  String get tr_deposit_label_transaction_date;
+
+  /// No description provided for @tr_deposit_label_source_type.
+  ///
+  /// In en, this message translates to:
+  /// **'Source type'**
+  String get tr_deposit_label_source_type;
+
+  /// No description provided for @tr_deposit_label_originator.
+  ///
+  /// In en, this message translates to:
+  /// **'Originator'**
+  String get tr_deposit_label_originator;
+
+  /// No description provided for @tr_exchange_submitted.
+  ///
+  /// In en, this message translates to:
+  /// **'We’ve received your declaration. We’ll review it and let you know if anything else is needed.'**
+  String get tr_exchange_submitted;
+
+  /// No description provided for @tr_exchange_hold_notice.
+  ///
+  /// In en, this message translates to:
+  /// **'We need this so the deposit hold imposed by EU Travel Rule can clear.'**
+  String get tr_exchange_hold_notice;
+
+  /// No description provided for @tr_exchange_verify_notice.
+  ///
+  /// In en, this message translates to:
+  /// **'We need these details to verify your account with your exchange.'**
+  String get tr_exchange_verify_notice;
+
+  /// No description provided for @tr_exchange_search_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Eg. Coinbase, Kraken, Binance, etc'**
+  String get tr_exchange_search_hint;
+
+  /// No description provided for @tr_exchange_none_available.
+  ///
+  /// In en, this message translates to:
+  /// **'No exchanges available right now.'**
+  String get tr_exchange_none_available;
+
+  /// No description provided for @tr_exchange_no_match.
+  ///
+  /// In en, this message translates to:
+  /// **'No exchanges match that search.'**
+  String get tr_exchange_no_match;
+
+  /// No description provided for @tr_exchange_label_name.
+  ///
+  /// In en, this message translates to:
+  /// **'Exchange name'**
+  String get tr_exchange_label_name;
+
+  /// No description provided for @tr_third_party_submitted.
+  ///
+  /// In en, this message translates to:
+  /// **'We’ve received the originator details. We’ll review them and let you know once the deposit clears.'**
+  String get tr_third_party_submitted;
+
+  /// No description provided for @tr_third_party_notice.
+  ///
+  /// In en, this message translates to:
+  /// **'We need these details about the person or company who actually sent the funds.'**
+  String get tr_third_party_notice;
+
+  /// No description provided for @tr_label_counterparty_type.
+  ///
+  /// In en, this message translates to:
+  /// **'Counterparty type'**
+  String get tr_label_counterparty_type;
+
+  /// No description provided for @tr_option_individual.
+  ///
+  /// In en, this message translates to:
+  /// **'Individual'**
+  String get tr_option_individual;
+
+  /// No description provided for @tr_option_company.
+  ///
+  /// In en, this message translates to:
+  /// **'Company'**
+  String get tr_option_company;
+
+  /// No description provided for @tr_field_first_name_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Add the first name'**
+  String get tr_field_first_name_hint;
+
+  /// No description provided for @tr_field_last_name_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Add the last name'**
+  String get tr_field_last_name_hint;
+
+  /// No description provided for @tr_field_account_number.
+  ///
+  /// In en, this message translates to:
+  /// **'Account number at the exchange'**
+  String get tr_field_account_number;
+
+  /// No description provided for @tr_field_account_number_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Their account / customer ID at the VASP'**
+  String get tr_field_account_number_hint;
+
+  /// No description provided for @tr_error_account_number_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Account number is required'**
+  String get tr_error_account_number_required;
+
+  /// No description provided for @tr_field_place_of_birth.
+  ///
+  /// In en, this message translates to:
+  /// **'Place of birth'**
+  String get tr_field_place_of_birth;
+
+  /// No description provided for @tr_field_country_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Add country'**
+  String get tr_field_country_hint;
+
+  /// No description provided for @tr_field_date_of_birth.
+  ///
+  /// In en, this message translates to:
+  /// **'Date of birth'**
+  String get tr_field_date_of_birth;
+
+  /// No description provided for @tr_field_country_residence.
+  ///
+  /// In en, this message translates to:
+  /// **'Country of residence'**
+  String get tr_field_country_residence;
+
+  /// No description provided for @tr_field_legal_name.
+  ///
+  /// In en, this message translates to:
+  /// **'Legal name'**
+  String get tr_field_legal_name;
+
+  /// No description provided for @tr_field_legal_name_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Registered company name'**
+  String get tr_field_legal_name_hint;
+
+  /// No description provided for @tr_field_lei.
+  ///
+  /// In en, this message translates to:
+  /// **'20-character Legal Entity Identifier'**
+  String get tr_field_lei;
+
+  /// No description provided for @tr_field_lei_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Issued by GLEIF — letters and numbers only'**
+  String get tr_field_lei_hint;
+
+  /// No description provided for @tr_field_country_registration.
+  ///
+  /// In en, this message translates to:
+  /// **'Country of registration'**
+  String get tr_field_country_registration;
+
+  /// No description provided for @tr_field_registered_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Registered address'**
+  String get tr_field_registered_address;
+
+  /// No description provided for @tr_field_registered_address_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Street, city, postal code, country'**
+  String get tr_field_registered_address_hint;
+
+  /// No description provided for @tr_funds_submitted.
+  ///
+  /// In en, this message translates to:
+  /// **'We’ve received your declaration about this counterparty. You can proceed with the purchase once the verification is complete.'**
+  String get tr_funds_submitted;
+
+  /// No description provided for @tr_funds_verify_notice.
+  ///
+  /// In en, this message translates to:
+  /// **'We need these details to verify the account.'**
+  String get tr_funds_verify_notice;
+
+  /// No description provided for @tr_manual_error_no_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn’t determine your account id — please sign in again.'**
+  String get tr_manual_error_no_account;
+
+  /// No description provided for @tr_manual_toast_message_copied.
+  ///
+  /// In en, this message translates to:
+  /// **'Message copied'**
+  String get tr_manual_toast_message_copied;
+
+  /// No description provided for @tr_manual_clipboard_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Clipboard is empty'**
+  String get tr_manual_clipboard_empty;
+
+  /// No description provided for @tr_manual_submitted.
+  ///
+  /// In en, this message translates to:
+  /// **'We’ve received your declaration. We’ll review it and let you know if anything else is needed. Your deposit should be processed within the next few minutes.'**
+  String get tr_manual_submitted;
+
+  /// No description provided for @tr_prove_ownership.
+  ///
+  /// In en, this message translates to:
+  /// **'Prove your ownership'**
+  String get tr_prove_ownership;
+
+  /// No description provided for @tr_manual_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Manual signature'**
+  String get tr_manual_title;
+
+  /// No description provided for @tr_manual_steps_intro.
+  ///
+  /// In en, this message translates to:
+  /// **'Follow the steps below to complete manual signature.'**
+  String get tr_manual_steps_intro;
+
+  /// No description provided for @tr_manual_step_copy.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy the message'**
+  String get tr_manual_step_copy;
+
+  /// No description provided for @tr_manual_step_sign.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign from your wallet'**
+  String get tr_manual_step_sign;
+
+  /// No description provided for @tr_manual_step_sign_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign the copied message with your wallet.'**
+  String get tr_manual_step_sign_hint;
+
+  /// No description provided for @tr_manual_step_paste.
+  ///
+  /// In en, this message translates to:
+  /// **'Paste the signature'**
+  String get tr_manual_step_paste;
+
+  /// No description provided for @tr_manual_paste_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Paste the signature from the wallet'**
+  String get tr_manual_paste_hint;
+
+  /// No description provided for @tr_poo_error_liveness_start.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn’t start liveness check — please try again.'**
+  String get tr_poo_error_liveness_start;
+
+  /// No description provided for @tr_poo_error_liveness_start_retry.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn’t start liveness check — try again.'**
+  String get tr_poo_error_liveness_start_retry;
+
+  /// No description provided for @tr_poo_error_liveness_open.
+  ///
+  /// In en, this message translates to:
+  /// **'Liveness check failed to open — try again.'**
+  String get tr_poo_error_liveness_open;
+
+  /// No description provided for @tr_poo_submitted_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification submitted'**
+  String get tr_poo_submitted_title;
+
+  /// No description provided for @tr_poo_submitted.
+  ///
+  /// In en, this message translates to:
+  /// **'We’ve received your liveness verification. We’ll review it and let you know once it’s complete — this can take a few minutes.'**
+  String get tr_poo_submitted;
+
+  /// No description provided for @tr_poo_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Proof of ownership'**
+  String get tr_poo_title;
+
+  /// No description provided for @tr_poo_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your own wallet for transactions above €1,000.'**
+  String get tr_poo_subtitle;
+
+  /// No description provided for @tr_poo_option_trezor.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign with Trezor'**
+  String get tr_poo_option_trezor;
+
+  /// No description provided for @tr_poo_option_trezor_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Approve on your Trezor device — no copying or pasting.'**
+  String get tr_poo_option_trezor_hint;
+
+  /// No description provided for @tr_poo_option_liveness.
+  ///
+  /// In en, this message translates to:
+  /// **'Liveness check'**
+  String get tr_poo_option_liveness;
+
+  /// No description provided for @tr_poo_option_liveness_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Take a quick selfie to verify your identity. Works for any wallet.'**
+  String get tr_poo_option_liveness_hint;
+
+  /// No description provided for @tr_poo_option_manual_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy a message, sign it in your wallet, and paste the signature back. Works for any wallet.'**
+  String get tr_poo_option_manual_hint;
+
+  /// No description provided for @tr_needed_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Declaration needed'**
+  String get tr_needed_title;
+
+  /// No description provided for @tr_needed_body.
+  ///
+  /// In en, this message translates to:
+  /// **'On-chain Bitcoin transfers require a quick one-time declaration about this wallet — it’s an EU regulation that applies to any amount.'**
+  String get tr_needed_body;
+
+  /// No description provided for @tr_needed_action.
+  ///
+  /// In en, this message translates to:
+  /// **'Proceed'**
+  String get tr_needed_action;
+
+  /// No description provided for @tr_submitted_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Declaration submitted'**
+  String get tr_submitted_title;
 }
 
 class _BringinTranslationsDelegate
