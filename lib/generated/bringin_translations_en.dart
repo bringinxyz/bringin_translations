@@ -5580,4 +5580,158 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get home_action_reason_partial =>
       'This transaction was partially completed and needs your attention.';
+
+  @override
+  String get home_flow_verify_bank_transfer => 'Verify bank transfer';
+
+  @override
+  String get home_flow_error_verification_failed =>
+      'Verification failed. Please try again.';
+
+  @override
+  String get home_flow_error_verification_failed_short =>
+      'Verification failed. Try again.';
+
+  @override
+  String get home_flow_otp_prompt =>
+      'Please enter the verification code sent to your mobile number';
+
+  @override
+  String get home_flow_label_mobile_number => 'Mobile number ';
+
+  @override
+  String get home_flow_label_verification_code => 'Verification code';
+
+  @override
+  String get home_flow_action_confirm_send => 'Confirm and send';
+
+  @override
+  String get home_flow_completing_bank_transfer =>
+      'Completing your bank transfer.';
+
+  @override
+  String get home_flow_your_bank => 'Your bank';
+
+  @override
+  String get home_flow_send_to_bank => 'Send to your bank';
+
+  @override
+  String get home_flow_converted_title =>
+      'Your Bitcoin has been converted to Euro';
+
+  @override
+  String get home_flow_converted_body =>
+      'The Euro is in your Bringin account. Confirm below to start the bank transfer to your bank.';
+
+  @override
+  String get home_flow_summary => 'Transfer summary';
+
+  @override
+  String get home_flow_label_destination_bank => 'Destination bank';
+
+  @override
+  String get home_flow_action_confirm_start => 'Confirm and start the transfer';
+
+  @override
+  String get home_flow_verify_send_euro =>
+      'Verify this transfer to send your Euro';
+
+  @override
+  String get home_flow_error_no_amount =>
+      'Cannot determine the amount to send.';
+
+  @override
+  String get home_flow_generating_invoice => 'Generating invoice.';
+
+  @override
+  String get home_flow_initiating_transfer => 'Initiating transfer.';
+
+  @override
+  String get home_flow_new_destination => 'New destination';
+
+  @override
+  String get home_flow_ln_failed_share_fresh =>
+      'Your Lightning Network payment didn\'t complete. Your Bitcoin is held safely. Please share a fresh Lightning invoice or a Lightning address.';
+
+  @override
+  String get home_flow_send_onchain_instead => 'Send on-chain instead';
+
+  @override
+  String get home_flow_above_ln_limit =>
+      'This transfer is above the €1,000 Lightning limit set by EU Travel Rule. Enter a Bitcoin address and we\'ll finish it on-chain.';
+
+  @override
+  String get home_flow_action_continue_onchain => 'Continue on-chain';
+
+  @override
+  String home_flow_error_invoice_over_held(int invoiceSats, int heldSats) {
+    return 'This invoice is for $invoiceSats satoshis but we hold $heldSats satoshis. Please generate a new invoice for exactly $heldSats satoshis.';
+  }
+
+  @override
+  String home_flow_error_invoice_over_sendable(
+      int invoiceSats, int destinationSats) {
+    return 'This invoice is for $invoiceSats satoshis but we can only send $destinationSats satoshis. Please use a smaller invoice.';
+  }
+
+  @override
+  String get home_flow_confirming_transfer => 'Confirming your transfer.';
+
+  @override
+  String get home_flow_pro_activated => 'Pro activated!';
+
+  @override
+  String get home_flow_verify_release_bitcoin =>
+      'Verify this transfer to release your Bitcoin';
+
+  @override
+  String get home_flow_error_invalid_btc_address =>
+      'Enter a valid Bitcoin address';
+
+  @override
+  String get home_flow_sending_onchain => 'Sending on-chain.';
+
+  @override
+  String get home_flow_refund_in_progress =>
+      'Your Lightning payment is still being refunded. Please try again in a moment.';
+
+  @override
+  String get home_flow_recover_bitcoin => 'Recover your Bitcoin';
+
+  @override
+  String get home_flow_ln_blocked_title => 'Lightning transfer blocked';
+
+  @override
+  String get home_flow_ln_blocked_body =>
+      'The amount is above the €1,000 Lightning limit set by EU Travel Rule. Share a Bitcoin address and we\'ll send your BTC on-chain instead — one OTP away.';
+
+  @override
+  String get home_flow_hint_paste_btc_address => 'Paste a Bitcoin address';
+
+  @override
+  String get home_flow_resume_payment => 'Resume payment';
+
+  @override
+  String get home_flow_invoice_still_valid =>
+      'Your invoice is still valid. Tap Next to proceed, or paste a different Lightning invoice or address below.';
+
+  @override
+  String get home_flow_invoice_expired =>
+      'Your previous invoice has expired. Please paste a fresh Lightning invoice or Lightning address below.';
+
+  @override
+  String get home_flow_resume_ln_transfer => 'Resume Lightning transfer';
+
+  @override
+  String get home_flow_error_empty_invoice =>
+      'Backend returned an empty invoice. Please try again.';
+
+  @override
+  String get home_flow_preparing_pro => 'Preparing your Pro subscription...';
+
+  @override
+  String get home_flow_activating_pro => 'Activating Pro';
+
+  @override
+  String get home_flow_error_generic_title => 'Something went wrong';
 }

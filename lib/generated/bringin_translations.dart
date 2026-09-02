@@ -9706,6 +9706,271 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'This transaction was partially completed and needs your attention.'**
   String get home_action_reason_partial;
+
+  /// No description provided for @home_flow_verify_bank_transfer.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify bank transfer'**
+  String get home_flow_verify_bank_transfer;
+
+  /// No description provided for @home_flow_error_verification_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification failed. Please try again.'**
+  String get home_flow_error_verification_failed;
+
+  /// No description provided for @home_flow_error_verification_failed_short.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification failed. Try again.'**
+  String get home_flow_error_verification_failed_short;
+
+  /// No description provided for @home_flow_otp_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter the verification code sent to your mobile number'**
+  String get home_flow_otp_prompt;
+
+  /// No description provided for @home_flow_label_mobile_number.
+  ///
+  /// In en, this message translates to:
+  /// **'Mobile number '**
+  String get home_flow_label_mobile_number;
+
+  /// No description provided for @home_flow_label_verification_code.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification code'**
+  String get home_flow_label_verification_code;
+
+  /// No description provided for @home_flow_action_confirm_send.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm and send'**
+  String get home_flow_action_confirm_send;
+
+  /// No description provided for @home_flow_completing_bank_transfer.
+  ///
+  /// In en, this message translates to:
+  /// **'Completing your bank transfer.'**
+  String get home_flow_completing_bank_transfer;
+
+  /// No description provided for @home_flow_your_bank.
+  ///
+  /// In en, this message translates to:
+  /// **'Your bank'**
+  String get home_flow_your_bank;
+
+  /// No description provided for @home_flow_send_to_bank.
+  ///
+  /// In en, this message translates to:
+  /// **'Send to your bank'**
+  String get home_flow_send_to_bank;
+
+  /// No description provided for @home_flow_converted_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Bitcoin has been converted to Euro'**
+  String get home_flow_converted_title;
+
+  /// No description provided for @home_flow_converted_body.
+  ///
+  /// In en, this message translates to:
+  /// **'The Euro is in your Bringin account. Confirm below to start the bank transfer to your bank.'**
+  String get home_flow_converted_body;
+
+  /// No description provided for @home_flow_summary.
+  ///
+  /// In en, this message translates to:
+  /// **'Transfer summary'**
+  String get home_flow_summary;
+
+  /// No description provided for @home_flow_label_destination_bank.
+  ///
+  /// In en, this message translates to:
+  /// **'Destination bank'**
+  String get home_flow_label_destination_bank;
+
+  /// No description provided for @home_flow_action_confirm_start.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm and start the transfer'**
+  String get home_flow_action_confirm_start;
+
+  /// No description provided for @home_flow_verify_send_euro.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify this transfer to send your Euro'**
+  String get home_flow_verify_send_euro;
+
+  /// No description provided for @home_flow_error_no_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Cannot determine the amount to send.'**
+  String get home_flow_error_no_amount;
+
+  /// No description provided for @home_flow_generating_invoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Generating invoice.'**
+  String get home_flow_generating_invoice;
+
+  /// No description provided for @home_flow_initiating_transfer.
+  ///
+  /// In en, this message translates to:
+  /// **'Initiating transfer.'**
+  String get home_flow_initiating_transfer;
+
+  /// No description provided for @home_flow_new_destination.
+  ///
+  /// In en, this message translates to:
+  /// **'New destination'**
+  String get home_flow_new_destination;
+
+  /// No description provided for @home_flow_ln_failed_share_fresh.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Lightning Network payment didn\'t complete. Your Bitcoin is held safely. Please share a fresh Lightning invoice or a Lightning address.'**
+  String get home_flow_ln_failed_share_fresh;
+
+  /// No description provided for @home_flow_send_onchain_instead.
+  ///
+  /// In en, this message translates to:
+  /// **'Send on-chain instead'**
+  String get home_flow_send_onchain_instead;
+
+  /// No description provided for @home_flow_above_ln_limit.
+  ///
+  /// In en, this message translates to:
+  /// **'This transfer is above the €1,000 Lightning limit set by EU Travel Rule. Enter a Bitcoin address and we\'ll finish it on-chain.'**
+  String get home_flow_above_ln_limit;
+
+  /// No description provided for @home_flow_action_continue_onchain.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue on-chain'**
+  String get home_flow_action_continue_onchain;
+
+  /// No description provided for @home_flow_error_invoice_over_held.
+  ///
+  /// In en, this message translates to:
+  /// **'This invoice is for {invoiceSats} satoshis but we hold {heldSats} satoshis. Please generate a new invoice for exactly {heldSats} satoshis.'**
+  String home_flow_error_invoice_over_held(int invoiceSats, int heldSats);
+
+  /// No description provided for @home_flow_error_invoice_over_sendable.
+  ///
+  /// In en, this message translates to:
+  /// **'This invoice is for {invoiceSats} satoshis but we can only send {destinationSats} satoshis. Please use a smaller invoice.'**
+  String home_flow_error_invoice_over_sendable(
+      int invoiceSats, int destinationSats);
+
+  /// No description provided for @home_flow_confirming_transfer.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirming your transfer.'**
+  String get home_flow_confirming_transfer;
+
+  /// No description provided for @home_flow_pro_activated.
+  ///
+  /// In en, this message translates to:
+  /// **'Pro activated!'**
+  String get home_flow_pro_activated;
+
+  /// No description provided for @home_flow_verify_release_bitcoin.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify this transfer to release your Bitcoin'**
+  String get home_flow_verify_release_bitcoin;
+
+  /// No description provided for @home_flow_error_invalid_btc_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a valid Bitcoin address'**
+  String get home_flow_error_invalid_btc_address;
+
+  /// No description provided for @home_flow_sending_onchain.
+  ///
+  /// In en, this message translates to:
+  /// **'Sending on-chain.'**
+  String get home_flow_sending_onchain;
+
+  /// No description provided for @home_flow_refund_in_progress.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Lightning payment is still being refunded. Please try again in a moment.'**
+  String get home_flow_refund_in_progress;
+
+  /// No description provided for @home_flow_recover_bitcoin.
+  ///
+  /// In en, this message translates to:
+  /// **'Recover your Bitcoin'**
+  String get home_flow_recover_bitcoin;
+
+  /// No description provided for @home_flow_ln_blocked_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning transfer blocked'**
+  String get home_flow_ln_blocked_title;
+
+  /// No description provided for @home_flow_ln_blocked_body.
+  ///
+  /// In en, this message translates to:
+  /// **'The amount is above the €1,000 Lightning limit set by EU Travel Rule. Share a Bitcoin address and we\'ll send your BTC on-chain instead — one OTP away.'**
+  String get home_flow_ln_blocked_body;
+
+  /// No description provided for @home_flow_hint_paste_btc_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Paste a Bitcoin address'**
+  String get home_flow_hint_paste_btc_address;
+
+  /// No description provided for @home_flow_resume_payment.
+  ///
+  /// In en, this message translates to:
+  /// **'Resume payment'**
+  String get home_flow_resume_payment;
+
+  /// No description provided for @home_flow_invoice_still_valid.
+  ///
+  /// In en, this message translates to:
+  /// **'Your invoice is still valid. Tap Next to proceed, or paste a different Lightning invoice or address below.'**
+  String get home_flow_invoice_still_valid;
+
+  /// No description provided for @home_flow_invoice_expired.
+  ///
+  /// In en, this message translates to:
+  /// **'Your previous invoice has expired. Please paste a fresh Lightning invoice or Lightning address below.'**
+  String get home_flow_invoice_expired;
+
+  /// No description provided for @home_flow_resume_ln_transfer.
+  ///
+  /// In en, this message translates to:
+  /// **'Resume Lightning transfer'**
+  String get home_flow_resume_ln_transfer;
+
+  /// No description provided for @home_flow_error_empty_invoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Backend returned an empty invoice. Please try again.'**
+  String get home_flow_error_empty_invoice;
+
+  /// No description provided for @home_flow_preparing_pro.
+  ///
+  /// In en, this message translates to:
+  /// **'Preparing your Pro subscription...'**
+  String get home_flow_preparing_pro;
+
+  /// No description provided for @home_flow_activating_pro.
+  ///
+  /// In en, this message translates to:
+  /// **'Activating Pro'**
+  String get home_flow_activating_pro;
+
+  /// No description provided for @home_flow_error_generic_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Something went wrong'**
+  String get home_flow_error_generic_title;
 }
 
 class _BringinTranslationsDelegate
