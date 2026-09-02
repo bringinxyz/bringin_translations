@@ -5890,6 +5890,204 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Changing your card PIN isn\'t available in the app yet. For now, you can reset it at any ATM that supports PIN changes.\n\nWe\'re working on adding in-app PIN changes in an upcoming release.'**
   String get card_atm_pin_message;
+
+  /// No description provided for @card_send_sheet_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Where to send?'**
+  String get card_send_sheet_prompt;
+
+  /// No description provided for @card_send_option_bitcoin.
+  ///
+  /// In en, this message translates to:
+  /// **'Send to Bitcoin wallet'**
+  String get card_send_option_bitcoin;
+
+  /// No description provided for @card_send_option_euro.
+  ///
+  /// In en, this message translates to:
+  /// **'Send to Euro account'**
+  String get card_send_option_euro;
+
+  /// No description provided for @card_send_option_external.
+  ///
+  /// In en, this message translates to:
+  /// **'Send to external wallets'**
+  String get card_send_option_external;
+
+  /// No description provided for @card_send_subtitle_bitcoin.
+  ///
+  /// In en, this message translates to:
+  /// **'Card balance to Bitcoin wallet'**
+  String get card_send_subtitle_bitcoin;
+
+  /// No description provided for @card_send_subtitle_euro.
+  ///
+  /// In en, this message translates to:
+  /// **'Card balance to Euro account'**
+  String get card_send_subtitle_euro;
+
+  /// No description provided for @card_send_subtitle_external.
+  ///
+  /// In en, this message translates to:
+  /// **'Card balance to external wallet'**
+  String get card_send_subtitle_external;
+
+  /// No description provided for @card_send_step_recipient.
+  ///
+  /// In en, this message translates to:
+  /// **'Recipient'**
+  String get card_send_step_recipient;
+
+  /// No description provided for @card_send_step_verify.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify & pay'**
+  String get card_send_step_verify;
+
+  /// No description provided for @card_send_use_full_balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Use the full Card balance'**
+  String get card_send_use_full_balance;
+
+  /// No description provided for @card_send_action_wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Send to wallet'**
+  String get card_send_action_wallet;
+
+  /// No description provided for @card_send_processing.
+  ///
+  /// In en, this message translates to:
+  /// **'Sending money...'**
+  String get card_send_processing;
+
+  /// No description provided for @card_send_invoice_description.
+  ///
+  /// In en, this message translates to:
+  /// **'Card balance withdraw'**
+  String get card_send_invoice_description;
+
+  /// No description provided for @card_send_lnurl_comment.
+  ///
+  /// In en, this message translates to:
+  /// **'Send from Bringin card'**
+  String get card_send_lnurl_comment;
+
+  /// No description provided for @card_send_error_ln_cap.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning transfers are capped at €{cap}. Lower the amount.'**
+  String card_send_error_ln_cap(int cap);
+
+  /// No description provided for @card_send_error_ln_cap_external.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning transfers are capped at €{cap}. Lower the amount or choose an on-chain wallet.'**
+  String card_send_error_ln_cap_external(int cap);
+
+  /// No description provided for @card_send_failure_reason.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction {status}'**
+  String card_send_failure_reason(String status);
+
+  /// No description provided for @card_send_otp_error_expired.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification code expired. Tap resend or try again.'**
+  String get card_send_otp_error_expired;
+
+  /// No description provided for @card_send_otp_error_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t verify your code. Please try again.'**
+  String get card_send_otp_error_generic;
+
+  /// No description provided for @card_send_otp_resent.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification code resent'**
+  String get card_send_otp_resent;
+
+  /// No description provided for @card_send_sca_title_swap.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify Card balance swap'**
+  String get card_send_sca_title_swap;
+
+  /// No description provided for @card_send_sca_action_swap.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify and swap'**
+  String get card_send_sca_action_swap;
+
+  /// No description provided for @send_amount_error_minimum_btc_symbol.
+  ///
+  /// In en, this message translates to:
+  /// **'Minimum is ฿{min}'**
+  String send_amount_error_minimum_btc_symbol(String min);
+
+  /// No description provided for @card_send_error_zero_invoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Zero-amount invoices are not supported. Use one with an embedded amount.'**
+  String get card_send_error_zero_invoice;
+
+  /// No description provided for @card_send_detected_btc_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin address detected — tap Next to save it as a wallet.'**
+  String get card_send_detected_btc_address;
+
+  /// No description provided for @card_send_error_unrecognised.
+  ///
+  /// In en, this message translates to:
+  /// **'Unrecognised address or invoice'**
+  String get card_send_error_unrecognised;
+
+  /// No description provided for @card_send_select_recipient.
+  ///
+  /// In en, this message translates to:
+  /// **'Select or add recipient'**
+  String get card_send_select_recipient;
+
+  /// No description provided for @card_send_error_load_wallets.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not load saved wallets. Pull to retry.'**
+  String get card_send_error_load_wallets;
+
+  /// No description provided for @card_send_no_wallets.
+  ///
+  /// In en, this message translates to:
+  /// **'No saved wallets yet. Tap + to add one, or paste a Lightning invoice above.'**
+  String get card_send_no_wallets;
+
+  /// No description provided for @card_send_error_resave.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not re-save the wallet. Try again.'**
+  String get card_send_error_resave;
+
+  /// No description provided for @card_send_resave_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Re-save this wallet'**
+  String get card_send_resave_title;
+
+  /// No description provided for @card_send_resave_message.
+  ///
+  /// In en, this message translates to:
+  /// **'This Lightning address was saved before EU Travel Rule. Re-save it to enable payments.'**
+  String get card_send_resave_message;
+
+  /// No description provided for @card_send_action_resave.
+  ///
+  /// In en, this message translates to:
+  /// **'Re-save'**
+  String get card_send_action_resave;
 }
 
 class _BringinTranslationsDelegate

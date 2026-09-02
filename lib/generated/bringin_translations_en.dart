@@ -3404,4 +3404,119 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get card_atm_pin_message =>
       'Changing your card PIN isn\'t available in the app yet. For now, you can reset it at any ATM that supports PIN changes.\n\nWe\'re working on adding in-app PIN changes in an upcoming release.';
+
+  @override
+  String get card_send_sheet_prompt => 'Where to send?';
+
+  @override
+  String get card_send_option_bitcoin => 'Send to Bitcoin wallet';
+
+  @override
+  String get card_send_option_euro => 'Send to Euro account';
+
+  @override
+  String get card_send_option_external => 'Send to external wallets';
+
+  @override
+  String get card_send_subtitle_bitcoin => 'Card balance to Bitcoin wallet';
+
+  @override
+  String get card_send_subtitle_euro => 'Card balance to Euro account';
+
+  @override
+  String get card_send_subtitle_external => 'Card balance to external wallet';
+
+  @override
+  String get card_send_step_recipient => 'Recipient';
+
+  @override
+  String get card_send_step_verify => 'Verify & pay';
+
+  @override
+  String get card_send_use_full_balance => 'Use the full Card balance';
+
+  @override
+  String get card_send_action_wallet => 'Send to wallet';
+
+  @override
+  String get card_send_processing => 'Sending money...';
+
+  @override
+  String get card_send_invoice_description => 'Card balance withdraw';
+
+  @override
+  String get card_send_lnurl_comment => 'Send from Bringin card';
+
+  @override
+  String card_send_error_ln_cap(int cap) {
+    return 'Lightning transfers are capped at €$cap. Lower the amount.';
+  }
+
+  @override
+  String card_send_error_ln_cap_external(int cap) {
+    return 'Lightning transfers are capped at €$cap. Lower the amount or choose an on-chain wallet.';
+  }
+
+  @override
+  String card_send_failure_reason(String status) {
+    return 'Transaction $status';
+  }
+
+  @override
+  String get card_send_otp_error_expired =>
+      'Verification code expired. Tap resend or try again.';
+
+  @override
+  String get card_send_otp_error_generic =>
+      'Couldn\'t verify your code. Please try again.';
+
+  @override
+  String get card_send_otp_resent => 'Verification code resent';
+
+  @override
+  String get card_send_sca_title_swap => 'Verify Card balance swap';
+
+  @override
+  String get card_send_sca_action_swap => 'Verify and swap';
+
+  @override
+  String send_amount_error_minimum_btc_symbol(String min) {
+    return 'Minimum is ฿$min';
+  }
+
+  @override
+  String get card_send_error_zero_invoice =>
+      'Zero-amount invoices are not supported. Use one with an embedded amount.';
+
+  @override
+  String get card_send_detected_btc_address =>
+      'Bitcoin address detected — tap Next to save it as a wallet.';
+
+  @override
+  String get card_send_error_unrecognised => 'Unrecognised address or invoice';
+
+  @override
+  String get card_send_select_recipient => 'Select or add recipient';
+
+  @override
+  String get card_send_error_load_wallets =>
+      'Could not load saved wallets. Pull to retry.';
+
+  @override
+  String get card_send_no_wallets =>
+      'No saved wallets yet. Tap + to add one, or paste a Lightning invoice above.';
+
+  @override
+  String get card_send_error_resave =>
+      'Could not re-save the wallet. Try again.';
+
+  @override
+  String get card_send_resave_title => 'Re-save this wallet';
+
+  @override
+  String get card_send_resave_message =>
+      'This Lightning address was saved before EU Travel Rule. Re-save it to enable payments.';
+
+  @override
+  String get card_send_action_resave => 'Re-save';
 }

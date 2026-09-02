@@ -1578,5 +1578,70 @@
     }
   },
   "card_atm_pin_title": "Reset your card PIN at an ATM",
-  "card_atm_pin_message": "Changing your card PIN isn't available in the app yet. For now, you can reset it at any ATM that supports PIN changes.\n\nWe're working on adding in-app PIN changes in an upcoming release."
+  "card_atm_pin_message": "Changing your card PIN isn't available in the app yet. For now, you can reset it at any ATM that supports PIN changes.\n\nWe're working on adding in-app PIN changes in an upcoming release.",
+  "card_send_sheet_prompt": "Where to send?",
+  "card_send_option_bitcoin": "Send to Bitcoin wallet",
+  "card_send_option_euro": "Send to Euro account",
+  "card_send_option_external": "Send to external wallets",
+  "card_send_subtitle_bitcoin": "Card balance to Bitcoin wallet",
+  "card_send_subtitle_euro": "Card balance to Euro account",
+  "card_send_subtitle_external": "Card balance to external wallet",
+  "card_send_step_recipient": "Recipient",
+  "card_send_step_verify": "Verify & pay",
+  "card_send_use_full_balance": "Use the full Card balance",
+  "card_send_action_wallet": "Send to wallet",
+  "card_send_processing": "Sending money...",
+  "card_send_invoice_description": "Card balance withdraw",
+  "card_send_lnurl_comment": "Send from Bringin card",
+  "card_send_error_ln_cap": "Lightning transfers are capped at €{cap}. Lower the amount.",
+  "@card_send_error_ln_cap": {
+    "placeholders": {
+      "cap": {
+        "type": "int",
+        "example": "1000"
+      }
+    }
+  },
+  "card_send_error_ln_cap_external": "Lightning transfers are capped at €{cap}. Lower the amount or choose an on-chain wallet.",
+  "@card_send_error_ln_cap_external": {
+    "placeholders": {
+      "cap": {
+        "type": "int",
+        "example": "1000"
+      }
+    }
+  },
+  "card_send_failure_reason": "Transaction {status}",
+  "@card_send_failure_reason": {
+    "placeholders": {
+      "status": {
+        "type": "String",
+        "example": "failed"
+      }
+    }
+  },
+  "card_send_otp_error_expired": "Verification code expired. Tap resend or try again.",
+  "card_send_otp_error_generic": "Couldn't verify your code. Please try again.",
+  "card_send_otp_resent": "Verification code resent",
+  "card_send_sca_title_swap": "Verify Card balance swap",
+  "card_send_sca_action_swap": "Verify and swap",
+  "send_amount_error_minimum_btc_symbol": "Minimum is ฿{min}",
+  "@send_amount_error_minimum_btc_symbol": {
+    "placeholders": {
+      "min": {
+        "type": "String",
+        "example": "0,0001"
+      }
+    }
+  },
+  "card_send_error_zero_invoice": "Zero-amount invoices are not supported. Use one with an embedded amount.",
+  "card_send_detected_btc_address": "Bitcoin address detected — tap Next to save it as a wallet.",
+  "card_send_error_unrecognised": "Unrecognised address or invoice",
+  "card_send_select_recipient": "Select or add recipient",
+  "card_send_error_load_wallets": "Could not load saved wallets. Pull to retry.",
+  "card_send_no_wallets": "No saved wallets yet. Tap + to add one, or paste a Lightning invoice above.",
+  "card_send_error_resave": "Could not re-save the wallet. Try again.",
+  "card_send_resave_title": "Re-save this wallet",
+  "card_send_resave_message": "This Lightning address was saved before EU Travel Rule. Re-save it to enable payments.",
+  "card_send_action_resave": "Re-save"
 }
