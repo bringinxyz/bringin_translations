@@ -8434,6 +8434,312 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'No addresses to show'**
   String get buy_whitelist_empty;
+
+  /// No description provided for @buy_invoice_unreadable_title.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t read that invoice'**
+  String get buy_invoice_unreadable_title;
+
+  /// No description provided for @buy_invoice_unreadable_body.
+  ///
+  /// In en, this message translates to:
+  /// **'The link didn\'t include a valid Lightning invoice. Ask for a new one, or paste an invoice here.'**
+  String get buy_invoice_unreadable_body;
+
+  /// No description provided for @buy_invoice_not_mainnet_title.
+  ///
+  /// In en, this message translates to:
+  /// **'This invoice isn\'t on Bitcoin mainnet'**
+  String get buy_invoice_not_mainnet_title;
+
+  /// No description provided for @buy_invoice_not_mainnet_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin can only pay mainnet invoices. Ask for a mainnet one, or paste another invoice here.'**
+  String get buy_invoice_not_mainnet_body;
+
+  /// No description provided for @buy_invoice_no_amount_title.
+  ///
+  /// In en, this message translates to:
+  /// **'This invoice has no amount'**
+  String get buy_invoice_no_amount_title;
+
+  /// No description provided for @buy_invoice_no_amount_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin needs an invoice with a fixed amount. Ask for one with the amount set, or paste another invoice here.'**
+  String get buy_invoice_no_amount_body;
+
+  /// No description provided for @buy_invoice_expired_title.
+  ///
+  /// In en, this message translates to:
+  /// **'This invoice has expired'**
+  String get buy_invoice_expired_title;
+
+  /// No description provided for @buy_invoice_expired_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning invoices are only valid for a short time. Ask for a new one, or paste another invoice here.'**
+  String get buy_invoice_expired_body;
+
+  /// No description provided for @buy_invoice_no_amount_short.
+  ///
+  /// In en, this message translates to:
+  /// **'This invoice has no amount. Request one with a fixed amount.'**
+  String get buy_invoice_no_amount_short;
+
+  /// No description provided for @buy_sca_title_conversion.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify Euro to Bitcoin conversion'**
+  String get buy_sca_title_conversion;
+
+  /// No description provided for @buy_sca_action_conversion.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify and buy Bitcoin'**
+  String get buy_sca_action_conversion;
+
+  /// No description provided for @buy_verify_two_steps.
+  ///
+  /// In en, this message translates to:
+  /// **'This transaction requires two verification steps: one for the currency conversion and another for the Bitcoin withdrawal.'**
+  String get buy_verify_two_steps;
+
+  /// No description provided for @buy_verify_withdrawal.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify withdrawal'**
+  String get buy_verify_withdrawal;
+
+  /// No description provided for @buy_verify_purchased_note.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin purchased. Complete verification to receive your funds.'**
+  String get buy_verify_purchased_note;
+
+  /// No description provided for @buy_otp_error_expired_send_again.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification code expired. Tap send again.'**
+  String get buy_otp_error_expired_send_again;
+
+  /// No description provided for @buy_otp_resent.
+  ///
+  /// In en, this message translates to:
+  /// **'Code resent'**
+  String get buy_otp_resent;
+
+  /// No description provided for @buy_action_start_again_passkey.
+  ///
+  /// In en, this message translates to:
+  /// **'Start again with passkey'**
+  String get buy_action_start_again_passkey;
+
+  /// No description provided for @buy_action_start_again_sms.
+  ///
+  /// In en, this message translates to:
+  /// **'Start again with SMS'**
+  String get buy_action_start_again_sms;
+
+  /// No description provided for @buy_error_invoice_already_tied.
+  ///
+  /// In en, this message translates to:
+  /// **'That invoice is already tied to this order. Go back and paste a new one.'**
+  String get buy_error_invoice_already_tied;
+
+  /// No description provided for @buy_error_start_again.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t start again. Try again.'**
+  String get buy_error_start_again;
+
+  /// No description provided for @buy_error_order_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Order failed. Please try again.'**
+  String get buy_error_order_failed;
+
+  /// No description provided for @buy_error_create_order.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to create order. Try again.'**
+  String get buy_error_create_order;
+
+  /// No description provided for @buy_error_address_type_unsupported.
+  ///
+  /// In en, this message translates to:
+  /// **'This wallet uses an address type this app version doesn\'t support. Please update the app.'**
+  String get buy_error_address_type_unsupported;
+
+  /// No description provided for @buy_error_network_fresh_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t reach the Bitcoin network to pick a fresh address. Check your connection and try again.'**
+  String get buy_error_network_fresh_address;
+
+  /// No description provided for @buy_error_resolve_ln_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to resolve LN address'**
+  String get buy_error_resolve_ln_address;
+
+  /// No description provided for @buy_error_wallet_incomplete.
+  ///
+  /// In en, this message translates to:
+  /// **'This wallet isn\'t fully set up yet. Remove it and add it again to finish.'**
+  String get buy_error_wallet_incomplete;
+
+  /// No description provided for @buy_error_declaration_refresh.
+  ///
+  /// In en, this message translates to:
+  /// **'Declaration submitted, but we couldn’t refresh — pull-to-refresh and try again.'**
+  String get buy_error_declaration_refresh;
+
+  /// No description provided for @buy_error_address_not_declared.
+  ///
+  /// In en, this message translates to:
+  /// **'Address isn’t declared yet — please try again.'**
+  String get buy_error_address_not_declared;
+
+  /// No description provided for @buy_error_saved_wallet_not_found.
+  ///
+  /// In en, this message translates to:
+  /// **'Saved wallet not found'**
+  String get buy_error_saved_wallet_not_found;
+
+  /// No description provided for @buy_error_missing_declaration.
+  ///
+  /// In en, this message translates to:
+  /// **'Missing wallet declaration. Re-save the wallet from the add-wallet screen and try again.'**
+  String get buy_error_missing_declaration;
+
+  /// No description provided for @buy_error_verification_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet verification is required for transfers of €1,000 or more. Try again once complete.'**
+  String get buy_error_verification_required;
+
+  /// No description provided for @buy_error_start_verification.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not start wallet verification. Try again.'**
+  String get buy_error_start_verification;
+
+  /// No description provided for @buy_verification_complete_retry.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification complete — please try again.'**
+  String get buy_verification_complete_retry;
+
+  /// No description provided for @buy_verification_in_progress.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification in progress. This usually takes a few minutes — we’ll notify you when it’s complete.'**
+  String get buy_verification_in_progress;
+
+  /// No description provided for @buy_cap_additional_info.
+  ///
+  /// In en, this message translates to:
+  /// **'For sending above €1,000 to your wallet, we need some additional information from you to proceed.'**
+  String get buy_cap_additional_info;
+
+  /// No description provided for @buy_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy Bitcoin'**
+  String get buy_title;
+
+  /// No description provided for @buy_to_wallet_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy to wallet'**
+  String get buy_to_wallet_title;
+
+  /// No description provided for @buy_topup_success.
+  ///
+  /// In en, this message translates to:
+  /// **'Top-up successful!'**
+  String get buy_topup_success;
+
+  /// No description provided for @buy_select_wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Select or add a wallet'**
+  String get buy_select_wallet;
+
+  /// No description provided for @buy_new_address_each_time.
+  ///
+  /// In en, this message translates to:
+  /// **'New address each time'**
+  String get buy_new_address_each_time;
+
+  /// No description provided for @buy_add_ln_invoice_or_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a lightning invoice or address'**
+  String get buy_add_ln_invoice_or_address;
+
+  /// No description provided for @buy_field_ln_invoice_or_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Lightning invoice or address'**
+  String get buy_field_ln_invoice_or_address;
+
+  /// No description provided for @buy_hint_paste_invoice_or_domain.
+  ///
+  /// In en, this message translates to:
+  /// **'Paste invoice or you@domain.com'**
+  String get buy_hint_paste_invoice_or_domain;
+
+  /// No description provided for @buy_error_enter_ln.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a Lightning invoice or address'**
+  String get buy_error_enter_ln;
+
+  /// No description provided for @buy_error_parse_invoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not parse invoice or address'**
+  String get buy_error_parse_invoice;
+
+  /// No description provided for @buy_use_full_balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Use the full account balance'**
+  String get buy_use_full_balance;
+
+  /// No description provided for @buy_field_buy_for.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy for'**
+  String get buy_field_buy_for;
+
+  /// No description provided for @buy_field_you_pay.
+  ///
+  /// In en, this message translates to:
+  /// **'You pay'**
+  String get buy_field_you_pay;
+
+  /// No description provided for @buy_expand_limits.
+  ///
+  /// In en, this message translates to:
+  /// **'Expand your transfer limits'**
+  String get buy_expand_limits;
+
+  /// No description provided for @buy_action_swipe.
+  ///
+  /// In en, this message translates to:
+  /// **'Swipe to buy Bitcoin'**
+  String get buy_action_swipe;
+
+  /// No description provided for @buy_action_resave_retry.
+  ///
+  /// In en, this message translates to:
+  /// **'Re-save and retry'**
+  String get buy_action_resave_retry;
 }
 
 class _BringinTranslationsDelegate

@@ -4865,4 +4865,180 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get buy_whitelist_empty => 'No addresses to show';
+
+  @override
+  String get buy_invoice_unreadable_title => 'We couldn\'t read that invoice';
+
+  @override
+  String get buy_invoice_unreadable_body =>
+      'The link didn\'t include a valid Lightning invoice. Ask for a new one, or paste an invoice here.';
+
+  @override
+  String get buy_invoice_not_mainnet_title =>
+      'This invoice isn\'t on Bitcoin mainnet';
+
+  @override
+  String get buy_invoice_not_mainnet_body =>
+      'Bringin can only pay mainnet invoices. Ask for a mainnet one, or paste another invoice here.';
+
+  @override
+  String get buy_invoice_no_amount_title => 'This invoice has no amount';
+
+  @override
+  String get buy_invoice_no_amount_body =>
+      'Bringin needs an invoice with a fixed amount. Ask for one with the amount set, or paste another invoice here.';
+
+  @override
+  String get buy_invoice_expired_title => 'This invoice has expired';
+
+  @override
+  String get buy_invoice_expired_body =>
+      'Lightning invoices are only valid for a short time. Ask for a new one, or paste another invoice here.';
+
+  @override
+  String get buy_invoice_no_amount_short =>
+      'This invoice has no amount. Request one with a fixed amount.';
+
+  @override
+  String get buy_sca_title_conversion => 'Verify Euro to Bitcoin conversion';
+
+  @override
+  String get buy_sca_action_conversion => 'Verify and buy Bitcoin';
+
+  @override
+  String get buy_verify_two_steps =>
+      'This transaction requires two verification steps: one for the currency conversion and another for the Bitcoin withdrawal.';
+
+  @override
+  String get buy_verify_withdrawal => 'Verify withdrawal';
+
+  @override
+  String get buy_verify_purchased_note =>
+      'Bitcoin purchased. Complete verification to receive your funds.';
+
+  @override
+  String get buy_otp_error_expired_send_again =>
+      'Verification code expired. Tap send again.';
+
+  @override
+  String get buy_otp_resent => 'Code resent';
+
+  @override
+  String get buy_action_start_again_passkey => 'Start again with passkey';
+
+  @override
+  String get buy_action_start_again_sms => 'Start again with SMS';
+
+  @override
+  String get buy_error_invoice_already_tied =>
+      'That invoice is already tied to this order. Go back and paste a new one.';
+
+  @override
+  String get buy_error_start_again => 'Couldn\'t start again. Try again.';
+
+  @override
+  String get buy_error_order_failed => 'Order failed. Please try again.';
+
+  @override
+  String get buy_error_create_order => 'Failed to create order. Try again.';
+
+  @override
+  String get buy_error_address_type_unsupported =>
+      'This wallet uses an address type this app version doesn\'t support. Please update the app.';
+
+  @override
+  String get buy_error_network_fresh_address =>
+      'Couldn\'t reach the Bitcoin network to pick a fresh address. Check your connection and try again.';
+
+  @override
+  String get buy_error_resolve_ln_address => 'Failed to resolve LN address';
+
+  @override
+  String get buy_error_wallet_incomplete =>
+      'This wallet isn\'t fully set up yet. Remove it and add it again to finish.';
+
+  @override
+  String get buy_error_declaration_refresh =>
+      'Declaration submitted, but we couldn’t refresh — pull-to-refresh and try again.';
+
+  @override
+  String get buy_error_address_not_declared =>
+      'Address isn’t declared yet — please try again.';
+
+  @override
+  String get buy_error_saved_wallet_not_found => 'Saved wallet not found';
+
+  @override
+  String get buy_error_missing_declaration =>
+      'Missing wallet declaration. Re-save the wallet from the add-wallet screen and try again.';
+
+  @override
+  String get buy_error_verification_required =>
+      'Wallet verification is required for transfers of €1,000 or more. Try again once complete.';
+
+  @override
+  String get buy_error_start_verification =>
+      'Could not start wallet verification. Try again.';
+
+  @override
+  String get buy_verification_complete_retry =>
+      'Verification complete — please try again.';
+
+  @override
+  String get buy_verification_in_progress =>
+      'Verification in progress. This usually takes a few minutes — we’ll notify you when it’s complete.';
+
+  @override
+  String get buy_cap_additional_info =>
+      'For sending above €1,000 to your wallet, we need some additional information from you to proceed.';
+
+  @override
+  String get buy_title => 'Buy Bitcoin';
+
+  @override
+  String get buy_to_wallet_title => 'Buy to wallet';
+
+  @override
+  String get buy_topup_success => 'Top-up successful!';
+
+  @override
+  String get buy_select_wallet => 'Select or add a wallet';
+
+  @override
+  String get buy_new_address_each_time => 'New address each time';
+
+  @override
+  String get buy_add_ln_invoice_or_address =>
+      'Add a lightning invoice or address';
+
+  @override
+  String get buy_field_ln_invoice_or_address => 'Lightning invoice or address';
+
+  @override
+  String get buy_hint_paste_invoice_or_domain =>
+      'Paste invoice or you@domain.com';
+
+  @override
+  String get buy_error_enter_ln => 'Enter a Lightning invoice or address';
+
+  @override
+  String get buy_error_parse_invoice => 'Could not parse invoice or address';
+
+  @override
+  String get buy_use_full_balance => 'Use the full account balance';
+
+  @override
+  String get buy_field_buy_for => 'Buy for';
+
+  @override
+  String get buy_field_you_pay => 'You pay';
+
+  @override
+  String get buy_expand_limits => 'Expand your transfer limits';
+
+  @override
+  String get buy_action_swipe => 'Swipe to buy Bitcoin';
+
+  @override
+  String get buy_action_resave_retry => 'Re-save and retry';
 }
