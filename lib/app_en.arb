@@ -39,6 +39,7 @@
   "bringin_type_exchange_rate_change": "Exchange rate change",
   "bringin_type_deposit": "Deposit",
   "bringin_type_ln_address_deposit": "Lightning Deposit",
+  "bringin_type_crypto_deposit": "Bitcoin received",
   "bringin_type_swap_currency": "Bitcoin To Euro Swap",
   "bringin_type_card_creation_fee": "Card Creation Fee",
   "bringin_card_type_physical": "Physical",

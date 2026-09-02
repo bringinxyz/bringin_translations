@@ -232,6 +232,12 @@ abstract class BringinTranslations {
   /// **'Lightning Deposit'**
   String get bringin_type_ln_address_deposit;
 
+  /// No description provided for @bringin_type_crypto_deposit.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin received'**
+  String get bringin_type_crypto_deposit;
+
   /// No description provided for @bringin_type_swap_currency.
   ///
   /// In en, this message translates to:
