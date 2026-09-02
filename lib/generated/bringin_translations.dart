@@ -9346,6 +9346,366 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'KYC verification failed. Please try again.'**
   String get kyc_error_failed;
+
+  /// No description provided for @home_cards_physical_section.
+  ///
+  /// In en, this message translates to:
+  /// **'Physical cards'**
+  String get home_cards_physical_section;
+
+  /// No description provided for @home_cards_physical_add.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a physical card'**
+  String get home_cards_physical_add;
+
+  /// No description provided for @home_cards_physical_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'All your physical cards will appear here.'**
+  String get home_cards_physical_empty;
+
+  /// No description provided for @home_cards_virtual_section.
+  ///
+  /// In en, this message translates to:
+  /// **'Virtual cards'**
+  String get home_cards_virtual_section;
+
+  /// No description provided for @home_cards_virtual_add.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a virtual card'**
+  String get home_cards_virtual_add;
+
+  /// No description provided for @home_cards_virtual_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'All your virtual cards will appear here.'**
+  String get home_cards_virtual_empty;
+
+  /// No description provided for @home_cards_funding_section.
+  ///
+  /// In en, this message translates to:
+  /// **'Funding accounts'**
+  String get home_cards_funding_section;
+
+  /// No description provided for @home_cards_linked_count.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{No cards linked.} =1{1 linked card.} other{{count} linked cards.}}'**
+  String home_cards_linked_count(int count);
+
+  /// No description provided for @home_cards_order_physical.
+  ///
+  /// In en, this message translates to:
+  /// **'Order a physical card'**
+  String get home_cards_order_physical;
+
+  /// No description provided for @home_cards_activate_physical.
+  ///
+  /// In en, this message translates to:
+  /// **'Activate your physical card'**
+  String get home_cards_activate_physical;
+
+  /// No description provided for @home_cards_atm_first_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Use your card at an ATM first'**
+  String get home_cards_atm_first_title;
+
+  /// No description provided for @home_cards_atm_first_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Check your balance at any ATM to start using your card. This step is required only the first time.'**
+  String get home_cards_atm_first_body;
+
+  /// No description provided for @home_cards_promo_spend_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Spend anywhere, anytime'**
+  String get home_cards_promo_spend_title;
+
+  /// No description provided for @home_cards_promo_spend_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Shop in-store or withdraw cash at ATMs worldwide, backed by Euro and crypto account flexibility.'**
+  String get home_cards_promo_spend_body;
+
+  /// No description provided for @home_cards_promo_dual_title.
+  ///
+  /// In en, this message translates to:
+  /// **'One card, dual power'**
+  String get home_cards_promo_dual_title;
+
+  /// No description provided for @home_cards_promo_dual_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Switch between Euro and crypto balances effortlessly, giving full control of how you spend.'**
+  String get home_cards_promo_dual_body;
+
+  /// No description provided for @home_cards_promo_order_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Order now, get it in 13 days'**
+  String get home_cards_promo_order_title;
+
+  /// No description provided for @home_cards_promo_order_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Enjoy the reliability of a physical card, accepted wherever major networks are.'**
+  String get home_cards_promo_order_body;
+
+  /// No description provided for @home_cards_promo_instant_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Instant issuance & flexibility'**
+  String get home_cards_promo_instant_title;
+
+  /// No description provided for @home_cards_promo_instant_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Create and use cards instantly, with the freedom to link to any of your accounts.'**
+  String get home_cards_promo_instant_body;
+
+  /// No description provided for @home_cards_promo_security_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Enhanced security'**
+  String get home_cards_promo_security_title;
+
+  /// No description provided for @home_cards_promo_security_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Protect your funds with disposable card numbers and real-time spend controls for safe online transactions.'**
+  String get home_cards_promo_security_body;
+
+  /// No description provided for @home_cards_promo_multi_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Seamless multi-currency use'**
+  String get home_cards_promo_multi_title;
+
+  /// No description provided for @home_cards_promo_multi_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay online in Euro or crypto without hassle, moving accounts instantly for smooth global spending.'**
+  String get home_cards_promo_multi_body;
+
+  /// No description provided for @home_cards_error_load.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t load your cards.'**
+  String get home_cards_error_load;
+
+  /// No description provided for @card_status_active.
+  ///
+  /// In en, this message translates to:
+  /// **'Active'**
+  String get card_status_active;
+
+  /// No description provided for @card_status_yet_to_dispatch.
+  ///
+  /// In en, this message translates to:
+  /// **'Yet to dispatch'**
+  String get card_status_yet_to_dispatch;
+
+  /// No description provided for @card_status_dispatched.
+  ///
+  /// In en, this message translates to:
+  /// **'Dispatched'**
+  String get card_status_dispatched;
+
+  /// No description provided for @card_status_frozen.
+  ///
+  /// In en, this message translates to:
+  /// **'Frozen'**
+  String get card_status_frozen;
+
+  /// No description provided for @card_status_closed.
+  ///
+  /// In en, this message translates to:
+  /// **'Closed'**
+  String get card_status_closed;
+
+  /// No description provided for @card_status_expired.
+  ///
+  /// In en, this message translates to:
+  /// **'Expired'**
+  String get card_status_expired;
+
+  /// No description provided for @home_connect_setup.
+  ///
+  /// In en, this message translates to:
+  /// **'Setup'**
+  String get home_connect_setup;
+
+  /// No description provided for @home_connect_all.
+  ///
+  /// In en, this message translates to:
+  /// **'All connections'**
+  String get home_connect_all;
+
+  /// No description provided for @home_connect_reenable_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Re-enable paused connections'**
+  String get home_connect_reenable_title;
+
+  /// No description provided for @home_connect_reenable_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Due to new Travel Rule requirements, we had to pause some of your existing connections. You can now re-enable them from this tab.\\n\\nWhen you re-enable a connection, we\'ll issue fresh details where required: a new vIBAN for Buy connections, or a new Bitcoin deposit address for on-chain Sell connections.\\n\\nYour destination stays the same — your connected wallet or bank account will not change.'**
+  String get home_connect_reenable_body;
+
+  /// No description provided for @home_connect_status_paused.
+  ///
+  /// In en, this message translates to:
+  /// **'Paused'**
+  String get home_connect_status_paused;
+
+  /// No description provided for @home_action_complete_transfer.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete transfer'**
+  String get home_action_complete_transfer;
+
+  /// No description provided for @home_action_verify_transfer.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify transfer'**
+  String get home_action_verify_transfer;
+
+  /// No description provided for @home_action_resume_transfer.
+  ///
+  /// In en, this message translates to:
+  /// **'Resume transfer'**
+  String get home_action_resume_transfer;
+
+  /// No description provided for @home_action_send_to_bank.
+  ///
+  /// In en, this message translates to:
+  /// **'Send to bank'**
+  String get home_action_send_to_bank;
+
+  /// No description provided for @home_action_resume_transaction.
+  ///
+  /// In en, this message translates to:
+  /// **'Resume transaction'**
+  String get home_action_resume_transaction;
+
+  /// No description provided for @home_action_send_more_bitcoin.
+  ///
+  /// In en, this message translates to:
+  /// **'Send more Bitcoin'**
+  String get home_action_send_more_bitcoin;
+
+  /// No description provided for @home_action_purchase_not_completed.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchase not completed'**
+  String get home_action_purchase_not_completed;
+
+  /// No description provided for @home_action_complete_the_transfer.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete the transfer'**
+  String get home_action_complete_the_transfer;
+
+  /// No description provided for @home_action_provide_new_destination.
+  ///
+  /// In en, this message translates to:
+  /// **'Provide a new destination'**
+  String get home_action_provide_new_destination;
+
+  /// No description provided for @home_action_send_to_my_bank.
+  ///
+  /// In en, this message translates to:
+  /// **'Send to my bank'**
+  String get home_action_send_to_my_bank;
+
+  /// No description provided for @home_action_resume_the_transaction.
+  ///
+  /// In en, this message translates to:
+  /// **'Resume the transaction'**
+  String get home_action_resume_the_transaction;
+
+  /// No description provided for @home_action_start_new_purchase.
+  ///
+  /// In en, this message translates to:
+  /// **'Start a new purchase'**
+  String get home_action_start_new_purchase;
+
+  /// No description provided for @home_action_label_source_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Source amount'**
+  String get home_action_label_source_amount;
+
+  /// No description provided for @home_action_label_destination_amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Destination amount'**
+  String get home_action_label_destination_amount;
+
+  /// No description provided for @home_action_label_time.
+  ///
+  /// In en, this message translates to:
+  /// **'Time'**
+  String get home_action_label_time;
+
+  /// No description provided for @home_action_reason_offramp_held.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Euro has been converted to Bitcoin and is held safely in your Bringin account. The transfer to your wallet was never started — tap below to complete it.'**
+  String get home_action_reason_offramp_held;
+
+  /// No description provided for @home_action_reason_needs_verification.
+  ///
+  /// In en, this message translates to:
+  /// **'This transfer needs a quick verification. Tap below to finish it.'**
+  String get home_action_reason_needs_verification;
+
+  /// No description provided for @home_action_reason_ln_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Lightning Network payment didn\'t complete. Your Bitcoin is held safely. Share a fresh Lightning invoice or address.'**
+  String get home_action_reason_ln_failed;
+
+  /// No description provided for @home_action_reason_euro_ready.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Bitcoin has been converted to Euro. The Euro is in your Bringin account. Start the bank transfer to send it to your bank.'**
+  String get home_action_reason_euro_ready;
+
+  /// No description provided for @home_action_reason_withdraw_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Your automatic Euro withdrawal didn\'t complete. Your funds are safe. Tap below to retry.'**
+  String get home_action_reason_withdraw_failed;
+
+  /// No description provided for @home_action_reason_buy_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Your automatic Bitcoin purchase didn\'t complete. Your funds are safe. Tap below to retry.'**
+  String get home_action_reason_buy_failed;
+
+  /// No description provided for @home_action_reason_below_minimum.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Bitcoin deposit has arrived in your Bringin account but is below the minimum needed to convert to Euro. Send more Bitcoin to the same deposit address to start the conversion, or contact us at support@bringin.xyz to recover the Bitcoin.'**
+  String get home_action_reason_below_minimum;
+
+  /// No description provided for @home_action_reason_not_verified_in_time.
+  ///
+  /// In en, this message translates to:
+  /// **'This purchase wasn\'t verified in time, so it didn\'t go through. No money left your account. Start a new purchase to try again.'**
+  String get home_action_reason_not_verified_in_time;
+
+  /// No description provided for @home_action_reason_partial.
+  ///
+  /// In en, this message translates to:
+  /// **'This transaction was partially completed and needs your attention.'**
+  String get home_action_reason_partial;
 }
 
 class _BringinTranslationsDelegate

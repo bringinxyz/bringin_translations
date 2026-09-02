@@ -5372,4 +5372,212 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get kyc_error_failed => 'KYC verification failed. Please try again.';
+
+  @override
+  String get home_cards_physical_section => 'Physical cards';
+
+  @override
+  String get home_cards_physical_add => 'Add a physical card';
+
+  @override
+  String get home_cards_physical_empty =>
+      'All your physical cards will appear here.';
+
+  @override
+  String get home_cards_virtual_section => 'Virtual cards';
+
+  @override
+  String get home_cards_virtual_add => 'Add a virtual card';
+
+  @override
+  String get home_cards_virtual_empty =>
+      'All your virtual cards will appear here.';
+
+  @override
+  String get home_cards_funding_section => 'Funding accounts';
+
+  @override
+  String home_cards_linked_count(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count linked cards.',
+      one: '1 linked card.',
+      zero: 'No cards linked.',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get home_cards_order_physical => 'Order a physical card';
+
+  @override
+  String get home_cards_activate_physical => 'Activate your physical card';
+
+  @override
+  String get home_cards_atm_first_title => 'Use your card at an ATM first';
+
+  @override
+  String get home_cards_atm_first_body =>
+      'Check your balance at any ATM to start using your card. This step is required only the first time.';
+
+  @override
+  String get home_cards_promo_spend_title => 'Spend anywhere, anytime';
+
+  @override
+  String get home_cards_promo_spend_body =>
+      'Shop in-store or withdraw cash at ATMs worldwide, backed by Euro and crypto account flexibility.';
+
+  @override
+  String get home_cards_promo_dual_title => 'One card, dual power';
+
+  @override
+  String get home_cards_promo_dual_body =>
+      'Switch between Euro and crypto balances effortlessly, giving full control of how you spend.';
+
+  @override
+  String get home_cards_promo_order_title => 'Order now, get it in 13 days';
+
+  @override
+  String get home_cards_promo_order_body =>
+      'Enjoy the reliability of a physical card, accepted wherever major networks are.';
+
+  @override
+  String get home_cards_promo_instant_title => 'Instant issuance & flexibility';
+
+  @override
+  String get home_cards_promo_instant_body =>
+      'Create and use cards instantly, with the freedom to link to any of your accounts.';
+
+  @override
+  String get home_cards_promo_security_title => 'Enhanced security';
+
+  @override
+  String get home_cards_promo_security_body =>
+      'Protect your funds with disposable card numbers and real-time spend controls for safe online transactions.';
+
+  @override
+  String get home_cards_promo_multi_title => 'Seamless multi-currency use';
+
+  @override
+  String get home_cards_promo_multi_body =>
+      'Pay online in Euro or crypto without hassle, moving accounts instantly for smooth global spending.';
+
+  @override
+  String get home_cards_error_load => 'Couldn\'t load your cards.';
+
+  @override
+  String get card_status_active => 'Active';
+
+  @override
+  String get card_status_yet_to_dispatch => 'Yet to dispatch';
+
+  @override
+  String get card_status_dispatched => 'Dispatched';
+
+  @override
+  String get card_status_frozen => 'Frozen';
+
+  @override
+  String get card_status_closed => 'Closed';
+
+  @override
+  String get card_status_expired => 'Expired';
+
+  @override
+  String get home_connect_setup => 'Setup';
+
+  @override
+  String get home_connect_all => 'All connections';
+
+  @override
+  String get home_connect_reenable_title => 'Re-enable paused connections';
+
+  @override
+  String get home_connect_reenable_body =>
+      'Due to new Travel Rule requirements, we had to pause some of your existing connections. You can now re-enable them from this tab.\\n\\nWhen you re-enable a connection, we\'ll issue fresh details where required: a new vIBAN for Buy connections, or a new Bitcoin deposit address for on-chain Sell connections.\\n\\nYour destination stays the same — your connected wallet or bank account will not change.';
+
+  @override
+  String get home_connect_status_paused => 'Paused';
+
+  @override
+  String get home_action_complete_transfer => 'Complete transfer';
+
+  @override
+  String get home_action_verify_transfer => 'Verify transfer';
+
+  @override
+  String get home_action_resume_transfer => 'Resume transfer';
+
+  @override
+  String get home_action_send_to_bank => 'Send to bank';
+
+  @override
+  String get home_action_resume_transaction => 'Resume transaction';
+
+  @override
+  String get home_action_send_more_bitcoin => 'Send more Bitcoin';
+
+  @override
+  String get home_action_purchase_not_completed => 'Purchase not completed';
+
+  @override
+  String get home_action_complete_the_transfer => 'Complete the transfer';
+
+  @override
+  String get home_action_provide_new_destination => 'Provide a new destination';
+
+  @override
+  String get home_action_send_to_my_bank => 'Send to my bank';
+
+  @override
+  String get home_action_resume_the_transaction => 'Resume the transaction';
+
+  @override
+  String get home_action_start_new_purchase => 'Start a new purchase';
+
+  @override
+  String get home_action_label_source_amount => 'Source amount';
+
+  @override
+  String get home_action_label_destination_amount => 'Destination amount';
+
+  @override
+  String get home_action_label_time => 'Time';
+
+  @override
+  String get home_action_reason_offramp_held =>
+      'Your Euro has been converted to Bitcoin and is held safely in your Bringin account. The transfer to your wallet was never started — tap below to complete it.';
+
+  @override
+  String get home_action_reason_needs_verification =>
+      'This transfer needs a quick verification. Tap below to finish it.';
+
+  @override
+  String get home_action_reason_ln_failed =>
+      'Your Lightning Network payment didn\'t complete. Your Bitcoin is held safely. Share a fresh Lightning invoice or address.';
+
+  @override
+  String get home_action_reason_euro_ready =>
+      'Your Bitcoin has been converted to Euro. The Euro is in your Bringin account. Start the bank transfer to send it to your bank.';
+
+  @override
+  String get home_action_reason_withdraw_failed =>
+      'Your automatic Euro withdrawal didn\'t complete. Your funds are safe. Tap below to retry.';
+
+  @override
+  String get home_action_reason_buy_failed =>
+      'Your automatic Bitcoin purchase didn\'t complete. Your funds are safe. Tap below to retry.';
+
+  @override
+  String get home_action_reason_below_minimum =>
+      'Your Bitcoin deposit has arrived in your Bringin account but is below the minimum needed to convert to Euro. Send more Bitcoin to the same deposit address to start the conversion, or contact us at support@bringin.xyz to recover the Bitcoin.';
+
+  @override
+  String get home_action_reason_not_verified_in_time =>
+      'This purchase wasn\'t verified in time, so it didn\'t go through. No money left your account. Start a new purchase to try again.';
+
+  @override
+  String get home_action_reason_partial =>
+      'This transaction was partially completed and needs your attention.';
 }
