@@ -8158,6 +8158,282 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Declaration submitted'**
   String get tr_submitted_title;
+
+  /// No description provided for @buy_wallet_error_keys_pasted.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet keys can\'t be pasted. Connect your Trezor below to import a wallet.'**
+  String get buy_wallet_error_keys_pasted;
+
+  /// No description provided for @buy_wallet_error_unsupported_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Only Bitcoin or Lightning addresses are supported'**
+  String get buy_wallet_error_unsupported_address;
+
+  /// No description provided for @buy_wallet_error_invalid_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid address'**
+  String get buy_wallet_error_invalid_address;
+
+  /// No description provided for @buy_wallet_error_duplicate_label.
+  ///
+  /// In en, this message translates to:
+  /// **'You already have a wallet with this name.'**
+  String get buy_wallet_error_duplicate_label;
+
+  /// No description provided for @buy_wallet_saved_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Address already saved'**
+  String get buy_wallet_saved_title;
+
+  /// No description provided for @buy_wallet_saved_body.
+  ///
+  /// In en, this message translates to:
+  /// **'This address is already saved as \"{label}\". The purchase will use that wallet.'**
+  String buy_wallet_saved_body(String label);
+
+  /// No description provided for @buy_wallet_label_not_saved.
+  ///
+  /// In en, this message translates to:
+  /// **'Your new label \"{label}\" won\'t be saved'**
+  String buy_wallet_label_not_saved(String label);
+
+  /// No description provided for @buy_wallet_saved_note.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin keeps only one label per address. You can rename this wallet later from the wallet list.'**
+  String get buy_wallet_saved_note;
+
+  /// No description provided for @buy_wallet_action_use_saved.
+  ///
+  /// In en, this message translates to:
+  /// **'Use saved wallet'**
+  String get buy_wallet_action_use_saved;
+
+  /// No description provided for @buy_wallet_field_address.
+  ///
+  /// In en, this message translates to:
+  /// **'On-chain/ lightning address'**
+  String get buy_wallet_field_address;
+
+  /// No description provided for @buy_wallet_ln_cap_note.
+  ///
+  /// In en, this message translates to:
+  /// **'You can only send upto €{cap} through lightning addresses.'**
+  String buy_wallet_ln_cap_note(int cap);
+
+  /// No description provided for @buy_wallet_section_supported.
+  ///
+  /// In en, this message translates to:
+  /// **'Supported wallets'**
+  String get buy_wallet_section_supported;
+
+  /// No description provided for @buy_wallet_action_connect_trezor.
+  ///
+  /// In en, this message translates to:
+  /// **'Connect Trezor'**
+  String get buy_wallet_action_connect_trezor;
+
+  /// No description provided for @buy_wallet_trezor_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Import your wallet in one tap. Every purchase gets a fresh address.'**
+  String get buy_wallet_trezor_hint;
+
+  /// No description provided for @buy_processing_success.
+  ///
+  /// In en, this message translates to:
+  /// **'Bought Bitcoin successfully!'**
+  String get buy_processing_success;
+
+  /// No description provided for @buy_processing_on_way.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Bitcoin is on its way...'**
+  String get buy_processing_on_way;
+
+  /// No description provided for @buy_processing_notify_30min.
+  ///
+  /// In en, this message translates to:
+  /// **'Takes up to 30 minutes. We\'ll notify when done.'**
+  String get buy_processing_notify_30min;
+
+  /// No description provided for @buy_label_from_account.
+  ///
+  /// In en, this message translates to:
+  /// **'From Account'**
+  String get buy_label_from_account;
+
+  /// No description provided for @buy_label_to_wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'To wallet'**
+  String get buy_label_to_wallet;
+
+  /// No description provided for @buy_reference_from_bringin_account.
+  ///
+  /// In en, this message translates to:
+  /// **'From Bringin account'**
+  String get buy_reference_from_bringin_account;
+
+  /// No description provided for @buy_xpub_error_label_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a name for this wallet.'**
+  String get buy_xpub_error_label_required;
+
+  /// No description provided for @buy_xpub_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm your wallet'**
+  String get buy_xpub_title;
+
+  /// No description provided for @buy_xpub_check_note.
+  ///
+  /// In en, this message translates to:
+  /// **'Check this matches the first address in your wallet.'**
+  String get buy_xpub_check_note;
+
+  /// No description provided for @buy_xpub_label_first_address.
+  ///
+  /// In en, this message translates to:
+  /// **'First address'**
+  String get buy_xpub_label_first_address;
+
+  /// No description provided for @buy_xpub_fresh_address_note.
+  ///
+  /// In en, this message translates to:
+  /// **'Each purchase uses a new address from this wallet, so you never have to add it again.'**
+  String get buy_xpub_fresh_address_note;
+
+  /// No description provided for @buy_xpub_status_connected.
+  ///
+  /// In en, this message translates to:
+  /// **'Connected'**
+  String get buy_xpub_status_connected;
+
+  /// No description provided for @buy_xpub_device_trezor.
+  ///
+  /// In en, this message translates to:
+  /// **'Trezor'**
+  String get buy_xpub_device_trezor;
+
+  /// No description provided for @buy_xpub_checking.
+  ///
+  /// In en, this message translates to:
+  /// **'Checking…'**
+  String get buy_xpub_checking;
+
+  /// No description provided for @buy_xpub_mismatch.
+  ///
+  /// In en, this message translates to:
+  /// **'That\'s not the address my wallet shows'**
+  String get buy_xpub_mismatch;
+
+  /// No description provided for @buy_xpub_prove_ownership.
+  ///
+  /// In en, this message translates to:
+  /// **'Prove ownership'**
+  String get buy_xpub_prove_ownership;
+
+  /// No description provided for @buy_xpub_skip.
+  ///
+  /// In en, this message translates to:
+  /// **'Skip verification (only buys under €1,000)'**
+  String get buy_xpub_skip;
+
+  /// No description provided for @buy_ln_declare_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Declare wallet source'**
+  String get buy_ln_declare_title;
+
+  /// No description provided for @buy_ln_declare_intro.
+  ///
+  /// In en, this message translates to:
+  /// **'Under EU Travel Rule we ask who owns each Lightning address you save. Lightning is capped at €{cap} per transaction, so no extra proof is needed.'**
+  String buy_ln_declare_intro(int cap);
+
+  /// No description provided for @buy_ln_option_own.
+  ///
+  /// In en, this message translates to:
+  /// **'My own wallet'**
+  String get buy_ln_option_own;
+
+  /// No description provided for @buy_ln_option_own_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'You control this Lightning wallet.'**
+  String get buy_ln_option_own_hint;
+
+  /// No description provided for @buy_ln_option_someone_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet belongs to another individual.'**
+  String get buy_ln_option_someone_hint;
+
+  /// No description provided for @buy_address_error_invalid_input.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid input'**
+  String get buy_address_error_invalid_input;
+
+  /// No description provided for @buy_address_error_unsupported_format.
+  ///
+  /// In en, this message translates to:
+  /// **'Unsupported invoice format'**
+  String get buy_address_error_unsupported_format;
+
+  /// No description provided for @buy_address_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Type or paste Bitcoin address or lightning address or a lightning invoice (bolt11)'**
+  String get buy_address_hint;
+
+  /// No description provided for @buy_address_formats.
+  ///
+  /// In en, this message translates to:
+  /// **'BTC Address | Lightning Address | Invoice (bolt11)'**
+  String get buy_address_formats;
+
+  /// No description provided for @buy_address_label_nickname.
+  ///
+  /// In en, this message translates to:
+  /// **'Nickname'**
+  String get buy_address_label_nickname;
+
+  /// No description provided for @buy_address_error_nickname_length.
+  ///
+  /// In en, this message translates to:
+  /// **'Nickname must be between 3 and 30 characters'**
+  String get buy_address_error_nickname_length;
+
+  /// No description provided for @buy_whitelist_new_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy to a new address'**
+  String get buy_whitelist_new_address;
+
+  /// No description provided for @buy_whitelist_recent.
+  ///
+  /// In en, this message translates to:
+  /// **'Recently used addresses'**
+  String get buy_whitelist_recent;
+
+  /// No description provided for @buy_whitelist_no_details.
+  ///
+  /// In en, this message translates to:
+  /// **'No address details available'**
+  String get buy_whitelist_no_details;
+
+  /// No description provided for @buy_whitelist_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'No addresses to show'**
+  String get buy_whitelist_empty;
 }
 
 class _BringinTranslationsDelegate

@@ -2108,5 +2108,83 @@
   "tr_needed_title": "Declaration needed",
   "tr_needed_body": "On-chain Bitcoin transfers require a quick one-time declaration about this wallet — it’s an EU regulation that applies to any amount.",
   "tr_needed_action": "Proceed",
-  "tr_submitted_title": "Declaration submitted"
+  "tr_submitted_title": "Declaration submitted",
+  "buy_wallet_error_keys_pasted": "Wallet keys can't be pasted. Connect your Trezor below to import a wallet.",
+  "buy_wallet_error_unsupported_address": "Only Bitcoin or Lightning addresses are supported",
+  "buy_wallet_error_invalid_address": "Invalid address",
+  "buy_wallet_error_duplicate_label": "You already have a wallet with this name.",
+  "buy_wallet_saved_title": "Address already saved",
+  "buy_wallet_saved_body": "This address is already saved as \"{label}\". The purchase will use that wallet.",
+  "@buy_wallet_saved_body": {
+    "placeholders": {
+      "label": {
+        "type": "String",
+        "example": "Blue wallet"
+      }
+    }
+  },
+  "buy_wallet_label_not_saved": "Your new label \"{label}\" won't be saved",
+  "@buy_wallet_label_not_saved": {
+    "placeholders": {
+      "label": {
+        "type": "String",
+        "example": "Blue wallet"
+      }
+    }
+  },
+  "buy_wallet_saved_note": "Bringin keeps only one label per address. You can rename this wallet later from the wallet list.",
+  "buy_wallet_action_use_saved": "Use saved wallet",
+  "buy_wallet_field_address": "On-chain/ lightning address",
+  "buy_wallet_ln_cap_note": "You can only send upto €{cap} through lightning addresses.",
+  "@buy_wallet_ln_cap_note": {
+    "placeholders": {
+      "cap": {
+        "type": "int",
+        "example": "1000"
+      }
+    }
+  },
+  "buy_wallet_section_supported": "Supported wallets",
+  "buy_wallet_action_connect_trezor": "Connect Trezor",
+  "buy_wallet_trezor_hint": "Import your wallet in one tap. Every purchase gets a fresh address.",
+  "buy_processing_success": "Bought Bitcoin successfully!",
+  "buy_processing_on_way": "Your Bitcoin is on its way...",
+  "buy_processing_notify_30min": "Takes up to 30 minutes. We'll notify when done.",
+  "buy_label_from_account": "From Account",
+  "buy_label_to_wallet": "To wallet",
+  "buy_reference_from_bringin_account": "From Bringin account",
+  "buy_xpub_error_label_required": "Add a name for this wallet.",
+  "buy_xpub_title": "Confirm your wallet",
+  "buy_xpub_check_note": "Check this matches the first address in your wallet.",
+  "buy_xpub_label_first_address": "First address",
+  "buy_xpub_fresh_address_note": "Each purchase uses a new address from this wallet, so you never have to add it again.",
+  "buy_xpub_status_connected": "Connected",
+  "buy_xpub_device_trezor": "Trezor",
+  "buy_xpub_checking": "Checking…",
+  "buy_xpub_mismatch": "That's not the address my wallet shows",
+  "buy_xpub_prove_ownership": "Prove ownership",
+  "buy_xpub_skip": "Skip verification (only buys under €1,000)",
+  "buy_ln_declare_title": "Declare wallet source",
+  "buy_ln_declare_intro": "Under EU Travel Rule we ask who owns each Lightning address you save. Lightning is capped at €{cap} per transaction, so no extra proof is needed.",
+  "@buy_ln_declare_intro": {
+    "placeholders": {
+      "cap": {
+        "type": "int",
+        "example": "1000"
+      }
+    }
+  },
+  "buy_ln_option_own": "My own wallet",
+  "buy_ln_option_own_hint": "You control this Lightning wallet.",
+  "buy_ln_option_someone_hint": "Wallet belongs to another individual.",
+  "buy_address_error_invalid_input": "Invalid input",
+  "buy_address_error_unsupported_format": "Unsupported invoice format",
+  "buy_address_hint": "Type or paste Bitcoin address or lightning address or a lightning invoice (bolt11)",
+  "buy_address_formats": "BTC Address | Lightning Address | Invoice (bolt11)",
+  "buy_address_label_nickname": "Nickname",
+  "buy_address_error_nickname_length": "Nickname must be between 3 and 30 characters",
+  "buy_whitelist_new_address": "Buy to a new address",
+  "buy_whitelist_recent": "Recently used addresses",
+  "buy_whitelist_no_details": "No address details available",
+  "buy_whitelist_empty": "No addresses to show"
 }

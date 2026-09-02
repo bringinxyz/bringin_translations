@@ -4706,4 +4706,163 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get tr_submitted_title => 'Declaration submitted';
+
+  @override
+  String get buy_wallet_error_keys_pasted =>
+      'Wallet keys can\'t be pasted. Connect your Trezor below to import a wallet.';
+
+  @override
+  String get buy_wallet_error_unsupported_address =>
+      'Only Bitcoin or Lightning addresses are supported';
+
+  @override
+  String get buy_wallet_error_invalid_address => 'Invalid address';
+
+  @override
+  String get buy_wallet_error_duplicate_label =>
+      'You already have a wallet with this name.';
+
+  @override
+  String get buy_wallet_saved_title => 'Address already saved';
+
+  @override
+  String buy_wallet_saved_body(String label) {
+    return 'This address is already saved as \"$label\". The purchase will use that wallet.';
+  }
+
+  @override
+  String buy_wallet_label_not_saved(String label) {
+    return 'Your new label \"$label\" won\'t be saved';
+  }
+
+  @override
+  String get buy_wallet_saved_note =>
+      'Bringin keeps only one label per address. You can rename this wallet later from the wallet list.';
+
+  @override
+  String get buy_wallet_action_use_saved => 'Use saved wallet';
+
+  @override
+  String get buy_wallet_field_address => 'On-chain/ lightning address';
+
+  @override
+  String buy_wallet_ln_cap_note(int cap) {
+    return 'You can only send upto €$cap through lightning addresses.';
+  }
+
+  @override
+  String get buy_wallet_section_supported => 'Supported wallets';
+
+  @override
+  String get buy_wallet_action_connect_trezor => 'Connect Trezor';
+
+  @override
+  String get buy_wallet_trezor_hint =>
+      'Import your wallet in one tap. Every purchase gets a fresh address.';
+
+  @override
+  String get buy_processing_success => 'Bought Bitcoin successfully!';
+
+  @override
+  String get buy_processing_on_way => 'Your Bitcoin is on its way...';
+
+  @override
+  String get buy_processing_notify_30min =>
+      'Takes up to 30 minutes. We\'ll notify when done.';
+
+  @override
+  String get buy_label_from_account => 'From Account';
+
+  @override
+  String get buy_label_to_wallet => 'To wallet';
+
+  @override
+  String get buy_reference_from_bringin_account => 'From Bringin account';
+
+  @override
+  String get buy_xpub_error_label_required => 'Add a name for this wallet.';
+
+  @override
+  String get buy_xpub_title => 'Confirm your wallet';
+
+  @override
+  String get buy_xpub_check_note =>
+      'Check this matches the first address in your wallet.';
+
+  @override
+  String get buy_xpub_label_first_address => 'First address';
+
+  @override
+  String get buy_xpub_fresh_address_note =>
+      'Each purchase uses a new address from this wallet, so you never have to add it again.';
+
+  @override
+  String get buy_xpub_status_connected => 'Connected';
+
+  @override
+  String get buy_xpub_device_trezor => 'Trezor';
+
+  @override
+  String get buy_xpub_checking => 'Checking…';
+
+  @override
+  String get buy_xpub_mismatch => 'That\'s not the address my wallet shows';
+
+  @override
+  String get buy_xpub_prove_ownership => 'Prove ownership';
+
+  @override
+  String get buy_xpub_skip => 'Skip verification (only buys under €1,000)';
+
+  @override
+  String get buy_ln_declare_title => 'Declare wallet source';
+
+  @override
+  String buy_ln_declare_intro(int cap) {
+    return 'Under EU Travel Rule we ask who owns each Lightning address you save. Lightning is capped at €$cap per transaction, so no extra proof is needed.';
+  }
+
+  @override
+  String get buy_ln_option_own => 'My own wallet';
+
+  @override
+  String get buy_ln_option_own_hint => 'You control this Lightning wallet.';
+
+  @override
+  String get buy_ln_option_someone_hint =>
+      'Wallet belongs to another individual.';
+
+  @override
+  String get buy_address_error_invalid_input => 'Invalid input';
+
+  @override
+  String get buy_address_error_unsupported_format =>
+      'Unsupported invoice format';
+
+  @override
+  String get buy_address_hint =>
+      'Type or paste Bitcoin address or lightning address or a lightning invoice (bolt11)';
+
+  @override
+  String get buy_address_formats =>
+      'BTC Address | Lightning Address | Invoice (bolt11)';
+
+  @override
+  String get buy_address_label_nickname => 'Nickname';
+
+  @override
+  String get buy_address_error_nickname_length =>
+      'Nickname must be between 3 and 30 characters';
+
+  @override
+  String get buy_whitelist_new_address => 'Buy to a new address';
+
+  @override
+  String get buy_whitelist_recent => 'Recently used addresses';
+
+  @override
+  String get buy_whitelist_no_details => 'No address details available';
+
+  @override
+  String get buy_whitelist_empty => 'No addresses to show';
 }
