@@ -6526,6 +6526,690 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Couldn\'t open your bank\'s app. Try approving in the browser instead.'**
   String get card_prepayment_error_bank_app;
+
+  /// No description provided for @profile_anon_card_error.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t activate your card. Please check your details and try again.'**
+  String get profile_anon_card_error;
+
+  /// No description provided for @profile_anon_card_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Activate Anonymous Card'**
+  String get profile_anon_card_title;
+
+  /// No description provided for @profile_anon_card_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Link your free debit card to your account with no extra cost'**
+  String get profile_anon_card_subtitle;
+
+  /// No description provided for @profile_anon_card_field_code.
+  ///
+  /// In en, this message translates to:
+  /// **'Activation Code'**
+  String get profile_anon_card_field_code;
+
+  /// No description provided for @profile_anon_card_field_code_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Code on your envelope'**
+  String get profile_anon_card_field_code_hint;
+
+  /// No description provided for @profile_anon_card_action.
+  ///
+  /// In en, this message translates to:
+  /// **'Link card'**
+  String get profile_anon_card_action;
+
+  /// No description provided for @profile_auto_decl_error.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t save that change. Try again in a moment.'**
+  String get profile_auto_decl_error;
+
+  /// No description provided for @profile_auto_decl_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Auto wallet declaration'**
+  String get profile_auto_decl_title;
+
+  /// No description provided for @profile_auto_decl_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Save your wallet preferences'**
+  String get profile_auto_decl_subtitle;
+
+  /// No description provided for @profile_auto_decl_intro.
+  ///
+  /// In en, this message translates to:
+  /// **'Tell us whether you normally buy to and sell from wallets you own. We\'ll use your choices as the default so you don\'t have to confirm this every time. For transfers over €1,000, we may still need to verify that you control the wallet, as required by EU rules.'**
+  String get profile_auto_decl_intro;
+
+  /// No description provided for @profile_auto_decl_buy_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy to my own wallet'**
+  String get profile_auto_decl_buy_title;
+
+  /// No description provided for @profile_auto_decl_buy_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Automatically treat new Bitcoin buys as going to a wallet I own.'**
+  String get profile_auto_decl_buy_subtitle;
+
+  /// No description provided for @profile_auto_decl_sell_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sell from my own wallet'**
+  String get profile_auto_decl_sell_title;
+
+  /// No description provided for @profile_auto_decl_sell_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Automatically treat new Bitcoin sells as coming from a wallet I own.'**
+  String get profile_auto_decl_sell_subtitle;
+
+  /// No description provided for @profile_auto_decl_footnote.
+  ///
+  /// In en, this message translates to:
+  /// **'These preferences apply only to new wallet addresses you add. Your existing wallet declarations won\'t change.'**
+  String get profile_auto_decl_footnote;
+
+  /// No description provided for @profile_backup_required_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Backup required'**
+  String get profile_backup_required_title;
+
+  /// No description provided for @profile_backup_required_action.
+  ///
+  /// In en, this message translates to:
+  /// **'I understand, logout'**
+  String get profile_backup_required_action;
+
+  /// No description provided for @profile_backup_required_ack.
+  ///
+  /// In en, this message translates to:
+  /// **'I understand that without a backup, my Bitcoin will be permanently lost and cannot be recovered.'**
+  String get profile_backup_required_ack;
+
+  /// No description provided for @profile_backup_required_warning.
+  ///
+  /// In en, this message translates to:
+  /// **'No backup = permanent loss. We don’t hold your keys or control your Bitcoin.'**
+  String get profile_backup_required_warning;
+
+  /// No description provided for @profile_delete_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete account'**
+  String get profile_delete_title;
+
+  /// No description provided for @profile_delete_confirm_heading.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure?'**
+  String get profile_delete_confirm_heading;
+
+  /// No description provided for @profile_delete_body.
+  ///
+  /// In en, this message translates to:
+  /// **'If you delete your account on Bringin, all your previous transaction history and other transaction-related details will also be deleted.'**
+  String get profile_delete_body;
+
+  /// No description provided for @profile_delete_note.
+  ///
+  /// In en, this message translates to:
+  /// **'Note: There are some details that our partners with whom we work are obligated to save for compliance reasons. More details about them are in the privacy policies. For more information, contact us at support@bringin.xyz'**
+  String get profile_delete_note;
+
+  /// No description provided for @profile_delete_action.
+  ///
+  /// In en, this message translates to:
+  /// **'Yes, delete my account'**
+  String get profile_delete_action;
+
+  /// No description provided for @profile_delete_done_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Account deleted'**
+  String get profile_delete_done_title;
+
+  /// No description provided for @profile_delete_done_body.
+  ///
+  /// In en, this message translates to:
+  /// **'If you wish to have an account with Bringin again with the same email address and mobile number, contact us at support@bringin.xyz'**
+  String get profile_delete_done_body;
+
+  /// No description provided for @profile_delete_action_home.
+  ///
+  /// In en, this message translates to:
+  /// **'Go to home'**
+  String get profile_delete_action_home;
+
+  /// No description provided for @profile_delete_error_password_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Your password can\'t be empty'**
+  String get profile_delete_error_password_empty;
+
+  /// No description provided for @profile_delete_error_password_invalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid password'**
+  String get profile_delete_error_password_invalid;
+
+  /// No description provided for @profile_export_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction statement'**
+  String get profile_export_title;
+
+  /// No description provided for @profile_export_intro.
+  ///
+  /// In en, this message translates to:
+  /// **'Select the period and format for your transaction statement. We\'ll email the export to your registered address '**
+  String get profile_export_intro;
+
+  /// No description provided for @profile_export_label_from.
+  ///
+  /// In en, this message translates to:
+  /// **'From'**
+  String get profile_export_label_from;
+
+  /// No description provided for @profile_export_label_format.
+  ///
+  /// In en, this message translates to:
+  /// **'Download format'**
+  String get profile_export_label_format;
+
+  /// No description provided for @profile_export_action_select_date.
+  ///
+  /// In en, this message translates to:
+  /// **'Select date'**
+  String get profile_export_action_select_date;
+
+  /// No description provided for @profile_export_action.
+  ///
+  /// In en, this message translates to:
+  /// **'Export'**
+  String get profile_export_action;
+
+  /// No description provided for @profile_export_toast_sent.
+  ///
+  /// In en, this message translates to:
+  /// **'Email sent.'**
+  String get profile_export_toast_sent;
+
+  /// No description provided for @profile_export_error_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Export failed. Please try again.'**
+  String get profile_export_error_failed;
+
+  /// No description provided for @profile_export_error_cancelled.
+  ///
+  /// In en, this message translates to:
+  /// **'Export cancelled — please try again.'**
+  String get profile_export_error_cancelled;
+
+  /// No description provided for @profile_kyc_title.
+  ///
+  /// In en, this message translates to:
+  /// **'KYC and limits'**
+  String get profile_kyc_title;
+
+  /// No description provided for @profile_kyc_section_deposit_limits.
+  ///
+  /// In en, this message translates to:
+  /// **'Deposit limits'**
+  String get profile_kyc_section_deposit_limits;
+
+  /// No description provided for @profile_kyc_banner_tier2.
+  ///
+  /// In en, this message translates to:
+  /// **'You’re on Tier 2 for your Euro and card accounts. You can increase your limits anytime.'**
+  String get profile_kyc_banner_tier2;
+
+  /// No description provided for @profile_kyc_banner_reaching.
+  ///
+  /// In en, this message translates to:
+  /// **'You are reaching the limits for your Euro account and Card balance account.'**
+  String get profile_kyc_banner_reaching;
+
+  /// No description provided for @profile_kyc_banner_tier1.
+  ///
+  /// In en, this message translates to:
+  /// **'You are on tier 1 for your Euro account and Card balance account.'**
+  String get profile_kyc_banner_tier1;
+
+  /// No description provided for @profile_kyc_tier_label.
+  ///
+  /// In en, this message translates to:
+  /// **'You are on Tier {tier}'**
+  String profile_kyc_tier_label(String tier);
+
+  /// No description provided for @profile_kyc_limit_row.
+  ///
+  /// In en, this message translates to:
+  /// **'{label} of {limit}/month'**
+  String profile_kyc_limit_row(String label, String limit);
+
+  /// No description provided for @profile_kyc_approaching.
+  ///
+  /// In en, this message translates to:
+  /// **'You’re approaching your transaction limits. Complete additional verification to unlock higher limits.'**
+  String get profile_kyc_approaching;
+
+  /// No description provided for @profile_kyc_complete_verification.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete additional verification for unlocking higher limits.'**
+  String get profile_kyc_complete_verification;
+
+  /// No description provided for @profile_kyc_action_unlock.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlock higher limits'**
+  String get profile_kyc_action_unlock;
+
+  /// No description provided for @profile_kyc_btc_not_applicable.
+  ///
+  /// In en, this message translates to:
+  /// **'Not applicable to Bitcoin wallet'**
+  String get profile_kyc_btc_not_applicable;
+
+  /// No description provided for @profile_kyc_btc_no_limits.
+  ///
+  /// In en, this message translates to:
+  /// **'No deposit limits on your Bitcoin wallet. It’s self-custodied, which means it’s outside our limits.'**
+  String get profile_kyc_btc_no_limits;
+
+  /// No description provided for @profile_kyc_increase_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Increase your limits'**
+  String get profile_kyc_increase_title;
+
+  /// No description provided for @profile_kyc_increase_note.
+  ///
+  /// In en, this message translates to:
+  /// **'Please note that once you start the next tier of KYC, you must complete it within 30 days.'**
+  String get profile_kyc_increase_note;
+
+  /// No description provided for @profile_kyc_increase_prepare.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep your proof of address ready and provide details on your source of funds.'**
+  String get profile_kyc_increase_prepare;
+
+  /// No description provided for @profile_kyc_email_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'Email us at '**
+  String get profile_kyc_email_prefix;
+
+  /// No description provided for @profile_kyc_email_suffix.
+  ///
+  /// In en, this message translates to:
+  /// **' if you would like to opt-in to upgrade your KYC-tier.'**
+  String get profile_kyc_email_suffix;
+
+  /// No description provided for @profile_kyc_band_100k_500k.
+  ///
+  /// In en, this message translates to:
+  /// **'From €100K to €500k'**
+  String get profile_kyc_band_100k_500k;
+
+  /// No description provided for @profile_kyc_band_500k_1m.
+  ///
+  /// In en, this message translates to:
+  /// **'From €500K to €1M'**
+  String get profile_kyc_band_500k_1m;
+
+  /// No description provided for @profile_kyc_band_above_1m.
+  ///
+  /// In en, this message translates to:
+  /// **'Above €1M'**
+  String get profile_kyc_band_above_1m;
+
+  /// No description provided for @profile_kyc_review_pending.
+  ///
+  /// In en, this message translates to:
+  /// **'Your request is being reviewed — an account manager will be in touch shortly.'**
+  String get profile_kyc_review_pending;
+
+  /// No description provided for @profile_kyc_choose_limit.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your monthly transaction limit. An account manager will contact you shortly.'**
+  String get profile_kyc_choose_limit;
+
+  /// No description provided for @profile_kyc_action_notify.
+  ///
+  /// In en, this message translates to:
+  /// **'Notify manager'**
+  String get profile_kyc_action_notify;
+
+  /// No description provided for @profile_kyc_notified_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Notification received!'**
+  String get profile_kyc_notified_title;
+
+  /// No description provided for @profile_kyc_notified_body.
+  ///
+  /// In en, this message translates to:
+  /// **'We’ve received your request to increase your monthly transaction limits. Your account manager will email you shortly with an update. For any questions, contact '**
+  String get profile_kyc_notified_body;
+
+  /// No description provided for @profile_pro_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin Pro'**
+  String get profile_pro_title;
+
+  /// No description provided for @profile_pro_benefit_card.
+  ///
+  /// In en, this message translates to:
+  /// **'Debit card access'**
+  String get profile_pro_benefit_card;
+
+  /// No description provided for @profile_pro_benefit_fx.
+  ///
+  /// In en, this message translates to:
+  /// **'0% FX fee'**
+  String get profile_pro_benefit_fx;
+
+  /// No description provided for @profile_pro_benefit_cards.
+  ///
+  /// In en, this message translates to:
+  /// **'A free physical & virtual debit cards'**
+  String get profile_pro_benefit_cards;
+
+  /// No description provided for @profile_pro_benefit_rate.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin to Euro exchange rate 1%'**
+  String get profile_pro_benefit_rate;
+
+  /// No description provided for @profile_pro_link_here.
+  ///
+  /// In en, this message translates to:
+  /// **'click here'**
+  String get profile_pro_link_here;
+
+  /// No description provided for @profile_pro_is_pro.
+  ///
+  /// In en, this message translates to:
+  /// **'You are a pro user'**
+  String get profile_pro_is_pro;
+
+  /// No description provided for @profile_pro_section_additional.
+  ///
+  /// In en, this message translates to:
+  /// **'Additional benefits'**
+  String get profile_pro_section_additional;
+
+  /// No description provided for @profile_pro_offer_alby.
+  ///
+  /// In en, this message translates to:
+  /// **'Get 10% off on the Alby Hub Subscription for 1 year. '**
+  String get profile_pro_offer_alby;
+
+  /// No description provided for @profile_pro_offer_koinly.
+  ///
+  /// In en, this message translates to:
+  /// **'Get 10% off on the Koinly Tax Calculator for 1 year. '**
+  String get profile_pro_offer_koinly;
+
+  /// No description provided for @profile_fallback_user.
+  ///
+  /// In en, this message translates to:
+  /// **'User'**
+  String get profile_fallback_user;
+
+  /// No description provided for @profile_action_help.
+  ///
+  /// In en, this message translates to:
+  /// **'Help?'**
+  String get profile_action_help;
+
+  /// No description provided for @profile_ln_section_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Your lightning addresses'**
+  String get profile_ln_section_title;
+
+  /// No description provided for @profile_ln_claim_prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Claim your lightning address to start receiving payments.'**
+  String get profile_ln_claim_prompt;
+
+  /// No description provided for @profile_ln_destinations_all.
+  ///
+  /// In en, this message translates to:
+  /// **'wallet, account and card balance'**
+  String get profile_ln_destinations_all;
+
+  /// No description provided for @profile_ln_destinations_wallet_account.
+  ///
+  /// In en, this message translates to:
+  /// **'wallet and account'**
+  String get profile_ln_destinations_wallet_account;
+
+  /// No description provided for @profile_ln_destinations_account_card.
+  ///
+  /// In en, this message translates to:
+  /// **'account and card balance'**
+  String get profile_ln_destinations_account_card;
+
+  /// No description provided for @profile_ln_action_claim_address.
+  ///
+  /// In en, this message translates to:
+  /// **'Claim address'**
+  String get profile_ln_action_claim_address;
+
+  /// No description provided for @profile_ln_action_claim_username.
+  ///
+  /// In en, this message translates to:
+  /// **'Claim username'**
+  String get profile_ln_action_claim_username;
+
+  /// No description provided for @profile_ln_toast_copied.
+  ///
+  /// In en, this message translates to:
+  /// **'Address copied'**
+  String get profile_ln_toast_copied;
+
+  /// No description provided for @profile_shortcut_referral.
+  ///
+  /// In en, this message translates to:
+  /// **'Referral\nprogram'**
+  String get profile_shortcut_referral;
+
+  /// No description provided for @profile_shortcut_bank_accounts.
+  ///
+  /// In en, this message translates to:
+  /// **'Saved bank\naccounts'**
+  String get profile_shortcut_bank_accounts;
+
+  /// No description provided for @profile_shortcut_external_wallets.
+  ///
+  /// In en, this message translates to:
+  /// **'All external\nwallets'**
+  String get profile_shortcut_external_wallets;
+
+  /// No description provided for @profile_row_support.
+  ///
+  /// In en, this message translates to:
+  /// **'Customer support'**
+  String get profile_row_support;
+
+  /// No description provided for @profile_row_auto_declaration.
+  ///
+  /// In en, this message translates to:
+  /// **'Auto declaration'**
+  String get profile_row_auto_declaration;
+
+  /// No description provided for @profile_row_statements.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction statements'**
+  String get profile_row_statements;
+
+  /// No description provided for @profile_row_community.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin community'**
+  String get profile_row_community;
+
+  /// No description provided for @profile_row_security.
+  ///
+  /// In en, this message translates to:
+  /// **'Login & security'**
+  String get profile_row_security;
+
+  /// No description provided for @profile_row_feedback.
+  ///
+  /// In en, this message translates to:
+  /// **'Feedbacks'**
+  String get profile_row_feedback;
+
+  /// No description provided for @profile_row_share_logs.
+  ///
+  /// In en, this message translates to:
+  /// **'Share logs'**
+  String get profile_row_share_logs;
+
+  /// No description provided for @profile_row_logout.
+  ///
+  /// In en, this message translates to:
+  /// **'Logout'**
+  String get profile_row_logout;
+
+  /// No description provided for @profile_link_terms.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms and conditions'**
+  String get profile_link_terms;
+
+  /// No description provided for @profile_logs_preparing.
+  ///
+  /// In en, this message translates to:
+  /// **'Preparing your logs.'**
+  String get profile_logs_preparing;
+
+  /// No description provided for @profile_logs_subject.
+  ///
+  /// In en, this message translates to:
+  /// **'Logs'**
+  String get profile_logs_subject;
+
+  /// No description provided for @profile_kyc_required.
+  ///
+  /// In en, this message translates to:
+  /// **'Please complete your KYC verification to access this feature.'**
+  String get profile_kyc_required;
+
+  /// No description provided for @profile_signing_out.
+  ///
+  /// In en, this message translates to:
+  /// **'Signing you out.'**
+  String get profile_signing_out;
+
+  /// No description provided for @profile_logout_cloud_backup_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Get a cloud back up'**
+  String get profile_logout_cloud_backup_title;
+
+  /// No description provided for @profile_logout_no_cloud_backup.
+  ///
+  /// In en, this message translates to:
+  /// **'No cloud back up found.'**
+  String get profile_logout_no_cloud_backup;
+
+  /// No description provided for @profile_logout_no_cloud_backup_body.
+  ///
+  /// In en, this message translates to:
+  /// **'After logout, you\'ll need your 12-word recovery phrase to restore your wallet. Make sure it\'s stored safely before logging out.'**
+  String get profile_logout_no_cloud_backup_body;
+
+  /// No description provided for @profile_logout_not_backed_up.
+  ///
+  /// In en, this message translates to:
+  /// **'Your wallet isn\'t backed up. If you lose access, your Bitcoin will be permanently lost.'**
+  String get profile_logout_not_backed_up;
+
+  /// No description provided for @profile_logout_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Logout?'**
+  String get profile_logout_title;
+
+  /// No description provided for @profile_logout_no_backup_found.
+  ///
+  /// In en, this message translates to:
+  /// **'No backup found.'**
+  String get profile_logout_no_backup_found;
+
+  /// No description provided for @profile_logout_no_backup_body.
+  ///
+  /// In en, this message translates to:
+  /// **'If you\'ve used this wallet before, any future deposits to this address cannot be recovered.'**
+  String get profile_logout_no_backup_body;
+
+  /// No description provided for @profile_logout_payment_in_progress.
+  ///
+  /// In en, this message translates to:
+  /// **'You have a payment in progress. Logging out now may interrupt it.'**
+  String get profile_logout_payment_in_progress;
+
+  /// No description provided for @profile_logout_alby_disconnect.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Alby wallet will disconnect. Reconnect through Alby Go after signing in again.'**
+  String get profile_logout_alby_disconnect;
+
+  /// No description provided for @profile_logout_action_anyway.
+  ///
+  /// In en, this message translates to:
+  /// **'I understand, logout anyway'**
+  String get profile_logout_action_anyway;
+
+  /// No description provided for @profile_logout_action_add_cloud.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a cloud back up'**
+  String get profile_logout_action_add_cloud;
+
+  /// No description provided for @profile_logout_confirm_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Log out of Bringin?'**
+  String get profile_logout_confirm_title;
+
+  /// No description provided for @profile_logout_confirm_signin_again.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ll need to sign in again to access your account.'**
+  String get profile_logout_confirm_signin_again;
+
+  /// No description provided for @profile_logout_confirm_wallet_removed.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Bitcoin wallet will be removed from this device. You can restore it later if you have a recovery phrase.'**
+  String get profile_logout_confirm_wallet_removed;
+
+  /// No description provided for @profile_logout_confirm_backed_up.
+  ///
+  /// In en, this message translates to:
+  /// **'Your wallet is backed up to Google Drive. Sign back in anytime to restore it.'**
+  String get profile_logout_confirm_backed_up;
 }
 
 class _BringinTranslationsDelegate

@@ -3769,4 +3769,391 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get card_prepayment_error_bank_app =>
       'Couldn\'t open your bank\'s app. Try approving in the browser instead.';
+
+  @override
+  String get profile_anon_card_error =>
+      'We couldn\'t activate your card. Please check your details and try again.';
+
+  @override
+  String get profile_anon_card_title => 'Activate Anonymous Card';
+
+  @override
+  String get profile_anon_card_subtitle =>
+      'Link your free debit card to your account with no extra cost';
+
+  @override
+  String get profile_anon_card_field_code => 'Activation Code';
+
+  @override
+  String get profile_anon_card_field_code_hint => 'Code on your envelope';
+
+  @override
+  String get profile_anon_card_action => 'Link card';
+
+  @override
+  String get profile_auto_decl_error =>
+      'Couldn\'t save that change. Try again in a moment.';
+
+  @override
+  String get profile_auto_decl_title => 'Auto wallet declaration';
+
+  @override
+  String get profile_auto_decl_subtitle => 'Save your wallet preferences';
+
+  @override
+  String get profile_auto_decl_intro =>
+      'Tell us whether you normally buy to and sell from wallets you own. We\'ll use your choices as the default so you don\'t have to confirm this every time. For transfers over €1,000, we may still need to verify that you control the wallet, as required by EU rules.';
+
+  @override
+  String get profile_auto_decl_buy_title => 'Buy to my own wallet';
+
+  @override
+  String get profile_auto_decl_buy_subtitle =>
+      'Automatically treat new Bitcoin buys as going to a wallet I own.';
+
+  @override
+  String get profile_auto_decl_sell_title => 'Sell from my own wallet';
+
+  @override
+  String get profile_auto_decl_sell_subtitle =>
+      'Automatically treat new Bitcoin sells as coming from a wallet I own.';
+
+  @override
+  String get profile_auto_decl_footnote =>
+      'These preferences apply only to new wallet addresses you add. Your existing wallet declarations won\'t change.';
+
+  @override
+  String get profile_backup_required_title => 'Backup required';
+
+  @override
+  String get profile_backup_required_action => 'I understand, logout';
+
+  @override
+  String get profile_backup_required_ack =>
+      'I understand that without a backup, my Bitcoin will be permanently lost and cannot be recovered.';
+
+  @override
+  String get profile_backup_required_warning =>
+      'No backup = permanent loss. We don’t hold your keys or control your Bitcoin.';
+
+  @override
+  String get profile_delete_title => 'Delete account';
+
+  @override
+  String get profile_delete_confirm_heading => 'Are you sure?';
+
+  @override
+  String get profile_delete_body =>
+      'If you delete your account on Bringin, all your previous transaction history and other transaction-related details will also be deleted.';
+
+  @override
+  String get profile_delete_note =>
+      'Note: There are some details that our partners with whom we work are obligated to save for compliance reasons. More details about them are in the privacy policies. For more information, contact us at support@bringin.xyz';
+
+  @override
+  String get profile_delete_action => 'Yes, delete my account';
+
+  @override
+  String get profile_delete_done_title => 'Account deleted';
+
+  @override
+  String get profile_delete_done_body =>
+      'If you wish to have an account with Bringin again with the same email address and mobile number, contact us at support@bringin.xyz';
+
+  @override
+  String get profile_delete_action_home => 'Go to home';
+
+  @override
+  String get profile_delete_error_password_empty =>
+      'Your password can\'t be empty';
+
+  @override
+  String get profile_delete_error_password_invalid => 'Invalid password';
+
+  @override
+  String get profile_export_title => 'Transaction statement';
+
+  @override
+  String get profile_export_intro =>
+      'Select the period and format for your transaction statement. We\'ll email the export to your registered address ';
+
+  @override
+  String get profile_export_label_from => 'From';
+
+  @override
+  String get profile_export_label_format => 'Download format';
+
+  @override
+  String get profile_export_action_select_date => 'Select date';
+
+  @override
+  String get profile_export_action => 'Export';
+
+  @override
+  String get profile_export_toast_sent => 'Email sent.';
+
+  @override
+  String get profile_export_error_failed => 'Export failed. Please try again.';
+
+  @override
+  String get profile_export_error_cancelled =>
+      'Export cancelled — please try again.';
+
+  @override
+  String get profile_kyc_title => 'KYC and limits';
+
+  @override
+  String get profile_kyc_section_deposit_limits => 'Deposit limits';
+
+  @override
+  String get profile_kyc_banner_tier2 =>
+      'You’re on Tier 2 for your Euro and card accounts. You can increase your limits anytime.';
+
+  @override
+  String get profile_kyc_banner_reaching =>
+      'You are reaching the limits for your Euro account and Card balance account.';
+
+  @override
+  String get profile_kyc_banner_tier1 =>
+      'You are on tier 1 for your Euro account and Card balance account.';
+
+  @override
+  String profile_kyc_tier_label(String tier) {
+    return 'You are on Tier $tier';
+  }
+
+  @override
+  String profile_kyc_limit_row(String label, String limit) {
+    return '$label of $limit/month';
+  }
+
+  @override
+  String get profile_kyc_approaching =>
+      'You’re approaching your transaction limits. Complete additional verification to unlock higher limits.';
+
+  @override
+  String get profile_kyc_complete_verification =>
+      'Complete additional verification for unlocking higher limits.';
+
+  @override
+  String get profile_kyc_action_unlock => 'Unlock higher limits';
+
+  @override
+  String get profile_kyc_btc_not_applicable =>
+      'Not applicable to Bitcoin wallet';
+
+  @override
+  String get profile_kyc_btc_no_limits =>
+      'No deposit limits on your Bitcoin wallet. It’s self-custodied, which means it’s outside our limits.';
+
+  @override
+  String get profile_kyc_increase_title => 'Increase your limits';
+
+  @override
+  String get profile_kyc_increase_note =>
+      'Please note that once you start the next tier of KYC, you must complete it within 30 days.';
+
+  @override
+  String get profile_kyc_increase_prepare =>
+      'Keep your proof of address ready and provide details on your source of funds.';
+
+  @override
+  String get profile_kyc_email_prefix => 'Email us at ';
+
+  @override
+  String get profile_kyc_email_suffix =>
+      ' if you would like to opt-in to upgrade your KYC-tier.';
+
+  @override
+  String get profile_kyc_band_100k_500k => 'From €100K to €500k';
+
+  @override
+  String get profile_kyc_band_500k_1m => 'From €500K to €1M';
+
+  @override
+  String get profile_kyc_band_above_1m => 'Above €1M';
+
+  @override
+  String get profile_kyc_review_pending =>
+      'Your request is being reviewed — an account manager will be in touch shortly.';
+
+  @override
+  String get profile_kyc_choose_limit =>
+      'Choose your monthly transaction limit. An account manager will contact you shortly.';
+
+  @override
+  String get profile_kyc_action_notify => 'Notify manager';
+
+  @override
+  String get profile_kyc_notified_title => 'Notification received!';
+
+  @override
+  String get profile_kyc_notified_body =>
+      'We’ve received your request to increase your monthly transaction limits. Your account manager will email you shortly with an update. For any questions, contact ';
+
+  @override
+  String get profile_pro_title => 'Bringin Pro';
+
+  @override
+  String get profile_pro_benefit_card => 'Debit card access';
+
+  @override
+  String get profile_pro_benefit_fx => '0% FX fee';
+
+  @override
+  String get profile_pro_benefit_cards =>
+      'A free physical & virtual debit cards';
+
+  @override
+  String get profile_pro_benefit_rate => 'Bitcoin to Euro exchange rate 1%';
+
+  @override
+  String get profile_pro_link_here => 'click here';
+
+  @override
+  String get profile_pro_is_pro => 'You are a pro user';
+
+  @override
+  String get profile_pro_section_additional => 'Additional benefits';
+
+  @override
+  String get profile_pro_offer_alby =>
+      'Get 10% off on the Alby Hub Subscription for 1 year. ';
+
+  @override
+  String get profile_pro_offer_koinly =>
+      'Get 10% off on the Koinly Tax Calculator for 1 year. ';
+
+  @override
+  String get profile_fallback_user => 'User';
+
+  @override
+  String get profile_action_help => 'Help?';
+
+  @override
+  String get profile_ln_section_title => 'Your lightning addresses';
+
+  @override
+  String get profile_ln_claim_prompt =>
+      'Claim your lightning address to start receiving payments.';
+
+  @override
+  String get profile_ln_destinations_all => 'wallet, account and card balance';
+
+  @override
+  String get profile_ln_destinations_wallet_account => 'wallet and account';
+
+  @override
+  String get profile_ln_destinations_account_card => 'account and card balance';
+
+  @override
+  String get profile_ln_action_claim_address => 'Claim address';
+
+  @override
+  String get profile_ln_action_claim_username => 'Claim username';
+
+  @override
+  String get profile_ln_toast_copied => 'Address copied';
+
+  @override
+  String get profile_shortcut_referral => 'Referral\nprogram';
+
+  @override
+  String get profile_shortcut_bank_accounts => 'Saved bank\naccounts';
+
+  @override
+  String get profile_shortcut_external_wallets => 'All external\nwallets';
+
+  @override
+  String get profile_row_support => 'Customer support';
+
+  @override
+  String get profile_row_auto_declaration => 'Auto declaration';
+
+  @override
+  String get profile_row_statements => 'Transaction statements';
+
+  @override
+  String get profile_row_community => 'Bringin community';
+
+  @override
+  String get profile_row_security => 'Login & security';
+
+  @override
+  String get profile_row_feedback => 'Feedbacks';
+
+  @override
+  String get profile_row_share_logs => 'Share logs';
+
+  @override
+  String get profile_row_logout => 'Logout';
+
+  @override
+  String get profile_link_terms => 'Terms and conditions';
+
+  @override
+  String get profile_logs_preparing => 'Preparing your logs.';
+
+  @override
+  String get profile_logs_subject => 'Logs';
+
+  @override
+  String get profile_kyc_required =>
+      'Please complete your KYC verification to access this feature.';
+
+  @override
+  String get profile_signing_out => 'Signing you out.';
+
+  @override
+  String get profile_logout_cloud_backup_title => 'Get a cloud back up';
+
+  @override
+  String get profile_logout_no_cloud_backup => 'No cloud back up found.';
+
+  @override
+  String get profile_logout_no_cloud_backup_body =>
+      'After logout, you\'ll need your 12-word recovery phrase to restore your wallet. Make sure it\'s stored safely before logging out.';
+
+  @override
+  String get profile_logout_not_backed_up =>
+      'Your wallet isn\'t backed up. If you lose access, your Bitcoin will be permanently lost.';
+
+  @override
+  String get profile_logout_title => 'Logout?';
+
+  @override
+  String get profile_logout_no_backup_found => 'No backup found.';
+
+  @override
+  String get profile_logout_no_backup_body =>
+      'If you\'ve used this wallet before, any future deposits to this address cannot be recovered.';
+
+  @override
+  String get profile_logout_payment_in_progress =>
+      'You have a payment in progress. Logging out now may interrupt it.';
+
+  @override
+  String get profile_logout_alby_disconnect =>
+      'Your Alby wallet will disconnect. Reconnect through Alby Go after signing in again.';
+
+  @override
+  String get profile_logout_action_anyway => 'I understand, logout anyway';
+
+  @override
+  String get profile_logout_action_add_cloud => 'Add a cloud back up';
+
+  @override
+  String get profile_logout_confirm_title => 'Log out of Bringin?';
+
+  @override
+  String get profile_logout_confirm_signin_again =>
+      'You\'ll need to sign in again to access your account.';
+
+  @override
+  String get profile_logout_confirm_wallet_removed =>
+      'Your Bitcoin wallet will be removed from this device. You can restore it later if you have a recovery phrase.';
+
+  @override
+  String get profile_logout_confirm_backed_up =>
+      'Your wallet is backed up to Google Drive. Sign back in anytime to restore it.';
 }
