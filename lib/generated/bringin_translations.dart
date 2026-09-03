@@ -12521,6 +12521,606 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Starting...'**
   String get nearby_starting;
+
+  /// Status line while an on-chain deposit waits for confirmations.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirming on the blockchain.'**
+  String get onchain_status_confirming_blockchain;
+
+  /// First part of the received-waiting body; a tappable link follows. Keep the trailing space.
+  ///
+  /// In en, this message translates to:
+  /// **'We received your Bitcoin, please wait for the confirmation on the Blockchain. For more details '**
+  String get onchain_status_received_body;
+
+  /// Tappable link that follows onchain_status_received_body.
+  ///
+  /// In en, this message translates to:
+  /// **'click here.'**
+  String get onchain_status_click_here;
+
+  /// Status line while an on-chain deposit is in compliance review.
+  ///
+  /// In en, this message translates to:
+  /// **'Under review — we\'ll get back to you shortly.'**
+  String get onchain_status_under_review;
+
+  /// First part of the waiting body; a tappable link follows. Keep the trailing space.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'ve received your Bitcoin and it\'s waiting for blockchain confirmation. '**
+  String get onchain_status_waiting_body;
+
+  /// Tappable link that follows onchain_status_waiting_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Track it here.'**
+  String get onchain_status_track_here;
+
+  /// Body of the compliance-review state.
+  ///
+  /// In en, this message translates to:
+  /// **'Your deposit has been flagged for routine compliance review. Our team will review it within 1-2 business days.'**
+  String get onchain_review_body;
+
+  /// Reassurance under onchain_review_body.
+  ///
+  /// In en, this message translates to:
+  /// **'This is a standard security check that happens occasionally based on compliance protocols in place.'**
+  String get onchain_review_note;
+
+  /// First part of the contact line; the support address follows as a link. Keep the trailing space.
+  ///
+  /// In en, this message translates to:
+  /// **'If we need any additional information, we\'ll contact you at your registered email. Questions? Contact us at '**
+  String get onchain_review_contact;
+
+  /// Toast when the mail client could not be launched.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to open email.'**
+  String get onchain_error_open_email;
+
+  /// App-bar title of the on-chain payment dialog.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete payment'**
+  String get onchain_complete_payment;
+
+  /// Prompt when part of the on-chain amount has already arrived.
+  ///
+  /// In en, this message translates to:
+  /// **'Please scan the QR code to complete the remaining payment.'**
+  String get onchain_scan_remaining;
+
+  /// Heading once the deposit lands.
+  ///
+  /// In en, this message translates to:
+  /// **'Bitcoin Received'**
+  String get onchain_received_title;
+
+  /// Body of the received state.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'ve received your Bitcoin! The transfer is being confirmed on the blockchain. You\'ll be notified once it\'s complete.'**
+  String get onchain_received_body;
+
+  /// Action that opens the transaction in a block explorer.
+  ///
+  /// In en, this message translates to:
+  /// **'Track on blockchain'**
+  String get onchain_action_track;
+
+  /// Dismiss action on the received sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Sounds good'**
+  String get onchain_action_sounds_good;
+
+  /// Amount still owed on a partially paid on-chain order.
+  ///
+  /// In en, this message translates to:
+  /// **'Remaining: {amount} BTC'**
+  String onchain_amount_remaining(String amount);
+
+  /// Amount already received on a partially paid on-chain order.
+  ///
+  /// In en, this message translates to:
+  /// **'Paid: {amount} BTC'**
+  String onchain_amount_paid(String amount);
+
+  /// Total amount requested for the on-chain order.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount: {amount} BTC'**
+  String onchain_amount_total(String amount);
+
+  /// Offer to convert what arrived when the order expired part-paid.
+  ///
+  /// In en, this message translates to:
+  /// **'Convert paid amount ({amount} BTC) to Euros'**
+  String onchain_convert_prompt(String amount);
+
+  /// Action that converts the partially paid amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Convert now'**
+  String get onchain_action_convert;
+
+  /// Status while the conversion runs.
+  ///
+  /// In en, this message translates to:
+  /// **'Processing your conversion.'**
+  String get onchain_converting;
+
+  /// Shown when the order id is absent so nothing can be looked up.
+  ///
+  /// In en, this message translates to:
+  /// **'Missing order information. Please try again.'**
+  String get onchain_error_missing_order;
+
+  /// Shown when Trezor Suite returned to the app with no payload.
+  ///
+  /// In en, this message translates to:
+  /// **'Empty response from Trezor Suite'**
+  String get trezor_error_empty_response;
+
+  /// Shown when the post-import balance scan could not reach the network.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t reach the Bitcoin network to check your wallet. Check your connection and try again.'**
+  String get trezor_error_network;
+
+  /// Shown when the user declined the request on the device.
+  ///
+  /// In en, this message translates to:
+  /// **'Trezor rejected the request'**
+  String get trezor_error_rejected;
+
+  /// Status while the app waits for Trezor Suite to hand back.
+  ///
+  /// In en, this message translates to:
+  /// **'Waiting for Trezor Suite…'**
+  String get trezor_waiting_suite;
+
+  /// Body while waiting for on-device approval.
+  ///
+  /// In en, this message translates to:
+  /// **'Approve the request on your Trezor device. We\'ll take you back to Bringin as soon as it\'s confirmed.'**
+  String get trezor_approve_body;
+
+  /// Heading when Trezor Suite is not installed.
+  ///
+  /// In en, this message translates to:
+  /// **'Trezor Suite required'**
+  String get trezor_suite_required_title;
+
+  /// Body of the Suite-required state.
+  ///
+  /// In en, this message translates to:
+  /// **'Install the Trezor Suite mobile app to connect your device to Bringin.'**
+  String get trezor_suite_required_body;
+
+  /// Shown when the verify page is reached without a session.
+  ///
+  /// In en, this message translates to:
+  /// **'Not signed in. Please restart the app.'**
+  String get trezor_error_not_signed_in;
+
+  /// Shown on the verify page when Trezor Suite is missing.
+  ///
+  /// In en, this message translates to:
+  /// **'Trezor Suite isn\'t installed. Please install it from your app store and try again.'**
+  String get trezor_error_not_installed;
+
+  /// Subtitle of the Trezor ownership-proof page.
+  ///
+  /// In en, this message translates to:
+  /// **'Prove you own this Bitcoin address.'**
+  String get trezor_verify_subtitle;
+
+  /// Label of the message the device will sign.
+  ///
+  /// In en, this message translates to:
+  /// **'Message to sign'**
+  String get trezor_label_message;
+
+  /// Reassurance that signing moves no funds.
+  ///
+  /// In en, this message translates to:
+  /// **'This message is not a transaction. Signing it proves you own the wallet. No Bitcoin will move.'**
+  String get trezor_message_note;
+
+  /// Status while the signature is being produced.
+  ///
+  /// In en, this message translates to:
+  /// **'Waiting for Trezor…'**
+  String get trezor_waiting;
+
+  /// Primary action that asks the device to sign.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign and verify'**
+  String get trezor_action_sign;
+
+  /// App-bar title of the saved-bank-accounts list.
+  ///
+  /// In en, this message translates to:
+  /// **'All bank accounts'**
+  String get bank_accounts_title;
+
+  /// Shown when the bank-account list could not be fetched.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to load bank accounts.'**
+  String get bank_accounts_error_load;
+
+  /// Empty state of the bank-account list.
+  ///
+  /// In en, this message translates to:
+  /// **'All the bank accounts in your name will appear here.'**
+  String get bank_accounts_empty;
+
+  /// Action that opens the add-bank-account form.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a new account'**
+  String get bank_accounts_action_add;
+
+  /// Title of the delete-bank-account confirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete account?'**
+  String get bank_accounts_delete_title;
+
+  /// Body of the delete-bank-account confirmation.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to delete this bank account? You can add them again later.'**
+  String get bank_accounts_delete_body;
+
+  /// Progress line while the deletion runs.
+  ///
+  /// In en, this message translates to:
+  /// **'Removing your bank account.'**
+  String get bank_accounts_removing;
+
+  /// Notice on the add/edit beneficiary form.
+  ///
+  /// In en, this message translates to:
+  /// **'The beneficiary IBAN account should be in your name. If you are trying to withdraw to an IBAN account not in your name, the transaction will be rejected.'**
+  String get beneficiary_iban_own_name_notice;
+
+  /// Heading of the add/edit beneficiary form.
+  ///
+  /// In en, this message translates to:
+  /// **'Add your beneficiary details'**
+  String get beneficiary_details_title;
+
+  /// Hint of the nickname field.
+  ///
+  /// In en, this message translates to:
+  /// **'eg; Home, Office'**
+  String get beneficiary_field_nickname_hint;
+
+  /// Validation error on the nickname field.
+  ///
+  /// In en, this message translates to:
+  /// **'Your nickname can\'t be empty.'**
+  String get beneficiary_error_nickname_empty;
+
+  /// Validation error when the nickname fails its format check.
+  ///
+  /// In en, this message translates to:
+  /// **'This nickname is not valid.'**
+  String get beneficiary_error_nickname_invalid;
+
+  /// Label of the IBAN field on the older beneficiary form.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter IBAN'**
+  String get beneficiary_field_iban_enter;
+
+  /// Validation error on the IBAN field of the older beneficiary form.
+  ///
+  /// In en, this message translates to:
+  /// **'Your IBAN can\'t be empty.'**
+  String get beneficiary_error_iban_empty_period;
+
+  /// Validation error when the IBAN fails its checksum, older form.
+  ///
+  /// In en, this message translates to:
+  /// **'This IBAN is not valid.'**
+  String get beneficiary_error_iban_invalid_period;
+
+  /// Label of the BIC field on the older beneficiary form.
+  ///
+  /// In en, this message translates to:
+  /// **'Bank Identification Code'**
+  String get beneficiary_field_bic_label;
+
+  /// Hint of the BIC field on the older beneficiary form.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter BIC'**
+  String get beneficiary_field_bic_enter;
+
+  /// Validation error on the BIC field of the older beneficiary form. 'You' is a typo in the English source; use the correct possessive when translating.
+  ///
+  /// In en, this message translates to:
+  /// **'You BIC can\'t be empty.'**
+  String get beneficiary_error_bic_empty_typo;
+
+  /// Validation error when the BIC fails its format check, older form.
+  ///
+  /// In en, this message translates to:
+  /// **'This BIC is not valid.'**
+  String get beneficiary_error_bic_invalid_period;
+
+  /// Shown when the form is submitted with nothing changed.
+  ///
+  /// In en, this message translates to:
+  /// **'Please update values!'**
+  String get beneficiary_error_no_changes;
+
+  /// Validation error on the BIC field of the newer beneficiary form.
+  ///
+  /// In en, this message translates to:
+  /// **'BIC can\'t be empty.'**
+  String get beneficiary_error_bic_empty_period;
+
+  /// Validation error on the label field of the newer beneficiary form.
+  ///
+  /// In en, this message translates to:
+  /// **'Label can\'t be empty.'**
+  String get beneficiary_error_label_empty_period;
+
+  /// Validation error when the label fails its format check, newer form.
+  ///
+  /// In en, this message translates to:
+  /// **'This label is not valid.'**
+  String get beneficiary_error_label_invalid_period;
+
+  /// Primary action when editing an existing record.
+  ///
+  /// In en, this message translates to:
+  /// **'Save changes'**
+  String get action_save_changes;
+
+  /// App-bar title when editing a beneficiary.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit beneficiary'**
+  String get beneficiary_edit_title_short;
+
+  /// Shown when the beneficiary lookup fails. {error} is untranslated technical text.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to fetch beneficiary details: {error}'**
+  String beneficiary_error_fetch(String error);
+
+  /// Shown when the lookup returned nothing.
+  ///
+  /// In en, this message translates to:
+  /// **'No beneficiary details available'**
+  String get beneficiary_none_available;
+
+  /// Empty state of the beneficiary picker.
+  ///
+  /// In en, this message translates to:
+  /// **'No Beneficiaries to show'**
+  String get beneficiary_none_to_show;
+
+  /// Column label in the beneficiary picker.
+  ///
+  /// In en, this message translates to:
+  /// **'Beneficiary Name'**
+  String get beneficiary_label_name;
+
+  /// Column label in the beneficiary picker.
+  ///
+  /// In en, this message translates to:
+  /// **'Bank Details'**
+  String get beneficiary_label_bank;
+
+  /// Hint of the wallet-address field.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter wallet address'**
+  String get wallet_field_address_hint;
+
+  /// App-bar title when editing a saved wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit wallet'**
+  String get wallet_edit_title;
+
+  /// Validation error on the wallet-address field.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet address can\'t be empty.'**
+  String get wallet_error_address_empty;
+
+  /// Validation error when the address does not parse.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid Bitcoin address.'**
+  String get wallet_error_address_invalid;
+
+  /// Label of the wallet-address field and detail row.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet address'**
+  String get wallet_label_address;
+
+  /// App-bar title of the saved-wallets list.
+  ///
+  /// In en, this message translates to:
+  /// **'All external wallets'**
+  String get wallets_title;
+
+  /// Shown when the wallet list could not be fetched.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to load wallets.'**
+  String get wallets_error_load;
+
+  /// Empty state of the wallet list.
+  ///
+  /// In en, this message translates to:
+  /// **'All the external wallets you used in the app will appear here.'**
+  String get wallets_empty;
+
+  /// Filter chip showing every saved wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'All accounts'**
+  String get wallets_filter_all;
+
+  /// Fallback name for a saved wallet with no label. {index} is 1-based.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet {index}'**
+  String wallets_fallback_name(String index);
+
+  /// Shown when migration cannot proceed because no recovery phrase is stored.
+  ///
+  /// In en, this message translates to:
+  /// **'No mnemonic found. Please restore your wallet manually.'**
+  String get migration_error_no_mnemonic;
+
+  /// Status while connecting to the new wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Connecting to Spark wallet...'**
+  String get migration_connecting;
+
+  /// Shown when the new wallet SDK could not be reached.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to connect to Spark SDK'**
+  String get migration_error_connect;
+
+  /// Status while an empty wallet is created.
+  ///
+  /// In en, this message translates to:
+  /// **'Creating your wallet...'**
+  String get migration_creating;
+
+  /// Heading telling the user the new wallet reuses their phrase.
+  ///
+  /// In en, this message translates to:
+  /// **'Same Recovery Phrase'**
+  String get migration_same_phrase_title;
+
+  /// Body of the same-phrase notice.
+  ///
+  /// In en, this message translates to:
+  /// **'Your new wallet uses the same recovery phrase as your previous wallet.'**
+  String get migration_same_phrase_body;
+
+  /// Reminder under the same-phrase notice.
+  ///
+  /// In en, this message translates to:
+  /// **'Make sure you have these 12 words saved in a safe place.'**
+  String get migration_same_phrase_note;
+
+  /// Heading of the migration prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet Update Required'**
+  String get migration_required_title;
+
+  /// Body of the migration prompt.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'ve upgraded the wallet system for better speed and reliability. Your existing wallet has funds that need to be migrated to the new system.'**
+  String get migration_required_body;
+
+  /// Label above the amount that will be migrated.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet Balance'**
+  String get migration_balance_label;
+
+  /// Primary action that starts the migration. Distinct from migration_action_migrate ('Migrate wallet'), which the add-wallet flow uses.
+  ///
+  /// In en, this message translates to:
+  /// **'Migrate funds'**
+  String get migration_action_migrate_funds;
+
+  /// Action that abandons the old balance and starts fresh.
+  ///
+  /// In en, this message translates to:
+  /// **'Skip (create empty wallet)'**
+  String get migration_action_skip;
+
+  /// Progress heading when creating an empty wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Setting up your wallet'**
+  String get migration_progress_setting_up;
+
+  /// Progress heading when moving funds.
+  ///
+  /// In en, this message translates to:
+  /// **'Migrating your wallet'**
+  String get migration_progress_migrating;
+
+  /// Time estimate during migration.
+  ///
+  /// In en, this message translates to:
+  /// **'This usually takes 1–2 minutes.'**
+  String get migration_takes_1_2_min;
+
+  /// Time estimate when only creating an empty wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'This will only take a moment.'**
+  String get migration_takes_moment;
+
+  /// Warning during migration.
+  ///
+  /// In en, this message translates to:
+  /// **'Please keep the app open during migration.'**
+  String get migration_keep_app_open;
+
+  /// Heading of the migration-complete state.
+  ///
+  /// In en, this message translates to:
+  /// **'Migration complete!'**
+  String get migration_done_title;
+
+  /// Body of the migration-complete state.
+  ///
+  /// In en, this message translates to:
+  /// **'Your funds have been successfully migrated to the new wallet.'**
+  String get migration_done_body;
+
+  /// Shown when the camera permission has not been granted.
+  ///
+  /// In en, this message translates to:
+  /// **'Camera access is off. Open Settings → Bringin → Camera to enable it.'**
+  String get qr_error_camera_permission;
+
+  /// Shown when the scanner cannot run on this hardware.
+  ///
+  /// In en, this message translates to:
+  /// **'Your device\'s camera isn\'t supported.'**
+  String get qr_error_camera_unsupported;
+
+  /// Shown when the camera failed to start for any other reason.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t start the camera. Please try again.'**
+  String get qr_error_camera_start;
+
+  /// Shown when a picked image contains no readable code.
+  ///
+  /// In en, this message translates to:
+  /// **'No QR Code found in the image'**
+  String get qr_error_no_code;
 }
 
 class _BringinTranslationsDelegate

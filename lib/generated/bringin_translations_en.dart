@@ -7240,4 +7240,350 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get nearby_starting => 'Starting...';
+
+  @override
+  String get onchain_status_confirming_blockchain =>
+      'Confirming on the blockchain.';
+
+  @override
+  String get onchain_status_received_body =>
+      'We received your Bitcoin, please wait for the confirmation on the Blockchain. For more details ';
+
+  @override
+  String get onchain_status_click_here => 'click here.';
+
+  @override
+  String get onchain_status_under_review =>
+      'Under review — we\'ll get back to you shortly.';
+
+  @override
+  String get onchain_status_waiting_body =>
+      'We\'ve received your Bitcoin and it\'s waiting for blockchain confirmation. ';
+
+  @override
+  String get onchain_status_track_here => 'Track it here.';
+
+  @override
+  String get onchain_review_body =>
+      'Your deposit has been flagged for routine compliance review. Our team will review it within 1-2 business days.';
+
+  @override
+  String get onchain_review_note =>
+      'This is a standard security check that happens occasionally based on compliance protocols in place.';
+
+  @override
+  String get onchain_review_contact =>
+      'If we need any additional information, we\'ll contact you at your registered email. Questions? Contact us at ';
+
+  @override
+  String get onchain_error_open_email => 'Failed to open email.';
+
+  @override
+  String get onchain_complete_payment => 'Complete payment';
+
+  @override
+  String get onchain_scan_remaining =>
+      'Please scan the QR code to complete the remaining payment.';
+
+  @override
+  String get onchain_received_title => 'Bitcoin Received';
+
+  @override
+  String get onchain_received_body =>
+      'We\'ve received your Bitcoin! The transfer is being confirmed on the blockchain. You\'ll be notified once it\'s complete.';
+
+  @override
+  String get onchain_action_track => 'Track on blockchain';
+
+  @override
+  String get onchain_action_sounds_good => 'Sounds good';
+
+  @override
+  String onchain_amount_remaining(String amount) {
+    return 'Remaining: $amount BTC';
+  }
+
+  @override
+  String onchain_amount_paid(String amount) {
+    return 'Paid: $amount BTC';
+  }
+
+  @override
+  String onchain_amount_total(String amount) {
+    return 'Amount: $amount BTC';
+  }
+
+  @override
+  String onchain_convert_prompt(String amount) {
+    return 'Convert paid amount ($amount BTC) to Euros';
+  }
+
+  @override
+  String get onchain_action_convert => 'Convert now';
+
+  @override
+  String get onchain_converting => 'Processing your conversion.';
+
+  @override
+  String get onchain_error_missing_order =>
+      'Missing order information. Please try again.';
+
+  @override
+  String get trezor_error_empty_response => 'Empty response from Trezor Suite';
+
+  @override
+  String get trezor_error_network =>
+      'Couldn\'t reach the Bitcoin network to check your wallet. Check your connection and try again.';
+
+  @override
+  String get trezor_error_rejected => 'Trezor rejected the request';
+
+  @override
+  String get trezor_waiting_suite => 'Waiting for Trezor Suite…';
+
+  @override
+  String get trezor_approve_body =>
+      'Approve the request on your Trezor device. We\'ll take you back to Bringin as soon as it\'s confirmed.';
+
+  @override
+  String get trezor_suite_required_title => 'Trezor Suite required';
+
+  @override
+  String get trezor_suite_required_body =>
+      'Install the Trezor Suite mobile app to connect your device to Bringin.';
+
+  @override
+  String get trezor_error_not_signed_in =>
+      'Not signed in. Please restart the app.';
+
+  @override
+  String get trezor_error_not_installed =>
+      'Trezor Suite isn\'t installed. Please install it from your app store and try again.';
+
+  @override
+  String get trezor_verify_subtitle => 'Prove you own this Bitcoin address.';
+
+  @override
+  String get trezor_label_message => 'Message to sign';
+
+  @override
+  String get trezor_message_note =>
+      'This message is not a transaction. Signing it proves you own the wallet. No Bitcoin will move.';
+
+  @override
+  String get trezor_waiting => 'Waiting for Trezor…';
+
+  @override
+  String get trezor_action_sign => 'Sign and verify';
+
+  @override
+  String get bank_accounts_title => 'All bank accounts';
+
+  @override
+  String get bank_accounts_error_load => 'Failed to load bank accounts.';
+
+  @override
+  String get bank_accounts_empty =>
+      'All the bank accounts in your name will appear here.';
+
+  @override
+  String get bank_accounts_action_add => 'Add a new account';
+
+  @override
+  String get bank_accounts_delete_title => 'Delete account?';
+
+  @override
+  String get bank_accounts_delete_body =>
+      'Are you sure you want to delete this bank account? You can add them again later.';
+
+  @override
+  String get bank_accounts_removing => 'Removing your bank account.';
+
+  @override
+  String get beneficiary_iban_own_name_notice =>
+      'The beneficiary IBAN account should be in your name. If you are trying to withdraw to an IBAN account not in your name, the transaction will be rejected.';
+
+  @override
+  String get beneficiary_details_title => 'Add your beneficiary details';
+
+  @override
+  String get beneficiary_field_nickname_hint => 'eg; Home, Office';
+
+  @override
+  String get beneficiary_error_nickname_empty =>
+      'Your nickname can\'t be empty.';
+
+  @override
+  String get beneficiary_error_nickname_invalid =>
+      'This nickname is not valid.';
+
+  @override
+  String get beneficiary_field_iban_enter => 'Enter IBAN';
+
+  @override
+  String get beneficiary_error_iban_empty_period =>
+      'Your IBAN can\'t be empty.';
+
+  @override
+  String get beneficiary_error_iban_invalid_period => 'This IBAN is not valid.';
+
+  @override
+  String get beneficiary_field_bic_label => 'Bank Identification Code';
+
+  @override
+  String get beneficiary_field_bic_enter => 'Enter BIC';
+
+  @override
+  String get beneficiary_error_bic_empty_typo => 'You BIC can\'t be empty.';
+
+  @override
+  String get beneficiary_error_bic_invalid_period => 'This BIC is not valid.';
+
+  @override
+  String get beneficiary_error_no_changes => 'Please update values!';
+
+  @override
+  String get beneficiary_error_bic_empty_period => 'BIC can\'t be empty.';
+
+  @override
+  String get beneficiary_error_label_empty_period => 'Label can\'t be empty.';
+
+  @override
+  String get beneficiary_error_label_invalid_period =>
+      'This label is not valid.';
+
+  @override
+  String get action_save_changes => 'Save changes';
+
+  @override
+  String get beneficiary_edit_title_short => 'Edit beneficiary';
+
+  @override
+  String beneficiary_error_fetch(String error) {
+    return 'Failed to fetch beneficiary details: $error';
+  }
+
+  @override
+  String get beneficiary_none_available => 'No beneficiary details available';
+
+  @override
+  String get beneficiary_none_to_show => 'No Beneficiaries to show';
+
+  @override
+  String get beneficiary_label_name => 'Beneficiary Name';
+
+  @override
+  String get beneficiary_label_bank => 'Bank Details';
+
+  @override
+  String get wallet_field_address_hint => 'Enter wallet address';
+
+  @override
+  String get wallet_edit_title => 'Edit wallet';
+
+  @override
+  String get wallet_error_address_empty => 'Wallet address can\'t be empty.';
+
+  @override
+  String get wallet_error_address_invalid =>
+      'Please enter a valid Bitcoin address.';
+
+  @override
+  String get wallet_label_address => 'Wallet address';
+
+  @override
+  String get wallets_title => 'All external wallets';
+
+  @override
+  String get wallets_error_load => 'Failed to load wallets.';
+
+  @override
+  String get wallets_empty =>
+      'All the external wallets you used in the app will appear here.';
+
+  @override
+  String get wallets_filter_all => 'All accounts';
+
+  @override
+  String wallets_fallback_name(String index) {
+    return 'Wallet $index';
+  }
+
+  @override
+  String get migration_error_no_mnemonic =>
+      'No mnemonic found. Please restore your wallet manually.';
+
+  @override
+  String get migration_connecting => 'Connecting to Spark wallet...';
+
+  @override
+  String get migration_error_connect => 'Failed to connect to Spark SDK';
+
+  @override
+  String get migration_creating => 'Creating your wallet...';
+
+  @override
+  String get migration_same_phrase_title => 'Same Recovery Phrase';
+
+  @override
+  String get migration_same_phrase_body =>
+      'Your new wallet uses the same recovery phrase as your previous wallet.';
+
+  @override
+  String get migration_same_phrase_note =>
+      'Make sure you have these 12 words saved in a safe place.';
+
+  @override
+  String get migration_required_title => 'Wallet Update Required';
+
+  @override
+  String get migration_required_body =>
+      'We\'ve upgraded the wallet system for better speed and reliability. Your existing wallet has funds that need to be migrated to the new system.';
+
+  @override
+  String get migration_balance_label => 'Wallet Balance';
+
+  @override
+  String get migration_action_migrate_funds => 'Migrate funds';
+
+  @override
+  String get migration_action_skip => 'Skip (create empty wallet)';
+
+  @override
+  String get migration_progress_setting_up => 'Setting up your wallet';
+
+  @override
+  String get migration_progress_migrating => 'Migrating your wallet';
+
+  @override
+  String get migration_takes_1_2_min => 'This usually takes 1–2 minutes.';
+
+  @override
+  String get migration_takes_moment => 'This will only take a moment.';
+
+  @override
+  String get migration_keep_app_open =>
+      'Please keep the app open during migration.';
+
+  @override
+  String get migration_done_title => 'Migration complete!';
+
+  @override
+  String get migration_done_body =>
+      'Your funds have been successfully migrated to the new wallet.';
+
+  @override
+  String get qr_error_camera_permission =>
+      'Camera access is off. Open Settings → Bringin → Camera to enable it.';
+
+  @override
+  String get qr_error_camera_unsupported =>
+      'Your device\'s camera isn\'t supported.';
+
+  @override
+  String get qr_error_camera_start =>
+      'Couldn\'t start the camera. Please try again.';
+
+  @override
+  String get qr_error_no_code => 'No QR Code found in the image';
 }

@@ -4153,5 +4153,435 @@
   "nearby_starting": "Starting...",
   "@nearby_starting": {
     "description": "Transient status chip while Bluetooth advertising is being started."
+  },
+  "onchain_status_confirming_blockchain": "Confirming on the blockchain.",
+  "@onchain_status_confirming_blockchain": {
+    "description": "Status line while an on-chain deposit waits for confirmations."
+  },
+  "onchain_status_received_body": "We received your Bitcoin, please wait for the confirmation on the Blockchain. For more details ",
+  "@onchain_status_received_body": {
+    "description": "First part of the received-waiting body; a tappable link follows. Keep the trailing space."
+  },
+  "onchain_status_click_here": "click here.",
+  "@onchain_status_click_here": {
+    "description": "Tappable link that follows onchain_status_received_body."
+  },
+  "onchain_status_under_review": "Under review — we'll get back to you shortly.",
+  "@onchain_status_under_review": {
+    "description": "Status line while an on-chain deposit is in compliance review."
+  },
+  "onchain_status_waiting_body": "We've received your Bitcoin and it's waiting for blockchain confirmation. ",
+  "@onchain_status_waiting_body": {
+    "description": "First part of the waiting body; a tappable link follows. Keep the trailing space."
+  },
+  "onchain_status_track_here": "Track it here.",
+  "@onchain_status_track_here": {
+    "description": "Tappable link that follows onchain_status_waiting_body."
+  },
+  "onchain_review_body": "Your deposit has been flagged for routine compliance review. Our team will review it within 1-2 business days.",
+  "@onchain_review_body": {
+    "description": "Body of the compliance-review state."
+  },
+  "onchain_review_note": "This is a standard security check that happens occasionally based on compliance protocols in place.",
+  "@onchain_review_note": {
+    "description": "Reassurance under onchain_review_body."
+  },
+  "onchain_review_contact": "If we need any additional information, we'll contact you at your registered email. Questions? Contact us at ",
+  "@onchain_review_contact": {
+    "description": "First part of the contact line; the support address follows as a link. Keep the trailing space."
+  },
+  "onchain_error_open_email": "Failed to open email.",
+  "@onchain_error_open_email": {
+    "description": "Toast when the mail client could not be launched."
+  },
+  "onchain_complete_payment": "Complete payment",
+  "@onchain_complete_payment": {
+    "description": "App-bar title of the on-chain payment dialog."
+  },
+  "onchain_scan_remaining": "Please scan the QR code to complete the remaining payment.",
+  "@onchain_scan_remaining": {
+    "description": "Prompt when part of the on-chain amount has already arrived."
+  },
+  "onchain_received_title": "Bitcoin Received",
+  "@onchain_received_title": {
+    "description": "Heading once the deposit lands."
+  },
+  "onchain_received_body": "We've received your Bitcoin! The transfer is being confirmed on the blockchain. You'll be notified once it's complete.",
+  "@onchain_received_body": {
+    "description": "Body of the received state."
+  },
+  "onchain_action_track": "Track on blockchain",
+  "@onchain_action_track": {
+    "description": "Action that opens the transaction in a block explorer."
+  },
+  "onchain_action_sounds_good": "Sounds good",
+  "@onchain_action_sounds_good": {
+    "description": "Dismiss action on the received sheet."
+  },
+  "onchain_amount_remaining": "Remaining: {amount} BTC",
+  "@onchain_amount_remaining": {
+    "description": "Amount still owed on a partially paid on-chain order.",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "onchain_amount_paid": "Paid: {amount} BTC",
+  "@onchain_amount_paid": {
+    "description": "Amount already received on a partially paid on-chain order.",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "onchain_amount_total": "Amount: {amount} BTC",
+  "@onchain_amount_total": {
+    "description": "Total amount requested for the on-chain order.",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "onchain_convert_prompt": "Convert paid amount ({amount} BTC) to Euros",
+  "@onchain_convert_prompt": {
+    "description": "Offer to convert what arrived when the order expired part-paid.",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "onchain_action_convert": "Convert now",
+  "@onchain_action_convert": {
+    "description": "Action that converts the partially paid amount."
+  },
+  "onchain_converting": "Processing your conversion.",
+  "@onchain_converting": {
+    "description": "Status while the conversion runs."
+  },
+  "onchain_error_missing_order": "Missing order information. Please try again.",
+  "@onchain_error_missing_order": {
+    "description": "Shown when the order id is absent so nothing can be looked up."
+  },
+  "trezor_error_empty_response": "Empty response from Trezor Suite",
+  "@trezor_error_empty_response": {
+    "description": "Shown when Trezor Suite returned to the app with no payload."
+  },
+  "trezor_error_network": "Couldn't reach the Bitcoin network to check your wallet. Check your connection and try again.",
+  "@trezor_error_network": {
+    "description": "Shown when the post-import balance scan could not reach the network."
+  },
+  "trezor_error_rejected": "Trezor rejected the request",
+  "@trezor_error_rejected": {
+    "description": "Shown when the user declined the request on the device."
+  },
+  "trezor_waiting_suite": "Waiting for Trezor Suite…",
+  "@trezor_waiting_suite": {
+    "description": "Status while the app waits for Trezor Suite to hand back."
+  },
+  "trezor_approve_body": "Approve the request on your Trezor device. We'll take you back to Bringin as soon as it's confirmed.",
+  "@trezor_approve_body": {
+    "description": "Body while waiting for on-device approval."
+  },
+  "trezor_suite_required_title": "Trezor Suite required",
+  "@trezor_suite_required_title": {
+    "description": "Heading when Trezor Suite is not installed."
+  },
+  "trezor_suite_required_body": "Install the Trezor Suite mobile app to connect your device to Bringin.",
+  "@trezor_suite_required_body": {
+    "description": "Body of the Suite-required state."
+  },
+  "trezor_error_not_signed_in": "Not signed in. Please restart the app.",
+  "@trezor_error_not_signed_in": {
+    "description": "Shown when the verify page is reached without a session."
+  },
+  "trezor_error_not_installed": "Trezor Suite isn't installed. Please install it from your app store and try again.",
+  "@trezor_error_not_installed": {
+    "description": "Shown on the verify page when Trezor Suite is missing."
+  },
+  "trezor_verify_subtitle": "Prove you own this Bitcoin address.",
+  "@trezor_verify_subtitle": {
+    "description": "Subtitle of the Trezor ownership-proof page."
+  },
+  "trezor_label_message": "Message to sign",
+  "@trezor_label_message": {
+    "description": "Label of the message the device will sign."
+  },
+  "trezor_message_note": "This message is not a transaction. Signing it proves you own the wallet. No Bitcoin will move.",
+  "@trezor_message_note": {
+    "description": "Reassurance that signing moves no funds."
+  },
+  "trezor_waiting": "Waiting for Trezor…",
+  "@trezor_waiting": {
+    "description": "Status while the signature is being produced."
+  },
+  "trezor_action_sign": "Sign and verify",
+  "@trezor_action_sign": {
+    "description": "Primary action that asks the device to sign."
+  },
+  "bank_accounts_title": "All bank accounts",
+  "@bank_accounts_title": {
+    "description": "App-bar title of the saved-bank-accounts list."
+  },
+  "bank_accounts_error_load": "Failed to load bank accounts.",
+  "@bank_accounts_error_load": {
+    "description": "Shown when the bank-account list could not be fetched."
+  },
+  "bank_accounts_empty": "All the bank accounts in your name will appear here.",
+  "@bank_accounts_empty": {
+    "description": "Empty state of the bank-account list."
+  },
+  "bank_accounts_action_add": "Add a new account",
+  "@bank_accounts_action_add": {
+    "description": "Action that opens the add-bank-account form."
+  },
+  "bank_accounts_delete_title": "Delete account?",
+  "@bank_accounts_delete_title": {
+    "description": "Title of the delete-bank-account confirmation."
+  },
+  "bank_accounts_delete_body": "Are you sure you want to delete this bank account? You can add them again later.",
+  "@bank_accounts_delete_body": {
+    "description": "Body of the delete-bank-account confirmation."
+  },
+  "bank_accounts_removing": "Removing your bank account.",
+  "@bank_accounts_removing": {
+    "description": "Progress line while the deletion runs."
+  },
+  "beneficiary_iban_own_name_notice": "The beneficiary IBAN account should be in your name. If you are trying to withdraw to an IBAN account not in your name, the transaction will be rejected.",
+  "@beneficiary_iban_own_name_notice": {
+    "description": "Notice on the add/edit beneficiary form."
+  },
+  "beneficiary_details_title": "Add your beneficiary details",
+  "@beneficiary_details_title": {
+    "description": "Heading of the add/edit beneficiary form."
+  },
+  "beneficiary_field_nickname_hint": "eg; Home, Office",
+  "@beneficiary_field_nickname_hint": {
+    "description": "Hint of the nickname field."
+  },
+  "beneficiary_error_nickname_empty": "Your nickname can't be empty.",
+  "@beneficiary_error_nickname_empty": {
+    "description": "Validation error on the nickname field."
+  },
+  "beneficiary_error_nickname_invalid": "This nickname is not valid.",
+  "@beneficiary_error_nickname_invalid": {
+    "description": "Validation error when the nickname fails its format check."
+  },
+  "beneficiary_field_iban_enter": "Enter IBAN",
+  "@beneficiary_field_iban_enter": {
+    "description": "Label of the IBAN field on the older beneficiary form."
+  },
+  "beneficiary_error_iban_empty_period": "Your IBAN can't be empty.",
+  "@beneficiary_error_iban_empty_period": {
+    "description": "Validation error on the IBAN field of the older beneficiary form."
+  },
+  "beneficiary_error_iban_invalid_period": "This IBAN is not valid.",
+  "@beneficiary_error_iban_invalid_period": {
+    "description": "Validation error when the IBAN fails its checksum, older form."
+  },
+  "beneficiary_field_bic_label": "Bank Identification Code",
+  "@beneficiary_field_bic_label": {
+    "description": "Label of the BIC field on the older beneficiary form."
+  },
+  "beneficiary_field_bic_enter": "Enter BIC",
+  "@beneficiary_field_bic_enter": {
+    "description": "Hint of the BIC field on the older beneficiary form."
+  },
+  "beneficiary_error_bic_empty_typo": "You BIC can't be empty.",
+  "@beneficiary_error_bic_empty_typo": {
+    "description": "Validation error on the BIC field of the older beneficiary form. 'You' is a typo in the English source; use the correct possessive when translating."
+  },
+  "beneficiary_error_bic_invalid_period": "This BIC is not valid.",
+  "@beneficiary_error_bic_invalid_period": {
+    "description": "Validation error when the BIC fails its format check, older form."
+  },
+  "beneficiary_error_no_changes": "Please update values!",
+  "@beneficiary_error_no_changes": {
+    "description": "Shown when the form is submitted with nothing changed."
+  },
+  "beneficiary_error_bic_empty_period": "BIC can't be empty.",
+  "@beneficiary_error_bic_empty_period": {
+    "description": "Validation error on the BIC field of the newer beneficiary form."
+  },
+  "beneficiary_error_label_empty_period": "Label can't be empty.",
+  "@beneficiary_error_label_empty_period": {
+    "description": "Validation error on the label field of the newer beneficiary form."
+  },
+  "beneficiary_error_label_invalid_period": "This label is not valid.",
+  "@beneficiary_error_label_invalid_period": {
+    "description": "Validation error when the label fails its format check, newer form."
+  },
+  "action_save_changes": "Save changes",
+  "@action_save_changes": {
+    "description": "Primary action when editing an existing record."
+  },
+  "beneficiary_edit_title_short": "Edit beneficiary",
+  "@beneficiary_edit_title_short": {
+    "description": "App-bar title when editing a beneficiary."
+  },
+  "beneficiary_error_fetch": "Failed to fetch beneficiary details: {error}",
+  "@beneficiary_error_fetch": {
+    "description": "Shown when the beneficiary lookup fails. {error} is untranslated technical text.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "beneficiary_none_available": "No beneficiary details available",
+  "@beneficiary_none_available": {
+    "description": "Shown when the lookup returned nothing."
+  },
+  "beneficiary_none_to_show": "No Beneficiaries to show",
+  "@beneficiary_none_to_show": {
+    "description": "Empty state of the beneficiary picker."
+  },
+  "beneficiary_label_name": "Beneficiary Name",
+  "@beneficiary_label_name": {
+    "description": "Column label in the beneficiary picker."
+  },
+  "beneficiary_label_bank": "Bank Details",
+  "@beneficiary_label_bank": {
+    "description": "Column label in the beneficiary picker."
+  },
+  "wallet_field_address_hint": "Enter wallet address",
+  "@wallet_field_address_hint": {
+    "description": "Hint of the wallet-address field."
+  },
+  "wallet_edit_title": "Edit wallet",
+  "@wallet_edit_title": {
+    "description": "App-bar title when editing a saved wallet."
+  },
+  "wallet_error_address_empty": "Wallet address can't be empty.",
+  "@wallet_error_address_empty": {
+    "description": "Validation error on the wallet-address field."
+  },
+  "wallet_error_address_invalid": "Please enter a valid Bitcoin address.",
+  "@wallet_error_address_invalid": {
+    "description": "Validation error when the address does not parse."
+  },
+  "wallet_label_address": "Wallet address",
+  "@wallet_label_address": {
+    "description": "Label of the wallet-address field and detail row."
+  },
+  "wallets_title": "All external wallets",
+  "@wallets_title": {
+    "description": "App-bar title of the saved-wallets list."
+  },
+  "wallets_error_load": "Failed to load wallets.",
+  "@wallets_error_load": {
+    "description": "Shown when the wallet list could not be fetched."
+  },
+  "wallets_empty": "All the external wallets you used in the app will appear here.",
+  "@wallets_empty": {
+    "description": "Empty state of the wallet list."
+  },
+  "wallets_filter_all": "All accounts",
+  "@wallets_filter_all": {
+    "description": "Filter chip showing every saved wallet."
+  },
+  "wallets_fallback_name": "Wallet {index}",
+  "@wallets_fallback_name": {
+    "description": "Fallback name for a saved wallet with no label. {index} is 1-based.",
+    "placeholders": {
+      "index": {
+        "type": "String"
+      }
+    }
+  },
+  "migration_error_no_mnemonic": "No mnemonic found. Please restore your wallet manually.",
+  "@migration_error_no_mnemonic": {
+    "description": "Shown when migration cannot proceed because no recovery phrase is stored."
+  },
+  "migration_connecting": "Connecting to Spark wallet...",
+  "@migration_connecting": {
+    "description": "Status while connecting to the new wallet."
+  },
+  "migration_error_connect": "Failed to connect to Spark SDK",
+  "@migration_error_connect": {
+    "description": "Shown when the new wallet SDK could not be reached."
+  },
+  "migration_creating": "Creating your wallet...",
+  "@migration_creating": {
+    "description": "Status while an empty wallet is created."
+  },
+  "migration_same_phrase_title": "Same Recovery Phrase",
+  "@migration_same_phrase_title": {
+    "description": "Heading telling the user the new wallet reuses their phrase."
+  },
+  "migration_same_phrase_body": "Your new wallet uses the same recovery phrase as your previous wallet.",
+  "@migration_same_phrase_body": {
+    "description": "Body of the same-phrase notice."
+  },
+  "migration_same_phrase_note": "Make sure you have these 12 words saved in a safe place.",
+  "@migration_same_phrase_note": {
+    "description": "Reminder under the same-phrase notice."
+  },
+  "migration_required_title": "Wallet Update Required",
+  "@migration_required_title": {
+    "description": "Heading of the migration prompt."
+  },
+  "migration_required_body": "We've upgraded the wallet system for better speed and reliability. Your existing wallet has funds that need to be migrated to the new system.",
+  "@migration_required_body": {
+    "description": "Body of the migration prompt."
+  },
+  "migration_balance_label": "Wallet Balance",
+  "@migration_balance_label": {
+    "description": "Label above the amount that will be migrated."
+  },
+  "migration_action_migrate_funds": "Migrate funds",
+  "@migration_action_migrate_funds": {
+    "description": "Primary action that starts the migration. Distinct from migration_action_migrate ('Migrate wallet'), which the add-wallet flow uses."
+  },
+  "migration_action_skip": "Skip (create empty wallet)",
+  "@migration_action_skip": {
+    "description": "Action that abandons the old balance and starts fresh."
+  },
+  "migration_progress_setting_up": "Setting up your wallet",
+  "@migration_progress_setting_up": {
+    "description": "Progress heading when creating an empty wallet."
+  },
+  "migration_progress_migrating": "Migrating your wallet",
+  "@migration_progress_migrating": {
+    "description": "Progress heading when moving funds."
+  },
+  "migration_takes_1_2_min": "This usually takes 1–2 minutes.",
+  "@migration_takes_1_2_min": {
+    "description": "Time estimate during migration."
+  },
+  "migration_takes_moment": "This will only take a moment.",
+  "@migration_takes_moment": {
+    "description": "Time estimate when only creating an empty wallet."
+  },
+  "migration_keep_app_open": "Please keep the app open during migration.",
+  "@migration_keep_app_open": {
+    "description": "Warning during migration."
+  },
+  "migration_done_title": "Migration complete!",
+  "@migration_done_title": {
+    "description": "Heading of the migration-complete state."
+  },
+  "migration_done_body": "Your funds have been successfully migrated to the new wallet.",
+  "@migration_done_body": {
+    "description": "Body of the migration-complete state."
+  },
+  "qr_error_camera_permission": "Camera access is off. Open Settings → Bringin → Camera to enable it.",
+  "@qr_error_camera_permission": {
+    "description": "Shown when the camera permission has not been granted."
+  },
+  "qr_error_camera_unsupported": "Your device's camera isn't supported.",
+  "@qr_error_camera_unsupported": {
+    "description": "Shown when the scanner cannot run on this hardware."
+  },
+  "qr_error_camera_start": "Couldn't start the camera. Please try again.",
+  "@qr_error_camera_start": {
+    "description": "Shown when the camera failed to start for any other reason."
+  },
+  "qr_error_no_code": "No QR Code found in the image",
+  "@qr_error_no_code": {
+    "description": "Shown when a picked image contains no readable code."
   }
 }
