@@ -391,7 +391,6 @@
   "create_account_terms_suffix": " (As applicable on our website and from our third party service providers).",
   "create_account_error_terms_required": "Please accept our Terms & Conditions",
   "create_account_error_already_registered": "User is already registered!",
-  "create_account_error_page_title": "Oops!",
   "verify_email_signup_title": "Sign up",
   "verify_email_heading": "Verify your email",
   "verify_email_subtitle_prefix": "Add the verification code send to your email address ",

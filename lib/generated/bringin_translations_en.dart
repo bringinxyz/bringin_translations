@@ -833,9 +833,6 @@ class BringinTranslationsEn extends BringinTranslations {
       'User is already registered!';
 
   @override
-  String get create_account_error_page_title => 'Oops!';
-
-  @override
   String get verify_email_signup_title => 'Sign up';
 
   @override

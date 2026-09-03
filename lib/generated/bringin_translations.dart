@@ -1547,12 +1547,6 @@ abstract class BringinTranslations {
   /// **'User is already registered!'**
   String get create_account_error_already_registered;
 
-  /// No description provided for @create_account_error_page_title.
-  ///
-  /// In en, this message translates to:
-  /// **'Oops!'**
-  String get create_account_error_page_title;
-
   /// No description provided for @verify_email_signup_title.
   ///
   /// In en, this message translates to:
