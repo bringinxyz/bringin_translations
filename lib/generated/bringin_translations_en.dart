@@ -5990,4 +5990,130 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get pro_eur_otp_helper_resend => 'Did not receive the code?';
+
+  @override
+  String get security_biometric_auth_reason =>
+      'Authenticate to enable biometrics';
+
+  @override
+  String get security_biometric_unlock_reason => 'Unlock with biometrics';
+
+  @override
+  String get security_biometric_unavailable_title => 'Biometric not available';
+
+  @override
+  String get security_biometric_unavailable_body =>
+      'Biometric authentication is not set up on this device. Please enable Face ID or Touch ID in your device settings and try again.';
+
+  @override
+  String get security_biometric_prompt_title => 'Enable Biometric';
+
+  @override
+  String get security_biometric_prompt_body =>
+      'Enable biometric to unlock your app instantly and keep your account secure.';
+
+  @override
+  String get security_biometric_action_enable => 'Enable biometric';
+
+  @override
+  String get security_error_biometric_failed =>
+      'Biometric authentication failed';
+
+  @override
+  String security_error_biometric_failed_detail(String error) {
+    return 'Biometric authentication failed: $error';
+  }
+
+  @override
+  String get security_error_incorrect_pin => 'Incorrect PIN';
+
+  @override
+  String get security_error_auth => 'Authentication error';
+
+  @override
+  String get security_lock_title => 'Unlock app';
+
+  @override
+  String get security_lock_body =>
+      'Your Bringin account is secure, enter your\nPIN to unlock.';
+
+  @override
+  String get security_action_forgot_pin => 'Forgot PIN?';
+
+  @override
+  String get security_error_reset_pin_relogin =>
+      'Unable to reset PIN. Please log in again.';
+
+  @override
+  String get security_error_send_code => 'Failed to send code. Try again.';
+
+  @override
+  String get security_error_pins_mismatch => 'PINs do not match. Try again.';
+
+  @override
+  String get security_error_save_pin => 'Failed to save PIN. Try again.';
+
+  @override
+  String get security_setup_pin_title => 'Setup a PIN for your app';
+
+  @override
+  String get security_setup_pin_body =>
+      'Set a 6-digit PIN to unlock your app. This PIN can also secure your self-custodial wallet if you choose to use one later.';
+
+  @override
+  String get security_change_pin_title => 'Change PIN';
+
+  @override
+  String get security_change_pin_current_title => 'Enter your current PIN';
+
+  @override
+  String get security_change_pin_new_title => 'Setup a new PIN for your app';
+
+  @override
+  String get security_reset_pin_title => 'Reset PIN';
+
+  @override
+  String get security_reset_pin_verify_title => 'Verify your identity';
+
+  @override
+  String get security_pin_set_success => 'PIN set successfully.';
+
+  @override
+  String get security_section_2fa => 'Two-factor authentication';
+
+  @override
+  String get security_row_change_pin_subtitle =>
+      'Change your 6-digit PIN used to unlock the app.';
+
+  @override
+  String get security_row_biometric_title => 'Biometric';
+
+  @override
+  String get security_row_biometric_subtitle =>
+      'Use your device\'s biometric authentication for faster, secure access.';
+
+  @override
+  String get security_row_passkey_subtitle =>
+      'Setup passkey as your authentication method.';
+
+  @override
+  String get security_row_totp_subtitle =>
+      'Use your authenticator app to set up two-factor authentication.';
+
+  @override
+  String get security_error_passkey_not_found =>
+      'We couldn\'t find your existing passkey.';
+
+  @override
+  String get security_passkey_removed => 'Passkey removed.';
+
+  @override
+  String get verify_prompt_prefix_multi =>
+      'Add the verification code sent to your:\n';
+
+  @override
+  String get verify_prompt_or => ' or\n';
+
+  @override
+  String get verify_prompt_target_email => 'email address ';
 }

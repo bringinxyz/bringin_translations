@@ -2679,5 +2679,158 @@
   "pro_eur_otp_helper_resend": "Did not receive the code?",
   "@pro_eur_otp_helper_resend": {
     "description": "Helper text under the OTP boxes, next to the resend countdown."
+  },
+  "security_biometric_auth_reason": "Authenticate to enable biometrics",
+  "@security_biometric_auth_reason": {
+    "description": "Reason shown in the operating system's biometric prompt when the user is turning biometric unlock on."
+  },
+  "security_biometric_unlock_reason": "Unlock with biometrics",
+  "@security_biometric_unlock_reason": {
+    "description": "Reason shown in the operating system's biometric prompt when the user toggles biometric unlock on from the security settings."
+  },
+  "security_biometric_unavailable_title": "Biometric not available",
+  "@security_biometric_unavailable_title": {
+    "description": "Title of the dialog shown when the device has no biometric enrolled."
+  },
+  "security_biometric_unavailable_body": "Biometric authentication is not set up on this device. Please enable Face ID or Touch ID in your device settings and try again.",
+  "@security_biometric_unavailable_body": {
+    "description": "Body of the biometric-unavailable dialog. Face ID and Touch ID are Apple product names."
+  },
+  "security_biometric_prompt_title": "Enable Biometric",
+  "@security_biometric_prompt_title": {
+    "description": "Title of the page offered during onboarding that asks the user to turn on biometric unlock."
+  },
+  "security_biometric_prompt_body": "Enable biometric to unlock your app instantly and keep your account secure.",
+  "@security_biometric_prompt_body": {
+    "description": "Body of the biometric setup prompt page."
+  },
+  "security_biometric_action_enable": "Enable biometric",
+  "@security_biometric_action_enable": {
+    "description": "Primary button on the biometric setup prompt page."
+  },
+  "security_error_biometric_failed": "Biometric authentication failed",
+  "@security_error_biometric_failed": {
+    "description": "Toast when the biometric check did not succeed."
+  },
+  "security_error_biometric_failed_detail": "Biometric authentication failed: {error}",
+  "@security_error_biometric_failed_detail": {
+    "description": "Toast when the biometric check threw. {error} is an untranslated technical message.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "security_error_incorrect_pin": "Incorrect PIN",
+  "@security_error_incorrect_pin": {
+    "description": "Inline error under the PIN dots when the entered PIN is wrong."
+  },
+  "security_error_auth": "Authentication error",
+  "@security_error_auth": {
+    "description": "Inline error under the PIN dots when unlocking failed for a reason other than a wrong PIN."
+  },
+  "security_lock_title": "Unlock app",
+  "@security_lock_title": {
+    "description": "Title of the lock screen."
+  },
+  "security_lock_body": "Your Bringin account is secure, enter your\nPIN to unlock.",
+  "@security_lock_body": {
+    "description": "Body of the lock screen. The line break is deliberate."
+  },
+  "security_action_forgot_pin": "Forgot PIN?",
+  "@security_action_forgot_pin": {
+    "description": "Text link on the lock screen that starts the PIN reset flow."
+  },
+  "security_error_reset_pin_relogin": "Unable to reset PIN. Please log in again.",
+  "@security_error_reset_pin_relogin": {
+    "description": "Toast when the PIN reset cannot start because the session is no longer valid."
+  },
+  "security_error_send_code": "Failed to send code. Try again.",
+  "@security_error_send_code": {
+    "description": "Toast when the PIN-reset verification code could not be sent."
+  },
+  "security_error_pins_mismatch": "PINs do not match. Try again.",
+  "@security_error_pins_mismatch": {
+    "description": "Inline error when the confirmation PIN differs from the first entry."
+  },
+  "security_error_save_pin": "Failed to save PIN. Try again.",
+  "@security_error_save_pin": {
+    "description": "Toast when saving the new PIN failed."
+  },
+  "security_setup_pin_title": "Setup a PIN for your app",
+  "@security_setup_pin_title": {
+    "description": "Title of the PIN setup page shown during onboarding."
+  },
+  "security_setup_pin_body": "Set a 6-digit PIN to unlock your app. This PIN can also secure your self-custodial wallet if you choose to use one later.",
+  "@security_setup_pin_body": {
+    "description": "Body of the PIN setup page."
+  },
+  "security_change_pin_title": "Change PIN",
+  "@security_change_pin_title": {
+    "description": "App-bar title and primary button of the change-PIN page."
+  },
+  "security_change_pin_current_title": "Enter your current PIN",
+  "@security_change_pin_current_title": {
+    "description": "Heading of the first step of the change-PIN page."
+  },
+  "security_change_pin_new_title": "Setup a new PIN for your app",
+  "@security_change_pin_new_title": {
+    "description": "Heading of the second step of the change-PIN page, and of the reset-PIN page."
+  },
+  "security_reset_pin_title": "Reset PIN",
+  "@security_reset_pin_title": {
+    "description": "App-bar title and primary button of the reset-PIN pages."
+  },
+  "security_reset_pin_verify_title": "Verify your identity",
+  "@security_reset_pin_verify_title": {
+    "description": "Heading of the page that verifies a code before the PIN can be reset."
+  },
+  "security_pin_set_success": "PIN set successfully.",
+  "@security_pin_set_success": {
+    "description": "Toast after the PIN was changed from the security settings."
+  },
+  "security_section_2fa": "Two-factor authentication",
+  "@security_section_2fa": {
+    "description": "Section header in the security settings."
+  },
+  "security_row_change_pin_subtitle": "Change your 6-digit PIN used to unlock the app.",
+  "@security_row_change_pin_subtitle": {
+    "description": "Subtitle of the change-PIN row in the security settings."
+  },
+  "security_row_biometric_title": "Biometric",
+  "@security_row_biometric_title": {
+    "description": "Title of the biometric-unlock row in the security settings."
+  },
+  "security_row_biometric_subtitle": "Use your device's biometric authentication for faster, secure access.",
+  "@security_row_biometric_subtitle": {
+    "description": "Subtitle of the biometric-unlock row in the security settings."
+  },
+  "security_row_passkey_subtitle": "Setup passkey as your authentication method.",
+  "@security_row_passkey_subtitle": {
+    "description": "Subtitle of the passkey row in the security settings."
+  },
+  "security_row_totp_subtitle": "Use your authenticator app to set up two-factor authentication.",
+  "@security_row_totp_subtitle": {
+    "description": "Subtitle of the authenticator-app row in the security settings."
+  },
+  "security_error_passkey_not_found": "We couldn't find your existing passkey.",
+  "@security_error_passkey_not_found": {
+    "description": "Toast when removing a passkey but the account has none enrolled."
+  },
+  "security_passkey_removed": "Passkey removed.",
+  "@security_passkey_removed": {
+    "description": "Toast after the passkey was removed from the account."
+  },
+  "verify_prompt_prefix_multi": "Add the verification code sent to your:\n",
+  "@verify_prompt_prefix_multi": {
+    "description": "First part of a prompt that then names the phone number and/or the email address the code went to. Keep the line break."
+  },
+  "verify_prompt_or": " or\n",
+  "@verify_prompt_or": {
+    "description": "Joins the phone number and the email address in the prompt that starts with verify_prompt_prefix_multi. Keep the leading space and the line break."
+  },
+  "verify_prompt_target_email": "email address ",
+  "@verify_prompt_target_email": {
+    "description": "Labels the email address in the prompt that starts with verify_prompt_prefix_multi. Keep the trailing space."
   }
 }

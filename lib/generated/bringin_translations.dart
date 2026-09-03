@@ -10421,6 +10421,228 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Did not receive the code?'**
   String get pro_eur_otp_helper_resend;
+
+  /// Reason shown in the operating system's biometric prompt when the user is turning biometric unlock on.
+  ///
+  /// In en, this message translates to:
+  /// **'Authenticate to enable biometrics'**
+  String get security_biometric_auth_reason;
+
+  /// Reason shown in the operating system's biometric prompt when the user toggles biometric unlock on from the security settings.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlock with biometrics'**
+  String get security_biometric_unlock_reason;
+
+  /// Title of the dialog shown when the device has no biometric enrolled.
+  ///
+  /// In en, this message translates to:
+  /// **'Biometric not available'**
+  String get security_biometric_unavailable_title;
+
+  /// Body of the biometric-unavailable dialog. Face ID and Touch ID are Apple product names.
+  ///
+  /// In en, this message translates to:
+  /// **'Biometric authentication is not set up on this device. Please enable Face ID or Touch ID in your device settings and try again.'**
+  String get security_biometric_unavailable_body;
+
+  /// Title of the page offered during onboarding that asks the user to turn on biometric unlock.
+  ///
+  /// In en, this message translates to:
+  /// **'Enable Biometric'**
+  String get security_biometric_prompt_title;
+
+  /// Body of the biometric setup prompt page.
+  ///
+  /// In en, this message translates to:
+  /// **'Enable biometric to unlock your app instantly and keep your account secure.'**
+  String get security_biometric_prompt_body;
+
+  /// Primary button on the biometric setup prompt page.
+  ///
+  /// In en, this message translates to:
+  /// **'Enable biometric'**
+  String get security_biometric_action_enable;
+
+  /// Toast when the biometric check did not succeed.
+  ///
+  /// In en, this message translates to:
+  /// **'Biometric authentication failed'**
+  String get security_error_biometric_failed;
+
+  /// Toast when the biometric check threw. {error} is an untranslated technical message.
+  ///
+  /// In en, this message translates to:
+  /// **'Biometric authentication failed: {error}'**
+  String security_error_biometric_failed_detail(String error);
+
+  /// Inline error under the PIN dots when the entered PIN is wrong.
+  ///
+  /// In en, this message translates to:
+  /// **'Incorrect PIN'**
+  String get security_error_incorrect_pin;
+
+  /// Inline error under the PIN dots when unlocking failed for a reason other than a wrong PIN.
+  ///
+  /// In en, this message translates to:
+  /// **'Authentication error'**
+  String get security_error_auth;
+
+  /// Title of the lock screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlock app'**
+  String get security_lock_title;
+
+  /// Body of the lock screen. The line break is deliberate.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Bringin account is secure, enter your\nPIN to unlock.'**
+  String get security_lock_body;
+
+  /// Text link on the lock screen that starts the PIN reset flow.
+  ///
+  /// In en, this message translates to:
+  /// **'Forgot PIN?'**
+  String get security_action_forgot_pin;
+
+  /// Toast when the PIN reset cannot start because the session is no longer valid.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to reset PIN. Please log in again.'**
+  String get security_error_reset_pin_relogin;
+
+  /// Toast when the PIN-reset verification code could not be sent.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to send code. Try again.'**
+  String get security_error_send_code;
+
+  /// Inline error when the confirmation PIN differs from the first entry.
+  ///
+  /// In en, this message translates to:
+  /// **'PINs do not match. Try again.'**
+  String get security_error_pins_mismatch;
+
+  /// Toast when saving the new PIN failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to save PIN. Try again.'**
+  String get security_error_save_pin;
+
+  /// Title of the PIN setup page shown during onboarding.
+  ///
+  /// In en, this message translates to:
+  /// **'Setup a PIN for your app'**
+  String get security_setup_pin_title;
+
+  /// Body of the PIN setup page.
+  ///
+  /// In en, this message translates to:
+  /// **'Set a 6-digit PIN to unlock your app. This PIN can also secure your self-custodial wallet if you choose to use one later.'**
+  String get security_setup_pin_body;
+
+  /// App-bar title and primary button of the change-PIN page.
+  ///
+  /// In en, this message translates to:
+  /// **'Change PIN'**
+  String get security_change_pin_title;
+
+  /// Heading of the first step of the change-PIN page.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your current PIN'**
+  String get security_change_pin_current_title;
+
+  /// Heading of the second step of the change-PIN page, and of the reset-PIN page.
+  ///
+  /// In en, this message translates to:
+  /// **'Setup a new PIN for your app'**
+  String get security_change_pin_new_title;
+
+  /// App-bar title and primary button of the reset-PIN pages.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset PIN'**
+  String get security_reset_pin_title;
+
+  /// Heading of the page that verifies a code before the PIN can be reset.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify your identity'**
+  String get security_reset_pin_verify_title;
+
+  /// Toast after the PIN was changed from the security settings.
+  ///
+  /// In en, this message translates to:
+  /// **'PIN set successfully.'**
+  String get security_pin_set_success;
+
+  /// Section header in the security settings.
+  ///
+  /// In en, this message translates to:
+  /// **'Two-factor authentication'**
+  String get security_section_2fa;
+
+  /// Subtitle of the change-PIN row in the security settings.
+  ///
+  /// In en, this message translates to:
+  /// **'Change your 6-digit PIN used to unlock the app.'**
+  String get security_row_change_pin_subtitle;
+
+  /// Title of the biometric-unlock row in the security settings.
+  ///
+  /// In en, this message translates to:
+  /// **'Biometric'**
+  String get security_row_biometric_title;
+
+  /// Subtitle of the biometric-unlock row in the security settings.
+  ///
+  /// In en, this message translates to:
+  /// **'Use your device\'s biometric authentication for faster, secure access.'**
+  String get security_row_biometric_subtitle;
+
+  /// Subtitle of the passkey row in the security settings.
+  ///
+  /// In en, this message translates to:
+  /// **'Setup passkey as your authentication method.'**
+  String get security_row_passkey_subtitle;
+
+  /// Subtitle of the authenticator-app row in the security settings.
+  ///
+  /// In en, this message translates to:
+  /// **'Use your authenticator app to set up two-factor authentication.'**
+  String get security_row_totp_subtitle;
+
+  /// Toast when removing a passkey but the account has none enrolled.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t find your existing passkey.'**
+  String get security_error_passkey_not_found;
+
+  /// Toast after the passkey was removed from the account.
+  ///
+  /// In en, this message translates to:
+  /// **'Passkey removed.'**
+  String get security_passkey_removed;
+
+  /// First part of a prompt that then names the phone number and/or the email address the code went to. Keep the line break.
+  ///
+  /// In en, this message translates to:
+  /// **'Add the verification code sent to your:\n'**
+  String get verify_prompt_prefix_multi;
+
+  /// Joins the phone number and the email address in the prompt that starts with verify_prompt_prefix_multi. Keep the leading space and the line break.
+  ///
+  /// In en, this message translates to:
+  /// **' or\n'**
+  String get verify_prompt_or;
+
+  /// Labels the email address in the prompt that starts with verify_prompt_prefix_multi. Keep the trailing space.
+  ///
+  /// In en, this message translates to:
+  /// **'email address '**
+  String get verify_prompt_target_email;
 }
 
 class _BringinTranslationsDelegate
