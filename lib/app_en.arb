@@ -269,6 +269,7 @@
   "home_tx_filter_cards": "Cards",
   "home_tx_filter_swaps": "Swaps",
   "home_transactions_empty": "No transactions yet",
+  "wallet_transactions_syncing": "Syncing your transactions\u2026",
   "home_transactions_empty_filtered": "Nothing here in your recent transactions.",
   "home_resume_loader_message": "Picking up where you left off.",
   "home_error_generic": "Something went wrong.",

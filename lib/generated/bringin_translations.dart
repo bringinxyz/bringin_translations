@@ -953,6 +953,12 @@ abstract class BringinTranslations {
   /// **'No transactions yet'**
   String get home_transactions_empty;
 
+  /// No description provided for @wallet_transactions_syncing.
+  ///
+  /// In en, this message translates to:
+  /// **'Syncing your transactions…'**
+  String get wallet_transactions_syncing;
+
   /// No description provided for @home_transactions_empty_filtered.
   ///
   /// In en, this message translates to:

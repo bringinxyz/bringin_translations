@@ -507,6 +507,9 @@ class BringinTranslationsEn extends BringinTranslations {
   String get home_transactions_empty => 'No transactions yet';
 
   @override
+  String get wallet_transactions_syncing => 'Syncing your transactions…';
+
+  @override
   String get home_transactions_empty_filtered =>
       'Nothing here in your recent transactions.';
 
