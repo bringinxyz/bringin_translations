@@ -2623,5 +2623,61 @@
   "pro_pay_external_subtitle": "Via lightning network",
   "@pro_pay_external_subtitle": {
     "description": "Subtitle of the external-wallets payment row."
+  },
+  "pro_eur_error_sms_switch_restart": "Couldn't switch to SMS. Start the purchase again.",
+  "@pro_eur_error_sms_switch_restart": {
+    "description": "Toast when falling back from passkey to SMS needs a fresh invoice and the replacement priced differently, so the purchase has to be restarted."
+  },
+  "pro_eur_error_passkey_start": "Couldn't start passkey verification. Use SMS instead.",
+  "@pro_eur_error_passkey_start": {
+    "description": "Toast when the backend sent a passkey challenge with no WebAuthn options, so the ceremony cannot run."
+  },
+  "pro_eur_error_no_passkey": "No passkey found on this device. Use SMS instead.",
+  "@pro_eur_error_no_passkey": {
+    "description": "Toast when the device holds no credential for this account."
+  },
+  "pro_eur_failure_reason": "Subscription payment could not be completed.",
+  "@pro_eur_failure_reason": {
+    "description": "Reason line on the failure screen for a Pro subscription paid from the euro balance."
+  },
+  "pro_summary_label_plan": "Plan",
+  "@pro_summary_label_plan": {
+    "description": "Row label in the Pro payment summary card."
+  },
+  "pro_summary_value_plan": "Pro annual",
+  "@pro_summary_value_plan": {
+    "description": "Row value in the Pro payment summary card: the name of the plan being bought."
+  },
+  "pro_verify_swap_title": "Verify your payment",
+  "@pro_verify_swap_title": {
+    "description": "Title of the first of two verification steps when paying for Pro from the euro balance."
+  },
+  "pro_verify_swap_explainer": "To keep your money safe, paying for Pro takes two quick verifications. This is the first one.",
+  "@pro_verify_swap_explainer": {
+    "description": "Explainer under pro_verify_swap_title."
+  },
+  "pro_verify_withdraw_title": "Confirm your payment",
+  "@pro_verify_withdraw_title": {
+    "description": "Title of the second of two verification steps when paying for Pro."
+  },
+  "pro_verify_withdraw_banner": "Almost there! Verify once more to activate Pro.",
+  "@pro_verify_withdraw_banner": {
+    "description": "Info banner on the second Pro verification step."
+  },
+  "pro_eur_appbar_title": "Pay with Euro",
+  "@pro_eur_appbar_title": {
+    "description": "App-bar title of the verification screens in the Pro euro-payment flow."
+  },
+  "pro_eur_otp_prompt_prefix": "Add the verification code sent to your:\nmobile number ",
+  "@pro_eur_otp_prompt_prefix": {
+    "description": "First part of a sentence that continues with the user's phone number, then pro_eur_otp_prompt_or_email, then their email address. Keep the line break and the trailing space."
+  },
+  "pro_eur_otp_prompt_or_email": " or\nemail address ",
+  "@pro_eur_otp_prompt_or_email": {
+    "description": "Joins the phone number and the email address in the prompt that starts with pro_eur_otp_prompt_prefix. Keep the line break and both spaces."
+  },
+  "pro_eur_otp_helper_resend": "Did not receive the code?",
+  "@pro_eur_otp_helper_resend": {
+    "description": "Helper text under the OTP boxes, next to the resend countdown."
   }
 }

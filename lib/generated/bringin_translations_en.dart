@@ -5941,4 +5941,53 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get pro_pay_external_subtitle => 'Via lightning network';
+
+  @override
+  String get pro_eur_error_sms_switch_restart =>
+      'Couldn\'t switch to SMS. Start the purchase again.';
+
+  @override
+  String get pro_eur_error_passkey_start =>
+      'Couldn\'t start passkey verification. Use SMS instead.';
+
+  @override
+  String get pro_eur_error_no_passkey =>
+      'No passkey found on this device. Use SMS instead.';
+
+  @override
+  String get pro_eur_failure_reason =>
+      'Subscription payment could not be completed.';
+
+  @override
+  String get pro_summary_label_plan => 'Plan';
+
+  @override
+  String get pro_summary_value_plan => 'Pro annual';
+
+  @override
+  String get pro_verify_swap_title => 'Verify your payment';
+
+  @override
+  String get pro_verify_swap_explainer =>
+      'To keep your money safe, paying for Pro takes two quick verifications. This is the first one.';
+
+  @override
+  String get pro_verify_withdraw_title => 'Confirm your payment';
+
+  @override
+  String get pro_verify_withdraw_banner =>
+      'Almost there! Verify once more to activate Pro.';
+
+  @override
+  String get pro_eur_appbar_title => 'Pay with Euro';
+
+  @override
+  String get pro_eur_otp_prompt_prefix =>
+      'Add the verification code sent to your:\nmobile number ';
+
+  @override
+  String get pro_eur_otp_prompt_or_email => ' or\nemail address ';
+
+  @override
+  String get pro_eur_otp_helper_resend => 'Did not receive the code?';
 }

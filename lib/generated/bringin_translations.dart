@@ -10337,6 +10337,90 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Via lightning network'**
   String get pro_pay_external_subtitle;
+
+  /// Toast when falling back from passkey to SMS needs a fresh invoice and the replacement priced differently, so the purchase has to be restarted.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t switch to SMS. Start the purchase again.'**
+  String get pro_eur_error_sms_switch_restart;
+
+  /// Toast when the backend sent a passkey challenge with no WebAuthn options, so the ceremony cannot run.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t start passkey verification. Use SMS instead.'**
+  String get pro_eur_error_passkey_start;
+
+  /// Toast when the device holds no credential for this account.
+  ///
+  /// In en, this message translates to:
+  /// **'No passkey found on this device. Use SMS instead.'**
+  String get pro_eur_error_no_passkey;
+
+  /// Reason line on the failure screen for a Pro subscription paid from the euro balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Subscription payment could not be completed.'**
+  String get pro_eur_failure_reason;
+
+  /// Row label in the Pro payment summary card.
+  ///
+  /// In en, this message translates to:
+  /// **'Plan'**
+  String get pro_summary_label_plan;
+
+  /// Row value in the Pro payment summary card: the name of the plan being bought.
+  ///
+  /// In en, this message translates to:
+  /// **'Pro annual'**
+  String get pro_summary_value_plan;
+
+  /// Title of the first of two verification steps when paying for Pro from the euro balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify your payment'**
+  String get pro_verify_swap_title;
+
+  /// Explainer under pro_verify_swap_title.
+  ///
+  /// In en, this message translates to:
+  /// **'To keep your money safe, paying for Pro takes two quick verifications. This is the first one.'**
+  String get pro_verify_swap_explainer;
+
+  /// Title of the second of two verification steps when paying for Pro.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm your payment'**
+  String get pro_verify_withdraw_title;
+
+  /// Info banner on the second Pro verification step.
+  ///
+  /// In en, this message translates to:
+  /// **'Almost there! Verify once more to activate Pro.'**
+  String get pro_verify_withdraw_banner;
+
+  /// App-bar title of the verification screens in the Pro euro-payment flow.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay with Euro'**
+  String get pro_eur_appbar_title;
+
+  /// First part of a sentence that continues with the user's phone number, then pro_eur_otp_prompt_or_email, then their email address. Keep the line break and the trailing space.
+  ///
+  /// In en, this message translates to:
+  /// **'Add the verification code sent to your:\nmobile number '**
+  String get pro_eur_otp_prompt_prefix;
+
+  /// Joins the phone number and the email address in the prompt that starts with pro_eur_otp_prompt_prefix. Keep the line break and both spaces.
+  ///
+  /// In en, this message translates to:
+  /// **' or\nemail address '**
+  String get pro_eur_otp_prompt_or_email;
+
+  /// Helper text under the OTP boxes, next to the resend countdown.
+  ///
+  /// In en, this message translates to:
+  /// **'Did not receive the code?'**
+  String get pro_eur_otp_helper_resend;
 }
 
 class _BringinTranslationsDelegate
