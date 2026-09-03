@@ -7586,4 +7586,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get qr_error_no_code => 'No QR Code found in the image';
+
+  @override
+  String get action_edit => 'Edit';
 }

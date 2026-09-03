@@ -13121,6 +13121,12 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'No QR Code found in the image'**
   String get qr_error_no_code;
+
+  /// Generic edit action on a list row.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit'**
+  String get action_edit;
 }
 
 class _BringinTranslationsDelegate

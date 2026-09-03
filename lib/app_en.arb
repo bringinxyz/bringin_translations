@@ -4583,5 +4583,9 @@
   "qr_error_no_code": "No QR Code found in the image",
   "@qr_error_no_code": {
     "description": "Shown when a picked image contains no readable code."
+  },
+  "action_edit": "Edit",
+  "@action_edit": {
+    "description": "Generic edit action on a list row."
   }
 }
