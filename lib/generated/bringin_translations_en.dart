@@ -7585,4 +7585,41 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get action_edit => 'Edit';
+
+  @override
+  String get api_error_timeout => 'The request timed out. Please try again.';
+
+  @override
+  String get api_error_connection =>
+      'Unable to connect to the server. Please check your connection and try again.';
+
+  @override
+  String get api_error_cancelled =>
+      'The request was cancelled. Please try again.';
+
+  @override
+  String get api_error_network_generic =>
+      'A network error occurred. Please try again later.';
+
+  @override
+  String get migration_step_check_limits => 'Checking payment limits...';
+
+  @override
+  String get migration_step_prepare_spark => 'Preparing Spark wallet...';
+
+  @override
+  String get migration_step_get_fees => 'Getting payment fees...';
+
+  @override
+  String get migration_step_create_invoice => 'Creating migration invoice...';
+
+  @override
+  String get migration_step_prepare_payment => 'Preparing payment...';
+
+  @override
+  String get migration_step_sending => 'Sending payment...';
+
+  @override
+  String get migration_step_awaiting_confirmation =>
+      'Waiting for payment confirmation...';
 }

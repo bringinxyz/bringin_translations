@@ -4583,5 +4583,49 @@
   "action_edit": "Edit",
   "@action_edit": {
     "description": "Generic edit action on a list row."
+  },
+  "api_error_timeout": "The request timed out. Please try again.",
+  "@api_error_timeout": {
+    "description": "Network error when the request timed out."
+  },
+  "api_error_connection": "Unable to connect to the server. Please check your connection and try again.",
+  "@api_error_connection": {
+    "description": "Network error when the connection could not be established."
+  },
+  "api_error_cancelled": "The request was cancelled. Please try again.",
+  "@api_error_cancelled": {
+    "description": "Network error when the request was cancelled."
+  },
+  "api_error_network_generic": "A network error occurred. Please try again later.",
+  "@api_error_network_generic": {
+    "description": "Fallback network error."
+  },
+  "migration_step_check_limits": "Checking payment limits...",
+  "@migration_step_check_limits": {
+    "description": "Migration progress step."
+  },
+  "migration_step_prepare_spark": "Preparing Spark wallet...",
+  "@migration_step_prepare_spark": {
+    "description": "Migration progress step."
+  },
+  "migration_step_get_fees": "Getting payment fees...",
+  "@migration_step_get_fees": {
+    "description": "Migration progress step."
+  },
+  "migration_step_create_invoice": "Creating migration invoice...",
+  "@migration_step_create_invoice": {
+    "description": "Migration progress step."
+  },
+  "migration_step_prepare_payment": "Preparing payment...",
+  "@migration_step_prepare_payment": {
+    "description": "Migration progress step."
+  },
+  "migration_step_sending": "Sending payment...",
+  "@migration_step_sending": {
+    "description": "Migration progress step."
+  },
+  "migration_step_awaiting_confirmation": "Waiting for payment confirmation...",
+  "@migration_step_awaiting_confirmation": {
+    "description": "Migration progress step."
   }
 }

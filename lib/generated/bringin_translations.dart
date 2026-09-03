@@ -13121,6 +13121,72 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Edit'**
   String get action_edit;
+
+  /// Network error when the request timed out.
+  ///
+  /// In en, this message translates to:
+  /// **'The request timed out. Please try again.'**
+  String get api_error_timeout;
+
+  /// Network error when the connection could not be established.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to connect to the server. Please check your connection and try again.'**
+  String get api_error_connection;
+
+  /// Network error when the request was cancelled.
+  ///
+  /// In en, this message translates to:
+  /// **'The request was cancelled. Please try again.'**
+  String get api_error_cancelled;
+
+  /// Fallback network error.
+  ///
+  /// In en, this message translates to:
+  /// **'A network error occurred. Please try again later.'**
+  String get api_error_network_generic;
+
+  /// Migration progress step.
+  ///
+  /// In en, this message translates to:
+  /// **'Checking payment limits...'**
+  String get migration_step_check_limits;
+
+  /// Migration progress step.
+  ///
+  /// In en, this message translates to:
+  /// **'Preparing Spark wallet...'**
+  String get migration_step_prepare_spark;
+
+  /// Migration progress step.
+  ///
+  /// In en, this message translates to:
+  /// **'Getting payment fees...'**
+  String get migration_step_get_fees;
+
+  /// Migration progress step.
+  ///
+  /// In en, this message translates to:
+  /// **'Creating migration invoice...'**
+  String get migration_step_create_invoice;
+
+  /// Migration progress step.
+  ///
+  /// In en, this message translates to:
+  /// **'Preparing payment...'**
+  String get migration_step_prepare_payment;
+
+  /// Migration progress step.
+  ///
+  /// In en, this message translates to:
+  /// **'Sending payment...'**
+  String get migration_step_sending;
+
+  /// Migration progress step.
+  ///
+  /// In en, this message translates to:
+  /// **'Waiting for payment confirmation...'**
+  String get migration_step_awaiting_confirmation;
 }
 
 class _BringinTranslationsDelegate
