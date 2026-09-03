@@ -11741,6 +11741,204 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Bluetooth permission was denied. Go to Settings → Bringin → Bluetooth to enable it.'**
   String get nearby_error_permission_denied_bluetooth;
+
+  /// Title of the shared error sheet when the severity is error.
+  ///
+  /// In en, this message translates to:
+  /// **'Oops!'**
+  String get error_modal_title_error;
+
+  /// Title of the shared error sheet when the severity is warning.
+  ///
+  /// In en, this message translates to:
+  /// **'Heads up'**
+  String get error_modal_title_warning;
+
+  /// Title of the shared error sheet when the severity is informational.
+  ///
+  /// In en, this message translates to:
+  /// **'Just so you know'**
+  String get error_modal_title_info;
+
+  /// Label of the copy affordance on a copyable detail row.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy'**
+  String get action_copy;
+
+  /// Note under an amount field showing how much of the monthly KYC limit is left. {limit} is a pre-formatted number.
+  ///
+  /// In en, this message translates to:
+  /// **'Your available transfer limit for this month is €{limit}'**
+  String kyc_limit_note(String limit);
+
+  /// Prompt above the resend link in the shared OTP modal.
+  ///
+  /// In en, this message translates to:
+  /// **'Did not receive a verification code?'**
+  String get otp_modal_no_code;
+
+  /// Resend link in the shared OTP modal. Upper case in the design.
+  ///
+  /// In en, this message translates to:
+  /// **'SEND AGAIN'**
+  String get otp_modal_action_resend;
+
+  /// Countdown shown while the resend link is still disabled.
+  ///
+  /// In en, this message translates to:
+  /// **'Resend in another {seconds} seconds'**
+  String otp_modal_resend_countdown(String seconds);
+
+  /// Validation error when the OTP field is submitted empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter the verification code'**
+  String get otp_modal_error_empty;
+
+  /// Title of the confirm-cancel sheet for a pending order.
+  ///
+  /// In en, this message translates to:
+  /// **'Order cancellation'**
+  String get order_cancel_title;
+
+  /// Body of the confirm-cancel sheet for a pending order.
+  ///
+  /// In en, this message translates to:
+  /// **'Are you sure you want to cancel this order?'**
+  String get order_cancel_body;
+
+  /// Shown when the wallet's background optimization is already in progress. Deliberately unalarming — the user did not start it.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet optimization is already running.'**
+  String get sdk_error_optimization_running;
+
+  /// Shown when the wallet's background optimization was cancelled.
+  ///
+  /// In en, this message translates to:
+  /// **'Wallet optimization was cancelled.'**
+  String get sdk_error_optimization_cancelled;
+
+  /// Shown when the amount is under the on-chain dust limit. {sats} is a whole number parsed out of the SDK error.
+  ///
+  /// In en, this message translates to:
+  /// **'Minimum on-chain send amount is {sats} sats.'**
+  String sdk_error_min_onchain_send(String sats);
+
+  /// Shown when the amount is under the on-chain dust limit and no figure could be parsed from the SDK error.
+  ///
+  /// In en, this message translates to:
+  /// **'The amount is too small for an on-chain transaction.'**
+  String get sdk_error_amount_too_small;
+
+  /// Fallback when an SDK error cannot be mapped to a known message. 'Profile > Share Logs' names an in-app path, so it must match the translated menu labels.
+  ///
+  /// In en, this message translates to:
+  /// **'Something went wrong. Please try again. If the issue persists, share your logs from Profile > Share Logs and email them to support@bringin.xyz'**
+  String get sdk_error_generic_share_logs;
+
+  /// Shown when a Lightning or on-chain send fails for insufficient funds including fees.
+  ///
+  /// In en, this message translates to:
+  /// **'Not enough Bitcoin to cover the network fee. Try again with a slightly smaller amount.'**
+  String get payment_error_network_fee;
+
+  /// Shown when a send times out — deliberately does not claim the payment failed, because it may still settle.
+  ///
+  /// In en, this message translates to:
+  /// **'The network took too long to respond. Check your transactions before trying again.'**
+  String get payment_error_timeout;
+
+  /// Shown when a send fails on a network or socket error.
+  ///
+  /// In en, this message translates to:
+  /// **'Connection problem. Check your internet and try again.'**
+  String get payment_error_connection;
+
+  /// Fallback when a send fails for a reason the app cannot explain.
+  ///
+  /// In en, this message translates to:
+  /// **'Something went wrong and the payment was not completed.'**
+  String get payment_error_generic_not_completed;
+
+  /// Cloud-backup failure: Google Drive was not reachable.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn’t reach Google Drive. Check your connection and try again.'**
+  String get backup_error_drive_unreachable;
+
+  /// Cloud-backup failure: Play services is too old.
+  ///
+  /// In en, this message translates to:
+  /// **'Google Play services needs an update. Update it, then try again.'**
+  String get backup_error_play_services;
+
+  /// Cloud-backup failure: this build cannot back up.
+  ///
+  /// In en, this message translates to:
+  /// **'Backup isn’t available on this version of the app. Please contact support.'**
+  String get backup_error_unsupported_backup;
+
+  /// Cloud-backup failure: this build cannot restore.
+  ///
+  /// In en, this message translates to:
+  /// **'Cloud restore isn’t available on this version of the app. Please contact support.'**
+  String get backup_error_unsupported_restore;
+
+  /// Cloud-backup failure: Google sign-in did not complete.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn’t sign you in to Google. Please try again.'**
+  String get backup_error_signin;
+
+  /// Cloud-backup failure: Drive scope was not granted, on the save path.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin needs access to your Google Drive to save your backup. Try again and allow access.'**
+  String get backup_error_permission_save;
+
+  /// Cloud-backup failure: Drive scope was not granted, on the restore path.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin needs access to your Google Drive to find your backup. Try again and allow access.'**
+  String get backup_error_permission_find;
+
+  /// Cloud-backup failure: no storage quota left.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Google Drive is full. Free up space, then try again.'**
+  String get backup_error_drive_full;
+
+  /// Cloud-backup failure: the account policy blocks the app.
+  ///
+  /// In en, this message translates to:
+  /// **'This Google account doesn’t allow Bringin to use Google Drive. Try a different account.'**
+  String get backup_error_account_blocked;
+
+  /// Cloud-backup failure: the upload failed.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn’t save your backup to Google Drive. Please try again.'**
+  String get backup_error_save_failed;
+
+  /// Cloud-backup failure: the download or decode failed.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn’t open your backup from Google Drive. Please try again.'**
+  String get backup_error_open_failed;
+
+  /// Cloud-backup failure: the account check did not return in time.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn’t confirm your Bringin account. Please try again in a moment.'**
+  String get backup_error_account_unconfirmed;
+
+  /// Cloud-backup failure: generic restore fallback. Pairs with wallet_backup_failure_message on the save path.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn’t restore your backup. Please try again.'**
+  String get backup_error_restore_generic;
 }
 
 class _BringinTranslationsDelegate

@@ -6763,4 +6763,130 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get nearby_error_permission_denied_bluetooth =>
       'Bluetooth permission was denied. Go to Settings → Bringin → Bluetooth to enable it.';
+
+  @override
+  String get error_modal_title_error => 'Oops!';
+
+  @override
+  String get error_modal_title_warning => 'Heads up';
+
+  @override
+  String get error_modal_title_info => 'Just so you know';
+
+  @override
+  String get action_copy => 'Copy';
+
+  @override
+  String kyc_limit_note(String limit) {
+    return 'Your available transfer limit for this month is €$limit';
+  }
+
+  @override
+  String get otp_modal_no_code => 'Did not receive a verification code?';
+
+  @override
+  String get otp_modal_action_resend => 'SEND AGAIN';
+
+  @override
+  String otp_modal_resend_countdown(String seconds) {
+    return 'Resend in another $seconds seconds';
+  }
+
+  @override
+  String get otp_modal_error_empty => 'Please enter the verification code';
+
+  @override
+  String get order_cancel_title => 'Order cancellation';
+
+  @override
+  String get order_cancel_body => 'Are you sure you want to cancel this order?';
+
+  @override
+  String get sdk_error_optimization_running =>
+      'Wallet optimization is already running.';
+
+  @override
+  String get sdk_error_optimization_cancelled =>
+      'Wallet optimization was cancelled.';
+
+  @override
+  String sdk_error_min_onchain_send(String sats) {
+    return 'Minimum on-chain send amount is $sats sats.';
+  }
+
+  @override
+  String get sdk_error_amount_too_small =>
+      'The amount is too small for an on-chain transaction.';
+
+  @override
+  String get sdk_error_generic_share_logs =>
+      'Something went wrong. Please try again. If the issue persists, share your logs from Profile > Share Logs and email them to support@bringin.xyz';
+
+  @override
+  String get payment_error_network_fee =>
+      'Not enough Bitcoin to cover the network fee. Try again with a slightly smaller amount.';
+
+  @override
+  String get payment_error_timeout =>
+      'The network took too long to respond. Check your transactions before trying again.';
+
+  @override
+  String get payment_error_connection =>
+      'Connection problem. Check your internet and try again.';
+
+  @override
+  String get payment_error_generic_not_completed =>
+      'Something went wrong and the payment was not completed.';
+
+  @override
+  String get backup_error_drive_unreachable =>
+      'We couldn’t reach Google Drive. Check your connection and try again.';
+
+  @override
+  String get backup_error_play_services =>
+      'Google Play services needs an update. Update it, then try again.';
+
+  @override
+  String get backup_error_unsupported_backup =>
+      'Backup isn’t available on this version of the app. Please contact support.';
+
+  @override
+  String get backup_error_unsupported_restore =>
+      'Cloud restore isn’t available on this version of the app. Please contact support.';
+
+  @override
+  String get backup_error_signin =>
+      'We couldn’t sign you in to Google. Please try again.';
+
+  @override
+  String get backup_error_permission_save =>
+      'Bringin needs access to your Google Drive to save your backup. Try again and allow access.';
+
+  @override
+  String get backup_error_permission_find =>
+      'Bringin needs access to your Google Drive to find your backup. Try again and allow access.';
+
+  @override
+  String get backup_error_drive_full =>
+      'Your Google Drive is full. Free up space, then try again.';
+
+  @override
+  String get backup_error_account_blocked =>
+      'This Google account doesn’t allow Bringin to use Google Drive. Try a different account.';
+
+  @override
+  String get backup_error_save_failed =>
+      'We couldn’t save your backup to Google Drive. Please try again.';
+
+  @override
+  String get backup_error_open_failed =>
+      'We couldn’t open your backup from Google Drive. Please try again.';
+
+  @override
+  String get backup_error_account_unconfirmed =>
+      'We couldn’t confirm your Bringin account. Please try again in a moment.';
+
+  @override
+  String get backup_error_restore_generic =>
+      'We couldn’t restore your backup. Please try again.';
 }
