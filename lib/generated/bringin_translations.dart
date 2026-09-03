@@ -11081,6 +11081,138 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Your feedback helps us improve.'**
   String get tx_rating_body;
+
+  /// Notice on the euro-deposit screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Deposit from a bank account in your name. We do not support third party payments.'**
+  String get deposit_bank_notice;
+
+  /// Empty state when the backend returns no bank details to deposit into.
+  ///
+  /// In en, this message translates to:
+  /// **'No deposit details available'**
+  String get deposit_no_details;
+
+  /// Section heading above the IBAN/BIC rows the user copies into their bank.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy your bank details'**
+  String get deposit_copy_bank_details;
+
+  /// Detail-row label on the euro-deposit screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Account holder name'**
+  String get deposit_label_account_holder;
+
+  /// Detail-row label on the euro-deposit screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Bank name'**
+  String get deposit_label_bank_name;
+
+  /// Detail-row label on the euro-deposit screen. The address itself is a postal address and is not translated.
+  ///
+  /// In en, this message translates to:
+  /// **'Bank address'**
+  String get deposit_label_bank_address;
+
+  /// Detail-row label on the euro-deposit screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Account number'**
+  String get deposit_label_account_number;
+
+  /// Heading of the open-banking entry section on the euro-deposit screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Connect your bank account'**
+  String get deposit_connect_bank_title;
+
+  /// Shown when the bank-details lookup fails. {error} is an untranslated technical message.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to fetch deposit details: {error}'**
+  String deposit_error_fetch_details(String error);
+
+  /// Status line after the user completed the source-of-funds declaration for a held deposit.
+  ///
+  /// In en, this message translates to:
+  /// **'Thanks — we\'re releasing your deposit. This can take a few minutes.'**
+  String get deposit_releasing;
+
+  /// Body of the action-needed banner on a deposit held for a Travel Rule declaration.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm where this Bitcoin came from to release your deposit. Tap to continue.'**
+  String get deposit_action_needed_body;
+
+  /// Shown in place of the QR code when the deposit address could not be fetched.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to load address. Tap to retry.'**
+  String get deposit_error_load_address;
+
+  /// Limits note on the on-chain deposit tab. {min} and {max} are pre-formatted euro amounts.
+  ///
+  /// In en, this message translates to:
+  /// **'Minimum €{min}. Maximum €{max} per transaction. Manage limits in your profile. We charge 1% fee on the transaction.'**
+  String deposit_limits_manage_profile(String min, String max);
+
+  /// Validation error on the open-banking amount field.
+  ///
+  /// In en, this message translates to:
+  /// **'Max 2 decimal places'**
+  String get open_banking_error_decimals;
+
+  /// Validation error on the open-banking reference field.
+  ///
+  /// In en, this message translates to:
+  /// **'Reference can\'t be empty'**
+  String get open_banking_error_reference_empty;
+
+  /// Validation error on the open-banking label field.
+  ///
+  /// In en, this message translates to:
+  /// **'Label must be within 3-15 characters'**
+  String get open_banking_error_label_length;
+
+  /// Shown when starting the open-banking session fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to initiate open banking'**
+  String get open_banking_error_initiate;
+
+  /// App-bar title of the open-banking screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Connect your bank'**
+  String get open_banking_title;
+
+  /// Heading of the open-banking form.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter details for connecting your bank'**
+  String get open_banking_subtitle;
+
+  /// Label of the amount field on the open-banking form.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter amount in Euro'**
+  String get open_banking_field_amount;
+
+  /// Banner offering the user a chance to declare the source wallet before the deposit is held.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify your source wallet to release this deposit.'**
+  String get declaration_banner_verify_wallet;
+
+  /// Body of the proactive-declaration banner.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm where this Bitcoin came from to skip the compliance hold.'**
+  String get declaration_banner_skip_hold;
 }
 
 class _BringinTranslationsDelegate

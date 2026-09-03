@@ -3122,5 +3122,106 @@
   "tx_rating_body": "Your feedback helps us improve.",
   "@tx_rating_body": {
     "description": "Subtitle of the rating card."
+  },
+  "deposit_bank_notice": "Deposit from a bank account in your name. We do not support third party payments.",
+  "@deposit_bank_notice": {
+    "description": "Notice on the euro-deposit screen."
+  },
+  "deposit_no_details": "No deposit details available",
+  "@deposit_no_details": {
+    "description": "Empty state when the backend returns no bank details to deposit into."
+  },
+  "deposit_copy_bank_details": "Copy your bank details",
+  "@deposit_copy_bank_details": {
+    "description": "Section heading above the IBAN/BIC rows the user copies into their bank."
+  },
+  "deposit_label_account_holder": "Account holder name",
+  "@deposit_label_account_holder": {
+    "description": "Detail-row label on the euro-deposit screen."
+  },
+  "deposit_label_bank_name": "Bank name",
+  "@deposit_label_bank_name": {
+    "description": "Detail-row label on the euro-deposit screen."
+  },
+  "deposit_label_bank_address": "Bank address",
+  "@deposit_label_bank_address": {
+    "description": "Detail-row label on the euro-deposit screen. The address itself is a postal address and is not translated."
+  },
+  "deposit_label_account_number": "Account number",
+  "@deposit_label_account_number": {
+    "description": "Detail-row label on the euro-deposit screen."
+  },
+  "deposit_connect_bank_title": "Connect your bank account",
+  "@deposit_connect_bank_title": {
+    "description": "Heading of the open-banking entry section on the euro-deposit screen."
+  },
+  "deposit_error_fetch_details": "Failed to fetch deposit details: {error}",
+  "@deposit_error_fetch_details": {
+    "description": "Shown when the bank-details lookup fails. {error} is an untranslated technical message.",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "deposit_releasing": "Thanks — we're releasing your deposit. This can take a few minutes.",
+  "@deposit_releasing": {
+    "description": "Status line after the user completed the source-of-funds declaration for a held deposit."
+  },
+  "deposit_action_needed_body": "Confirm where this Bitcoin came from to release your deposit. Tap to continue.",
+  "@deposit_action_needed_body": {
+    "description": "Body of the action-needed banner on a deposit held for a Travel Rule declaration."
+  },
+  "deposit_error_load_address": "Failed to load address. Tap to retry.",
+  "@deposit_error_load_address": {
+    "description": "Shown in place of the QR code when the deposit address could not be fetched."
+  },
+  "deposit_limits_manage_profile": "Minimum €{min}. Maximum €{max} per transaction. Manage limits in your profile. We charge 1% fee on the transaction.",
+  "@deposit_limits_manage_profile": {
+    "description": "Limits note on the on-chain deposit tab. {min} and {max} are pre-formatted euro amounts.",
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "open_banking_error_decimals": "Max 2 decimal places",
+  "@open_banking_error_decimals": {
+    "description": "Validation error on the open-banking amount field."
+  },
+  "open_banking_error_reference_empty": "Reference can't be empty",
+  "@open_banking_error_reference_empty": {
+    "description": "Validation error on the open-banking reference field."
+  },
+  "open_banking_error_label_length": "Label must be within 3-15 characters",
+  "@open_banking_error_label_length": {
+    "description": "Validation error on the open-banking label field."
+  },
+  "open_banking_error_initiate": "Failed to initiate open banking",
+  "@open_banking_error_initiate": {
+    "description": "Shown when starting the open-banking session fails."
+  },
+  "open_banking_title": "Connect your bank",
+  "@open_banking_title": {
+    "description": "App-bar title of the open-banking screen."
+  },
+  "open_banking_subtitle": "Enter details for connecting your bank",
+  "@open_banking_subtitle": {
+    "description": "Heading of the open-banking form."
+  },
+  "open_banking_field_amount": "Enter amount in Euro",
+  "@open_banking_field_amount": {
+    "description": "Label of the amount field on the open-banking form."
+  },
+  "declaration_banner_verify_wallet": "Verify your source wallet to release this deposit.",
+  "@declaration_banner_verify_wallet": {
+    "description": "Banner offering the user a chance to declare the source wallet before the deposit is held."
+  },
+  "declaration_banner_skip_hold": "Confirm where this Bitcoin came from to skip the compliance hold.",
+  "@declaration_banner_skip_hold": {
+    "description": "Body of the proactive-declaration banner."
   }
 }

@@ -6365,4 +6365,81 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get tx_rating_body => 'Your feedback helps us improve.';
+
+  @override
+  String get deposit_bank_notice =>
+      'Deposit from a bank account in your name. We do not support third party payments.';
+
+  @override
+  String get deposit_no_details => 'No deposit details available';
+
+  @override
+  String get deposit_copy_bank_details => 'Copy your bank details';
+
+  @override
+  String get deposit_label_account_holder => 'Account holder name';
+
+  @override
+  String get deposit_label_bank_name => 'Bank name';
+
+  @override
+  String get deposit_label_bank_address => 'Bank address';
+
+  @override
+  String get deposit_label_account_number => 'Account number';
+
+  @override
+  String get deposit_connect_bank_title => 'Connect your bank account';
+
+  @override
+  String deposit_error_fetch_details(String error) {
+    return 'Failed to fetch deposit details: $error';
+  }
+
+  @override
+  String get deposit_releasing =>
+      'Thanks — we\'re releasing your deposit. This can take a few minutes.';
+
+  @override
+  String get deposit_action_needed_body =>
+      'Confirm where this Bitcoin came from to release your deposit. Tap to continue.';
+
+  @override
+  String get deposit_error_load_address =>
+      'Failed to load address. Tap to retry.';
+
+  @override
+  String deposit_limits_manage_profile(String min, String max) {
+    return 'Minimum €$min. Maximum €$max per transaction. Manage limits in your profile. We charge 1% fee on the transaction.';
+  }
+
+  @override
+  String get open_banking_error_decimals => 'Max 2 decimal places';
+
+  @override
+  String get open_banking_error_reference_empty => 'Reference can\'t be empty';
+
+  @override
+  String get open_banking_error_label_length =>
+      'Label must be within 3-15 characters';
+
+  @override
+  String get open_banking_error_initiate => 'Failed to initiate open banking';
+
+  @override
+  String get open_banking_title => 'Connect your bank';
+
+  @override
+  String get open_banking_subtitle => 'Enter details for connecting your bank';
+
+  @override
+  String get open_banking_field_amount => 'Enter amount in Euro';
+
+  @override
+  String get declaration_banner_verify_wallet =>
+      'Verify your source wallet to release this deposit.';
+
+  @override
+  String get declaration_banner_skip_hold =>
+      'Confirm where this Bitcoin came from to skip the compliance hold.';
 }
