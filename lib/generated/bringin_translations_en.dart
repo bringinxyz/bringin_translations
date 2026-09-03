@@ -6318,4 +6318,51 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get totp_already_on_toast => 'That\'s already on for this account';
+
+  @override
+  String get tx_failure_subtitle => 'Transaction failed!';
+
+  @override
+  String get tx_detail_label_reason => 'Reason';
+
+  @override
+  String get tx_detail_label_datetime => 'Date & time';
+
+  @override
+  String get tx_detail_label_attempted => 'Attempted';
+
+  @override
+  String get tx_processing_adding => 'Adding money...';
+
+  @override
+  String get tx_processing_title => 'Transaction is processing...';
+
+  @override
+  String get tx_detail_from_card_balance => 'From card balance';
+
+  @override
+  String get tx_detail_funded_card_balance => 'Funded card balance';
+
+  @override
+  String get tx_detail_sent_from_card_balance => 'Sent from card balance';
+
+  @override
+  String get tx_success_generic_title => 'Success!';
+
+  @override
+  String get tx_success_generic_subtitle => 'Transaction completed.';
+
+  @override
+  String tx_exchange_rate_value(String rate) {
+    return '€1 at ฿ $rate';
+  }
+
+  @override
+  String get tx_rating_title => 'Rate your experience';
+
+  @override
+  String get tx_rating_prompt => 'Rate this transaction';
+
+  @override
+  String get tx_rating_body => 'Your feedback helps us improve.';
 }

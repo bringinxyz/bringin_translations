@@ -3057,5 +3057,70 @@
   "totp_already_on_toast": "That's already on for this account",
   "@totp_already_on_toast": {
     "description": "Toast when the account turns out to be enrolled already. Nothing failed, so it must not read as an error."
+  },
+  "tx_failure_subtitle": "Transaction failed!",
+  "@tx_failure_subtitle": {
+    "description": "Subtitle on the shared failure screen every send flow falls back to."
+  },
+  "tx_detail_label_reason": "Reason",
+  "@tx_detail_label_reason": {
+    "description": "Detail-row label on the failure screen: why the transaction failed."
+  },
+  "tx_detail_label_datetime": "Date & time",
+  "@tx_detail_label_datetime": {
+    "description": "Detail-row label: when the transaction was attempted."
+  },
+  "tx_detail_label_attempted": "Attempted",
+  "@tx_detail_label_attempted": {
+    "description": "Detail-row label on a failed swap: the amount that was going to be sent."
+  },
+  "tx_processing_adding": "Adding money...",
+  "@tx_processing_adding": {
+    "description": "Status line on the shared processing screen when money is being added to a balance."
+  },
+  "tx_processing_title": "Transaction is processing...",
+  "@tx_processing_title": {
+    "description": "Title of the shared layout for transactions that settle slowly, such as on-chain sends."
+  },
+  "tx_detail_from_card_balance": "From card balance",
+  "@tx_detail_from_card_balance": {
+    "description": "Detail-row value: the money came out of the card balance."
+  },
+  "tx_detail_funded_card_balance": "Funded card balance",
+  "@tx_detail_funded_card_balance": {
+    "description": "Detail-row value: the money went into the card balance."
+  },
+  "tx_detail_sent_from_card_balance": "Sent from card balance",
+  "@tx_detail_sent_from_card_balance": {
+    "description": "Detail-row value on a send whose source was the card balance."
+  },
+  "tx_success_generic_title": "Success!",
+  "@tx_success_generic_title": {
+    "description": "Headline of the success screen when the caller supplies no amount to show."
+  },
+  "tx_success_generic_subtitle": "Transaction completed.",
+  "@tx_success_generic_subtitle": {
+    "description": "Subtitle of the generic success screen."
+  },
+  "tx_exchange_rate_value": "€1 at ฿ {rate}",
+  "@tx_exchange_rate_value": {
+    "description": "Value of the exchange-rate row on the success screen. {rate} is a pre-formatted BTC amount; the sentence says what one euro bought.",
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "tx_rating_title": "Rate your experience",
+  "@tx_rating_title": {
+    "description": "Title of the rating card on a success screen with no specific transaction attached."
+  },
+  "tx_rating_prompt": "Rate this transaction",
+  "@tx_rating_prompt": {
+    "description": "Title of the rating card on a success screen for a specific transaction."
+  },
+  "tx_rating_body": "Your feedback helps us improve.",
+  "@tx_rating_body": {
+    "description": "Subtitle of the rating card."
   }
 }

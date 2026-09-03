@@ -10991,6 +10991,96 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'That\'s already on for this account'**
   String get totp_already_on_toast;
+
+  /// Subtitle on the shared failure screen every send flow falls back to.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction failed!'**
+  String get tx_failure_subtitle;
+
+  /// Detail-row label on the failure screen: why the transaction failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Reason'**
+  String get tx_detail_label_reason;
+
+  /// Detail-row label: when the transaction was attempted.
+  ///
+  /// In en, this message translates to:
+  /// **'Date & time'**
+  String get tx_detail_label_datetime;
+
+  /// Detail-row label on a failed swap: the amount that was going to be sent.
+  ///
+  /// In en, this message translates to:
+  /// **'Attempted'**
+  String get tx_detail_label_attempted;
+
+  /// Status line on the shared processing screen when money is being added to a balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Adding money...'**
+  String get tx_processing_adding;
+
+  /// Title of the shared layout for transactions that settle slowly, such as on-chain sends.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction is processing...'**
+  String get tx_processing_title;
+
+  /// Detail-row value: the money came out of the card balance.
+  ///
+  /// In en, this message translates to:
+  /// **'From card balance'**
+  String get tx_detail_from_card_balance;
+
+  /// Detail-row value: the money went into the card balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Funded card balance'**
+  String get tx_detail_funded_card_balance;
+
+  /// Detail-row value on a send whose source was the card balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Sent from card balance'**
+  String get tx_detail_sent_from_card_balance;
+
+  /// Headline of the success screen when the caller supplies no amount to show.
+  ///
+  /// In en, this message translates to:
+  /// **'Success!'**
+  String get tx_success_generic_title;
+
+  /// Subtitle of the generic success screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction completed.'**
+  String get tx_success_generic_subtitle;
+
+  /// Value of the exchange-rate row on the success screen. {rate} is a pre-formatted BTC amount; the sentence says what one euro bought.
+  ///
+  /// In en, this message translates to:
+  /// **'€1 at ฿ {rate}'**
+  String tx_exchange_rate_value(String rate);
+
+  /// Title of the rating card on a success screen with no specific transaction attached.
+  ///
+  /// In en, this message translates to:
+  /// **'Rate your experience'**
+  String get tx_rating_title;
+
+  /// Title of the rating card on a success screen for a specific transaction.
+  ///
+  /// In en, this message translates to:
+  /// **'Rate this transaction'**
+  String get tx_rating_prompt;
+
+  /// Subtitle of the rating card.
+  ///
+  /// In en, this message translates to:
+  /// **'Your feedback helps us improve.'**
+  String get tx_rating_body;
 }
 
 class _BringinTranslationsDelegate
