@@ -4516,10 +4516,6 @@
   "@migration_same_phrase_body": {
     "description": "Body of the same-phrase notice."
   },
-  "migration_same_phrase_note": "Make sure you have these 12 words saved in a safe place.",
-  "@migration_same_phrase_note": {
-    "description": "Reminder under the same-phrase notice."
-  },
   "migration_required_title": "Wallet Update Required",
   "@migration_required_title": {
     "description": "Heading of the migration prompt."

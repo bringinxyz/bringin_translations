@@ -7530,10 +7530,6 @@ class BringinTranslationsEn extends BringinTranslations {
       'Your new wallet uses the same recovery phrase as your previous wallet.';
 
   @override
-  String get migration_same_phrase_note =>
-      'Make sure you have these 12 words saved in a safe place.';
-
-  @override
   String get migration_required_title => 'Wallet Update Required';
 
   @override

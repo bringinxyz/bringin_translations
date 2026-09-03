@@ -13020,12 +13020,6 @@ abstract class BringinTranslations {
   /// **'Your new wallet uses the same recovery phrase as your previous wallet.'**
   String get migration_same_phrase_body;
 
-  /// Reminder under the same-phrase notice.
-  ///
-  /// In en, this message translates to:
-  /// **'Make sure you have these 12 words saved in a safe place.'**
-  String get migration_same_phrase_note;
-
   /// Heading of the migration prompt.
   ///
   /// In en, this message translates to:
