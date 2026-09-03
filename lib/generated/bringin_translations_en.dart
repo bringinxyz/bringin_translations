@@ -429,6 +429,20 @@ class BringinTranslationsEn extends BringinTranslations {
   String get home_accounts_card_balance_label => 'Card balance';
 
   @override
+  String get home_accounts_balance_syncing => 'Syncing…';
+
+  @override
+  String get home_accounts_balance_update_failed =>
+      'We couldn\'t update your balance. The amount shown may not be current.';
+
+  @override
+  String get home_accounts_balance_fetch_failed =>
+      'We couldn\'t fetch your balance.';
+
+  @override
+  String get home_accounts_balance_retry => 'Retry';
+
+  @override
   String home_accounts_transactions_in_progress(int count) {
     String _temp0 = intl.Intl.pluralLogic(
       count,

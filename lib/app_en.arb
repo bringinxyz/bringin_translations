@@ -235,6 +235,10 @@
   "home_accounts_bitcoin_activate": "Activate wallet",
   "home_accounts_euro_label": "Euro",
   "home_accounts_card_balance_label": "Card balance",
+  "home_accounts_balance_syncing": "Syncing\u2026",
+  "home_accounts_balance_update_failed": "We couldn't update your balance. The amount shown may not be current.",
+  "home_accounts_balance_fetch_failed": "We couldn't fetch your balance.",
+  "home_accounts_balance_retry": "Retry",
   "home_accounts_transactions_in_progress": "{count, plural, =1{1 transaction in progress} other{{count} transactions in progress}}",
   "@home_accounts_transactions_in_progress": {
     "placeholders": {

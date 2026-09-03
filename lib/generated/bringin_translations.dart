@@ -833,6 +833,30 @@ abstract class BringinTranslations {
   /// **'Card balance'**
   String get home_accounts_card_balance_label;
 
+  /// No description provided for @home_accounts_balance_syncing.
+  ///
+  /// In en, this message translates to:
+  /// **'Syncing…'**
+  String get home_accounts_balance_syncing;
+
+  /// No description provided for @home_accounts_balance_update_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t update your balance. The amount shown may not be current.'**
+  String get home_accounts_balance_update_failed;
+
+  /// No description provided for @home_accounts_balance_fetch_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t fetch your balance.'**
+  String get home_accounts_balance_fetch_failed;
+
+  /// No description provided for @home_accounts_balance_retry.
+  ///
+  /// In en, this message translates to:
+  /// **'Retry'**
+  String get home_accounts_balance_retry;
+
   /// No description provided for @home_accounts_transactions_in_progress.
   ///
   /// In en, this message translates to:
