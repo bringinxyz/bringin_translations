@@ -6116,4 +6116,51 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get verify_prompt_target_email => 'email address ';
+
+  @override
+  String get sca_error_code_expired_resending =>
+      'That code expired. We’re sending a new one.';
+
+  @override
+  String get sca_error_code_expired_send_again =>
+      'Verification code expired. Tap Send again.';
+
+  @override
+  String get sca_error_code_expired_try_again =>
+      'Verification code expired. Try again.';
+
+  @override
+  String get sca_error_passkey_start =>
+      'Couldn\'t start passkey verification. Try again.';
+
+  @override
+  String get sca_error_passkey_verify =>
+      'Couldn\'t verify with passkey. Try again or use another way.';
+
+  @override
+  String get sca_error_switch_method =>
+      'Could not switch method. Please try again.';
+
+  @override
+  String get sca_sms_prompt => 'Enter the code we sent to your phone.';
+
+  @override
+  String sca_title_with_passkey(String title) {
+    return '$title with your passkey';
+  }
+
+  @override
+  String get sca_title_fund_bitcoin => 'Verify to fund with Bitcoin';
+
+  @override
+  String get sca_title_enable_auto_swap => 'Verify to enable auto-swap';
+
+  @override
+  String get sca_title_trust_account => 'Verify to trust this account';
+
+  @override
+  String get sca_action_verify_and_trust => 'Verify and trust';
+
+  @override
+  String get add_beneficiary_title => 'Add a beneficiary';
 }

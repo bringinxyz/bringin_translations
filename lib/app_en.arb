@@ -2832,5 +2832,62 @@
   "verify_prompt_target_email": "email address ",
   "@verify_prompt_target_email": {
     "description": "Labels the email address in the prompt that starts with verify_prompt_prefix_multi. Keep the trailing space."
+  },
+  "sca_error_code_expired_resending": "That code expired. We’re sending a new one.",
+  "@sca_error_code_expired_resending": {
+    "description": "Inline error when a resend found the challenge already expired, so a fresh code is on its way."
+  },
+  "sca_error_code_expired_send_again": "Verification code expired. Tap Send again.",
+  "@sca_error_code_expired_send_again": {
+    "description": "Inline error under the OTP boxes when the code expired; 'Send again' is the resend link's label."
+  },
+  "sca_error_code_expired_try_again": "Verification code expired. Try again.",
+  "@sca_error_code_expired_try_again": {
+    "description": "Inline error under the OTP boxes of the auto-swap sheet when the code expired."
+  },
+  "sca_error_passkey_start": "Couldn't start passkey verification. Try again.",
+  "@sca_error_passkey_start": {
+    "description": "Toast when the backend sent a passkey challenge with no WebAuthn payload, so the ceremony cannot start."
+  },
+  "sca_error_passkey_verify": "Couldn't verify with passkey. Try again or use another way.",
+  "@sca_error_passkey_verify": {
+    "description": "Inline error when the passkey assertion was rejected."
+  },
+  "sca_error_switch_method": "Could not switch method. Please try again.",
+  "@sca_error_switch_method": {
+    "description": "Toast when switching to a different verification method failed."
+  },
+  "sca_sms_prompt": "Enter the code we sent to your phone.",
+  "@sca_sms_prompt": {
+    "description": "Subtitle of the verification sheet when the factor is SMS."
+  },
+  "sca_title_with_passkey": "{title} with your passkey",
+  "@sca_title_with_passkey": {
+    "description": "Heading of the verification sheet when the factor is passkey. {title} is the caller-supplied base heading, e.g. 'Verify to trust this account'.",
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "sca_title_fund_bitcoin": "Verify to fund with Bitcoin",
+  "@sca_title_fund_bitcoin": {
+    "description": "Heading of the verification step when enabling auto-swap as part of funding from the Bitcoin wallet."
+  },
+  "sca_title_enable_auto_swap": "Verify to enable auto-swap",
+  "@sca_title_enable_auto_swap": {
+    "description": "Heading of the verification sheet that enables auto-swap."
+  },
+  "sca_title_trust_account": "Verify to trust this account",
+  "@sca_title_trust_account": {
+    "description": "Heading of the verification step that adds a beneficiary to the trusted list."
+  },
+  "sca_action_verify_and_trust": "Verify and trust",
+  "@sca_action_verify_and_trust": {
+    "description": "Primary button of the beneficiary-trust passkey ceremony."
+  },
+  "add_beneficiary_title": "Add a beneficiary",
+  "@add_beneficiary_title": {
+    "description": "App-bar title of the add-beneficiary flow."
   }
 }

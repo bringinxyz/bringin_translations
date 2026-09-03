@@ -10643,6 +10643,84 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'email address '**
   String get verify_prompt_target_email;
+
+  /// Inline error when a resend found the challenge already expired, so a fresh code is on its way.
+  ///
+  /// In en, this message translates to:
+  /// **'That code expired. We’re sending a new one.'**
+  String get sca_error_code_expired_resending;
+
+  /// Inline error under the OTP boxes when the code expired; 'Send again' is the resend link's label.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification code expired. Tap Send again.'**
+  String get sca_error_code_expired_send_again;
+
+  /// Inline error under the OTP boxes of the auto-swap sheet when the code expired.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification code expired. Try again.'**
+  String get sca_error_code_expired_try_again;
+
+  /// Toast when the backend sent a passkey challenge with no WebAuthn payload, so the ceremony cannot start.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t start passkey verification. Try again.'**
+  String get sca_error_passkey_start;
+
+  /// Inline error when the passkey assertion was rejected.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t verify with passkey. Try again or use another way.'**
+  String get sca_error_passkey_verify;
+
+  /// Toast when switching to a different verification method failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not switch method. Please try again.'**
+  String get sca_error_switch_method;
+
+  /// Subtitle of the verification sheet when the factor is SMS.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the code we sent to your phone.'**
+  String get sca_sms_prompt;
+
+  /// Heading of the verification sheet when the factor is passkey. {title} is the caller-supplied base heading, e.g. 'Verify to trust this account'.
+  ///
+  /// In en, this message translates to:
+  /// **'{title} with your passkey'**
+  String sca_title_with_passkey(String title);
+
+  /// Heading of the verification step when enabling auto-swap as part of funding from the Bitcoin wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify to fund with Bitcoin'**
+  String get sca_title_fund_bitcoin;
+
+  /// Heading of the verification sheet that enables auto-swap.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify to enable auto-swap'**
+  String get sca_title_enable_auto_swap;
+
+  /// Heading of the verification step that adds a beneficiary to the trusted list.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify to trust this account'**
+  String get sca_title_trust_account;
+
+  /// Primary button of the beneficiary-trust passkey ceremony.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify and trust'**
+  String get sca_action_verify_and_trust;
+
+  /// App-bar title of the add-beneficiary flow.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a beneficiary'**
+  String get add_beneficiary_title;
 }
 
 class _BringinTranslationsDelegate
