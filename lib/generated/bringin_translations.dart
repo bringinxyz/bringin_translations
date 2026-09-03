@@ -11427,7 +11427,7 @@ abstract class BringinTranslations {
   /// Error when the password-reset endpoint refuses further attempts today.
   ///
   /// In en, this message translates to:
-  /// **'You\'ve hit the daily limit for password-reset attempts.'**
+  /// **'You\'ve hit the daily limit for password-reset attempts. Please try again later.'**
   String get api_error_password_reset_daily_limit;
 
   /// Error when starting an SCA challenge fails.

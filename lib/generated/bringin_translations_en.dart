@@ -6565,7 +6565,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get api_error_password_reset_daily_limit =>
-      'You\'ve hit the daily limit for password-reset attempts.';
+      'You\'ve hit the daily limit for password-reset attempts. Please try again later.';
 
   @override
   String get api_error_verify_start =>
