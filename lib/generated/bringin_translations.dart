@@ -10745,6 +10745,252 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Add a beneficiary'**
   String get add_beneficiary_title;
+
+  /// Title of the sheet shown after a passkey was successfully created.
+  ///
+  /// In en, this message translates to:
+  /// **'Passkey enabled'**
+  String get passkey_enabled_title;
+
+  /// Body of the passkey-enabled sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'You can now use your device to verify sign-ins and sensitive actions.'**
+  String get passkey_enabled_body;
+
+  /// Title of the sheet shown when passkey creation failed because the app installation could not be verified.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t set up your passkey'**
+  String get passkey_unsupported_title;
+
+  /// Body of the passkey-unsupported sheet when the account already has an authenticator app enrolled, so the user can fall back to one they have.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t verify this app installation with our server. This is usually temporary — try again in a few minutes, or use an authenticator app instead.'**
+  String get passkey_unsupported_body_has_fallback;
+
+  /// Body of the passkey-unsupported sheet when the account has no authenticator app yet, so the user would have to set one up.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t verify this app installation with our server. This is usually temporary — try again in a few minutes, or set up an authenticator app instead.'**
+  String get passkey_unsupported_body_no_fallback;
+
+  /// Title of the passkey setup sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Create a passkey'**
+  String get passkey_setup_title;
+
+  /// Body of the passkey setup sheet. Face ID and Touch ID are Apple product names.
+  ///
+  /// In en, this message translates to:
+  /// **'Use Face ID, Touch ID, fingerprint, or device PIN to secure your account.'**
+  String get passkey_setup_body;
+
+  /// Secondary action on the passkey setup sheet, which opens the other verification methods.
+  ///
+  /// In en, this message translates to:
+  /// **'Try another way'**
+  String get passkey_setup_action_another_way;
+
+  /// Primary button on the passkey setup sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Setup passkey'**
+  String get passkey_setup_action_primary;
+
+  /// Error when the authenticator-app enrolment could not be started.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t start the setup. Please try again.'**
+  String get totp_error_start_setup;
+
+  /// App-bar title of the authenticator-app setup and verify pages.
+  ///
+  /// In en, this message translates to:
+  /// **'Authenticator app setup'**
+  String get totp_setup_appbar_title;
+
+  /// Heading of the QR-code step of authenticator-app setup.
+  ///
+  /// In en, this message translates to:
+  /// **'Connect your authenticator app'**
+  String get totp_setup_title;
+
+  /// Body of the QR-code step. Google Authenticator and Microsoft Authenticator are product names.
+  ///
+  /// In en, this message translates to:
+  /// **'Scan this QR code with Google Authenticator, Microsoft Authenticator, or another compatible app.'**
+  String get totp_setup_body;
+
+  /// Action that copies the enrolment secret for users who cannot scan the QR code.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy setup key'**
+  String get totp_setup_action_copy_key;
+
+  /// Primary button on the QR-code step, tapped once the user has added the account to their authenticator.
+  ///
+  /// In en, this message translates to:
+  /// **'I\'ve added the account'**
+  String get totp_setup_action_added;
+
+  /// Heading shown when the account already has an authenticator that cannot be replaced from the app.
+  ///
+  /// In en, this message translates to:
+  /// **'An authenticator is already registered'**
+  String get totp_locked_title;
+
+  /// Body of the already-registered state.
+  ///
+  /// In en, this message translates to:
+  /// **'It has to be reset before a new one can be added — contact support and we will do it for you.'**
+  String get totp_locked_body;
+
+  /// Title of the sheet shown after authenticator sign-in was turned on.
+  ///
+  /// In en, this message translates to:
+  /// **'Authenticator enabled'**
+  String get totp_enabled_title;
+
+  /// Body of the authenticator-enabled sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ll use verification codes when signing in or approving sensitive actions.'**
+  String get totp_enabled_body;
+
+  /// App-bar title of the recovery-codes page.
+  ///
+  /// In en, this message translates to:
+  /// **'Save your recovery codes'**
+  String get totp_recovery_appbar_title;
+
+  /// Heading of the recovery-codes page.
+  ///
+  /// In en, this message translates to:
+  /// **'Save these now'**
+  String get totp_recovery_title;
+
+  /// Body of the recovery-codes page.
+  ///
+  /// In en, this message translates to:
+  /// **'This is the only time we\'ll show these codes. If you lose access to your authenticator app, you\'ll need these to sign back in. Save them somewhere safe.'**
+  String get totp_recovery_body;
+
+  /// Action that copies every recovery code to the clipboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy all'**
+  String get totp_recovery_action_copy_all;
+
+  /// Action that opens the system share sheet with the recovery codes.
+  ///
+  /// In en, this message translates to:
+  /// **'Share'**
+  String get totp_recovery_action_share;
+
+  /// Subject line of the system share sheet for the recovery codes.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin recovery codes'**
+  String get totp_recovery_share_subject;
+
+  /// Checkbox the user must tick before leaving the recovery-codes page.
+  ///
+  /// In en, this message translates to:
+  /// **'I\'ve saved my recovery codes somewhere safe.'**
+  String get totp_recovery_confirm_checkbox;
+
+  /// Heading of the page that verifies a code from the authenticator app.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter verification code'**
+  String get totp_verify_title;
+
+  /// Body of the authenticator verify page.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the 6-digit code from your authenticator app.'**
+  String get totp_verify_body;
+
+  /// Warning inside the confirmation sheet, before the user commits. There is no server-side disable route for authenticator sign-in today, so this promise must stay accurate — see totp_cannot_be_removed_note.
+  ///
+  /// In en, this message translates to:
+  /// **'Turning this on can\'t be undone from the app.'**
+  String get totp_cannot_be_undone;
+
+  /// Note on the security-settings row afterwards, explaining why the toggle is disabled. Pairs with totp_cannot_be_undone.
+  ///
+  /// In en, this message translates to:
+  /// **'You can\'t turn this off from the app once it\'s on.'**
+  String get totp_cannot_be_removed_note;
+
+  /// Title of the confirmation sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Turn on authenticator sign-in'**
+  String get totp_confirm_title;
+
+  /// Primary button of the confirmation sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Turn it on'**
+  String get totp_confirm_action_primary;
+
+  /// Confirmation-sheet line for a user who already has a passkey. The server resolves factors passkey > totp > sms, so turning the authenticator on changes nothing about how they confirm payments.
+  ///
+  /// In en, this message translates to:
+  /// **'Your passkey still confirms payments and sign-ins. The authenticator sits behind it as a second option.'**
+  String get totp_confirm_factor_change_has_passkey;
+
+  /// Confirmation-sheet line for a user with no passkey, whose confirmations move from SMS to the authenticator.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ll confirm payments and sign-ins with a code from your authenticator instead of a text message.'**
+  String get totp_confirm_factor_change_no_passkey;
+
+  /// Confirmation-sheet line when adopting an authenticator the account already has. Recovery codes need the enrolment secret, which cannot exist for a credential we did not mint.
+  ///
+  /// In en, this message translates to:
+  /// **'There are no recovery codes on this route — if you lose the authenticator, contact support to get back in.'**
+  String get totp_confirm_recovery_adopt;
+
+  /// Confirmation-sheet line when creating a new authenticator enrolment.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'ll show you recovery codes once you\'re done. Save them somewhere safe.'**
+  String get totp_confirm_recovery_create;
+
+  /// Heading of the entry screen when the account already has an authenticator registered.
+  ///
+  /// In en, this message translates to:
+  /// **'Use the authenticator you already have'**
+  String get totp_adopt_title;
+
+  /// Body of the adopt entry screen.
+  ///
+  /// In en, this message translates to:
+  /// **'This account already has an authenticator registered, so there\'s nothing new to scan. Enter a code from it and we\'ll turn it on.'**
+  String get totp_adopt_subtitle;
+
+  /// Primary button of the adopt entry screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a code'**
+  String get totp_adopt_action;
+
+  /// Toast after adopting an existing authenticator.
+  ///
+  /// In en, this message translates to:
+  /// **'Authenticator sign-in is on'**
+  String get totp_adopt_success_toast;
+
+  /// Toast when the account turns out to be enrolled already. Nothing failed, so it must not read as an error.
+  ///
+  /// In en, this message translates to:
+  /// **'That\'s already on for this account'**
+  String get totp_already_on_toast;
 }
 
 class _BringinTranslationsDelegate

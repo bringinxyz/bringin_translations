@@ -235,7 +235,7 @@
   "home_accounts_bitcoin_activate": "Activate wallet",
   "home_accounts_euro_label": "Euro",
   "home_accounts_card_balance_label": "Card balance",
-  "home_accounts_balance_syncing": "Syncing\u2026",
+  "home_accounts_balance_syncing": "Syncing…",
   "home_accounts_balance_update_failed": "We couldn't update your balance. The amount shown may not be current.",
   "home_accounts_balance_fetch_failed": "We couldn't fetch your balance.",
   "home_accounts_balance_retry": "Retry",
@@ -2893,5 +2893,169 @@
   "add_beneficiary_title": "Add a beneficiary",
   "@add_beneficiary_title": {
     "description": "App-bar title of the add-beneficiary flow."
+  },
+  "passkey_enabled_title": "Passkey enabled",
+  "@passkey_enabled_title": {
+    "description": "Title of the sheet shown after a passkey was successfully created."
+  },
+  "passkey_enabled_body": "You can now use your device to verify sign-ins and sensitive actions.",
+  "@passkey_enabled_body": {
+    "description": "Body of the passkey-enabled sheet."
+  },
+  "passkey_unsupported_title": "Couldn't set up your passkey",
+  "@passkey_unsupported_title": {
+    "description": "Title of the sheet shown when passkey creation failed because the app installation could not be verified."
+  },
+  "passkey_unsupported_body_has_fallback": "We couldn't verify this app installation with our server. This is usually temporary — try again in a few minutes, or use an authenticator app instead.",
+  "@passkey_unsupported_body_has_fallback": {
+    "description": "Body of the passkey-unsupported sheet when the account already has an authenticator app enrolled, so the user can fall back to one they have."
+  },
+  "passkey_unsupported_body_no_fallback": "We couldn't verify this app installation with our server. This is usually temporary — try again in a few minutes, or set up an authenticator app instead.",
+  "@passkey_unsupported_body_no_fallback": {
+    "description": "Body of the passkey-unsupported sheet when the account has no authenticator app yet, so the user would have to set one up."
+  },
+  "passkey_setup_title": "Create a passkey",
+  "@passkey_setup_title": {
+    "description": "Title of the passkey setup sheet."
+  },
+  "passkey_setup_body": "Use Face ID, Touch ID, fingerprint, or device PIN to secure your account.",
+  "@passkey_setup_body": {
+    "description": "Body of the passkey setup sheet. Face ID and Touch ID are Apple product names."
+  },
+  "passkey_setup_action_another_way": "Try another way",
+  "@passkey_setup_action_another_way": {
+    "description": "Secondary action on the passkey setup sheet, which opens the other verification methods."
+  },
+  "passkey_setup_action_primary": "Setup passkey",
+  "@passkey_setup_action_primary": {
+    "description": "Primary button on the passkey setup sheet."
+  },
+  "totp_error_start_setup": "We couldn't start the setup. Please try again.",
+  "@totp_error_start_setup": {
+    "description": "Error when the authenticator-app enrolment could not be started."
+  },
+  "totp_setup_appbar_title": "Authenticator app setup",
+  "@totp_setup_appbar_title": {
+    "description": "App-bar title of the authenticator-app setup and verify pages."
+  },
+  "totp_setup_title": "Connect your authenticator app",
+  "@totp_setup_title": {
+    "description": "Heading of the QR-code step of authenticator-app setup."
+  },
+  "totp_setup_body": "Scan this QR code with Google Authenticator, Microsoft Authenticator, or another compatible app.",
+  "@totp_setup_body": {
+    "description": "Body of the QR-code step. Google Authenticator and Microsoft Authenticator are product names."
+  },
+  "totp_setup_action_copy_key": "Copy setup key",
+  "@totp_setup_action_copy_key": {
+    "description": "Action that copies the enrolment secret for users who cannot scan the QR code."
+  },
+  "totp_setup_action_added": "I've added the account",
+  "@totp_setup_action_added": {
+    "description": "Primary button on the QR-code step, tapped once the user has added the account to their authenticator."
+  },
+  "totp_locked_title": "An authenticator is already registered",
+  "@totp_locked_title": {
+    "description": "Heading shown when the account already has an authenticator that cannot be replaced from the app."
+  },
+  "totp_locked_body": "It has to be reset before a new one can be added — contact support and we will do it for you.",
+  "@totp_locked_body": {
+    "description": "Body of the already-registered state."
+  },
+  "totp_enabled_title": "Authenticator enabled",
+  "@totp_enabled_title": {
+    "description": "Title of the sheet shown after authenticator sign-in was turned on."
+  },
+  "totp_enabled_body": "You'll use verification codes when signing in or approving sensitive actions.",
+  "@totp_enabled_body": {
+    "description": "Body of the authenticator-enabled sheet."
+  },
+  "totp_recovery_appbar_title": "Save your recovery codes",
+  "@totp_recovery_appbar_title": {
+    "description": "App-bar title of the recovery-codes page."
+  },
+  "totp_recovery_title": "Save these now",
+  "@totp_recovery_title": {
+    "description": "Heading of the recovery-codes page."
+  },
+  "totp_recovery_body": "This is the only time we'll show these codes. If you lose access to your authenticator app, you'll need these to sign back in. Save them somewhere safe.",
+  "@totp_recovery_body": {
+    "description": "Body of the recovery-codes page."
+  },
+  "totp_recovery_action_copy_all": "Copy all",
+  "@totp_recovery_action_copy_all": {
+    "description": "Action that copies every recovery code to the clipboard."
+  },
+  "totp_recovery_action_share": "Share",
+  "@totp_recovery_action_share": {
+    "description": "Action that opens the system share sheet with the recovery codes."
+  },
+  "totp_recovery_share_subject": "Bringin recovery codes",
+  "@totp_recovery_share_subject": {
+    "description": "Subject line of the system share sheet for the recovery codes."
+  },
+  "totp_recovery_confirm_checkbox": "I've saved my recovery codes somewhere safe.",
+  "@totp_recovery_confirm_checkbox": {
+    "description": "Checkbox the user must tick before leaving the recovery-codes page."
+  },
+  "totp_verify_title": "Enter verification code",
+  "@totp_verify_title": {
+    "description": "Heading of the page that verifies a code from the authenticator app."
+  },
+  "totp_verify_body": "Enter the 6-digit code from your authenticator app.",
+  "@totp_verify_body": {
+    "description": "Body of the authenticator verify page."
+  },
+  "totp_cannot_be_undone": "Turning this on can't be undone from the app.",
+  "@totp_cannot_be_undone": {
+    "description": "Warning inside the confirmation sheet, before the user commits. There is no server-side disable route for authenticator sign-in today, so this promise must stay accurate — see totp_cannot_be_removed_note."
+  },
+  "totp_cannot_be_removed_note": "You can't turn this off from the app once it's on.",
+  "@totp_cannot_be_removed_note": {
+    "description": "Note on the security-settings row afterwards, explaining why the toggle is disabled. Pairs with totp_cannot_be_undone."
+  },
+  "totp_confirm_title": "Turn on authenticator sign-in",
+  "@totp_confirm_title": {
+    "description": "Title of the confirmation sheet."
+  },
+  "totp_confirm_action_primary": "Turn it on",
+  "@totp_confirm_action_primary": {
+    "description": "Primary button of the confirmation sheet."
+  },
+  "totp_confirm_factor_change_has_passkey": "Your passkey still confirms payments and sign-ins. The authenticator sits behind it as a second option.",
+  "@totp_confirm_factor_change_has_passkey": {
+    "description": "Confirmation-sheet line for a user who already has a passkey. The server resolves factors passkey > totp > sms, so turning the authenticator on changes nothing about how they confirm payments."
+  },
+  "totp_confirm_factor_change_no_passkey": "You'll confirm payments and sign-ins with a code from your authenticator instead of a text message.",
+  "@totp_confirm_factor_change_no_passkey": {
+    "description": "Confirmation-sheet line for a user with no passkey, whose confirmations move from SMS to the authenticator."
+  },
+  "totp_confirm_recovery_adopt": "There are no recovery codes on this route — if you lose the authenticator, contact support to get back in.",
+  "@totp_confirm_recovery_adopt": {
+    "description": "Confirmation-sheet line when adopting an authenticator the account already has. Recovery codes need the enrolment secret, which cannot exist for a credential we did not mint."
+  },
+  "totp_confirm_recovery_create": "We'll show you recovery codes once you're done. Save them somewhere safe.",
+  "@totp_confirm_recovery_create": {
+    "description": "Confirmation-sheet line when creating a new authenticator enrolment."
+  },
+  "totp_adopt_title": "Use the authenticator you already have",
+  "@totp_adopt_title": {
+    "description": "Heading of the entry screen when the account already has an authenticator registered."
+  },
+  "totp_adopt_subtitle": "This account already has an authenticator registered, so there's nothing new to scan. Enter a code from it and we'll turn it on.",
+  "@totp_adopt_subtitle": {
+    "description": "Body of the adopt entry screen."
+  },
+  "totp_adopt_action": "Enter a code",
+  "@totp_adopt_action": {
+    "description": "Primary button of the adopt entry screen."
+  },
+  "totp_adopt_success_toast": "Authenticator sign-in is on",
+  "@totp_adopt_success_toast": {
+    "description": "Toast after adopting an existing authenticator."
+  },
+  "totp_already_on_toast": "That's already on for this account",
+  "@totp_already_on_toast": {
+    "description": "Toast when the account turns out to be enrolled already. Nothing failed, so it must not read as an error."
   }
 }

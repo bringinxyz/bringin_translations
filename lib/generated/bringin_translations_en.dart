@@ -6177,4 +6177,145 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get add_beneficiary_title => 'Add a beneficiary';
+
+  @override
+  String get passkey_enabled_title => 'Passkey enabled';
+
+  @override
+  String get passkey_enabled_body =>
+      'You can now use your device to verify sign-ins and sensitive actions.';
+
+  @override
+  String get passkey_unsupported_title => 'Couldn\'t set up your passkey';
+
+  @override
+  String get passkey_unsupported_body_has_fallback =>
+      'We couldn\'t verify this app installation with our server. This is usually temporary — try again in a few minutes, or use an authenticator app instead.';
+
+  @override
+  String get passkey_unsupported_body_no_fallback =>
+      'We couldn\'t verify this app installation with our server. This is usually temporary — try again in a few minutes, or set up an authenticator app instead.';
+
+  @override
+  String get passkey_setup_title => 'Create a passkey';
+
+  @override
+  String get passkey_setup_body =>
+      'Use Face ID, Touch ID, fingerprint, or device PIN to secure your account.';
+
+  @override
+  String get passkey_setup_action_another_way => 'Try another way';
+
+  @override
+  String get passkey_setup_action_primary => 'Setup passkey';
+
+  @override
+  String get totp_error_start_setup =>
+      'We couldn\'t start the setup. Please try again.';
+
+  @override
+  String get totp_setup_appbar_title => 'Authenticator app setup';
+
+  @override
+  String get totp_setup_title => 'Connect your authenticator app';
+
+  @override
+  String get totp_setup_body =>
+      'Scan this QR code with Google Authenticator, Microsoft Authenticator, or another compatible app.';
+
+  @override
+  String get totp_setup_action_copy_key => 'Copy setup key';
+
+  @override
+  String get totp_setup_action_added => 'I\'ve added the account';
+
+  @override
+  String get totp_locked_title => 'An authenticator is already registered';
+
+  @override
+  String get totp_locked_body =>
+      'It has to be reset before a new one can be added — contact support and we will do it for you.';
+
+  @override
+  String get totp_enabled_title => 'Authenticator enabled';
+
+  @override
+  String get totp_enabled_body =>
+      'You\'ll use verification codes when signing in or approving sensitive actions.';
+
+  @override
+  String get totp_recovery_appbar_title => 'Save your recovery codes';
+
+  @override
+  String get totp_recovery_title => 'Save these now';
+
+  @override
+  String get totp_recovery_body =>
+      'This is the only time we\'ll show these codes. If you lose access to your authenticator app, you\'ll need these to sign back in. Save them somewhere safe.';
+
+  @override
+  String get totp_recovery_action_copy_all => 'Copy all';
+
+  @override
+  String get totp_recovery_action_share => 'Share';
+
+  @override
+  String get totp_recovery_share_subject => 'Bringin recovery codes';
+
+  @override
+  String get totp_recovery_confirm_checkbox =>
+      'I\'ve saved my recovery codes somewhere safe.';
+
+  @override
+  String get totp_verify_title => 'Enter verification code';
+
+  @override
+  String get totp_verify_body =>
+      'Enter the 6-digit code from your authenticator app.';
+
+  @override
+  String get totp_cannot_be_undone =>
+      'Turning this on can\'t be undone from the app.';
+
+  @override
+  String get totp_cannot_be_removed_note =>
+      'You can\'t turn this off from the app once it\'s on.';
+
+  @override
+  String get totp_confirm_title => 'Turn on authenticator sign-in';
+
+  @override
+  String get totp_confirm_action_primary => 'Turn it on';
+
+  @override
+  String get totp_confirm_factor_change_has_passkey =>
+      'Your passkey still confirms payments and sign-ins. The authenticator sits behind it as a second option.';
+
+  @override
+  String get totp_confirm_factor_change_no_passkey =>
+      'You\'ll confirm payments and sign-ins with a code from your authenticator instead of a text message.';
+
+  @override
+  String get totp_confirm_recovery_adopt =>
+      'There are no recovery codes on this route — if you lose the authenticator, contact support to get back in.';
+
+  @override
+  String get totp_confirm_recovery_create =>
+      'We\'ll show you recovery codes once you\'re done. Save them somewhere safe.';
+
+  @override
+  String get totp_adopt_title => 'Use the authenticator you already have';
+
+  @override
+  String get totp_adopt_subtitle =>
+      'This account already has an authenticator registered, so there\'s nothing new to scan. Enter a code from it and we\'ll turn it on.';
+
+  @override
+  String get totp_adopt_action => 'Enter a code';
+
+  @override
+  String get totp_adopt_success_toast => 'Authenticator sign-in is on';
+
+  @override
+  String get totp_already_on_toast => 'That\'s already on for this account';
 }
