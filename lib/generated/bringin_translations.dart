@@ -11933,6 +11933,240 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'We couldn’t restore your backup. Please try again.'**
   String get backup_error_restore_generic;
+
+  /// Shown when the post-login user-details fetch fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to load user details. Please try again.'**
+  String get auth_error_load_user_details;
+
+  /// Title of the error screen when the post-login user-details fetch fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to Load User Details'**
+  String get auth_error_load_user_details_title;
+
+  /// Validation error on the claim-username field.
+  ///
+  /// In en, this message translates to:
+  /// **'Username is required'**
+  String get username_error_required;
+
+  /// Validation error when the username is too short or too long.
+  ///
+  /// In en, this message translates to:
+  /// **'Username must be {min}–{max} characters'**
+  String username_error_length(String min, String max);
+
+  /// Validation error listing the characters a username may contain.
+  ///
+  /// In en, this message translates to:
+  /// **'Only lowercase letters, numbers, hyphens, underscores'**
+  String get username_error_charset;
+
+  /// Validation error when a username repeats a separator.
+  ///
+  /// In en, this message translates to:
+  /// **'No consecutive hyphens or underscores'**
+  String get username_error_consecutive;
+
+  /// Validation error when a username starts or ends with a separator.
+  ///
+  /// In en, this message translates to:
+  /// **'Must start and end with a letter or number'**
+  String get username_error_bounds;
+
+  /// Shown when the backend rejects the chosen username as taken.
+  ///
+  /// In en, this message translates to:
+  /// **'This username is already taken. Try another.'**
+  String get username_error_taken;
+
+  /// Heading of the claim-username page.
+  ///
+  /// In en, this message translates to:
+  /// **'Claim your username'**
+  String get username_title;
+
+  /// Body of the claim-username page.
+  ///
+  /// In en, this message translates to:
+  /// **'Claim a unique username for your account. This is also your Lightning address.'**
+  String get username_subtitle;
+
+  /// Label of the username field.
+  ///
+  /// In en, this message translates to:
+  /// **'Create your username'**
+  String get username_field_label;
+
+  /// Hint of the username field.
+  ///
+  /// In en, this message translates to:
+  /// **'Add your username'**
+  String get username_field_hint;
+
+  /// Validation error on the first-name field of the complete-profile form.
+  ///
+  /// In en, this message translates to:
+  /// **'Your first name can\'t be empty'**
+  String get profile_error_first_name_empty;
+
+  /// Validation error when the first name fails its format check.
+  ///
+  /// In en, this message translates to:
+  /// **'This first name is not valid'**
+  String get profile_error_first_name_invalid;
+
+  /// Validation error on the last-name field of the complete-profile form.
+  ///
+  /// In en, this message translates to:
+  /// **'Your last name can\'t be empty'**
+  String get profile_error_last_name_empty;
+
+  /// Validation error when the last name fails its format check.
+  ///
+  /// In en, this message translates to:
+  /// **'This last name is not valid'**
+  String get profile_error_last_name_invalid;
+
+  /// Shown when abandoning Google sign-up fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to cancel. Please try again.'**
+  String get profile_error_cancel_signup;
+
+  /// Link to the terms of service in the complete-profile consent line.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms of service'**
+  String get terms_link_service;
+
+  /// Shown when the bot-check token expired before submission.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification has expired. Please verify again.'**
+  String get recaptcha_error_expired;
+
+  /// Shown when the bot-check widget failed to load.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification could not load. Please check your connection and try again.'**
+  String get recaptcha_error_load;
+
+  /// Heading of the bot-check page.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify you\'re human'**
+  String get recaptcha_title;
+
+  /// Body of the bot-check page.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete the verification below to continue. This helps us keep your account secure.'**
+  String get recaptcha_subtitle;
+
+  /// Primary action on the onboarding walkthrough and the wallet option.
+  ///
+  /// In en, this message translates to:
+  /// **'Get started'**
+  String get action_get_started;
+
+  /// Action that returns the user to the dashboard from a success screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Go Home'**
+  String get action_go_home;
+
+  /// Headline of the generic success screen. The emoji is part of the copy.
+  ///
+  /// In en, this message translates to:
+  /// **'🎉 Congratulations!'**
+  String get success_congratulations;
+
+  /// Body of the generic success screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Your transaction was successful.'**
+  String get success_transaction_body;
+
+  /// First part of the first walkthrough headline; the highlighted word follows. Keep the line break and the trailing space.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Bitcoin,\naccepted '**
+  String get walkthrough_1_title_leading;
+
+  /// Body of the first walkthrough page. Visa is a brand name.
+  ///
+  /// In en, this message translates to:
+  /// **'Hold Bitcoin, spend effortlessly, and live globally on sats or Euros as you choose. pay online or in-store everywhere Visa is accepted.'**
+  String get walkthrough_1_body;
+
+  /// Headline of the second walkthrough page. Keep the line break.
+  ///
+  /// In en, this message translates to:
+  /// **'Convert large sums\nwith confidence'**
+  String get walkthrough_2_title;
+
+  /// Body of the second walkthrough page. vIBAN stays untranslated.
+  ///
+  /// In en, this message translates to:
+  /// **'Funds settle within minutes to your personal vIBAN, ready for secure transfers or everyday spending.'**
+  String get walkthrough_2_body;
+
+  /// First part of the third walkthrough headline; the highlighted word follows. Keep the line break and the trailing space.
+  ///
+  /// In en, this message translates to:
+  /// **'From any wallet to\nbank, lightning '**
+  String get walkthrough_3_title_leading;
+
+  /// The highlighted final word of the third walkthrough headline.
+  ///
+  /// In en, this message translates to:
+  /// **'fast'**
+  String get walkthrough_3_title_accent;
+
+  /// Body of the third walkthrough page.
+  ///
+  /// In en, this message translates to:
+  /// **'Move funds between your Bitcoin wallet and your bank account. Bringin bridges them with zero friction.'**
+  String get walkthrough_3_body;
+
+  /// Headline of the choose-how-to-start page.
+  ///
+  /// In en, this message translates to:
+  /// **'With Bringin, receiving, sending and spending bitcoin is safe, easy & fast!'**
+  String get onboarding_option_title;
+
+  /// Title of the euro-account option on the choose-how-to-start page.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin Euro Account'**
+  String get onboarding_option_euro_title;
+
+  /// Body of the euro-account option.
+  ///
+  /// In en, this message translates to:
+  /// **'You can buy, sell and exchange Bitcoin and Euros effortlessly, whether you are a beginner or an expert.'**
+  String get onboarding_option_euro_body;
+
+  /// Action of the euro-account option.
+  ///
+  /// In en, this message translates to:
+  /// **'Login / Create Account'**
+  String get onboarding_option_euro_action;
+
+  /// Title of the self-custodial wallet option on the choose-how-to-start page.
+  ///
+  /// In en, this message translates to:
+  /// **'Spending Bitcoin Wallet'**
+  String get onboarding_option_wallet_title;
+
+  /// Body of the self-custodial wallet option.
+  ///
+  /// In en, this message translates to:
+  /// **'You have full control with this self-custodial wallet. No one else can access your bitcoin.'**
+  String get onboarding_option_wallet_body;
 }
 
 class _BringinTranslationsDelegate

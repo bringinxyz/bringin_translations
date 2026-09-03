@@ -6886,4 +6886,142 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get backup_error_restore_generic =>
       'We couldn’t restore your backup. Please try again.';
+
+  @override
+  String get auth_error_load_user_details =>
+      'Failed to load user details. Please try again.';
+
+  @override
+  String get auth_error_load_user_details_title =>
+      'Failed to Load User Details';
+
+  @override
+  String get username_error_required => 'Username is required';
+
+  @override
+  String username_error_length(String min, String max) {
+    return 'Username must be $min–$max characters';
+  }
+
+  @override
+  String get username_error_charset =>
+      'Only lowercase letters, numbers, hyphens, underscores';
+
+  @override
+  String get username_error_consecutive =>
+      'No consecutive hyphens or underscores';
+
+  @override
+  String get username_error_bounds =>
+      'Must start and end with a letter or number';
+
+  @override
+  String get username_error_taken =>
+      'This username is already taken. Try another.';
+
+  @override
+  String get username_title => 'Claim your username';
+
+  @override
+  String get username_subtitle =>
+      'Claim a unique username for your account. This is also your Lightning address.';
+
+  @override
+  String get username_field_label => 'Create your username';
+
+  @override
+  String get username_field_hint => 'Add your username';
+
+  @override
+  String get profile_error_first_name_empty =>
+      'Your first name can\'t be empty';
+
+  @override
+  String get profile_error_first_name_invalid => 'This first name is not valid';
+
+  @override
+  String get profile_error_last_name_empty => 'Your last name can\'t be empty';
+
+  @override
+  String get profile_error_last_name_invalid => 'This last name is not valid';
+
+  @override
+  String get profile_error_cancel_signup =>
+      'Unable to cancel. Please try again.';
+
+  @override
+  String get terms_link_service => 'Terms of service';
+
+  @override
+  String get recaptcha_error_expired =>
+      'Verification has expired. Please verify again.';
+
+  @override
+  String get recaptcha_error_load =>
+      'Verification could not load. Please check your connection and try again.';
+
+  @override
+  String get recaptcha_title => 'Verify you\'re human';
+
+  @override
+  String get recaptcha_subtitle =>
+      'Complete the verification below to continue. This helps us keep your account secure.';
+
+  @override
+  String get action_get_started => 'Get started';
+
+  @override
+  String get action_go_home => 'Go Home';
+
+  @override
+  String get success_congratulations => '🎉 Congratulations!';
+
+  @override
+  String get success_transaction_body => 'Your transaction was successful.';
+
+  @override
+  String get walkthrough_1_title_leading => 'Your Bitcoin,\naccepted ';
+
+  @override
+  String get walkthrough_1_body =>
+      'Hold Bitcoin, spend effortlessly, and live globally on sats or Euros as you choose. pay online or in-store everywhere Visa is accepted.';
+
+  @override
+  String get walkthrough_2_title => 'Convert large sums\nwith confidence';
+
+  @override
+  String get walkthrough_2_body =>
+      'Funds settle within minutes to your personal vIBAN, ready for secure transfers or everyday spending.';
+
+  @override
+  String get walkthrough_3_title_leading =>
+      'From any wallet to\nbank, lightning ';
+
+  @override
+  String get walkthrough_3_title_accent => 'fast';
+
+  @override
+  String get walkthrough_3_body =>
+      'Move funds between your Bitcoin wallet and your bank account. Bringin bridges them with zero friction.';
+
+  @override
+  String get onboarding_option_title =>
+      'With Bringin, receiving, sending and spending bitcoin is safe, easy & fast!';
+
+  @override
+  String get onboarding_option_euro_title => 'Bringin Euro Account';
+
+  @override
+  String get onboarding_option_euro_body =>
+      'You can buy, sell and exchange Bitcoin and Euros effortlessly, whether you are a beginner or an expert.';
+
+  @override
+  String get onboarding_option_euro_action => 'Login / Create Account';
+
+  @override
+  String get onboarding_option_wallet_title => 'Spending Bitcoin Wallet';
+
+  @override
+  String get onboarding_option_wallet_body =>
+      'You have full control with this self-custodial wallet. No one else can access your bitcoin.';
 }

@@ -3733,5 +3733,169 @@
   "backup_error_restore_generic": "We couldn’t restore your backup. Please try again.",
   "@backup_error_restore_generic": {
     "description": "Cloud-backup failure: generic restore fallback. Pairs with wallet_backup_failure_message on the save path."
+  },
+  "auth_error_load_user_details": "Failed to load user details. Please try again.",
+  "@auth_error_load_user_details": {
+    "description": "Shown when the post-login user-details fetch fails."
+  },
+  "auth_error_load_user_details_title": "Failed to Load User Details",
+  "@auth_error_load_user_details_title": {
+    "description": "Title of the error screen when the post-login user-details fetch fails."
+  },
+  "username_error_required": "Username is required",
+  "@username_error_required": {
+    "description": "Validation error on the claim-username field."
+  },
+  "username_error_length": "Username must be {min}–{max} characters",
+  "@username_error_length": {
+    "description": "Validation error when the username is too short or too long.",
+    "placeholders": {
+      "min": {
+        "type": "String"
+      },
+      "max": {
+        "type": "String"
+      }
+    }
+  },
+  "username_error_charset": "Only lowercase letters, numbers, hyphens, underscores",
+  "@username_error_charset": {
+    "description": "Validation error listing the characters a username may contain."
+  },
+  "username_error_consecutive": "No consecutive hyphens or underscores",
+  "@username_error_consecutive": {
+    "description": "Validation error when a username repeats a separator."
+  },
+  "username_error_bounds": "Must start and end with a letter or number",
+  "@username_error_bounds": {
+    "description": "Validation error when a username starts or ends with a separator."
+  },
+  "username_error_taken": "This username is already taken. Try another.",
+  "@username_error_taken": {
+    "description": "Shown when the backend rejects the chosen username as taken."
+  },
+  "username_title": "Claim your username",
+  "@username_title": {
+    "description": "Heading of the claim-username page."
+  },
+  "username_subtitle": "Claim a unique username for your account. This is also your Lightning address.",
+  "@username_subtitle": {
+    "description": "Body of the claim-username page."
+  },
+  "username_field_label": "Create your username",
+  "@username_field_label": {
+    "description": "Label of the username field."
+  },
+  "username_field_hint": "Add your username",
+  "@username_field_hint": {
+    "description": "Hint of the username field."
+  },
+  "profile_error_first_name_empty": "Your first name can't be empty",
+  "@profile_error_first_name_empty": {
+    "description": "Validation error on the first-name field of the complete-profile form."
+  },
+  "profile_error_first_name_invalid": "This first name is not valid",
+  "@profile_error_first_name_invalid": {
+    "description": "Validation error when the first name fails its format check."
+  },
+  "profile_error_last_name_empty": "Your last name can't be empty",
+  "@profile_error_last_name_empty": {
+    "description": "Validation error on the last-name field of the complete-profile form."
+  },
+  "profile_error_last_name_invalid": "This last name is not valid",
+  "@profile_error_last_name_invalid": {
+    "description": "Validation error when the last name fails its format check."
+  },
+  "profile_error_cancel_signup": "Unable to cancel. Please try again.",
+  "@profile_error_cancel_signup": {
+    "description": "Shown when abandoning Google sign-up fails."
+  },
+  "terms_link_service": "Terms of service",
+  "@terms_link_service": {
+    "description": "Link to the terms of service in the complete-profile consent line."
+  },
+  "recaptcha_error_expired": "Verification has expired. Please verify again.",
+  "@recaptcha_error_expired": {
+    "description": "Shown when the bot-check token expired before submission."
+  },
+  "recaptcha_error_load": "Verification could not load. Please check your connection and try again.",
+  "@recaptcha_error_load": {
+    "description": "Shown when the bot-check widget failed to load."
+  },
+  "recaptcha_title": "Verify you're human",
+  "@recaptcha_title": {
+    "description": "Heading of the bot-check page."
+  },
+  "recaptcha_subtitle": "Complete the verification below to continue. This helps us keep your account secure.",
+  "@recaptcha_subtitle": {
+    "description": "Body of the bot-check page."
+  },
+  "action_get_started": "Get started",
+  "@action_get_started": {
+    "description": "Primary action on the onboarding walkthrough and the wallet option."
+  },
+  "action_go_home": "Go Home",
+  "@action_go_home": {
+    "description": "Action that returns the user to the dashboard from a success screen."
+  },
+  "success_congratulations": "🎉 Congratulations!",
+  "@success_congratulations": {
+    "description": "Headline of the generic success screen. The emoji is part of the copy."
+  },
+  "success_transaction_body": "Your transaction was successful.",
+  "@success_transaction_body": {
+    "description": "Body of the generic success screen."
+  },
+  "walkthrough_1_title_leading": "Your Bitcoin,\naccepted ",
+  "@walkthrough_1_title_leading": {
+    "description": "First part of the first walkthrough headline; the highlighted word follows. Keep the line break and the trailing space."
+  },
+  "walkthrough_1_body": "Hold Bitcoin, spend effortlessly, and live globally on sats or Euros as you choose. pay online or in-store everywhere Visa is accepted.",
+  "@walkthrough_1_body": {
+    "description": "Body of the first walkthrough page. Visa is a brand name."
+  },
+  "walkthrough_2_title": "Convert large sums\nwith confidence",
+  "@walkthrough_2_title": {
+    "description": "Headline of the second walkthrough page. Keep the line break."
+  },
+  "walkthrough_2_body": "Funds settle within minutes to your personal vIBAN, ready for secure transfers or everyday spending.",
+  "@walkthrough_2_body": {
+    "description": "Body of the second walkthrough page. vIBAN stays untranslated."
+  },
+  "walkthrough_3_title_leading": "From any wallet to\nbank, lightning ",
+  "@walkthrough_3_title_leading": {
+    "description": "First part of the third walkthrough headline; the highlighted word follows. Keep the line break and the trailing space."
+  },
+  "walkthrough_3_title_accent": "fast",
+  "@walkthrough_3_title_accent": {
+    "description": "The highlighted final word of the third walkthrough headline."
+  },
+  "walkthrough_3_body": "Move funds between your Bitcoin wallet and your bank account. Bringin bridges them with zero friction.",
+  "@walkthrough_3_body": {
+    "description": "Body of the third walkthrough page."
+  },
+  "onboarding_option_title": "With Bringin, receiving, sending and spending bitcoin is safe, easy & fast!",
+  "@onboarding_option_title": {
+    "description": "Headline of the choose-how-to-start page."
+  },
+  "onboarding_option_euro_title": "Bringin Euro Account",
+  "@onboarding_option_euro_title": {
+    "description": "Title of the euro-account option on the choose-how-to-start page."
+  },
+  "onboarding_option_euro_body": "You can buy, sell and exchange Bitcoin and Euros effortlessly, whether you are a beginner or an expert.",
+  "@onboarding_option_euro_body": {
+    "description": "Body of the euro-account option."
+  },
+  "onboarding_option_euro_action": "Login / Create Account",
+  "@onboarding_option_euro_action": {
+    "description": "Action of the euro-account option."
+  },
+  "onboarding_option_wallet_title": "Spending Bitcoin Wallet",
+  "@onboarding_option_wallet_title": {
+    "description": "Title of the self-custodial wallet option on the choose-how-to-start page."
+  },
+  "onboarding_option_wallet_body": "You have full control with this self-custodial wallet. No one else can access your bitcoin.",
+  "@onboarding_option_wallet_body": {
+    "description": "Body of the self-custodial wallet option."
   }
 }
