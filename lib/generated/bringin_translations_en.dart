@@ -7112,9 +7112,6 @@ class BringinTranslationsEn extends BringinTranslations {
       'The verification window for this transfer expired. Please start the transfer again.';
 
   @override
-  String get withdraw_verify_title => 'Verify withdrawal';
-
-  @override
   String get withdraw_processing => 'Your withdrawal is being processed.';
 
   @override
@@ -7142,9 +7139,6 @@ class BringinTranslationsEn extends BringinTranslations {
   String get withdraw_field_reference => 'Reference (optional)';
 
   @override
-  String get withdraw_field_amount_hint => 'Enter amount in Euro';
-
-  @override
   String get withdraw_field_value_hint => 'Enter value';
 
   @override
@@ -7159,24 +7153,11 @@ class BringinTranslationsEn extends BringinTranslations {
   }
 
   @override
-  String get nearby_get_paid => 'Get paid';
-
-  @override
-  String get nearby_title => 'Nearby payments';
-
-  @override
   String get nearby_bluetooth_unavailable => 'Bluetooth unavailable';
 
   @override
   String get nearby_bluetooth_off_broadcast =>
       'Turn on Bluetooth to be discoverable.';
-
-  @override
-  String get nearby_bluetooth_off_scan =>
-      'Turn on Bluetooth to discover nearby users.';
-
-  @override
-  String get nearby_permission_required => 'Bluetooth permission required';
 
   @override
   String get nearby_permission_body_broadcast =>
@@ -7185,9 +7166,6 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get nearby_permission_body_scan =>
       'Allow Bluetooth access in Settings to discover nearby users.';
-
-  @override
-  String get nearby_action_open_settings => 'Open Settings';
 
   @override
   String get nearby_discoverable =>

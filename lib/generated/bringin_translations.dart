@@ -12306,12 +12306,6 @@ abstract class BringinTranslations {
   /// **'The verification window for this transfer expired. Please start the transfer again.'**
   String get withdraw_verify_window_expired;
 
-  /// Heading and button of the withdrawal verification step.
-  ///
-  /// In en, this message translates to:
-  /// **'Verify withdrawal'**
-  String get withdraw_verify_title;
-
   /// Shown after the withdrawal has been confirmed.
   ///
   /// In en, this message translates to:
@@ -12360,12 +12354,6 @@ abstract class BringinTranslations {
   /// **'Reference (optional)'**
   String get withdraw_field_reference;
 
-  /// Hint of the withdraw amount field.
-  ///
-  /// In en, this message translates to:
-  /// **'Enter amount in Euro'**
-  String get withdraw_field_amount_hint;
-
   /// Hint of the withdraw reference field.
   ///
   /// In en, this message translates to:
@@ -12390,18 +12378,6 @@ abstract class BringinTranslations {
   /// **'We charge  € {fee} for withdrawing Euro to your bank account'**
   String withdraw_fee_note(String fee);
 
-  /// Title of the be-discoverable side of nearby payments.
-  ///
-  /// In en, this message translates to:
-  /// **'Get paid'**
-  String get nearby_get_paid;
-
-  /// App-bar title of the nearby-payments page.
-  ///
-  /// In en, this message translates to:
-  /// **'Nearby payments'**
-  String get nearby_title;
-
   /// Heading when the device's Bluetooth adapter is not usable.
   ///
   /// In en, this message translates to:
@@ -12414,18 +12390,6 @@ abstract class BringinTranslations {
   /// **'Turn on Bluetooth to be discoverable.'**
   String get nearby_bluetooth_off_broadcast;
 
-  /// Body when Bluetooth is off on the scanning side.
-  ///
-  /// In en, this message translates to:
-  /// **'Turn on Bluetooth to discover nearby users.'**
-  String get nearby_bluetooth_off_scan;
-
-  /// Heading when the Bluetooth permission has not been granted.
-  ///
-  /// In en, this message translates to:
-  /// **'Bluetooth permission required'**
-  String get nearby_permission_required;
-
   /// Body of the permission prompt on the be-discoverable side.
   ///
   /// In en, this message translates to:
@@ -12437,12 +12401,6 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Allow Bluetooth access in Settings to discover nearby users.'**
   String get nearby_permission_body_scan;
-
-  /// Action that opens the OS settings page for the app.
-  ///
-  /// In en, this message translates to:
-  /// **'Open Settings'**
-  String get nearby_action_open_settings;
 
   /// Status line while broadcasting. The line break is deliberate.
   ///
@@ -12552,7 +12510,7 @@ abstract class BringinTranslations {
   /// **'Could not connect to {name}\'s Lightning address'**
   String nearby_error_resolve_address(String name);
 
-  /// Fallback display name for a discovered user with no name.
+  /// Fallback display name for a discovered nearby user with no name. Deliberately separate from send_fee_unknown despite the identical English: one names a person, the other an unknown fee, and those can decline differently.
   ///
   /// In en, this message translates to:
   /// **'Unknown'**

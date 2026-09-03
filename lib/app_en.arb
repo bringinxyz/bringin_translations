@@ -3995,10 +3995,6 @@
   "@withdraw_verify_window_expired": {
     "description": "Shown when a pending withdrawal's SCA challenge expired."
   },
-  "withdraw_verify_title": "Verify withdrawal",
-  "@withdraw_verify_title": {
-    "description": "Heading and button of the withdrawal verification step."
-  },
   "withdraw_processing": "Your withdrawal is being processed.",
   "@withdraw_processing": {
     "description": "Shown after the withdrawal has been confirmed."
@@ -4031,10 +4027,6 @@
   "@withdraw_field_reference": {
     "description": "Label of the optional reference field in the withdraw flow."
   },
-  "withdraw_field_amount_hint": "Enter amount in Euro",
-  "@withdraw_field_amount_hint": {
-    "description": "Hint of the withdraw amount field."
-  },
   "withdraw_field_value_hint": "Enter value",
   "@withdraw_field_value_hint": {
     "description": "Hint of the withdraw reference field."
@@ -4056,14 +4048,6 @@
       }
     }
   },
-  "nearby_get_paid": "Get paid",
-  "@nearby_get_paid": {
-    "description": "Title of the be-discoverable side of nearby payments."
-  },
-  "nearby_title": "Nearby payments",
-  "@nearby_title": {
-    "description": "App-bar title of the nearby-payments page."
-  },
   "nearby_bluetooth_unavailable": "Bluetooth unavailable",
   "@nearby_bluetooth_unavailable": {
     "description": "Heading when the device's Bluetooth adapter is not usable."
@@ -4072,14 +4056,6 @@
   "@nearby_bluetooth_off_broadcast": {
     "description": "Body when Bluetooth is off on the be-discoverable side."
   },
-  "nearby_bluetooth_off_scan": "Turn on Bluetooth to discover nearby users.",
-  "@nearby_bluetooth_off_scan": {
-    "description": "Body when Bluetooth is off on the scanning side."
-  },
-  "nearby_permission_required": "Bluetooth permission required",
-  "@nearby_permission_required": {
-    "description": "Heading when the Bluetooth permission has not been granted."
-  },
   "nearby_permission_body_broadcast": "Allow Bluetooth access in Settings to be discoverable.",
   "@nearby_permission_body_broadcast": {
     "description": "Body of the permission prompt on the be-discoverable side."
@@ -4087,10 +4063,6 @@
   "nearby_permission_body_scan": "Allow Bluetooth access in Settings to discover nearby users.",
   "@nearby_permission_body_scan": {
     "description": "Body of the permission prompt on the scanning side."
-  },
-  "nearby_action_open_settings": "Open Settings",
-  "@nearby_action_open_settings": {
-    "description": "Action that opens the OS settings page for the app."
   },
   "nearby_discoverable": "You are discoverable to\nnearby Bringin users",
   "@nearby_discoverable": {
@@ -4176,6 +4148,6 @@
   },
   "nearby_user_unknown": "Unknown",
   "@nearby_user_unknown": {
-    "description": "Fallback display name for a discovered user with no name."
+    "description": "Fallback display name for a discovered nearby user with no name. Deliberately separate from send_fee_unknown despite the identical English: one names a person, the other an unknown fee, and those can decline differently."
   }
 }
