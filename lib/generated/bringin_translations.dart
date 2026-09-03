@@ -10181,6 +10181,162 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Zero amount invoices are not supported'**
   String get home_send_error_zero_amount;
+
+  /// Title of the screen shown in place of the Cards tab for users in a country where cards are not offered.
+  ///
+  /// In en, this message translates to:
+  /// **'We appreciate your support for Bringin'**
+  String get pro_unavailable_title;
+
+  /// Body of the card-unavailable screen.
+  ///
+  /// In en, this message translates to:
+  /// **'However, we are not available in Switzerland yet.'**
+  String get pro_unavailable_body;
+
+  /// First half of a sentence whose second half is the tappable support email address. Keep the trailing space.
+  ///
+  /// In en, this message translates to:
+  /// **'Please contact us at '**
+  String get pro_unavailable_contact_prefix;
+
+  /// Second half of the sentence that follows the tappable support email address. Keep the leading space.
+  ///
+  /// In en, this message translates to:
+  /// **' to request a refund for your prepayment for cards.'**
+  String get pro_unavailable_contact_suffix;
+
+  /// Status line on the processing screen while the Pro subscription payment settles.
+  ///
+  /// In en, this message translates to:
+  /// **'Activating Pro...'**
+  String get pro_activating_status;
+
+  /// Primary button on the Pro upsell screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Get Pro'**
+  String get pro_action_get;
+
+  /// First part of the Pro hero headline. The word that follows is highlighted in a different colour, so keep the trailing space. Line breaks are deliberate.
+  ///
+  /// In en, this message translates to:
+  /// **'Hold Bitcoin\nyour way. Spend\nit '**
+  String get pro_hero_title_prefix;
+
+  /// The highlighted final word of the Pro hero headline, which begins with pro_hero_title_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'worldwide'**
+  String get pro_hero_title_highlight;
+
+  /// Subtitle under the Pro hero headline.
+  ///
+  /// In en, this message translates to:
+  /// **'Unlock your Bitcoin Debit Card with Pro. Pay worldwide, online or in-store.'**
+  String get pro_hero_subtitle;
+
+  /// Shown in the pricing card when the price lookup fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn’t load pricing.'**
+  String get pro_pricing_error;
+
+  /// Badge next to the Pro price. {percent} is a whole number.
+  ///
+  /// In en, this message translates to:
+  /// **'{percent}% Discount'**
+  String pro_pricing_discount_badge(String percent);
+
+  /// Caption under the Pro price. {amount} is a pre-formatted euro amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Paid annually, {amount} per month'**
+  String pro_pricing_per_month(String amount);
+
+  /// Pro feature bullet.
+  ///
+  /// In en, this message translates to:
+  /// **'1 free physical & virtual debit cards.'**
+  String get pro_benefit_free_cards;
+
+  /// Pro feature bullet.
+  ///
+  /// In en, this message translates to:
+  /// **'Create up-to 5 cards'**
+  String get pro_benefit_create_cards;
+
+  /// Pro feature bullet.
+  ///
+  /// In en, this message translates to:
+  /// **'Spend Bitcoin or Euros'**
+  String get pro_benefit_spend;
+
+  /// Additional-benefit row on the Pro screen. Alby is a product name.
+  ///
+  /// In en, this message translates to:
+  /// **'10% Discounts on Alby subscriptions'**
+  String get pro_benefit_alby;
+
+  /// Additional-benefit row on the Pro screen. Koinly is a product name.
+  ///
+  /// In en, this message translates to:
+  /// **'10% Discounts on the Koinly Tax calculator tool'**
+  String get pro_benefit_koinly;
+
+  /// Toast when the Pro pre-payment could not be created.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not start payment. Please try again.'**
+  String get pro_error_payment_start;
+
+  /// Toast when starting the Pro payment failed for a reason retrying immediately will not fix.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not start payment. Please try again later.'**
+  String get pro_error_payment_start_later;
+
+  /// Toast shown when the user taps Get Pro but the subscription has already been paid.
+  ///
+  /// In en, this message translates to:
+  /// **'You are already a Pro subscriber.'**
+  String get pro_error_already_subscriber;
+
+  /// Title of the bottom sheet that picks how to pay for Pro.
+  ///
+  /// In en, this message translates to:
+  /// **'Get Pro annual subscription'**
+  String get pro_sheet_title;
+
+  /// Prompt above the payment-method rows in the Pro payment sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'How would you like to pay for Pro?'**
+  String get pro_sheet_question;
+
+  /// Payment-method row: the user's self-custodial Bitcoin wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay with Bitcoin wallet'**
+  String get pro_pay_bitcoin_wallet;
+
+  /// Payment-method row: the user's Bringin euro balance.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay with Euro account'**
+  String get pro_pay_euro_account;
+
+  /// Payment-method row: pay a Lightning invoice from a wallet outside Bringin.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay with external wallets'**
+  String get pro_pay_external_wallets;
+
+  /// Subtitle of the external-wallets payment row.
+  ///
+  /// In en, this message translates to:
+  /// **'Via lightning network'**
+  String get pro_pay_external_subtitle;
 }
 
 class _BringinTranslationsDelegate

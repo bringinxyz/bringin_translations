@@ -2509,5 +2509,119 @@
   "home_passkey_option_passkey_hint": "Device Biometrics. Faster and phishing-resistant",
   "home_passkey_option_totp": "Authenticator app",
   "home_passkey_option_totp_hint": "Google Authenticator, Microsoft Authenticator etc.",
-  "home_send_error_zero_amount": "Zero amount invoices are not supported"
+  "home_send_error_zero_amount": "Zero amount invoices are not supported",
+  "pro_unavailable_title": "We appreciate your support for Bringin",
+  "@pro_unavailable_title": {
+    "description": "Title of the screen shown in place of the Cards tab for users in a country where cards are not offered."
+  },
+  "pro_unavailable_body": "However, we are not available in Switzerland yet.",
+  "@pro_unavailable_body": {
+    "description": "Body of the card-unavailable screen."
+  },
+  "pro_unavailable_contact_prefix": "Please contact us at ",
+  "@pro_unavailable_contact_prefix": {
+    "description": "First half of a sentence whose second half is the tappable support email address. Keep the trailing space."
+  },
+  "pro_unavailable_contact_suffix": " to request a refund for your prepayment for cards.",
+  "@pro_unavailable_contact_suffix": {
+    "description": "Second half of the sentence that follows the tappable support email address. Keep the leading space."
+  },
+  "pro_activating_status": "Activating Pro...",
+  "@pro_activating_status": {
+    "description": "Status line on the processing screen while the Pro subscription payment settles."
+  },
+  "pro_action_get": "Get Pro",
+  "@pro_action_get": {
+    "description": "Primary button on the Pro upsell screen."
+  },
+  "pro_hero_title_prefix": "Hold Bitcoin\nyour way. Spend\nit ",
+  "@pro_hero_title_prefix": {
+    "description": "First part of the Pro hero headline. The word that follows is highlighted in a different colour, so keep the trailing space. Line breaks are deliberate."
+  },
+  "pro_hero_title_highlight": "worldwide",
+  "@pro_hero_title_highlight": {
+    "description": "The highlighted final word of the Pro hero headline, which begins with pro_hero_title_prefix."
+  },
+  "pro_hero_subtitle": "Unlock your Bitcoin Debit Card with Pro. Pay worldwide, online or in-store.",
+  "@pro_hero_subtitle": {
+    "description": "Subtitle under the Pro hero headline."
+  },
+  "pro_pricing_error": "Couldn’t load pricing.",
+  "@pro_pricing_error": {
+    "description": "Shown in the pricing card when the price lookup fails."
+  },
+  "pro_pricing_discount_badge": "{percent}% Discount",
+  "@pro_pricing_discount_badge": {
+    "description": "Badge next to the Pro price. {percent} is a whole number.",
+    "placeholders": {
+      "percent": {
+        "type": "String"
+      }
+    }
+  },
+  "pro_pricing_per_month": "Paid annually, {amount} per month",
+  "@pro_pricing_per_month": {
+    "description": "Caption under the Pro price. {amount} is a pre-formatted euro amount.",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "pro_benefit_free_cards": "1 free physical & virtual debit cards.",
+  "@pro_benefit_free_cards": {
+    "description": "Pro feature bullet."
+  },
+  "pro_benefit_create_cards": "Create up-to 5 cards",
+  "@pro_benefit_create_cards": {
+    "description": "Pro feature bullet."
+  },
+  "pro_benefit_spend": "Spend Bitcoin or Euros",
+  "@pro_benefit_spend": {
+    "description": "Pro feature bullet."
+  },
+  "pro_benefit_alby": "10% Discounts on Alby subscriptions",
+  "@pro_benefit_alby": {
+    "description": "Additional-benefit row on the Pro screen. Alby is a product name."
+  },
+  "pro_benefit_koinly": "10% Discounts on the Koinly Tax calculator tool",
+  "@pro_benefit_koinly": {
+    "description": "Additional-benefit row on the Pro screen. Koinly is a product name."
+  },
+  "pro_error_payment_start": "Could not start payment. Please try again.",
+  "@pro_error_payment_start": {
+    "description": "Toast when the Pro pre-payment could not be created."
+  },
+  "pro_error_payment_start_later": "Could not start payment. Please try again later.",
+  "@pro_error_payment_start_later": {
+    "description": "Toast when starting the Pro payment failed for a reason retrying immediately will not fix."
+  },
+  "pro_error_already_subscriber": "You are already a Pro subscriber.",
+  "@pro_error_already_subscriber": {
+    "description": "Toast shown when the user taps Get Pro but the subscription has already been paid."
+  },
+  "pro_sheet_title": "Get Pro annual subscription",
+  "@pro_sheet_title": {
+    "description": "Title of the bottom sheet that picks how to pay for Pro."
+  },
+  "pro_sheet_question": "How would you like to pay for Pro?",
+  "@pro_sheet_question": {
+    "description": "Prompt above the payment-method rows in the Pro payment sheet."
+  },
+  "pro_pay_bitcoin_wallet": "Pay with Bitcoin wallet",
+  "@pro_pay_bitcoin_wallet": {
+    "description": "Payment-method row: the user's self-custodial Bitcoin wallet."
+  },
+  "pro_pay_euro_account": "Pay with Euro account",
+  "@pro_pay_euro_account": {
+    "description": "Payment-method row: the user's Bringin euro balance."
+  },
+  "pro_pay_external_wallets": "Pay with external wallets",
+  "@pro_pay_external_wallets": {
+    "description": "Payment-method row: pay a Lightning invoice from a wallet outside Bringin."
+  },
+  "pro_pay_external_subtitle": "Via lightning network",
+  "@pro_pay_external_subtitle": {
+    "description": "Subtitle of the external-wallets payment row."
+  }
 }

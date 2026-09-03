@@ -5852,4 +5852,93 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get home_send_error_zero_amount =>
       'Zero amount invoices are not supported';
+
+  @override
+  String get pro_unavailable_title => 'We appreciate your support for Bringin';
+
+  @override
+  String get pro_unavailable_body =>
+      'However, we are not available in Switzerland yet.';
+
+  @override
+  String get pro_unavailable_contact_prefix => 'Please contact us at ';
+
+  @override
+  String get pro_unavailable_contact_suffix =>
+      ' to request a refund for your prepayment for cards.';
+
+  @override
+  String get pro_activating_status => 'Activating Pro...';
+
+  @override
+  String get pro_action_get => 'Get Pro';
+
+  @override
+  String get pro_hero_title_prefix => 'Hold Bitcoin\nyour way. Spend\nit ';
+
+  @override
+  String get pro_hero_title_highlight => 'worldwide';
+
+  @override
+  String get pro_hero_subtitle =>
+      'Unlock your Bitcoin Debit Card with Pro. Pay worldwide, online or in-store.';
+
+  @override
+  String get pro_pricing_error => 'Couldn’t load pricing.';
+
+  @override
+  String pro_pricing_discount_badge(String percent) {
+    return '$percent% Discount';
+  }
+
+  @override
+  String pro_pricing_per_month(String amount) {
+    return 'Paid annually, $amount per month';
+  }
+
+  @override
+  String get pro_benefit_free_cards => '1 free physical & virtual debit cards.';
+
+  @override
+  String get pro_benefit_create_cards => 'Create up-to 5 cards';
+
+  @override
+  String get pro_benefit_spend => 'Spend Bitcoin or Euros';
+
+  @override
+  String get pro_benefit_alby => '10% Discounts on Alby subscriptions';
+
+  @override
+  String get pro_benefit_koinly =>
+      '10% Discounts on the Koinly Tax calculator tool';
+
+  @override
+  String get pro_error_payment_start =>
+      'Could not start payment. Please try again.';
+
+  @override
+  String get pro_error_payment_start_later =>
+      'Could not start payment. Please try again later.';
+
+  @override
+  String get pro_error_already_subscriber =>
+      'You are already a Pro subscriber.';
+
+  @override
+  String get pro_sheet_title => 'Get Pro annual subscription';
+
+  @override
+  String get pro_sheet_question => 'How would you like to pay for Pro?';
+
+  @override
+  String get pro_pay_bitcoin_wallet => 'Pay with Bitcoin wallet';
+
+  @override
+  String get pro_pay_euro_account => 'Pay with Euro account';
+
+  @override
+  String get pro_pay_external_wallets => 'Pay with external wallets';
+
+  @override
+  String get pro_pay_external_subtitle => 'Via lightning network';
 }
