@@ -3897,5 +3897,285 @@
   "onboarding_option_wallet_body": "You have full control with this self-custodial wallet. No one else can access your bitcoin.",
   "@onboarding_option_wallet_body": {
     "description": "Body of the self-custodial wallet option."
+  },
+  "dac_error_title_not_eligible": "You can't submit tax info from the app yet",
+  "@dac_error_title_not_eligible": {
+    "description": "Title of the tax-info error sheet when the account is not eligible for in-app collection."
+  },
+  "dac_error_title_generic": "We couldn't start your submission",
+  "@dac_error_title_generic": {
+    "description": "Title of the tax-info error sheet for any other failure."
+  },
+  "dac_error_body_not_eligible": "Your account isn't eligible for in-app tax info collection right now. Email support@bringin.xyz and we'll help you finish this.",
+  "@dac_error_body_not_eligible": {
+    "description": "Body of the not-eligible tax-info error."
+  },
+  "dac_error_body_generic": "Something got in the way. Try again in a moment, or email support@bringin.xyz if it keeps happening.",
+  "@dac_error_body_generic": {
+    "description": "Body of the generic tax-info error."
+  },
+  "dac_error_reason": "Reason: {message}",
+  "@dac_error_reason": {
+    "description": "Prefixes the backend's reason under the tax-info error body. {message} is untranslated backend text.",
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "dac_title": "Tax information",
+  "@dac_title": {
+    "description": "App-bar title of the tax-info page."
+  },
+  "dac_intro_body": "We need your tax details to keep your account in good standing. It only takes a few minutes.",
+  "@dac_intro_body": {
+    "description": "Intro body of the tax-info page."
+  },
+  "dac_done_title": "You're all set",
+  "@dac_done_title": {
+    "description": "Heading when the tax info has already been submitted."
+  },
+  "dac_done_body": "You've added your tax info, so your account's in good standing. Nothing more to do here.",
+  "@dac_done_body": {
+    "description": "Body of the already-submitted state."
+  },
+  "dac_kyc_first_title": "Verify your identity first",
+  "@dac_kyc_first_title": {
+    "description": "Heading when identity verification has to happen before tax info."
+  },
+  "dac_manual_title": "Submit the tax ID",
+  "@dac_manual_title": {
+    "description": "Heading when the tax ID cannot be collected in-app and support has to send a link."
+  },
+  "dac_manual_body": "You'll have to submit your tax identification number to have your account in good standing. Please contact support to get the link to update the tax identification number. You can contact support by sending an email to support@bringin.xyz or via the help section in the app.",
+  "@dac_manual_body": {
+    "description": "Body of the manual-submission state."
+  },
+  "dac_add_title": "Add your tax info",
+  "@dac_add_title": {
+    "description": "Heading of the collect-tax-info state, and the primary action label."
+  },
+  "dac_add_body": "EU rules ask us to collect your tax residency and Tax Identification Number (TIN). It takes about two minutes, and our identity partner handles the form. We'll remind you by email before your deadline — without it, we may have to limit parts of your account.",
+  "@dac_add_body": {
+    "description": "Body of the collect-tax-info state. TIN is a standard abbreviation."
+  },
+  "dac_action_message_support": "Message support",
+  "@dac_action_message_support": {
+    "description": "Action that opens a support conversation from the tax-info page."
+  },
+  "dac_kyc_not_started": "You'll be able to add your tax info once your identity is verified. Start verification from your profile.",
+  "@dac_kyc_not_started": {
+    "description": "Tax-info gate: identity verification has not been started."
+  },
+  "dac_kyc_in_progress": "Your verification is still in progress. Finish it, then come back to add your tax info.",
+  "@dac_kyc_in_progress": {
+    "description": "Tax-info gate: verification started but not submitted."
+  },
+  "dac_kyc_under_review": "Your verification is under review. We'll notify you once it's complete, and then you can add your tax info.",
+  "@dac_kyc_under_review": {
+    "description": "Tax-info gate: verification submitted and awaiting review."
+  },
+  "dac_kyc_extra_check": "Your verification needs an extra check. We'll notify you once it's complete.",
+  "@dac_kyc_extra_check": {
+    "description": "Tax-info gate: verification escalated for manual review."
+  },
+  "dac_kyc_rejected_retry": "We couldn't verify your identity. Please retry verification, then come back here.",
+  "@dac_kyc_rejected_retry": {
+    "description": "Tax-info gate: verification failed but can be retried."
+  },
+  "dac_kyc_rejected_final": "We couldn't verify your identity. Email support@bringin.xyz and we'll help sort it out.",
+  "@dac_kyc_rejected_final": {
+    "description": "Tax-info gate: verification failed terminally."
+  },
+  "dac_kyc_generic": "Please finish verifying your identity first. You can add your tax info right after.",
+  "@dac_kyc_generic": {
+    "description": "Tax-info gate fallback."
+  },
+  "withdraw_verify_window_expired": "The verification window for this transfer expired. Please start the transfer again.",
+  "@withdraw_verify_window_expired": {
+    "description": "Shown when a pending withdrawal's SCA challenge expired."
+  },
+  "withdraw_verify_title": "Verify withdrawal",
+  "@withdraw_verify_title": {
+    "description": "Heading and button of the withdrawal verification step."
+  },
+  "withdraw_processing": "Your withdrawal is being processed.",
+  "@withdraw_processing": {
+    "description": "Shown after the withdrawal has been confirmed."
+  },
+  "withdraw_passkey_only_notice": "This transfer is secured with your passkey — no SMS code is sent for it. Verify it with your passkey instead.",
+  "@withdraw_passkey_only_notice": {
+    "description": "Explains why no SMS arrives for a passkey-bound withdrawal."
+  },
+  "withdraw_verify_subtitle": "Verify this withdrawal to send your Euro",
+  "@withdraw_verify_subtitle": {
+    "description": "Subtitle of the withdrawal verification page."
+  },
+  "withdraw_choose_beneficiary": "Choose your beneficiary account to withdraw money",
+  "@withdraw_choose_beneficiary": {
+    "description": "Heading of the beneficiary picker in the withdraw flow."
+  },
+  "withdraw_beneficiary_added": "Beneficiary added!",
+  "@withdraw_beneficiary_added": {
+    "description": "Toast after adding a beneficiary from the withdraw flow."
+  },
+  "withdraw_action_add_beneficiary": "Add new beneficiary",
+  "@withdraw_action_add_beneficiary": {
+    "description": "Action that opens the add-beneficiary form from the withdraw flow."
+  },
+  "withdraw_field_amount": "Enter amount to withdraw",
+  "@withdraw_field_amount": {
+    "description": "Label of the amount field in the withdraw flow."
+  },
+  "withdraw_field_reference": "Reference (optional)",
+  "@withdraw_field_reference": {
+    "description": "Label of the optional reference field in the withdraw flow."
+  },
+  "withdraw_field_amount_hint": "Enter amount in Euro",
+  "@withdraw_field_amount_hint": {
+    "description": "Hint of the withdraw amount field."
+  },
+  "withdraw_field_value_hint": "Enter value",
+  "@withdraw_field_value_hint": {
+    "description": "Hint of the withdraw reference field."
+  },
+  "withdraw_error_over_limit": "Amount exceeds the limit",
+  "@withdraw_error_over_limit": {
+    "description": "Validation error when the withdrawal is above the allowed maximum."
+  },
+  "withdraw_error_under_limit": "Amount is below the limit",
+  "@withdraw_error_under_limit": {
+    "description": "Validation error when the withdrawal is below the allowed minimum."
+  },
+  "withdraw_fee_note": "We charge  € {fee} for withdrawing Euro to your bank account",
+  "@withdraw_fee_note": {
+    "description": "Fee note under the withdraw amount field. {fee} is a pre-formatted amount. The double space is in the original.",
+    "placeholders": {
+      "fee": {
+        "type": "String"
+      }
+    }
+  },
+  "nearby_get_paid": "Get paid",
+  "@nearby_get_paid": {
+    "description": "Title of the be-discoverable side of nearby payments."
+  },
+  "nearby_title": "Nearby payments",
+  "@nearby_title": {
+    "description": "App-bar title of the nearby-payments page."
+  },
+  "nearby_bluetooth_unavailable": "Bluetooth unavailable",
+  "@nearby_bluetooth_unavailable": {
+    "description": "Heading when the device's Bluetooth adapter is not usable."
+  },
+  "nearby_bluetooth_off_broadcast": "Turn on Bluetooth to be discoverable.",
+  "@nearby_bluetooth_off_broadcast": {
+    "description": "Body when Bluetooth is off on the be-discoverable side."
+  },
+  "nearby_bluetooth_off_scan": "Turn on Bluetooth to discover nearby users.",
+  "@nearby_bluetooth_off_scan": {
+    "description": "Body when Bluetooth is off on the scanning side."
+  },
+  "nearby_permission_required": "Bluetooth permission required",
+  "@nearby_permission_required": {
+    "description": "Heading when the Bluetooth permission has not been granted."
+  },
+  "nearby_permission_body_broadcast": "Allow Bluetooth access in Settings to be discoverable.",
+  "@nearby_permission_body_broadcast": {
+    "description": "Body of the permission prompt on the be-discoverable side."
+  },
+  "nearby_permission_body_scan": "Allow Bluetooth access in Settings to discover nearby users.",
+  "@nearby_permission_body_scan": {
+    "description": "Body of the permission prompt on the scanning side."
+  },
+  "nearby_action_open_settings": "Open Settings",
+  "@nearby_action_open_settings": {
+    "description": "Action that opens the OS settings page for the app."
+  },
+  "nearby_discoverable": "You are discoverable to\nnearby Bringin users",
+  "@nearby_discoverable": {
+    "description": "Status line while broadcasting. The line break is deliberate."
+  },
+  "nearby_checking_permissions": "Checking permissions...",
+  "@nearby_checking_permissions": {
+    "description": "Transient status while the Bluetooth permission is being resolved."
+  },
+  "nearby_status_permission_required": "Bluetooth permission is required",
+  "@nearby_status_permission_required": {
+    "description": "Short status chip when the permission is missing."
+  },
+  "nearby_status_bluetooth_off": "Bluetooth is turned off",
+  "@nearby_status_bluetooth_off": {
+    "description": "Short status chip when the adapter is off."
+  },
+  "nearby_status_start_failed": "Could not start Bluetooth",
+  "@nearby_status_start_failed": {
+    "description": "Short status chip when advertising or scanning failed to start."
+  },
+  "nearby_action_stop": "Stop",
+  "@nearby_action_stop": {
+    "description": "Action that stops broadcasting."
+  },
+  "nearby_action_stop_scanning": "Stop scanning",
+  "@nearby_action_stop_scanning": {
+    "description": "Action that stops scanning for nearby users."
+  },
+  "nearby_pay_title": "Pay nearby",
+  "@nearby_pay_title": {
+    "description": "App-bar title of the scan-for-people page."
+  },
+  "nearby_found_count": "{count, plural, =1{Found 1 person} other{Found {count} people}}",
+  "@nearby_found_count": {
+    "description": "Count of nearby users discovered so far.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "nearby_scanning": "Scanning...",
+  "@nearby_scanning": {
+    "description": "Status while a scan is running."
+  },
+  "nearby_searching": "Searching for nearby users...",
+  "@nearby_searching": {
+    "description": "Status line under the radar animation."
+  },
+  "nearby_stopped_title": "Stopped searching",
+  "@nearby_stopped_title": {
+    "description": "Heading when scanning was paused to save battery."
+  },
+  "nearby_stopped_body": "We paused scanning to save battery. Tap below to keep looking for nearby users.",
+  "@nearby_stopped_body": {
+    "description": "Body of the scanning-paused state."
+  },
+  "nearby_action_keep_searching": "Keep searching",
+  "@nearby_action_keep_searching": {
+    "description": "Action that resumes a paused scan."
+  },
+  "nearby_empty_title": "No one nearby",
+  "@nearby_empty_title": {
+    "description": "Heading when a scan found nobody."
+  },
+  "nearby_empty_body": "Ask them to open Bringin and tap \"Get paid\".",
+  "@nearby_empty_body": {
+    "description": "Body of the nobody-found state. The quoted label must match nearby_get_paid."
+  },
+  "nearby_people_nearby": "People nearby",
+  "@nearby_people_nearby": {
+    "description": "Section header above the list of discovered users."
+  },
+  "nearby_error_resolve_address": "Could not connect to {name}'s Lightning address",
+  "@nearby_error_resolve_address": {
+    "description": "Shown when a discovered user's Lightning address could not be resolved. {name} is their display name.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "nearby_user_unknown": "Unknown",
+  "@nearby_user_unknown": {
+    "description": "Fallback display name for a discovered user with no name."
   }
 }

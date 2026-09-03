@@ -12167,6 +12167,396 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'You have full control with this self-custodial wallet. No one else can access your bitcoin.'**
   String get onboarding_option_wallet_body;
+
+  /// Title of the tax-info error sheet when the account is not eligible for in-app collection.
+  ///
+  /// In en, this message translates to:
+  /// **'You can\'t submit tax info from the app yet'**
+  String get dac_error_title_not_eligible;
+
+  /// Title of the tax-info error sheet for any other failure.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t start your submission'**
+  String get dac_error_title_generic;
+
+  /// Body of the not-eligible tax-info error.
+  ///
+  /// In en, this message translates to:
+  /// **'Your account isn\'t eligible for in-app tax info collection right now. Email support@bringin.xyz and we\'ll help you finish this.'**
+  String get dac_error_body_not_eligible;
+
+  /// Body of the generic tax-info error.
+  ///
+  /// In en, this message translates to:
+  /// **'Something got in the way. Try again in a moment, or email support@bringin.xyz if it keeps happening.'**
+  String get dac_error_body_generic;
+
+  /// Prefixes the backend's reason under the tax-info error body. {message} is untranslated backend text.
+  ///
+  /// In en, this message translates to:
+  /// **'Reason: {message}'**
+  String dac_error_reason(String message);
+
+  /// App-bar title of the tax-info page.
+  ///
+  /// In en, this message translates to:
+  /// **'Tax information'**
+  String get dac_title;
+
+  /// Intro body of the tax-info page.
+  ///
+  /// In en, this message translates to:
+  /// **'We need your tax details to keep your account in good standing. It only takes a few minutes.'**
+  String get dac_intro_body;
+
+  /// Heading when the tax info has already been submitted.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'re all set'**
+  String get dac_done_title;
+
+  /// Body of the already-submitted state.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve added your tax info, so your account\'s in good standing. Nothing more to do here.'**
+  String get dac_done_body;
+
+  /// Heading when identity verification has to happen before tax info.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify your identity first'**
+  String get dac_kyc_first_title;
+
+  /// Heading when the tax ID cannot be collected in-app and support has to send a link.
+  ///
+  /// In en, this message translates to:
+  /// **'Submit the tax ID'**
+  String get dac_manual_title;
+
+  /// Body of the manual-submission state.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ll have to submit your tax identification number to have your account in good standing. Please contact support to get the link to update the tax identification number. You can contact support by sending an email to support@bringin.xyz or via the help section in the app.'**
+  String get dac_manual_body;
+
+  /// Heading of the collect-tax-info state, and the primary action label.
+  ///
+  /// In en, this message translates to:
+  /// **'Add your tax info'**
+  String get dac_add_title;
+
+  /// Body of the collect-tax-info state. TIN is a standard abbreviation.
+  ///
+  /// In en, this message translates to:
+  /// **'EU rules ask us to collect your tax residency and Tax Identification Number (TIN). It takes about two minutes, and our identity partner handles the form. We\'ll remind you by email before your deadline — without it, we may have to limit parts of your account.'**
+  String get dac_add_body;
+
+  /// Action that opens a support conversation from the tax-info page.
+  ///
+  /// In en, this message translates to:
+  /// **'Message support'**
+  String get dac_action_message_support;
+
+  /// Tax-info gate: identity verification has not been started.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ll be able to add your tax info once your identity is verified. Start verification from your profile.'**
+  String get dac_kyc_not_started;
+
+  /// Tax-info gate: verification started but not submitted.
+  ///
+  /// In en, this message translates to:
+  /// **'Your verification is still in progress. Finish it, then come back to add your tax info.'**
+  String get dac_kyc_in_progress;
+
+  /// Tax-info gate: verification submitted and awaiting review.
+  ///
+  /// In en, this message translates to:
+  /// **'Your verification is under review. We\'ll notify you once it\'s complete, and then you can add your tax info.'**
+  String get dac_kyc_under_review;
+
+  /// Tax-info gate: verification escalated for manual review.
+  ///
+  /// In en, this message translates to:
+  /// **'Your verification needs an extra check. We\'ll notify you once it\'s complete.'**
+  String get dac_kyc_extra_check;
+
+  /// Tax-info gate: verification failed but can be retried.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t verify your identity. Please retry verification, then come back here.'**
+  String get dac_kyc_rejected_retry;
+
+  /// Tax-info gate: verification failed terminally.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t verify your identity. Email support@bringin.xyz and we\'ll help sort it out.'**
+  String get dac_kyc_rejected_final;
+
+  /// Tax-info gate fallback.
+  ///
+  /// In en, this message translates to:
+  /// **'Please finish verifying your identity first. You can add your tax info right after.'**
+  String get dac_kyc_generic;
+
+  /// Shown when a pending withdrawal's SCA challenge expired.
+  ///
+  /// In en, this message translates to:
+  /// **'The verification window for this transfer expired. Please start the transfer again.'**
+  String get withdraw_verify_window_expired;
+
+  /// Heading and button of the withdrawal verification step.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify withdrawal'**
+  String get withdraw_verify_title;
+
+  /// Shown after the withdrawal has been confirmed.
+  ///
+  /// In en, this message translates to:
+  /// **'Your withdrawal is being processed.'**
+  String get withdraw_processing;
+
+  /// Explains why no SMS arrives for a passkey-bound withdrawal.
+  ///
+  /// In en, this message translates to:
+  /// **'This transfer is secured with your passkey — no SMS code is sent for it. Verify it with your passkey instead.'**
+  String get withdraw_passkey_only_notice;
+
+  /// Subtitle of the withdrawal verification page.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify this withdrawal to send your Euro'**
+  String get withdraw_verify_subtitle;
+
+  /// Heading of the beneficiary picker in the withdraw flow.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your beneficiary account to withdraw money'**
+  String get withdraw_choose_beneficiary;
+
+  /// Toast after adding a beneficiary from the withdraw flow.
+  ///
+  /// In en, this message translates to:
+  /// **'Beneficiary added!'**
+  String get withdraw_beneficiary_added;
+
+  /// Action that opens the add-beneficiary form from the withdraw flow.
+  ///
+  /// In en, this message translates to:
+  /// **'Add new beneficiary'**
+  String get withdraw_action_add_beneficiary;
+
+  /// Label of the amount field in the withdraw flow.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter amount to withdraw'**
+  String get withdraw_field_amount;
+
+  /// Label of the optional reference field in the withdraw flow.
+  ///
+  /// In en, this message translates to:
+  /// **'Reference (optional)'**
+  String get withdraw_field_reference;
+
+  /// Hint of the withdraw amount field.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter amount in Euro'**
+  String get withdraw_field_amount_hint;
+
+  /// Hint of the withdraw reference field.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter value'**
+  String get withdraw_field_value_hint;
+
+  /// Validation error when the withdrawal is above the allowed maximum.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount exceeds the limit'**
+  String get withdraw_error_over_limit;
+
+  /// Validation error when the withdrawal is below the allowed minimum.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount is below the limit'**
+  String get withdraw_error_under_limit;
+
+  /// Fee note under the withdraw amount field. {fee} is a pre-formatted amount. The double space is in the original.
+  ///
+  /// In en, this message translates to:
+  /// **'We charge  € {fee} for withdrawing Euro to your bank account'**
+  String withdraw_fee_note(String fee);
+
+  /// Title of the be-discoverable side of nearby payments.
+  ///
+  /// In en, this message translates to:
+  /// **'Get paid'**
+  String get nearby_get_paid;
+
+  /// App-bar title of the nearby-payments page.
+  ///
+  /// In en, this message translates to:
+  /// **'Nearby payments'**
+  String get nearby_title;
+
+  /// Heading when the device's Bluetooth adapter is not usable.
+  ///
+  /// In en, this message translates to:
+  /// **'Bluetooth unavailable'**
+  String get nearby_bluetooth_unavailable;
+
+  /// Body when Bluetooth is off on the be-discoverable side.
+  ///
+  /// In en, this message translates to:
+  /// **'Turn on Bluetooth to be discoverable.'**
+  String get nearby_bluetooth_off_broadcast;
+
+  /// Body when Bluetooth is off on the scanning side.
+  ///
+  /// In en, this message translates to:
+  /// **'Turn on Bluetooth to discover nearby users.'**
+  String get nearby_bluetooth_off_scan;
+
+  /// Heading when the Bluetooth permission has not been granted.
+  ///
+  /// In en, this message translates to:
+  /// **'Bluetooth permission required'**
+  String get nearby_permission_required;
+
+  /// Body of the permission prompt on the be-discoverable side.
+  ///
+  /// In en, this message translates to:
+  /// **'Allow Bluetooth access in Settings to be discoverable.'**
+  String get nearby_permission_body_broadcast;
+
+  /// Body of the permission prompt on the scanning side.
+  ///
+  /// In en, this message translates to:
+  /// **'Allow Bluetooth access in Settings to discover nearby users.'**
+  String get nearby_permission_body_scan;
+
+  /// Action that opens the OS settings page for the app.
+  ///
+  /// In en, this message translates to:
+  /// **'Open Settings'**
+  String get nearby_action_open_settings;
+
+  /// Status line while broadcasting. The line break is deliberate.
+  ///
+  /// In en, this message translates to:
+  /// **'You are discoverable to\nnearby Bringin users'**
+  String get nearby_discoverable;
+
+  /// Transient status while the Bluetooth permission is being resolved.
+  ///
+  /// In en, this message translates to:
+  /// **'Checking permissions...'**
+  String get nearby_checking_permissions;
+
+  /// Short status chip when the permission is missing.
+  ///
+  /// In en, this message translates to:
+  /// **'Bluetooth permission is required'**
+  String get nearby_status_permission_required;
+
+  /// Short status chip when the adapter is off.
+  ///
+  /// In en, this message translates to:
+  /// **'Bluetooth is turned off'**
+  String get nearby_status_bluetooth_off;
+
+  /// Short status chip when advertising or scanning failed to start.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not start Bluetooth'**
+  String get nearby_status_start_failed;
+
+  /// Action that stops broadcasting.
+  ///
+  /// In en, this message translates to:
+  /// **'Stop'**
+  String get nearby_action_stop;
+
+  /// Action that stops scanning for nearby users.
+  ///
+  /// In en, this message translates to:
+  /// **'Stop scanning'**
+  String get nearby_action_stop_scanning;
+
+  /// App-bar title of the scan-for-people page.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay nearby'**
+  String get nearby_pay_title;
+
+  /// Count of nearby users discovered so far.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{Found 1 person} other{Found {count} people}}'**
+  String nearby_found_count(int count);
+
+  /// Status while a scan is running.
+  ///
+  /// In en, this message translates to:
+  /// **'Scanning...'**
+  String get nearby_scanning;
+
+  /// Status line under the radar animation.
+  ///
+  /// In en, this message translates to:
+  /// **'Searching for nearby users...'**
+  String get nearby_searching;
+
+  /// Heading when scanning was paused to save battery.
+  ///
+  /// In en, this message translates to:
+  /// **'Stopped searching'**
+  String get nearby_stopped_title;
+
+  /// Body of the scanning-paused state.
+  ///
+  /// In en, this message translates to:
+  /// **'We paused scanning to save battery. Tap below to keep looking for nearby users.'**
+  String get nearby_stopped_body;
+
+  /// Action that resumes a paused scan.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep searching'**
+  String get nearby_action_keep_searching;
+
+  /// Heading when a scan found nobody.
+  ///
+  /// In en, this message translates to:
+  /// **'No one nearby'**
+  String get nearby_empty_title;
+
+  /// Body of the nobody-found state. The quoted label must match nearby_get_paid.
+  ///
+  /// In en, this message translates to:
+  /// **'Ask them to open Bringin and tap \"Get paid\".'**
+  String get nearby_empty_body;
+
+  /// Section header above the list of discovered users.
+  ///
+  /// In en, this message translates to:
+  /// **'People nearby'**
+  String get nearby_people_nearby;
+
+  /// Shown when a discovered user's Lightning address could not be resolved. {name} is their display name.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not connect to {name}\'s Lightning address'**
+  String nearby_error_resolve_address(String name);
+
+  /// Fallback display name for a discovered user with no name.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown'**
+  String get nearby_user_unknown;
 }
 
 class _BringinTranslationsDelegate

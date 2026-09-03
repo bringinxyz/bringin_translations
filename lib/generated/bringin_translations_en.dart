@@ -7024,4 +7024,239 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get onboarding_option_wallet_body =>
       'You have full control with this self-custodial wallet. No one else can access your bitcoin.';
+
+  @override
+  String get dac_error_title_not_eligible =>
+      'You can\'t submit tax info from the app yet';
+
+  @override
+  String get dac_error_title_generic => 'We couldn\'t start your submission';
+
+  @override
+  String get dac_error_body_not_eligible =>
+      'Your account isn\'t eligible for in-app tax info collection right now. Email support@bringin.xyz and we\'ll help you finish this.';
+
+  @override
+  String get dac_error_body_generic =>
+      'Something got in the way. Try again in a moment, or email support@bringin.xyz if it keeps happening.';
+
+  @override
+  String dac_error_reason(String message) {
+    return 'Reason: $message';
+  }
+
+  @override
+  String get dac_title => 'Tax information';
+
+  @override
+  String get dac_intro_body =>
+      'We need your tax details to keep your account in good standing. It only takes a few minutes.';
+
+  @override
+  String get dac_done_title => 'You\'re all set';
+
+  @override
+  String get dac_done_body =>
+      'You\'ve added your tax info, so your account\'s in good standing. Nothing more to do here.';
+
+  @override
+  String get dac_kyc_first_title => 'Verify your identity first';
+
+  @override
+  String get dac_manual_title => 'Submit the tax ID';
+
+  @override
+  String get dac_manual_body =>
+      'You\'ll have to submit your tax identification number to have your account in good standing. Please contact support to get the link to update the tax identification number. You can contact support by sending an email to support@bringin.xyz or via the help section in the app.';
+
+  @override
+  String get dac_add_title => 'Add your tax info';
+
+  @override
+  String get dac_add_body =>
+      'EU rules ask us to collect your tax residency and Tax Identification Number (TIN). It takes about two minutes, and our identity partner handles the form. We\'ll remind you by email before your deadline — without it, we may have to limit parts of your account.';
+
+  @override
+  String get dac_action_message_support => 'Message support';
+
+  @override
+  String get dac_kyc_not_started =>
+      'You\'ll be able to add your tax info once your identity is verified. Start verification from your profile.';
+
+  @override
+  String get dac_kyc_in_progress =>
+      'Your verification is still in progress. Finish it, then come back to add your tax info.';
+
+  @override
+  String get dac_kyc_under_review =>
+      'Your verification is under review. We\'ll notify you once it\'s complete, and then you can add your tax info.';
+
+  @override
+  String get dac_kyc_extra_check =>
+      'Your verification needs an extra check. We\'ll notify you once it\'s complete.';
+
+  @override
+  String get dac_kyc_rejected_retry =>
+      'We couldn\'t verify your identity. Please retry verification, then come back here.';
+
+  @override
+  String get dac_kyc_rejected_final =>
+      'We couldn\'t verify your identity. Email support@bringin.xyz and we\'ll help sort it out.';
+
+  @override
+  String get dac_kyc_generic =>
+      'Please finish verifying your identity first. You can add your tax info right after.';
+
+  @override
+  String get withdraw_verify_window_expired =>
+      'The verification window for this transfer expired. Please start the transfer again.';
+
+  @override
+  String get withdraw_verify_title => 'Verify withdrawal';
+
+  @override
+  String get withdraw_processing => 'Your withdrawal is being processed.';
+
+  @override
+  String get withdraw_passkey_only_notice =>
+      'This transfer is secured with your passkey — no SMS code is sent for it. Verify it with your passkey instead.';
+
+  @override
+  String get withdraw_verify_subtitle =>
+      'Verify this withdrawal to send your Euro';
+
+  @override
+  String get withdraw_choose_beneficiary =>
+      'Choose your beneficiary account to withdraw money';
+
+  @override
+  String get withdraw_beneficiary_added => 'Beneficiary added!';
+
+  @override
+  String get withdraw_action_add_beneficiary => 'Add new beneficiary';
+
+  @override
+  String get withdraw_field_amount => 'Enter amount to withdraw';
+
+  @override
+  String get withdraw_field_reference => 'Reference (optional)';
+
+  @override
+  String get withdraw_field_amount_hint => 'Enter amount in Euro';
+
+  @override
+  String get withdraw_field_value_hint => 'Enter value';
+
+  @override
+  String get withdraw_error_over_limit => 'Amount exceeds the limit';
+
+  @override
+  String get withdraw_error_under_limit => 'Amount is below the limit';
+
+  @override
+  String withdraw_fee_note(String fee) {
+    return 'We charge  € $fee for withdrawing Euro to your bank account';
+  }
+
+  @override
+  String get nearby_get_paid => 'Get paid';
+
+  @override
+  String get nearby_title => 'Nearby payments';
+
+  @override
+  String get nearby_bluetooth_unavailable => 'Bluetooth unavailable';
+
+  @override
+  String get nearby_bluetooth_off_broadcast =>
+      'Turn on Bluetooth to be discoverable.';
+
+  @override
+  String get nearby_bluetooth_off_scan =>
+      'Turn on Bluetooth to discover nearby users.';
+
+  @override
+  String get nearby_permission_required => 'Bluetooth permission required';
+
+  @override
+  String get nearby_permission_body_broadcast =>
+      'Allow Bluetooth access in Settings to be discoverable.';
+
+  @override
+  String get nearby_permission_body_scan =>
+      'Allow Bluetooth access in Settings to discover nearby users.';
+
+  @override
+  String get nearby_action_open_settings => 'Open Settings';
+
+  @override
+  String get nearby_discoverable =>
+      'You are discoverable to\nnearby Bringin users';
+
+  @override
+  String get nearby_checking_permissions => 'Checking permissions...';
+
+  @override
+  String get nearby_status_permission_required =>
+      'Bluetooth permission is required';
+
+  @override
+  String get nearby_status_bluetooth_off => 'Bluetooth is turned off';
+
+  @override
+  String get nearby_status_start_failed => 'Could not start Bluetooth';
+
+  @override
+  String get nearby_action_stop => 'Stop';
+
+  @override
+  String get nearby_action_stop_scanning => 'Stop scanning';
+
+  @override
+  String get nearby_pay_title => 'Pay nearby';
+
+  @override
+  String nearby_found_count(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Found $count people',
+      one: 'Found 1 person',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get nearby_scanning => 'Scanning...';
+
+  @override
+  String get nearby_searching => 'Searching for nearby users...';
+
+  @override
+  String get nearby_stopped_title => 'Stopped searching';
+
+  @override
+  String get nearby_stopped_body =>
+      'We paused scanning to save battery. Tap below to keep looking for nearby users.';
+
+  @override
+  String get nearby_action_keep_searching => 'Keep searching';
+
+  @override
+  String get nearby_empty_title => 'No one nearby';
+
+  @override
+  String get nearby_empty_body =>
+      'Ask them to open Bringin and tap \"Get paid\".';
+
+  @override
+  String get nearby_people_nearby => 'People nearby';
+
+  @override
+  String nearby_error_resolve_address(String name) {
+    return 'Could not connect to $name\'s Lightning address';
+  }
+
+  @override
+  String get nearby_user_unknown => 'Unknown';
 }
