@@ -7237,4 +7237,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get nearby_user_unknown => 'Unknown';
+
+  @override
+  String get nearby_starting => 'Starting...';
 }

@@ -4149,5 +4149,9 @@
   "nearby_user_unknown": "Unknown",
   "@nearby_user_unknown": {
     "description": "Fallback display name for a discovered nearby user with no name. Deliberately separate from send_fee_unknown despite the identical English: one names a person, the other an unknown fee, and those can decline differently."
+  },
+  "nearby_starting": "Starting...",
+  "@nearby_starting": {
+    "description": "Transient status chip while Bluetooth advertising is being started."
   }
 }

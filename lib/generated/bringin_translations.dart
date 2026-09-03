@@ -12515,6 +12515,12 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Unknown'**
   String get nearby_user_unknown;
+
+  /// Transient status chip while Bluetooth advertising is being started.
+  ///
+  /// In en, this message translates to:
+  /// **'Starting...'**
+  String get nearby_starting;
 }
 
 class _BringinTranslationsDelegate
