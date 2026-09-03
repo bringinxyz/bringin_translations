@@ -6543,4 +6543,221 @@ class BringinTranslationsEn extends BringinTranslations {
   String send_euros_error_exceeds_limits(String limit) {
     return 'You seem to exceed the transfer limits of €$limit. Expand the limits in Profile.';
   }
+
+  @override
+  String get api_error_empty_response =>
+      'Server returned an empty response. Please try again.';
+
+  @override
+  String get api_error_missing_fields =>
+      'Server response is missing required information. Please try again.';
+
+  @override
+  String get api_error_process_response =>
+      'Failed to process server response. Please try again.';
+
+  @override
+  String get api_error_rate_limited =>
+      'Too many requests. Please try again after some time.';
+
+  @override
+  String get api_error_phone_invalid => 'Please enter a valid phone number';
+
+  @override
+  String get api_error_password_reset_daily_limit =>
+      'You\'ve hit the daily limit for password-reset attempts.';
+
+  @override
+  String get api_error_verify_start =>
+      'Unable to start the verification step. Please try again.';
+
+  @override
+  String get api_error_verify_complete =>
+      'Unable to complete verification. Please try again.';
+
+  @override
+  String get api_error_confirm_code =>
+      'Unable to confirm verification code. Please try again.';
+
+  @override
+  String get api_error_approval_expired =>
+      'That approval expired. Start again below.';
+
+  @override
+  String get api_error_send_new_code => 'Couldn\'t send a new code. Try again.';
+
+  @override
+  String get api_error_totp_start =>
+      'Unable to start authenticator setup. Please try again later.';
+
+  @override
+  String get api_error_totp_finish =>
+      'Unable to finish authenticator setup. Please try again later.';
+
+  @override
+  String get api_error_totp_already_registered =>
+      'This account already has an authenticator registered. It has to be reset before a new one can be added.';
+
+  @override
+  String get api_error_passkey_start =>
+      'Unable to start passkey setup. Please try again later.';
+
+  @override
+  String get api_error_passkey_finish =>
+      'Unable to finish passkey setup. Please try again later.';
+
+  @override
+  String get api_error_passkey_list =>
+      'Unable to load your passkeys. Please try again later.';
+
+  @override
+  String get api_error_passkey_remove =>
+      'Unable to remove passkey. Please try again later.';
+
+  @override
+  String get api_error_create_order =>
+      'Unable to create off-ramp or on-ramp order. Please try again later.';
+
+  @override
+  String get api_error_cancel_order =>
+      'Couldn\'t cancel the previous order. Try again.';
+
+  @override
+  String get api_error_confirm_swap =>
+      'Unable to confirm the swap at this time. Please try again later.';
+
+  @override
+  String get api_error_order_status =>
+      'Unable to fetch order status. Please try again.';
+
+  @override
+  String get api_error_offramp_address =>
+      'Unable to get offramp address. Please try again.';
+
+  @override
+  String get api_error_resume_withdrawal =>
+      'Unable to resume the withdrawal at this time.';
+
+  @override
+  String get api_error_confirm_trust =>
+      'Unable to confirm trust. Please try again later.';
+
+  @override
+  String get api_error_subscription_start =>
+      'Unable to start the subscription payment at this time. Please try again later.';
+
+  @override
+  String get api_error_card_deposit_address =>
+      'Unable to get card deposit address. Please try again.';
+
+  @override
+  String get api_error_card_ln_address =>
+      'Unable to get card Lightning address. Please try again.';
+
+  @override
+  String get api_error_card_ln_send_start =>
+      'Unable to start Lightning send. Please try again.';
+
+  @override
+  String get api_error_card_invalid_invoice =>
+      'Invalid Lightning invoice. Please check the recipient and try again.';
+
+  @override
+  String get api_error_card_sell =>
+      'Unable to sell from card balance. Please try again.';
+
+  @override
+  String get api_error_card_set_pin =>
+      'Unable to set the card PIN at this time. Please try again later.';
+
+  @override
+  String get api_error_card_report_missing =>
+      'Unable to report the card as missing at this time. Please try again later.';
+
+  @override
+  String get api_error_connection_name_exists =>
+      'A connection with this name exists.';
+
+  @override
+  String get api_error_breez_already_linked =>
+      'A Breez wallet is already linked. Use rotate to change it.';
+
+  @override
+  String get api_error_breez_not_linked => 'No Breez wallet linked yet.';
+
+  @override
+  String get api_error_breez_relay_format =>
+      'Invalid Breez relay address format.';
+
+  @override
+  String get lnurl_error_address_format => 'Invalid lightning address format';
+
+  @override
+  String get lnurl_error_input_format =>
+      'Invalid LNURL: expected user@domain or lnurl...';
+
+  @override
+  String get lnurl_error_empty_payment_request =>
+      'Received empty payment request';
+
+  @override
+  String get wallet_error_liquid_init =>
+      'Liquid SDK initialization failed. Please restart the app.';
+
+  @override
+  String get wallet_error_liquid_generic =>
+      'Liquid SDK error. Please restart the app.';
+
+  @override
+  String get wallet_error_spark_sync_timeout => 'Spark sync timed out';
+
+  @override
+  String get wallet_error_restore_mnemonics => 'Failed to restore mnemonics.';
+
+  @override
+  String get wallet_migration_no_funds => 'No funds to migrate';
+
+  @override
+  String get wallet_migration_timeout =>
+      'Migration timed out. Please check payment status.';
+
+  @override
+  String get wallet_migration_cancelled => 'Migration cancelled';
+
+  @override
+  String get wallet_migration_payment_refunded => 'Payment was refunded';
+
+  @override
+  String get wallet_migration_payment_needs_fee =>
+      'Payment requires fee acceptance';
+
+  @override
+  String get wallet_error_insufficient_budget =>
+      'Insufficient budget for this transaction';
+
+  @override
+  String get security_error_pin_not_found =>
+      'PIN not found in secure storage. Disabling PIN.';
+
+  @override
+  String get app_error_get_version => 'Failed to get app version';
+
+  @override
+  String get nearby_error_broadcast_start =>
+      'Failed to start Bluetooth broadcasting';
+
+  @override
+  String get nearby_error_scan_start => 'Failed to start Bluetooth scanning';
+
+  @override
+  String get nearby_error_permission_android_both =>
+      'Bluetooth and Location permission are required on this Android version to discover nearby users. Go to Settings → Bringin to enable them.';
+
+  @override
+  String get nearby_error_permission_denied =>
+      'Bluetooth permission was denied. Go to Settings → Bringin to enable it.';
+
+  @override
+  String get nearby_error_permission_denied_bluetooth =>
+      'Bluetooth permission was denied. Go to Settings → Bringin → Bluetooth to enable it.';
 }

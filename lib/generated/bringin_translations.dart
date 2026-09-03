@@ -11393,6 +11393,348 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'You seem to exceed the transfer limits of €{limit}. Expand the limits in Profile.'**
   String send_euros_error_exceeds_limits(String limit);
+
+  /// Error when the backend returned no body at all.
+  ///
+  /// In en, this message translates to:
+  /// **'Server returned an empty response. Please try again.'**
+  String get api_error_empty_response;
+
+  /// Error when the backend response is missing a field the app needs.
+  ///
+  /// In en, this message translates to:
+  /// **'Server response is missing required information. Please try again.'**
+  String get api_error_missing_fields;
+
+  /// Error when the backend response could not be parsed.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to process server response. Please try again.'**
+  String get api_error_process_response;
+
+  /// Error when the backend rate-limits the client.
+  ///
+  /// In en, this message translates to:
+  /// **'Too many requests. Please try again after some time.'**
+  String get api_error_rate_limited;
+
+  /// Client-side validation before the phone-verification request is sent.
+  ///
+  /// In en, this message translates to:
+  /// **'Please enter a valid phone number'**
+  String get api_error_phone_invalid;
+
+  /// Error when the password-reset endpoint refuses further attempts today.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve hit the daily limit for password-reset attempts.'**
+  String get api_error_password_reset_daily_limit;
+
+  /// Error when starting an SCA challenge fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to start the verification step. Please try again.'**
+  String get api_error_verify_start;
+
+  /// Error when confirming an SCA challenge fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to complete verification. Please try again.'**
+  String get api_error_verify_complete;
+
+  /// Error when submitting a verification code fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to confirm verification code. Please try again.'**
+  String get api_error_confirm_code;
+
+  /// Error when the SCA challenge expired before it was confirmed.
+  ///
+  /// In en, this message translates to:
+  /// **'That approval expired. Start again below.'**
+  String get api_error_approval_expired;
+
+  /// Error when the resend-code request fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t send a new code. Try again.'**
+  String get api_error_send_new_code;
+
+  /// Error when authenticator enrolment cannot be started.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to start authenticator setup. Please try again later.'**
+  String get api_error_totp_start;
+
+  /// Error when authenticator enrolment cannot be completed.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to finish authenticator setup. Please try again later.'**
+  String get api_error_totp_finish;
+
+  /// Error when the account already holds an authenticator that cannot be replaced from the app.
+  ///
+  /// In en, this message translates to:
+  /// **'This account already has an authenticator registered. It has to be reset before a new one can be added.'**
+  String get api_error_totp_already_registered;
+
+  /// Error when passkey registration cannot be started.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to start passkey setup. Please try again later.'**
+  String get api_error_passkey_start;
+
+  /// Error when passkey registration cannot be completed.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to finish passkey setup. Please try again later.'**
+  String get api_error_passkey_finish;
+
+  /// Error when the enrolled-passkey list cannot be fetched.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to load your passkeys. Please try again later.'**
+  String get api_error_passkey_list;
+
+  /// Error when removing a passkey fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to remove passkey. Please try again later.'**
+  String get api_error_passkey_remove;
+
+  /// Error when an exchange order cannot be created.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to create off-ramp or on-ramp order. Please try again later.'**
+  String get api_error_create_order;
+
+  /// Error when superseding an order fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t cancel the previous order. Try again.'**
+  String get api_error_cancel_order;
+
+  /// Error when confirming an exchange swap fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to confirm the swap at this time. Please try again later.'**
+  String get api_error_confirm_swap;
+
+  /// Error when the order-status lookup fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to fetch order status. Please try again.'**
+  String get api_error_order_status;
+
+  /// Error when the payout address for a sell cannot be fetched.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to get offramp address. Please try again.'**
+  String get api_error_offramp_address;
+
+  /// Error when a pending withdrawal cannot be resumed.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to resume the withdrawal at this time.'**
+  String get api_error_resume_withdrawal;
+
+  /// Error when confirming a beneficiary as trusted fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to confirm trust. Please try again later.'**
+  String get api_error_confirm_trust;
+
+  /// Error when the Pro subscription payment cannot be started.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to start the subscription payment at this time. Please try again later.'**
+  String get api_error_subscription_start;
+
+  /// Error when the card's on-chain deposit address cannot be fetched.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to get card deposit address. Please try again.'**
+  String get api_error_card_deposit_address;
+
+  /// Error when the card's Lightning address cannot be fetched.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to get card Lightning address. Please try again.'**
+  String get api_error_card_ln_address;
+
+  /// Error when a Lightning send from the card balance cannot be started.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to start Lightning send. Please try again.'**
+  String get api_error_card_ln_send_start;
+
+  /// Error when the supplied BOLT11 invoice is rejected.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid Lightning invoice. Please check the recipient and try again.'**
+  String get api_error_card_invalid_invoice;
+
+  /// Error when selling from the card balance fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to sell from card balance. Please try again.'**
+  String get api_error_card_sell;
+
+  /// Error when setting the card PIN fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to set the card PIN at this time. Please try again later.'**
+  String get api_error_card_set_pin;
+
+  /// Error when reporting a card lost or stolen fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Unable to report the card as missing at this time. Please try again later.'**
+  String get api_error_card_report_missing;
+
+  /// Error when the chosen connection name is already taken.
+  ///
+  /// In en, this message translates to:
+  /// **'A connection with this name exists.'**
+  String get api_error_connection_name_exists;
+
+  /// Error when linking a Breez wallet that is already linked.
+  ///
+  /// In en, this message translates to:
+  /// **'A Breez wallet is already linked. Use rotate to change it.'**
+  String get api_error_breez_already_linked;
+
+  /// Error when an operation needs a linked Breez wallet and none exists.
+  ///
+  /// In en, this message translates to:
+  /// **'No Breez wallet linked yet.'**
+  String get api_error_breez_not_linked;
+
+  /// Error when the supplied Breez relay address does not parse.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid Breez relay address format.'**
+  String get api_error_breez_relay_format;
+
+  /// Error when the entered Lightning address is not user@domain.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid lightning address format'**
+  String get lnurl_error_address_format;
+
+  /// Error when the entered value is neither a Lightning address nor an LNURL.
+  ///
+  /// In en, this message translates to:
+  /// **'Invalid LNURL: expected user@domain or lnurl...'**
+  String get lnurl_error_input_format;
+
+  /// Error when the LNURL service returned no invoice.
+  ///
+  /// In en, this message translates to:
+  /// **'Received empty payment request'**
+  String get lnurl_error_empty_payment_request;
+
+  /// Error when the Liquid wallet SDK cannot start.
+  ///
+  /// In en, this message translates to:
+  /// **'Liquid SDK initialization failed. Please restart the app.'**
+  String get wallet_error_liquid_init;
+
+  /// Error when the Liquid wallet SDK fails during use.
+  ///
+  /// In en, this message translates to:
+  /// **'Liquid SDK error. Please restart the app.'**
+  String get wallet_error_liquid_generic;
+
+  /// Error when the Spark wallet did not finish syncing in time.
+  ///
+  /// In en, this message translates to:
+  /// **'Spark sync timed out'**
+  String get wallet_error_spark_sync_timeout;
+
+  /// Error when the recovery phrase could not be restored from storage.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to restore mnemonics.'**
+  String get wallet_error_restore_mnemonics;
+
+  /// Shown when a wallet migration is started on an empty wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'No funds to migrate'**
+  String get wallet_migration_no_funds;
+
+  /// Shown when the migration payment did not settle in time.
+  ///
+  /// In en, this message translates to:
+  /// **'Migration timed out. Please check payment status.'**
+  String get wallet_migration_timeout;
+
+  /// Shown when the user cancelled the wallet migration.
+  ///
+  /// In en, this message translates to:
+  /// **'Migration cancelled'**
+  String get wallet_migration_cancelled;
+
+  /// Shown when the migration payment came back as refunded.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment was refunded'**
+  String get wallet_migration_payment_refunded;
+
+  /// Shown when the migration payment is waiting for the user to accept a fee.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment requires fee acceptance'**
+  String get wallet_migration_payment_needs_fee;
+
+  /// Error when the connected wallet's spending budget cannot cover the payment.
+  ///
+  /// In en, this message translates to:
+  /// **'Insufficient budget for this transaction'**
+  String get wallet_error_insufficient_budget;
+
+  /// Shown when the stored PIN has vanished, so PIN lock turns itself off.
+  ///
+  /// In en, this message translates to:
+  /// **'PIN not found in secure storage. Disabling PIN.'**
+  String get security_error_pin_not_found;
+
+  /// Error when the app version lookup fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to get app version'**
+  String get app_error_get_version;
+
+  /// Error when the device could not begin advertising over Bluetooth.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to start Bluetooth broadcasting'**
+  String get nearby_error_broadcast_start;
+
+  /// Error when the device could not begin scanning over Bluetooth.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to start Bluetooth scanning'**
+  String get nearby_error_scan_start;
+
+  /// Error on Android versions that gate Bluetooth scanning behind Location as well.
+  ///
+  /// In en, this message translates to:
+  /// **'Bluetooth and Location permission are required on this Android version to discover nearby users. Go to Settings → Bringin to enable them.'**
+  String get nearby_error_permission_android_both;
+
+  /// Error when the user denied the Bluetooth permission.
+  ///
+  /// In en, this message translates to:
+  /// **'Bluetooth permission was denied. Go to Settings → Bringin to enable it.'**
+  String get nearby_error_permission_denied;
+
+  /// Error when the user denied the Bluetooth permission on a platform whose settings nest it under a Bluetooth entry.
+  ///
+  /// In en, this message translates to:
+  /// **'Bluetooth permission was denied. Go to Settings → Bringin → Bluetooth to enable it.'**
+  String get nearby_error_permission_denied_bluetooth;
 }
 
 class _BringinTranslationsDelegate

@@ -3358,5 +3358,233 @@
         "type": "String"
       }
     }
+  },
+  "api_error_empty_response": "Server returned an empty response. Please try again.",
+  "@api_error_empty_response": {
+    "description": "Error when the backend returned no body at all."
+  },
+  "api_error_missing_fields": "Server response is missing required information. Please try again.",
+  "@api_error_missing_fields": {
+    "description": "Error when the backend response is missing a field the app needs."
+  },
+  "api_error_process_response": "Failed to process server response. Please try again.",
+  "@api_error_process_response": {
+    "description": "Error when the backend response could not be parsed."
+  },
+  "api_error_rate_limited": "Too many requests. Please try again after some time.",
+  "@api_error_rate_limited": {
+    "description": "Error when the backend rate-limits the client."
+  },
+  "api_error_phone_invalid": "Please enter a valid phone number",
+  "@api_error_phone_invalid": {
+    "description": "Client-side validation before the phone-verification request is sent."
+  },
+  "api_error_password_reset_daily_limit": "You've hit the daily limit for password-reset attempts.",
+  "@api_error_password_reset_daily_limit": {
+    "description": "Error when the password-reset endpoint refuses further attempts today."
+  },
+  "api_error_verify_start": "Unable to start the verification step. Please try again.",
+  "@api_error_verify_start": {
+    "description": "Error when starting an SCA challenge fails."
+  },
+  "api_error_verify_complete": "Unable to complete verification. Please try again.",
+  "@api_error_verify_complete": {
+    "description": "Error when confirming an SCA challenge fails."
+  },
+  "api_error_confirm_code": "Unable to confirm verification code. Please try again.",
+  "@api_error_confirm_code": {
+    "description": "Error when submitting a verification code fails."
+  },
+  "api_error_approval_expired": "That approval expired. Start again below.",
+  "@api_error_approval_expired": {
+    "description": "Error when the SCA challenge expired before it was confirmed."
+  },
+  "api_error_send_new_code": "Couldn't send a new code. Try again.",
+  "@api_error_send_new_code": {
+    "description": "Error when the resend-code request fails."
+  },
+  "api_error_totp_start": "Unable to start authenticator setup. Please try again later.",
+  "@api_error_totp_start": {
+    "description": "Error when authenticator enrolment cannot be started."
+  },
+  "api_error_totp_finish": "Unable to finish authenticator setup. Please try again later.",
+  "@api_error_totp_finish": {
+    "description": "Error when authenticator enrolment cannot be completed."
+  },
+  "api_error_totp_already_registered": "This account already has an authenticator registered. It has to be reset before a new one can be added.",
+  "@api_error_totp_already_registered": {
+    "description": "Error when the account already holds an authenticator that cannot be replaced from the app."
+  },
+  "api_error_passkey_start": "Unable to start passkey setup. Please try again later.",
+  "@api_error_passkey_start": {
+    "description": "Error when passkey registration cannot be started."
+  },
+  "api_error_passkey_finish": "Unable to finish passkey setup. Please try again later.",
+  "@api_error_passkey_finish": {
+    "description": "Error when passkey registration cannot be completed."
+  },
+  "api_error_passkey_list": "Unable to load your passkeys. Please try again later.",
+  "@api_error_passkey_list": {
+    "description": "Error when the enrolled-passkey list cannot be fetched."
+  },
+  "api_error_passkey_remove": "Unable to remove passkey. Please try again later.",
+  "@api_error_passkey_remove": {
+    "description": "Error when removing a passkey fails."
+  },
+  "api_error_create_order": "Unable to create off-ramp or on-ramp order. Please try again later.",
+  "@api_error_create_order": {
+    "description": "Error when an exchange order cannot be created."
+  },
+  "api_error_cancel_order": "Couldn't cancel the previous order. Try again.",
+  "@api_error_cancel_order": {
+    "description": "Error when superseding an order fails."
+  },
+  "api_error_confirm_swap": "Unable to confirm the swap at this time. Please try again later.",
+  "@api_error_confirm_swap": {
+    "description": "Error when confirming an exchange swap fails."
+  },
+  "api_error_order_status": "Unable to fetch order status. Please try again.",
+  "@api_error_order_status": {
+    "description": "Error when the order-status lookup fails."
+  },
+  "api_error_offramp_address": "Unable to get offramp address. Please try again.",
+  "@api_error_offramp_address": {
+    "description": "Error when the payout address for a sell cannot be fetched."
+  },
+  "api_error_resume_withdrawal": "Unable to resume the withdrawal at this time.",
+  "@api_error_resume_withdrawal": {
+    "description": "Error when a pending withdrawal cannot be resumed."
+  },
+  "api_error_confirm_trust": "Unable to confirm trust. Please try again later.",
+  "@api_error_confirm_trust": {
+    "description": "Error when confirming a beneficiary as trusted fails."
+  },
+  "api_error_subscription_start": "Unable to start the subscription payment at this time. Please try again later.",
+  "@api_error_subscription_start": {
+    "description": "Error when the Pro subscription payment cannot be started."
+  },
+  "api_error_card_deposit_address": "Unable to get card deposit address. Please try again.",
+  "@api_error_card_deposit_address": {
+    "description": "Error when the card's on-chain deposit address cannot be fetched."
+  },
+  "api_error_card_ln_address": "Unable to get card Lightning address. Please try again.",
+  "@api_error_card_ln_address": {
+    "description": "Error when the card's Lightning address cannot be fetched."
+  },
+  "api_error_card_ln_send_start": "Unable to start Lightning send. Please try again.",
+  "@api_error_card_ln_send_start": {
+    "description": "Error when a Lightning send from the card balance cannot be started."
+  },
+  "api_error_card_invalid_invoice": "Invalid Lightning invoice. Please check the recipient and try again.",
+  "@api_error_card_invalid_invoice": {
+    "description": "Error when the supplied BOLT11 invoice is rejected."
+  },
+  "api_error_card_sell": "Unable to sell from card balance. Please try again.",
+  "@api_error_card_sell": {
+    "description": "Error when selling from the card balance fails."
+  },
+  "api_error_card_set_pin": "Unable to set the card PIN at this time. Please try again later.",
+  "@api_error_card_set_pin": {
+    "description": "Error when setting the card PIN fails."
+  },
+  "api_error_card_report_missing": "Unable to report the card as missing at this time. Please try again later.",
+  "@api_error_card_report_missing": {
+    "description": "Error when reporting a card lost or stolen fails."
+  },
+  "api_error_connection_name_exists": "A connection with this name exists.",
+  "@api_error_connection_name_exists": {
+    "description": "Error when the chosen connection name is already taken."
+  },
+  "api_error_breez_already_linked": "A Breez wallet is already linked. Use rotate to change it.",
+  "@api_error_breez_already_linked": {
+    "description": "Error when linking a Breez wallet that is already linked."
+  },
+  "api_error_breez_not_linked": "No Breez wallet linked yet.",
+  "@api_error_breez_not_linked": {
+    "description": "Error when an operation needs a linked Breez wallet and none exists."
+  },
+  "api_error_breez_relay_format": "Invalid Breez relay address format.",
+  "@api_error_breez_relay_format": {
+    "description": "Error when the supplied Breez relay address does not parse."
+  },
+  "lnurl_error_address_format": "Invalid lightning address format",
+  "@lnurl_error_address_format": {
+    "description": "Error when the entered Lightning address is not user@domain."
+  },
+  "lnurl_error_input_format": "Invalid LNURL: expected user@domain or lnurl...",
+  "@lnurl_error_input_format": {
+    "description": "Error when the entered value is neither a Lightning address nor an LNURL."
+  },
+  "lnurl_error_empty_payment_request": "Received empty payment request",
+  "@lnurl_error_empty_payment_request": {
+    "description": "Error when the LNURL service returned no invoice."
+  },
+  "wallet_error_liquid_init": "Liquid SDK initialization failed. Please restart the app.",
+  "@wallet_error_liquid_init": {
+    "description": "Error when the Liquid wallet SDK cannot start."
+  },
+  "wallet_error_liquid_generic": "Liquid SDK error. Please restart the app.",
+  "@wallet_error_liquid_generic": {
+    "description": "Error when the Liquid wallet SDK fails during use."
+  },
+  "wallet_error_spark_sync_timeout": "Spark sync timed out",
+  "@wallet_error_spark_sync_timeout": {
+    "description": "Error when the Spark wallet did not finish syncing in time."
+  },
+  "wallet_error_restore_mnemonics": "Failed to restore mnemonics.",
+  "@wallet_error_restore_mnemonics": {
+    "description": "Error when the recovery phrase could not be restored from storage."
+  },
+  "wallet_migration_no_funds": "No funds to migrate",
+  "@wallet_migration_no_funds": {
+    "description": "Shown when a wallet migration is started on an empty wallet."
+  },
+  "wallet_migration_timeout": "Migration timed out. Please check payment status.",
+  "@wallet_migration_timeout": {
+    "description": "Shown when the migration payment did not settle in time."
+  },
+  "wallet_migration_cancelled": "Migration cancelled",
+  "@wallet_migration_cancelled": {
+    "description": "Shown when the user cancelled the wallet migration."
+  },
+  "wallet_migration_payment_refunded": "Payment was refunded",
+  "@wallet_migration_payment_refunded": {
+    "description": "Shown when the migration payment came back as refunded."
+  },
+  "wallet_migration_payment_needs_fee": "Payment requires fee acceptance",
+  "@wallet_migration_payment_needs_fee": {
+    "description": "Shown when the migration payment is waiting for the user to accept a fee."
+  },
+  "wallet_error_insufficient_budget": "Insufficient budget for this transaction",
+  "@wallet_error_insufficient_budget": {
+    "description": "Error when the connected wallet's spending budget cannot cover the payment."
+  },
+  "security_error_pin_not_found": "PIN not found in secure storage. Disabling PIN.",
+  "@security_error_pin_not_found": {
+    "description": "Shown when the stored PIN has vanished, so PIN lock turns itself off."
+  },
+  "app_error_get_version": "Failed to get app version",
+  "@app_error_get_version": {
+    "description": "Error when the app version lookup fails."
+  },
+  "nearby_error_broadcast_start": "Failed to start Bluetooth broadcasting",
+  "@nearby_error_broadcast_start": {
+    "description": "Error when the device could not begin advertising over Bluetooth."
+  },
+  "nearby_error_scan_start": "Failed to start Bluetooth scanning",
+  "@nearby_error_scan_start": {
+    "description": "Error when the device could not begin scanning over Bluetooth."
+  },
+  "nearby_error_permission_android_both": "Bluetooth and Location permission are required on this Android version to discover nearby users. Go to Settings → Bringin to enable them.",
+  "@nearby_error_permission_android_both": {
+    "description": "Error on Android versions that gate Bluetooth scanning behind Location as well."
+  },
+  "nearby_error_permission_denied": "Bluetooth permission was denied. Go to Settings → Bringin to enable it.",
+  "@nearby_error_permission_denied": {
+    "description": "Error when the user denied the Bluetooth permission."
+  },
+  "nearby_error_permission_denied_bluetooth": "Bluetooth permission was denied. Go to Settings → Bringin → Bluetooth to enable it.",
+  "@nearby_error_permission_denied_bluetooth": {
+    "description": "Error when the user denied the Bluetooth permission on a platform whose settings nest it under a Bluetooth entry."
   }
 }
