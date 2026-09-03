@@ -11213,6 +11213,186 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Confirm where this Bitcoin came from to skip the compliance hold.'**
   String get declaration_banner_skip_hold;
+
+  /// Label of the BIC field on the add/edit-beneficiary form. BIC stays untranslated.
+  ///
+  /// In en, this message translates to:
+  /// **'Add the BIC'**
+  String get beneficiary_field_bic;
+
+  /// Validation error on the BIC field.
+  ///
+  /// In en, this message translates to:
+  /// **'BIC can\'t be empty'**
+  String get beneficiary_error_bic_empty;
+
+  /// Validation error when the BIC fails its format check.
+  ///
+  /// In en, this message translates to:
+  /// **'This BIC is not valid'**
+  String get beneficiary_error_bic_invalid;
+
+  /// Label of the IBAN field on the add/edit-beneficiary form. IBAN stays untranslated.
+  ///
+  /// In en, this message translates to:
+  /// **'Add IBAN'**
+  String get beneficiary_field_iban;
+
+  /// Validation error on the IBAN field.
+  ///
+  /// In en, this message translates to:
+  /// **'IBAN can\'t be empty'**
+  String get beneficiary_error_iban_empty;
+
+  /// Validation error when the IBAN fails its checksum.
+  ///
+  /// In en, this message translates to:
+  /// **'This IBAN is not valid'**
+  String get beneficiary_error_iban_invalid;
+
+  /// Label of the nickname field on the add/edit-beneficiary form.
+  ///
+  /// In en, this message translates to:
+  /// **'Beneficiary label'**
+  String get beneficiary_field_label;
+
+  /// Hint text of the beneficiary label field.
+  ///
+  /// In en, this message translates to:
+  /// **'Add a label for this bank'**
+  String get beneficiary_field_label_hint;
+
+  /// Validation error on the beneficiary label field.
+  ///
+  /// In en, this message translates to:
+  /// **'Label can\'t be empty'**
+  String get beneficiary_error_label_empty;
+
+  /// Validation error when the beneficiary label fails its format check.
+  ///
+  /// In en, this message translates to:
+  /// **'This label is not valid'**
+  String get beneficiary_error_label_invalid;
+
+  /// Primary button on the add-beneficiary form.
+  ///
+  /// In en, this message translates to:
+  /// **'Add beneficiary'**
+  String get beneficiary_action_add;
+
+  /// Title of the sheet shown when the entered IBAN is already a saved beneficiary.
+  ///
+  /// In en, this message translates to:
+  /// **'IBAN already saved'**
+  String get beneficiary_iban_exists_title;
+
+  /// Body of the IBAN-already-saved sheet. {name} is the existing beneficiary's label.
+  ///
+  /// In en, this message translates to:
+  /// **'This IBAN is already saved as \"{name}\". Edit that beneficiary if you\'d like to rename it.'**
+  String beneficiary_iban_exists_body(String name);
+
+  /// Title of the delete-beneficiary confirmation dialog.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete beneficiary'**
+  String get beneficiary_delete_title;
+
+  /// Body of the delete-beneficiary confirmation dialog.
+  ///
+  /// In en, this message translates to:
+  /// **'Delete this beneficiary? You can add them again later.'**
+  String get beneficiary_delete_body;
+
+  /// Toast after a beneficiary was deleted.
+  ///
+  /// In en, this message translates to:
+  /// **'Beneficiary removed'**
+  String get beneficiary_removed_toast;
+
+  /// Toast after a beneficiary's details were saved.
+  ///
+  /// In en, this message translates to:
+  /// **'Beneficiary updated'**
+  String get beneficiary_updated_toast;
+
+  /// Heading of the edit-beneficiary page.
+  ///
+  /// In en, this message translates to:
+  /// **'Edit beneficiary details'**
+  String get beneficiary_edit_title;
+
+  /// Notice at the top of the send-euros flow.
+  ///
+  /// In en, this message translates to:
+  /// **'Send to a bank account in your name. We do not support third party payments.'**
+  String get send_euros_notice;
+
+  /// Heading of the recipient step of the send-euros flow.
+  ///
+  /// In en, this message translates to:
+  /// **'Select or add a beneficiary'**
+  String get send_euros_select_beneficiary;
+
+  /// Shown when the beneficiary list could not be fetched.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to load beneficiaries'**
+  String get send_euros_error_load_beneficiaries;
+
+  /// Empty state of the beneficiary list.
+  ///
+  /// In en, this message translates to:
+  /// **'No beneficiaries added yet.'**
+  String get send_euros_empty_beneficiaries;
+
+  /// Validation error on the reference field of the send-euros flow.
+  ///
+  /// In en, this message translates to:
+  /// **'Label must be within 5-15 characters'**
+  String get send_euros_error_label_length;
+
+  /// Validation error when the send-euros reference contains punctuation the bank rail rejects.
+  ///
+  /// In en, this message translates to:
+  /// **'Label must contain only alphanumeric characters'**
+  String get send_euros_error_label_alphanumeric;
+
+  /// Label of the amount the user is debited in the send-euros summary.
+  ///
+  /// In en, this message translates to:
+  /// **'You send'**
+  String get send_euros_label_you_send;
+
+  /// Heading of the verification step of the send-euros flow.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify Euro transfer'**
+  String get send_euros_verify_title;
+
+  /// Primary button of the send-euros passkey ceremony.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify and send'**
+  String get send_euros_action_verify_and_send;
+
+  /// Heading shown when the euro transfer failed.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction failed'**
+  String get send_euros_failure_title;
+
+  /// Validation error when the amount is under the minimum. {amount} is a pre-formatted euro amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Minimum withdrawal amount is {amount}'**
+  String send_euros_error_min_amount(String amount);
+
+  /// Alert when the amount is over the user's KYC transfer limit. {limit} is a pre-formatted number.
+  ///
+  /// In en, this message translates to:
+  /// **'You seem to exceed the transfer limits of €{limit}. Expand the limits in Profile.'**
+  String send_euros_error_exceeds_limits(String limit);
 }
 
 class _BringinTranslationsDelegate

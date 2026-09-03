@@ -6442,4 +6442,105 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get declaration_banner_skip_hold =>
       'Confirm where this Bitcoin came from to skip the compliance hold.';
+
+  @override
+  String get beneficiary_field_bic => 'Add the BIC';
+
+  @override
+  String get beneficiary_error_bic_empty => 'BIC can\'t be empty';
+
+  @override
+  String get beneficiary_error_bic_invalid => 'This BIC is not valid';
+
+  @override
+  String get beneficiary_field_iban => 'Add IBAN';
+
+  @override
+  String get beneficiary_error_iban_empty => 'IBAN can\'t be empty';
+
+  @override
+  String get beneficiary_error_iban_invalid => 'This IBAN is not valid';
+
+  @override
+  String get beneficiary_field_label => 'Beneficiary label';
+
+  @override
+  String get beneficiary_field_label_hint => 'Add a label for this bank';
+
+  @override
+  String get beneficiary_error_label_empty => 'Label can\'t be empty';
+
+  @override
+  String get beneficiary_error_label_invalid => 'This label is not valid';
+
+  @override
+  String get beneficiary_action_add => 'Add beneficiary';
+
+  @override
+  String get beneficiary_iban_exists_title => 'IBAN already saved';
+
+  @override
+  String beneficiary_iban_exists_body(String name) {
+    return 'This IBAN is already saved as \"$name\". Edit that beneficiary if you\'d like to rename it.';
+  }
+
+  @override
+  String get beneficiary_delete_title => 'Delete beneficiary';
+
+  @override
+  String get beneficiary_delete_body =>
+      'Delete this beneficiary? You can add them again later.';
+
+  @override
+  String get beneficiary_removed_toast => 'Beneficiary removed';
+
+  @override
+  String get beneficiary_updated_toast => 'Beneficiary updated';
+
+  @override
+  String get beneficiary_edit_title => 'Edit beneficiary details';
+
+  @override
+  String get send_euros_notice =>
+      'Send to a bank account in your name. We do not support third party payments.';
+
+  @override
+  String get send_euros_select_beneficiary => 'Select or add a beneficiary';
+
+  @override
+  String get send_euros_error_load_beneficiaries =>
+      'Failed to load beneficiaries';
+
+  @override
+  String get send_euros_empty_beneficiaries => 'No beneficiaries added yet.';
+
+  @override
+  String get send_euros_error_label_length =>
+      'Label must be within 5-15 characters';
+
+  @override
+  String get send_euros_error_label_alphanumeric =>
+      'Label must contain only alphanumeric characters';
+
+  @override
+  String get send_euros_label_you_send => 'You send';
+
+  @override
+  String get send_euros_verify_title => 'Verify Euro transfer';
+
+  @override
+  String get send_euros_action_verify_and_send => 'Verify and send';
+
+  @override
+  String get send_euros_failure_title => 'Transaction failed';
+
+  @override
+  String send_euros_error_min_amount(String amount) {
+    return 'Minimum withdrawal amount is $amount';
+  }
+
+  @override
+  String send_euros_error_exceeds_limits(String limit) {
+    return 'You seem to exceed the transfer limits of €$limit. Expand the limits in Profile.';
+  }
 }
