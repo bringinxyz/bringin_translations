@@ -82,6 +82,9 @@ class BringinTranslationsEn extends BringinTranslations {
   String get bringin_type_ln_address_deposit => 'Lightning Deposit';
 
   @override
+  String get bringin_type_crypto_deposit => 'Bitcoin received';
+
+  @override
   String get bringin_type_swap_currency => 'Bitcoin To Euro Swap';
 
   @override
