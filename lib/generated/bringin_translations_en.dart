@@ -4128,6 +4128,16 @@ class BringinTranslationsEn extends BringinTranslations {
   String get profile_row_security => 'Login & security';
 
   @override
+  String get profile_row_phone_number => 'Phone number';
+
+  @override
+  String get phone_change_intro =>
+      'We\'ll verify your identity first, then you can enter your new number. It usually takes a couple of minutes.';
+
+  @override
+  String get phone_change_cta => 'Change phone number';
+
+  @override
   String get profile_row_feedback => 'Feedbacks';
 
   @override

@@ -7145,6 +7145,24 @@ abstract class BringinTranslations {
   /// **'Login & security'**
   String get profile_row_security;
 
+  /// No description provided for @profile_row_phone_number.
+  ///
+  /// In en, this message translates to:
+  /// **'Phone number'**
+  String get profile_row_phone_number;
+
+  /// No description provided for @phone_change_intro.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'ll verify your identity first, then you can enter your new number. It usually takes a couple of minutes.'**
+  String get phone_change_intro;
+
+  /// No description provided for @phone_change_cta.
+  ///
+  /// In en, this message translates to:
+  /// **'Change phone number'**
+  String get phone_change_cta;
+
   /// No description provided for @profile_row_feedback.
   ///
   /// In en, this message translates to:
