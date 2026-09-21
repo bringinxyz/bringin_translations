@@ -863,6 +863,18 @@ abstract class BringinTranslations {
   /// **'Retry'**
   String get home_accounts_balance_retry;
 
+  /// No description provided for @home_accounts_sca_session_expired.
+  ///
+  /// In en, this message translates to:
+  /// **'Your secure session expired. Verify again to update your balance.'**
+  String get home_accounts_sca_session_expired;
+
+  /// No description provided for @home_accounts_sca_session_verify.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify'**
+  String get home_accounts_sca_session_verify;
+
   /// No description provided for @home_accounts_transactions_in_progress.
   ///
   /// In en, this message translates to:

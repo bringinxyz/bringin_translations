@@ -446,6 +446,13 @@ class BringinTranslationsEn extends BringinTranslations {
   String get home_accounts_balance_retry => 'Retry';
 
   @override
+  String get home_accounts_sca_session_expired =>
+      'Your secure session expired. Verify again to update your balance.';
+
+  @override
+  String get home_accounts_sca_session_verify => 'Verify';
+
+  @override
   String home_accounts_transactions_in_progress(int count) {
     String _temp0 = intl.Intl.pluralLogic(
       count,

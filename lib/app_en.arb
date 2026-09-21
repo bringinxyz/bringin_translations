@@ -240,6 +240,8 @@
   "home_accounts_balance_update_failed": "We couldn't update your balance. The amount shown may not be current.",
   "home_accounts_balance_fetch_failed": "We couldn't fetch your balance.",
   "home_accounts_balance_retry": "Retry",
+  "home_accounts_sca_session_expired": "Your secure session expired. Verify again to update your balance.",
+  "home_accounts_sca_session_verify": "Verify",
   "home_accounts_transactions_in_progress": "{count, plural, =1{1 transaction in progress} other{{count} transactions in progress}}",
   "@home_accounts_transactions_in_progress": {
     "placeholders": {
