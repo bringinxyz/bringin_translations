@@ -13223,6 +13223,222 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Waiting for payment confirmation...'**
   String get migration_step_awaiting_confirmation;
+
+  /// Home banner inviting the user to upgrade their Euro account to a Payment Account (third-party payments).
+  ///
+  /// In en, this message translates to:
+  /// **'Receive money from anyone'**
+  String get payment_account_prompt_title;
+
+  /// No description provided for @payment_account_prompt_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Upgrade your Euro account to a payment account to accept transfers from other people and pay third parties. Same IBAN, same balance.'**
+  String get payment_account_prompt_body;
+
+  /// No description provided for @payment_account_consent_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Upgrade your Euro account'**
+  String get payment_account_consent_title;
+
+  /// No description provided for @payment_account_consent_intro.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Euro account becomes a payment account. Your IBAN and balance stay exactly the same. Here\'s what changes:'**
+  String get payment_account_consent_intro;
+
+  /// No description provided for @payment_account_benefit_receive_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Receive euros from anyone'**
+  String get payment_account_benefit_receive_title;
+
+  /// No description provided for @payment_account_benefit_receive_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Customers, employers, friends. Transfers no longer have to come from an account in your name.'**
+  String get payment_account_benefit_receive_body;
+
+  /// No description provided for @payment_account_benefit_pay_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay other people and companies'**
+  String get payment_account_benefit_pay_title;
+
+  /// No description provided for @payment_account_benefit_pay_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Send euros to any IBAN. You tell us who the account holder is.'**
+  String get payment_account_benefit_pay_body;
+
+  /// No description provided for @payment_account_benefit_checks_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Some payments are checked'**
+  String get payment_account_benefit_checks_title;
+
+  /// No description provided for @payment_account_benefit_checks_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Payments to or from other people can be held briefly for a compliance check. We\'ll let you know.'**
+  String get payment_account_benefit_checks_body;
+
+  /// No description provided for @payment_account_consent_agree_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'I have read and agree to the '**
+  String get payment_account_consent_agree_prefix;
+
+  /// No description provided for @payment_account_consent_terms_link.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment Account Terms'**
+  String get payment_account_consent_terms_link;
+
+  /// Follows the terms link in the consent checkbox. The version is the terms document version shown to the user.
+  ///
+  /// In en, this message translates to:
+  /// **' (version {version})'**
+  String payment_account_consent_agree_suffix(String version);
+
+  /// No description provided for @payment_account_consent_accept.
+  ///
+  /// In en, this message translates to:
+  /// **'Accept and upgrade'**
+  String get payment_account_consent_accept;
+
+  /// No description provided for @payment_account_upgraded_toast.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Euro account is now a payment account'**
+  String get payment_account_upgraded_toast;
+
+  /// No description provided for @profile_row_payment_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment account'**
+  String get profile_row_payment_account;
+
+  /// No description provided for @payment_account_page_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment account'**
+  String get payment_account_page_title;
+
+  /// No description provided for @payment_account_status_active.
+  ///
+  /// In en, this message translates to:
+  /// **'Active'**
+  String get payment_account_status_active;
+
+  /// No description provided for @payment_account_status_not_upgraded.
+  ///
+  /// In en, this message translates to:
+  /// **'Not upgraded'**
+  String get payment_account_status_not_upgraded;
+
+  /// No description provided for @payment_account_row_capabilities.
+  ///
+  /// In en, this message translates to:
+  /// **'What it lets you do'**
+  String get payment_account_row_capabilities;
+
+  /// No description provided for @payment_account_row_capabilities_value.
+  ///
+  /// In en, this message translates to:
+  /// **'Receive from anyone · Pay third parties'**
+  String get payment_account_row_capabilities_value;
+
+  /// No description provided for @payment_account_row_accepted_on.
+  ///
+  /// In en, this message translates to:
+  /// **'Accepted on'**
+  String get payment_account_row_accepted_on;
+
+  /// No description provided for @payment_account_row_terms_version.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms version'**
+  String get payment_account_row_terms_version;
+
+  /// No description provided for @payment_account_active_body.
+  ///
+  /// In en, this message translates to:
+  /// **'If you withdraw, your Euro account goes back to the standard rules: you can only send to and receive from accounts in your own name. Your IBAN and balance don\'t change.'**
+  String get payment_account_active_body;
+
+  /// No description provided for @payment_account_not_upgraded_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Your Euro account only accepts transfers to and from accounts in your own name. Upgrade it to a payment account to receive euros from anyone and pay other people and companies. Same IBAN, same balance.'**
+  String get payment_account_not_upgraded_body;
+
+  /// No description provided for @payment_account_upgrade_cta.
+  ///
+  /// In en, this message translates to:
+  /// **'Upgrade my Euro account'**
+  String get payment_account_upgrade_cta;
+
+  /// No description provided for @payment_account_withdraw_cta.
+  ///
+  /// In en, this message translates to:
+  /// **'Withdraw consent'**
+  String get payment_account_withdraw_cta;
+
+  /// No description provided for @payment_account_unavailable_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Payments to and from anyone aren\'t available yet. We\'ll let you know when they are.'**
+  String get payment_account_unavailable_body;
+
+  /// No description provided for @payment_account_load_error.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t load your payment account. Please try again.'**
+  String get payment_account_load_error;
+
+  /// No description provided for @payment_account_withdraw_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Withdraw consent?'**
+  String get payment_account_withdraw_title;
+
+  /// No description provided for @payment_account_withdraw_body.
+  ///
+  /// In en, this message translates to:
+  /// **'From now on, transfers from other people will be held for review instead of credited, and you will not be able to pay third-party recipients. Payments already in progress are not affected. You can upgrade again at any time.'**
+  String get payment_account_withdraw_body;
+
+  /// No description provided for @payment_account_withdraw_keep.
+  ///
+  /// In en, this message translates to:
+  /// **'Keep payment account'**
+  String get payment_account_withdraw_keep;
+
+  /// No description provided for @payment_account_withdraw_confirm.
+  ///
+  /// In en, this message translates to:
+  /// **'Withdraw'**
+  String get payment_account_withdraw_confirm;
+
+  /// No description provided for @exception_payment_account_unavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Payments to and from anyone aren\'t available yet. Please try again later.'**
+  String get exception_payment_account_unavailable;
+
+  /// No description provided for @exception_payment_account_check_failed.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t check your Payment Account terms right now. Please try again.'**
+  String get exception_payment_account_check_failed;
+
+  /// No description provided for @exception_payment_account_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t update your payment account. Please try again.'**
+  String get exception_payment_account_generic;
 }
 
 class _BringinTranslationsDelegate

@@ -7642,4 +7642,133 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get migration_step_awaiting_confirmation =>
       'Waiting for payment confirmation...';
+
+  @override
+  String get payment_account_prompt_title => 'Receive money from anyone';
+
+  @override
+  String get payment_account_prompt_body =>
+      'Upgrade your Euro account to a payment account to accept transfers from other people and pay third parties. Same IBAN, same balance.';
+
+  @override
+  String get payment_account_consent_title => 'Upgrade your Euro account';
+
+  @override
+  String get payment_account_consent_intro =>
+      'Your Euro account becomes a payment account. Your IBAN and balance stay exactly the same. Here\'s what changes:';
+
+  @override
+  String get payment_account_benefit_receive_title =>
+      'Receive euros from anyone';
+
+  @override
+  String get payment_account_benefit_receive_body =>
+      'Customers, employers, friends. Transfers no longer have to come from an account in your name.';
+
+  @override
+  String get payment_account_benefit_pay_title =>
+      'Pay other people and companies';
+
+  @override
+  String get payment_account_benefit_pay_body =>
+      'Send euros to any IBAN. You tell us who the account holder is.';
+
+  @override
+  String get payment_account_benefit_checks_title =>
+      'Some payments are checked';
+
+  @override
+  String get payment_account_benefit_checks_body =>
+      'Payments to or from other people can be held briefly for a compliance check. We\'ll let you know.';
+
+  @override
+  String get payment_account_consent_agree_prefix =>
+      'I have read and agree to the ';
+
+  @override
+  String get payment_account_consent_terms_link => 'Payment Account Terms';
+
+  @override
+  String payment_account_consent_agree_suffix(String version) {
+    return ' (version $version)';
+  }
+
+  @override
+  String get payment_account_consent_accept => 'Accept and upgrade';
+
+  @override
+  String get payment_account_upgraded_toast =>
+      'Your Euro account is now a payment account';
+
+  @override
+  String get profile_row_payment_account => 'Payment account';
+
+  @override
+  String get payment_account_page_title => 'Payment account';
+
+  @override
+  String get payment_account_status_active => 'Active';
+
+  @override
+  String get payment_account_status_not_upgraded => 'Not upgraded';
+
+  @override
+  String get payment_account_row_capabilities => 'What it lets you do';
+
+  @override
+  String get payment_account_row_capabilities_value =>
+      'Receive from anyone · Pay third parties';
+
+  @override
+  String get payment_account_row_accepted_on => 'Accepted on';
+
+  @override
+  String get payment_account_row_terms_version => 'Terms version';
+
+  @override
+  String get payment_account_active_body =>
+      'If you withdraw, your Euro account goes back to the standard rules: you can only send to and receive from accounts in your own name. Your IBAN and balance don\'t change.';
+
+  @override
+  String get payment_account_not_upgraded_body =>
+      'Your Euro account only accepts transfers to and from accounts in your own name. Upgrade it to a payment account to receive euros from anyone and pay other people and companies. Same IBAN, same balance.';
+
+  @override
+  String get payment_account_upgrade_cta => 'Upgrade my Euro account';
+
+  @override
+  String get payment_account_withdraw_cta => 'Withdraw consent';
+
+  @override
+  String get payment_account_unavailable_body =>
+      'Payments to and from anyone aren\'t available yet. We\'ll let you know when they are.';
+
+  @override
+  String get payment_account_load_error =>
+      'We couldn\'t load your payment account. Please try again.';
+
+  @override
+  String get payment_account_withdraw_title => 'Withdraw consent?';
+
+  @override
+  String get payment_account_withdraw_body =>
+      'From now on, transfers from other people will be held for review instead of credited, and you will not be able to pay third-party recipients. Payments already in progress are not affected. You can upgrade again at any time.';
+
+  @override
+  String get payment_account_withdraw_keep => 'Keep payment account';
+
+  @override
+  String get payment_account_withdraw_confirm => 'Withdraw';
+
+  @override
+  String get exception_payment_account_unavailable =>
+      'Payments to and from anyone aren\'t available yet. Please try again later.';
+
+  @override
+  String get exception_payment_account_check_failed =>
+      'We couldn\'t check your Payment Account terms right now. Please try again.';
+
+  @override
+  String get exception_payment_account_generic =>
+      'We couldn\'t update your payment account. Please try again.';
 }
