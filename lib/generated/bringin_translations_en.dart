@@ -7970,6 +7970,13 @@ class BringinTranslationsEn extends BringinTranslations {
       'Add money from a bank account in your name. To receive euros from anyone, upgrade your Euro account.';
 
   @override
+  String get send_reference_helper => '5 to 15 letters or numbers';
+
+  @override
+  String get send_reference_error_length =>
+      'Use 5 to 15 characters, or leave it empty.';
+
+  @override
   String get send_error_recipient_not_ready =>
       'This recipient isn\'t ready to be paid yet. Please try again in a few minutes.';
 

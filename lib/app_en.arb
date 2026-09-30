@@ -4774,6 +4774,11 @@
   "payment_details_payout_denied": "This payment didn't pass a compliance check, so it wasn't sent. The money is back in your Euro account.",
   "deposit_notice_upgraded": "Receive euros from anyone. Share your IBAN and get paid.",
   "deposit_notice_not_upgraded": "Add money from a bank account in your name. To receive euros from anyone, upgrade your Euro account.",
+  "send_reference_helper": "5 to 15 letters or numbers",
+  "@send_reference_helper": {
+    "description": "Send euros amount step, under the optional Reference field."
+  },
+  "send_reference_error_length": "Use 5 to 15 characters, or leave it empty.",
   "send_error_recipient_not_ready": "This recipient isn't ready to be paid yet. Please try again in a few minutes.",
   "beneficiary_third_party_locked": "A recipient's bank details and name can't be changed. To pay a different account, add a new recipient.",
   "exception_beneficiary_details_locked": "You can't change this recipient's bank details or name. Add a new recipient instead."

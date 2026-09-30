@@ -13770,6 +13770,18 @@ abstract class BringinTranslations {
   /// **'Add money from a bank account in your name. To receive euros from anyone, upgrade your Euro account.'**
   String get deposit_notice_not_upgraded;
 
+  /// Send euros amount step, under the optional Reference field.
+  ///
+  /// In en, this message translates to:
+  /// **'5 to 15 letters or numbers'**
+  String get send_reference_helper;
+
+  /// No description provided for @send_reference_error_length.
+  ///
+  /// In en, this message translates to:
+  /// **'Use 5 to 15 characters, or leave it empty.'**
+  String get send_reference_error_length;
+
   /// No description provided for @send_error_recipient_not_ready.
   ///
   /// In en, this message translates to:
