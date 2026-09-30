@@ -4681,5 +4681,100 @@
   "payment_account_withdraw_confirm": "Withdraw",
   "exception_payment_account_unavailable": "Payments to and from anyone aren't available yet. Please try again later.",
   "exception_payment_account_check_failed": "We couldn't check your Payment Account terms right now. Please try again.",
-  "exception_payment_account_generic": "We couldn't update your payment account. Please try again."
+  "exception_payment_account_generic": "We couldn't update your payment account. Please try again.",
+  "add_recipient_title": "Add recipient",
+  "@add_recipient_title": {
+    "description": "Revolut-style Add recipient screen (3rd Party Payment, ENG-1145): who the recipient is, by IBAN."
+  },
+  "add_recipient_tab_individual": "Individual",
+  "add_recipient_tab_business": "Business",
+  "add_recipient_field_iban": "IBAN",
+  "add_recipient_iban_hint": "Enter IBAN",
+  "add_recipient_paste": "Paste",
+  "add_recipient_paste_error": "Copy an IBAN first, then paste it here.",
+  "add_recipient_bank_lookup": "Looking up the bank",
+  "add_recipient_bank_bringin": "Bringin account",
+  "add_recipient_field_first_names": "First and middle names",
+  "add_recipient_field_last_names": "Last name(s)",
+  "add_recipient_field_company": "Company name",
+  "add_recipient_name_hint": "As shown on their bank account",
+  "add_recipient_field_email": "Email",
+  "add_recipient_email_hint": "name@example.com",
+  "add_recipient_field_bic": "BIC",
+  "add_recipient_bic_hint": "Add the BIC",
+  "add_recipient_bic_helper": "We couldn't find this bank from the IBAN. Enter its BIC to continue.",
+  "add_recipient_action": "Add recipient",
+  "add_recipient_error_iban_empty": "Enter the IBAN.",
+  "add_recipient_error_iban_invalid": "This IBAN doesn't look right. Check it and try again.",
+  "add_recipient_error_iban_not_sepa": "We can only send to IBANs in the SEPA area.",
+  "add_recipient_error_names_missing": "Enter their first and last names.",
+  "add_recipient_error_name_too_long": "Their full name can be up to 70 characters.",
+  "add_recipient_error_company_missing": "Enter the company name.",
+  "add_recipient_error_company_too_long": "The company name can be up to 70 characters.",
+  "add_recipient_error_email_invalid": "Enter a valid email address.",
+  "add_recipient_error_bic_empty": "Enter the BIC.",
+  "add_recipient_error_bic_invalid": "This BIC doesn't look right. Check it and try again.",
+  "add_recipient_error_bic_required": "We couldn't find this bank. Enter its BIC to continue.",
+  "add_recipient_error_upgrade_first": "To pay other people and companies, upgrade your Euro account first.",
+  "add_recipient_error_unavailable": "Paying other people and companies isn't available yet.",
+  "add_recipient_error_unavailable_later": "Paying other people and companies isn't available yet. Please try again later.",
+  "add_recipient_error_generic": "Something went wrong. Please try again.",
+  "add_recipient_exists_title": "You've already added this account",
+  "add_recipient_exists_own": "This IBAN is already saved as your own account.",
+  "add_recipient_exists_named": "This IBAN is already saved as {name}.",
+  "@add_recipient_exists_named": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Anna Schmidt"
+      }
+    }
+  },
+  "add_recipient_exists_deleted": "You deleted it earlier. To use it again, add it with the same details.",
+  "recipient_notice_upgraded": "Pay anyone in euros. All you need is their IBAN.",
+  "recipient_notice_not_upgraded": "Send to a bank account in your name. To pay anyone in euros, upgrade your Euro account.",
+  "recipient_notice_upgrade_action": "Upgrade",
+  "recipient_notice_off": "Send to a bank account in your name.",
+  "recipient_subtitle_own": "Your account · {details}",
+  "@recipient_subtitle_own": {
+    "description": "Recipient row subtitle for the user's own account. details = bank name and last four IBAN characters, or the IBAN.",
+    "placeholders": {
+      "details": {
+        "type": "String",
+        "example": "Commerzbank •••• 3000"
+      }
+    }
+  },
+  "recipient_notice_sell_own_only": "You can only sell to a bank account in your name.",
+  "@recipient_notice_sell_own_only": {
+    "description": "Sell to bank / Connect sell: adding a recipient there is limited to the user's own accounts (3rd Party Payment, ENG-1145)."
+  },
+  "add_recipient_error_own_only": "You can only sell to a bank account in your name. Check the name matches the account holder.",
+  "add_recipient_sell_third_party_title": "Saved for Send euros",
+  "add_recipient_sell_third_party_body": "This account isn't in your name, so you can't sell to it. You can still pay it from Send euros.",
+  "send_third_party_review_note": "This payment goes to someone else, so it's reviewed before it's sent. This usually takes a few minutes.",
+  "@send_third_party_review_note": {
+    "description": "Send euros verify step, paying a third party (3rd Party Payment, ENG-1146): Striga holds these payouts for a compliance review."
+  },
+  "send_upgrade_first_for": "To pay {name}, upgrade your Euro account first.",
+  "@send_upgrade_first_for": {
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Anna Schmidt"
+      }
+    }
+  },
+  "send_under_review_title": "Payment under review",
+  "@send_under_review_title": {
+    "description": "After confirming a payment to a third party (3rd Party Payment, ENG-1146): Striga reviews it before it leaves. Also the detail-screen alert title."
+  },
+  "send_under_review_note": "Payments to other people are checked before they leave. This usually takes a few minutes, occasionally longer. We'll let you know as soon as it's sent.",
+  "tx_badge_under_review": "Under review",
+  "payment_details_payout_denied": "This payment didn't pass a compliance check, so it wasn't sent. The money is back in your Euro account.",
+  "deposit_notice_upgraded": "Receive euros from anyone. Share your IBAN and get paid.",
+  "deposit_notice_not_upgraded": "Add money from a bank account in your name. To receive euros from anyone, upgrade your Euro account.",
+  "send_error_recipient_not_ready": "This recipient isn't ready to be paid yet. Please try again in a few minutes.",
+  "beneficiary_third_party_locked": "A recipient's bank details and name can't be changed. To pay a different account, add a new recipient.",
+  "exception_beneficiary_details_locked": "You can't change this recipient's bank details or name. Add a new recipient instead."
 }

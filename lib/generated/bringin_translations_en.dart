@@ -7771,4 +7771,213 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get exception_payment_account_generic =>
       'We couldn\'t update your payment account. Please try again.';
+
+  @override
+  String get add_recipient_title => 'Add recipient';
+
+  @override
+  String get add_recipient_tab_individual => 'Individual';
+
+  @override
+  String get add_recipient_tab_business => 'Business';
+
+  @override
+  String get add_recipient_field_iban => 'IBAN';
+
+  @override
+  String get add_recipient_iban_hint => 'Enter IBAN';
+
+  @override
+  String get add_recipient_paste => 'Paste';
+
+  @override
+  String get add_recipient_paste_error =>
+      'Copy an IBAN first, then paste it here.';
+
+  @override
+  String get add_recipient_bank_lookup => 'Looking up the bank';
+
+  @override
+  String get add_recipient_bank_bringin => 'Bringin account';
+
+  @override
+  String get add_recipient_field_first_names => 'First and middle names';
+
+  @override
+  String get add_recipient_field_last_names => 'Last name(s)';
+
+  @override
+  String get add_recipient_field_company => 'Company name';
+
+  @override
+  String get add_recipient_name_hint => 'As shown on their bank account';
+
+  @override
+  String get add_recipient_field_email => 'Email';
+
+  @override
+  String get add_recipient_email_hint => 'name@example.com';
+
+  @override
+  String get add_recipient_field_bic => 'BIC';
+
+  @override
+  String get add_recipient_bic_hint => 'Add the BIC';
+
+  @override
+  String get add_recipient_bic_helper =>
+      'We couldn\'t find this bank from the IBAN. Enter its BIC to continue.';
+
+  @override
+  String get add_recipient_action => 'Add recipient';
+
+  @override
+  String get add_recipient_error_iban_empty => 'Enter the IBAN.';
+
+  @override
+  String get add_recipient_error_iban_invalid =>
+      'This IBAN doesn\'t look right. Check it and try again.';
+
+  @override
+  String get add_recipient_error_iban_not_sepa =>
+      'We can only send to IBANs in the SEPA area.';
+
+  @override
+  String get add_recipient_error_names_missing =>
+      'Enter their first and last names.';
+
+  @override
+  String get add_recipient_error_name_too_long =>
+      'Their full name can be up to 70 characters.';
+
+  @override
+  String get add_recipient_error_company_missing => 'Enter the company name.';
+
+  @override
+  String get add_recipient_error_company_too_long =>
+      'The company name can be up to 70 characters.';
+
+  @override
+  String get add_recipient_error_email_invalid =>
+      'Enter a valid email address.';
+
+  @override
+  String get add_recipient_error_bic_empty => 'Enter the BIC.';
+
+  @override
+  String get add_recipient_error_bic_invalid =>
+      'This BIC doesn\'t look right. Check it and try again.';
+
+  @override
+  String get add_recipient_error_bic_required =>
+      'We couldn\'t find this bank. Enter its BIC to continue.';
+
+  @override
+  String get add_recipient_error_upgrade_first =>
+      'To pay other people and companies, upgrade your Euro account first.';
+
+  @override
+  String get add_recipient_error_unavailable =>
+      'Paying other people and companies isn\'t available yet.';
+
+  @override
+  String get add_recipient_error_unavailable_later =>
+      'Paying other people and companies isn\'t available yet. Please try again later.';
+
+  @override
+  String get add_recipient_error_generic =>
+      'Something went wrong. Please try again.';
+
+  @override
+  String get add_recipient_exists_title => 'You\'ve already added this account';
+
+  @override
+  String get add_recipient_exists_own =>
+      'This IBAN is already saved as your own account.';
+
+  @override
+  String add_recipient_exists_named(String name) {
+    return 'This IBAN is already saved as $name.';
+  }
+
+  @override
+  String get add_recipient_exists_deleted =>
+      'You deleted it earlier. To use it again, add it with the same details.';
+
+  @override
+  String get recipient_notice_upgraded =>
+      'Pay anyone in euros. All you need is their IBAN.';
+
+  @override
+  String get recipient_notice_not_upgraded =>
+      'Send to a bank account in your name. To pay anyone in euros, upgrade your Euro account.';
+
+  @override
+  String get recipient_notice_upgrade_action => 'Upgrade';
+
+  @override
+  String get recipient_notice_off => 'Send to a bank account in your name.';
+
+  @override
+  String recipient_subtitle_own(String details) {
+    return 'Your account · $details';
+  }
+
+  @override
+  String get recipient_notice_sell_own_only =>
+      'You can only sell to a bank account in your name.';
+
+  @override
+  String get add_recipient_error_own_only =>
+      'You can only sell to a bank account in your name. Check the name matches the account holder.';
+
+  @override
+  String get add_recipient_sell_third_party_title => 'Saved for Send euros';
+
+  @override
+  String get add_recipient_sell_third_party_body =>
+      'This account isn\'t in your name, so you can\'t sell to it. You can still pay it from Send euros.';
+
+  @override
+  String get send_third_party_review_note =>
+      'This payment goes to someone else, so it\'s reviewed before it\'s sent. This usually takes a few minutes.';
+
+  @override
+  String send_upgrade_first_for(String name) {
+    return 'To pay $name, upgrade your Euro account first.';
+  }
+
+  @override
+  String get send_under_review_title => 'Payment under review';
+
+  @override
+  String get send_under_review_note =>
+      'Payments to other people are checked before they leave. This usually takes a few minutes, occasionally longer. We\'ll let you know as soon as it\'s sent.';
+
+  @override
+  String get tx_badge_under_review => 'Under review';
+
+  @override
+  String get payment_details_payout_denied =>
+      'This payment didn\'t pass a compliance check, so it wasn\'t sent. The money is back in your Euro account.';
+
+  @override
+  String get deposit_notice_upgraded =>
+      'Receive euros from anyone. Share your IBAN and get paid.';
+
+  @override
+  String get deposit_notice_not_upgraded =>
+      'Add money from a bank account in your name. To receive euros from anyone, upgrade your Euro account.';
+
+  @override
+  String get send_error_recipient_not_ready =>
+      'This recipient isn\'t ready to be paid yet. Please try again in a few minutes.';
+
+  @override
+  String get beneficiary_third_party_locked =>
+      'A recipient\'s bank details and name can\'t be changed. To pay a different account, add a new recipient.';
+
+  @override
+  String get exception_beneficiary_details_locked =>
+      'You can\'t change this recipient\'s bank details or name. Add a new recipient instead.';
 }

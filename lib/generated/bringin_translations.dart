@@ -13439,6 +13439,354 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'We couldn\'t update your payment account. Please try again.'**
   String get exception_payment_account_generic;
+
+  /// Revolut-style Add recipient screen (3rd Party Payment, ENG-1145): who the recipient is, by IBAN.
+  ///
+  /// In en, this message translates to:
+  /// **'Add recipient'**
+  String get add_recipient_title;
+
+  /// No description provided for @add_recipient_tab_individual.
+  ///
+  /// In en, this message translates to:
+  /// **'Individual'**
+  String get add_recipient_tab_individual;
+
+  /// No description provided for @add_recipient_tab_business.
+  ///
+  /// In en, this message translates to:
+  /// **'Business'**
+  String get add_recipient_tab_business;
+
+  /// No description provided for @add_recipient_field_iban.
+  ///
+  /// In en, this message translates to:
+  /// **'IBAN'**
+  String get add_recipient_field_iban;
+
+  /// No description provided for @add_recipient_iban_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter IBAN'**
+  String get add_recipient_iban_hint;
+
+  /// No description provided for @add_recipient_paste.
+  ///
+  /// In en, this message translates to:
+  /// **'Paste'**
+  String get add_recipient_paste;
+
+  /// No description provided for @add_recipient_paste_error.
+  ///
+  /// In en, this message translates to:
+  /// **'Copy an IBAN first, then paste it here.'**
+  String get add_recipient_paste_error;
+
+  /// No description provided for @add_recipient_bank_lookup.
+  ///
+  /// In en, this message translates to:
+  /// **'Looking up the bank'**
+  String get add_recipient_bank_lookup;
+
+  /// No description provided for @add_recipient_bank_bringin.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin account'**
+  String get add_recipient_bank_bringin;
+
+  /// No description provided for @add_recipient_field_first_names.
+  ///
+  /// In en, this message translates to:
+  /// **'First and middle names'**
+  String get add_recipient_field_first_names;
+
+  /// No description provided for @add_recipient_field_last_names.
+  ///
+  /// In en, this message translates to:
+  /// **'Last name(s)'**
+  String get add_recipient_field_last_names;
+
+  /// No description provided for @add_recipient_field_company.
+  ///
+  /// In en, this message translates to:
+  /// **'Company name'**
+  String get add_recipient_field_company;
+
+  /// No description provided for @add_recipient_name_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'As shown on their bank account'**
+  String get add_recipient_name_hint;
+
+  /// No description provided for @add_recipient_field_email.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get add_recipient_field_email;
+
+  /// No description provided for @add_recipient_email_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'name@example.com'**
+  String get add_recipient_email_hint;
+
+  /// No description provided for @add_recipient_field_bic.
+  ///
+  /// In en, this message translates to:
+  /// **'BIC'**
+  String get add_recipient_field_bic;
+
+  /// No description provided for @add_recipient_bic_hint.
+  ///
+  /// In en, this message translates to:
+  /// **'Add the BIC'**
+  String get add_recipient_bic_hint;
+
+  /// No description provided for @add_recipient_bic_helper.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t find this bank from the IBAN. Enter its BIC to continue.'**
+  String get add_recipient_bic_helper;
+
+  /// No description provided for @add_recipient_action.
+  ///
+  /// In en, this message translates to:
+  /// **'Add recipient'**
+  String get add_recipient_action;
+
+  /// No description provided for @add_recipient_error_iban_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the IBAN.'**
+  String get add_recipient_error_iban_empty;
+
+  /// No description provided for @add_recipient_error_iban_invalid.
+  ///
+  /// In en, this message translates to:
+  /// **'This IBAN doesn\'t look right. Check it and try again.'**
+  String get add_recipient_error_iban_invalid;
+
+  /// No description provided for @add_recipient_error_iban_not_sepa.
+  ///
+  /// In en, this message translates to:
+  /// **'We can only send to IBANs in the SEPA area.'**
+  String get add_recipient_error_iban_not_sepa;
+
+  /// No description provided for @add_recipient_error_names_missing.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter their first and last names.'**
+  String get add_recipient_error_names_missing;
+
+  /// No description provided for @add_recipient_error_name_too_long.
+  ///
+  /// In en, this message translates to:
+  /// **'Their full name can be up to 70 characters.'**
+  String get add_recipient_error_name_too_long;
+
+  /// No description provided for @add_recipient_error_company_missing.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the company name.'**
+  String get add_recipient_error_company_missing;
+
+  /// No description provided for @add_recipient_error_company_too_long.
+  ///
+  /// In en, this message translates to:
+  /// **'The company name can be up to 70 characters.'**
+  String get add_recipient_error_company_too_long;
+
+  /// No description provided for @add_recipient_error_email_invalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a valid email address.'**
+  String get add_recipient_error_email_invalid;
+
+  /// No description provided for @add_recipient_error_bic_empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter the BIC.'**
+  String get add_recipient_error_bic_empty;
+
+  /// No description provided for @add_recipient_error_bic_invalid.
+  ///
+  /// In en, this message translates to:
+  /// **'This BIC doesn\'t look right. Check it and try again.'**
+  String get add_recipient_error_bic_invalid;
+
+  /// No description provided for @add_recipient_error_bic_required.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t find this bank. Enter its BIC to continue.'**
+  String get add_recipient_error_bic_required;
+
+  /// No description provided for @add_recipient_error_upgrade_first.
+  ///
+  /// In en, this message translates to:
+  /// **'To pay other people and companies, upgrade your Euro account first.'**
+  String get add_recipient_error_upgrade_first;
+
+  /// No description provided for @add_recipient_error_unavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'Paying other people and companies isn\'t available yet.'**
+  String get add_recipient_error_unavailable;
+
+  /// No description provided for @add_recipient_error_unavailable_later.
+  ///
+  /// In en, this message translates to:
+  /// **'Paying other people and companies isn\'t available yet. Please try again later.'**
+  String get add_recipient_error_unavailable_later;
+
+  /// No description provided for @add_recipient_error_generic.
+  ///
+  /// In en, this message translates to:
+  /// **'Something went wrong. Please try again.'**
+  String get add_recipient_error_generic;
+
+  /// No description provided for @add_recipient_exists_title.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve already added this account'**
+  String get add_recipient_exists_title;
+
+  /// No description provided for @add_recipient_exists_own.
+  ///
+  /// In en, this message translates to:
+  /// **'This IBAN is already saved as your own account.'**
+  String get add_recipient_exists_own;
+
+  /// No description provided for @add_recipient_exists_named.
+  ///
+  /// In en, this message translates to:
+  /// **'This IBAN is already saved as {name}.'**
+  String add_recipient_exists_named(String name);
+
+  /// No description provided for @add_recipient_exists_deleted.
+  ///
+  /// In en, this message translates to:
+  /// **'You deleted it earlier. To use it again, add it with the same details.'**
+  String get add_recipient_exists_deleted;
+
+  /// No description provided for @recipient_notice_upgraded.
+  ///
+  /// In en, this message translates to:
+  /// **'Pay anyone in euros. All you need is their IBAN.'**
+  String get recipient_notice_upgraded;
+
+  /// No description provided for @recipient_notice_not_upgraded.
+  ///
+  /// In en, this message translates to:
+  /// **'Send to a bank account in your name. To pay anyone in euros, upgrade your Euro account.'**
+  String get recipient_notice_not_upgraded;
+
+  /// No description provided for @recipient_notice_upgrade_action.
+  ///
+  /// In en, this message translates to:
+  /// **'Upgrade'**
+  String get recipient_notice_upgrade_action;
+
+  /// No description provided for @recipient_notice_off.
+  ///
+  /// In en, this message translates to:
+  /// **'Send to a bank account in your name.'**
+  String get recipient_notice_off;
+
+  /// Recipient row subtitle for the user's own account. details = bank name and last four IBAN characters, or the IBAN.
+  ///
+  /// In en, this message translates to:
+  /// **'Your account · {details}'**
+  String recipient_subtitle_own(String details);
+
+  /// Sell to bank / Connect sell: adding a recipient there is limited to the user's own accounts (3rd Party Payment, ENG-1145).
+  ///
+  /// In en, this message translates to:
+  /// **'You can only sell to a bank account in your name.'**
+  String get recipient_notice_sell_own_only;
+
+  /// No description provided for @add_recipient_error_own_only.
+  ///
+  /// In en, this message translates to:
+  /// **'You can only sell to a bank account in your name. Check the name matches the account holder.'**
+  String get add_recipient_error_own_only;
+
+  /// No description provided for @add_recipient_sell_third_party_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Saved for Send euros'**
+  String get add_recipient_sell_third_party_title;
+
+  /// No description provided for @add_recipient_sell_third_party_body.
+  ///
+  /// In en, this message translates to:
+  /// **'This account isn\'t in your name, so you can\'t sell to it. You can still pay it from Send euros.'**
+  String get add_recipient_sell_third_party_body;
+
+  /// Send euros verify step, paying a third party (3rd Party Payment, ENG-1146): Striga holds these payouts for a compliance review.
+  ///
+  /// In en, this message translates to:
+  /// **'This payment goes to someone else, so it\'s reviewed before it\'s sent. This usually takes a few minutes.'**
+  String get send_third_party_review_note;
+
+  /// No description provided for @send_upgrade_first_for.
+  ///
+  /// In en, this message translates to:
+  /// **'To pay {name}, upgrade your Euro account first.'**
+  String send_upgrade_first_for(String name);
+
+  /// After confirming a payment to a third party (3rd Party Payment, ENG-1146): Striga reviews it before it leaves. Also the detail-screen alert title.
+  ///
+  /// In en, this message translates to:
+  /// **'Payment under review'**
+  String get send_under_review_title;
+
+  /// No description provided for @send_under_review_note.
+  ///
+  /// In en, this message translates to:
+  /// **'Payments to other people are checked before they leave. This usually takes a few minutes, occasionally longer. We\'ll let you know as soon as it\'s sent.'**
+  String get send_under_review_note;
+
+  /// No description provided for @tx_badge_under_review.
+  ///
+  /// In en, this message translates to:
+  /// **'Under review'**
+  String get tx_badge_under_review;
+
+  /// No description provided for @payment_details_payout_denied.
+  ///
+  /// In en, this message translates to:
+  /// **'This payment didn\'t pass a compliance check, so it wasn\'t sent. The money is back in your Euro account.'**
+  String get payment_details_payout_denied;
+
+  /// No description provided for @deposit_notice_upgraded.
+  ///
+  /// In en, this message translates to:
+  /// **'Receive euros from anyone. Share your IBAN and get paid.'**
+  String get deposit_notice_upgraded;
+
+  /// No description provided for @deposit_notice_not_upgraded.
+  ///
+  /// In en, this message translates to:
+  /// **'Add money from a bank account in your name. To receive euros from anyone, upgrade your Euro account.'**
+  String get deposit_notice_not_upgraded;
+
+  /// No description provided for @send_error_recipient_not_ready.
+  ///
+  /// In en, this message translates to:
+  /// **'This recipient isn\'t ready to be paid yet. Please try again in a few minutes.'**
+  String get send_error_recipient_not_ready;
+
+  /// No description provided for @beneficiary_third_party_locked.
+  ///
+  /// In en, this message translates to:
+  /// **'A recipient\'s bank details and name can\'t be changed. To pay a different account, add a new recipient.'**
+  String get beneficiary_third_party_locked;
+
+  /// No description provided for @exception_beneficiary_details_locked.
+  ///
+  /// In en, this message translates to:
+  /// **'You can\'t change this recipient\'s bank details or name. Add a new recipient instead.'**
+  String get exception_beneficiary_details_locked;
 }
 
 class _BringinTranslationsDelegate
