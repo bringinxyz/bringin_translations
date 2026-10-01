@@ -240,6 +240,21 @@
   "home_accounts_balance_update_failed": "We couldn't update your balance. The amount shown may not be current.",
   "home_accounts_balance_fetch_failed": "We couldn't fetch your balance.",
   "home_accounts_balance_retry": "Retry",
+  "home_accounts_euro_ready_to_spend": "Ready to spend",
+  "home_greeting_morning": "Good morning",
+  "home_greeting_afternoon": "Good afternoon",
+  "home_greeting_evening": "Good evening",
+  "home_greeting_welcome_back": "Welcome back {name}",
+  "@home_greeting_welcome_back": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "home_greeting_welcome_back_anonymous": "Welcome back",
+  "home_connect_banner_title": "Get paid in Euros, receive Bitcoin",
+  "home_connect_banner_action": "Bringin Connect",
   "home_accounts_sca_session_expired": "Your secure session expired. Verify again to update your balance.",
   "home_accounts_sca_session_verify": "Verify",
   "home_accounts_transactions_in_progress": "{count, plural, =1{1 transaction in progress} other{{count} transactions in progress}}",

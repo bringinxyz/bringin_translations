@@ -863,6 +863,54 @@ abstract class BringinTranslations {
   /// **'Retry'**
   String get home_accounts_balance_retry;
 
+  /// No description provided for @home_accounts_euro_ready_to_spend.
+  ///
+  /// In en, this message translates to:
+  /// **'Ready to spend'**
+  String get home_accounts_euro_ready_to_spend;
+
+  /// No description provided for @home_greeting_morning.
+  ///
+  /// In en, this message translates to:
+  /// **'Good morning'**
+  String get home_greeting_morning;
+
+  /// No description provided for @home_greeting_afternoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Good afternoon'**
+  String get home_greeting_afternoon;
+
+  /// No description provided for @home_greeting_evening.
+  ///
+  /// In en, this message translates to:
+  /// **'Good evening'**
+  String get home_greeting_evening;
+
+  /// No description provided for @home_greeting_welcome_back.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome back {name}'**
+  String home_greeting_welcome_back(String name);
+
+  /// No description provided for @home_greeting_welcome_back_anonymous.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome back'**
+  String get home_greeting_welcome_back_anonymous;
+
+  /// No description provided for @home_connect_banner_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Get paid in Euros, receive Bitcoin'**
+  String get home_connect_banner_title;
+
+  /// No description provided for @home_connect_banner_action.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin Connect'**
+  String get home_connect_banner_action;
+
   /// No description provided for @home_accounts_sca_session_expired.
   ///
   /// In en, this message translates to:
