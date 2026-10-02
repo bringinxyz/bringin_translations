@@ -446,6 +446,32 @@ class BringinTranslationsEn extends BringinTranslations {
   String get home_accounts_balance_retry => 'Retry';
 
   @override
+  String get home_accounts_euro_ready_to_spend => 'Ready to spend';
+
+  @override
+  String get home_greeting_morning => 'Good morning';
+
+  @override
+  String get home_greeting_afternoon => 'Good afternoon';
+
+  @override
+  String get home_greeting_evening => 'Good evening';
+
+  @override
+  String home_greeting_welcome_back(String name) {
+    return 'Welcome back $name';
+  }
+
+  @override
+  String get home_greeting_welcome_back_anonymous => 'Welcome back';
+
+  @override
+  String get home_connect_banner_title => 'Get paid in Euros, receive Bitcoin';
+
+  @override
+  String get home_connect_banner_action => 'Bringin Connect';
+
+  @override
   String get home_accounts_sca_session_expired =>
       'Your secure session expired. Verify again to update your balance.';
 
