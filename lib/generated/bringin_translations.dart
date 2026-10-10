@@ -1463,6 +1463,120 @@ abstract class BringinTranslations {
   /// **'Log in'**
   String get login_title;
 
+  /// No description provided for @onboarding_action_register.
+  ///
+  /// In en, this message translates to:
+  /// **'Register'**
+  String get onboarding_action_register;
+
+  /// No description provided for @register_email_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your email address'**
+  String get register_email_title;
+
+  /// No description provided for @register_terms_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'By registering, you accept our '**
+  String get register_terms_prefix;
+
+  /// No description provided for @register_terms_link.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms of Use'**
+  String get register_terms_link;
+
+  /// No description provided for @register_terms_separator.
+  ///
+  /// In en, this message translates to:
+  /// **' and '**
+  String get register_terms_separator;
+
+  /// No description provided for @register_privacy_link.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get register_privacy_link;
+
+  /// No description provided for @register_terms_suffix.
+  ///
+  /// In en, this message translates to:
+  /// **'.'**
+  String get register_terms_suffix;
+
+  /// No description provided for @register_error_email_exists.
+  ///
+  /// In en, this message translates to:
+  /// **'An account with this email already exists.'**
+  String get register_error_email_exists;
+
+  /// No description provided for @login_action_email_code.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in with an email code instead'**
+  String get login_action_email_code;
+
+  /// No description provided for @login_action_passkey.
+  ///
+  /// In en, this message translates to:
+  /// **'Log in with a passkey'**
+  String get login_action_passkey;
+
+  /// No description provided for @login_divider_or_short.
+  ///
+  /// In en, this message translates to:
+  /// **'Or'**
+  String get login_divider_or_short;
+
+  /// No description provided for @login_error_invalid_credentials.
+  ///
+  /// In en, this message translates to:
+  /// **'Incorrect email or password. You can also sign in with an email code.'**
+  String get login_error_invalid_credentials;
+
+  /// No description provided for @login_passkey_error_no_credential.
+  ///
+  /// In en, this message translates to:
+  /// **'No passkey for this account on this device. Log in with your email and password.'**
+  String get login_passkey_error_no_credential;
+
+  /// No description provided for @login_passkey_error_not_finished.
+  ///
+  /// In en, this message translates to:
+  /// **'Passkey sign-in did not finish. Please try again.'**
+  String get login_passkey_error_not_finished;
+
+  /// No description provided for @login_passkey_error_no_challenge.
+  ///
+  /// In en, this message translates to:
+  /// **'No passkey challenge was returned. Please log in with your password.'**
+  String get login_passkey_error_no_challenge;
+
+  /// No description provided for @login_email_code_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in with an email code'**
+  String get login_email_code_title;
+
+  /// No description provided for @login_email_code_body.
+  ///
+  /// In en, this message translates to:
+  /// **'We’ll email you a one-time code. No password needed.'**
+  String get login_email_code_body;
+
+  /// No description provided for @login_email_code_submit.
+  ///
+  /// In en, this message translates to:
+  /// **'Email me a code'**
+  String get login_email_code_submit;
+
+  /// No description provided for @login_email_code_no_account.
+  ///
+  /// In en, this message translates to:
+  /// **'No account found for this email.'**
+  String get login_email_code_no_account;
+
   /// No description provided for @account_locked_title.
   ///
   /// In en, this message translates to:

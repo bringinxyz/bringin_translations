@@ -776,6 +776,69 @@ class BringinTranslationsEn extends BringinTranslations {
   String get login_title => 'Log in';
 
   @override
+  String get onboarding_action_register => 'Register';
+
+  @override
+  String get register_email_title => 'Enter your email address';
+
+  @override
+  String get register_terms_prefix => 'By registering, you accept our ';
+
+  @override
+  String get register_terms_link => 'Terms of Use';
+
+  @override
+  String get register_terms_separator => ' and ';
+
+  @override
+  String get register_privacy_link => 'Privacy Policy';
+
+  @override
+  String get register_terms_suffix => '.';
+
+  @override
+  String get register_error_email_exists =>
+      'An account with this email already exists.';
+
+  @override
+  String get login_action_email_code => 'Sign in with an email code instead';
+
+  @override
+  String get login_action_passkey => 'Log in with a passkey';
+
+  @override
+  String get login_divider_or_short => 'Or';
+
+  @override
+  String get login_error_invalid_credentials =>
+      'Incorrect email or password. You can also sign in with an email code.';
+
+  @override
+  String get login_passkey_error_no_credential =>
+      'No passkey for this account on this device. Log in with your email and password.';
+
+  @override
+  String get login_passkey_error_not_finished =>
+      'Passkey sign-in did not finish. Please try again.';
+
+  @override
+  String get login_passkey_error_no_challenge =>
+      'No passkey challenge was returned. Please log in with your password.';
+
+  @override
+  String get login_email_code_title => 'Sign in with an email code';
+
+  @override
+  String get login_email_code_body =>
+      'We’ll email you a one-time code. No password needed.';
+
+  @override
+  String get login_email_code_submit => 'Email me a code';
+
+  @override
+  String get login_email_code_no_account => 'No account found for this email.';
+
+  @override
   String get account_locked_title => 'Account locked';
 
   @override
