@@ -5466,7 +5466,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get kyc_documents_body =>
-      'You are almost there, next you have to upload the relevant documents for verification.\\nContinue to finish the identification process (usually takes less than 5 minutes) to start using Bringin.';
+      'You are almost there, next you have to upload the relevant documents for verification.\nContinue to finish the identification process (usually takes less than 5 minutes) to start using Bringin.';
 
   @override
   String get kyc_action_verify_documents => 'Verify documents';
@@ -5618,7 +5618,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get home_connect_reenable_body =>
-      'Due to new Travel Rule requirements, we had to pause some of your existing connections. You can now re-enable them from this tab.\\n\\nWhen you re-enable a connection, we\'ll issue fresh details where required: a new vIBAN for Buy connections, or a new Bitcoin deposit address for on-chain Sell connections.\\n\\nYour destination stays the same — your connected wallet or bank account will not change.';
+      'Due to new Travel Rule requirements, we had to pause some of your existing connections. You can now re-enable them from this tab.\n\nWhen you re-enable a connection, we\'ll issue fresh details where required: a new vIBAN for Buy connections, or a new Bitcoin deposit address for on-chain Sell connections.\n\nYour destination stays the same — your connected wallet or bank account will not change.';
 
   @override
   String get home_connect_status_paused => 'Paused';
@@ -5877,13 +5877,17 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get home_autodecl_body =>
-      'By continuing, you confirm that Bitcoin you buy will normally be sent to wallets you own, and Bitcoin you sell will normally come from wallets you own. We\'ll remember this so you don\'t have to confirm it every time.\\n\\nYou can change this anytime in Settings.';
+      'By continuing, you confirm that Bitcoin you buy will normally be sent to wallets you own, and Bitcoin you sell will normally come from wallets you own. We\'ll remember this so you don\'t have to confirm it every time.\n\nYou can change this anytime in Settings.';
 
   @override
   String get home_action_not_now => 'Not now';
 
   @override
   String get home_autodecl_confirm => 'Confirm and remember';
+
+  @override
+  String get home_autodecl_saved =>
+      'Saved. We\'ll remember your wallet preferences.';
 
   @override
   String get home_needed_passkey_title => 'Protect your account';

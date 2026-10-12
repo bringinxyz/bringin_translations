@@ -9518,7 +9518,7 @@ abstract class BringinTranslations {
   /// No description provided for @kyc_documents_body.
   ///
   /// In en, this message translates to:
-  /// **'You are almost there, next you have to upload the relevant documents for verification.\\nContinue to finish the identification process (usually takes less than 5 minutes) to start using Bringin.'**
+  /// **'You are almost there, next you have to upload the relevant documents for verification.\nContinue to finish the identification process (usually takes less than 5 minutes) to start using Bringin.'**
   String get kyc_documents_body;
 
   /// No description provided for @kyc_action_verify_documents.
@@ -9776,7 +9776,7 @@ abstract class BringinTranslations {
   /// No description provided for @home_connect_reenable_body.
   ///
   /// In en, this message translates to:
-  /// **'Due to new Travel Rule requirements, we had to pause some of your existing connections. You can now re-enable them from this tab.\\n\\nWhen you re-enable a connection, we\'ll issue fresh details where required: a new vIBAN for Buy connections, or a new Bitcoin deposit address for on-chain Sell connections.\\n\\nYour destination stays the same — your connected wallet or bank account will not change.'**
+  /// **'Due to new Travel Rule requirements, we had to pause some of your existing connections. You can now re-enable them from this tab.\n\nWhen you re-enable a connection, we\'ll issue fresh details where required: a new vIBAN for Buy connections, or a new Bitcoin deposit address for on-chain Sell connections.\n\nYour destination stays the same — your connected wallet or bank account will not change.'**
   String get home_connect_reenable_body;
 
   /// No description provided for @home_connect_status_paused.
@@ -10227,7 +10227,7 @@ abstract class BringinTranslations {
   /// No description provided for @home_autodecl_body.
   ///
   /// In en, this message translates to:
-  /// **'By continuing, you confirm that Bitcoin you buy will normally be sent to wallets you own, and Bitcoin you sell will normally come from wallets you own. We\'ll remember this so you don\'t have to confirm it every time.\\n\\nYou can change this anytime in Settings.'**
+  /// **'By continuing, you confirm that Bitcoin you buy will normally be sent to wallets you own, and Bitcoin you sell will normally come from wallets you own. We\'ll remember this so you don\'t have to confirm it every time.\n\nYou can change this anytime in Settings.'**
   String get home_autodecl_body;
 
   /// No description provided for @home_action_not_now.
@@ -10241,6 +10241,12 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Confirm and remember'**
   String get home_autodecl_confirm;
+
+  /// No description provided for @home_autodecl_saved.
+  ///
+  /// In en, this message translates to:
+  /// **'Saved. We\'ll remember your wallet preferences.'**
+  String get home_autodecl_saved;
 
   /// No description provided for @home_needed_passkey_title.
   ///
