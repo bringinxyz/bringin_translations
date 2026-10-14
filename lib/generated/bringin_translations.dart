@@ -14112,6 +14112,12 @@ abstract class BringinTranslations {
   /// **'Continue verification'**
   String get kyc_upgrade_action_continue;
 
+  /// No description provided for @kyc_upgrade_action_start.
+  ///
+  /// In en, this message translates to:
+  /// **'Start verification'**
+  String get kyc_upgrade_action_start;
+
   /// No description provided for @kyc_upgrade_action_resubmit.
   ///
   /// In en, this message translates to:

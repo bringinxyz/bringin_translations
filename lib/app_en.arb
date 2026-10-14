@@ -4900,6 +4900,7 @@
   },
   "kyc_upgrade_action_increase": "Increase limit",
   "kyc_upgrade_action_continue": "Continue verification",
+  "kyc_upgrade_action_start": "Start verification",
   "kyc_upgrade_action_resubmit": "Resubmit documents",
   "kyc_upgrade_action_support": "Contact support",
   "kyc_upgrade_sheet_title": "Increase your limits",
