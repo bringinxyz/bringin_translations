@@ -8176,6 +8176,9 @@ class BringinTranslationsEn extends BringinTranslations {
   String get kyc_upgrade_action_continue => 'Continue verification';
 
   @override
+  String get kyc_upgrade_action_start => 'Start verification';
+
+  @override
   String get kyc_upgrade_action_resubmit => 'Resubmit documents';
 
   @override
