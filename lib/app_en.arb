@@ -4816,5 +4816,121 @@
   "send_reference_error_length": "Use 5 to 15 characters, or leave it empty.",
   "send_error_recipient_not_ready": "This recipient isn't ready to be paid yet. Please try again in a few minutes.",
   "beneficiary_third_party_locked": "A recipient's bank details and name can't be changed. To pay a different account, add a new recipient.",
-  "exception_beneficiary_details_locked": "You can't change this recipient's bank details or name. Add a new recipient instead."
+  "exception_beneficiary_details_locked": "You can't change this recipient's bank details or name. Add a new recipient instead.",
+  "profile_kyc_limit_row_month": "{label} of {limit} this month",
+  "@profile_kyc_limit_row_month": {
+    "description": "Monthly limit row. Shown after the bold amount, e.g. \"€2 400 withdrawn of €10k this month\".",
+    "placeholders": {
+      "label": {
+        "type": "String",
+        "example": "withdrawn"
+      },
+      "limit": {
+        "type": "String",
+        "example": "€10k"
+      }
+    }
+  },
+  "profile_kyc_limit_row_total": "{label} of {limit} total",
+  "@profile_kyc_limit_row_total": {
+    "description": "Lifetime crypto deposit limit row (Tier 1). Never \"per month\".",
+    "placeholders": {
+      "label": {
+        "type": "String",
+        "example": "deposited"
+      },
+      "limit": {
+        "type": "String",
+        "example": "€15k"
+      }
+    }
+  },
+  "profile_kyc_limit_label_withdrawn": "withdrawn",
+  "profile_kyc_limit_label_deposited": "deposited",
+  "profile_kyc_no_deposit_limit": "No deposit limit",
+  "profile_kyc_banner_tier1_total": "Withdrawals reset every month. Crypto deposits count towards a total limit.",
+  "profile_kyc_banner_near_deposit_limit": "You’re close to your deposit limit. Increase your limits to keep depositing.",
+  "kyc_upgrade_near_title": "You’re close to your deposit limit",
+  "kyc_upgrade_near_body": "Verify a few more details to remove the deposit limit and raise your withdrawal limits.",
+  "kyc_upgrade_required_title": "A quick verification step",
+  "kyc_upgrade_required_body": "Please complete a short verification to keep your account running smoothly. It takes a few minutes, and your account keeps working meanwhile.",
+  "kyc_upgrade_required_body_date": "Please complete a short verification by {date} to keep your account running smoothly. It takes a few minutes, and your account keeps working meanwhile.",
+  "@kyc_upgrade_required_body_date": {
+    "description": "Striga asked for Tier 2. Never mention limits here; always the real deadline date.",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "12 November"
+      }
+    }
+  },
+  "kyc_upgrade_continue_title": "Finish your verification",
+  "kyc_upgrade_continue_body": "Pick up where you left off.",
+  "kyc_upgrade_continue_body_date": "Pick up where you left off. Please complete it by {date}.",
+  "@kyc_upgrade_continue_body_date": {
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "12 November"
+      }
+    }
+  },
+  "kyc_upgrade_review_title": "Verification under review",
+  "kyc_upgrade_review_body": "We’ve got your documents and are reviewing them. Your account keeps working in the meantime.",
+  "kyc_upgrade_resubmit_title": "Verification could not be approved",
+  "kyc_upgrade_resubmit_body": "Some details need another look. Check them and resubmit.",
+  "kyc_upgrade_support_title": "Contact support to continue",
+  "kyc_upgrade_support_body": "We can’t continue this verification online. Email us at {email} and we’ll help you.",
+  "@kyc_upgrade_support_body": {
+    "placeholders": {
+      "email": {
+        "type": "String",
+        "example": "support@bringin.xyz"
+      }
+    }
+  },
+  "kyc_upgrade_expired_body": "Your account is paused because the verification wasn’t completed in time. Email us at {email} and we’ll help you.",
+  "@kyc_upgrade_expired_body": {
+    "placeholders": {
+      "email": {
+        "type": "String",
+        "example": "support@bringin.xyz"
+      }
+    }
+  },
+  "kyc_upgrade_action_increase": "Increase limit",
+  "kyc_upgrade_action_continue": "Continue verification",
+  "kyc_upgrade_action_resubmit": "Resubmit documents",
+  "kyc_upgrade_action_support": "Contact support",
+  "kyc_upgrade_sheet_title": "Increase your limits",
+  "kyc_upgrade_sheet_intro": "A standard verification step as your account grows. It takes a few minutes.",
+  "kyc_upgrade_sheet_intro_date": "Please complete this by {date}. Your account keeps working in the meantime.",
+  "@kyc_upgrade_sheet_intro_date": {
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "12 November"
+      }
+    }
+  },
+  "kyc_upgrade_sheet_poa_title": "Proof of address",
+  "kyc_upgrade_sheet_poa_body": "A utility bill or a bank or payment statement in your name, issued in the last 3 months. Mobile phone bills and screenshots are not accepted.",
+  "kyc_upgrade_sheet_sof_title": "Source of funds",
+  "kyc_upgrade_sheet_sof_body": "For example payslips, tax returns, bank statements or proof of your crypto purchases.",
+  "kyc_upgrade_sheet_outcome": "Once approved, your deposit limit is removed and your withdrawal limits go up.",
+  "kyc_upgrade_sheet_learn_more": "Learn more about limits",
+  "kyc_upgrade_sheet_cta": "Increase limits",
+  "kyc_upgrade_sheet_not_now": "Not now",
+  "kyc_row_required_title": "A quick verification step",
+  "kyc_row_deadline": "Please complete it by {date}",
+  "@kyc_row_deadline": {
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "12 November"
+      }
+    }
+  },
+  "kyc_row_expired_title": "Your account is paused",
+  "kyc_row_expired_subtitle": "Contact support to restore it"
 }

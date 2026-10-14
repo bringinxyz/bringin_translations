@@ -13967,6 +13967,252 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'You can\'t change this recipient\'s bank details or name. Add a new recipient instead.'**
   String get exception_beneficiary_details_locked;
+
+  /// Monthly limit row. Shown after the bold amount, e.g. "€2 400 withdrawn of €10k this month".
+  ///
+  /// In en, this message translates to:
+  /// **'{label} of {limit} this month'**
+  String profile_kyc_limit_row_month(String label, String limit);
+
+  /// Lifetime crypto deposit limit row (Tier 1). Never "per month".
+  ///
+  /// In en, this message translates to:
+  /// **'{label} of {limit} total'**
+  String profile_kyc_limit_row_total(String label, String limit);
+
+  /// No description provided for @profile_kyc_limit_label_withdrawn.
+  ///
+  /// In en, this message translates to:
+  /// **'withdrawn'**
+  String get profile_kyc_limit_label_withdrawn;
+
+  /// No description provided for @profile_kyc_limit_label_deposited.
+  ///
+  /// In en, this message translates to:
+  /// **'deposited'**
+  String get profile_kyc_limit_label_deposited;
+
+  /// No description provided for @profile_kyc_no_deposit_limit.
+  ///
+  /// In en, this message translates to:
+  /// **'No deposit limit'**
+  String get profile_kyc_no_deposit_limit;
+
+  /// No description provided for @profile_kyc_banner_tier1_total.
+  ///
+  /// In en, this message translates to:
+  /// **'Withdrawals reset every month. Crypto deposits count towards a total limit.'**
+  String get profile_kyc_banner_tier1_total;
+
+  /// No description provided for @profile_kyc_banner_near_deposit_limit.
+  ///
+  /// In en, this message translates to:
+  /// **'You’re close to your deposit limit. Increase your limits to keep depositing.'**
+  String get profile_kyc_banner_near_deposit_limit;
+
+  /// No description provided for @kyc_upgrade_near_title.
+  ///
+  /// In en, this message translates to:
+  /// **'You’re close to your deposit limit'**
+  String get kyc_upgrade_near_title;
+
+  /// No description provided for @kyc_upgrade_near_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify a few more details to remove the deposit limit and raise your withdrawal limits.'**
+  String get kyc_upgrade_near_body;
+
+  /// No description provided for @kyc_upgrade_required_title.
+  ///
+  /// In en, this message translates to:
+  /// **'A quick verification step'**
+  String get kyc_upgrade_required_title;
+
+  /// No description provided for @kyc_upgrade_required_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Please complete a short verification to keep your account running smoothly. It takes a few minutes, and your account keeps working meanwhile.'**
+  String get kyc_upgrade_required_body;
+
+  /// Striga asked for Tier 2. Never mention limits here; always the real deadline date.
+  ///
+  /// In en, this message translates to:
+  /// **'Please complete a short verification by {date} to keep your account running smoothly. It takes a few minutes, and your account keeps working meanwhile.'**
+  String kyc_upgrade_required_body_date(String date);
+
+  /// No description provided for @kyc_upgrade_continue_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Finish your verification'**
+  String get kyc_upgrade_continue_title;
+
+  /// No description provided for @kyc_upgrade_continue_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Pick up where you left off.'**
+  String get kyc_upgrade_continue_body;
+
+  /// No description provided for @kyc_upgrade_continue_body_date.
+  ///
+  /// In en, this message translates to:
+  /// **'Pick up where you left off. Please complete it by {date}.'**
+  String kyc_upgrade_continue_body_date(String date);
+
+  /// No description provided for @kyc_upgrade_review_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification under review'**
+  String get kyc_upgrade_review_title;
+
+  /// No description provided for @kyc_upgrade_review_body.
+  ///
+  /// In en, this message translates to:
+  /// **'We’ve got your documents and are reviewing them. Your account keeps working in the meantime.'**
+  String get kyc_upgrade_review_body;
+
+  /// No description provided for @kyc_upgrade_resubmit_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification could not be approved'**
+  String get kyc_upgrade_resubmit_title;
+
+  /// No description provided for @kyc_upgrade_resubmit_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Some details need another look. Check them and resubmit.'**
+  String get kyc_upgrade_resubmit_body;
+
+  /// No description provided for @kyc_upgrade_support_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact support to continue'**
+  String get kyc_upgrade_support_title;
+
+  /// No description provided for @kyc_upgrade_support_body.
+  ///
+  /// In en, this message translates to:
+  /// **'We can’t continue this verification online. Email us at {email} and we’ll help you.'**
+  String kyc_upgrade_support_body(String email);
+
+  /// No description provided for @kyc_upgrade_expired_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Your account is paused because the verification wasn’t completed in time. Email us at {email} and we’ll help you.'**
+  String kyc_upgrade_expired_body(String email);
+
+  /// No description provided for @kyc_upgrade_action_increase.
+  ///
+  /// In en, this message translates to:
+  /// **'Increase limit'**
+  String get kyc_upgrade_action_increase;
+
+  /// No description provided for @kyc_upgrade_action_continue.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue verification'**
+  String get kyc_upgrade_action_continue;
+
+  /// No description provided for @kyc_upgrade_action_resubmit.
+  ///
+  /// In en, this message translates to:
+  /// **'Resubmit documents'**
+  String get kyc_upgrade_action_resubmit;
+
+  /// No description provided for @kyc_upgrade_action_support.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact support'**
+  String get kyc_upgrade_action_support;
+
+  /// No description provided for @kyc_upgrade_sheet_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Increase your limits'**
+  String get kyc_upgrade_sheet_title;
+
+  /// No description provided for @kyc_upgrade_sheet_intro.
+  ///
+  /// In en, this message translates to:
+  /// **'A standard verification step as your account grows. It takes a few minutes.'**
+  String get kyc_upgrade_sheet_intro;
+
+  /// No description provided for @kyc_upgrade_sheet_intro_date.
+  ///
+  /// In en, this message translates to:
+  /// **'Please complete this by {date}. Your account keeps working in the meantime.'**
+  String kyc_upgrade_sheet_intro_date(String date);
+
+  /// No description provided for @kyc_upgrade_sheet_poa_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Proof of address'**
+  String get kyc_upgrade_sheet_poa_title;
+
+  /// No description provided for @kyc_upgrade_sheet_poa_body.
+  ///
+  /// In en, this message translates to:
+  /// **'A utility bill or a bank or payment statement in your name, issued in the last 3 months. Mobile phone bills and screenshots are not accepted.'**
+  String get kyc_upgrade_sheet_poa_body;
+
+  /// No description provided for @kyc_upgrade_sheet_sof_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Source of funds'**
+  String get kyc_upgrade_sheet_sof_title;
+
+  /// No description provided for @kyc_upgrade_sheet_sof_body.
+  ///
+  /// In en, this message translates to:
+  /// **'For example payslips, tax returns, bank statements or proof of your crypto purchases.'**
+  String get kyc_upgrade_sheet_sof_body;
+
+  /// No description provided for @kyc_upgrade_sheet_outcome.
+  ///
+  /// In en, this message translates to:
+  /// **'Once approved, your deposit limit is removed and your withdrawal limits go up.'**
+  String get kyc_upgrade_sheet_outcome;
+
+  /// No description provided for @kyc_upgrade_sheet_learn_more.
+  ///
+  /// In en, this message translates to:
+  /// **'Learn more about limits'**
+  String get kyc_upgrade_sheet_learn_more;
+
+  /// No description provided for @kyc_upgrade_sheet_cta.
+  ///
+  /// In en, this message translates to:
+  /// **'Increase limits'**
+  String get kyc_upgrade_sheet_cta;
+
+  /// No description provided for @kyc_upgrade_sheet_not_now.
+  ///
+  /// In en, this message translates to:
+  /// **'Not now'**
+  String get kyc_upgrade_sheet_not_now;
+
+  /// No description provided for @kyc_row_required_title.
+  ///
+  /// In en, this message translates to:
+  /// **'A quick verification step'**
+  String get kyc_row_required_title;
+
+  /// No description provided for @kyc_row_deadline.
+  ///
+  /// In en, this message translates to:
+  /// **'Please complete it by {date}'**
+  String kyc_row_deadline(String date);
+
+  /// No description provided for @kyc_row_expired_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Your account is paused'**
+  String get kyc_row_expired_title;
+
+  /// No description provided for @kyc_row_expired_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact support to restore it'**
+  String get kyc_row_expired_subtitle;
 }
 
 class _BringinTranslationsDelegate

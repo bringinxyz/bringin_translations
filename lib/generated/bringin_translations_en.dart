@@ -8080,4 +8080,153 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get exception_beneficiary_details_locked =>
       'You can\'t change this recipient\'s bank details or name. Add a new recipient instead.';
+
+  @override
+  String profile_kyc_limit_row_month(String label, String limit) {
+    return '$label of $limit this month';
+  }
+
+  @override
+  String profile_kyc_limit_row_total(String label, String limit) {
+    return '$label of $limit total';
+  }
+
+  @override
+  String get profile_kyc_limit_label_withdrawn => 'withdrawn';
+
+  @override
+  String get profile_kyc_limit_label_deposited => 'deposited';
+
+  @override
+  String get profile_kyc_no_deposit_limit => 'No deposit limit';
+
+  @override
+  String get profile_kyc_banner_tier1_total =>
+      'Withdrawals reset every month. Crypto deposits count towards a total limit.';
+
+  @override
+  String get profile_kyc_banner_near_deposit_limit =>
+      'You’re close to your deposit limit. Increase your limits to keep depositing.';
+
+  @override
+  String get kyc_upgrade_near_title => 'You’re close to your deposit limit';
+
+  @override
+  String get kyc_upgrade_near_body =>
+      'Verify a few more details to remove the deposit limit and raise your withdrawal limits.';
+
+  @override
+  String get kyc_upgrade_required_title => 'A quick verification step';
+
+  @override
+  String get kyc_upgrade_required_body =>
+      'Please complete a short verification to keep your account running smoothly. It takes a few minutes, and your account keeps working meanwhile.';
+
+  @override
+  String kyc_upgrade_required_body_date(String date) {
+    return 'Please complete a short verification by $date to keep your account running smoothly. It takes a few minutes, and your account keeps working meanwhile.';
+  }
+
+  @override
+  String get kyc_upgrade_continue_title => 'Finish your verification';
+
+  @override
+  String get kyc_upgrade_continue_body => 'Pick up where you left off.';
+
+  @override
+  String kyc_upgrade_continue_body_date(String date) {
+    return 'Pick up where you left off. Please complete it by $date.';
+  }
+
+  @override
+  String get kyc_upgrade_review_title => 'Verification under review';
+
+  @override
+  String get kyc_upgrade_review_body =>
+      'We’ve got your documents and are reviewing them. Your account keeps working in the meantime.';
+
+  @override
+  String get kyc_upgrade_resubmit_title => 'Verification could not be approved';
+
+  @override
+  String get kyc_upgrade_resubmit_body =>
+      'Some details need another look. Check them and resubmit.';
+
+  @override
+  String get kyc_upgrade_support_title => 'Contact support to continue';
+
+  @override
+  String kyc_upgrade_support_body(String email) {
+    return 'We can’t continue this verification online. Email us at $email and we’ll help you.';
+  }
+
+  @override
+  String kyc_upgrade_expired_body(String email) {
+    return 'Your account is paused because the verification wasn’t completed in time. Email us at $email and we’ll help you.';
+  }
+
+  @override
+  String get kyc_upgrade_action_increase => 'Increase limit';
+
+  @override
+  String get kyc_upgrade_action_continue => 'Continue verification';
+
+  @override
+  String get kyc_upgrade_action_resubmit => 'Resubmit documents';
+
+  @override
+  String get kyc_upgrade_action_support => 'Contact support';
+
+  @override
+  String get kyc_upgrade_sheet_title => 'Increase your limits';
+
+  @override
+  String get kyc_upgrade_sheet_intro =>
+      'A standard verification step as your account grows. It takes a few minutes.';
+
+  @override
+  String kyc_upgrade_sheet_intro_date(String date) {
+    return 'Please complete this by $date. Your account keeps working in the meantime.';
+  }
+
+  @override
+  String get kyc_upgrade_sheet_poa_title => 'Proof of address';
+
+  @override
+  String get kyc_upgrade_sheet_poa_body =>
+      'A utility bill or a bank or payment statement in your name, issued in the last 3 months. Mobile phone bills and screenshots are not accepted.';
+
+  @override
+  String get kyc_upgrade_sheet_sof_title => 'Source of funds';
+
+  @override
+  String get kyc_upgrade_sheet_sof_body =>
+      'For example payslips, tax returns, bank statements or proof of your crypto purchases.';
+
+  @override
+  String get kyc_upgrade_sheet_outcome =>
+      'Once approved, your deposit limit is removed and your withdrawal limits go up.';
+
+  @override
+  String get kyc_upgrade_sheet_learn_more => 'Learn more about limits';
+
+  @override
+  String get kyc_upgrade_sheet_cta => 'Increase limits';
+
+  @override
+  String get kyc_upgrade_sheet_not_now => 'Not now';
+
+  @override
+  String get kyc_row_required_title => 'A quick verification step';
+
+  @override
+  String kyc_row_deadline(String date) {
+    return 'Please complete it by $date';
+  }
+
+  @override
+  String get kyc_row_expired_title => 'Your account is paused';
+
+  @override
+  String get kyc_row_expired_subtitle => 'Contact support to restore it';
 }
