@@ -4030,7 +4030,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get profile_kyc_banner_tier2 =>
-      'You’re on Tier 2 for your Euro and card accounts. You can increase your limits anytime.';
+      'You’re on Tier 2 for your Euro and card accounts. Deposits are unlimited, and you can ask for a higher withdrawal limit anytime.';
 
   @override
   String get profile_kyc_banner_reaching =>
@@ -4059,7 +4059,7 @@ class BringinTranslationsEn extends BringinTranslations {
       'Complete additional verification for unlocking higher limits.';
 
   @override
-  String get profile_kyc_action_unlock => 'Unlock higher limits';
+  String get profile_kyc_action_unlock => 'Request a higher withdrawal limit';
 
   @override
   String get profile_kyc_btc_not_applicable =>
@@ -4070,7 +4070,7 @@ class BringinTranslationsEn extends BringinTranslations {
       'No deposit limits on your Bitcoin wallet. It’s self-custodied, which means it’s outside our limits.';
 
   @override
-  String get profile_kyc_increase_title => 'Increase your limits';
+  String get profile_kyc_increase_title => 'Request a higher withdrawal limit';
 
   @override
   String get profile_kyc_increase_note =>
@@ -4102,7 +4102,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get profile_kyc_choose_limit =>
-      'Choose your monthly transaction limit. An account manager will contact you shortly.';
+      'Choose the monthly withdrawal limit you need. An account manager will contact you shortly.';
 
   @override
   String get profile_kyc_action_notify => 'Notify manager';
@@ -4112,7 +4112,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get profile_kyc_notified_body =>
-      'We’ve received your request to increase your monthly transaction limits. Your account manager will email you shortly with an update. For any questions, contact ';
+      'We’ve received your request to increase your monthly withdrawal limit. Your account manager will email you shortly with an update. For any questions, contact ';
 
   @override
   String get profile_pro_title => 'Bringin Pro';
@@ -8098,7 +8098,7 @@ class BringinTranslationsEn extends BringinTranslations {
   String get profile_kyc_limit_label_deposited => 'deposited';
 
   @override
-  String get profile_kyc_no_deposit_limit => 'No deposit limit';
+  String get profile_kyc_no_deposit_limit => 'Unlimited deposits on Tier 2';
 
   @override
   String get profile_kyc_banner_tier1_total =>

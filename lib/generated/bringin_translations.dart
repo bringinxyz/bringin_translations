@@ -6992,7 +6992,7 @@ abstract class BringinTranslations {
   /// No description provided for @profile_kyc_banner_tier2.
   ///
   /// In en, this message translates to:
-  /// **'You’re on Tier 2 for your Euro and card accounts. You can increase your limits anytime.'**
+  /// **'You’re on Tier 2 for your Euro and card accounts. Deposits are unlimited, and you can ask for a higher withdrawal limit anytime.'**
   String get profile_kyc_banner_tier2;
 
   /// No description provided for @profile_kyc_banner_reaching.
@@ -7034,7 +7034,7 @@ abstract class BringinTranslations {
   /// No description provided for @profile_kyc_action_unlock.
   ///
   /// In en, this message translates to:
-  /// **'Unlock higher limits'**
+  /// **'Request a higher withdrawal limit'**
   String get profile_kyc_action_unlock;
 
   /// No description provided for @profile_kyc_btc_not_applicable.
@@ -7052,7 +7052,7 @@ abstract class BringinTranslations {
   /// No description provided for @profile_kyc_increase_title.
   ///
   /// In en, this message translates to:
-  /// **'Increase your limits'**
+  /// **'Request a higher withdrawal limit'**
   String get profile_kyc_increase_title;
 
   /// No description provided for @profile_kyc_increase_note.
@@ -7106,7 +7106,7 @@ abstract class BringinTranslations {
   /// No description provided for @profile_kyc_choose_limit.
   ///
   /// In en, this message translates to:
-  /// **'Choose your monthly transaction limit. An account manager will contact you shortly.'**
+  /// **'Choose the monthly withdrawal limit you need. An account manager will contact you shortly.'**
   String get profile_kyc_choose_limit;
 
   /// No description provided for @profile_kyc_action_notify.
@@ -7124,7 +7124,7 @@ abstract class BringinTranslations {
   /// No description provided for @profile_kyc_notified_body.
   ///
   /// In en, this message translates to:
-  /// **'We’ve received your request to increase your monthly transaction limits. Your account manager will email you shortly with an update. For any questions, contact '**
+  /// **'We’ve received your request to increase your monthly withdrawal limit. Your account manager will email you shortly with an update. For any questions, contact '**
   String get profile_kyc_notified_body;
 
   /// No description provided for @profile_pro_title.
@@ -13995,7 +13995,7 @@ abstract class BringinTranslations {
   /// No description provided for @profile_kyc_no_deposit_limit.
   ///
   /// In en, this message translates to:
-  /// **'No deposit limit'**
+  /// **'Unlimited deposits on Tier 2'**
   String get profile_kyc_no_deposit_limit;
 
   /// No description provided for @profile_kyc_banner_tier1_total.
