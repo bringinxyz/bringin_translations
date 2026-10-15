@@ -14130,6 +14130,126 @@ abstract class BringinTranslations {
   /// **'Contact support'**
   String get kyc_upgrade_action_support;
 
+  /// No description provided for @kyc_limit_section_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Your limit'**
+  String get kyc_limit_section_title;
+
+  /// No description provided for @kyc_limit_can_move.
+  ///
+  /// In en, this message translates to:
+  /// **'You can move'**
+  String get kyc_limit_can_move;
+
+  /// No description provided for @kyc_limit_this_month.
+  ///
+  /// In en, this message translates to:
+  /// **'this month'**
+  String get kyc_limit_this_month;
+
+  /// Under the one 'You can move €X' number: deposits and withdrawals share one limit (bringin-core kyc-single-movement-limit-plan.md).
+  ///
+  /// In en, this message translates to:
+  /// **'How much you can deposit and withdraw right now.'**
+  String get kyc_limit_caption;
+
+  /// No description provided for @kyc_limit_none.
+  ///
+  /// In en, this message translates to:
+  /// **'Your limit appears here once verification is complete.'**
+  String get kyc_limit_none;
+
+  /// No description provided for @kyc_limit_notes_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Good to know'**
+  String get kyc_limit_notes_title;
+
+  /// No description provided for @kyc_limit_note_shared.
+  ///
+  /// In en, this message translates to:
+  /// **'Deposits and withdrawals share this amount, so money you bring in can always go out again.'**
+  String get kyc_limit_note_shared;
+
+  /// No description provided for @kyc_limit_note_card.
+  ///
+  /// In en, this message translates to:
+  /// **'Card payments count towards it too.'**
+  String get kyc_limit_note_card;
+
+  /// No description provided for @kyc_limit_note_existing.
+  ///
+  /// In en, this message translates to:
+  /// **'Money already in your account is separate, but withdrawing it also uses this amount.'**
+  String get kyc_limit_note_existing;
+
+  /// No description provided for @kyc_limit_note_monthly.
+  ///
+  /// In en, this message translates to:
+  /// **'It goes back up next month.'**
+  String get kyc_limit_note_monthly;
+
+  /// No description provided for @kyc_limit_note_total.
+  ///
+  /// In en, this message translates to:
+  /// **'Crypto deposits count towards a total that doesn’t reset.'**
+  String get kyc_limit_note_total;
+
+  /// No description provided for @kyc_limit_note_verify.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify your account to raise it.'**
+  String get kyc_limit_note_verify;
+
+  /// No description provided for @kyc_limit_near_title.
+  ///
+  /// In en, this message translates to:
+  /// **'You’re close to your limit'**
+  String get kyc_limit_near_title;
+
+  /// No description provided for @kyc_limit_near_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify a few more details to raise it.'**
+  String get kyc_limit_near_body;
+
+  /// No description provided for @kyc_limit_reached_title.
+  ///
+  /// In en, this message translates to:
+  /// **'You’ve reached your limit'**
+  String get kyc_limit_reached_title;
+
+  /// No description provided for @kyc_limit_reached_monthly_verify.
+  ///
+  /// In en, this message translates to:
+  /// **'It goes back up next month. Verify your account to raise it now.'**
+  String get kyc_limit_reached_monthly_verify;
+
+  /// No description provided for @kyc_limit_reached_monthly.
+  ///
+  /// In en, this message translates to:
+  /// **'It goes back up next month.'**
+  String get kyc_limit_reached_monthly;
+
+  /// No description provided for @kyc_limit_reached_total.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify your account to keep depositing and withdrawing.'**
+  String get kyc_limit_reached_total;
+
+  /// bringin-core 1117: the amount is more than the user can move right now.
+  ///
+  /// In en, this message translates to:
+  /// **'You can move up to {amount} right now. Try a smaller amount.'**
+  String kyc_limit_error_left(String amount);
+
+  /// No description provided for @kyc_limit_error_reached.
+  ///
+  /// In en, this message translates to:
+  /// **'You’ve reached your limit. Verify your account to keep depositing and withdrawing.'**
+  String get kyc_limit_error_reached;
+
   /// No description provided for @kyc_upgrade_sheet_title.
   ///
   /// In en, this message translates to:

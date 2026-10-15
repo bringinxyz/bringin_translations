@@ -4903,6 +4903,38 @@
   "kyc_upgrade_action_start": "Start verification",
   "kyc_upgrade_action_resubmit": "Resubmit documents",
   "kyc_upgrade_action_support": "Contact support",
+  "kyc_limit_section_title": "Your limit",
+  "kyc_limit_can_move": "You can move",
+  "kyc_limit_this_month": "this month",
+  "kyc_limit_caption": "How much you can deposit and withdraw right now.",
+  "@kyc_limit_caption": {
+    "description": "Under the one 'You can move €X' number: deposits and withdrawals share one limit (bringin-core kyc-single-movement-limit-plan.md)."
+  },
+  "kyc_limit_none": "Your limit appears here once verification is complete.",
+  "kyc_limit_notes_title": "Good to know",
+  "kyc_limit_note_shared": "Deposits and withdrawals share this amount, so money you bring in can always go out again.",
+  "kyc_limit_note_card": "Card payments count towards it too.",
+  "kyc_limit_note_existing": "Money already in your account is separate, but withdrawing it also uses this amount.",
+  "kyc_limit_note_monthly": "It goes back up next month.",
+  "kyc_limit_note_total": "Crypto deposits count towards a total that doesn’t reset.",
+  "kyc_limit_note_verify": "Verify your account to raise it.",
+  "kyc_limit_near_title": "You’re close to your limit",
+  "kyc_limit_near_body": "Verify a few more details to raise it.",
+  "kyc_limit_reached_title": "You’ve reached your limit",
+  "kyc_limit_reached_monthly_verify": "It goes back up next month. Verify your account to raise it now.",
+  "kyc_limit_reached_monthly": "It goes back up next month.",
+  "kyc_limit_reached_total": "Verify your account to keep depositing and withdrawing.",
+  "kyc_limit_error_left": "You can move up to {amount} right now. Try a smaller amount.",
+  "@kyc_limit_error_left": {
+    "description": "bringin-core 1117: the amount is more than the user can move right now.",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "€3 000,00"
+      }
+    }
+  },
+  "kyc_limit_error_reached": "You’ve reached your limit. Verify your account to keep depositing and withdrawing.",
   "kyc_upgrade_sheet_title": "Increase your limits",
   "kyc_upgrade_sheet_intro": "A standard verification step as your account grows. It takes a few minutes.",
   "kyc_upgrade_sheet_intro_date": "Please complete this by {date}. Your account keeps working in the meantime.",

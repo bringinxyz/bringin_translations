@@ -8181,6 +8181,76 @@ class BringinTranslationsEn extends BringinTranslations {
   String get kyc_upgrade_action_support => 'Contact support';
 
   @override
+  String get kyc_limit_section_title => 'Your limit';
+
+  @override
+  String get kyc_limit_can_move => 'You can move';
+
+  @override
+  String get kyc_limit_this_month => 'this month';
+
+  @override
+  String get kyc_limit_caption =>
+      'How much you can deposit and withdraw right now.';
+
+  @override
+  String get kyc_limit_none =>
+      'Your limit appears here once verification is complete.';
+
+  @override
+  String get kyc_limit_notes_title => 'Good to know';
+
+  @override
+  String get kyc_limit_note_shared =>
+      'Deposits and withdrawals share this amount, so money you bring in can always go out again.';
+
+  @override
+  String get kyc_limit_note_card => 'Card payments count towards it too.';
+
+  @override
+  String get kyc_limit_note_existing =>
+      'Money already in your account is separate, but withdrawing it also uses this amount.';
+
+  @override
+  String get kyc_limit_note_monthly => 'It goes back up next month.';
+
+  @override
+  String get kyc_limit_note_total =>
+      'Crypto deposits count towards a total that doesn’t reset.';
+
+  @override
+  String get kyc_limit_note_verify => 'Verify your account to raise it.';
+
+  @override
+  String get kyc_limit_near_title => 'You’re close to your limit';
+
+  @override
+  String get kyc_limit_near_body => 'Verify a few more details to raise it.';
+
+  @override
+  String get kyc_limit_reached_title => 'You’ve reached your limit';
+
+  @override
+  String get kyc_limit_reached_monthly_verify =>
+      'It goes back up next month. Verify your account to raise it now.';
+
+  @override
+  String get kyc_limit_reached_monthly => 'It goes back up next month.';
+
+  @override
+  String get kyc_limit_reached_total =>
+      'Verify your account to keep depositing and withdrawing.';
+
+  @override
+  String kyc_limit_error_left(String amount) {
+    return 'You can move up to $amount right now. Try a smaller amount.';
+  }
+
+  @override
+  String get kyc_limit_error_reached =>
+      'You’ve reached your limit. Verify your account to keep depositing and withdrawing.';
+
+  @override
   String get kyc_upgrade_sheet_title => 'Increase your limits';
 
   @override
