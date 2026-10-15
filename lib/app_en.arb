@@ -240,6 +240,21 @@
   "home_accounts_balance_update_failed": "We couldn't update your balance. The amount shown may not be current.",
   "home_accounts_balance_fetch_failed": "We couldn't fetch your balance.",
   "home_accounts_balance_retry": "Retry",
+  "home_accounts_euro_ready_to_spend": "Ready to spend",
+  "home_greeting_morning": "Good morning",
+  "home_greeting_afternoon": "Good afternoon",
+  "home_greeting_evening": "Good evening",
+  "home_greeting_welcome_back": "Welcome back {name}",
+  "@home_greeting_welcome_back": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "home_greeting_welcome_back_anonymous": "Welcome back",
+  "home_connect_banner_title": "Get paid in Euros, receive Bitcoin",
+  "home_connect_banner_action": "Bringin Connect",
   "home_accounts_sca_session_expired": "Your secure session expired. Verify again to update your balance.",
   "home_accounts_sca_session_verify": "Verify",
   "home_accounts_transactions_in_progress": "{count, plural, =1{1 transaction in progress} other{{count} transactions in progress}}",
@@ -354,6 +369,25 @@
   "login_action_forgot_password": "Forgot password?",
   "login_action_log_in": "Log in",
   "login_title": "Log in",
+  "onboarding_action_register": "Register",
+  "register_email_title": "Enter your email address",
+  "register_terms_prefix": "By registering, you accept our ",
+  "register_terms_link": "Terms of Use",
+  "register_terms_separator": " and ",
+  "register_privacy_link": "Privacy Policy",
+  "register_terms_suffix": ".",
+  "register_error_email_exists": "An account with this email already exists.",
+  "login_action_email_code": "Sign in with an email code instead",
+  "login_action_passkey": "Log in with a passkey",
+  "login_divider_or_short": "Or",
+  "login_error_invalid_credentials": "Incorrect email or password. You can also sign in with an email code.",
+  "login_passkey_error_no_credential": "No passkey for this account on this device. Log in with your email and password.",
+  "login_passkey_error_not_finished": "Passkey sign-in did not finish. Please try again.",
+  "login_passkey_error_no_challenge": "No passkey challenge was returned. Please log in with your password.",
+  "login_email_code_title": "Sign in with an email code",
+  "login_email_code_body": "We’ll email you a one-time code. No password needed.",
+  "login_email_code_submit": "Email me a code",
+  "login_email_code_no_account": "No account found for this email.",
   "account_locked_title": "Account locked",
   "account_suspended_title": "Account suspended",
   "account_locked_try_again_in": "Try again in {duration}",
@@ -1827,7 +1861,7 @@
   "profile_export_error_cancelled": "Export cancelled — please try again.",
   "profile_kyc_title": "KYC and limits",
   "profile_kyc_section_deposit_limits": "Deposit limits",
-  "profile_kyc_banner_tier2": "You’re on Tier 2 for your Euro and card accounts. You can increase your limits anytime.",
+  "profile_kyc_banner_tier2": "You’re on Tier 2 for your Euro and card accounts. Deposits are unlimited, and you can ask for a higher withdrawal limit anytime.",
   "profile_kyc_banner_reaching": "You are reaching the limits for your Euro account and Card balance account.",
   "profile_kyc_banner_tier1": "You are on tier 1 for your Euro account and Card balance account.",
   "profile_kyc_tier_label": "You are on Tier {tier}",
@@ -1854,10 +1888,10 @@
   },
   "profile_kyc_approaching": "You’re approaching your transaction limits. Complete additional verification to unlock higher limits.",
   "profile_kyc_complete_verification": "Complete additional verification for unlocking higher limits.",
-  "profile_kyc_action_unlock": "Unlock higher limits",
+  "profile_kyc_action_unlock": "Request a higher withdrawal limit",
   "profile_kyc_btc_not_applicable": "Not applicable to Bitcoin wallet",
   "profile_kyc_btc_no_limits": "No deposit limits on your Bitcoin wallet. It’s self-custodied, which means it’s outside our limits.",
-  "profile_kyc_increase_title": "Increase your limits",
+  "profile_kyc_increase_title": "Request a higher withdrawal limit",
   "profile_kyc_increase_note": "Please note that once you start the next tier of KYC, you must complete it within 30 days.",
   "profile_kyc_increase_prepare": "Keep your proof of address ready and provide details on your source of funds.",
   "profile_kyc_email_prefix": "Email us at ",
@@ -1866,10 +1900,10 @@
   "profile_kyc_band_500k_1m": "From €500K to €1M",
   "profile_kyc_band_above_1m": "Above €1M",
   "profile_kyc_review_pending": "Your request is being reviewed — an account manager will be in touch shortly.",
-  "profile_kyc_choose_limit": "Choose your monthly transaction limit. An account manager will contact you shortly.",
+  "profile_kyc_choose_limit": "Choose the monthly withdrawal limit you need. An account manager will contact you shortly.",
   "profile_kyc_action_notify": "Notify manager",
   "profile_kyc_notified_title": "Notification received!",
-  "profile_kyc_notified_body": "We’ve received your request to increase your monthly transaction limits. Your account manager will email you shortly with an update. For any questions, contact ",
+  "profile_kyc_notified_body": "We’ve received your request to increase your monthly withdrawal limit. Your account manager will email you shortly with an update. For any questions, contact ",
   "profile_pro_title": "Bringin Pro",
   "profile_pro_benefit_card": "Debit card access",
   "profile_pro_benefit_fx": "0% FX fee",
@@ -2340,7 +2374,7 @@
   "kyc_field_phone_hint": "Enter phone number",
   "kyc_phone_edit_note": "Editing your phone will send a new code to the new number.",
   "kyc_step_documents": "Documents verification",
-  "kyc_documents_body": "You are almost there, next you have to upload the relevant documents for verification.\\nContinue to finish the identification process (usually takes less than 5 minutes) to start using Bringin.",
+  "kyc_documents_body": "You are almost there, next you have to upload the relevant documents for verification.\nContinue to finish the identification process (usually takes less than 5 minutes) to start using Bringin.",
   "kyc_action_verify_documents": "Verify documents",
   "kyc_step_verify_phone": "Verify your phone number",
   "kyc_error_under_review": "Your verification is currently under review. We'll notify you once it's complete.",
@@ -2391,7 +2425,7 @@
   "home_connect_setup": "Setup",
   "home_connect_all": "All connections",
   "home_connect_reenable_title": "Re-enable paused connections",
-  "home_connect_reenable_body": "Due to new Travel Rule requirements, we had to pause some of your existing connections. You can now re-enable them from this tab.\\n\\nWhen you re-enable a connection, we'll issue fresh details where required: a new vIBAN for Buy connections, or a new Bitcoin deposit address for on-chain Sell connections.\\n\\nYour destination stays the same — your connected wallet or bank account will not change.",
+  "home_connect_reenable_body": "Due to new Travel Rule requirements, we had to pause some of your existing connections. You can now re-enable them from this tab.\n\nWhen you re-enable a connection, we'll issue fresh details where required: a new vIBAN for Buy connections, or a new Bitcoin deposit address for on-chain Sell connections.\n\nYour destination stays the same — your connected wallet or bank account will not change.",
   "home_connect_status_paused": "Paused",
   "home_action_complete_transfer": "Complete transfer",
   "home_action_verify_transfer": "Verify transfer",
@@ -2490,9 +2524,10 @@
   "home_setup_taking_longer": "This is taking longer than usual. Tap retry to check again, or come back in a moment.",
   "home_setup_body": "We're finishing setup behind the scenes. This usually takes just a few seconds.",
   "home_autodecl_title": "Using your own Bitcoin wallet?",
-  "home_autodecl_body": "By continuing, you confirm that Bitcoin you buy will normally be sent to wallets you own, and Bitcoin you sell will normally come from wallets you own. We'll remember this so you don't have to confirm it every time.\\n\\nYou can change this anytime in Settings.",
+  "home_autodecl_body": "By continuing, you confirm that Bitcoin you buy will normally be sent to wallets you own, and Bitcoin you sell will normally come from wallets you own. We'll remember this so you don't have to confirm it every time.\n\nYou can change this anytime in Settings.",
   "home_action_not_now": "Not now",
   "home_autodecl_confirm": "Confirm and remember",
+  "home_autodecl_saved": "Saved. We'll remember your wallet preferences.",
   "home_needed_passkey_title": "Protect your account",
   "home_needed_passkey_body": "Add a passkey — faster and safer than SMS.",
   "home_action_do_it_now": "Do it now",
@@ -4781,5 +4816,154 @@
   "send_reference_error_length": "Use 5 to 15 characters, or leave it empty.",
   "send_error_recipient_not_ready": "This recipient isn't ready to be paid yet. Please try again in a few minutes.",
   "beneficiary_third_party_locked": "A recipient's bank details and name can't be changed. To pay a different account, add a new recipient.",
-  "exception_beneficiary_details_locked": "You can't change this recipient's bank details or name. Add a new recipient instead."
+  "exception_beneficiary_details_locked": "You can't change this recipient's bank details or name. Add a new recipient instead.",
+  "profile_kyc_limit_row_month": "{label} of {limit} this month",
+  "@profile_kyc_limit_row_month": {
+    "description": "Monthly limit row. Shown after the bold amount, e.g. \"€2 400 withdrawn of €10k this month\".",
+    "placeholders": {
+      "label": {
+        "type": "String",
+        "example": "withdrawn"
+      },
+      "limit": {
+        "type": "String",
+        "example": "€10k"
+      }
+    }
+  },
+  "profile_kyc_limit_row_total": "{label} of {limit} total",
+  "@profile_kyc_limit_row_total": {
+    "description": "Lifetime crypto deposit limit row (Tier 1). Never \"per month\".",
+    "placeholders": {
+      "label": {
+        "type": "String",
+        "example": "deposited"
+      },
+      "limit": {
+        "type": "String",
+        "example": "€15k"
+      }
+    }
+  },
+  "profile_kyc_limit_label_withdrawn": "withdrawn",
+  "profile_kyc_limit_label_deposited": "deposited",
+  "profile_kyc_no_deposit_limit": "Unlimited deposits on Tier 2",
+  "profile_kyc_banner_tier1_total": "Withdrawals reset every month. Crypto deposits count towards a total limit.",
+  "profile_kyc_banner_near_deposit_limit": "You’re close to your deposit limit. Increase your limits to keep depositing.",
+  "kyc_upgrade_near_title": "You’re close to your deposit limit",
+  "kyc_upgrade_near_body": "Verify a few more details to remove the deposit limit and raise your withdrawal limits.",
+  "kyc_upgrade_required_title": "A quick verification step",
+  "kyc_upgrade_required_body": "Please complete a short verification to keep your account running smoothly. It takes a few minutes, and your account keeps working meanwhile.",
+  "kyc_upgrade_required_body_date": "Please complete a short verification by {date} to keep your account running smoothly. It takes a few minutes, and your account keeps working meanwhile.",
+  "@kyc_upgrade_required_body_date": {
+    "description": "Striga asked for Tier 2. Never mention limits here; always the real deadline date.",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "12 November"
+      }
+    }
+  },
+  "kyc_upgrade_continue_title": "Finish your verification",
+  "kyc_upgrade_continue_body": "Pick up where you left off.",
+  "kyc_upgrade_continue_body_date": "Pick up where you left off. Please complete it by {date}.",
+  "@kyc_upgrade_continue_body_date": {
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "12 November"
+      }
+    }
+  },
+  "kyc_upgrade_review_title": "Verification under review",
+  "kyc_upgrade_review_body": "We’ve got your documents and are reviewing them. Your account keeps working in the meantime.",
+  "kyc_upgrade_resubmit_title": "Verification could not be approved",
+  "kyc_upgrade_resubmit_body": "Some details need another look. Check them and resubmit.",
+  "kyc_upgrade_support_title": "Contact support to continue",
+  "kyc_upgrade_support_body": "We can’t continue this verification online. Email us at {email} and we’ll help you.",
+  "@kyc_upgrade_support_body": {
+    "placeholders": {
+      "email": {
+        "type": "String",
+        "example": "support@bringin.xyz"
+      }
+    }
+  },
+  "kyc_upgrade_expired_body": "Your account is paused because the verification wasn’t completed in time. Email us at {email} and we’ll help you.",
+  "@kyc_upgrade_expired_body": {
+    "placeholders": {
+      "email": {
+        "type": "String",
+        "example": "support@bringin.xyz"
+      }
+    }
+  },
+  "kyc_upgrade_action_increase": "Increase limit",
+  "kyc_upgrade_action_continue": "Continue verification",
+  "kyc_upgrade_action_start": "Start verification",
+  "kyc_upgrade_action_resubmit": "Resubmit documents",
+  "kyc_upgrade_action_support": "Contact support",
+  "kyc_limit_section_title": "Your limit",
+  "kyc_limit_can_move": "You can move",
+  "kyc_limit_this_month": "this month",
+  "kyc_limit_caption": "How much you can deposit and withdraw right now.",
+  "@kyc_limit_caption": {
+    "description": "Under the one 'You can move €X' number: deposits and withdrawals share one limit (bringin-core kyc-single-movement-limit-plan.md)."
+  },
+  "kyc_limit_none": "Your limit appears here once verification is complete.",
+  "kyc_limit_notes_title": "Good to know",
+  "kyc_limit_note_shared": "Deposits and withdrawals share this amount, so money you bring in can always go out again.",
+  "kyc_limit_note_card": "Card payments count towards it too.",
+  "kyc_limit_note_existing": "Money already in your account is separate, but withdrawing it also uses this amount.",
+  "kyc_limit_note_monthly": "It goes back up next month.",
+  "kyc_limit_note_total": "Crypto deposits count towards a total that doesn’t reset.",
+  "kyc_limit_note_verify": "Verify your account to raise it.",
+  "kyc_limit_near_title": "You’re close to your limit",
+  "kyc_limit_near_body": "Verify a few more details to raise it.",
+  "kyc_limit_reached_title": "You’ve reached your limit",
+  "kyc_limit_reached_monthly_verify": "It goes back up next month. Verify your account to raise it now.",
+  "kyc_limit_reached_monthly": "It goes back up next month.",
+  "kyc_limit_reached_total": "Verify your account to keep depositing and withdrawing.",
+  "kyc_limit_error_left": "You can move up to {amount} right now. Try a smaller amount.",
+  "@kyc_limit_error_left": {
+    "description": "bringin-core 1117: the amount is more than the user can move right now.",
+    "placeholders": {
+      "amount": {
+        "type": "String",
+        "example": "€3 000,00"
+      }
+    }
+  },
+  "kyc_limit_error_reached": "You’ve reached your limit. Verify your account to keep depositing and withdrawing.",
+  "kyc_upgrade_sheet_title": "Increase your limits",
+  "kyc_upgrade_sheet_intro": "A standard verification step as your account grows. It takes a few minutes.",
+  "kyc_upgrade_sheet_intro_date": "Please complete this by {date}. Your account keeps working in the meantime.",
+  "@kyc_upgrade_sheet_intro_date": {
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "12 November"
+      }
+    }
+  },
+  "kyc_upgrade_sheet_poa_title": "Proof of address",
+  "kyc_upgrade_sheet_poa_body": "A utility bill or a bank or payment statement in your name, issued in the last 3 months. Mobile phone bills and screenshots are not accepted.",
+  "kyc_upgrade_sheet_sof_title": "Source of funds",
+  "kyc_upgrade_sheet_sof_body": "For example payslips, tax returns, bank statements or proof of your crypto purchases.",
+  "kyc_upgrade_sheet_outcome": "Once approved, your deposit limit is removed and your withdrawal limits go up.",
+  "kyc_upgrade_sheet_learn_more": "Learn more about limits",
+  "kyc_upgrade_sheet_cta": "Increase limits",
+  "kyc_upgrade_sheet_not_now": "Not now",
+  "kyc_row_required_title": "A quick verification step",
+  "kyc_row_deadline": "Please complete it by {date}",
+  "@kyc_row_deadline": {
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "12 November"
+      }
+    }
+  },
+  "kyc_row_expired_title": "Your account is paused",
+  "kyc_row_expired_subtitle": "Contact support to restore it"
 }

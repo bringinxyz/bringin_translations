@@ -53,6 +53,24 @@ void main() {
     }
   });
 
+  test('no message double-escapes a newline', () {
+    // A `\\n` in the .arb survives JSON decoding as a literal backslash-n,
+    // and gen-l10n copies it into Dart as `'\\n'` — so the app paints the
+    // characters instead of breaking the line. Shipped once (QA, Oct 2026)
+    // in home_autodecl_body, kyc_documents_body and home_connect_reenable_body.
+    for (final locale in _arbLocales()) {
+      final arb = _readArb(locale);
+      for (final key in _messageKeys(arb)) {
+        expect(
+          arb[key].toString(),
+          isNot(contains(r'\n')),
+          reason: '$locale/"$key" has a literal backslash-n — write a real '
+              'newline (single \\n in the .arb).',
+        );
+      }
+    }
+  });
+
   group('translations match the template', () {
     for (final locale in _arbLocales().where((l) => l != _templateLocale)) {
       test('app_$locale.arb', () {

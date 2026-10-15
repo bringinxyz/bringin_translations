@@ -446,6 +446,32 @@ class BringinTranslationsEn extends BringinTranslations {
   String get home_accounts_balance_retry => 'Retry';
 
   @override
+  String get home_accounts_euro_ready_to_spend => 'Ready to spend';
+
+  @override
+  String get home_greeting_morning => 'Good morning';
+
+  @override
+  String get home_greeting_afternoon => 'Good afternoon';
+
+  @override
+  String get home_greeting_evening => 'Good evening';
+
+  @override
+  String home_greeting_welcome_back(String name) {
+    return 'Welcome back $name';
+  }
+
+  @override
+  String get home_greeting_welcome_back_anonymous => 'Welcome back';
+
+  @override
+  String get home_connect_banner_title => 'Get paid in Euros, receive Bitcoin';
+
+  @override
+  String get home_connect_banner_action => 'Bringin Connect';
+
+  @override
   String get home_accounts_sca_session_expired =>
       'Your secure session expired. Verify again to update your balance.';
 
@@ -748,6 +774,69 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get login_title => 'Log in';
+
+  @override
+  String get onboarding_action_register => 'Register';
+
+  @override
+  String get register_email_title => 'Enter your email address';
+
+  @override
+  String get register_terms_prefix => 'By registering, you accept our ';
+
+  @override
+  String get register_terms_link => 'Terms of Use';
+
+  @override
+  String get register_terms_separator => ' and ';
+
+  @override
+  String get register_privacy_link => 'Privacy Policy';
+
+  @override
+  String get register_terms_suffix => '.';
+
+  @override
+  String get register_error_email_exists =>
+      'An account with this email already exists.';
+
+  @override
+  String get login_action_email_code => 'Sign in with an email code instead';
+
+  @override
+  String get login_action_passkey => 'Log in with a passkey';
+
+  @override
+  String get login_divider_or_short => 'Or';
+
+  @override
+  String get login_error_invalid_credentials =>
+      'Incorrect email or password. You can also sign in with an email code.';
+
+  @override
+  String get login_passkey_error_no_credential =>
+      'No passkey for this account on this device. Log in with your email and password.';
+
+  @override
+  String get login_passkey_error_not_finished =>
+      'Passkey sign-in did not finish. Please try again.';
+
+  @override
+  String get login_passkey_error_no_challenge =>
+      'No passkey challenge was returned. Please log in with your password.';
+
+  @override
+  String get login_email_code_title => 'Sign in with an email code';
+
+  @override
+  String get login_email_code_body =>
+      'We’ll email you a one-time code. No password needed.';
+
+  @override
+  String get login_email_code_submit => 'Email me a code';
+
+  @override
+  String get login_email_code_no_account => 'No account found for this email.';
 
   @override
   String get account_locked_title => 'Account locked';
@@ -3941,7 +4030,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get profile_kyc_banner_tier2 =>
-      'You’re on Tier 2 for your Euro and card accounts. You can increase your limits anytime.';
+      'You’re on Tier 2 for your Euro and card accounts. Deposits are unlimited, and you can ask for a higher withdrawal limit anytime.';
 
   @override
   String get profile_kyc_banner_reaching =>
@@ -3970,7 +4059,7 @@ class BringinTranslationsEn extends BringinTranslations {
       'Complete additional verification for unlocking higher limits.';
 
   @override
-  String get profile_kyc_action_unlock => 'Unlock higher limits';
+  String get profile_kyc_action_unlock => 'Request a higher withdrawal limit';
 
   @override
   String get profile_kyc_btc_not_applicable =>
@@ -3981,7 +4070,7 @@ class BringinTranslationsEn extends BringinTranslations {
       'No deposit limits on your Bitcoin wallet. It’s self-custodied, which means it’s outside our limits.';
 
   @override
-  String get profile_kyc_increase_title => 'Increase your limits';
+  String get profile_kyc_increase_title => 'Request a higher withdrawal limit';
 
   @override
   String get profile_kyc_increase_note =>
@@ -4013,7 +4102,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get profile_kyc_choose_limit =>
-      'Choose your monthly transaction limit. An account manager will contact you shortly.';
+      'Choose the monthly withdrawal limit you need. An account manager will contact you shortly.';
 
   @override
   String get profile_kyc_action_notify => 'Notify manager';
@@ -4023,7 +4112,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get profile_kyc_notified_body =>
-      'We’ve received your request to increase your monthly transaction limits. Your account manager will email you shortly with an update. For any questions, contact ';
+      'We’ve received your request to increase your monthly withdrawal limit. Your account manager will email you shortly with an update. For any questions, contact ';
 
   @override
   String get profile_pro_title => 'Bringin Pro';
@@ -5377,7 +5466,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get kyc_documents_body =>
-      'You are almost there, next you have to upload the relevant documents for verification.\\nContinue to finish the identification process (usually takes less than 5 minutes) to start using Bringin.';
+      'You are almost there, next you have to upload the relevant documents for verification.\nContinue to finish the identification process (usually takes less than 5 minutes) to start using Bringin.';
 
   @override
   String get kyc_action_verify_documents => 'Verify documents';
@@ -5529,7 +5618,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get home_connect_reenable_body =>
-      'Due to new Travel Rule requirements, we had to pause some of your existing connections. You can now re-enable them from this tab.\\n\\nWhen you re-enable a connection, we\'ll issue fresh details where required: a new vIBAN for Buy connections, or a new Bitcoin deposit address for on-chain Sell connections.\\n\\nYour destination stays the same — your connected wallet or bank account will not change.';
+      'Due to new Travel Rule requirements, we had to pause some of your existing connections. You can now re-enable them from this tab.\n\nWhen you re-enable a connection, we\'ll issue fresh details where required: a new vIBAN for Buy connections, or a new Bitcoin deposit address for on-chain Sell connections.\n\nYour destination stays the same — your connected wallet or bank account will not change.';
 
   @override
   String get home_connect_status_paused => 'Paused';
@@ -5788,13 +5877,17 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get home_autodecl_body =>
-      'By continuing, you confirm that Bitcoin you buy will normally be sent to wallets you own, and Bitcoin you sell will normally come from wallets you own. We\'ll remember this so you don\'t have to confirm it every time.\\n\\nYou can change this anytime in Settings.';
+      'By continuing, you confirm that Bitcoin you buy will normally be sent to wallets you own, and Bitcoin you sell will normally come from wallets you own. We\'ll remember this so you don\'t have to confirm it every time.\n\nYou can change this anytime in Settings.';
 
   @override
   String get home_action_not_now => 'Not now';
 
   @override
   String get home_autodecl_confirm => 'Confirm and remember';
+
+  @override
+  String get home_autodecl_saved =>
+      'Saved. We\'ll remember your wallet preferences.';
 
   @override
   String get home_needed_passkey_title => 'Protect your account';
@@ -7987,4 +8080,226 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get exception_beneficiary_details_locked =>
       'You can\'t change this recipient\'s bank details or name. Add a new recipient instead.';
+
+  @override
+  String profile_kyc_limit_row_month(String label, String limit) {
+    return '$label of $limit this month';
+  }
+
+  @override
+  String profile_kyc_limit_row_total(String label, String limit) {
+    return '$label of $limit total';
+  }
+
+  @override
+  String get profile_kyc_limit_label_withdrawn => 'withdrawn';
+
+  @override
+  String get profile_kyc_limit_label_deposited => 'deposited';
+
+  @override
+  String get profile_kyc_no_deposit_limit => 'Unlimited deposits on Tier 2';
+
+  @override
+  String get profile_kyc_banner_tier1_total =>
+      'Withdrawals reset every month. Crypto deposits count towards a total limit.';
+
+  @override
+  String get profile_kyc_banner_near_deposit_limit =>
+      'You’re close to your deposit limit. Increase your limits to keep depositing.';
+
+  @override
+  String get kyc_upgrade_near_title => 'You’re close to your deposit limit';
+
+  @override
+  String get kyc_upgrade_near_body =>
+      'Verify a few more details to remove the deposit limit and raise your withdrawal limits.';
+
+  @override
+  String get kyc_upgrade_required_title => 'A quick verification step';
+
+  @override
+  String get kyc_upgrade_required_body =>
+      'Please complete a short verification to keep your account running smoothly. It takes a few minutes, and your account keeps working meanwhile.';
+
+  @override
+  String kyc_upgrade_required_body_date(String date) {
+    return 'Please complete a short verification by $date to keep your account running smoothly. It takes a few minutes, and your account keeps working meanwhile.';
+  }
+
+  @override
+  String get kyc_upgrade_continue_title => 'Finish your verification';
+
+  @override
+  String get kyc_upgrade_continue_body => 'Pick up where you left off.';
+
+  @override
+  String kyc_upgrade_continue_body_date(String date) {
+    return 'Pick up where you left off. Please complete it by $date.';
+  }
+
+  @override
+  String get kyc_upgrade_review_title => 'Verification under review';
+
+  @override
+  String get kyc_upgrade_review_body =>
+      'We’ve got your documents and are reviewing them. Your account keeps working in the meantime.';
+
+  @override
+  String get kyc_upgrade_resubmit_title => 'Verification could not be approved';
+
+  @override
+  String get kyc_upgrade_resubmit_body =>
+      'Some details need another look. Check them and resubmit.';
+
+  @override
+  String get kyc_upgrade_support_title => 'Contact support to continue';
+
+  @override
+  String kyc_upgrade_support_body(String email) {
+    return 'We can’t continue this verification online. Email us at $email and we’ll help you.';
+  }
+
+  @override
+  String kyc_upgrade_expired_body(String email) {
+    return 'Your account is paused because the verification wasn’t completed in time. Email us at $email and we’ll help you.';
+  }
+
+  @override
+  String get kyc_upgrade_action_increase => 'Increase limit';
+
+  @override
+  String get kyc_upgrade_action_continue => 'Continue verification';
+
+  @override
+  String get kyc_upgrade_action_start => 'Start verification';
+
+  @override
+  String get kyc_upgrade_action_resubmit => 'Resubmit documents';
+
+  @override
+  String get kyc_upgrade_action_support => 'Contact support';
+
+  @override
+  String get kyc_limit_section_title => 'Your limit';
+
+  @override
+  String get kyc_limit_can_move => 'You can move';
+
+  @override
+  String get kyc_limit_this_month => 'this month';
+
+  @override
+  String get kyc_limit_caption =>
+      'How much you can deposit and withdraw right now.';
+
+  @override
+  String get kyc_limit_none =>
+      'Your limit appears here once verification is complete.';
+
+  @override
+  String get kyc_limit_notes_title => 'Good to know';
+
+  @override
+  String get kyc_limit_note_shared =>
+      'Deposits and withdrawals share this amount, so money you bring in can always go out again.';
+
+  @override
+  String get kyc_limit_note_card => 'Card payments count towards it too.';
+
+  @override
+  String get kyc_limit_note_existing =>
+      'Money already in your account is separate, but withdrawing it also uses this amount.';
+
+  @override
+  String get kyc_limit_note_monthly => 'It goes back up next month.';
+
+  @override
+  String get kyc_limit_note_total =>
+      'Crypto deposits count towards a total that doesn’t reset.';
+
+  @override
+  String get kyc_limit_note_verify => 'Verify your account to raise it.';
+
+  @override
+  String get kyc_limit_near_title => 'You’re close to your limit';
+
+  @override
+  String get kyc_limit_near_body => 'Verify a few more details to raise it.';
+
+  @override
+  String get kyc_limit_reached_title => 'You’ve reached your limit';
+
+  @override
+  String get kyc_limit_reached_monthly_verify =>
+      'It goes back up next month. Verify your account to raise it now.';
+
+  @override
+  String get kyc_limit_reached_monthly => 'It goes back up next month.';
+
+  @override
+  String get kyc_limit_reached_total =>
+      'Verify your account to keep depositing and withdrawing.';
+
+  @override
+  String kyc_limit_error_left(String amount) {
+    return 'You can move up to $amount right now. Try a smaller amount.';
+  }
+
+  @override
+  String get kyc_limit_error_reached =>
+      'You’ve reached your limit. Verify your account to keep depositing and withdrawing.';
+
+  @override
+  String get kyc_upgrade_sheet_title => 'Increase your limits';
+
+  @override
+  String get kyc_upgrade_sheet_intro =>
+      'A standard verification step as your account grows. It takes a few minutes.';
+
+  @override
+  String kyc_upgrade_sheet_intro_date(String date) {
+    return 'Please complete this by $date. Your account keeps working in the meantime.';
+  }
+
+  @override
+  String get kyc_upgrade_sheet_poa_title => 'Proof of address';
+
+  @override
+  String get kyc_upgrade_sheet_poa_body =>
+      'A utility bill or a bank or payment statement in your name, issued in the last 3 months. Mobile phone bills and screenshots are not accepted.';
+
+  @override
+  String get kyc_upgrade_sheet_sof_title => 'Source of funds';
+
+  @override
+  String get kyc_upgrade_sheet_sof_body =>
+      'For example payslips, tax returns, bank statements or proof of your crypto purchases.';
+
+  @override
+  String get kyc_upgrade_sheet_outcome =>
+      'Once approved, your deposit limit is removed and your withdrawal limits go up.';
+
+  @override
+  String get kyc_upgrade_sheet_learn_more => 'Learn more about limits';
+
+  @override
+  String get kyc_upgrade_sheet_cta => 'Increase limits';
+
+  @override
+  String get kyc_upgrade_sheet_not_now => 'Not now';
+
+  @override
+  String get kyc_row_required_title => 'A quick verification step';
+
+  @override
+  String kyc_row_deadline(String date) {
+    return 'Please complete it by $date';
+  }
+
+  @override
+  String get kyc_row_expired_title => 'Your account is paused';
+
+  @override
+  String get kyc_row_expired_subtitle => 'Contact support to restore it';
 }
