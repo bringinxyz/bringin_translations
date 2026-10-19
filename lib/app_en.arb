@@ -454,6 +454,7 @@
   "forgot_password_title": "Reset your password",
   "forgot_password_message": "Enter the email address you used to sign in. We'll send you a link to reset your password.",
   "forgot_password_action_submit": "Send reset link",
+  "forgot_password_error_no_account": "We couldn't find an account with that email. Check the spelling and try again.",
   "forgot_password_success_title": "Check your inbox",
   "forgot_password_success_heading": "We've sent a reset link",
   "forgot_password_success_message": "We've emailed a password-reset link to {email}. Tap the link in your inbox to set a new password. It expires in an hour.",

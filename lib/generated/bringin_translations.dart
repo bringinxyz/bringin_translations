@@ -1883,6 +1883,12 @@ abstract class BringinTranslations {
   /// **'Send reset link'**
   String get forgot_password_action_submit;
 
+  /// No description provided for @forgot_password_error_no_account.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t find an account with that email. Check the spelling and try again.'**
+  String get forgot_password_error_no_account;
+
   /// No description provided for @forgot_password_success_title.
   ///
   /// In en, this message translates to:

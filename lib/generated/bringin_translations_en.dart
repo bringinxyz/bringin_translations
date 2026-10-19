@@ -1021,6 +1021,10 @@ class BringinTranslationsEn extends BringinTranslations {
   String get forgot_password_action_submit => 'Send reset link';
 
   @override
+  String get forgot_password_error_no_account =>
+      'We couldn\'t find an account with that email. Check the spelling and try again.';
+
+  @override
   String get forgot_password_success_title => 'Check your inbox';
 
   @override
