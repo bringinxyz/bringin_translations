@@ -7040,7 +7040,7 @@ abstract class BringinTranslations {
   /// No description provided for @profile_kyc_action_unlock.
   ///
   /// In en, this message translates to:
-  /// **'Request a higher withdrawal limit'**
+  /// **'Request a higher limit'**
   String get profile_kyc_action_unlock;
 
   /// No description provided for @profile_kyc_btc_not_applicable.
@@ -14139,7 +14139,7 @@ abstract class BringinTranslations {
   /// No description provided for @kyc_limit_section_title.
   ///
   /// In en, this message translates to:
-  /// **'Your limit'**
+  /// **'Your limits'**
   String get kyc_limit_section_title;
 
   /// No description provided for @kyc_limit_can_move.
@@ -14163,8 +14163,32 @@ abstract class BringinTranslations {
   /// No description provided for @kyc_limit_none.
   ///
   /// In en, this message translates to:
-  /// **'Your limit appears here once verification is complete.'**
+  /// **'Your limits appear here once verification is complete.'**
   String get kyc_limit_none;
+
+  /// Limits page: withdrawals (SEPA, crypto out, card), resets every month.
+  ///
+  /// In en, this message translates to:
+  /// **'Monthly limit'**
+  String get kyc_limit_monthly_label;
+
+  /// Limits page: Tier 1 crypto deposits, a total that never resets.
+  ///
+  /// In en, this message translates to:
+  /// **'Total limit'**
+  String get kyc_limit_total_label;
+
+  /// Under each limit on the limits page, e.g. '€6 250,00 of €25 000,00 left'.
+  ///
+  /// In en, this message translates to:
+  /// **'{left} of {limit} left'**
+  String kyc_limit_left_of(String left, String limit);
+
+  /// Home promo banner, shown only when a Tier 1 user has used 75% of a limit. Its button is kyc_upgrade_action_increase.
+  ///
+  /// In en, this message translates to:
+  /// **'Need higher limits?'**
+  String get home_limit_banner_title;
 
   /// No description provided for @kyc_limit_notes_title.
   ///

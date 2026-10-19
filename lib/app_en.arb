@@ -1889,7 +1889,7 @@
   },
   "profile_kyc_approaching": "You’re approaching your transaction limits. Complete additional verification to unlock higher limits.",
   "profile_kyc_complete_verification": "Complete additional verification for unlocking higher limits.",
-  "profile_kyc_action_unlock": "Request a higher withdrawal limit",
+  "profile_kyc_action_unlock": "Request a higher limit",
   "profile_kyc_btc_not_applicable": "Not applicable to Bitcoin wallet",
   "profile_kyc_btc_no_limits": "No deposit limits on your Bitcoin wallet. It’s self-custodied, which means it’s outside our limits.",
   "profile_kyc_increase_title": "Request a higher withdrawal limit",
@@ -4904,14 +4904,40 @@
   "kyc_upgrade_action_start": "Start verification",
   "kyc_upgrade_action_resubmit": "Resubmit documents",
   "kyc_upgrade_action_support": "Contact support",
-  "kyc_limit_section_title": "Your limit",
+  "kyc_limit_section_title": "Your limits",
   "kyc_limit_can_move": "You can move",
   "kyc_limit_this_month": "this month",
   "kyc_limit_caption": "How much you can deposit and withdraw right now.",
   "@kyc_limit_caption": {
     "description": "Under the one 'You can move €X' number: deposits and withdrawals share one limit (bringin-core kyc-single-movement-limit-plan.md)."
   },
-  "kyc_limit_none": "Your limit appears here once verification is complete.",
+  "kyc_limit_none": "Your limits appear here once verification is complete.",
+  "kyc_limit_monthly_label": "Monthly limit",
+  "@kyc_limit_monthly_label": {
+    "description": "Limits page: withdrawals (SEPA, crypto out, card), resets every month."
+  },
+  "kyc_limit_total_label": "Total limit",
+  "@kyc_limit_total_label": {
+    "description": "Limits page: Tier 1 crypto deposits, a total that never resets."
+  },
+  "kyc_limit_left_of": "{left} of {limit} left",
+  "@kyc_limit_left_of": {
+    "description": "Under each limit on the limits page, e.g. '€6 250,00 of €25 000,00 left'.",
+    "placeholders": {
+      "left": {
+        "type": "String",
+        "example": "€6 250,00"
+      },
+      "limit": {
+        "type": "String",
+        "example": "€25 000,00"
+      }
+    }
+  },
+  "home_limit_banner_title": "Need higher limits?",
+  "@home_limit_banner_title": {
+    "description": "Home promo banner, shown only when a Tier 1 user has used 75% of a limit. Its button is kyc_upgrade_action_increase."
+  },
   "kyc_limit_notes_title": "Good to know",
   "kyc_limit_note_shared": "Deposits and withdrawals share this amount, so money you bring in can always go out again.",
   "kyc_limit_note_card": "Card payments count towards it too.",

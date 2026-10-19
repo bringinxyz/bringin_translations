@@ -4063,7 +4063,7 @@ class BringinTranslationsEn extends BringinTranslations {
       'Complete additional verification for unlocking higher limits.';
 
   @override
-  String get profile_kyc_action_unlock => 'Request a higher withdrawal limit';
+  String get profile_kyc_action_unlock => 'Request a higher limit';
 
   @override
   String get profile_kyc_btc_not_applicable =>
@@ -8185,7 +8185,7 @@ class BringinTranslationsEn extends BringinTranslations {
   String get kyc_upgrade_action_support => 'Contact support';
 
   @override
-  String get kyc_limit_section_title => 'Your limit';
+  String get kyc_limit_section_title => 'Your limits';
 
   @override
   String get kyc_limit_can_move => 'You can move';
@@ -8199,7 +8199,21 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get kyc_limit_none =>
-      'Your limit appears here once verification is complete.';
+      'Your limits appear here once verification is complete.';
+
+  @override
+  String get kyc_limit_monthly_label => 'Monthly limit';
+
+  @override
+  String get kyc_limit_total_label => 'Total limit';
+
+  @override
+  String kyc_limit_left_of(String left, String limit) {
+    return '$left of $limit left';
+  }
+
+  @override
+  String get home_limit_banner_title => 'Need higher limits?';
 
   @override
   String get kyc_limit_notes_title => 'Good to know';
