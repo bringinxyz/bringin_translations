@@ -446,6 +446,32 @@ class BringinTranslationsEn extends BringinTranslations {
   String get home_accounts_balance_retry => 'Retry';
 
   @override
+  String get home_accounts_euro_ready_to_spend => 'Ready to spend';
+
+  @override
+  String get home_greeting_morning => 'Good morning';
+
+  @override
+  String get home_greeting_afternoon => 'Good afternoon';
+
+  @override
+  String get home_greeting_evening => 'Good evening';
+
+  @override
+  String home_greeting_welcome_back(String name) {
+    return 'Welcome back $name';
+  }
+
+  @override
+  String get home_greeting_welcome_back_anonymous => 'Welcome back';
+
+  @override
+  String get home_connect_banner_title => 'Get paid in Euros, receive Bitcoin';
+
+  @override
+  String get home_connect_banner_action => 'Bringin Connect';
+
+  @override
   String get home_accounts_sca_session_expired =>
       'Your secure session expired. Verify again to update your balance.';
 
@@ -750,6 +776,69 @@ class BringinTranslationsEn extends BringinTranslations {
   String get login_title => 'Log in';
 
   @override
+  String get onboarding_action_register => 'Register';
+
+  @override
+  String get register_email_title => 'Enter your email address';
+
+  @override
+  String get register_terms_prefix => 'By registering, you accept our ';
+
+  @override
+  String get register_terms_link => 'Terms of Use';
+
+  @override
+  String get register_terms_separator => ' and ';
+
+  @override
+  String get register_privacy_link => 'Privacy Policy';
+
+  @override
+  String get register_terms_suffix => '.';
+
+  @override
+  String get register_error_email_exists =>
+      'An account with this email already exists.';
+
+  @override
+  String get login_action_email_code => 'Sign in with an email code instead';
+
+  @override
+  String get login_action_passkey => 'Log in with a passkey';
+
+  @override
+  String get login_divider_or_short => 'Or';
+
+  @override
+  String get login_error_invalid_credentials =>
+      'Incorrect email or password. You can also sign in with an email code.';
+
+  @override
+  String get login_passkey_error_no_credential =>
+      'No passkey for this account on this device. Log in with your email and password.';
+
+  @override
+  String get login_passkey_error_not_finished =>
+      'Passkey sign-in did not finish. Please try again.';
+
+  @override
+  String get login_passkey_error_no_challenge =>
+      'No passkey challenge was returned. Please log in with your password.';
+
+  @override
+  String get login_email_code_title => 'Sign in with an email code';
+
+  @override
+  String get login_email_code_body =>
+      'We’ll email you a one-time code. No password needed.';
+
+  @override
+  String get login_email_code_submit => 'Email me a code';
+
+  @override
+  String get login_email_code_no_account => 'No account found for this email.';
+
+  @override
   String get account_locked_title => 'Account locked';
 
   @override
@@ -930,6 +1019,10 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get forgot_password_action_submit => 'Send reset link';
+
+  @override
+  String get forgot_password_error_no_account =>
+      'We couldn\'t find an account with that email. Check the spelling and try again.';
 
   @override
   String get forgot_password_success_title => 'Check your inbox';
@@ -2376,6 +2469,45 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get connect_buy_all_wallets_connected =>
       'All your onchain wallets already have a buy connection. Tap + to add a new wallet.';
+
+  @override
+  String get connect_buy_verify_title => 'Confirm your wallet';
+
+  @override
+  String get connect_buy_verify_subtitle =>
+      'Buy connections only send Bitcoin to a wallet you own. Confirm this wallet is yours to continue. You only need to do this once for this wallet.';
+
+  @override
+  String get connect_buy_verify_confirm =>
+      'I confirm this is my own Bitcoin wallet';
+
+  @override
+  String get connect_buy_verify_action_choose_other => 'Choose another wallet';
+
+  @override
+  String get connect_buy_blocked_title => 'This wallet can\'t be used';
+
+  @override
+  String get connect_buy_blocked_third_party_body =>
+      'You\'ve declared this wallet as belonging to someone else. Buy connections only work with wallets you own.';
+
+  @override
+  String get connect_buy_blocked_vasp_body =>
+      'You\'ve declared this as an exchange wallet. Buy connections only work with self-custody wallets you own.';
+
+  @override
+  String get connect_buy_blocked_action_add_new => 'Add new wallet';
+
+  @override
+  String get connect_buy_pending_title => 'Verification in progress';
+
+  @override
+  String get connect_buy_pending_body =>
+      'We\'re confirming this wallet is yours. This usually takes a few minutes. Tap Next again once it\'s done.';
+
+  @override
+  String get connect_buy_error_status_check =>
+      'We couldn\'t check this wallet. Please try again.';
 
   @override
   String get add_wallet_page_title => 'Add a new wallet';
@@ -5377,7 +5509,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get kyc_documents_body =>
-      'You are almost there, next you have to upload the relevant documents for verification.\\nContinue to finish the identification process (usually takes less than 5 minutes) to start using Bringin.';
+      'You are almost there, next you have to upload the relevant documents for verification.\nContinue to finish the identification process (usually takes less than 5 minutes) to start using Bringin.';
 
   @override
   String get kyc_action_verify_documents => 'Verify documents';
@@ -5529,7 +5661,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get home_connect_reenable_body =>
-      'Due to new Travel Rule requirements, we had to pause some of your existing connections. You can now re-enable them from this tab.\\n\\nWhen you re-enable a connection, we\'ll issue fresh details where required: a new vIBAN for Buy connections, or a new Bitcoin deposit address for on-chain Sell connections.\\n\\nYour destination stays the same — your connected wallet or bank account will not change.';
+      'Due to new Travel Rule requirements, we had to pause some of your existing connections. You can now re-enable them from this tab.\n\nWhen you re-enable a connection, we\'ll issue fresh details where required: a new vIBAN for Buy connections, or a new Bitcoin deposit address for on-chain Sell connections.\n\nYour destination stays the same — your connected wallet or bank account will not change.';
 
   @override
   String get home_connect_status_paused => 'Paused';
@@ -5788,13 +5920,17 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get home_autodecl_body =>
-      'By continuing, you confirm that Bitcoin you buy will normally be sent to wallets you own, and Bitcoin you sell will normally come from wallets you own. We\'ll remember this so you don\'t have to confirm it every time.\\n\\nYou can change this anytime in Settings.';
+      'By continuing, you confirm that Bitcoin you buy will normally be sent to wallets you own, and Bitcoin you sell will normally come from wallets you own. We\'ll remember this so you don\'t have to confirm it every time.\n\nYou can change this anytime in Settings.';
 
   @override
   String get home_action_not_now => 'Not now';
 
   @override
   String get home_autodecl_confirm => 'Confirm and remember';
+
+  @override
+  String get home_autodecl_saved =>
+      'Saved. We\'ll remember your wallet preferences.';
 
   @override
   String get home_needed_passkey_title => 'Protect your account';

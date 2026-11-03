@@ -863,6 +863,54 @@ abstract class BringinTranslations {
   /// **'Retry'**
   String get home_accounts_balance_retry;
 
+  /// No description provided for @home_accounts_euro_ready_to_spend.
+  ///
+  /// In en, this message translates to:
+  /// **'Ready to spend'**
+  String get home_accounts_euro_ready_to_spend;
+
+  /// No description provided for @home_greeting_morning.
+  ///
+  /// In en, this message translates to:
+  /// **'Good morning'**
+  String get home_greeting_morning;
+
+  /// No description provided for @home_greeting_afternoon.
+  ///
+  /// In en, this message translates to:
+  /// **'Good afternoon'**
+  String get home_greeting_afternoon;
+
+  /// No description provided for @home_greeting_evening.
+  ///
+  /// In en, this message translates to:
+  /// **'Good evening'**
+  String get home_greeting_evening;
+
+  /// No description provided for @home_greeting_welcome_back.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome back {name}'**
+  String home_greeting_welcome_back(String name);
+
+  /// No description provided for @home_greeting_welcome_back_anonymous.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome back'**
+  String get home_greeting_welcome_back_anonymous;
+
+  /// No description provided for @home_connect_banner_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Get paid in Euros, receive Bitcoin'**
+  String get home_connect_banner_title;
+
+  /// No description provided for @home_connect_banner_action.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin Connect'**
+  String get home_connect_banner_action;
+
   /// No description provided for @home_accounts_sca_session_expired.
   ///
   /// In en, this message translates to:
@@ -1415,6 +1463,120 @@ abstract class BringinTranslations {
   /// **'Log in'**
   String get login_title;
 
+  /// No description provided for @onboarding_action_register.
+  ///
+  /// In en, this message translates to:
+  /// **'Register'**
+  String get onboarding_action_register;
+
+  /// No description provided for @register_email_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your email address'**
+  String get register_email_title;
+
+  /// No description provided for @register_terms_prefix.
+  ///
+  /// In en, this message translates to:
+  /// **'By registering, you accept our '**
+  String get register_terms_prefix;
+
+  /// No description provided for @register_terms_link.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms of Use'**
+  String get register_terms_link;
+
+  /// No description provided for @register_terms_separator.
+  ///
+  /// In en, this message translates to:
+  /// **' and '**
+  String get register_terms_separator;
+
+  /// No description provided for @register_privacy_link.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy Policy'**
+  String get register_privacy_link;
+
+  /// No description provided for @register_terms_suffix.
+  ///
+  /// In en, this message translates to:
+  /// **'.'**
+  String get register_terms_suffix;
+
+  /// No description provided for @register_error_email_exists.
+  ///
+  /// In en, this message translates to:
+  /// **'An account with this email already exists.'**
+  String get register_error_email_exists;
+
+  /// No description provided for @login_action_email_code.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in with an email code instead'**
+  String get login_action_email_code;
+
+  /// No description provided for @login_action_passkey.
+  ///
+  /// In en, this message translates to:
+  /// **'Log in with a passkey'**
+  String get login_action_passkey;
+
+  /// No description provided for @login_divider_or_short.
+  ///
+  /// In en, this message translates to:
+  /// **'Or'**
+  String get login_divider_or_short;
+
+  /// No description provided for @login_error_invalid_credentials.
+  ///
+  /// In en, this message translates to:
+  /// **'Incorrect email or password. You can also sign in with an email code.'**
+  String get login_error_invalid_credentials;
+
+  /// No description provided for @login_passkey_error_no_credential.
+  ///
+  /// In en, this message translates to:
+  /// **'No passkey for this account on this device. Log in with your email and password.'**
+  String get login_passkey_error_no_credential;
+
+  /// No description provided for @login_passkey_error_not_finished.
+  ///
+  /// In en, this message translates to:
+  /// **'Passkey sign-in did not finish. Please try again.'**
+  String get login_passkey_error_not_finished;
+
+  /// No description provided for @login_passkey_error_no_challenge.
+  ///
+  /// In en, this message translates to:
+  /// **'No passkey challenge was returned. Please log in with your password.'**
+  String get login_passkey_error_no_challenge;
+
+  /// No description provided for @login_email_code_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in with an email code'**
+  String get login_email_code_title;
+
+  /// No description provided for @login_email_code_body.
+  ///
+  /// In en, this message translates to:
+  /// **'We’ll email you a one-time code. No password needed.'**
+  String get login_email_code_body;
+
+  /// No description provided for @login_email_code_submit.
+  ///
+  /// In en, this message translates to:
+  /// **'Email me a code'**
+  String get login_email_code_submit;
+
+  /// No description provided for @login_email_code_no_account.
+  ///
+  /// In en, this message translates to:
+  /// **'No account found for this email.'**
+  String get login_email_code_no_account;
+
   /// No description provided for @account_locked_title.
   ///
   /// In en, this message translates to:
@@ -1720,6 +1882,12 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Send reset link'**
   String get forgot_password_action_submit;
+
+  /// No description provided for @forgot_password_error_no_account.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t find an account with that email. Check the spelling and try again.'**
+  String get forgot_password_error_no_account;
 
   /// No description provided for @forgot_password_success_title.
   ///
@@ -4168,6 +4336,72 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'All your onchain wallets already have a buy connection. Tap + to add a new wallet.'**
   String get connect_buy_all_wallets_connected;
+
+  /// No description provided for @connect_buy_verify_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm your wallet'**
+  String get connect_buy_verify_title;
+
+  /// No description provided for @connect_buy_verify_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy connections only send Bitcoin to a wallet you own. Confirm this wallet is yours to continue. You only need to do this once for this wallet.'**
+  String get connect_buy_verify_subtitle;
+
+  /// No description provided for @connect_buy_verify_confirm.
+  ///
+  /// In en, this message translates to:
+  /// **'I confirm this is my own Bitcoin wallet'**
+  String get connect_buy_verify_confirm;
+
+  /// No description provided for @connect_buy_verify_action_choose_other.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose another wallet'**
+  String get connect_buy_verify_action_choose_other;
+
+  /// No description provided for @connect_buy_blocked_title.
+  ///
+  /// In en, this message translates to:
+  /// **'This wallet can\'t be used'**
+  String get connect_buy_blocked_title;
+
+  /// No description provided for @connect_buy_blocked_third_party_body.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve declared this wallet as belonging to someone else. Buy connections only work with wallets you own.'**
+  String get connect_buy_blocked_third_party_body;
+
+  /// No description provided for @connect_buy_blocked_vasp_body.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve declared this as an exchange wallet. Buy connections only work with self-custody wallets you own.'**
+  String get connect_buy_blocked_vasp_body;
+
+  /// No description provided for @connect_buy_blocked_action_add_new.
+  ///
+  /// In en, this message translates to:
+  /// **'Add new wallet'**
+  String get connect_buy_blocked_action_add_new;
+
+  /// No description provided for @connect_buy_pending_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification in progress'**
+  String get connect_buy_pending_title;
+
+  /// No description provided for @connect_buy_pending_body.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'re confirming this wallet is yours. This usually takes a few minutes. Tap Next again once it\'s done.'**
+  String get connect_buy_pending_body;
+
+  /// No description provided for @connect_buy_error_status_check.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t check this wallet. Please try again.'**
+  String get connect_buy_error_status_check;
 
   /// No description provided for @add_wallet_page_title.
   ///
@@ -9356,7 +9590,7 @@ abstract class BringinTranslations {
   /// No description provided for @kyc_documents_body.
   ///
   /// In en, this message translates to:
-  /// **'You are almost there, next you have to upload the relevant documents for verification.\\nContinue to finish the identification process (usually takes less than 5 minutes) to start using Bringin.'**
+  /// **'You are almost there, next you have to upload the relevant documents for verification.\nContinue to finish the identification process (usually takes less than 5 minutes) to start using Bringin.'**
   String get kyc_documents_body;
 
   /// No description provided for @kyc_action_verify_documents.
@@ -9614,7 +9848,7 @@ abstract class BringinTranslations {
   /// No description provided for @home_connect_reenable_body.
   ///
   /// In en, this message translates to:
-  /// **'Due to new Travel Rule requirements, we had to pause some of your existing connections. You can now re-enable them from this tab.\\n\\nWhen you re-enable a connection, we\'ll issue fresh details where required: a new vIBAN for Buy connections, or a new Bitcoin deposit address for on-chain Sell connections.\\n\\nYour destination stays the same — your connected wallet or bank account will not change.'**
+  /// **'Due to new Travel Rule requirements, we had to pause some of your existing connections. You can now re-enable them from this tab.\n\nWhen you re-enable a connection, we\'ll issue fresh details where required: a new vIBAN for Buy connections, or a new Bitcoin deposit address for on-chain Sell connections.\n\nYour destination stays the same — your connected wallet or bank account will not change.'**
   String get home_connect_reenable_body;
 
   /// No description provided for @home_connect_status_paused.
@@ -10065,7 +10299,7 @@ abstract class BringinTranslations {
   /// No description provided for @home_autodecl_body.
   ///
   /// In en, this message translates to:
-  /// **'By continuing, you confirm that Bitcoin you buy will normally be sent to wallets you own, and Bitcoin you sell will normally come from wallets you own. We\'ll remember this so you don\'t have to confirm it every time.\\n\\nYou can change this anytime in Settings.'**
+  /// **'By continuing, you confirm that Bitcoin you buy will normally be sent to wallets you own, and Bitcoin you sell will normally come from wallets you own. We\'ll remember this so you don\'t have to confirm it every time.\n\nYou can change this anytime in Settings.'**
   String get home_autodecl_body;
 
   /// No description provided for @home_action_not_now.
@@ -10079,6 +10313,12 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Confirm and remember'**
   String get home_autodecl_confirm;
+
+  /// No description provided for @home_autodecl_saved.
+  ///
+  /// In en, this message translates to:
+  /// **'Saved. We\'ll remember your wallet preferences.'**
+  String get home_autodecl_saved;
 
   /// No description provided for @home_needed_passkey_title.
   ///
