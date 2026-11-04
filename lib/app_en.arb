@@ -5003,5 +5003,15 @@
     }
   },
   "kyc_row_expired_title": "Your account is paused",
-  "kyc_row_expired_subtitle": "Contact support to restore it"
+  "kyc_row_expired_subtitle": "Contact support to restore it",
+  "kyc_row_not_approved_title": "Verification could not be approved",
+  "kyc_row_resubmit_subtitle": "Check the details and resubmit",
+  "kyc_row_resubmit_cta": "Resubmit",
+  "kyc_row_support_subtitle": "Contact support to continue",
+  "kyc_row_support_cta": "Contact support",
+  "kyc_row_continue_title": "We need more information",
+  "kyc_row_required_cta": "Get started",
+  "kyc_row_continue_cta": "Complete now",
+  "kyc_row_no_deadline_subtitle": "Takes a few minutes. Your account keeps working meanwhile",
+  "kyc_limit_see_limit_cta": "See your limit"
 }

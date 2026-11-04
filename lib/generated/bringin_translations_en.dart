@@ -8359,4 +8359,35 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get kyc_row_expired_subtitle => 'Contact support to restore it';
+
+  @override
+  String get kyc_row_not_approved_title => 'Verification could not be approved';
+
+  @override
+  String get kyc_row_resubmit_subtitle => 'Check the details and resubmit';
+
+  @override
+  String get kyc_row_resubmit_cta => 'Resubmit';
+
+  @override
+  String get kyc_row_support_subtitle => 'Contact support to continue';
+
+  @override
+  String get kyc_row_support_cta => 'Contact support';
+
+  @override
+  String get kyc_row_continue_title => 'We need more information';
+
+  @override
+  String get kyc_row_required_cta => 'Get started';
+
+  @override
+  String get kyc_row_continue_cta => 'Complete now';
+
+  @override
+  String get kyc_row_no_deadline_subtitle =>
+      'Takes a few minutes. Your account keeps working meanwhile';
+
+  @override
+  String get kyc_limit_see_limit_cta => 'See your limit';
 }

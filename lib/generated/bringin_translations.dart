@@ -14435,6 +14435,66 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'Contact support to restore it'**
   String get kyc_row_expired_subtitle;
+
+  /// No description provided for @kyc_row_not_approved_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification could not be approved'**
+  String get kyc_row_not_approved_title;
+
+  /// No description provided for @kyc_row_resubmit_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Check the details and resubmit'**
+  String get kyc_row_resubmit_subtitle;
+
+  /// No description provided for @kyc_row_resubmit_cta.
+  ///
+  /// In en, this message translates to:
+  /// **'Resubmit'**
+  String get kyc_row_resubmit_cta;
+
+  /// No description provided for @kyc_row_support_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact support to continue'**
+  String get kyc_row_support_subtitle;
+
+  /// No description provided for @kyc_row_support_cta.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact support'**
+  String get kyc_row_support_cta;
+
+  /// No description provided for @kyc_row_continue_title.
+  ///
+  /// In en, this message translates to:
+  /// **'We need more information'**
+  String get kyc_row_continue_title;
+
+  /// No description provided for @kyc_row_required_cta.
+  ///
+  /// In en, this message translates to:
+  /// **'Get started'**
+  String get kyc_row_required_cta;
+
+  /// No description provided for @kyc_row_continue_cta.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete now'**
+  String get kyc_row_continue_cta;
+
+  /// No description provided for @kyc_row_no_deadline_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Takes a few minutes. Your account keeps working meanwhile'**
+  String get kyc_row_no_deadline_subtitle;
+
+  /// No description provided for @kyc_limit_see_limit_cta.
+  ///
+  /// In en, this message translates to:
+  /// **'See your limit'**
+  String get kyc_limit_see_limit_cta;
 }
 
 class _BringinTranslationsDelegate
