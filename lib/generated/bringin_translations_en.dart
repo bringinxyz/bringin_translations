@@ -2471,6 +2471,45 @@ class BringinTranslationsEn extends BringinTranslations {
       'All your onchain wallets already have a buy connection. Tap + to add a new wallet.';
 
   @override
+  String get connect_buy_verify_title => 'Confirm your wallet';
+
+  @override
+  String get connect_buy_verify_subtitle =>
+      'Buy connections only send Bitcoin to a wallet you own. Confirm this wallet is yours to continue. You only need to do this once for this wallet.';
+
+  @override
+  String get connect_buy_verify_confirm =>
+      'I confirm this is my own Bitcoin wallet';
+
+  @override
+  String get connect_buy_verify_action_choose_other => 'Choose another wallet';
+
+  @override
+  String get connect_buy_blocked_title => 'This wallet can\'t be used';
+
+  @override
+  String get connect_buy_blocked_third_party_body =>
+      'You\'ve declared this wallet as belonging to someone else. Buy connections only work with wallets you own.';
+
+  @override
+  String get connect_buy_blocked_vasp_body =>
+      'You\'ve declared this as an exchange wallet. Buy connections only work with self-custody wallets you own.';
+
+  @override
+  String get connect_buy_blocked_action_add_new => 'Add new wallet';
+
+  @override
+  String get connect_buy_pending_title => 'Verification in progress';
+
+  @override
+  String get connect_buy_pending_body =>
+      'We\'re confirming this wallet is yours. This usually takes a few minutes. Tap Next again once it\'s done.';
+
+  @override
+  String get connect_buy_error_status_check =>
+      'We couldn\'t check this wallet. Please try again.';
+
+  @override
   String get add_wallet_page_title => 'Add a new wallet';
 
   @override

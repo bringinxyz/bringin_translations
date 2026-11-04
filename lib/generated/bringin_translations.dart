@@ -4337,6 +4337,72 @@ abstract class BringinTranslations {
   /// **'All your onchain wallets already have a buy connection. Tap + to add a new wallet.'**
   String get connect_buy_all_wallets_connected;
 
+  /// No description provided for @connect_buy_verify_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm your wallet'**
+  String get connect_buy_verify_title;
+
+  /// No description provided for @connect_buy_verify_subtitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy connections only send Bitcoin to a wallet you own. Confirm this wallet is yours to continue. You only need to do this once for this wallet.'**
+  String get connect_buy_verify_subtitle;
+
+  /// No description provided for @connect_buy_verify_confirm.
+  ///
+  /// In en, this message translates to:
+  /// **'I confirm this is my own Bitcoin wallet'**
+  String get connect_buy_verify_confirm;
+
+  /// No description provided for @connect_buy_verify_action_choose_other.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose another wallet'**
+  String get connect_buy_verify_action_choose_other;
+
+  /// No description provided for @connect_buy_blocked_title.
+  ///
+  /// In en, this message translates to:
+  /// **'This wallet can\'t be used'**
+  String get connect_buy_blocked_title;
+
+  /// No description provided for @connect_buy_blocked_third_party_body.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve declared this wallet as belonging to someone else. Buy connections only work with wallets you own.'**
+  String get connect_buy_blocked_third_party_body;
+
+  /// No description provided for @connect_buy_blocked_vasp_body.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ve declared this as an exchange wallet. Buy connections only work with self-custody wallets you own.'**
+  String get connect_buy_blocked_vasp_body;
+
+  /// No description provided for @connect_buy_blocked_action_add_new.
+  ///
+  /// In en, this message translates to:
+  /// **'Add new wallet'**
+  String get connect_buy_blocked_action_add_new;
+
+  /// No description provided for @connect_buy_pending_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Verification in progress'**
+  String get connect_buy_pending_title;
+
+  /// No description provided for @connect_buy_pending_body.
+  ///
+  /// In en, this message translates to:
+  /// **'We\'re confirming this wallet is yours. This usually takes a few minutes. Tap Next again once it\'s done.'**
+  String get connect_buy_pending_body;
+
+  /// No description provided for @connect_buy_error_status_check.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t check this wallet. Please try again.'**
+  String get connect_buy_error_status_check;
+
   /// No description provided for @add_wallet_page_title.
   ///
   /// In en, this message translates to:
