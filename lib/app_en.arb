@@ -4973,6 +4973,14 @@
   "@home_limit_banner_title": {
     "description": "Home promo banner, shown only when a Tier 1 user has used 75% of a limit. Its button is kyc_upgrade_action_increase."
   },
+  "home_limit_banner_subtitle_monthly": "You’ve used most of your monthly limit. Verify in a few minutes to raise it.",
+  "@home_limit_banner_subtitle_monthly": {
+    "description": "Under 'Need higher limits?' on Home when the monthly withdrawal limit is the one running out (same as web)."
+  },
+  "home_limit_banner_subtitle_total": "You’ve used most of your total limit. Verify in a few minutes to raise it.",
+  "@home_limit_banner_subtitle_total": {
+    "description": "Under 'Need higher limits?' on Home when the total deposit limit is the one running out (same as web)."
+  },
   "kyc_limit_notes_title": "Good to know",
   "kyc_limit_note_shared": "Deposits and withdrawals share this amount, so money you bring in can always go out again.",
   "kyc_limit_note_card": "Card payments count towards it too.",

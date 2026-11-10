@@ -8270,6 +8270,14 @@ class BringinTranslationsEn extends BringinTranslations {
   String get home_limit_banner_title => 'Need higher limits?';
 
   @override
+  String get home_limit_banner_subtitle_monthly =>
+      'You’ve used most of your monthly limit. Verify in a few minutes to raise it.';
+
+  @override
+  String get home_limit_banner_subtitle_total =>
+      'You’ve used most of your total limit. Verify in a few minutes to raise it.';
+
+  @override
   String get kyc_limit_notes_title => 'Good to know';
 
   @override

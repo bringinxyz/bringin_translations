@@ -14274,6 +14274,18 @@ abstract class BringinTranslations {
   /// **'Need higher limits?'**
   String get home_limit_banner_title;
 
+  /// Under 'Need higher limits?' on Home when the monthly withdrawal limit is the one running out (same as web).
+  ///
+  /// In en, this message translates to:
+  /// **'You’ve used most of your monthly limit. Verify in a few minutes to raise it.'**
+  String get home_limit_banner_subtitle_monthly;
+
+  /// Under 'Need higher limits?' on Home when the total deposit limit is the one running out (same as web).
+  ///
+  /// In en, this message translates to:
+  /// **'You’ve used most of your total limit. Verify in a few minutes to raise it.'**
+  String get home_limit_banner_subtitle_total;
+
   /// No description provided for @kyc_limit_notes_title.
   ///
   /// In en, this message translates to:
