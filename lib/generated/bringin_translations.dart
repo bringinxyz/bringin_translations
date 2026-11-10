@@ -11670,6 +11670,24 @@ abstract class BringinTranslations {
   /// **'You seem to exceed the transfer limits of €{limit}. Expand the limits in Profile.'**
   String send_euros_error_exceeds_limits(String limit);
 
+  /// Send euros amount step: the amount plus the SEPA fee is over what is left of the monthly limit. All three are pre-formatted euro amounts.
+  ///
+  /// In en, this message translates to:
+  /// **'You can send up to {max} this month ({left} left, {fee} fee).'**
+  String send_euros_error_max_this_month(String max, String left, String fee);
+
+  /// Same as send_euros_error_max_this_month when the SEPA fee is zero.
+  ///
+  /// In en, this message translates to:
+  /// **'You can send up to {max} this month ({left} left).'**
+  String send_euros_error_max_this_month_no_fee(String max, String left);
+
+  /// Send euros amount step: nothing can be sent this month once the SEPA fee is counted.
+  ///
+  /// In en, this message translates to:
+  /// **'You’ve reached your monthly limit ({left} left).'**
+  String send_euros_error_monthly_limit_reached(String left);
+
   /// Error when the backend returned no body at all.
   ///
   /// In en, this message translates to:

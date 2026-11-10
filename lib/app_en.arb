@@ -3412,6 +3412,30 @@
       }
     }
   },
+  "send_euros_error_max_this_month": "You can send up to {max} this month ({left} left, {fee} fee).",
+  "@send_euros_error_max_this_month": {
+    "description": "Send euros amount step: the amount plus the SEPA fee is over what is left of the monthly limit. All three are pre-formatted euro amounts.",
+    "placeholders": {
+      "max": {"type": "String", "example": "€398,00"},
+      "left": {"type": "String", "example": "€399,00"},
+      "fee": {"type": "String", "example": "€1,00"}
+    }
+  },
+  "send_euros_error_max_this_month_no_fee": "You can send up to {max} this month ({left} left).",
+  "@send_euros_error_max_this_month_no_fee": {
+    "description": "Same as send_euros_error_max_this_month when the SEPA fee is zero.",
+    "placeholders": {
+      "max": {"type": "String", "example": "€399,00"},
+      "left": {"type": "String", "example": "€399,00"}
+    }
+  },
+  "send_euros_error_monthly_limit_reached": "You’ve reached your monthly limit ({left} left).",
+  "@send_euros_error_monthly_limit_reached": {
+    "description": "Send euros amount step: nothing can be sent this month once the SEPA fee is counted.",
+    "placeholders": {
+      "left": {"type": "String", "example": "€0,50"}
+    }
+  },
   "api_error_empty_response": "Server returned an empty response. Please try again.",
   "@api_error_empty_response": {
     "description": "Error when the backend returned no body at all."

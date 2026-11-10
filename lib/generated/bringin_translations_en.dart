@@ -6701,6 +6701,21 @@ class BringinTranslationsEn extends BringinTranslations {
   }
 
   @override
+  String send_euros_error_max_this_month(String max, String left, String fee) {
+    return 'You can send up to $max this month ($left left, $fee fee).';
+  }
+
+  @override
+  String send_euros_error_max_this_month_no_fee(String max, String left) {
+    return 'You can send up to $max this month ($left left).';
+  }
+
+  @override
+  String send_euros_error_monthly_limit_reached(String left) {
+    return 'You’ve reached your monthly limit ($left left).';
+  }
+
+  @override
   String get api_error_empty_response =>
       'Server returned an empty response. Please try again.';
 
