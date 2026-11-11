@@ -14370,6 +14370,18 @@ abstract class BringinTranslations {
   /// **'You can move up to {amount} right now. Try a smaller amount.'**
   String kyc_limit_error_left(String amount);
 
+  /// Limits page, Tier 1 below the €10,000 total-deposit condition for Tier 2 (help center). Replaces the Increase limit button.
+  ///
+  /// In en, this message translates to:
+  /// **'You can raise your limits once you’ve deposited {required} in total ({soFar} so far).'**
+  String kyc_limit_tier2_deposit_needed(String required, String soFar);
+
+  /// Same as kyc_limit_tier2_deposit_needed when the deposit total is unknown.
+  ///
+  /// In en, this message translates to:
+  /// **'You can raise your limits once you’ve deposited {required} in total.'**
+  String kyc_limit_tier2_deposit_needed_no_total(String required);
+
   /// No description provided for @kyc_limit_error_reached.
   ///
   /// In en, this message translates to:

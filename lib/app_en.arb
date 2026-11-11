@@ -5004,6 +5004,21 @@
       }
     }
   },
+  "kyc_limit_tier2_deposit_needed": "You can raise your limits once you’ve deposited {required} in total ({soFar} so far).",
+  "@kyc_limit_tier2_deposit_needed": {
+    "description": "Limits page, Tier 1 below the €10,000 total-deposit condition for Tier 2 (help center). Replaces the Increase limit button.",
+    "placeholders": {
+      "required": {"type": "String", "example": "€10 000,00"},
+      "soFar": {"type": "String", "example": "€3 500,00"}
+    }
+  },
+  "kyc_limit_tier2_deposit_needed_no_total": "You can raise your limits once you’ve deposited {required} in total.",
+  "@kyc_limit_tier2_deposit_needed_no_total": {
+    "description": "Same as kyc_limit_tier2_deposit_needed when the deposit total is unknown.",
+    "placeholders": {
+      "required": {"type": "String", "example": "€10 000,00"}
+    }
+  },
   "kyc_limit_error_reached": "You’ve reached your limit. Verify your account to keep depositing and withdrawing.",
   "kyc_upgrade_sheet_title": "Increase your limits",
   "kyc_upgrade_sheet_intro": "A standard verification step as your account grows. It takes a few minutes.",

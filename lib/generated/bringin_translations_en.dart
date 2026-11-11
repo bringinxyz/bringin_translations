@@ -8327,6 +8327,16 @@ class BringinTranslationsEn extends BringinTranslations {
   }
 
   @override
+  String kyc_limit_tier2_deposit_needed(String required, String soFar) {
+    return 'You can raise your limits once you’ve deposited $required in total ($soFar so far).';
+  }
+
+  @override
+  String kyc_limit_tier2_deposit_needed_no_total(String required) {
+    return 'You can raise your limits once you’ve deposited $required in total.';
+  }
+
+  @override
   String get kyc_limit_error_reached =>
       'You’ve reached your limit. Verify your account to keep depositing and withdrawing.';
 
