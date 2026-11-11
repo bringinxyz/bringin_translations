@@ -5008,31 +5008,9 @@
   "@kyc_limit_support_title": {
     "description": "Limits page, Tier 1 below the €10,000 total-deposit condition: title of the contact-support block (same as web)."
   },
-  "kyc_limit_support_body": "Our support team can help you raise them.",
+  "kyc_limit_support_body": "We’re happy to help. Send us a quick email and our team will look at raising your limits.",
   "@kyc_limit_support_body": {
     "description": "Line under 'Need higher limits?' on the limits page (same as web)."
-  },
-  "kyc_limit_contact_support_higher": "Want higher limits? Contact us at {email}.",
-  "@kyc_limit_contact_support_higher": {
-    "description": "Limits page, Tier 1 below the €10,000 total-deposit condition for Tier 2: replaces the Increase limit button. Tapping opens the support email.",
-    "placeholders": {
-      "email": {"type": "String", "example": "support@bringin.xyz"}
-    }
-  },
-  "kyc_limit_tier2_deposit_needed": "You can raise your limits once you’ve deposited {required} in total ({soFar} so far).",
-  "@kyc_limit_tier2_deposit_needed": {
-    "description": "Limits page, Tier 1 below the €10,000 total-deposit condition for Tier 2 (help center). Replaces the Increase limit button.",
-    "placeholders": {
-      "required": {"type": "String", "example": "€10 000,00"},
-      "soFar": {"type": "String", "example": "€3 500,00"}
-    }
-  },
-  "kyc_limit_tier2_deposit_needed_no_total": "You can raise your limits once you’ve deposited {required} in total.",
-  "@kyc_limit_tier2_deposit_needed_no_total": {
-    "description": "Same as kyc_limit_tier2_deposit_needed when the deposit total is unknown.",
-    "placeholders": {
-      "required": {"type": "String", "example": "€10 000,00"}
-    }
   },
   "kyc_limit_error_reached": "You’ve reached your limit. Verify your account to keep depositing and withdrawing.",
   "kyc_upgrade_sheet_title": "Increase your limits",

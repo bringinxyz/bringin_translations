@@ -14379,26 +14379,8 @@ abstract class BringinTranslations {
   /// Line under 'Need higher limits?' on the limits page (same as web).
   ///
   /// In en, this message translates to:
-  /// **'Our support team can help you raise them.'**
+  /// **'We’re happy to help. Send us a quick email and our team will look at raising your limits.'**
   String get kyc_limit_support_body;
-
-  /// Limits page, Tier 1 below the €10,000 total-deposit condition for Tier 2: replaces the Increase limit button. Tapping opens the support email.
-  ///
-  /// In en, this message translates to:
-  /// **'Want higher limits? Contact us at {email}.'**
-  String kyc_limit_contact_support_higher(String email);
-
-  /// Limits page, Tier 1 below the €10,000 total-deposit condition for Tier 2 (help center). Replaces the Increase limit button.
-  ///
-  /// In en, this message translates to:
-  /// **'You can raise your limits once you’ve deposited {required} in total ({soFar} so far).'**
-  String kyc_limit_tier2_deposit_needed(String required, String soFar);
-
-  /// Same as kyc_limit_tier2_deposit_needed when the deposit total is unknown.
-  ///
-  /// In en, this message translates to:
-  /// **'You can raise your limits once you’ve deposited {required} in total.'**
-  String kyc_limit_tier2_deposit_needed_no_total(String required);
 
   /// No description provided for @kyc_limit_error_reached.
   ///
