@@ -14370,6 +14370,12 @@ abstract class BringinTranslations {
   /// **'You can move up to {amount} right now. Try a smaller amount.'**
   String kyc_limit_error_left(String amount);
 
+  /// Limits page, Tier 1 below the €10,000 total-deposit condition for Tier 2: replaces the Increase limit button. Tapping opens the support email.
+  ///
+  /// In en, this message translates to:
+  /// **'Want higher limits? Contact us at {email}.'**
+  String kyc_limit_contact_support_higher(String email);
+
   /// Limits page, Tier 1 below the €10,000 total-deposit condition for Tier 2 (help center). Replaces the Increase limit button.
   ///
   /// In en, this message translates to:

@@ -5004,6 +5004,13 @@
       }
     }
   },
+  "kyc_limit_contact_support_higher": "Want higher limits? Contact us at {email}.",
+  "@kyc_limit_contact_support_higher": {
+    "description": "Limits page, Tier 1 below the €10,000 total-deposit condition for Tier 2: replaces the Increase limit button. Tapping opens the support email.",
+    "placeholders": {
+      "email": {"type": "String", "example": "support@bringin.xyz"}
+    }
+  },
   "kyc_limit_tier2_deposit_needed": "You can raise your limits once you’ve deposited {required} in total ({soFar} so far).",
   "@kyc_limit_tier2_deposit_needed": {
     "description": "Limits page, Tier 1 below the €10,000 total-deposit condition for Tier 2 (help center). Replaces the Increase limit button.",
