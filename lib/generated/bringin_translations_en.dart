@@ -8327,6 +8327,13 @@ class BringinTranslationsEn extends BringinTranslations {
   }
 
   @override
+  String get kyc_limit_support_title => 'Need higher limits?';
+
+  @override
+  String get kyc_limit_support_body =>
+      'Our support team can help you raise them.';
+
+  @override
   String kyc_limit_contact_support_higher(String email) {
     return 'Want higher limits? Contact us at $email.';
   }
