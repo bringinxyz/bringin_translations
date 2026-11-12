@@ -14549,6 +14549,174 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'To keep your account safe, we\'ve logged you out on any other devices. You\'re still logged in here.'**
   String get security_other_devices_logged_out;
+
+  /// Section header on Login & Security above the logged-in devices row.
+  ///
+  /// In en, this message translates to:
+  /// **'Devices'**
+  String get security_section_devices;
+
+  /// Row on Login & Security that opens the list of devices logged in to the account.
+  ///
+  /// In en, this message translates to:
+  /// **'Logged-in devices'**
+  String get devices_row_title;
+
+  /// Subtitle of the logged-in devices row on Login & Security.
+  ///
+  /// In en, this message translates to:
+  /// **'See where you\'re logged in and log out of devices you don\'t use.'**
+  String get devices_row_subtitle;
+
+  /// Title of the screen listing every device logged in to the account.
+  ///
+  /// In en, this message translates to:
+  /// **'Logged-in devices'**
+  String get devices_title;
+
+  /// Header above the card for the phone the user is holding.
+  ///
+  /// In en, this message translates to:
+  /// **'This device'**
+  String get devices_section_this_device;
+
+  /// Header above the list of the account's other logged-in devices.
+  ///
+  /// In en, this message translates to:
+  /// **'Other devices'**
+  String get devices_section_other_devices;
+
+  /// Status of the phone the user is holding.
+  ///
+  /// In en, this message translates to:
+  /// **'Active now'**
+  String get devices_active_now;
+
+  /// When another device was last used. time is relative, e.g. '2 hours ago'.
+  ///
+  /// In en, this message translates to:
+  /// **'Last active {time}'**
+  String devices_last_active(String time);
+
+  /// Button on a device row that logs that device out.
+  ///
+  /// In en, this message translates to:
+  /// **'Log out'**
+  String get devices_log_out;
+
+  /// Button that logs out every device except this phone.
+  ///
+  /// In en, this message translates to:
+  /// **'Log out of all other devices'**
+  String get devices_log_out_all;
+
+  /// Shown when no other device is logged in.
+  ///
+  /// In en, this message translates to:
+  /// **'This is the only device logged in to your account.'**
+  String get devices_only_this_device;
+
+  /// Confirmation title before logging out one device. device is its name, e.g. 'iPhone 15'.
+  ///
+  /// In en, this message translates to:
+  /// **'Log out of {device}?'**
+  String devices_confirm_one_title(String device);
+
+  /// Confirmation text before logging out one device.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin on that device will need to log in again.'**
+  String get devices_confirm_one_body;
+
+  /// Confirmation title before logging out every other device.
+  ///
+  /// In en, this message translates to:
+  /// **'Log out of all other devices?'**
+  String get devices_confirm_all_title;
+
+  /// Confirmation text before logging out every other device.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'ll stay logged in here. Bringin on your other devices will need to log in again.'**
+  String get devices_confirm_all_body;
+
+  /// Toast after one device was logged out.
+  ///
+  /// In en, this message translates to:
+  /// **'Logged out of {device}.'**
+  String devices_logged_out_one(String device);
+
+  /// Toast after every other device was logged out.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{Logged out of 1 device.} other{Logged out of {count} devices.}}'**
+  String devices_logged_out_all(int count);
+
+  /// Shown when the device list fails to load.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t load your devices. Please try again.'**
+  String get devices_error_load;
+
+  /// Shown when logging a device out fails.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t log out that device. Please try again.'**
+  String get devices_error_log_out;
+
+  /// Shown when this phone's login is too old to manage devices; logging in again fixes it.
+  ///
+  /// In en, this message translates to:
+  /// **'To manage your devices, log in again on this phone.'**
+  String get devices_need_fresh_login;
+
+  /// Button that logs this phone out so the user can log in again.
+  ///
+  /// In en, this message translates to:
+  /// **'Log in again'**
+  String get devices_log_in_again;
+
+  /// Device name when the exact model is unknown.
+  ///
+  /// In en, this message translates to:
+  /// **'iPhone'**
+  String get devices_name_iphone;
+
+  /// Device name when the exact model is unknown.
+  ///
+  /// In en, this message translates to:
+  /// **'Android phone'**
+  String get devices_name_android;
+
+  /// Device name for a login from the web app.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin on the web'**
+  String get devices_name_web;
+
+  /// Device name when nothing is known about the device.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown device'**
+  String get devices_name_unknown;
+
+  /// Device name for a phone login where the app didn't say which kind of phone (older app versions).
+  ///
+  /// In en, this message translates to:
+  /// **'Phone'**
+  String get devices_name_phone;
+
+  /// Device name for a web login, e.g. 'Chrome on macOS'.
+  ///
+  /// In en, this message translates to:
+  /// **'{browser} on {os}'**
+  String devices_name_browser_on_os(String browser, String os);
+
+  /// Device name for a web login when the computer type is unknown, e.g. 'Chrome browser'.
+  ///
+  /// In en, this message translates to:
+  /// **'{browser} browser'**
+  String devices_name_browser(String browser);
 }
 
 class _BringinTranslationsDelegate

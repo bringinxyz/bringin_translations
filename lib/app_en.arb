@@ -5061,5 +5061,150 @@
   "security_other_devices_logged_out": "To keep your account safe, we've logged you out on any other devices. You're still logged in here.",
   "@security_other_devices_logged_out": {
     "description": "Shown on this device after adding or removing a passkey, adding an authenticator, or changing the phone number: every other device is logged out and must log in again. Reassures the user that this device is unaffected."
+  },
+  "security_section_devices": "Devices",
+  "@security_section_devices": {
+    "description": "Section header on Login & Security above the logged-in devices row."
+  },
+  "devices_row_title": "Logged-in devices",
+  "@devices_row_title": {
+    "description": "Row on Login & Security that opens the list of devices logged in to the account."
+  },
+  "devices_row_subtitle": "See where you're logged in and log out of devices you don't use.",
+  "@devices_row_subtitle": {
+    "description": "Subtitle of the logged-in devices row on Login & Security."
+  },
+  "devices_title": "Logged-in devices",
+  "@devices_title": {
+    "description": "Title of the screen listing every device logged in to the account."
+  },
+  "devices_section_this_device": "This device",
+  "@devices_section_this_device": {
+    "description": "Header above the card for the phone the user is holding."
+  },
+  "devices_section_other_devices": "Other devices",
+  "@devices_section_other_devices": {
+    "description": "Header above the list of the account's other logged-in devices."
+  },
+  "devices_active_now": "Active now",
+  "@devices_active_now": {
+    "description": "Status of the phone the user is holding."
+  },
+  "devices_last_active": "Last active {time}",
+  "@devices_last_active": {
+    "description": "When another device was last used. time is relative, e.g. '2 hours ago'.",
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "devices_log_out": "Log out",
+  "@devices_log_out": {
+    "description": "Button on a device row that logs that device out."
+  },
+  "devices_log_out_all": "Log out of all other devices",
+  "@devices_log_out_all": {
+    "description": "Button that logs out every device except this phone."
+  },
+  "devices_only_this_device": "This is the only device logged in to your account.",
+  "@devices_only_this_device": {
+    "description": "Shown when no other device is logged in."
+  },
+  "devices_confirm_one_title": "Log out of {device}?",
+  "@devices_confirm_one_title": {
+    "description": "Confirmation title before logging out one device. device is its name, e.g. 'iPhone 15'.",
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "devices_confirm_one_body": "Bringin on that device will need to log in again.",
+  "@devices_confirm_one_body": {
+    "description": "Confirmation text before logging out one device."
+  },
+  "devices_confirm_all_title": "Log out of all other devices?",
+  "@devices_confirm_all_title": {
+    "description": "Confirmation title before logging out every other device."
+  },
+  "devices_confirm_all_body": "You'll stay logged in here. Bringin on your other devices will need to log in again.",
+  "@devices_confirm_all_body": {
+    "description": "Confirmation text before logging out every other device."
+  },
+  "devices_logged_out_one": "Logged out of {device}.",
+  "@devices_logged_out_one": {
+    "description": "Toast after one device was logged out.",
+    "placeholders": {
+      "device": {
+        "type": "String"
+      }
+    }
+  },
+  "devices_logged_out_all": "{count, plural, =1{Logged out of 1 device.} other{Logged out of {count} devices.}}",
+  "@devices_logged_out_all": {
+    "description": "Toast after every other device was logged out.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "devices_error_load": "We couldn't load your devices. Please try again.",
+  "@devices_error_load": {
+    "description": "Shown when the device list fails to load."
+  },
+  "devices_error_log_out": "We couldn't log out that device. Please try again.",
+  "@devices_error_log_out": {
+    "description": "Shown when logging a device out fails."
+  },
+  "devices_need_fresh_login": "To manage your devices, log in again on this phone.",
+  "@devices_need_fresh_login": {
+    "description": "Shown when this phone's login is too old to manage devices; logging in again fixes it."
+  },
+  "devices_log_in_again": "Log in again",
+  "@devices_log_in_again": {
+    "description": "Button that logs this phone out so the user can log in again."
+  },
+  "devices_name_iphone": "iPhone",
+  "@devices_name_iphone": {
+    "description": "Device name when the exact model is unknown."
+  },
+  "devices_name_android": "Android phone",
+  "@devices_name_android": {
+    "description": "Device name when the exact model is unknown."
+  },
+  "devices_name_web": "Bringin on the web",
+  "@devices_name_web": {
+    "description": "Device name for a login from the web app."
+  },
+  "devices_name_unknown": "Unknown device",
+  "@devices_name_unknown": {
+    "description": "Device name when nothing is known about the device."
+  },
+  "devices_name_phone": "Phone",
+  "@devices_name_phone": {
+    "description": "Device name for a phone login where the app didn't say which kind of phone (older app versions)."
+  },
+  "devices_name_browser_on_os": "{browser} on {os}",
+  "@devices_name_browser_on_os": {
+    "description": "Device name for a web login, e.g. 'Chrome on macOS'.",
+    "placeholders": {
+      "browser": {
+        "type": "String"
+      },
+      "os": {
+        "type": "String"
+      }
+    }
+  },
+  "devices_name_browser": "{browser} browser",
+  "@devices_name_browser": {
+    "description": "Device name for a web login when the computer type is unknown, e.g. 'Chrome browser'.",
+    "placeholders": {
+      "browser": {
+        "type": "String"
+      }
+    }
   }
 }

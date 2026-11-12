@@ -8428,4 +8428,113 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get security_other_devices_logged_out =>
       'To keep your account safe, we\'ve logged you out on any other devices. You\'re still logged in here.';
+
+  @override
+  String get security_section_devices => 'Devices';
+
+  @override
+  String get devices_row_title => 'Logged-in devices';
+
+  @override
+  String get devices_row_subtitle =>
+      'See where you\'re logged in and log out of devices you don\'t use.';
+
+  @override
+  String get devices_title => 'Logged-in devices';
+
+  @override
+  String get devices_section_this_device => 'This device';
+
+  @override
+  String get devices_section_other_devices => 'Other devices';
+
+  @override
+  String get devices_active_now => 'Active now';
+
+  @override
+  String devices_last_active(String time) {
+    return 'Last active $time';
+  }
+
+  @override
+  String get devices_log_out => 'Log out';
+
+  @override
+  String get devices_log_out_all => 'Log out of all other devices';
+
+  @override
+  String get devices_only_this_device =>
+      'This is the only device logged in to your account.';
+
+  @override
+  String devices_confirm_one_title(String device) {
+    return 'Log out of $device?';
+  }
+
+  @override
+  String get devices_confirm_one_body =>
+      'Bringin on that device will need to log in again.';
+
+  @override
+  String get devices_confirm_all_title => 'Log out of all other devices?';
+
+  @override
+  String get devices_confirm_all_body =>
+      'You\'ll stay logged in here. Bringin on your other devices will need to log in again.';
+
+  @override
+  String devices_logged_out_one(String device) {
+    return 'Logged out of $device.';
+  }
+
+  @override
+  String devices_logged_out_all(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Logged out of $count devices.',
+      one: 'Logged out of 1 device.',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get devices_error_load =>
+      'We couldn\'t load your devices. Please try again.';
+
+  @override
+  String get devices_error_log_out =>
+      'We couldn\'t log out that device. Please try again.';
+
+  @override
+  String get devices_need_fresh_login =>
+      'To manage your devices, log in again on this phone.';
+
+  @override
+  String get devices_log_in_again => 'Log in again';
+
+  @override
+  String get devices_name_iphone => 'iPhone';
+
+  @override
+  String get devices_name_android => 'Android phone';
+
+  @override
+  String get devices_name_web => 'Bringin on the web';
+
+  @override
+  String get devices_name_unknown => 'Unknown device';
+
+  @override
+  String get devices_name_phone => 'Phone';
+
+  @override
+  String devices_name_browser_on_os(String browser, String os) {
+    return '$browser on $os';
+  }
+
+  @override
+  String devices_name_browser(String browser) {
+    return '$browser browser';
+  }
 }
