@@ -8537,4 +8537,16 @@ class BringinTranslationsEn extends BringinTranslations {
   String devices_name_browser(String browser) {
     return '$browser browser';
   }
+
+  @override
+  String get device_approval_title => 'Check your email';
+
+  @override
+  String device_approval_subtitle(String email) {
+    return 'You\'re logging in on a new phone. To keep your account safe, enter the 6-digit code we sent to $email.';
+  }
+
+  @override
+  String get device_approval_subtitle_no_email =>
+      'You\'re logging in on a new phone. To keep your account safe, enter the 6-digit code we sent to your email.';
 }

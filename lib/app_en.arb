@@ -5206,5 +5206,22 @@
         "type": "String"
       }
     }
+  },
+  "device_approval_title": "Check your email",
+  "@device_approval_title": {
+    "description": "Title of the screen shown when someone logs in on a phone the account has not used before; a 6-digit code was emailed to them."
+  },
+  "device_approval_subtitle": "You're logging in on a new phone. To keep your account safe, enter the 6-digit code we sent to {email}.",
+  "@device_approval_subtitle": {
+    "description": "Explains the code step on a new phone. email is masked, e.g. p***@example.com.",
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "device_approval_subtitle_no_email": "You're logging in on a new phone. To keep your account safe, enter the 6-digit code we sent to your email.",
+  "@device_approval_subtitle_no_email": {
+    "description": "Same as device_approval_subtitle when the email address is not known."
   }
 }

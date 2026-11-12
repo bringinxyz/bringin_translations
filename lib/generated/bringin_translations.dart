@@ -14717,6 +14717,24 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'{browser} browser'**
   String devices_name_browser(String browser);
+
+  /// Title of the screen shown when someone logs in on a phone the account has not used before; a 6-digit code was emailed to them.
+  ///
+  /// In en, this message translates to:
+  /// **'Check your email'**
+  String get device_approval_title;
+
+  /// Explains the code step on a new phone. email is masked, e.g. p***@example.com.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'re logging in on a new phone. To keep your account safe, enter the 6-digit code we sent to {email}.'**
+  String device_approval_subtitle(String email);
+
+  /// Same as device_approval_subtitle when the email address is not known.
+  ///
+  /// In en, this message translates to:
+  /// **'You\'re logging in on a new phone. To keep your account safe, enter the 6-digit code we sent to your email.'**
+  String get device_approval_subtitle_no_email;
 }
 
 class _BringinTranslationsDelegate
