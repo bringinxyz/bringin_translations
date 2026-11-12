@@ -8420,4 +8420,12 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get kyc_limit_see_limit_cta => 'See your limit';
+
+  @override
+  String get auth_session_ended_notice =>
+      'For your security, you\'ve been logged out. Please log in again.';
+
+  @override
+  String get security_other_devices_logged_out =>
+      'To keep your account safe, we\'ve logged you out on any other devices. You\'re still logged in here.';
 }

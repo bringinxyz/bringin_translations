@@ -14537,6 +14537,18 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'See your limit'**
   String get kyc_limit_see_limit_cta;
+
+  /// Shown once on the logged-out screen when the server ended the session on this device (for example after a passkey or authenticator was added on another device, a password reset, or the session was signed out elsewhere).
+  ///
+  /// In en, this message translates to:
+  /// **'For your security, you\'ve been logged out. Please log in again.'**
+  String get auth_session_ended_notice;
+
+  /// Shown on this device after adding or removing a passkey, adding an authenticator, or changing the phone number: every other device is logged out and must log in again. Reassures the user that this device is unaffected.
+  ///
+  /// In en, this message translates to:
+  /// **'To keep your account safe, we\'ve logged you out on any other devices. You\'re still logged in here.'**
+  String get security_other_devices_logged_out;
 }
 
 class _BringinTranslationsDelegate

@@ -5053,5 +5053,13 @@
   "kyc_row_required_cta": "Get started",
   "kyc_row_continue_cta": "Complete now",
   "kyc_row_no_deadline_subtitle": "Takes a few minutes. Your account keeps working meanwhile",
-  "kyc_limit_see_limit_cta": "See your limit"
+  "kyc_limit_see_limit_cta": "See your limit",
+  "auth_session_ended_notice": "For your security, you've been logged out. Please log in again.",
+  "@auth_session_ended_notice": {
+    "description": "Shown once on the logged-out screen when the server ended the session on this device (for example after a passkey or authenticator was added on another device, a password reset, or the session was signed out elsewhere)."
+  },
+  "security_other_devices_logged_out": "To keep your account safe, we've logged you out on any other devices. You're still logged in here.",
+  "@security_other_devices_logged_out": {
+    "description": "Shown on this device after adding or removing a passkey, adding an authenticator, or changing the phone number: every other device is logged out and must log in again. Reassures the user that this device is unaffected."
+  }
 }
