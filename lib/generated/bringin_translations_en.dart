@@ -8256,10 +8256,51 @@ class BringinTranslationsEn extends BringinTranslations {
       'Your limits appear here once verification is complete.';
 
   @override
-  String get kyc_limit_monthly_label => 'Monthly limit';
+  String get kyc_limit_monthly_label => 'Monthly withdrawal limit';
 
   @override
   String get kyc_limit_total_label => 'Total limit';
+
+  @override
+  String get kyc_limit_bitcoin_deposit_label => 'Bitcoin deposit limit';
+
+  @override
+  String get kyc_limit_total_deposit_label => 'Total deposit limit';
+
+  @override
+  String get kyc_limits_explainer_title => 'How your limits work';
+
+  @override
+  String get kyc_limits_explainer_withdrawals_label => 'Withdrawals:';
+
+  @override
+  String kyc_limits_explainer_withdrawals(String limit) {
+    return 'bank transfers out, outgoing Bitcoin transactions and card payments, up to $limit a month in total. This resets every month.';
+  }
+
+  @override
+  String get kyc_limits_explainer_bitcoin_label => 'Bitcoin deposits:';
+
+  @override
+  String kyc_limits_explainer_bitcoin(String limit) {
+    return 'Bitcoin you receive (on-chain or Lightning), up to $limit in total. This doesn’t reset.';
+  }
+
+  @override
+  String get kyc_limits_explainer_all_label => 'All deposits:';
+
+  @override
+  String kyc_limits_explainer_all(String limit) {
+    return 'euro and Bitcoin deposits together, up to $limit in total.';
+  }
+
+  @override
+  String kyc_limits_explainer_tier2(String limit) {
+    return 'Tier 2 raises withdrawals to $limit a month and removes the deposit limits.';
+  }
+
+  @override
+  String get kyc_limits_explainer_link => 'Learn more about limits';
 
   @override
   String kyc_limit_left_of(String left, String limit) {
