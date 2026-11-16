@@ -14253,26 +14253,14 @@ abstract class BringinTranslations {
   /// Limits page: withdrawals (SEPA, crypto out, card), resets every month.
   ///
   /// In en, this message translates to:
-  /// **'Monthly withdrawal limit'**
+  /// **'Monthly limit'**
   String get kyc_limit_monthly_label;
 
-  /// Limits page: Tier 1 crypto deposits, a total that never resets.
-  ///
-  /// In en, this message translates to:
-  /// **'Total limit'**
-  String get kyc_limit_total_label;
-
-  /// Limits page, Tier 1: Bitcoin deposits (on-chain or Lightning), a lifetime total (€15k) that never resets.
-  ///
-  /// In en, this message translates to:
-  /// **'Bitcoin deposit limit'**
-  String get kyc_limit_bitcoin_deposit_label;
-
-  /// Limits page, Tier 1: euro and Bitcoin deposits together, a lifetime total (€25k) that never resets.
+  /// Limits page, Tier 1: lifetime deposits (Bitcoin €15k, or all deposits €25k when that has less left). Never resets.
   ///
   /// In en, this message translates to:
   /// **'Total deposit limit'**
-  String get kyc_limit_total_deposit_label;
+  String get kyc_limit_total_label;
 
   /// Limits page, Tier 1: title of the closed box that explains the limits. Tap to open.
   ///
@@ -14280,47 +14268,29 @@ abstract class BringinTranslations {
   /// **'How your limits work'**
   String get kyc_limits_explainer_title;
 
-  /// Bold lead-in of the first point in 'How your limits work'.
+  /// First point in "How your limits work". {limit} is the monthly limit, e.g. "€10 000".
   ///
   /// In en, this message translates to:
-  /// **'Withdrawals:'**
-  String get kyc_limits_explainer_withdrawals_label;
+  /// **'Each month, you can deposit up to {limit} (in euros or Bitcoin) and withdraw up to {limit} (in euros or Bitcoin).'**
+  String kyc_limits_explainer_monthly(String limit);
 
-  /// Follows 'Withdrawals:'. {limit} is the monthly withdrawal limit, e.g. '€10 000,00'.
+  /// Second point in "How your limits work". {limit} is the monthly limit.
   ///
   /// In en, this message translates to:
-  /// **'bank transfers out, outgoing Bitcoin transactions and card payments, up to {limit} a month in total. This resets every month.'**
-  String kyc_limits_explainer_withdrawals(String limit);
+  /// **'For buying, you can deposit up to {limit} and buy Bitcoin to any wallet.'**
+  String kyc_limits_explainer_buying(String limit);
 
-  /// Bold lead-in of the Bitcoin deposits point in 'How your limits work'.
+  /// Third point in "How your limits work". {limit} is the monthly limit.
   ///
   /// In en, this message translates to:
-  /// **'Bitcoin deposits:'**
-  String get kyc_limits_explainer_bitcoin_label;
+  /// **'You can sell {limit} worth of Bitcoin from your wallet and get up to {limit} in your Bringin or bank account.'**
+  String kyc_limits_explainer_selling(String limit);
 
-  /// Follows 'Bitcoin deposits:'. {limit} is the Bitcoin deposit limit, e.g. '€15 000,00'.
+  /// Last point in "How your limits work".
   ///
   /// In en, this message translates to:
-  /// **'Bitcoin you receive (on-chain or Lightning), up to {limit} in total. This doesn’t reset.'**
-  String kyc_limits_explainer_bitcoin(String limit);
-
-  /// Bold lead-in of the all-deposits point in 'How your limits work'.
-  ///
-  /// In en, this message translates to:
-  /// **'All deposits:'**
-  String get kyc_limits_explainer_all_label;
-
-  /// Follows 'All deposits:'. {limit} is the total deposit limit, e.g. '€25 000,00'.
-  ///
-  /// In en, this message translates to:
-  /// **'euro and Bitcoin deposits together, up to {limit} in total.'**
-  String kyc_limits_explainer_all(String limit);
-
-  /// Last point in 'How your limits work'. {limit} is Tier 2's monthly withdrawal limit, e.g. '€100 000,00'.
-  ///
-  /// In en, this message translates to:
-  /// **'Tier 2 raises withdrawals to {limit} a month and removes the deposit limits.'**
-  String kyc_limits_explainer_tier2(String limit);
+  /// **'Your total limit doesn’t reset. Once it’s used up, complete Tier 2 verification to keep going.'**
+  String get kyc_limits_explainer_total;
 
   /// Link under 'How your limits work' to the help-centre article about limits.
   ///

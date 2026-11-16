@@ -8256,48 +8256,32 @@ class BringinTranslationsEn extends BringinTranslations {
       'Your limits appear here once verification is complete.';
 
   @override
-  String get kyc_limit_monthly_label => 'Monthly withdrawal limit';
+  String get kyc_limit_monthly_label => 'Monthly limit';
 
   @override
-  String get kyc_limit_total_label => 'Total limit';
-
-  @override
-  String get kyc_limit_bitcoin_deposit_label => 'Bitcoin deposit limit';
-
-  @override
-  String get kyc_limit_total_deposit_label => 'Total deposit limit';
+  String get kyc_limit_total_label => 'Total deposit limit';
 
   @override
   String get kyc_limits_explainer_title => 'How your limits work';
 
   @override
-  String get kyc_limits_explainer_withdrawals_label => 'Withdrawals:';
-
-  @override
-  String kyc_limits_explainer_withdrawals(String limit) {
-    return 'bank transfers out, outgoing Bitcoin transactions and card payments, up to $limit a month in total. This resets every month.';
+  String kyc_limits_explainer_monthly(String limit) {
+    return 'Each month, you can deposit up to $limit (in euros or Bitcoin) and withdraw up to $limit (in euros or Bitcoin).';
   }
 
   @override
-  String get kyc_limits_explainer_bitcoin_label => 'Bitcoin deposits:';
-
-  @override
-  String kyc_limits_explainer_bitcoin(String limit) {
-    return 'Bitcoin you receive (on-chain or Lightning), up to $limit in total. This doesn’t reset.';
+  String kyc_limits_explainer_buying(String limit) {
+    return 'For buying, you can deposit up to $limit and buy Bitcoin to any wallet.';
   }
 
   @override
-  String get kyc_limits_explainer_all_label => 'All deposits:';
-
-  @override
-  String kyc_limits_explainer_all(String limit) {
-    return 'euro and Bitcoin deposits together, up to $limit in total.';
+  String kyc_limits_explainer_selling(String limit) {
+    return 'You can sell $limit worth of Bitcoin from your wallet and get up to $limit in your Bringin or bank account.';
   }
 
   @override
-  String kyc_limits_explainer_tier2(String limit) {
-    return 'Tier 2 raises withdrawals to $limit a month and removes the deposit limits.';
-  }
+  String get kyc_limits_explainer_total =>
+      'Your total limit doesn’t reset. Once it’s used up, complete Tier 2 verification to keep going.';
 
   @override
   String get kyc_limits_explainer_link => 'Learn more about limits';
