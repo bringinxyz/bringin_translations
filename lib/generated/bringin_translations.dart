@@ -15285,7 +15285,7 @@ abstract class BringinTranslations {
   /// Welcome card checklist: verification done.
   ///
   /// In en, this message translates to:
-  /// **'Verified'**
+  /// **'KYC approved'**
   String get referral_welcome_step_kyc;
 
   /// Welcome card checklist: verification not done yet.
@@ -15321,7 +15321,7 @@ abstract class BringinTranslations {
   /// Body under referral_welcome_paid_title.
   ///
   /// In en, this message translates to:
-  /// **'Your first transaction fee is back in your Euro account.'**
+  /// **'Your first transaction fee is back. Fee-free, as promised.'**
   String get referral_welcome_paid_body;
 }
 

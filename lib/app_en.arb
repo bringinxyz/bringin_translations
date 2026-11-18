@@ -5741,7 +5741,7 @@
       }
     }
   },
-  "referral_welcome_step_kyc": "Verified",
+  "referral_welcome_step_kyc": "KYC approved",
   "@referral_welcome_step_kyc": {
     "description": "Welcome card checklist: verification done."
   },
@@ -5775,7 +5775,7 @@
       }
     }
   },
-  "referral_welcome_paid_body": "Your first transaction fee is back in your Euro account.",
+  "referral_welcome_paid_body": "Your first transaction fee is back. Fee-free, as promised.",
   "@referral_welcome_paid_body": {
     "description": "Body under referral_welcome_paid_title."
   }

@@ -8890,7 +8890,7 @@ class BringinTranslationsEn extends BringinTranslations {
   }
 
   @override
-  String get referral_welcome_step_kyc => 'Verified';
+  String get referral_welcome_step_kyc => 'KYC approved';
 
   @override
   String get referral_welcome_step_kyc_pending => 'Get verified';
@@ -8919,5 +8919,5 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get referral_welcome_paid_body =>
-      'Your first transaction fee is back in your Euro account.';
+      'Your first transaction fee is back. Fee-free, as promised.';
 }
