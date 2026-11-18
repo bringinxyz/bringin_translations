@@ -8877,69 +8877,6 @@ class BringinTranslationsEn extends BringinTranslations {
       'We can\'t find this code. Check it, or continue without one.';
 
   @override
-  String get referral_apply_row_title => 'Add a referral code';
-
-  @override
-  String get referral_apply_row_subtitle =>
-      'Got a code from a friend? Add it before your first transaction.';
-
-  @override
-  String get referral_apply_title => 'Add a referral code';
-
-  @override
-  String referral_apply_subtitle(String days) {
-    return 'Enter the code a friend shared with you. You can add one in your first $days days, before your first transaction.';
-  }
-
-  @override
-  String referral_apply_invited_by(String name) {
-    return '$name invited you';
-  }
-
-  @override
-  String get referral_apply_button => 'Add code';
-
-  @override
-  String get referral_apply_success_title => 'Code added!';
-
-  @override
-  String referral_apply_success_body(String cap) {
-    return 'Your first transaction fee is on us, up to $cap.';
-  }
-
-  @override
-  String get referral_apply_error_inactive =>
-      'Referral codes can\'t be added right now. Please try again later.';
-
-  @override
-  String get referral_apply_error_not_found =>
-      'We can\'t find this code. Check it and try again.';
-
-  @override
-  String get referral_apply_error_own_code =>
-      'You can\'t use your own code. Try a friend\'s code instead.';
-
-  @override
-  String get referral_apply_error_already_applied =>
-      'A referral code is already on your account.';
-
-  @override
-  String get referral_apply_error_window_closed =>
-      'Referral codes can only be added in the first days after signing up.';
-
-  @override
-  String get referral_apply_error_after_first_tx =>
-      'Referral codes can only be added before your first transaction.';
-
-  @override
-  String get referral_apply_error_affiliate =>
-      'An invite code is already on your account, so a referral code can\'t be added.';
-
-  @override
-  String get referral_apply_error_generic =>
-      'We couldn\'t add the code. Please try again.';
-
-  @override
   String get referral_welcome_title => 'Your first transaction fee is on us';
 
   @override
