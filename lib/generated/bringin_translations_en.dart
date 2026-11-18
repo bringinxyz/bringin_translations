@@ -878,7 +878,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get create_account_error_first_name_invalid =>
-      'This firstname is not valid';
+      'Use 2–40 letters. Spaces, hyphens, apostrophes and full stops are fine, numbers and other symbols aren\'t.';
 
   @override
   String get create_account_field_label_last_name => 'Last name';
@@ -892,7 +892,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get create_account_error_last_name_invalid =>
-      'This lastname is not valid';
+      'Use 2–40 letters. Spaces, hyphens, apostrophes and full stops are fine, numbers and other symbols aren\'t.';
 
   @override
   String get create_account_field_label_referral => 'Referral Code';
@@ -7108,13 +7108,15 @@ class BringinTranslationsEn extends BringinTranslations {
       'Your first name can\'t be empty';
 
   @override
-  String get profile_error_first_name_invalid => 'This first name is not valid';
+  String get profile_error_first_name_invalid =>
+      'Use 2–40 letters. Spaces, hyphens, apostrophes and full stops are fine, numbers and other symbols aren\'t.';
 
   @override
   String get profile_error_last_name_empty => 'Your last name can\'t be empty';
 
   @override
-  String get profile_error_last_name_invalid => 'This last name is not valid';
+  String get profile_error_last_name_invalid =>
+      'Use 2–40 letters. Spaces, hyphens, apostrophes and full stops are fine, numbers and other symbols aren\'t.';
 
   @override
   String get profile_error_cancel_signup =>
