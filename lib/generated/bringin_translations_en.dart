@@ -8576,4 +8576,348 @@ class BringinTranslationsEn extends BringinTranslations {
   @override
   String get device_approval_subtitle_no_email =>
       'You\'re logging in on a new phone. To keep your account safe, enter the 6-digit code we sent to your email.';
+
+  @override
+  String get referral_menu_title => 'Refer and earn Bitcoin';
+
+  @override
+  String referral_menu_subtitle(String amount) {
+    return 'Up to $amount per friend';
+  }
+
+  @override
+  String get referral_page_title => 'Refer and earn Bitcoin';
+
+  @override
+  String referral_hero_title(String amount) {
+    return 'Earn up to $amount per friend';
+  }
+
+  @override
+  String referral_hero_subtitle(String cap) {
+    return 'Your friend gets their first transaction fee back, up to $cap.';
+  }
+
+  @override
+  String referral_step_kyc(String amount) {
+    return '$amount when they get verified';
+  }
+
+  @override
+  String referral_step_first_tx(String amount, String minAmount) {
+    return '$amount on their first $minAmount transaction';
+  }
+
+  @override
+  String referral_step_pro(String amount) {
+    return '$amount when they go Pro';
+  }
+
+  @override
+  String get referral_link_label => 'Your link';
+
+  @override
+  String get referral_code_label => 'Your code';
+
+  @override
+  String get referral_link_copied => 'Link copied';
+
+  @override
+  String get referral_code_copied => 'Code copied';
+
+  @override
+  String get referral_share_button => 'Share invite';
+
+  @override
+  String referral_share_message(String cap, String url) {
+    return 'Join me on Bringin and get your first transaction fee back, up to $cap. Sign up with my link: $url';
+  }
+
+  @override
+  String get referral_how_it_works => 'How rewards work';
+
+  @override
+  String get referral_stats_friends_joined => 'Friends joined';
+
+  @override
+  String get referral_stats_earned => 'Earned';
+
+  @override
+  String get referral_stats_under_review => 'Under review';
+
+  @override
+  String get referral_friends_title => 'Your friends';
+
+  @override
+  String get referral_friends_empty_title => 'No friends yet!';
+
+  @override
+  String get referral_friends_empty_body =>
+      'Share your link. Friends who sign up with it will show up here.';
+
+  @override
+  String referral_friend_joined_on(String date) {
+    return 'Joined $date';
+  }
+
+  @override
+  String get referral_friend_waiting_kyc => 'Waiting for verification';
+
+  @override
+  String get referral_friend_under_review => 'Under review';
+
+  @override
+  String get referral_friend_expired => 'Reward period ended';
+
+  @override
+  String get referral_friend_not_eligible => 'Not eligible';
+
+  @override
+  String get referral_milestone_kyc => 'Verified';
+
+  @override
+  String referral_milestone_first_tx(String minAmount) {
+    return 'First $minAmount';
+  }
+
+  @override
+  String get referral_milestone_pro => 'Pro';
+
+  @override
+  String get referral_see_reward_history => 'See reward history';
+
+  @override
+  String get referral_no_code_title => 'Verify your identity to get your code';
+
+  @override
+  String get referral_no_code_body =>
+      'Once you\'re verified, you\'ll get your own link and code to share.';
+
+  @override
+  String get referral_no_code_button => 'Complete verification';
+
+  @override
+  String get referral_paused_title => 'Your rewards are paused';
+
+  @override
+  String get referral_paused_body =>
+      'Contact support if you have questions about your referral rewards.';
+
+  @override
+  String get referral_load_error =>
+      'We couldn\'t load your referral details. Please try again.';
+
+  @override
+  String get referral_business_title => 'Refer a business';
+
+  @override
+  String referral_business_body(String amount) {
+    return 'Earn up to $amount when a business you refer gets verified and grows with Bringin.';
+  }
+
+  @override
+  String get referral_rules_title => 'How referral rewards work';
+
+  @override
+  String referral_rules_steps(String amount, String minAmount) {
+    return '$amount when your friend gets verified, $amount on their first transaction of $minAmount or more, and $amount when they subscribe to Pro.';
+  }
+
+  @override
+  String referral_rules_destination(String eurAmount) {
+    return 'With Bringin Pro, sats go to your card balance. Without Pro, you get $eurAmount per step in your Euro account instead.';
+  }
+
+  @override
+  String referral_rules_welcome(String cap, String days) {
+    return 'Your friend gets the fee on their first transaction back, up to $cap, if they transact within $days days of verification.';
+  }
+
+  @override
+  String referral_rules_signup(String days) {
+    return 'Your friend must use your link or code when they sign up. Rewards count for $days days after they join.';
+  }
+
+  @override
+  String referral_rules_caps(String count) {
+    return 'Up to $count rewarded friends a month. Referring yourself or a second account of yours isn\'t allowed and cancels rewards.';
+  }
+
+  @override
+  String get referral_rules_button => 'Got it';
+
+  @override
+  String get referral_rules_terms => 'Full referral terms apply.';
+
+  @override
+  String get referral_rewards_title => 'Reward history';
+
+  @override
+  String get referral_rewards_empty_title => 'No rewards yet!';
+
+  @override
+  String get referral_rewards_empty_body =>
+      'Rewards from your friends will show up here.';
+
+  @override
+  String get referral_reward_kind_referral => 'Referral reward';
+
+  @override
+  String get referral_reward_kind_welcome => 'Welcome cashback';
+
+  @override
+  String referral_reward_for_kyc(String name) {
+    return '$name got verified';
+  }
+
+  @override
+  String referral_reward_for_first_tx(String name) {
+    return '$name made their first transaction';
+  }
+
+  @override
+  String referral_reward_for_pro(String name) {
+    return '$name subscribed to Pro';
+  }
+
+  @override
+  String get referral_reward_for_welcome =>
+      'Fee refund on your first transaction';
+
+  @override
+  String get referral_reward_status_paid => 'Completed';
+
+  @override
+  String get referral_reward_status_pending => 'Pending';
+
+  @override
+  String get referral_reward_status_not_paid => 'Not paid';
+
+  @override
+  String referral_reward_details_eur_value(String amount) {
+    return '≈ $amount at the time of payment';
+  }
+
+  @override
+  String get referral_reward_details_from => 'From';
+
+  @override
+  String get referral_reward_details_from_value => 'Bringin rewards';
+
+  @override
+  String get referral_reward_details_for => 'For';
+
+  @override
+  String get referral_reward_details_step => 'Step';
+
+  @override
+  String referral_reward_details_step_value(String step, String total) {
+    return '$step of $total';
+  }
+
+  @override
+  String get referral_reward_details_paid_to => 'Paid to';
+
+  @override
+  String get referral_reward_details_card_balance => 'Card balance';
+
+  @override
+  String get referral_reward_details_euro_account => 'Euro account';
+
+  @override
+  String get referral_reward_details_date => 'Date';
+
+  @override
+  String get referral_reward_details_reference => 'Reference';
+
+  @override
+  String get referral_invite_more => 'Invite more friends';
+
+  @override
+  String get tx_subtype_referral_reward => 'Referral reward';
+
+  @override
+  String get tx_subtype_welcome_cashback => 'Welcome cashback';
+
+  @override
+  String get tx_subtype_welcome_bonus => 'Welcome bonus';
+
+  @override
+  String get tx_welcome_cashback_subtitle =>
+      'Fee refund on your first transaction';
+
+  @override
+  String get referral_signup_field_label => 'Referral code (optional)';
+
+  @override
+  String get referral_signup_field_hint => 'Enter referral code';
+
+  @override
+  String get referral_signup_checking => 'Checking code…';
+
+  @override
+  String referral_signup_invited_by(String name) {
+    return 'Invited by $name';
+  }
+
+  @override
+  String referral_signup_offer(String cap) {
+    return 'Your first transaction fee is on us, up to $cap.';
+  }
+
+  @override
+  String get referral_signup_code_applied => 'Code applied';
+
+  @override
+  String get referral_signup_code_prefilled =>
+      'Filled in from your invite link.';
+
+  @override
+  String get referral_signup_code_invalid =>
+      'We can\'t find this code. Check it, or continue without one.';
+
+  @override
+  String get referral_welcome_title => 'Your first transaction fee is on us';
+
+  @override
+  String referral_welcome_gift_from(String name, String cap) {
+    return 'Gift from $name · up to $cap back';
+  }
+
+  @override
+  String referral_welcome_gift(String cap) {
+    return 'Up to $cap back';
+  }
+
+  @override
+  String get referral_welcome_step_kyc => 'KYC approved';
+
+  @override
+  String get referral_welcome_step_kyc_pending => 'Get verified';
+
+  @override
+  String get referral_welcome_step_first_tx => 'First transaction';
+
+  @override
+  String referral_welcome_days_left(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: '$count days left',
+      one: '1 day left',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get referral_welcome_buy => 'Buy Bitcoin';
+
+  @override
+  String referral_welcome_paid_title(String amount) {
+    return '$amount cashback received';
+  }
+
+  @override
+  String get referral_welcome_paid_body =>
+      'Your first transaction fee is back. Fee-free, as promised.';
 }

@@ -14771,6 +14771,558 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'You\'re logging in on a new phone. To keep your account safe, enter the 6-digit code we sent to your email.'**
   String get device_approval_subtitle_no_email;
+
+  /// Profile menu row that opens the Refer and earn page.
+  ///
+  /// In en, this message translates to:
+  /// **'Refer and earn Bitcoin'**
+  String get referral_menu_title;
+
+  /// Under referral_menu_title. {amount} is the maximum per friend, e.g. "15 000 sats" or "€15".
+  ///
+  /// In en, this message translates to:
+  /// **'Up to {amount} per friend'**
+  String referral_menu_subtitle(String amount);
+
+  /// Refer and earn page: app bar title.
+  ///
+  /// In en, this message translates to:
+  /// **'Refer and earn Bitcoin'**
+  String get referral_page_title;
+
+  /// Refer and earn hero title. {amount} is the maximum per friend, e.g. "15 000 sats" or "€15".
+  ///
+  /// In en, this message translates to:
+  /// **'Earn up to {amount} per friend'**
+  String referral_hero_title(String amount);
+
+  /// Refer and earn hero subtitle. {cap} is the welcome cashback cap, e.g. "€10".
+  ///
+  /// In en, this message translates to:
+  /// **'Your friend gets their first transaction fee back, up to {cap}.'**
+  String referral_hero_subtitle(String cap);
+
+  /// First reward step. {amount} is the reward, e.g. "5 000 sats" or "€5".
+  ///
+  /// In en, this message translates to:
+  /// **'{amount} when they get verified'**
+  String referral_step_kyc(String amount);
+
+  /// Second reward step. {amount} is the reward; {minAmount} the minimum first transaction, e.g. "€100".
+  ///
+  /// In en, this message translates to:
+  /// **'{amount} on their first {minAmount} transaction'**
+  String referral_step_first_tx(String amount, String minAmount);
+
+  /// Third reward step. {amount} is the reward.
+  ///
+  /// In en, this message translates to:
+  /// **'{amount} when they go Pro'**
+  String referral_step_pro(String amount);
+
+  /// Label above the user's share link (bringin.me/CODE).
+  ///
+  /// In en, this message translates to:
+  /// **'Your link'**
+  String get referral_link_label;
+
+  /// Label above the user's referral code.
+  ///
+  /// In en, this message translates to:
+  /// **'Your code'**
+  String get referral_code_label;
+
+  /// Toast after copying the share link.
+  ///
+  /// In en, this message translates to:
+  /// **'Link copied'**
+  String get referral_link_copied;
+
+  /// Toast after copying the referral code.
+  ///
+  /// In en, this message translates to:
+  /// **'Code copied'**
+  String get referral_code_copied;
+
+  /// Button that opens the native share sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Share invite'**
+  String get referral_share_button;
+
+  /// Text placed in the share sheet. {cap} is the welcome cashback cap, e.g. "€10"; {url} the share link.
+  ///
+  /// In en, this message translates to:
+  /// **'Join me on Bringin and get your first transaction fee back, up to {cap}. Sign up with my link: {url}'**
+  String referral_share_message(String cap, String url);
+
+  /// Link on the Refer and earn page that opens the rules sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'How rewards work'**
+  String get referral_how_it_works;
+
+  /// Stat tile label: number of friends who signed up with the code.
+  ///
+  /// In en, this message translates to:
+  /// **'Friends joined'**
+  String get referral_stats_friends_joined;
+
+  /// Stat tile label: total rewards earned.
+  ///
+  /// In en, this message translates to:
+  /// **'Earned'**
+  String get referral_stats_earned;
+
+  /// Stat tile label: rewards waiting to be paid.
+  ///
+  /// In en, this message translates to:
+  /// **'Under review'**
+  String get referral_stats_under_review;
+
+  /// Section title for the list of referred friends.
+  ///
+  /// In en, this message translates to:
+  /// **'Your friends'**
+  String get referral_friends_title;
+
+  /// Empty state title when nobody signed up with the code.
+  ///
+  /// In en, this message translates to:
+  /// **'No friends yet!'**
+  String get referral_friends_empty_title;
+
+  /// Empty state body under referral_friends_empty_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Share your link. Friends who sign up with it will show up here.'**
+  String get referral_friends_empty_body;
+
+  /// Under a friend's name. {date} is the signup date, e.g. "2 Oct".
+  ///
+  /// In en, this message translates to:
+  /// **'Joined {date}'**
+  String referral_friend_joined_on(String date);
+
+  /// Friend status: signed up, not verified yet.
+  ///
+  /// In en, this message translates to:
+  /// **'Waiting for verification'**
+  String get referral_friend_waiting_kyc;
+
+  /// Friend status: a reward for this friend is waiting to be paid. Never show a reason.
+  ///
+  /// In en, this message translates to:
+  /// **'Under review'**
+  String get referral_friend_under_review;
+
+  /// Friend status: the reward window for this friend has passed.
+  ///
+  /// In en, this message translates to:
+  /// **'Reward period ended'**
+  String get referral_friend_expired;
+
+  /// Friend status: this referral no longer earns rewards.
+  ///
+  /// In en, this message translates to:
+  /// **'Not eligible'**
+  String get referral_friend_not_eligible;
+
+  /// Progress chip for the first step (friend verified).
+  ///
+  /// In en, this message translates to:
+  /// **'Verified'**
+  String get referral_milestone_kyc;
+
+  /// Progress chip for the second step. {minAmount} is the minimum first transaction, e.g. "€100".
+  ///
+  /// In en, this message translates to:
+  /// **'First {minAmount}'**
+  String referral_milestone_first_tx(String minAmount);
+
+  /// Progress chip for the third step (friend subscribed to Pro).
+  ///
+  /// In en, this message translates to:
+  /// **'Pro'**
+  String get referral_milestone_pro;
+
+  /// Link to the reward history list.
+  ///
+  /// In en, this message translates to:
+  /// **'See reward history'**
+  String get referral_see_reward_history;
+
+  /// Shown instead of the link and code before the user is verified.
+  ///
+  /// In en, this message translates to:
+  /// **'Verify your identity to get your code'**
+  String get referral_no_code_title;
+
+  /// Body under referral_no_code_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Once you\'re verified, you\'ll get your own link and code to share.'**
+  String get referral_no_code_body;
+
+  /// Button under referral_no_code_body that starts verification.
+  ///
+  /// In en, this message translates to:
+  /// **'Complete verification'**
+  String get referral_no_code_button;
+
+  /// Shown when the referrer's account is suspended or blocked.
+  ///
+  /// In en, this message translates to:
+  /// **'Your rewards are paused'**
+  String get referral_paused_title;
+
+  /// Body under referral_paused_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact support if you have questions about your referral rewards.'**
+  String get referral_paused_body;
+
+  /// Error when the Refer and earn page fails to load.
+  ///
+  /// In en, this message translates to:
+  /// **'We couldn\'t load your referral details. Please try again.'**
+  String get referral_load_error;
+
+  /// Section on Refer and earn when the business program is on.
+  ///
+  /// In en, this message translates to:
+  /// **'Refer a business'**
+  String get referral_business_title;
+
+  /// Body of referral_business_title. {amount} is the total business reward, e.g. "€150".
+  ///
+  /// In en, this message translates to:
+  /// **'Earn up to {amount} when a business you refer gets verified and grows with Bringin.'**
+  String referral_business_body(String amount);
+
+  /// Rules sheet title.
+  ///
+  /// In en, this message translates to:
+  /// **'How referral rewards work'**
+  String get referral_rules_title;
+
+  /// Rules sheet point 1. {amount} is the per-step reward in sats, e.g. "5 000 sats"; {minAmount} e.g. "€100".
+  ///
+  /// In en, this message translates to:
+  /// **'{amount} when your friend gets verified, {amount} on their first transaction of {minAmount} or more, and {amount} when they subscribe to Pro.'**
+  String referral_rules_steps(String amount, String minAmount);
+
+  /// Rules sheet point 2. {eurAmount} is the per-step EUR reward, e.g. "€5".
+  ///
+  /// In en, this message translates to:
+  /// **'With Bringin Pro, sats go to your card balance. Without Pro, you get {eurAmount} per step in your Euro account instead.'**
+  String referral_rules_destination(String eurAmount);
+
+  /// Rules sheet point 3. {cap} e.g. "€10"; {days} the welcome window, e.g. "30".
+  ///
+  /// In en, this message translates to:
+  /// **'Your friend gets the fee on their first transaction back, up to {cap}, if they transact within {days} days of verification.'**
+  String referral_rules_welcome(String cap, String days);
+
+  /// Rules sheet point 4. {days} is the referral validity, e.g. "180".
+  ///
+  /// In en, this message translates to:
+  /// **'Your friend must use your link or code when they sign up. Rewards count for {days} days after they join.'**
+  String referral_rules_signup(String days);
+
+  /// Rules sheet point 5. {count} is the monthly cap, e.g. "10".
+  ///
+  /// In en, this message translates to:
+  /// **'Up to {count} rewarded friends a month. Referring yourself or a second account of yours isn\'t allowed and cancels rewards.'**
+  String referral_rules_caps(String count);
+
+  /// Button that closes the rules sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Got it'**
+  String get referral_rules_button;
+
+  /// Link to the referral terms under the rules.
+  ///
+  /// In en, this message translates to:
+  /// **'Full referral terms apply.'**
+  String get referral_rules_terms;
+
+  /// Reward history page title.
+  ///
+  /// In en, this message translates to:
+  /// **'Reward history'**
+  String get referral_rewards_title;
+
+  /// Empty state title of the reward history.
+  ///
+  /// In en, this message translates to:
+  /// **'No rewards yet!'**
+  String get referral_rewards_empty_title;
+
+  /// Empty state body of the reward history.
+  ///
+  /// In en, this message translates to:
+  /// **'Rewards from your friends will show up here.'**
+  String get referral_rewards_empty_body;
+
+  /// Reward history row title for a referrer reward.
+  ///
+  /// In en, this message translates to:
+  /// **'Referral reward'**
+  String get referral_reward_kind_referral;
+
+  /// Reward history row title for the user's own welcome cashback.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome cashback'**
+  String get referral_reward_kind_welcome;
+
+  /// Reward reason, step 1. {name} is the friend's first name and initial, e.g. "Anna K.".
+  ///
+  /// In en, this message translates to:
+  /// **'{name} got verified'**
+  String referral_reward_for_kyc(String name);
+
+  /// Reward reason, step 2. {name} is the friend's name.
+  ///
+  /// In en, this message translates to:
+  /// **'{name} made their first transaction'**
+  String referral_reward_for_first_tx(String name);
+
+  /// Reward reason, step 3. {name} is the friend's name.
+  ///
+  /// In en, this message translates to:
+  /// **'{name} subscribed to Pro'**
+  String referral_reward_for_pro(String name);
+
+  /// Reward reason for the user's own welcome cashback.
+  ///
+  /// In en, this message translates to:
+  /// **'Fee refund on your first transaction'**
+  String get referral_reward_for_welcome;
+
+  /// Reward status: paid.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed'**
+  String get referral_reward_status_paid;
+
+  /// Reward status: on its way or under review. Never show a reason.
+  ///
+  /// In en, this message translates to:
+  /// **'Pending'**
+  String get referral_reward_status_pending;
+
+  /// Reward status: will not be paid. Never show a reason.
+  ///
+  /// In en, this message translates to:
+  /// **'Not paid'**
+  String get referral_reward_status_not_paid;
+
+  /// Under the reward amount. {amount} is the EUR value when paid, e.g. "€4,62".
+  ///
+  /// In en, this message translates to:
+  /// **'≈ {amount} at the time of payment'**
+  String referral_reward_details_eur_value(String amount);
+
+  /// Reward details row label: who paid.
+  ///
+  /// In en, this message translates to:
+  /// **'From'**
+  String get referral_reward_details_from;
+
+  /// Reward details: value of the "From" row.
+  ///
+  /// In en, this message translates to:
+  /// **'Bringin rewards'**
+  String get referral_reward_details_from_value;
+
+  /// Reward details row label: the reason.
+  ///
+  /// In en, this message translates to:
+  /// **'For'**
+  String get referral_reward_details_for;
+
+  /// Reward details row label: which step.
+  ///
+  /// In en, this message translates to:
+  /// **'Step'**
+  String get referral_reward_details_step;
+
+  /// Reward details: value of the "Step" row, e.g. "3 of 3".
+  ///
+  /// In en, this message translates to:
+  /// **'{step} of {total}'**
+  String referral_reward_details_step_value(String step, String total);
+
+  /// Reward details row label: where the money went.
+  ///
+  /// In en, this message translates to:
+  /// **'Paid to'**
+  String get referral_reward_details_paid_to;
+
+  /// Reward details: paid to the card wallet.
+  ///
+  /// In en, this message translates to:
+  /// **'Card balance'**
+  String get referral_reward_details_card_balance;
+
+  /// Reward details: paid to the Euro account.
+  ///
+  /// In en, this message translates to:
+  /// **'Euro account'**
+  String get referral_reward_details_euro_account;
+
+  /// Reward details row label.
+  ///
+  /// In en, this message translates to:
+  /// **'Date'**
+  String get referral_reward_details_date;
+
+  /// Reward details row label: payment reference.
+  ///
+  /// In en, this message translates to:
+  /// **'Reference'**
+  String get referral_reward_details_reference;
+
+  /// Button at the bottom of reward details.
+  ///
+  /// In en, this message translates to:
+  /// **'Invite more friends'**
+  String get referral_invite_more;
+
+  /// Transaction row title for PUSH_FUNDS subtype REFERRAL_REWARD.
+  ///
+  /// In en, this message translates to:
+  /// **'Referral reward'**
+  String get tx_subtype_referral_reward;
+
+  /// Transaction row title for PUSH_FUNDS subtype WELCOME_CASHBACK.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome cashback'**
+  String get tx_subtype_welcome_cashback;
+
+  /// Transaction row title for PUSH_FUNDS subtype WELCOME_BONUS.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome bonus'**
+  String get tx_subtype_welcome_bonus;
+
+  /// Transaction row subtitle under "Welcome cashback".
+  ///
+  /// In en, this message translates to:
+  /// **'Fee refund on your first transaction'**
+  String get tx_welcome_cashback_subtitle;
+
+  /// Signup: label of the referral code field.
+  ///
+  /// In en, this message translates to:
+  /// **'Referral code (optional)'**
+  String get referral_signup_field_label;
+
+  /// Signup: hint inside the referral code field.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter referral code'**
+  String get referral_signup_field_hint;
+
+  /// Signup: shown while the code is looked up.
+  ///
+  /// In en, this message translates to:
+  /// **'Checking code…'**
+  String get referral_signup_checking;
+
+  /// Signup banner title for a valid referral code. {name} is the referrer, e.g. "Satoshi N.".
+  ///
+  /// In en, this message translates to:
+  /// **'Invited by {name}'**
+  String referral_signup_invited_by(String name);
+
+  /// Signup banner body for a valid code. {cap} is the welcome cashback cap, e.g. "€10".
+  ///
+  /// In en, this message translates to:
+  /// **'Your first transaction fee is on us, up to {cap}.'**
+  String referral_signup_offer(String cap);
+
+  /// Signup: under the field when the code is valid.
+  ///
+  /// In en, this message translates to:
+  /// **'Code applied'**
+  String get referral_signup_code_applied;
+
+  /// Signup: after referral_signup_code_applied when the code came from a link.
+  ///
+  /// In en, this message translates to:
+  /// **'Filled in from your invite link.'**
+  String get referral_signup_code_prefilled;
+
+  /// Signup: under the field when the code is unknown. Signup still works.
+  ///
+  /// In en, this message translates to:
+  /// **'We can\'t find this code. Check it, or continue without one.'**
+  String get referral_signup_code_invalid;
+
+  /// Home card for a referred friend before their first transaction.
+  ///
+  /// In en, this message translates to:
+  /// **'Your first transaction fee is on us'**
+  String get referral_welcome_title;
+
+  /// Under referral_welcome_title. {name} is the referrer; {cap} e.g. "€10".
+  ///
+  /// In en, this message translates to:
+  /// **'Gift from {name} · up to {cap} back'**
+  String referral_welcome_gift_from(String name, String cap);
+
+  /// Under referral_welcome_title when there is no referrer name (affiliate code).
+  ///
+  /// In en, this message translates to:
+  /// **'Up to {cap} back'**
+  String referral_welcome_gift(String cap);
+
+  /// Welcome card checklist: verification done.
+  ///
+  /// In en, this message translates to:
+  /// **'KYC approved'**
+  String get referral_welcome_step_kyc;
+
+  /// Welcome card checklist: verification not done yet.
+  ///
+  /// In en, this message translates to:
+  /// **'Get verified'**
+  String get referral_welcome_step_kyc_pending;
+
+  /// Welcome card checklist: the first transaction step.
+  ///
+  /// In en, this message translates to:
+  /// **'First transaction'**
+  String get referral_welcome_step_first_tx;
+
+  /// Welcome card: days until the offer ends.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =1{1 day left} other{{count} days left}}'**
+  String referral_welcome_days_left(int count);
+
+  /// Welcome card button that opens Buy Bitcoin.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy Bitcoin'**
+  String get referral_welcome_buy;
+
+  /// Welcome card after the cashback is paid. {amount} e.g. "€4,80".
+  ///
+  /// In en, this message translates to:
+  /// **'{amount} cashback received'**
+  String referral_welcome_paid_title(String amount);
+
+  /// Body under referral_welcome_paid_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Your first transaction fee is back. Fee-free, as promised.'**
+  String get referral_welcome_paid_body;
 }
 
 class _BringinTranslationsDelegate

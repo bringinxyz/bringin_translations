@@ -5262,5 +5262,521 @@
   "device_approval_subtitle_no_email": "You're logging in on a new phone. To keep your account safe, enter the 6-digit code we sent to your email.",
   "@device_approval_subtitle_no_email": {
     "description": "Same as device_approval_subtitle when the email address is not known."
+  },
+  "referral_menu_title": "Refer and earn Bitcoin",
+  "@referral_menu_title": {
+    "description": "Profile menu row that opens the Refer and earn page."
+  },
+  "referral_menu_subtitle": "Up to {amount} per friend",
+  "@referral_menu_subtitle": {
+    "description": "Under referral_menu_title. {amount} is the maximum per friend, e.g. \"15 000 sats\" or \"€15\".",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_page_title": "Refer and earn Bitcoin",
+  "@referral_page_title": {
+    "description": "Refer and earn page: app bar title."
+  },
+  "referral_hero_title": "Earn up to {amount} per friend",
+  "@referral_hero_title": {
+    "description": "Refer and earn hero title. {amount} is the maximum per friend, e.g. \"15 000 sats\" or \"€15\".",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_hero_subtitle": "Your friend gets their first transaction fee back, up to {cap}.",
+  "@referral_hero_subtitle": {
+    "description": "Refer and earn hero subtitle. {cap} is the welcome cashback cap, e.g. \"€10\".",
+    "placeholders": {
+      "cap": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_step_kyc": "{amount} when they get verified",
+  "@referral_step_kyc": {
+    "description": "First reward step. {amount} is the reward, e.g. \"5 000 sats\" or \"€5\".",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_step_first_tx": "{amount} on their first {minAmount} transaction",
+  "@referral_step_first_tx": {
+    "description": "Second reward step. {amount} is the reward; {minAmount} the minimum first transaction, e.g. \"€100\".",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "minAmount": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_step_pro": "{amount} when they go Pro",
+  "@referral_step_pro": {
+    "description": "Third reward step. {amount} is the reward.",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_link_label": "Your link",
+  "@referral_link_label": {
+    "description": "Label above the user's share link (bringin.me/CODE)."
+  },
+  "referral_code_label": "Your code",
+  "@referral_code_label": {
+    "description": "Label above the user's referral code."
+  },
+  "referral_link_copied": "Link copied",
+  "@referral_link_copied": {
+    "description": "Toast after copying the share link."
+  },
+  "referral_code_copied": "Code copied",
+  "@referral_code_copied": {
+    "description": "Toast after copying the referral code."
+  },
+  "referral_share_button": "Share invite",
+  "@referral_share_button": {
+    "description": "Button that opens the native share sheet."
+  },
+  "referral_share_message": "Join me on Bringin and get your first transaction fee back, up to {cap}. Sign up with my link: {url}",
+  "@referral_share_message": {
+    "description": "Text placed in the share sheet. {cap} is the welcome cashback cap, e.g. \"€10\"; {url} the share link.",
+    "placeholders": {
+      "cap": {
+        "type": "String"
+      },
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_how_it_works": "How rewards work",
+  "@referral_how_it_works": {
+    "description": "Link on the Refer and earn page that opens the rules sheet."
+  },
+  "referral_stats_friends_joined": "Friends joined",
+  "@referral_stats_friends_joined": {
+    "description": "Stat tile label: number of friends who signed up with the code."
+  },
+  "referral_stats_earned": "Earned",
+  "@referral_stats_earned": {
+    "description": "Stat tile label: total rewards earned."
+  },
+  "referral_stats_under_review": "Under review",
+  "@referral_stats_under_review": {
+    "description": "Stat tile label: rewards waiting to be paid."
+  },
+  "referral_friends_title": "Your friends",
+  "@referral_friends_title": {
+    "description": "Section title for the list of referred friends."
+  },
+  "referral_friends_empty_title": "No friends yet!",
+  "@referral_friends_empty_title": {
+    "description": "Empty state title when nobody signed up with the code."
+  },
+  "referral_friends_empty_body": "Share your link. Friends who sign up with it will show up here.",
+  "@referral_friends_empty_body": {
+    "description": "Empty state body under referral_friends_empty_title."
+  },
+  "referral_friend_joined_on": "Joined {date}",
+  "@referral_friend_joined_on": {
+    "description": "Under a friend's name. {date} is the signup date, e.g. \"2 Oct\".",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_friend_waiting_kyc": "Waiting for verification",
+  "@referral_friend_waiting_kyc": {
+    "description": "Friend status: signed up, not verified yet."
+  },
+  "referral_friend_under_review": "Under review",
+  "@referral_friend_under_review": {
+    "description": "Friend status: a reward for this friend is waiting to be paid. Never show a reason."
+  },
+  "referral_friend_expired": "Reward period ended",
+  "@referral_friend_expired": {
+    "description": "Friend status: the reward window for this friend has passed."
+  },
+  "referral_friend_not_eligible": "Not eligible",
+  "@referral_friend_not_eligible": {
+    "description": "Friend status: this referral no longer earns rewards."
+  },
+  "referral_milestone_kyc": "Verified",
+  "@referral_milestone_kyc": {
+    "description": "Progress chip for the first step (friend verified)."
+  },
+  "referral_milestone_first_tx": "First {minAmount}",
+  "@referral_milestone_first_tx": {
+    "description": "Progress chip for the second step. {minAmount} is the minimum first transaction, e.g. \"€100\".",
+    "placeholders": {
+      "minAmount": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_milestone_pro": "Pro",
+  "@referral_milestone_pro": {
+    "description": "Progress chip for the third step (friend subscribed to Pro)."
+  },
+  "referral_see_reward_history": "See reward history",
+  "@referral_see_reward_history": {
+    "description": "Link to the reward history list."
+  },
+  "referral_no_code_title": "Verify your identity to get your code",
+  "@referral_no_code_title": {
+    "description": "Shown instead of the link and code before the user is verified."
+  },
+  "referral_no_code_body": "Once you're verified, you'll get your own link and code to share.",
+  "@referral_no_code_body": {
+    "description": "Body under referral_no_code_title."
+  },
+  "referral_no_code_button": "Complete verification",
+  "@referral_no_code_button": {
+    "description": "Button under referral_no_code_body that starts verification."
+  },
+  "referral_paused_title": "Your rewards are paused",
+  "@referral_paused_title": {
+    "description": "Shown when the referrer's account is suspended or blocked."
+  },
+  "referral_paused_body": "Contact support if you have questions about your referral rewards.",
+  "@referral_paused_body": {
+    "description": "Body under referral_paused_title."
+  },
+  "referral_load_error": "We couldn't load your referral details. Please try again.",
+  "@referral_load_error": {
+    "description": "Error when the Refer and earn page fails to load."
+  },
+  "referral_business_title": "Refer a business",
+  "@referral_business_title": {
+    "description": "Section on Refer and earn when the business program is on."
+  },
+  "referral_business_body": "Earn up to {amount} when a business you refer gets verified and grows with Bringin.",
+  "@referral_business_body": {
+    "description": "Body of referral_business_title. {amount} is the total business reward, e.g. \"€150\".",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_rules_title": "How referral rewards work",
+  "@referral_rules_title": {
+    "description": "Rules sheet title."
+  },
+  "referral_rules_steps": "{amount} when your friend gets verified, {amount} on their first transaction of {minAmount} or more, and {amount} when they subscribe to Pro.",
+  "@referral_rules_steps": {
+    "description": "Rules sheet point 1. {amount} is the per-step reward in sats, e.g. \"5 000 sats\"; {minAmount} e.g. \"€100\".",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      },
+      "minAmount": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_rules_destination": "With Bringin Pro, sats go to your card balance. Without Pro, you get {eurAmount} per step in your Euro account instead.",
+  "@referral_rules_destination": {
+    "description": "Rules sheet point 2. {eurAmount} is the per-step EUR reward, e.g. \"€5\".",
+    "placeholders": {
+      "eurAmount": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_rules_welcome": "Your friend gets the fee on their first transaction back, up to {cap}, if they transact within {days} days of verification.",
+  "@referral_rules_welcome": {
+    "description": "Rules sheet point 3. {cap} e.g. \"€10\"; {days} the welcome window, e.g. \"30\".",
+    "placeholders": {
+      "cap": {
+        "type": "String"
+      },
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_rules_signup": "Your friend must use your link or code when they sign up. Rewards count for {days} days after they join.",
+  "@referral_rules_signup": {
+    "description": "Rules sheet point 4. {days} is the referral validity, e.g. \"180\".",
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_rules_caps": "Up to {count} rewarded friends a month. Referring yourself or a second account of yours isn't allowed and cancels rewards.",
+  "@referral_rules_caps": {
+    "description": "Rules sheet point 5. {count} is the monthly cap, e.g. \"10\".",
+    "placeholders": {
+      "count": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_rules_button": "Got it",
+  "@referral_rules_button": {
+    "description": "Button that closes the rules sheet."
+  },
+  "referral_rules_terms": "Full referral terms apply.",
+  "@referral_rules_terms": {
+    "description": "Link to the referral terms under the rules."
+  },
+  "referral_rewards_title": "Reward history",
+  "@referral_rewards_title": {
+    "description": "Reward history page title."
+  },
+  "referral_rewards_empty_title": "No rewards yet!",
+  "@referral_rewards_empty_title": {
+    "description": "Empty state title of the reward history."
+  },
+  "referral_rewards_empty_body": "Rewards from your friends will show up here.",
+  "@referral_rewards_empty_body": {
+    "description": "Empty state body of the reward history."
+  },
+  "referral_reward_kind_referral": "Referral reward",
+  "@referral_reward_kind_referral": {
+    "description": "Reward history row title for a referrer reward."
+  },
+  "referral_reward_kind_welcome": "Welcome cashback",
+  "@referral_reward_kind_welcome": {
+    "description": "Reward history row title for the user's own welcome cashback."
+  },
+  "referral_reward_for_kyc": "{name} got verified",
+  "@referral_reward_for_kyc": {
+    "description": "Reward reason, step 1. {name} is the friend's first name and initial, e.g. \"Anna K.\".",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_reward_for_first_tx": "{name} made their first transaction",
+  "@referral_reward_for_first_tx": {
+    "description": "Reward reason, step 2. {name} is the friend's name.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_reward_for_pro": "{name} subscribed to Pro",
+  "@referral_reward_for_pro": {
+    "description": "Reward reason, step 3. {name} is the friend's name.",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_reward_for_welcome": "Fee refund on your first transaction",
+  "@referral_reward_for_welcome": {
+    "description": "Reward reason for the user's own welcome cashback."
+  },
+  "referral_reward_status_paid": "Completed",
+  "@referral_reward_status_paid": {
+    "description": "Reward status: paid."
+  },
+  "referral_reward_status_pending": "Pending",
+  "@referral_reward_status_pending": {
+    "description": "Reward status: on its way or under review. Never show a reason."
+  },
+  "referral_reward_status_not_paid": "Not paid",
+  "@referral_reward_status_not_paid": {
+    "description": "Reward status: will not be paid. Never show a reason."
+  },
+  "referral_reward_details_eur_value": "≈ {amount} at the time of payment",
+  "@referral_reward_details_eur_value": {
+    "description": "Under the reward amount. {amount} is the EUR value when paid, e.g. \"€4,62\".",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_reward_details_from": "From",
+  "@referral_reward_details_from": {
+    "description": "Reward details row label: who paid."
+  },
+  "referral_reward_details_from_value": "Bringin rewards",
+  "@referral_reward_details_from_value": {
+    "description": "Reward details: value of the \"From\" row."
+  },
+  "referral_reward_details_for": "For",
+  "@referral_reward_details_for": {
+    "description": "Reward details row label: the reason."
+  },
+  "referral_reward_details_step": "Step",
+  "@referral_reward_details_step": {
+    "description": "Reward details row label: which step."
+  },
+  "referral_reward_details_step_value": "{step} of {total}",
+  "@referral_reward_details_step_value": {
+    "description": "Reward details: value of the \"Step\" row, e.g. \"3 of 3\".",
+    "placeholders": {
+      "step": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_reward_details_paid_to": "Paid to",
+  "@referral_reward_details_paid_to": {
+    "description": "Reward details row label: where the money went."
+  },
+  "referral_reward_details_card_balance": "Card balance",
+  "@referral_reward_details_card_balance": {
+    "description": "Reward details: paid to the card wallet."
+  },
+  "referral_reward_details_euro_account": "Euro account",
+  "@referral_reward_details_euro_account": {
+    "description": "Reward details: paid to the Euro account."
+  },
+  "referral_reward_details_date": "Date",
+  "@referral_reward_details_date": {
+    "description": "Reward details row label."
+  },
+  "referral_reward_details_reference": "Reference",
+  "@referral_reward_details_reference": {
+    "description": "Reward details row label: payment reference."
+  },
+  "referral_invite_more": "Invite more friends",
+  "@referral_invite_more": {
+    "description": "Button at the bottom of reward details."
+  },
+  "tx_subtype_referral_reward": "Referral reward",
+  "@tx_subtype_referral_reward": {
+    "description": "Transaction row title for PUSH_FUNDS subtype REFERRAL_REWARD."
+  },
+  "tx_subtype_welcome_cashback": "Welcome cashback",
+  "@tx_subtype_welcome_cashback": {
+    "description": "Transaction row title for PUSH_FUNDS subtype WELCOME_CASHBACK."
+  },
+  "tx_subtype_welcome_bonus": "Welcome bonus",
+  "@tx_subtype_welcome_bonus": {
+    "description": "Transaction row title for PUSH_FUNDS subtype WELCOME_BONUS."
+  },
+  "tx_welcome_cashback_subtitle": "Fee refund on your first transaction",
+  "@tx_welcome_cashback_subtitle": {
+    "description": "Transaction row subtitle under \"Welcome cashback\"."
+  },
+  "referral_signup_field_label": "Referral code (optional)",
+  "@referral_signup_field_label": {
+    "description": "Signup: label of the referral code field."
+  },
+  "referral_signup_field_hint": "Enter referral code",
+  "@referral_signup_field_hint": {
+    "description": "Signup: hint inside the referral code field."
+  },
+  "referral_signup_checking": "Checking code…",
+  "@referral_signup_checking": {
+    "description": "Signup: shown while the code is looked up."
+  },
+  "referral_signup_invited_by": "Invited by {name}",
+  "@referral_signup_invited_by": {
+    "description": "Signup banner title for a valid referral code. {name} is the referrer, e.g. \"Satoshi N.\".",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_signup_offer": "Your first transaction fee is on us, up to {cap}.",
+  "@referral_signup_offer": {
+    "description": "Signup banner body for a valid code. {cap} is the welcome cashback cap, e.g. \"€10\".",
+    "placeholders": {
+      "cap": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_signup_code_applied": "Code applied",
+  "@referral_signup_code_applied": {
+    "description": "Signup: under the field when the code is valid."
+  },
+  "referral_signup_code_prefilled": "Filled in from your invite link.",
+  "@referral_signup_code_prefilled": {
+    "description": "Signup: after referral_signup_code_applied when the code came from a link."
+  },
+  "referral_signup_code_invalid": "We can't find this code. Check it, or continue without one.",
+  "@referral_signup_code_invalid": {
+    "description": "Signup: under the field when the code is unknown. Signup still works."
+  },
+  "referral_welcome_title": "Your first transaction fee is on us",
+  "@referral_welcome_title": {
+    "description": "Home card for a referred friend before their first transaction."
+  },
+  "referral_welcome_gift_from": "Gift from {name} · up to {cap} back",
+  "@referral_welcome_gift_from": {
+    "description": "Under referral_welcome_title. {name} is the referrer; {cap} e.g. \"€10\".",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "cap": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_welcome_gift": "Up to {cap} back",
+  "@referral_welcome_gift": {
+    "description": "Under referral_welcome_title when there is no referrer name (affiliate code).",
+    "placeholders": {
+      "cap": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_welcome_step_kyc": "KYC approved",
+  "@referral_welcome_step_kyc": {
+    "description": "Welcome card checklist: verification done."
+  },
+  "referral_welcome_step_kyc_pending": "Get verified",
+  "@referral_welcome_step_kyc_pending": {
+    "description": "Welcome card checklist: verification not done yet."
+  },
+  "referral_welcome_step_first_tx": "First transaction",
+  "@referral_welcome_step_first_tx": {
+    "description": "Welcome card checklist: the first transaction step."
+  },
+  "referral_welcome_days_left": "{count, plural, =1{1 day left} other{{count} days left}}",
+  "@referral_welcome_days_left": {
+    "description": "Welcome card: days until the offer ends.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "referral_welcome_buy": "Buy Bitcoin",
+  "@referral_welcome_buy": {
+    "description": "Welcome card button that opens Buy Bitcoin."
+  },
+  "referral_welcome_paid_title": "{amount} cashback received",
+  "@referral_welcome_paid_title": {
+    "description": "Welcome card after the cashback is paid. {amount} e.g. \"€4,80\".",
+    "placeholders": {
+      "amount": {
+        "type": "String"
+      }
+    }
+  },
+  "referral_welcome_paid_body": "Your first transaction fee is back. Fee-free, as promised.",
+  "@referral_welcome_paid_body": {
+    "description": "Body under referral_welcome_paid_title."
   }
 }
