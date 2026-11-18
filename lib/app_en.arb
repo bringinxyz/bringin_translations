@@ -412,11 +412,11 @@
   "create_account_field_label_first_name": "First name",
   "create_account_field_hint_first_name": "Add your first name",
   "create_account_error_first_name_empty": "Your firstname can't be empty",
-  "create_account_error_first_name_invalid": "This firstname is not valid",
+  "create_account_error_first_name_invalid": "Use 2–40 letters. Spaces, hyphens, apostrophes and full stops are fine, numbers and other symbols aren't.",
   "create_account_field_label_last_name": "Last name",
   "create_account_field_hint_last_name": "Add your last name",
   "create_account_error_last_name_empty": "Your lastname can't be empty",
-  "create_account_error_last_name_invalid": "This lastname is not valid",
+  "create_account_error_last_name_invalid": "Use 2–40 letters. Spaces, hyphens, apostrophes and full stops are fine, numbers and other symbols aren't.",
   "create_account_field_label_referral": "Referral Code",
   "create_account_field_hint_referral": "Enter referral code",
   "create_account_referral_prefilled": "Referral code pre-filled from your invitation link",
@@ -3871,7 +3871,7 @@
   "@profile_error_first_name_empty": {
     "description": "Validation error on the first-name field of the complete-profile form."
   },
-  "profile_error_first_name_invalid": "This first name is not valid",
+  "profile_error_first_name_invalid": "Use 2–40 letters. Spaces, hyphens, apostrophes and full stops are fine, numbers and other symbols aren't.",
   "@profile_error_first_name_invalid": {
     "description": "Validation error when the first name fails its format check."
   },
@@ -3879,7 +3879,7 @@
   "@profile_error_last_name_empty": {
     "description": "Validation error on the last-name field of the complete-profile form."
   },
-  "profile_error_last_name_invalid": "This last name is not valid",
+  "profile_error_last_name_invalid": "Use 2–40 letters. Spaces, hyphens, apostrophes and full stops are fine, numbers and other symbols aren't.",
   "@profile_error_last_name_invalid": {
     "description": "Validation error when the last name fails its format check."
   },

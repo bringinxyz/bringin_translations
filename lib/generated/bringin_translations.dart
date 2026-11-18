@@ -1634,7 +1634,7 @@ abstract class BringinTranslations {
   /// No description provided for @create_account_error_first_name_invalid.
   ///
   /// In en, this message translates to:
-  /// **'This firstname is not valid'**
+  /// **'Use 2–40 letters. Spaces, hyphens, apostrophes and full stops are fine, numbers and other symbols aren\'t.'**
   String get create_account_error_first_name_invalid;
 
   /// No description provided for @create_account_field_label_last_name.
@@ -1658,7 +1658,7 @@ abstract class BringinTranslations {
   /// No description provided for @create_account_error_last_name_invalid.
   ///
   /// In en, this message translates to:
-  /// **'This lastname is not valid'**
+  /// **'Use 2–40 letters. Spaces, hyphens, apostrophes and full stops are fine, numbers and other symbols aren\'t.'**
   String get create_account_error_last_name_invalid;
 
   /// No description provided for @create_account_field_label_referral.
@@ -12309,7 +12309,7 @@ abstract class BringinTranslations {
   /// Validation error when the first name fails its format check.
   ///
   /// In en, this message translates to:
-  /// **'This first name is not valid'**
+  /// **'Use 2–40 letters. Spaces, hyphens, apostrophes and full stops are fine, numbers and other symbols aren\'t.'**
   String get profile_error_first_name_invalid;
 
   /// Validation error on the last-name field of the complete-profile form.
@@ -12321,7 +12321,7 @@ abstract class BringinTranslations {
   /// Validation error when the last name fails its format check.
   ///
   /// In en, this message translates to:
-  /// **'This last name is not valid'**
+  /// **'Use 2–40 letters. Spaces, hyphens, apostrophes and full stops are fine, numbers and other symbols aren\'t.'**
   String get profile_error_last_name_invalid;
 
   /// Shown when abandoning Google sign-up fails.
