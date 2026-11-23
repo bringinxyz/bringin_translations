@@ -14805,7 +14805,7 @@ abstract class BringinTranslations {
   /// First reward step. {amount} is the reward, e.g. "5 000 sats" or "€5".
   ///
   /// In en, this message translates to:
-  /// **'{amount} when they get verified'**
+  /// **'{amount} when they pass KYC'**
   String referral_step_kyc(String amount);
 
   /// Second reward step. {amount} is the reward; {minAmount} the minimum first transaction, e.g. "€100".
@@ -14819,6 +14819,12 @@ abstract class BringinTranslations {
   /// In en, this message translates to:
   /// **'{amount} when they go Pro'**
   String referral_step_pro(String amount);
+
+  /// Under the reward steps on Refer and earn: Pro referrers are paid the euro amount in sats.
+  ///
+  /// In en, this message translates to:
+  /// **'With Pro you get it in sats, in your card balance.'**
+  String get referral_pro_in_sats;
 
   /// Label above the user's share link (bringin.me/CODE).
   ///
@@ -14907,7 +14913,7 @@ abstract class BringinTranslations {
   /// Friend status: signed up, not verified yet.
   ///
   /// In en, this message translates to:
-  /// **'Waiting for verification'**
+  /// **'Waiting for KYC'**
   String get referral_friend_waiting_kyc;
 
   /// Friend status: a reward for this friend is waiting to be paid. Never show a reason.
@@ -14931,7 +14937,7 @@ abstract class BringinTranslations {
   /// Progress chip for the first step (friend verified).
   ///
   /// In en, this message translates to:
-  /// **'Verified'**
+  /// **'KYC'**
   String get referral_milestone_kyc;
 
   /// Progress chip for the second step. {minAmount} is the minimum first transaction, e.g. "€100".
@@ -15006,17 +15012,18 @@ abstract class BringinTranslations {
   /// **'How referral rewards work'**
   String get referral_rules_title;
 
-  /// Rules sheet point 1. {amount} is the per-step reward in sats, e.g. "5 000 sats"; {minAmount} e.g. "€100".
+  /// Rules sheet point 1. Euro rewards per step, e.g. "€5", "€5", "€10"; {minAmount} the minimum first transaction, e.g. "€100".
   ///
   /// In en, this message translates to:
-  /// **'{amount} when your friend gets verified, {amount} on their first transaction of {minAmount} or more, and {amount} when they subscribe to Pro.'**
-  String referral_rules_steps(String amount, String minAmount);
+  /// **'{kycAmount} when your friend passes KYC, {firstTxAmount} on their first transaction of {minAmount} or more, and {proAmount} when they subscribe to Pro.'**
+  String referral_rules_steps(String kycAmount, String firstTxAmount,
+      String minAmount, String proAmount);
 
-  /// Rules sheet point 2. {eurAmount} is the per-step EUR reward, e.g. "€5".
+  /// Rules sheet point 2: how rewards are paid. Rewards are euro amounts (PC, 20 Nov 2026).
   ///
   /// In en, this message translates to:
-  /// **'With Bringin Pro, sats go to your card balance. Without Pro, you get {eurAmount} per step in your Euro account instead.'**
-  String referral_rules_destination(String eurAmount);
+  /// **'With Bringin Pro, you get the reward in sats in your card balance, at the Bitcoin rate when it’s paid. Without Pro, you get it in euros in your Euro account.'**
+  String get referral_rules_destination;
 
   /// Rules sheet point 3. {cap} e.g. "€10"; {days} the welcome window, e.g. "30".
   ///
@@ -15024,11 +15031,11 @@ abstract class BringinTranslations {
   /// **'Your friend gets the fee on their first transaction back, up to {cap}, if they transact within {days} days of verification.'**
   String referral_rules_welcome(String cap, String days);
 
-  /// Rules sheet point 4. {days} is the referral validity, e.g. "180".
+  /// Rules sheet point 4. {months} is the referral validity, e.g. "6".
   ///
   /// In en, this message translates to:
-  /// **'Your friend must use your link or code when they sign up. Rewards count for {days} days after they join.'**
-  String referral_rules_signup(String days);
+  /// **'Your friend must use your link or code when they sign up. Rewards count for {months} months after they join.'**
+  String referral_rules_signup(String months);
 
   /// Rules sheet point 5. {count} is the monthly cap, e.g. "10".
   ///

@@ -5298,7 +5298,7 @@
       }
     }
   },
-  "referral_step_kyc": "{amount} when they get verified",
+  "referral_step_kyc": "{amount} when they pass KYC",
   "@referral_step_kyc": {
     "description": "First reward step. {amount} is the reward, e.g. \"5 000 sats\" or \"€5\".",
     "placeholders": {
@@ -5327,6 +5327,10 @@
         "type": "String"
       }
     }
+  },
+  "referral_pro_in_sats": "With Pro you get it in sats, in your card balance.",
+  "@referral_pro_in_sats": {
+    "description": "Under the reward steps on Refer and earn: Pro referrers are paid the euro amount in sats."
   },
   "referral_link_label": "Your link",
   "@referral_link_label": {
@@ -5397,7 +5401,7 @@
       }
     }
   },
-  "referral_friend_waiting_kyc": "Waiting for verification",
+  "referral_friend_waiting_kyc": "Waiting for KYC",
   "@referral_friend_waiting_kyc": {
     "description": "Friend status: signed up, not verified yet."
   },
@@ -5413,7 +5417,7 @@
   "@referral_friend_not_eligible": {
     "description": "Friend status: this referral no longer earns rewards."
   },
-  "referral_milestone_kyc": "Verified",
+  "referral_milestone_kyc": "KYC",
   "@referral_milestone_kyc": {
     "description": "Progress chip for the first step (friend verified)."
   },
@@ -5475,26 +5479,27 @@
   "@referral_rules_title": {
     "description": "Rules sheet title."
   },
-  "referral_rules_steps": "{amount} when your friend gets verified, {amount} on their first transaction of {minAmount} or more, and {amount} when they subscribe to Pro.",
+  "referral_rules_steps": "{kycAmount} when your friend passes KYC, {firstTxAmount} on their first transaction of {minAmount} or more, and {proAmount} when they subscribe to Pro.",
   "@referral_rules_steps": {
-    "description": "Rules sheet point 1. {amount} is the per-step reward in sats, e.g. \"5 000 sats\"; {minAmount} e.g. \"€100\".",
+    "description": "Rules sheet point 1. Euro rewards per step, e.g. \"€5\", \"€5\", \"€10\"; {minAmount} the minimum first transaction, e.g. \"€100\".",
     "placeholders": {
-      "amount": {
+      "kycAmount": {
+        "type": "String"
+      },
+      "firstTxAmount": {
         "type": "String"
       },
       "minAmount": {
         "type": "String"
-      }
-    }
-  },
-  "referral_rules_destination": "With Bringin Pro, sats go to your card balance. Without Pro, you get {eurAmount} per step in your Euro account instead.",
-  "@referral_rules_destination": {
-    "description": "Rules sheet point 2. {eurAmount} is the per-step EUR reward, e.g. \"€5\".",
-    "placeholders": {
-      "eurAmount": {
+      },
+      "proAmount": {
         "type": "String"
       }
     }
+  },
+  "referral_rules_destination": "With Bringin Pro, you get the reward in sats in your card balance, at the Bitcoin rate when it’s paid. Without Pro, you get it in euros in your Euro account.",
+  "@referral_rules_destination": {
+    "description": "Rules sheet point 2: how rewards are paid. Rewards are euro amounts (PC, 20 Nov 2026)."
   },
   "referral_rules_welcome": "Your friend gets the fee on their first transaction back, up to {cap}, if they transact within {days} days of verification.",
   "@referral_rules_welcome": {
@@ -5508,11 +5513,11 @@
       }
     }
   },
-  "referral_rules_signup": "Your friend must use your link or code when they sign up. Rewards count for {days} days after they join.",
+  "referral_rules_signup": "Your friend must use your link or code when they sign up. Rewards count for {months} months after they join.",
   "@referral_rules_signup": {
-    "description": "Rules sheet point 4. {days} is the referral validity, e.g. \"180\".",
+    "description": "Rules sheet point 4. {months} is the referral validity, e.g. \"6\".",
     "placeholders": {
-      "days": {
+      "months": {
         "type": "String"
       }
     }

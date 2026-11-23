@@ -8600,7 +8600,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String referral_step_kyc(String amount) {
-    return '$amount when they get verified';
+    return '$amount when they pass KYC';
   }
 
   @override
@@ -8612,6 +8612,10 @@ class BringinTranslationsEn extends BringinTranslations {
   String referral_step_pro(String amount) {
     return '$amount when they go Pro';
   }
+
+  @override
+  String get referral_pro_in_sats =>
+      'With Pro you get it in sats, in your card balance.';
 
   @override
   String get referral_link_label => 'Your link';
@@ -8661,7 +8665,7 @@ class BringinTranslationsEn extends BringinTranslations {
   }
 
   @override
-  String get referral_friend_waiting_kyc => 'Waiting for verification';
+  String get referral_friend_waiting_kyc => 'Waiting for KYC';
 
   @override
   String get referral_friend_under_review => 'Under review';
@@ -8673,7 +8677,7 @@ class BringinTranslationsEn extends BringinTranslations {
   String get referral_friend_not_eligible => 'Not eligible';
 
   @override
-  String get referral_milestone_kyc => 'Verified';
+  String get referral_milestone_kyc => 'KYC';
 
   @override
   String referral_milestone_first_tx(String minAmount) {
@@ -8719,14 +8723,14 @@ class BringinTranslationsEn extends BringinTranslations {
   String get referral_rules_title => 'How referral rewards work';
 
   @override
-  String referral_rules_steps(String amount, String minAmount) {
-    return '$amount when your friend gets verified, $amount on their first transaction of $minAmount or more, and $amount when they subscribe to Pro.';
+  String referral_rules_steps(String kycAmount, String firstTxAmount,
+      String minAmount, String proAmount) {
+    return '$kycAmount when your friend passes KYC, $firstTxAmount on their first transaction of $minAmount or more, and $proAmount when they subscribe to Pro.';
   }
 
   @override
-  String referral_rules_destination(String eurAmount) {
-    return 'With Bringin Pro, sats go to your card balance. Without Pro, you get $eurAmount per step in your Euro account instead.';
-  }
+  String get referral_rules_destination =>
+      'With Bringin Pro, you get the reward in sats in your card balance, at the Bitcoin rate when it’s paid. Without Pro, you get it in euros in your Euro account.';
 
   @override
   String referral_rules_welcome(String cap, String days) {
@@ -8734,8 +8738,8 @@ class BringinTranslationsEn extends BringinTranslations {
   }
 
   @override
-  String referral_rules_signup(String days) {
-    return 'Your friend must use your link or code when they sign up. Rewards count for $days days after they join.';
+  String referral_rules_signup(String months) {
+    return 'Your friend must use your link or code when they sign up. Rewards count for $months months after they join.';
   }
 
   @override
