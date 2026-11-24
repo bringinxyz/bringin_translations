@@ -810,8 +810,7 @@ class BringinTranslationsEn extends BringinTranslations {
   String get login_divider_or_short => 'Or';
 
   @override
-  String get login_error_invalid_credentials =>
-      'Incorrect email or password. You can also sign in with an email code.';
+  String get login_error_invalid_credentials => 'Incorrect email or password.';
 
   @override
   String get login_passkey_error_no_credential =>
