@@ -1532,7 +1532,7 @@ abstract class BringinTranslations {
   /// No description provided for @login_error_invalid_credentials.
   ///
   /// In en, this message translates to:
-  /// **'Incorrect email or password. You can also sign in with an email code.'**
+  /// **'Incorrect email or password.'**
   String get login_error_invalid_credentials;
 
   /// No description provided for @login_passkey_error_no_credential.

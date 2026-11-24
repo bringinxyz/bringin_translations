@@ -380,7 +380,7 @@
   "login_action_email_code": "Sign in with an email code instead",
   "login_action_passkey": "Log in with a passkey",
   "login_divider_or_short": "Or",
-  "login_error_invalid_credentials": "Incorrect email or password. You can also sign in with an email code.",
+  "login_error_invalid_credentials": "Incorrect email or password.",
   "login_passkey_error_no_credential": "No passkey for this account on this device. Log in with your email and password.",
   "login_passkey_error_not_finished": "Passkey sign-in did not finish. Please try again.",
   "login_passkey_error_no_challenge": "No passkey challenge was returned. Please log in with your password.",
