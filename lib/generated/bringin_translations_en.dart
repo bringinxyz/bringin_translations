@@ -7796,7 +7796,7 @@ class BringinTranslationsEn extends BringinTranslations {
       'Waiting for payment confirmation...';
 
   @override
-  String get payment_account_prompt_title => 'Receive money from anyone';
+  String get payment_account_prompt_title => 'Pay and get paid by anyone';
 
   @override
   String get payment_account_prompt_body =>

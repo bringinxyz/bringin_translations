@@ -4705,7 +4705,7 @@
   "@migration_step_awaiting_confirmation": {
     "description": "Migration progress step."
   },
-  "payment_account_prompt_title": "Receive money from anyone",
+  "payment_account_prompt_title": "Pay and get paid by anyone",
   "@payment_account_prompt_title": {
     "description": "Home banner inviting the user to upgrade their Euro account to a Payment Account (third-party payments)."
   },

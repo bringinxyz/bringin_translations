@@ -13485,7 +13485,7 @@ abstract class BringinTranslations {
   /// Home banner inviting the user to upgrade their Euro account to a Payment Account (third-party payments).
   ///
   /// In en, this message translates to:
-  /// **'Receive money from anyone'**
+  /// **'Pay and get paid by anyone'**
   String get payment_account_prompt_title;
 
   /// No description provided for @payment_account_prompt_body.
