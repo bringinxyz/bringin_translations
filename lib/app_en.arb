@@ -3374,7 +3374,7 @@
   "@send_euros_error_label_length": {
     "description": "Validation error on the reference field of the send-euros flow."
   },
-  "send_euros_error_label_alphanumeric": "Label must contain only alphanumeric characters",
+  "send_euros_error_label_alphanumeric": "Use only letters, numbers and spaces.",
   "@send_euros_error_label_alphanumeric": {
     "description": "Validation error when the send-euros reference contains punctuation the bank rail rejects."
   },
@@ -4845,7 +4845,7 @@
   "@send_reference_helper": {
     "description": "Send euros amount step, under the optional Reference field."
   },
-  "send_reference_error_length": "Use 5 to 15 characters, or leave it empty.",
+  "send_reference_error_length": "Use up to 129 characters, or leave it empty.",
   "send_error_recipient_not_ready": "This recipient isn't ready to be paid yet. Please try again in a few minutes.",
   "beneficiary_third_party_locked": "A recipient's bank details and name can't be changed. To pay a different account, add a new recipient.",
   "exception_beneficiary_details_locked": "You can't change this recipient's bank details or name. Add a new recipient instead.",

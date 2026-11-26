@@ -6675,7 +6675,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get send_euros_error_label_alphanumeric =>
-      'Label must contain only alphanumeric characters';
+      'Use only letters, numbers and spaces.';
 
   @override
   String get send_euros_label_you_send => 'You send';
@@ -8106,7 +8106,7 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get send_reference_error_length =>
-      'Use 5 to 15 characters, or leave it empty.';
+      'Use up to 129 characters, or leave it empty.';
 
   @override
   String get send_error_recipient_not_ready =>

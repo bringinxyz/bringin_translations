@@ -11631,7 +11631,7 @@ abstract class BringinTranslations {
   /// Validation error when the send-euros reference contains punctuation the bank rail rejects.
   ///
   /// In en, this message translates to:
-  /// **'Label must contain only alphanumeric characters'**
+  /// **'Use only letters, numbers and spaces.'**
   String get send_euros_error_label_alphanumeric;
 
   /// Label of the amount the user is debited in the send-euros summary.
@@ -13995,7 +13995,7 @@ abstract class BringinTranslations {
   /// No description provided for @send_reference_error_length.
   ///
   /// In en, this message translates to:
-  /// **'Use 5 to 15 characters, or leave it empty.'**
+  /// **'Use up to 129 characters, or leave it empty.'**
   String get send_reference_error_length;
 
   /// No description provided for @send_error_recipient_not_ready.
