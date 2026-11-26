@@ -13572,90 +13572,6 @@ abstract class BringinTranslations {
   /// **'Your Euro account is now a payment account'**
   String get payment_account_upgraded_toast;
 
-  /// No description provided for @profile_row_payment_account.
-  ///
-  /// In en, this message translates to:
-  /// **'Payment account'**
-  String get profile_row_payment_account;
-
-  /// No description provided for @payment_account_page_title.
-  ///
-  /// In en, this message translates to:
-  /// **'Payment account'**
-  String get payment_account_page_title;
-
-  /// No description provided for @payment_account_status_active.
-  ///
-  /// In en, this message translates to:
-  /// **'Active'**
-  String get payment_account_status_active;
-
-  /// No description provided for @payment_account_status_not_upgraded.
-  ///
-  /// In en, this message translates to:
-  /// **'Not upgraded'**
-  String get payment_account_status_not_upgraded;
-
-  /// No description provided for @payment_account_row_capabilities.
-  ///
-  /// In en, this message translates to:
-  /// **'What it lets you do'**
-  String get payment_account_row_capabilities;
-
-  /// No description provided for @payment_account_row_capabilities_value.
-  ///
-  /// In en, this message translates to:
-  /// **'Receive from anyone · Pay third parties'**
-  String get payment_account_row_capabilities_value;
-
-  /// No description provided for @payment_account_row_accepted_on.
-  ///
-  /// In en, this message translates to:
-  /// **'Accepted on'**
-  String get payment_account_row_accepted_on;
-
-  /// No description provided for @payment_account_row_terms_version.
-  ///
-  /// In en, this message translates to:
-  /// **'Terms version'**
-  String get payment_account_row_terms_version;
-
-  /// No description provided for @payment_account_active_body.
-  ///
-  /// In en, this message translates to:
-  /// **'If you withdraw, your Euro account goes back to the standard rules: you can only send to and receive from accounts in your own name. Your IBAN and balance don\'t change.'**
-  String get payment_account_active_body;
-
-  /// No description provided for @payment_account_not_upgraded_body.
-  ///
-  /// In en, this message translates to:
-  /// **'Your Euro account only accepts transfers to and from accounts in your own name. Upgrade it to a payment account to receive euros from anyone and pay other people and companies. Same IBAN, same balance.'**
-  String get payment_account_not_upgraded_body;
-
-  /// No description provided for @payment_account_upgrade_cta.
-  ///
-  /// In en, this message translates to:
-  /// **'Upgrade my Euro account'**
-  String get payment_account_upgrade_cta;
-
-  /// No description provided for @payment_account_withdraw_cta.
-  ///
-  /// In en, this message translates to:
-  /// **'Withdraw consent'**
-  String get payment_account_withdraw_cta;
-
-  /// No description provided for @payment_account_unavailable_body.
-  ///
-  /// In en, this message translates to:
-  /// **'Payments to and from anyone aren\'t available yet. We\'ll let you know when they are.'**
-  String get payment_account_unavailable_body;
-
-  /// No description provided for @payment_account_load_error.
-  ///
-  /// In en, this message translates to:
-  /// **'We couldn\'t load your payment account. Please try again.'**
-  String get payment_account_load_error;
-
   /// No description provided for @payment_account_withdraw_title.
   ///
   /// In en, this message translates to:
@@ -13665,7 +13581,7 @@ abstract class BringinTranslations {
   /// No description provided for @payment_account_withdraw_body.
   ///
   /// In en, this message translates to:
-  /// **'This withdraws your consent to the Payment Account Terms. Your IBAN and balance stay the same, but:'**
+  /// **'Your IBAN and balance stay the same, but:'**
   String get payment_account_withdraw_body;
 
   /// No description provided for @payment_account_withdraw_keep.
@@ -13677,7 +13593,7 @@ abstract class BringinTranslations {
   /// No description provided for @payment_account_withdraw_confirm.
   ///
   /// In en, this message translates to:
-  /// **'Withdraw consent'**
+  /// **'Turn off'**
   String get payment_account_withdraw_confirm;
 
   /// No description provided for @payment_account_withdraw_held_title.
@@ -13707,16 +13623,16 @@ abstract class BringinTranslations {
   /// No description provided for @payment_account_withdraw_note.
   ///
   /// In en, this message translates to:
-  /// **'Payments already in progress aren\'t affected. We\'ll email you a confirmation, and you can turn this back on at any time.'**
+  /// **'Payments already in progress aren\'t affected. We\'ll email you to confirm, and you can turn this back on anytime.'**
   String get payment_account_withdraw_note;
 
   /// No description provided for @payment_account_withdrawn_toast.
   ///
   /// In en, this message translates to:
-  /// **'Consent withdrawn. We\'ve emailed you a confirmation.'**
+  /// **'Third-party payments turned off. We\'ve emailed you to confirm.'**
   String get payment_account_withdrawn_toast;
 
-  /// Profile row with a toggle: on = Euro account upgraded to a payment account (3rd Party Payment). Turning it off withdraws consent.
+  /// Profile row with a toggle: on = Euro account upgraded to a payment account (3rd Party Payment). Turning it off opens the turn-off sheet.
   ///
   /// In en, this message translates to:
   /// **'Third-party payments'**

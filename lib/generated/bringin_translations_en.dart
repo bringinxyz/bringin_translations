@@ -7853,64 +7853,17 @@ class BringinTranslationsEn extends BringinTranslations {
       'Your Euro account is now a payment account';
 
   @override
-  String get profile_row_payment_account => 'Payment account';
-
-  @override
-  String get payment_account_page_title => 'Payment account';
-
-  @override
-  String get payment_account_status_active => 'Active';
-
-  @override
-  String get payment_account_status_not_upgraded => 'Not upgraded';
-
-  @override
-  String get payment_account_row_capabilities => 'What it lets you do';
-
-  @override
-  String get payment_account_row_capabilities_value =>
-      'Receive from anyone · Pay third parties';
-
-  @override
-  String get payment_account_row_accepted_on => 'Accepted on';
-
-  @override
-  String get payment_account_row_terms_version => 'Terms version';
-
-  @override
-  String get payment_account_active_body =>
-      'If you withdraw, your Euro account goes back to the standard rules: you can only send to and receive from accounts in your own name. Your IBAN and balance don\'t change.';
-
-  @override
-  String get payment_account_not_upgraded_body =>
-      'Your Euro account only accepts transfers to and from accounts in your own name. Upgrade it to a payment account to receive euros from anyone and pay other people and companies. Same IBAN, same balance.';
-
-  @override
-  String get payment_account_upgrade_cta => 'Upgrade my Euro account';
-
-  @override
-  String get payment_account_withdraw_cta => 'Withdraw consent';
-
-  @override
-  String get payment_account_unavailable_body =>
-      'Payments to and from anyone aren\'t available yet. We\'ll let you know when they are.';
-
-  @override
-  String get payment_account_load_error =>
-      'We couldn\'t load your payment account. Please try again.';
-
-  @override
   String get payment_account_withdraw_title => 'Turn off third-party payments?';
 
   @override
   String get payment_account_withdraw_body =>
-      'This withdraws your consent to the Payment Account Terms. Your IBAN and balance stay the same, but:';
+      'Your IBAN and balance stay the same, but:';
 
   @override
   String get payment_account_withdraw_keep => 'Keep it on';
 
   @override
-  String get payment_account_withdraw_confirm => 'Withdraw consent';
+  String get payment_account_withdraw_confirm => 'Turn off';
 
   @override
   String get payment_account_withdraw_held_title =>
@@ -7930,11 +7883,11 @@ class BringinTranslationsEn extends BringinTranslations {
 
   @override
   String get payment_account_withdraw_note =>
-      'Payments already in progress aren\'t affected. We\'ll email you a confirmation, and you can turn this back on at any time.';
+      'Payments already in progress aren\'t affected. We\'ll email you to confirm, and you can turn this back on anytime.';
 
   @override
   String get payment_account_withdrawn_toast =>
-      'Consent withdrawn. We\'ve emailed you a confirmation.';
+      'Third-party payments turned off. We\'ve emailed you to confirm.';
 
   @override
   String get profile_row_third_party_payments => 'Third-party payments';
