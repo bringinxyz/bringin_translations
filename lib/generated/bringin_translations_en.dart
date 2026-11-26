@@ -8090,6 +8090,9 @@ class BringinTranslationsEn extends BringinTranslations {
   String get tx_badge_under_review => 'Under review';
 
   @override
+  String get payment_details_contact_support => 'Contact support';
+
+  @override
   String get payment_details_payout_denied =>
       'This payment didn\'t pass a compliance check, so it wasn\'t sent. The money is back in your Euro account.';
 

@@ -13968,6 +13968,12 @@ abstract class BringinTranslations {
   /// **'Under review'**
   String get tx_badge_under_review;
 
+  /// Button under the failed-payment alert in transaction details; opens the Intercom chat.
+  ///
+  /// In en, this message translates to:
+  /// **'Contact support'**
+  String get payment_details_contact_support;
+
   /// No description provided for @payment_details_payout_denied.
   ///
   /// In en, this message translates to:
