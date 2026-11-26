@@ -7900,17 +7900,44 @@ class BringinTranslationsEn extends BringinTranslations {
       'We couldn\'t load your payment account. Please try again.';
 
   @override
-  String get payment_account_withdraw_title => 'Withdraw consent?';
+  String get payment_account_withdraw_title => 'Turn off third-party payments?';
 
   @override
   String get payment_account_withdraw_body =>
-      'From now on, transfers from other people will be held for review instead of credited, and you will not be able to pay third-party recipients. Payments already in progress are not affected. You can upgrade again at any time.';
+      'This withdraws your consent to the Payment Account Terms. Your IBAN and balance stay the same, but:';
 
   @override
-  String get payment_account_withdraw_keep => 'Keep payment account';
+  String get payment_account_withdraw_keep => 'Keep it on';
 
   @override
-  String get payment_account_withdraw_confirm => 'Withdraw';
+  String get payment_account_withdraw_confirm => 'Withdraw consent';
+
+  @override
+  String get payment_account_withdraw_held_title =>
+      'Transfers from other people are held';
+
+  @override
+  String get payment_account_withdraw_held_body =>
+      'Money from an account that isn\'t in your name is held for review instead of credited.';
+
+  @override
+  String get payment_account_withdraw_no_pay_title =>
+      'You can\'t pay other people';
+
+  @override
+  String get payment_account_withdraw_no_pay_body =>
+      'Payments to third-party beneficiaries are switched off. You can still send to your own accounts.';
+
+  @override
+  String get payment_account_withdraw_note =>
+      'Payments already in progress aren\'t affected. We\'ll email you a confirmation, and you can turn this back on at any time.';
+
+  @override
+  String get payment_account_withdrawn_toast =>
+      'Consent withdrawn. We\'ve emailed you a confirmation.';
+
+  @override
+  String get profile_row_third_party_payments => 'Third-party payments';
 
   @override
   String get exception_payment_account_unavailable =>

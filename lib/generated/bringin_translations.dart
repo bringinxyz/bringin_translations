@@ -13659,26 +13659,68 @@ abstract class BringinTranslations {
   /// No description provided for @payment_account_withdraw_title.
   ///
   /// In en, this message translates to:
-  /// **'Withdraw consent?'**
+  /// **'Turn off third-party payments?'**
   String get payment_account_withdraw_title;
 
   /// No description provided for @payment_account_withdraw_body.
   ///
   /// In en, this message translates to:
-  /// **'From now on, transfers from other people will be held for review instead of credited, and you will not be able to pay third-party recipients. Payments already in progress are not affected. You can upgrade again at any time.'**
+  /// **'This withdraws your consent to the Payment Account Terms. Your IBAN and balance stay the same, but:'**
   String get payment_account_withdraw_body;
 
   /// No description provided for @payment_account_withdraw_keep.
   ///
   /// In en, this message translates to:
-  /// **'Keep payment account'**
+  /// **'Keep it on'**
   String get payment_account_withdraw_keep;
 
   /// No description provided for @payment_account_withdraw_confirm.
   ///
   /// In en, this message translates to:
-  /// **'Withdraw'**
+  /// **'Withdraw consent'**
   String get payment_account_withdraw_confirm;
+
+  /// No description provided for @payment_account_withdraw_held_title.
+  ///
+  /// In en, this message translates to:
+  /// **'Transfers from other people are held'**
+  String get payment_account_withdraw_held_title;
+
+  /// No description provided for @payment_account_withdraw_held_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Money from an account that isn\'t in your name is held for review instead of credited.'**
+  String get payment_account_withdraw_held_body;
+
+  /// No description provided for @payment_account_withdraw_no_pay_title.
+  ///
+  /// In en, this message translates to:
+  /// **'You can\'t pay other people'**
+  String get payment_account_withdraw_no_pay_title;
+
+  /// No description provided for @payment_account_withdraw_no_pay_body.
+  ///
+  /// In en, this message translates to:
+  /// **'Payments to third-party beneficiaries are switched off. You can still send to your own accounts.'**
+  String get payment_account_withdraw_no_pay_body;
+
+  /// No description provided for @payment_account_withdraw_note.
+  ///
+  /// In en, this message translates to:
+  /// **'Payments already in progress aren\'t affected. We\'ll email you a confirmation, and you can turn this back on at any time.'**
+  String get payment_account_withdraw_note;
+
+  /// No description provided for @payment_account_withdrawn_toast.
+  ///
+  /// In en, this message translates to:
+  /// **'Consent withdrawn. We\'ve emailed you a confirmation.'**
+  String get payment_account_withdrawn_toast;
+
+  /// Profile row with a toggle: on = Euro account upgraded to a payment account (3rd Party Payment). Turning it off withdraws consent.
+  ///
+  /// In en, this message translates to:
+  /// **'Third-party payments'**
+  String get profile_row_third_party_payments;
 
   /// No description provided for @exception_payment_account_unavailable.
   ///
