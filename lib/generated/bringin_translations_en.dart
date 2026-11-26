@@ -8102,7 +8102,7 @@ class BringinTranslationsEn extends BringinTranslations {
       'Add money from a bank account in your name. To receive euros from anyone, upgrade your Euro account.';
 
   @override
-  String get send_reference_helper => '5 to 15 letters or numbers';
+  String get send_reference_helper => 'Up to 129 letters, numbers or spaces';
 
   @override
   String get send_reference_error_length =>

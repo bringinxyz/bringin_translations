@@ -13989,7 +13989,7 @@ abstract class BringinTranslations {
   /// Send euros amount step, under the optional Reference field.
   ///
   /// In en, this message translates to:
-  /// **'5 to 15 letters or numbers'**
+  /// **'Up to 129 letters, numbers or spaces'**
   String get send_reference_helper;
 
   /// No description provided for @send_reference_error_length.
